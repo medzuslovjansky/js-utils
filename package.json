@@ -4,13 +4,14 @@
   "description": "Utilities to work with Interslavic database in Jan van Steenbergen's format",
   "main": "dist/index.js",
   "scripts": {
-    "prepare": "husky install; tsc",
-    "precommit": "npm run lint -- --fix && npm run docs && git add src docs",
-    "prepush": "git diff-index --quiet HEAD --",
+    "clean": "rimraf dist",
+    "build": "tsc",
     "docs": "typedoc",
     "lint": "eslint src/**/*.ts",
-    "test:unit": "eslint src/**/*.ts",
-    "test": "npm run lint && npm run test:unit"
+    "test": "jest",
+    "prepare": "husky install; npm run clean && npm run build && npm run docs",
+    "precommit": "npm run lint -- --fix && git add src",
+    "prepush": "git diff-index --quiet HEAD --"
   },
   "repository": {
     "type": "git",
@@ -44,6 +45,7 @@
     "jest": "^26.6.3",
     "jest-circus": "^26.6.3",
     "prettier": "^2.2.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^26.5.5",
     "ts-node": "^9.1.1",
     "typedoc": "^0.20.35",

@@ -1,10 +1,10 @@
 {
   "entryPoints": ["src/index.ts"],
-  "theme": "assets/typedoc-theme",
+  "theme": "docs/theme",
   "plugin": [
-    "./assets/typedoc-theme/index.js"
+    "./docs/theme/plugin.js"
   ],
-  "out": "docs",
+  "out": "dist/docs",
   "hideGenerator": true,
   "githubUrl": "https://github.com/medzuslovjansky/steen-utils"
 }
