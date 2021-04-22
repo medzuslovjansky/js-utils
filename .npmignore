@@ -1,6 +1,7 @@
 /.*
-/commitlint.config.js
 /.eslintrc.json
+/.releaserc
+/commitlint.config.js
 /tsconfig.json
 /typedoc.json
 /jest.config.ts
