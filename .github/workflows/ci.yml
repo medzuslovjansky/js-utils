@@ -10,8 +10,8 @@ on:
 
 jobs:
 
-  test:
-    name: Test
+  main:
+    name: Default
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,33 +35,20 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
-  publish:
-    name: Publish
-    runs-on: ubuntu-latest
-    needs: [test]
-    if: github.ref == 'refs/heads/main'
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-
-      - name: NPM install
-        uses: bahmutov/npm-install@v1
-        with:
-          useLockFile: false
-
       - name: Semantic release
+        if: github.ref == 'refs/heads/main'
+        run: npx --no-install semantic-release --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx semantic-release
 
       - name: Generate docs
+        if: github.ref == 'refs/heads/main'
         run: npm run docs
 
       - name: Deploy to GH pages
         uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/docs
