@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "prepare": "husky install; tsc",
-    "precommit": "npm run lint -- --fix",
+    "precommit": "npm run lint -- --fix && npm run docs && git add src docs",
     "prepush": "git diff-index --quiet HEAD --",
     "docs": "typedoc",
     "lint": "eslint src/**/*.ts",
