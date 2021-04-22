@@ -1,0 +1,13 @@
+/.*
+/commitlint.config.js
+/.eslintrc.json
+/tsconfig.json
+/typedoc.json
+/jest.config.ts
+/docs
+/src
+/dist/docs
+/dist/**/*.test.js
+/dist/**/*.test.d.ts
+/dist/**/__snapshots__
+/dist/**/__tests__
