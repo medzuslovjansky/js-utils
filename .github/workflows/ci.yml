@@ -1,26 +1,12 @@
 name: CI
+
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
-    branches:
-      - main
+    branches: [main]
+
 jobs:
-  lint:
-    name: Lint
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          persist-credentials: false
-
-      - name: NPM install
-        uses: bahmutov/npm-install@v1
-
-      - name: Lint
-        run: npm run lint
 
   test:
     name: Test
@@ -33,6 +19,11 @@ jobs:
 
       - name: NPM install
         uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+
+      - name: Lint
+        run: npm run lint
 
       - name: Test
         run: npm run test -- --coverage
@@ -55,6 +46,8 @@ jobs:
 
       - name: NPM install
         uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
 
       - name: Deploy to GH pages
         uses: peaceiris/actions-gh-pages@v3
