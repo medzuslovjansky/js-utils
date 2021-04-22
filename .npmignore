@@ -1,0 +1,7 @@
+/*
+!/dist
+/dist/docs
+/dist/**/*.test.js
+/dist/**/*.test.d.ts
+/dist/**/__snapshots__
+/dist/**/__tests__
