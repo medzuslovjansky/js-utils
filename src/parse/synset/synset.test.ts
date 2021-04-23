@@ -3,27 +3,33 @@ import parsePartOfSpeech from '../partOfSpeech';
 
 describe('parseSynset', () => {
   test.each([
-    ['', ''],
-    ['!', ''],
-    ['#', ''],
-    ['#!', ''],
-    ['!#', ''],
-    ['!#course', ''],
-    ['!U-Boot', ''],
-    ['#co-worker', ''],
-    ['#!only, ĝuste nun', ''],
-    ["з'явитися", 'v. refl.'],
-    ['по, за (напр.: по грибы, за хлебом)', ''],
-    ['собака (символ) [@]', 'f.'],
-    ['реформација (верски / политички покрет)', 'f.'],
-    ['there was/were not', 'phrase'],
-    ['будет / будут', ''],
-    ['и; а, зато (смысл2)', 'conj.'],
-    ['Добрий ранок!; Доброго ранку!', 'phrase'],
-  ])('should parse synset: %s', (value: string, pos: string) => {
-    const partOfSpeech = pos ? parsePartOfSpeech(pos) : null;
-    expect(
-      parseSynset(value, partOfSpeech?.name === 'phrase'),
-    ).toMatchSnapshot();
-  });
+    ['', '', undefined],
+    ['!', '', undefined],
+    ['#', '', undefined],
+    ['#!', '', undefined],
+    ['!#', '', '#!'],
+    ['!#course', '', '#!course'],
+    ['!U-Boot', '', undefined],
+    ['#co-worker', '', undefined],
+    ['#!only, ĝuste nun', '', undefined],
+    ["з'явитися", 'v. refl.', undefined],
+    ['по, за (напр.: по грибы, за хлебом)', '', undefined],
+    ['собака (символ) [@]', 'f.', 'собака [@] (символ)'],
+    ['реформација (верски / политички покрет)', 'f.', undefined],
+    ['there was/were not', 'phrase', undefined],
+    ['будет / будут', '', undefined],
+    ['и; а, зато (смысл2)', 'conj.', undefined],
+    ['Добрий ранок!; Доброго ранку!', 'phrase', undefined],
+  ])(
+    'should parse synset: %s',
+    (value: string, pos: string, expectedSerialization: string | undefined) => {
+      const partOfSpeech = pos ? parsePartOfSpeech(pos) : null;
+      const isPhrase = partOfSpeech?.name === 'phrase';
+
+      const synset = parseSynset(value, { isPhrase });
+      expect(synset).toMatchSnapshot('synset');
+      expect(`${synset}`).toMatchSnapshot('toString');
+      expect(`${synset}`).toBe(expectedSerialization || value);
+    },
+  );
 });
