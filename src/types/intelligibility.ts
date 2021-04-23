@@ -9,8 +9,6 @@ export enum SlavicLanguage {
   Macedonian = 'mk',
   Montenegrin = 'cnr',
   ChurchSlavonic = 'cu',
-  OldRussian = 'orv',
-  Polabian = 'pox',
   Polish = 'pl',
   Russian = 'ru',
   Rusyn = 'rue',
@@ -94,6 +92,8 @@ export enum CrudeIntelligibilityLevel {
   Unknown = 0.1,
 }
 
+export type CrudeIntelligibilityLevelDescription = keyof typeof CrudeIntelligibilityLevel;
+
 export type CrudeIntelligibilityReport = Partial<
-  Record<SlavicLanguage, CrudeIntelligibilityLevel>
+  Record<SlavicLanguage, CrudeIntelligibilityLevelDescription>
 >;

@@ -1,3 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`parsePartOfSpeech should return null for non-strings 1`] = `"Expected a string, but got: null"`;

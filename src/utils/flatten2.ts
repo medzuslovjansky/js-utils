@@ -32,7 +32,7 @@ export function flatten2<T>(arr: MaybeNested<T>[]): T[] {
     if (!Array.isArray(item)) {
       result[k++] = item;
     } else {
-      Li = Array.isArray(item) ? item.length : 1;
+      Li = item.length;
       for (j = 0; j < Li; j++) {
         result[k++] = item[j];
       }
