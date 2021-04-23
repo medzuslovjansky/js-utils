@@ -1,4 +1,4 @@
-export function cartesianProduct<T>(paramArrays: T[][]): T[][] {
+export default function cartesianProduct<T>(paramArrays: T[][]): T[][] {
   const N = paramArrays.length;
   const arrLengths = new Array<number>(N);
   const digits = new Array<number>(N);

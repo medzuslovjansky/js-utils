@@ -1,0 +1,215 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseSynset should parse synset:  1`] = `null`;
+
+exports[`parseSynset should parse synset: ! 1`] = `null`;
+
+exports[`parseSynset should parse synset: !# 1`] = `null`;
+
+exports[`parseSynset should parse synset: !#course 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": true,
+    "debatable": true,
+  },
+  "options": Array [
+    Object {
+      "value": "course",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: !U-Boot 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": true,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "value": "U-Boot",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: # 1`] = `null`;
+
+exports[`parseSynset should parse synset: #! 1`] = `null`;
+
+exports[`parseSynset should parse synset: #!only, ĝuste nun 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": true,
+    "debatable": true,
+  },
+  "options": Array [
+    Object {
+      "value": "only",
+    },
+    Object {
+      "value": "ĝuste nun",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: #co-worker 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": true,
+  },
+  "options": Array [
+    Object {
+      "value": "co-worker",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: there was/were not 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "value": "there was not",
+    },
+    Object {
+      "value": "there were not",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: Добрий ранок!; Доброго ранку! 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "value": "Добрий ранок!",
+    },
+    Object {
+      "value": "Доброго ранку!",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: будет / будут 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "value": "будет",
+    },
+    Object {
+      "value": "будут",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: з'явитися 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "value": "з'явитися",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: и; а, зато (смысл2) 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "index": 0,
+      "value": "и",
+    },
+    Object {
+      "index": 1,
+      "value": "а",
+    },
+    Object {
+      "annotations": Array [
+        "смысл2",
+      ],
+      "index": 1,
+      "value": "зато",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: по, за (напр.: по грибы, за хлебом) 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "value": "по",
+    },
+    Object {
+      "annotations": Array [
+        "напр.: по грибы, за хлебом",
+      ],
+      "value": "за",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: реформација (верски / политички покрет) 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "annotations": Array [
+        "верски / политички покрет",
+      ],
+      "value": "реформација",
+    },
+  ],
+}
+`;
+
+exports[`parseSynset should parse synset: собака (символ) [@] 1`] = `
+Object {
+  "meta": Object {
+    "autotranslated": false,
+    "debatable": false,
+  },
+  "options": Array [
+    Object {
+      "annotations": Array [
+        "символ",
+      ],
+      "value": "собака [@]",
+    },
+  ],
+}
+`;

@@ -1,4 +1,4 @@
-import { cartesianProduct } from './cartesianProduct';
+import cartesianProduct from './cartesianProduct';
 
 describe('cartesianProduct', () => {
   test.each([
