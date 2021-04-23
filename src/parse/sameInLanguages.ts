@@ -4,7 +4,7 @@ import {
   SlavicLanguage,
 } from '../types';
 
-const BEFORE_PARENTHESES = /^([^(]*)/;
+const BEFORE_PARENTHESES = /^([^(]+)/;
 const OPEN_PARENTHESES = /\(([^)]+)\)/;
 
 export default function parseSameInLanguages(
