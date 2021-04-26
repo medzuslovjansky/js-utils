@@ -15,10 +15,6 @@ export class Annotation {
 
   public type: AnnotationType;
 
-  public hasCommas(): boolean {
-    return this.value.includes(',');
-  }
-
   public toString(): string {
     return this.value;
   }

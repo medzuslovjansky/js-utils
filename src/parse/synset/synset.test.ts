@@ -13,6 +13,7 @@ describe('parseSynset', () => {
     ['#co-worker', '', undefined],
     ['#!only, ĝuste nun', '', undefined],
     ["з'явитися", 'v. refl.', undefined],
+    ['сей (устар.; местоим.)', 'pron. dem.', undefined],
     ['по, за (напр.: по грибы, за хлебом)', '', undefined],
     ['собака (символ) [@]', 'f.', 'собака [@] (символ)'],
     ['реформација (верски / политички покрет)', 'f.', undefined],

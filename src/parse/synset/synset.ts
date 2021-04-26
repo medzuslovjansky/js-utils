@@ -35,7 +35,11 @@ export default function parseSynset(
 
   synset.groups = smartSplit(str, opts.isPhrase).reduce<LemmaGroup[]>(
     (acc, { value, index }) => {
-      const group = (acc[index] = acc[index] || new LemmaGroup());
+      const group = (acc[index] =
+        acc[index] ||
+        new LemmaGroup({
+          delimiter: opts.isPhrase ? '; ' : undefined,
+        }));
 
       let annotation: string | undefined;
       if (annotationsMap.size > 0) {
@@ -71,7 +75,7 @@ type GroupItem = {
 
 function smartSplit(value: string, isPhrase: boolean): GroupItem[] {
   if (isPhrase) {
-    return value.split(';').map(toValueIndexed);
+    return value.split(';').map(toValue);
   }
 
   const hasSemicolon = value.indexOf(';') >= 0;
@@ -99,8 +103,4 @@ function trim(s: string): string {
 
 function toValue(value: string): GroupItem {
   return { value: value.trim(), index: 0 };
-}
-
-function toValueIndexed(value: string, index: number): GroupItem {
-  return { value: value.trim(), index };
 }

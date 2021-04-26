@@ -5,8 +5,6 @@ type LemmaOptions = {
   annotations: Annotation[];
 };
 
-const hasCommas = (a: Annotation): boolean => a.hasCommas();
-
 export default class Lemma {
   constructor(options: Partial<LemmaOptions> = {}) {
     this.value = options.value || '';
@@ -28,7 +26,6 @@ export default class Lemma {
       return this.value;
     }
 
-    const delimiter = this.annotations.some(hasCommas) ? '; ' : ', ';
-    return `${this.value} (${this.annotations.map(String).join(delimiter)})`;
+    return `${this.value} (${this.annotations.map(String).join('; ')})`;
   }
 }
