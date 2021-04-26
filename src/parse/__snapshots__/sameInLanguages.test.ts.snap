@@ -1,0 +1,7625 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parseSameInLanguages should parse correctly "" 1`] = `Object {}`;
+
+exports[`parseSameInLanguages should parse correctly "#ru cz" 1`] = `
+Object {
+  "cs": "Full",
+  "ru": "Disputed",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "#v" 1`] = `
+Object {
+  "be": "Disputed",
+  "cu": "Disputed",
+  "ru": "Disputed",
+  "rue": "Disputed",
+  "uk": "Disputed",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "#yu" 1`] = `
+Object {
+  "bs": "Disputed",
+  "cnr": "Disputed",
+  "hr": "Disputed",
+  "sl": "Disputed",
+  "sr": "Disputed",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be cs j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be cs sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be pl cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "pl": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be pl sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be pl sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be pl sk bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "pl": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be pl" 1`] = `
+Object {
+  "be": "Full",
+  "pl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be sh bm cu" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z ru~ uk~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z sl" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be z" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be" 1`] = `
+Object {
+  "be": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "be~ z" 1`] = `
+Object {
+  "be": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "bg ru~ sh~ mk~" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Incomplete",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "bg" 1`] = `
+Object {
+  "bg": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs bm" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs hsb yu cu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs hsb" 1`] = `
+Object {
+  "cs": "Full",
+  "hsb": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs j cu" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs ps" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs rue" 1`] = `
+Object {
+  "cs": "Full",
+  "rue": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sb j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sb sl" 1`] = `
+Object {
+  "cs": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sb yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sh bm sb" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sh~ bg~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "hr": "Incomplete",
+  "sk": "Full",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl csb sb" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl cu" 1`] = `
+Object {
+  "cs": "Full",
+  "cu": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl hsb rue" 1`] = `
+Object {
+  "cs": "Full",
+  "hsb": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl mk" 1`] = `
+Object {
+  "cs": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl rue" 1`] = `
+Object {
+  "cs": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl sb" 1`] = `
+Object {
+  "cs": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs sl" 1`] = `
+Object {
+  "cs": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs yu cu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs yu mk (pl)" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Other1",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs" 1`] = `
+Object {
+  "cs": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs~ j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs~ sl sh~ mk~ bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs~ yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cs~ yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cu" 1`] = `
+Object {
+  "cu": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz ps" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz sl hr" 1`] = `
+Object {
+  "cs": "Full",
+  "hr": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz" 1`] = `
+Object {
+  "cs": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz~ sk sl sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz~ sk yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "cz~ sk" 1`] = `
+Object {
+  "cs": "Incomplete",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "dsb" 1`] = `
+Object {
+  "dsb": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "hsb" 1`] = `
+Object {
+  "hsb": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "j z" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "j+z" 1`] = `Object {}`;
+
+exports[`parseSameInLanguages should parse correctly "mk" 1`] = `
+Object {
+  "mk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "n" 1`] = `Object {}`;
+
+exports[`parseSameInLanguages should parse correctly "ns" 1`] = `Object {}`;
+
+exports[`parseSameInLanguages should parse correctly "pl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl cs sl" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl cz sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl cz yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl cz" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sk j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sk sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sk yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl sl" 1`] = `
+Object {
+  "pl": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl uk" 1`] = `
+Object {
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl yu bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl" 1`] = `
+Object {
+  "pl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl~ cs yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "pl": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl~ cs yu~" 1`] = `
+Object {
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "hr": "Incomplete",
+  "pl": "Incomplete",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl~ cz sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "pl": "Incomplete",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl~ sb~ cs" 1`] = `
+Object {
+  "cs": "Full",
+  "dsb": "Incomplete",
+  "hsb": "Incomplete",
+  "pl": "Incomplete",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "pl~ sl" 1`] = `
+Object {
+  "pl": "Incomplete",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru (cz sh)" 1`] = `
+Object {
+  "bs": "Other1",
+  "cnr": "Other1",
+  "cs": "Other1",
+  "hr": "Other1",
+  "ru": "Full",
+  "sr": "Other1",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru (sh)" 1`] = `
+Object {
+  "bs": "Other1",
+  "cnr": "Other1",
+  "hr": "Other1",
+  "ru": "Full",
+  "sr": "Other1",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "mk": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cs j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cs sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cs sr bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cz bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cz sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be cz sl mk bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be dsb sk sl" 1`] = `
+Object {
+  "be": "Full",
+  "dsb": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be dsb yu bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be pl bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be pl cs bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be pl cz" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be pl sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be pl sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be pl" 1`] = `
+Object {
+  "be": "Full",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be sh bm uk~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be sk bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be z j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be z sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be z yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be z" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru be" 1`] = `
+Object {
+  "be": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru bg cs~" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Incomplete",
+  "ru": "Full",
+  "sk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru bg cu" 1`] = `
+Object {
+  "bg": "Full",
+  "cu": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru bg" 1`] = `
+Object {
+  "bg": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru bm sb" 1`] = `
+Object {
+  "bg": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs (sh)" 1`] = `
+Object {
+  "bs": "Other1",
+  "cnr": "Other1",
+  "cs": "Full",
+  "hr": "Other1",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Other1",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs bg cu" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sb" 1`] = `
+Object {
+  "cs": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sl hr" 1`] = `
+Object {
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs sl" 1`] = `
+Object {
+  "cs": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs yu bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs" 1`] = `
+Object {
+  "cs": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs~ bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Incomplete",
+  "ru": "Full",
+  "sk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs~ j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs~ sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Incomplete",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs~ yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "ru": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cs~" 1`] = `
+Object {
+  "cs": "Incomplete",
+  "ru": "Full",
+  "sk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz hsb yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz sb sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz sh bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz sl hr" 1`] = `
+Object {
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz sl" 1`] = `
+Object {
+  "cs": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz" 1`] = `
+Object {
+  "cs": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz~ sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru cz~ sh~" 1`] = `
+Object {
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "hr": "Incomplete",
+  "ru": "Full",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl (cz)" 1`] = `
+Object {
+  "cs": "Other1",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl cs sl" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl cs" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl cz sl hr" 1`] = `
+Object {
+  "cs": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl cz" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sb sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sk j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sk sl" 1`] = `
+Object {
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sk" 1`] = `
+Object {
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl sl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl" 1`] = `
+Object {
+  "pl": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl~ bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl~ cz" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl~ cz~" 1`] = `
+Object {
+  "cs": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl~ j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl~ sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru pl~ sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sb bm" 1`] = `
+Object {
+  "bg": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh (cz)" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Other1",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh bg sl" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh mk bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sh~" 1`] = `
+Object {
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "ru": "Full",
+  "sr": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sk j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sk sl mk" 1`] = `
+Object {
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sk" 1`] = `
+Object {
+  "ru": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru sl" 1`] = `
+Object {
+  "ru": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru ub cs yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru ub cz bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru ub sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru ub~ sh~ mk~ bg" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "sr": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk bg" 1`] = `
+Object {
+  "bg": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk bm pl~ be~" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cs bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cs bm" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cs j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cs mk" 1`] = `
+Object {
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cs" 1`] = `
+Object {
+  "cs": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cz mk" 1`] = `
+Object {
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cz sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cz sl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk cz sl cu" 1`] = `
+Object {
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk hr bg" 1`] = `
+Object {
+  "bg": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk hr" 1`] = `
+Object {
+  "hr": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl cz bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl sk bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl sk" 1`] = `
+Object {
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk pl" 1`] = `
+Object {
+  "pl": "Full",
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk yu bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk yu~ bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "ru": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z sl" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk z~ j~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "dsb": "Incomplete",
+  "hr": "Incomplete",
+  "hsb": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk" 1`] = `
+Object {
+  "ru": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru uk~ pl~ j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z bm" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z sl" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z yu bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru z" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru" 1`] = `
+Object {
+  "ru": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ be~ uk hsb sh bm" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "ru": "Incomplete",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ be~ uk z sh~" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ cs yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "ru": "Incomplete",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ ub pl sk j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ ub pl sk~" 1`] = `
+Object {
+  "be": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ ub z j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ ub z yu bg~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ uk pl bg~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ uk pl cs~ sl sh~" 1`] = `
+Object {
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "hr": "Incomplete",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ru~ z bg~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "rue cs yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "rue cs yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "rue z yu mk (ub)" 1`] = `
+Object {
+  "be": "Other1",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Other1",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sb cs sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sb" 1`] = `
+Object {
+  "dsb": "Full",
+  "hsb": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sh (ub pl)" 1`] = `
+Object {
+  "be": "Other1",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Other1",
+  "sr": "Full",
+  "uk": "Other1",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sh bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sk bg" 1`] = `
+Object {
+  "bg": "Full",
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sk j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sk sl" 1`] = `
+Object {
+  "sk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sk yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sk yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sk" 1`] = `
+Object {
+  "sk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sl bm" 1`] = `
+Object {
+  "bg": "Full",
+  "mk": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sl rue" 1`] = `
+Object {
+  "rue": "Full",
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sl sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sl sk~ uk~" 1`] = `
+Object {
+  "sk": "Incomplete",
+  "sl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sl" 1`] = `
+Object {
+  "sl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "sx" 1`] = `Object {}`;
+
+exports[`parseSameInLanguages should parse correctly "ub bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub cs yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub cs yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub hsb" 1`] = `
+Object {
+  "be": "Full",
+  "hsb": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl bg (sh)" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Other1",
+  "cnr": "Other1",
+  "hr": "Other1",
+  "pl": "Full",
+  "sr": "Other1",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl cs~ yu " 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl cs~ yu~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "hr": "Incomplete",
+  "pl": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl cs~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Incomplete",
+  "pl": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl cz" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl hsb yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl hsb" 1`] = `
+Object {
+  "be": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl mk~" 1`] = `
+Object {
+  "be": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sb cz" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sb sl" 1`] = `
+Object {
+  "be": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk sl" 1`] = `
+Object {
+  "be": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk yu bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sk" 1`] = `
+Object {
+  "be": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl sl hr" 1`] = `
+Object {
+  "be": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl yu~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "hr": "Incomplete",
+  "pl": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl" 1`] = `
+Object {
+  "be": "Full",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl~ cs sl~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "pl": "Incomplete",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub pl~ j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub sk bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z mk" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sh~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sl sh~ mk~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z sl" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z yu~ mk~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub z~ sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "dsb": "Incomplete",
+  "hr": "Full",
+  "hsb": "Incomplete",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "sk": "Incomplete",
+  "sr": "Full",
+  "szl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub" 1`] = `
+Object {
+  "be": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "ub~ z j" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk cs j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk cs sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk cs yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk cs" 1`] = `
+Object {
+  "cs": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk cz j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk cz sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "hr": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl cs~" 1`] = `
+Object {
+  "cs": "Incomplete",
+  "pl": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl hr bg" 1`] = `
+Object {
+  "bg": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sb sk sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sk bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sk sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sk yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl sl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk pl" 1`] = `
+Object {
+  "pl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk rue pl cz" 1`] = `
+Object {
+  "cs": "Full",
+  "pl": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sb" 1`] = `
+Object {
+  "dsb": "Full",
+  "hsb": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sh bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sk sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sk sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sk" 1`] = `
+Object {
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk sl" 1`] = `
+Object {
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z sl" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk z" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk" 1`] = `
+Object {
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk~ pl cs sb" 1`] = `
+Object {
+  "cs": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk~ pl" 1`] = `
+Object {
+  "pl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk~ z sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "uk~ z" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v bg sb" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v bm sh~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs mk" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sh~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sl bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sl mk" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs sl" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs yu bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs yu bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs~ sh~ bm~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs~ sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs~ sl sh~ bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs~ sl~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs~ yu~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cs~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v csb hsb cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "hsb": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz sh bm pl~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz sl" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v cz" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v dsb" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v hr" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v j cu" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v mk" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v mk~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl (cs)" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Other1",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Other1",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl (sh)" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Other1",
+  "cnr": "Other1",
+  "cu": "Full",
+  "hr": "Other1",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Other1",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl ? bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl bg cs~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl bm~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "cu": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cs" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cs~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cs~ j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cs~ yu~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cs~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl csb" 1`] = `
+Object {
+  "be": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cz sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cz sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cz sl~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cz yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cz" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl cz~ sl~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Incomplete",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl mk" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sb bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sb" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sh~ mk~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk sl" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk yu bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sk~" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sl bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sl" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sl~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl sl~" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl yu bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl yu bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl yu~ mk~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ cs sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ cs sh~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ sh~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ sk j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~ yu~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v pl~" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sk~ sh~ bg~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v sl" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v yu bm~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v yu~ mk~ bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cu": "Full",
+  "hr": "Incomplete",
+  "mk": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z mk" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sh bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sh mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sh" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sl bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sl bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sl mk" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sl" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z sl~ sh bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z yu bg" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z yu bm" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z yu mk" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z yu mk~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z yu" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z yu~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z~ j" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Full",
+  "dsb": "Incomplete",
+  "hr": "Full",
+  "hsb": "Incomplete",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z~ j~" 1`] = `
+Object {
+  "be": "Full",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Full",
+  "dsb": "Incomplete",
+  "hr": "Incomplete",
+  "hsb": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z~ sh~" 1`] = `
+Object {
+  "be": "Full",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Full",
+  "dsb": "Incomplete",
+  "hr": "Incomplete",
+  "hsb": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v z~" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Full",
+  "dsb": "Incomplete",
+  "hsb": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Full",
+  "rue": "Full",
+  "sk": "Incomplete",
+  "szl": "Incomplete",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v" 1`] = `
+Object {
+  "be": "Full",
+  "cu": "Full",
+  "ru": "Full",
+  "rue": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ " 1`] = `
+Object {
+  "be": "Incomplete",
+  "cu": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ bg" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "cu": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ cs yu bm~" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "cu": "Incomplete",
+  "hr": "Full",
+  "mk": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ cs" 1`] = `
+Object {
+  "be": "Incomplete",
+  "cs": "Full",
+  "cu": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ pl j" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ pl~ yu mk" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ sh bm" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Incomplete",
+  "hr": "Full",
+  "mk": "Full",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sr": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ z j" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Incomplete",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ z j~" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Incomplete",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ z sl" 1`] = `
+Object {
+  "be": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "cu": "Incomplete",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ z~ sh mk" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Incomplete",
+  "dsb": "Incomplete",
+  "hr": "Full",
+  "hsb": "Incomplete",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Incomplete",
+  "sr": "Full",
+  "szl": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ z~ yu mk~" 1`] = `
+Object {
+  "be": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Incomplete",
+  "dsb": "Incomplete",
+  "hr": "Full",
+  "hsb": "Incomplete",
+  "mk": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "v~ z~" 1`] = `
+Object {
+  "be": "Incomplete",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "cu": "Incomplete",
+  "dsb": "Incomplete",
+  "hsb": "Incomplete",
+  "pl": "Incomplete",
+  "ru": "Incomplete",
+  "rue": "Incomplete",
+  "sk": "Incomplete",
+  "szl": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "yu bg" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "yu cu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cu": "Full",
+  "hr": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "yu mk uk~ z~" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "dsb": "Incomplete",
+  "hr": "Full",
+  "hsb": "Incomplete",
+  "mk": "Full",
+  "pl": "Incomplete",
+  "sk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Incomplete",
+  "uk": "Incomplete",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "yu mk~" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "mk": "Incomplete",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "hr": "Full",
+  "sl": "Full",
+  "sr": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z cs j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z j rue" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "rue": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z j" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z j~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "mk": "Incomplete",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sh bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sh mk bg~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sh mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sh" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sl bg" 1`] = `
+Object {
+  "bg": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sl bg~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sl mk" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sl sh~ bg~" 1`] = `
+Object {
+  "bg": "Incomplete",
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Incomplete",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Incomplete",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z sl" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z ub" 1`] = `
+Object {
+  "be": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+  "uk": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z yu bm" 1`] = `
+Object {
+  "bg": "Full",
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z yu mk" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "mk": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z yu" 1`] = `
+Object {
+  "bs": "Full",
+  "cnr": "Full",
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hr": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "sl": "Full",
+  "sr": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z" 1`] = `
+Object {
+  "cs": "Full",
+  "csb": "Full",
+  "dsb": "Full",
+  "hsb": "Full",
+  "pl": "Full",
+  "sk": "Full",
+  "szl": "Full",
+}
+`;
+
+exports[`parseSameInLanguages should parse correctly "z~ sh~" 1`] = `
+Object {
+  "bs": "Incomplete",
+  "cnr": "Incomplete",
+  "cs": "Incomplete",
+  "csb": "Incomplete",
+  "dsb": "Incomplete",
+  "hr": "Incomplete",
+  "hsb": "Incomplete",
+  "pl": "Incomplete",
+  "sk": "Incomplete",
+  "sr": "Incomplete",
+  "szl": "Incomplete",
+}
+`;

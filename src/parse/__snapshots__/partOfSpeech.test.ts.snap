@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parsePartOfSpeech should throw for non-strings 1`] = `"Expected a string, but got: null"`;
+
+exports[`parsePartOfSpeech should throw for unknown abbreviations 1`] = `"Failed to parse the part of speech in: unknown"`;

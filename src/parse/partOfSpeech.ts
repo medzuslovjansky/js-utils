@@ -1,8 +1,6 @@
 import { PartOfSpeech } from '../types';
 
-export default function parsePartOfSpeech(
-  rawAbbr: string,
-): PartOfSpeech | null {
+export default function parsePartOfSpeech(rawAbbr: string): PartOfSpeech {
   if (typeof rawAbbr !== 'string') {
     throw new Error(`Expected a string, but got: ${JSON.stringify(rawAbbr)}`);
   }
@@ -105,5 +103,5 @@ export default function parsePartOfSpeech(
     return { name: 'suffix' };
   }
 
-  return null;
+  throw new Error(`Failed to parse the part of speech in: ${rawAbbr}`);
 }

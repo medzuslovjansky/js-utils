@@ -95,11 +95,11 @@ describe('parsePartOfSpeech', () => {
     },
   );
 
-  it('should return null for non-strings', () => {
+  it('should throw for non-strings', () => {
     expect(() => parsePartOfSpeech(null as any)).toThrowErrorMatchingSnapshot();
   });
 
-  it('should return null for unknown abbreviations', () => {
-    expect(parsePartOfSpeech('unknown')).toBe(null);
+  it('should throw for unknown abbreviations', () => {
+    expect(() => parsePartOfSpeech('unknown')).toThrowErrorMatchingSnapshot();
   });
 });

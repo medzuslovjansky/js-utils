@@ -29,6 +29,7 @@ jobs:
         run: npm run test -- --coverage
 
       - name: Coveralls
+        if: ${{ false }}
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
