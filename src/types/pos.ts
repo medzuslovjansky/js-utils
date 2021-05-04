@@ -77,7 +77,7 @@ export type Pronoun = {
   name: 'pronoun';
   demonstrative: boolean;
   indefinite: boolean;
-  intensive: boolean;
+  interrogative: boolean;
   personal: boolean;
   possessive: boolean;
   reciprocal: boolean;

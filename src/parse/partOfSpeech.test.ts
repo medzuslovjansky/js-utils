@@ -38,7 +38,7 @@ describe('parsePartOfSpeech', () => {
     ['prep.', { name: 'preposition' }],
     ['pron.dem.', { name: 'pronoun', demonstrative: true }],
     ['pron.indef.', { name: 'pronoun', indefinite: true }],
-    ['pron.int.', { name: 'pronoun', intensive: true }],
+    ['pron.int.', { name: 'pronoun', interrogative: true }],
     ['pron.pers.', { name: 'pronoun', personal: true }],
     ['pron.poss.', { name: 'pronoun', possessive: true }],
     ['pron.rec.', { name: 'pronoun', reciprocal: true }],

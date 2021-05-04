@@ -58,7 +58,7 @@ export default function parsePartOfSpeech(rawAbbr: string): PartOfSpeech {
       name: 'pronoun',
       demonstrative: abbr.includes('dem'),
       indefinite: abbr.includes('indef'),
-      intensive: abbr.includes('int'),
+      interrogative: abbr.includes('int'),
       personal: abbr.includes('pers'),
       possessive: abbr.includes('poss'),
       reciprocal: abbr.includes('rec'),
