@@ -1,4 +1,5 @@
 /*
+!/types.d.ts
 !/dist
 /dist/docs
 /dist/**/*.test.js
