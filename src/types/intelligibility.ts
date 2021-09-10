@@ -92,7 +92,8 @@ export enum CrudeIntelligibilityLevel {
   Unknown = 0.1,
 }
 
-export type CrudeIntelligibilityLevelDescription = keyof typeof CrudeIntelligibilityLevel;
+export type CrudeIntelligibilityLevelDescription =
+  keyof typeof CrudeIntelligibilityLevel;
 
 export type CrudeIntelligibilityReport = Partial<
   Record<SlavicLanguage, CrudeIntelligibilityLevelDescription>
