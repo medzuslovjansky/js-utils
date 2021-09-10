@@ -34,6 +34,7 @@
   "ignorePatterns": [
     "assets",
     "dist",
-    "jest.config.ts"
+    "jest.config.ts",
+    "types.d.ts"
   ]
 }
