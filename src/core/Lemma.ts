@@ -6,9 +6,16 @@ type LemmaOptions = {
 };
 
 export default class Lemma {
-  constructor(options: Partial<LemmaOptions> = {}) {
-    this.value = options.value || '';
-    this.annotations = options.annotations || [];
+  constructor(value: string | Partial<LemmaOptions> = {}) {
+    if (typeof value !== 'string') {
+      const options = value;
+
+      this.value = options.value || '';
+      this.annotations = options.annotations || [];
+    } else {
+      this.value = value;
+      this.annotations = [];
+    }
   }
 
   public value: string;

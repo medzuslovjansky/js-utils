@@ -8,9 +8,15 @@ type LemmaGroupOptions = {
 const hasCommas = (l: Lemma): boolean => l.hasCommas();
 
 export default class LemmaGroup {
-  constructor(options: Partial<LemmaGroupOptions> = {}) {
-    this.lemmas = options.lemmas || [];
-    this.delimiter = options.delimiter;
+  constructor(lemmas: Lemma[] | Partial<LemmaGroupOptions> = {}) {
+    if (Array.isArray(lemmas)) {
+      this.lemmas = lemmas;
+      this.delimiter = undefined;
+    } else {
+      const options = lemmas;
+      this.lemmas = options.lemmas || [];
+      this.delimiter = options.delimiter;
+    }
   }
 
   public lemmas: Lemma[];
