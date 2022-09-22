@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/medzuslovjansky/steen-utils#readme",
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",
@@ -52,11 +52,11 @@
     "lodash": "^4.17.21",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
-    "semantic-release": "^17.4.2",
+    "semantic-release": "^19.0.5",
     "ts-jest": "^26.5.5",
     "ts-node": "^9.1.1",
-    "typedoc": "^0.20.35",
-    "typescript": "~4.2.4"
+    "typedoc": "^0.23.15",
+    "typescript": "~4.6.0"
   },
   "dependencies": {
     "tslib": "^2.2.0"
