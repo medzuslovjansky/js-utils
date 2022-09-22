@@ -1,5 +1,5 @@
-import LemmaGroup from './LemmaGroup';
-import Lemma from './Lemma';
+import { LemmaGroup } from './LemmaGroup';
+import { Lemma } from './Lemma';
 
 describe('LemmaGroup', () => {
   let group: LemmaGroup;

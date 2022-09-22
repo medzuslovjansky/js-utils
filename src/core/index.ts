@@ -1,6 +1,17 @@
-import { Annotation } from './Annotation';
-import Lemma from './Lemma';
-import LemmaGroup from './LemmaGroup';
-import { Synset, SynsetMetadata } from './Synset';
+import { Annotation, AnnotationOptions, AnnotationType } from './Annotation';
+import { Lemma, LemmaOptions } from './Lemma';
+import { LemmaGroup, LemmaGroupOptions } from './LemmaGroup';
+import { Synset, SynsetMetadata, SynsetOptions } from './Synset';
 
-export { Annotation, Lemma, LemmaGroup, Synset, SynsetMetadata };
+export {
+  Annotation,
+  AnnotationOptions,
+  AnnotationType,
+  Lemma,
+  LemmaOptions,
+  LemmaGroup,
+  LemmaGroupOptions,
+  Synset,
+  SynsetMetadata,
+  SynsetOptions,
+};

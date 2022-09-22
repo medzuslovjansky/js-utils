@@ -5,7 +5,7 @@ import {
   stripMetacharacters,
 } from '../../utils/metacharacters';
 
-type ParseSynsetOptions = {
+export type ParseSynsetOptions = {
   isPhrase: boolean;
 };
 

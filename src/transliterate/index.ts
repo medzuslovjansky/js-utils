@@ -6,14 +6,9 @@ import {
 
 import { BCP47Interslavic } from '../types';
 
-/**
- * @param text
- * @param lang BCP 47 language tag
- */
-export default function transliterate(
-  text: string,
-  lang: BCP47Interslavic | string,
-): string {
+function transliterate(text: string, lang: BCP47Interslavic): string;
+function transliterate(text: string, lang: string): string;
+function transliterate(text: string, lang: string): string {
   switch (lang) {
     case 'art-Cyrl-x-interslv':
       return _transliterate(
@@ -129,3 +124,5 @@ export default function transliterate(
       throw new TypeError(`Unsupported language tag: ${lang}`);
   }
 }
+
+export default transliterate;

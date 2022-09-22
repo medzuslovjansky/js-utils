@@ -1,6 +1,6 @@
 import { Synset } from './Synset';
-import LemmaGroup from './LemmaGroup';
-import Lemma from './Lemma';
+import { LemmaGroup } from './LemmaGroup';
+import { Lemma } from './Lemma';
 import { Annotation } from './Annotation';
 
 describe('Synset', () => {

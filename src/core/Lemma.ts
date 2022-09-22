@@ -1,11 +1,11 @@
 import { Annotation } from './Annotation';
 
-type LemmaOptions = {
+export type LemmaOptions = {
   value: string;
   annotations: Annotation[];
 };
 
-export default class Lemma {
+export class Lemma {
   constructor(value: string | Partial<LemmaOptions> = {}) {
     if (typeof value !== 'string') {
       const options = value;

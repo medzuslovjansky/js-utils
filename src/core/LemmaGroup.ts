@@ -1,13 +1,13 @@
-import Lemma from './Lemma';
+import { Lemma } from './Lemma';
 
-type LemmaGroupOptions = {
+export type LemmaGroupOptions = {
   lemmas: Lemma[];
   delimiter?: string;
 };
 
 const hasCommas = (l: Lemma): boolean => l.hasCommas();
 
-export default class LemmaGroup {
+export class LemmaGroup {
   constructor(lemmas: Lemma[] | Partial<LemmaGroupOptions> = {}) {
     if (Array.isArray(lemmas)) {
       this.lemmas = lemmas;

@@ -1,6 +1,6 @@
 export type AnnotationType = 'archaic' | 'colloquial' | 'custom';
 
-type AnnotationOptions = {
+export type AnnotationOptions = {
   value: string;
   type: AnnotationType;
 };

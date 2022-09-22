@@ -1,4 +1,4 @@
-import Lemma from './Lemma';
+import { Lemma } from './Lemma';
 import { Annotation } from './Annotation';
 
 describe('Lemma', () => {
