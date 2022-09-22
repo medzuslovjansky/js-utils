@@ -82,8 +82,8 @@ export class Synset {
     return result;
   }
 
-  public get empty() {
-    return this.lemmas().next().done;
+  public get empty(): boolean {
+    return !!this.lemmas().next().done;
   }
 
   public *lemmas(): IterableIterator<Lemma> {
