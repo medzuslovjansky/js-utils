@@ -23,6 +23,13 @@ export class LemmaGroup {
 
   public delimiter?: string;
 
+  public clone(): LemmaGroup {
+    return new LemmaGroup({
+      delimiter: this.delimiter,
+      lemmas: this.lemmas.map((l) => l.clone()),
+    });
+  }
+
   public toString(): string {
     const delimiter =
       this.delimiter ?? (this.lemmas.some(hasCommas) ? '; ' : ', ');

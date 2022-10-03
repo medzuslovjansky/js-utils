@@ -22,6 +22,13 @@ export class Lemma {
 
   public annotations: Annotation[];
 
+  public clone(): Lemma {
+    return new Lemma({
+      value: this.value,
+      annotations: this.annotations.map((a) => a.clone()),
+    });
+  }
+
   public hasCommas(): boolean {
     return this.value.includes(',');
   }

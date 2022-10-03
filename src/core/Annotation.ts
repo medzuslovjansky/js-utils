@@ -15,6 +15,13 @@ export class Annotation {
 
   public type: AnnotationType;
 
+  public clone(): Annotation {
+    return new Annotation({
+      value: this.value,
+      type: this.type,
+    });
+  }
+
   public toString(): string {
     return this.value;
   }
