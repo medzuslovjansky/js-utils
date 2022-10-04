@@ -96,6 +96,7 @@ export class Synset {
       for (const l2 of other.lemmas()) {
         if (equals(l1, l2)) {
           result.add(l1.clone());
+          break;
         }
       }
     }
