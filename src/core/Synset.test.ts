@@ -149,6 +149,18 @@ describe('Synset', () => {
     });
   });
 
+  describe('.size', () => {
+    it('should return lemma count', () => {
+      const synset = anEmptySynset();
+      expect(synset.size).toBe(0);
+      synset.add(new LemmaGroup());
+      synset.add(new LemmaGroup());
+      expect(synset.size).toBe(0);
+      synset.add(['some1', 'some2']);
+      expect(synset.size).toBe(2);
+    });
+  });
+
   describe('.union()', () => {
     it('should create a new synset with all the values', () => {
       const synset1 = anEmptySynset().add(['a', 'b']);

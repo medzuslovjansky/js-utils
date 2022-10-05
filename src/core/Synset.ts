@@ -108,6 +108,10 @@ export class Synset {
     return !!this.lemmas().next().done;
   }
 
+  public get size(): number {
+    return [...this.lemmas()].length;
+  }
+
   public union(
     other: Synset,
     equals: EqualityPredicate<Lemma> = valueEquals,
