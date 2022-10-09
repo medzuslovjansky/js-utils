@@ -84,17 +84,14 @@ export enum Genesis {
   Turkic = 'T',
 }
 
-export enum CrudeIntelligibilityLevel {
-  Full = 1,
-  Incomplete = 0.5,
-  Disputed = 0.5,
-  Other1 = 0.5,
-  Unknown = 0.1,
+export enum IntelligibilityLevel {
+  DirectMatch = '+',
+  HelperMatch = '*',
+  AmbiguousDirectMatch = '?',
+  AmbiguousHelperMatch = '~',
+  FalseFriend = '#',
+  NoMatch = '-',
+  Unknown = '',
 }
 
-export type CrudeIntelligibilityLevelDescription =
-  keyof typeof CrudeIntelligibilityLevel;
-
-export type CrudeIntelligibilityReport = Partial<
-  Record<SlavicLanguage, CrudeIntelligibilityLevelDescription>
->;
+export type IntelligibilityLevelDescription = keyof typeof IntelligibilityLevel;
