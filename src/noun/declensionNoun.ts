@@ -10,7 +10,7 @@ import { removeBrackets } from '../utils';
 export function declensionNounFlat(
   rawNoun: string,
   rawAdd: string,
-  originGender: 'masculine' | 'feminine' | 'neuter',
+  originGender: Noun['gender'],
   animated: boolean,
   isPlural: boolean,
   isSingular: boolean,
