@@ -4,7 +4,7 @@
 [![Build Status](https://github.com/medzuslovjansky/js-utils/actions/workflows/ci.yml/badge.svg)](https://github.com/medzuslovjansky/js-utils/actions/workflows/ci.yml)
 [![Coverage Status](https://coveralls.io/repos/github/medzuslovjansky/js-utils/badge.svg?branch=main)](https://coveralls.io/github/medzuslovjansky/js-utils?branch=main)
 
-This package contains various utilities for Interslavic language to work with BCP 47 codes, transliteration, declension, conjugation, etc.
+This package contains various JavaScript utilities for Interslavic language to work with BCP 47 codes, transliteration, declension, conjugation, etc.
 
 ## Installation
 
@@ -15,6 +15,8 @@ npm install @interslavic/utils --save
 ```
 
 ## Overview
+
+Reference is automatically generated at: <https://medzuslovjansky.github.io/js-utils>
 
 ### Constants
 
