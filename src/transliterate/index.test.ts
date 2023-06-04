@@ -1,4 +1,4 @@
-import transliterate from './index';
+import { transliterate } from './index';
 
 const source = `\
 Na vȯzvyšenosti ovca, ktora ne iměla vȯlnų, uviděla konjev. Pŕvy tęgal tęžky voz, vtory nosil veliko brěmę, tretji brzo vozil mųža.
@@ -27,11 +27,13 @@ describe('abcd', () => {
     ['art-Latn-x-interslv-southern'],
     ['art-x-interslv-fonipa'],
     ['art-x-interslv'],
-  ])('transliterate(text, %j)', (bcp47) => {
+  ] as const)('transliterate(text, %j)', (bcp47) => {
     expect(transliterate(source, bcp47)).toMatchSnapshot();
   });
 
   test('unknown code', () => {
-    expect(() => transliterate(source, 'en')).toThrowErrorMatchingSnapshot();
+    expect(() =>
+      transliterate(source, 'en' as any),
+    ).toThrowErrorMatchingSnapshot();
   });
 });

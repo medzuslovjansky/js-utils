@@ -1,0 +1,5705 @@
+[
+  {
+    "init": {
+      "word": "četveraky",
+      "add": "",
+      "details": "num.diff."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "četveraky",
+          "četverako",
+          "četveraka"
+        ],
+        "acc": [
+          "četverakogo / četveraky",
+          "četverako",
+          "četverakų"
+        ],
+        "gen": [
+          "četverakogo",
+          "četverakoj"
+        ],
+        "loc": [
+          "četverakom",
+          "četverakoj"
+        ],
+        "dat": [
+          "četverakomu",
+          "četverakoj"
+        ],
+        "ins": [
+          "četverakym",
+          "četverakojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "četveraki / četverake",
+          "četverake"
+        ],
+        "acc": [
+          "četverakyh / četverake",
+          "četverake"
+        ],
+        "gen": [
+          "četverakyh"
+        ],
+        "loc": [
+          "četverakyh"
+        ],
+        "dat": [
+          "četverakym"
+        ],
+        "ins": [
+          "četverakymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četverka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "četverka",
+          "četverky"
+        ],
+        "acc": [
+          "četverkų",
+          "četverky"
+        ],
+        "gen": [
+          "četverky",
+          "četverȯk"
+        ],
+        "loc": [
+          "četverkě",
+          "četverkah"
+        ],
+        "dat": [
+          "četverkě",
+          "četverkam"
+        ],
+        "ins": [
+          "četverkojų",
+          "četverkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četverny",
+      "add": "",
+      "details": "num.mult."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "četverny",
+          "četverno",
+          "četverna"
+        ],
+        "acc": [
+          "četvernogo / četverny",
+          "četverno",
+          "četvernų"
+        ],
+        "gen": [
+          "četvernogo",
+          "četvernoj"
+        ],
+        "loc": [
+          "četvernom",
+          "četvernoj"
+        ],
+        "dat": [
+          "četvernomu",
+          "četvernoj"
+        ],
+        "ins": [
+          "četvernym",
+          "četvernojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "četverni / četverne",
+          "četverne"
+        ],
+        "acc": [
+          "četvernyh / četverne",
+          "četverne"
+        ],
+        "gen": [
+          "četvernyh"
+        ],
+        "loc": [
+          "četvernyh"
+        ],
+        "dat": [
+          "četvernym"
+        ],
+        "ins": [
+          "četvernymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četvero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "četvero"
+        ],
+        "acc": [
+          "četveryh / četvero"
+        ],
+        "gen": [
+          "četveryh"
+        ],
+        "loc": [
+          "četveryh"
+        ],
+        "dat": [
+          "četverym"
+        ],
+        "ins": [
+          "četverymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četvŕtina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "četvŕtina",
+          "četvŕtiny"
+        ],
+        "acc": [
+          "četvŕtinų",
+          "četvŕtiny"
+        ],
+        "gen": [
+          "četvŕtiny",
+          "četvŕtin"
+        ],
+        "loc": [
+          "četvŕtině",
+          "četvŕtinah"
+        ],
+        "dat": [
+          "četvŕtině",
+          "četvŕtinam"
+        ],
+        "ins": [
+          "četvŕtinojų",
+          "četvŕtinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četvŕty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "četvŕty",
+          "četvŕto",
+          "četvŕta"
+        ],
+        "acc": [
+          "četvŕtogo / četvŕty",
+          "četvŕto",
+          "četvŕtų"
+        ],
+        "gen": [
+          "četvŕtogo",
+          "četvŕtoj"
+        ],
+        "loc": [
+          "četvŕtom",
+          "četvŕtoj"
+        ],
+        "dat": [
+          "četvŕtomu",
+          "četvŕtoj"
+        ],
+        "ins": [
+          "četvŕtym",
+          "četvŕtojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "četvŕti / četvŕte",
+          "četvŕte"
+        ],
+        "acc": [
+          "četvŕtyh / četvŕte",
+          "četvŕte"
+        ],
+        "gen": [
+          "četvŕtyh"
+        ],
+        "loc": [
+          "četvŕtyh"
+        ],
+        "dat": [
+          "četvŕtym"
+        ],
+        "ins": [
+          "četvŕtymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyri",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "četyri"
+        ],
+        "acc": [
+          "četyrěh / četyri"
+        ],
+        "gen": [
+          "četyrěh"
+        ],
+        "loc": [
+          "četyrěh"
+        ],
+        "dat": [
+          "četyrěm"
+        ],
+        "ins": [
+          "četyrěmi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyridesęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "četyridesęť"
+        ],
+        "acc": [
+          "četyridesęť"
+        ],
+        "gen": [
+          "četyridesęti"
+        ],
+        "loc": [
+          "četyridesęti"
+        ],
+        "dat": [
+          "četyridesęti"
+        ],
+        "ins": [
+          "četyridesęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyridesęti",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": null
+  },
+  {
+    "init": {
+      "word": "četyridesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "četyridesęty",
+          "četyridesęto",
+          "četyridesęta"
+        ],
+        "acc": [
+          "četyridesętogo / četyridesęty",
+          "četyridesęto",
+          "četyridesętų"
+        ],
+        "gen": [
+          "četyridesętogo",
+          "četyridesętoj"
+        ],
+        "loc": [
+          "četyridesętom",
+          "četyridesętoj"
+        ],
+        "dat": [
+          "četyridesętomu",
+          "četyridesętoj"
+        ],
+        "ins": [
+          "četyridesętym",
+          "četyridesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "četyridesęti / četyridesęte",
+          "četyridesęte"
+        ],
+        "acc": [
+          "četyridesętyh / četyridesęte",
+          "četyridesęte"
+        ],
+        "gen": [
+          "četyridesętyh"
+        ],
+        "loc": [
+          "četyridesętyh"
+        ],
+        "dat": [
+          "četyridesętym"
+        ],
+        "ins": [
+          "četyridesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyrinadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "četyrinadsęť"
+        ],
+        "acc": [
+          "četyrinadsęť"
+        ],
+        "gen": [
+          "četyrinadsęti"
+        ],
+        "loc": [
+          "četyrinadsęti"
+        ],
+        "dat": [
+          "četyrinadsęti"
+        ],
+        "ins": [
+          "četyrinadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyrinadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "četyrinadsęty",
+          "četyrinadsęto",
+          "četyrinadsęta"
+        ],
+        "acc": [
+          "četyrinadsętogo / četyrinadsęty",
+          "četyrinadsęto",
+          "četyrinadsętų"
+        ],
+        "gen": [
+          "četyrinadsętogo",
+          "četyrinadsętoj"
+        ],
+        "loc": [
+          "četyrinadsętom",
+          "četyrinadsętoj"
+        ],
+        "dat": [
+          "četyrinadsętomu",
+          "četyrinadsętoj"
+        ],
+        "ins": [
+          "četyrinadsętym",
+          "četyrinadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "četyrinadsęti / četyrinadsęte",
+          "četyrinadsęte"
+        ],
+        "acc": [
+          "četyrinadsętyh / četyrinadsęte",
+          "četyrinadsęte"
+        ],
+        "gen": [
+          "četyrinadsętyh"
+        ],
+        "loc": [
+          "četyrinadsętyh"
+        ],
+        "dat": [
+          "četyrinadsętym"
+        ],
+        "ins": [
+          "četyrinadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyrista",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "četyrista"
+        ],
+        "acc": [
+          "četyrista"
+        ],
+        "gen": [
+          "četyrěhsȯt"
+        ],
+        "loc": [
+          "četyrěhstah"
+        ],
+        "dat": [
+          "četyrěmstam"
+        ],
+        "ins": [
+          "četyrěmistami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "četyristo",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "četyristo"
+        ],
+        "acc": [
+          "četyristo"
+        ],
+        "gen": [
+          "četyristo"
+        ],
+        "loc": [
+          "četyristo"
+        ],
+        "dat": [
+          "četyristo"
+        ],
+        "ins": [
+          "četyristo"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "desęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "desęť"
+        ],
+        "acc": [
+          "desęť"
+        ],
+        "gen": [
+          "desęti"
+        ],
+        "loc": [
+          "desęti"
+        ],
+        "dat": [
+          "desęti"
+        ],
+        "ins": [
+          "desęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "desętero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "desętero"
+        ],
+        "acc": [
+          "desęteryh / desętero"
+        ],
+        "gen": [
+          "desęteryh"
+        ],
+        "loc": [
+          "desęteryh"
+        ],
+        "dat": [
+          "desęterym"
+        ],
+        "ins": [
+          "desęterymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "desętina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "desętina",
+          "desętiny"
+        ],
+        "acc": [
+          "desętinų",
+          "desętiny"
+        ],
+        "gen": [
+          "desętiny",
+          "desętin"
+        ],
+        "loc": [
+          "desętině",
+          "desętinah"
+        ],
+        "dat": [
+          "desętině",
+          "desętinam"
+        ],
+        "ins": [
+          "desętinojų",
+          "desętinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "desętka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "desętka",
+          "desętky"
+        ],
+        "acc": [
+          "desętkų",
+          "desętky"
+        ],
+        "gen": [
+          "desętky",
+          "desętȯk"
+        ],
+        "loc": [
+          "desętkě",
+          "desętkah"
+        ],
+        "dat": [
+          "desętkě",
+          "desętkam"
+        ],
+        "ins": [
+          "desętkojų",
+          "desętkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "desęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "desęty",
+          "desęto",
+          "desęta"
+        ],
+        "acc": [
+          "desętogo / desęty",
+          "desęto",
+          "desętų"
+        ],
+        "gen": [
+          "desętogo",
+          "desętoj"
+        ],
+        "loc": [
+          "desętom",
+          "desętoj"
+        ],
+        "dat": [
+          "desętomu",
+          "desętoj"
+        ],
+        "ins": [
+          "desętym",
+          "desętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "desęti / desęte",
+          "desęte"
+        ],
+        "acc": [
+          "desętyh / desęte",
+          "desęte"
+        ],
+        "gen": [
+          "desętyh"
+        ],
+        "loc": [
+          "desętyh"
+        ],
+        "dat": [
+          "desętym"
+        ],
+        "ins": [
+          "desętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "devęť"
+        ],
+        "acc": [
+          "devęť"
+        ],
+        "gen": [
+          "devęti"
+        ],
+        "loc": [
+          "devęti"
+        ],
+        "dat": [
+          "devęti"
+        ],
+        "ins": [
+          "devęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devęťdesęt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "devęťdesęt"
+        ],
+        "acc": [
+          "devęťdesęt"
+        ],
+        "gen": [
+          "devęťdesęti"
+        ],
+        "loc": [
+          "devęťdesęti"
+        ],
+        "dat": [
+          "devęťdesęti"
+        ],
+        "ins": [
+          "devęťdesętjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devęťdesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "devęťdesęty",
+          "devęťdesęto",
+          "devęťdesęta"
+        ],
+        "acc": [
+          "devęťdesętogo / devęťdesęty",
+          "devęťdesęto",
+          "devęťdesętų"
+        ],
+        "gen": [
+          "devęťdesętogo",
+          "devęťdesętoj"
+        ],
+        "loc": [
+          "devęťdesętom",
+          "devęťdesętoj"
+        ],
+        "dat": [
+          "devęťdesętomu",
+          "devęťdesętoj"
+        ],
+        "ins": [
+          "devęťdesętym",
+          "devęťdesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "devęťdesęti / devęťdesęte",
+          "devęťdesęte"
+        ],
+        "acc": [
+          "devęťdesętyh / devęťdesęte",
+          "devęťdesęte"
+        ],
+        "gen": [
+          "devęťdesętyh"
+        ],
+        "loc": [
+          "devęťdesętyh"
+        ],
+        "dat": [
+          "devęťdesętym"
+        ],
+        "ins": [
+          "devęťdesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devętero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "devętero"
+        ],
+        "acc": [
+          "devęteryh / devętero"
+        ],
+        "gen": [
+          "devęteryh"
+        ],
+        "loc": [
+          "devęteryh"
+        ],
+        "dat": [
+          "devęterym"
+        ],
+        "ins": [
+          "devęterymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devętina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "devętina",
+          "devętiny"
+        ],
+        "acc": [
+          "devętinų",
+          "devętiny"
+        ],
+        "gen": [
+          "devętiny",
+          "devętin"
+        ],
+        "loc": [
+          "devętině",
+          "devętinah"
+        ],
+        "dat": [
+          "devętině",
+          "devętinam"
+        ],
+        "ins": [
+          "devętinojų",
+          "devętinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devętka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "devętka",
+          "devętky"
+        ],
+        "acc": [
+          "devętkų",
+          "devętky"
+        ],
+        "gen": [
+          "devętky",
+          "devętȯk"
+        ],
+        "loc": [
+          "devętkě",
+          "devętkah"
+        ],
+        "dat": [
+          "devętkě",
+          "devętkam"
+        ],
+        "ins": [
+          "devętkojų",
+          "devętkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devętnadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "devętnadsęť"
+        ],
+        "acc": [
+          "devętnadsęť"
+        ],
+        "gen": [
+          "devętnadsęti"
+        ],
+        "loc": [
+          "devętnadsęti"
+        ],
+        "dat": [
+          "devętnadsęti"
+        ],
+        "ins": [
+          "devętnadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devętnadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "devętnadsęty",
+          "devętnadsęto",
+          "devętnadsęta"
+        ],
+        "acc": [
+          "devętnadsętogo / devętnadsęty",
+          "devętnadsęto",
+          "devętnadsętų"
+        ],
+        "gen": [
+          "devętnadsętogo",
+          "devętnadsętoj"
+        ],
+        "loc": [
+          "devętnadsętom",
+          "devętnadsętoj"
+        ],
+        "dat": [
+          "devętnadsętomu",
+          "devętnadsętoj"
+        ],
+        "ins": [
+          "devętnadsętym",
+          "devętnadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "devętnadsęti / devętnadsęte",
+          "devętnadsęte"
+        ],
+        "acc": [
+          "devętnadsętyh / devętnadsęte",
+          "devętnadsęte"
+        ],
+        "gen": [
+          "devętnadsętyh"
+        ],
+        "loc": [
+          "devętnadsętyh"
+        ],
+        "dat": [
+          "devętnadsętym"
+        ],
+        "ins": [
+          "devętnadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devęťsȯt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "devęťsȯt"
+        ],
+        "acc": [
+          "devęťsȯt"
+        ],
+        "gen": [
+          "devęťsȯt"
+        ],
+        "loc": [
+          "devętistah"
+        ],
+        "dat": [
+          "devętistam"
+        ],
+        "ins": [
+          "devęťjųstami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devęťsto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "devęťsto"
+        ],
+        "acc": [
+          "devęťsto"
+        ],
+        "gen": [
+          "devęťsto"
+        ],
+        "loc": [
+          "devęťsto"
+        ],
+        "dat": [
+          "devęťsto"
+        ],
+        "ins": [
+          "devęťsto"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "devęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "devęty",
+          "devęto",
+          "devęta"
+        ],
+        "acc": [
+          "devętogo / devęty",
+          "devęto",
+          "devętų"
+        ],
+        "gen": [
+          "devętogo",
+          "devętoj"
+        ],
+        "loc": [
+          "devętom",
+          "devętoj"
+        ],
+        "dat": [
+          "devętomu",
+          "devętoj"
+        ],
+        "ins": [
+          "devętym",
+          "devętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "devęti / devęte",
+          "devęte"
+        ],
+        "acc": [
+          "devętyh / devęte",
+          "devęte"
+        ],
+        "gen": [
+          "devętyh"
+        ],
+        "loc": [
+          "devętyh"
+        ],
+        "dat": [
+          "devętym"
+        ],
+        "ins": [
+          "devętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "drugy",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "drugy",
+          "drugo",
+          "druga"
+        ],
+        "acc": [
+          "drugogo / drugy",
+          "drugo",
+          "drugų"
+        ],
+        "gen": [
+          "drugogo",
+          "drugoj"
+        ],
+        "loc": [
+          "drugom",
+          "drugoj"
+        ],
+        "dat": [
+          "drugomu",
+          "drugoj"
+        ],
+        "ins": [
+          "drugym",
+          "drugojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "drugi / druge",
+          "druge"
+        ],
+        "acc": [
+          "drugyh / druge",
+          "druge"
+        ],
+        "gen": [
+          "drugyh"
+        ],
+        "loc": [
+          "drugyh"
+        ],
+        "dat": [
+          "drugym"
+        ],
+        "ins": [
+          "drugymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dva",
+      "add": "(dvě)",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "masculine",
+        "feminine/neuter"
+      ],
+      "cases": {
+        "nom": [
+          "dva",
+          "dvě"
+        ],
+        "acc": [
+          "dva / dvoh",
+          "dvě"
+        ],
+        "gen": [
+          "dvoh",
+          "dvoh"
+        ],
+        "loc": [
+          "dvoh",
+          "dvoh"
+        ],
+        "dat": [
+          "dvom",
+          "dvom"
+        ],
+        "ins": [
+          "dvoma",
+          "dvoma"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvadesęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "dvadesęť"
+        ],
+        "acc": [
+          "dvadesęť"
+        ],
+        "gen": [
+          "dvadesęti"
+        ],
+        "loc": [
+          "dvadesęti"
+        ],
+        "dat": [
+          "dvadesęti"
+        ],
+        "ins": [
+          "dvadesęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvadesęti",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": null
+  },
+  {
+    "init": {
+      "word": "dvadesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "dvadesęty",
+          "dvadesęto",
+          "dvadesęta"
+        ],
+        "acc": [
+          "dvadesętogo / dvadesęty",
+          "dvadesęto",
+          "dvadesętų"
+        ],
+        "gen": [
+          "dvadesętogo",
+          "dvadesętoj"
+        ],
+        "loc": [
+          "dvadesętom",
+          "dvadesętoj"
+        ],
+        "dat": [
+          "dvadesętomu",
+          "dvadesętoj"
+        ],
+        "ins": [
+          "dvadesętym",
+          "dvadesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "dvadesęti / dvadesęte",
+          "dvadesęte"
+        ],
+        "acc": [
+          "dvadesętyh / dvadesęte",
+          "dvadesęte"
+        ],
+        "gen": [
+          "dvadesętyh"
+        ],
+        "loc": [
+          "dvadesętyh"
+        ],
+        "dat": [
+          "dvadesętym"
+        ],
+        "ins": [
+          "dvadesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvanadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "dvanadsęť"
+        ],
+        "acc": [
+          "dvanadsęť"
+        ],
+        "gen": [
+          "dvanadsęti"
+        ],
+        "loc": [
+          "dvanadsęti"
+        ],
+        "dat": [
+          "dvanadsęti"
+        ],
+        "ins": [
+          "dvanadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvanadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "dvanadsęty",
+          "dvanadsęto",
+          "dvanadsęta"
+        ],
+        "acc": [
+          "dvanadsętogo / dvanadsęty",
+          "dvanadsęto",
+          "dvanadsętų"
+        ],
+        "gen": [
+          "dvanadsętogo",
+          "dvanadsętoj"
+        ],
+        "loc": [
+          "dvanadsętom",
+          "dvanadsętoj"
+        ],
+        "dat": [
+          "dvanadsętomu",
+          "dvanadsętoj"
+        ],
+        "ins": [
+          "dvanadsętym",
+          "dvanadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "dvanadsęti / dvanadsęte",
+          "dvanadsęte"
+        ],
+        "acc": [
+          "dvanadsętyh / dvanadsęte",
+          "dvanadsęte"
+        ],
+        "gen": [
+          "dvanadsętyh"
+        ],
+        "loc": [
+          "dvanadsętyh"
+        ],
+        "dat": [
+          "dvanadsętym"
+        ],
+        "ins": [
+          "dvanadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvasto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "dvasto"
+        ],
+        "acc": [
+          "dvasto"
+        ],
+        "gen": [
+          "dvasto"
+        ],
+        "loc": [
+          "dvasto"
+        ],
+        "dat": [
+          "dvasto"
+        ],
+        "ins": [
+          "dvasto"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvě tretiny",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": null
+  },
+  {
+    "init": {
+      "word": "dvěstě",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "dvěstě"
+        ],
+        "acc": [
+          "dvěstě"
+        ],
+        "gen": [
+          "dvohsȯt"
+        ],
+        "loc": [
+          "dvohstah"
+        ],
+        "dat": [
+          "dvomstam"
+        ],
+        "ins": [
+          "dvomastami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvojaky",
+      "add": "",
+      "details": "num.diff."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "dvojaky",
+          "dvojako",
+          "dvojaka"
+        ],
+        "acc": [
+          "dvojakogo / dvojaky",
+          "dvojako",
+          "dvojakų"
+        ],
+        "gen": [
+          "dvojakogo",
+          "dvojakoj"
+        ],
+        "loc": [
+          "dvojakom",
+          "dvojakoj"
+        ],
+        "dat": [
+          "dvojakomu",
+          "dvojakoj"
+        ],
+        "ins": [
+          "dvojakym",
+          "dvojakojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "dvojaki / dvojake",
+          "dvojake"
+        ],
+        "acc": [
+          "dvojakyh / dvojake",
+          "dvojake"
+        ],
+        "gen": [
+          "dvojakyh"
+        ],
+        "loc": [
+          "dvojakyh"
+        ],
+        "dat": [
+          "dvojakym"
+        ],
+        "ins": [
+          "dvojakymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvoje",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "dvoje"
+        ],
+        "acc": [
+          "dvojih / dvoje"
+        ],
+        "gen": [
+          "dvojih"
+        ],
+        "loc": [
+          "dvojih"
+        ],
+        "dat": [
+          "dvojim"
+        ],
+        "ins": [
+          "dvojimi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "dvojka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "dvojka",
+          "dvojky"
+        ],
+        "acc": [
+          "dvojkų",
+          "dvojky"
+        ],
+        "gen": [
+          "dvojky",
+          "dvojek"
+        ],
+        "loc": [
+          "dvojkě",
+          "dvojkah"
+        ],
+        "dat": [
+          "dvojkě",
+          "dvojkam"
+        ],
+        "ins": [
+          "dvojkojų",
+          "dvojkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "jedin",
+      "add": "(jedna, jedno)",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "jedin",
+          "jedno",
+          "jedna"
+        ],
+        "acc": [
+          "jednogo / jedin",
+          "jedno",
+          "jednų"
+        ],
+        "gen": [
+          "jednogo",
+          "jednoj"
+        ],
+        "loc": [
+          "jednom",
+          "jednoj"
+        ],
+        "dat": [
+          "jednomu",
+          "jednoj"
+        ],
+        "ins": [
+          "jednym",
+          "jednojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "jedni / jedne",
+          "jedne"
+        ],
+        "acc": [
+          "jednyh / jedne",
+          "jedne"
+        ],
+        "gen": [
+          "jednyh"
+        ],
+        "loc": [
+          "jednyh"
+        ],
+        "dat": [
+          "jednym"
+        ],
+        "ins": [
+          "jednymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "jedinka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "jedinka",
+          "jedinky"
+        ],
+        "acc": [
+          "jedinkų",
+          "jedinky"
+        ],
+        "gen": [
+          "jedinky",
+          "jedinȯk"
+        ],
+        "loc": [
+          "jedinkě",
+          "jedinkah"
+        ],
+        "dat": [
+          "jedinkě",
+          "jedinkam"
+        ],
+        "ins": [
+          "jedinkojų",
+          "jedinkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "jedinnadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "jedinnadsęť"
+        ],
+        "acc": [
+          "jedinnadsęť"
+        ],
+        "gen": [
+          "jedinnadsęti"
+        ],
+        "loc": [
+          "jedinnadsęti"
+        ],
+        "dat": [
+          "jedinnadsęti"
+        ],
+        "ins": [
+          "jedinnadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "jedinnadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "jedinnadsęty",
+          "jedinnadsęto",
+          "jedinnadsęta"
+        ],
+        "acc": [
+          "jedinnadsętogo / jedinnadsęty",
+          "jedinnadsęto",
+          "jedinnadsętų"
+        ],
+        "gen": [
+          "jedinnadsętogo",
+          "jedinnadsętoj"
+        ],
+        "loc": [
+          "jedinnadsętom",
+          "jedinnadsętoj"
+        ],
+        "dat": [
+          "jedinnadsętomu",
+          "jedinnadsętoj"
+        ],
+        "ins": [
+          "jedinnadsętym",
+          "jedinnadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "jedinnadsęti / jedinnadsęte",
+          "jedinnadsęte"
+        ],
+        "acc": [
+          "jedinnadsętyh / jedinnadsęte",
+          "jedinnadsęte"
+        ],
+        "gen": [
+          "jedinnadsętyh"
+        ],
+        "loc": [
+          "jedinnadsętyh"
+        ],
+        "dat": [
+          "jedinnadsętym"
+        ],
+        "ins": [
+          "jedinnadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "ješče dva",
+      "add": "",
+      "details": "num."
+    },
+    "expected": null
+  },
+  {
+    "init": {
+      "word": "miliard",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "miliard",
+          "miliardy"
+        ],
+        "acc": [
+          "miliard",
+          "miliardy"
+        ],
+        "gen": [
+          "miliarda",
+          "miliardov"
+        ],
+        "loc": [
+          "miliardu",
+          "miliardah"
+        ],
+        "dat": [
+          "miliardu",
+          "miliardam"
+        ],
+        "ins": [
+          "miliardom",
+          "miliardami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "milion",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "milion",
+          "miliony"
+        ],
+        "acc": [
+          "milion",
+          "miliony"
+        ],
+        "gen": [
+          "miliona",
+          "milionov"
+        ],
+        "loc": [
+          "milionu",
+          "milionah"
+        ],
+        "dat": [
+          "milionu",
+          "milionam"
+        ],
+        "ins": [
+          "milionom",
+          "milionami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "nula",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "nula",
+          "nuly"
+        ],
+        "acc": [
+          "nulų",
+          "nuly"
+        ],
+        "gen": [
+          "nuly",
+          "nul"
+        ],
+        "loc": [
+          "nulě",
+          "nulah"
+        ],
+        "dat": [
+          "nulě",
+          "nulam"
+        ],
+        "ins": [
+          "nulojų",
+          "nulami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "nulovy",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "nulovy",
+          "nulovo",
+          "nulova"
+        ],
+        "acc": [
+          "nulovogo / nulovy",
+          "nulovo",
+          "nulovų"
+        ],
+        "gen": [
+          "nulovogo",
+          "nulovoj"
+        ],
+        "loc": [
+          "nulovom",
+          "nulovoj"
+        ],
+        "dat": [
+          "nulovomu",
+          "nulovoj"
+        ],
+        "ins": [
+          "nulovym",
+          "nulovojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "nulovi / nulove",
+          "nulove"
+        ],
+        "acc": [
+          "nulovyh / nulove",
+          "nulove"
+        ],
+        "gen": [
+          "nulovyh"
+        ],
+        "loc": [
+          "nulovyh"
+        ],
+        "dat": [
+          "nulovym"
+        ],
+        "ins": [
+          "nulovymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "oba",
+      "add": "(obě)",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "masculine",
+        "feminine/neuter"
+      ],
+      "cases": {
+        "nom": [
+          "oba",
+          "obě"
+        ],
+        "acc": [
+          "oba / oboh",
+          "obě"
+        ],
+        "gen": [
+          "oboh",
+          "oboh"
+        ],
+        "loc": [
+          "oboh",
+          "oboh"
+        ],
+        "dat": [
+          "obom",
+          "obom"
+        ],
+        "ins": [
+          "oboma",
+          "oboma"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "obadva",
+      "add": "(obědvě)",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "masculine",
+        "feminine/neuter"
+      ],
+      "cases": {
+        "nom": [
+          "obadva",
+          "obadvě"
+        ],
+        "acc": [
+          "obadva / obadvoh",
+          "obadvě"
+        ],
+        "gen": [
+          "obadvoh",
+          "obadvoh"
+        ],
+        "loc": [
+          "obadvoh",
+          "obadvoh"
+        ],
+        "dat": [
+          "obadvom",
+          "obadvom"
+        ],
+        "ins": [
+          "obadvoma",
+          "obadvoma"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "obojaky",
+      "add": "",
+      "details": "num.diff."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "obojaky",
+          "obojako",
+          "obojaka"
+        ],
+        "acc": [
+          "obojakogo / obojaky",
+          "obojako",
+          "obojakų"
+        ],
+        "gen": [
+          "obojakogo",
+          "obojakoj"
+        ],
+        "loc": [
+          "obojakom",
+          "obojakoj"
+        ],
+        "dat": [
+          "obojakomu",
+          "obojakoj"
+        ],
+        "ins": [
+          "obojakym",
+          "obojakojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "obojaki / obojake",
+          "obojake"
+        ],
+        "acc": [
+          "obojakyh / obojake",
+          "obojake"
+        ],
+        "gen": [
+          "obojakyh"
+        ],
+        "loc": [
+          "obojakyh"
+        ],
+        "dat": [
+          "obojakym"
+        ],
+        "ins": [
+          "obojakymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "oboje",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "oboje"
+        ],
+        "acc": [
+          "obojih / oboje"
+        ],
+        "gen": [
+          "obojih"
+        ],
+        "loc": [
+          "obojih"
+        ],
+        "dat": [
+          "obojim"
+        ],
+        "ins": [
+          "obojimi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "obydva",
+      "add": "(obydvě)",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "masculine",
+        "feminine/neuter"
+      ],
+      "cases": {
+        "nom": [
+          "obydva",
+          "obydvě"
+        ],
+        "acc": [
+          "obydva / obydvoh",
+          "obydvě"
+        ],
+        "gen": [
+          "obydvoh",
+          "obydvoh"
+        ],
+        "loc": [
+          "obydvoh",
+          "obydvoh"
+        ],
+        "dat": [
+          "obydvom",
+          "obydvom"
+        ],
+        "ins": [
+          "obydvoma",
+          "obydvoma"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osm",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "osm"
+        ],
+        "acc": [
+          "osm"
+        ],
+        "gen": [
+          "osmi"
+        ],
+        "loc": [
+          "osmi"
+        ],
+        "dat": [
+          "osmi"
+        ],
+        "ins": [
+          "osmjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmdesęt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "osmdesęt"
+        ],
+        "acc": [
+          "osmdesęt"
+        ],
+        "gen": [
+          "osmdesęti"
+        ],
+        "loc": [
+          "osmdesęti"
+        ],
+        "dat": [
+          "osmdesęti"
+        ],
+        "ins": [
+          "osmdesętjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmdesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "osmdesęty",
+          "osmdesęto",
+          "osmdesęta"
+        ],
+        "acc": [
+          "osmdesętogo / osmdesęty",
+          "osmdesęto",
+          "osmdesętų"
+        ],
+        "gen": [
+          "osmdesętogo",
+          "osmdesętoj"
+        ],
+        "loc": [
+          "osmdesętom",
+          "osmdesętoj"
+        ],
+        "dat": [
+          "osmdesętomu",
+          "osmdesętoj"
+        ],
+        "ins": [
+          "osmdesętym",
+          "osmdesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "osmdesęti / osmdesęte",
+          "osmdesęte"
+        ],
+        "acc": [
+          "osmdesętyh / osmdesęte",
+          "osmdesęte"
+        ],
+        "gen": [
+          "osmdesętyh"
+        ],
+        "loc": [
+          "osmdesętyh"
+        ],
+        "dat": [
+          "osmdesętym"
+        ],
+        "ins": [
+          "osmdesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmerka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmerka",
+          "osmerky"
+        ],
+        "acc": [
+          "osmerkų",
+          "osmerky"
+        ],
+        "gen": [
+          "osmerky",
+          "osmerȯk"
+        ],
+        "loc": [
+          "osmerkě",
+          "osmerkah"
+        ],
+        "dat": [
+          "osmerkě",
+          "osmerkam"
+        ],
+        "ins": [
+          "osmerkojų",
+          "osmerkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmero"
+        ],
+        "acc": [
+          "osmeryh / osmero"
+        ],
+        "gen": [
+          "osmeryh"
+        ],
+        "loc": [
+          "osmeryh"
+        ],
+        "dat": [
+          "osmerym"
+        ],
+        "ins": [
+          "osmerymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmina",
+          "osminy"
+        ],
+        "acc": [
+          "osminų",
+          "osminy"
+        ],
+        "gen": [
+          "osminy",
+          "osmin"
+        ],
+        "loc": [
+          "osmině",
+          "osminah"
+        ],
+        "dat": [
+          "osmině",
+          "osminam"
+        ],
+        "ins": [
+          "osminojų",
+          "osminami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmka",
+          "osmky"
+        ],
+        "acc": [
+          "osmkų",
+          "osmky"
+        ],
+        "gen": [
+          "osmky",
+          "osmȯk"
+        ],
+        "loc": [
+          "osmkě",
+          "osmkah"
+        ],
+        "dat": [
+          "osmkě",
+          "osmkam"
+        ],
+        "ins": [
+          "osmkojų",
+          "osmkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmnadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "osmnadsęť"
+        ],
+        "acc": [
+          "osmnadsęť"
+        ],
+        "gen": [
+          "osmnadsęti"
+        ],
+        "loc": [
+          "osmnadsęti"
+        ],
+        "dat": [
+          "osmnadsęti"
+        ],
+        "ins": [
+          "osmnadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmnadsętina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmnadsętina",
+          "osmnadsętiny"
+        ],
+        "acc": [
+          "osmnadsętinų",
+          "osmnadsętiny"
+        ],
+        "gen": [
+          "osmnadsętiny",
+          "osmnadsętin"
+        ],
+        "loc": [
+          "osmnadsętině",
+          "osmnadsętinah"
+        ],
+        "dat": [
+          "osmnadsętině",
+          "osmnadsętinam"
+        ],
+        "ins": [
+          "osmnadsętinojų",
+          "osmnadsętinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmnadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "osmnadsęty",
+          "osmnadsęto",
+          "osmnadsęta"
+        ],
+        "acc": [
+          "osmnadsętogo / osmnadsęty",
+          "osmnadsęto",
+          "osmnadsętų"
+        ],
+        "gen": [
+          "osmnadsętogo",
+          "osmnadsętoj"
+        ],
+        "loc": [
+          "osmnadsętom",
+          "osmnadsętoj"
+        ],
+        "dat": [
+          "osmnadsętomu",
+          "osmnadsętoj"
+        ],
+        "ins": [
+          "osmnadsętym",
+          "osmnadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "osmnadsęti / osmnadsęte",
+          "osmnadsęte"
+        ],
+        "acc": [
+          "osmnadsętyh / osmnadsęte",
+          "osmnadsęte"
+        ],
+        "gen": [
+          "osmnadsętyh"
+        ],
+        "loc": [
+          "osmnadsętyh"
+        ],
+        "dat": [
+          "osmnadsętym"
+        ],
+        "ins": [
+          "osmnadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmsȯt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmsȯt"
+        ],
+        "acc": [
+          "osmsȯt"
+        ],
+        "gen": [
+          "osmsȯt"
+        ],
+        "loc": [
+          "osmistah"
+        ],
+        "dat": [
+          "osmistam"
+        ],
+        "ins": [
+          "osmjųstami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmsto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "osmsto"
+        ],
+        "acc": [
+          "osmsto"
+        ],
+        "gen": [
+          "osmsto"
+        ],
+        "loc": [
+          "osmsto"
+        ],
+        "dat": [
+          "osmsto"
+        ],
+        "ins": [
+          "osmsto"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "osmy",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "osmy",
+          "osmo",
+          "osma"
+        ],
+        "acc": [
+          "osmogo / osmy",
+          "osmo",
+          "osmų"
+        ],
+        "gen": [
+          "osmogo",
+          "osmoj"
+        ],
+        "loc": [
+          "osmom",
+          "osmoj"
+        ],
+        "dat": [
+          "osmomu",
+          "osmoj"
+        ],
+        "ins": [
+          "osmym",
+          "osmojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "osmi / osme",
+          "osme"
+        ],
+        "acc": [
+          "osmyh / osme",
+          "osme"
+        ],
+        "gen": [
+          "osmyh"
+        ],
+        "loc": [
+          "osmyh"
+        ],
+        "dat": [
+          "osmym"
+        ],
+        "ins": [
+          "osmymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "pęť"
+        ],
+        "acc": [
+          "pęť"
+        ],
+        "gen": [
+          "pęti"
+        ],
+        "loc": [
+          "pęti"
+        ],
+        "dat": [
+          "pęti"
+        ],
+        "ins": [
+          "pęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęťdesęt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "pęťdesęt"
+        ],
+        "acc": [
+          "pęťdesęt"
+        ],
+        "gen": [
+          "pęťdesęti"
+        ],
+        "loc": [
+          "pęťdesęti"
+        ],
+        "dat": [
+          "pęťdesęti"
+        ],
+        "ins": [
+          "pęťdesętjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęťdesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "pęťdesęty",
+          "pęťdesęto",
+          "pęťdesęta"
+        ],
+        "acc": [
+          "pęťdesętogo / pęťdesęty",
+          "pęťdesęto",
+          "pęťdesętų"
+        ],
+        "gen": [
+          "pęťdesętogo",
+          "pęťdesętoj"
+        ],
+        "loc": [
+          "pęťdesętom",
+          "pęťdesętoj"
+        ],
+        "dat": [
+          "pęťdesętomu",
+          "pęťdesętoj"
+        ],
+        "ins": [
+          "pęťdesętym",
+          "pęťdesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "pęťdesęti / pęťdesęte",
+          "pęťdesęte"
+        ],
+        "acc": [
+          "pęťdesętyh / pęťdesęte",
+          "pęťdesęte"
+        ],
+        "gen": [
+          "pęťdesętyh"
+        ],
+        "loc": [
+          "pęťdesętyh"
+        ],
+        "dat": [
+          "pęťdesętym"
+        ],
+        "ins": [
+          "pęťdesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęteraky",
+      "add": "",
+      "details": "num.diff."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "pęteraky",
+          "pęterako",
+          "pęteraka"
+        ],
+        "acc": [
+          "pęterakogo / pęteraky",
+          "pęterako",
+          "pęterakų"
+        ],
+        "gen": [
+          "pęterakogo",
+          "pęterakoj"
+        ],
+        "loc": [
+          "pęterakom",
+          "pęterakoj"
+        ],
+        "dat": [
+          "pęterakomu",
+          "pęterakoj"
+        ],
+        "ins": [
+          "pęterakym",
+          "pęterakojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "pęteraki / pęterake",
+          "pęterake"
+        ],
+        "acc": [
+          "pęterakyh / pęterake",
+          "pęterake"
+        ],
+        "gen": [
+          "pęterakyh"
+        ],
+        "loc": [
+          "pęterakyh"
+        ],
+        "dat": [
+          "pęterakym"
+        ],
+        "ins": [
+          "pęterakymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęterka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "pęterka",
+          "pęterky"
+        ],
+        "acc": [
+          "pęterkų",
+          "pęterky"
+        ],
+        "gen": [
+          "pęterky",
+          "pęterȯk"
+        ],
+        "loc": [
+          "pęterkě",
+          "pęterkah"
+        ],
+        "dat": [
+          "pęterkě",
+          "pęterkam"
+        ],
+        "ins": [
+          "pęterkojų",
+          "pęterkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęterny",
+      "add": "",
+      "details": "num.mult."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "pęterny",
+          "pęterno",
+          "pęterna"
+        ],
+        "acc": [
+          "pęternogo / pęterny",
+          "pęterno",
+          "pęternų"
+        ],
+        "gen": [
+          "pęternogo",
+          "pęternoj"
+        ],
+        "loc": [
+          "pęternom",
+          "pęternoj"
+        ],
+        "dat": [
+          "pęternomu",
+          "pęternoj"
+        ],
+        "ins": [
+          "pęternym",
+          "pęternojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "pęterni / pęterne",
+          "pęterne"
+        ],
+        "acc": [
+          "pęternyh / pęterne",
+          "pęterne"
+        ],
+        "gen": [
+          "pęternyh"
+        ],
+        "loc": [
+          "pęternyh"
+        ],
+        "dat": [
+          "pęternym"
+        ],
+        "ins": [
+          "pęternymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pętero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "pętero"
+        ],
+        "acc": [
+          "pęteryh / pętero"
+        ],
+        "gen": [
+          "pęteryh"
+        ],
+        "loc": [
+          "pęteryh"
+        ],
+        "dat": [
+          "pęterym"
+        ],
+        "ins": [
+          "pęterymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pętina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "pętina",
+          "pętiny"
+        ],
+        "acc": [
+          "pętinų",
+          "pętiny"
+        ],
+        "gen": [
+          "pętiny",
+          "pętin"
+        ],
+        "loc": [
+          "pętině",
+          "pętinah"
+        ],
+        "dat": [
+          "pętině",
+          "pętinam"
+        ],
+        "ins": [
+          "pętinojų",
+          "pętinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pętka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "pętka",
+          "pętky"
+        ],
+        "acc": [
+          "pętkų",
+          "pętky"
+        ],
+        "gen": [
+          "pętky",
+          "pętȯk"
+        ],
+        "loc": [
+          "pętkě",
+          "pętkah"
+        ],
+        "dat": [
+          "pętkě",
+          "pętkam"
+        ],
+        "ins": [
+          "pętkojų",
+          "pętkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pętnadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "pętnadsęť"
+        ],
+        "acc": [
+          "pętnadsęť"
+        ],
+        "gen": [
+          "pętnadsęti"
+        ],
+        "loc": [
+          "pętnadsęti"
+        ],
+        "dat": [
+          "pętnadsęti"
+        ],
+        "ins": [
+          "pętnadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pętnadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "pętnadsęty",
+          "pętnadsęto",
+          "pętnadsęta"
+        ],
+        "acc": [
+          "pętnadsętogo / pętnadsęty",
+          "pętnadsęto",
+          "pętnadsętų"
+        ],
+        "gen": [
+          "pętnadsętogo",
+          "pętnadsętoj"
+        ],
+        "loc": [
+          "pętnadsętom",
+          "pętnadsętoj"
+        ],
+        "dat": [
+          "pętnadsętomu",
+          "pętnadsętoj"
+        ],
+        "ins": [
+          "pętnadsętym",
+          "pętnadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "pętnadsęti / pętnadsęte",
+          "pętnadsęte"
+        ],
+        "acc": [
+          "pętnadsętyh / pętnadsęte",
+          "pętnadsęte"
+        ],
+        "gen": [
+          "pętnadsętyh"
+        ],
+        "loc": [
+          "pętnadsętyh"
+        ],
+        "dat": [
+          "pętnadsętym"
+        ],
+        "ins": [
+          "pętnadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęťsȯt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "pęťsȯt"
+        ],
+        "acc": [
+          "pęťsȯt"
+        ],
+        "gen": [
+          "pętisȯt"
+        ],
+        "loc": [
+          "pętistah"
+        ],
+        "dat": [
+          "pętistam"
+        ],
+        "ins": [
+          "pęťjųstami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęťsto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "pęťsto"
+        ],
+        "acc": [
+          "pęťsto"
+        ],
+        "gen": [
+          "pęťsto"
+        ],
+        "loc": [
+          "pęťsto"
+        ],
+        "dat": [
+          "pęťsto"
+        ],
+        "ins": [
+          "pęťsto"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "pęty",
+          "pęto",
+          "pęta"
+        ],
+        "acc": [
+          "pętogo / pęty",
+          "pęto",
+          "pętų"
+        ],
+        "gen": [
+          "pętogo",
+          "pętoj"
+        ],
+        "loc": [
+          "pętom",
+          "pętoj"
+        ],
+        "dat": [
+          "pętomu",
+          "pętoj"
+        ],
+        "ins": [
+          "pętym",
+          "pętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "pęti / pęte",
+          "pęte"
+        ],
+        "acc": [
+          "pętyh / pęte",
+          "pęte"
+        ],
+        "gen": [
+          "pętyh"
+        ],
+        "loc": [
+          "pętyh"
+        ],
+        "dat": [
+          "pętym"
+        ],
+        "ins": [
+          "pętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "pŕvy",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "pŕvy",
+          "pŕvo",
+          "pŕva"
+        ],
+        "acc": [
+          "pŕvogo / pŕvy",
+          "pŕvo",
+          "pŕvų"
+        ],
+        "gen": [
+          "pŕvogo",
+          "pŕvoj"
+        ],
+        "loc": [
+          "pŕvom",
+          "pŕvoj"
+        ],
+        "dat": [
+          "pŕvomu",
+          "pŕvoj"
+        ],
+        "ins": [
+          "pŕvym",
+          "pŕvojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "pŕvi / pŕve",
+          "pŕve"
+        ],
+        "acc": [
+          "pŕvyh / pŕve",
+          "pŕve"
+        ],
+        "gen": [
+          "pŕvyh"
+        ],
+        "loc": [
+          "pŕvyh"
+        ],
+        "dat": [
+          "pŕvym"
+        ],
+        "ins": [
+          "pŕvymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedm",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "sedm"
+        ],
+        "acc": [
+          "sedm"
+        ],
+        "gen": [
+          "sedmi"
+        ],
+        "loc": [
+          "sedmi"
+        ],
+        "dat": [
+          "sedmi"
+        ],
+        "ins": [
+          "sedmjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmdesęt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "sedmdesęt"
+        ],
+        "acc": [
+          "sedmdesęt"
+        ],
+        "gen": [
+          "sedmdesęti"
+        ],
+        "loc": [
+          "sedmdesęti"
+        ],
+        "dat": [
+          "sedmdesęti"
+        ],
+        "ins": [
+          "sedmdesętjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmdesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "sedmdesęty",
+          "sedmdesęto",
+          "sedmdesęta"
+        ],
+        "acc": [
+          "sedmdesętogo / sedmdesęty",
+          "sedmdesęto",
+          "sedmdesętų"
+        ],
+        "gen": [
+          "sedmdesętogo",
+          "sedmdesętoj"
+        ],
+        "loc": [
+          "sedmdesętom",
+          "sedmdesętoj"
+        ],
+        "dat": [
+          "sedmdesętomu",
+          "sedmdesętoj"
+        ],
+        "ins": [
+          "sedmdesętym",
+          "sedmdesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "sedmdesęti / sedmdesęte",
+          "sedmdesęte"
+        ],
+        "acc": [
+          "sedmdesętyh / sedmdesęte",
+          "sedmdesęte"
+        ],
+        "gen": [
+          "sedmdesętyh"
+        ],
+        "loc": [
+          "sedmdesętyh"
+        ],
+        "dat": [
+          "sedmdesętym"
+        ],
+        "ins": [
+          "sedmdesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmerka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmerka",
+          "sedmerky"
+        ],
+        "acc": [
+          "sedmerkų",
+          "sedmerky"
+        ],
+        "gen": [
+          "sedmerky",
+          "sedmerȯk"
+        ],
+        "loc": [
+          "sedmerkě",
+          "sedmerkah"
+        ],
+        "dat": [
+          "sedmerkě",
+          "sedmerkam"
+        ],
+        "ins": [
+          "sedmerkojų",
+          "sedmerkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmero"
+        ],
+        "acc": [
+          "sedmeryh / sedmero"
+        ],
+        "gen": [
+          "sedmeryh"
+        ],
+        "loc": [
+          "sedmeryh"
+        ],
+        "dat": [
+          "sedmerym"
+        ],
+        "ins": [
+          "sedmerymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmina",
+          "sedminy"
+        ],
+        "acc": [
+          "sedminų",
+          "sedminy"
+        ],
+        "gen": [
+          "sedminy",
+          "sedmin"
+        ],
+        "loc": [
+          "sedmině",
+          "sedminah"
+        ],
+        "dat": [
+          "sedmině",
+          "sedminam"
+        ],
+        "ins": [
+          "sedminojų",
+          "sedminami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmka",
+          "sedmky"
+        ],
+        "acc": [
+          "sedmkų",
+          "sedmky"
+        ],
+        "gen": [
+          "sedmky",
+          "sedmȯk"
+        ],
+        "loc": [
+          "sedmkě",
+          "sedmkah"
+        ],
+        "dat": [
+          "sedmkě",
+          "sedmkam"
+        ],
+        "ins": [
+          "sedmkojų",
+          "sedmkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmnadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "sedmnadsęť"
+        ],
+        "acc": [
+          "sedmnadsęť"
+        ],
+        "gen": [
+          "sedmnadsęti"
+        ],
+        "loc": [
+          "sedmnadsęti"
+        ],
+        "dat": [
+          "sedmnadsęti"
+        ],
+        "ins": [
+          "sedmnadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmnadsętina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmnadsętina",
+          "sedmnadsętiny"
+        ],
+        "acc": [
+          "sedmnadsętinų",
+          "sedmnadsętiny"
+        ],
+        "gen": [
+          "sedmnadsętiny",
+          "sedmnadsętin"
+        ],
+        "loc": [
+          "sedmnadsętině",
+          "sedmnadsętinah"
+        ],
+        "dat": [
+          "sedmnadsętině",
+          "sedmnadsętinam"
+        ],
+        "ins": [
+          "sedmnadsętinojų",
+          "sedmnadsętinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmnadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "sedmnadsęty",
+          "sedmnadsęto",
+          "sedmnadsęta"
+        ],
+        "acc": [
+          "sedmnadsętogo / sedmnadsęty",
+          "sedmnadsęto",
+          "sedmnadsętų"
+        ],
+        "gen": [
+          "sedmnadsętogo",
+          "sedmnadsętoj"
+        ],
+        "loc": [
+          "sedmnadsętom",
+          "sedmnadsętoj"
+        ],
+        "dat": [
+          "sedmnadsętomu",
+          "sedmnadsętoj"
+        ],
+        "ins": [
+          "sedmnadsętym",
+          "sedmnadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "sedmnadsęti / sedmnadsęte",
+          "sedmnadsęte"
+        ],
+        "acc": [
+          "sedmnadsętyh / sedmnadsęte",
+          "sedmnadsęte"
+        ],
+        "gen": [
+          "sedmnadsętyh"
+        ],
+        "loc": [
+          "sedmnadsętyh"
+        ],
+        "dat": [
+          "sedmnadsętym"
+        ],
+        "ins": [
+          "sedmnadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmsȯt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmsȯt"
+        ],
+        "acc": [
+          "sedmsȯt"
+        ],
+        "gen": [
+          "sedmsȯt"
+        ],
+        "loc": [
+          "sedmistah"
+        ],
+        "dat": [
+          "sedmistam"
+        ],
+        "ins": [
+          "sedmjųstami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmsto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sedmsto"
+        ],
+        "acc": [
+          "sedmsto"
+        ],
+        "gen": [
+          "sedmsto"
+        ],
+        "loc": [
+          "sedmsto"
+        ],
+        "dat": [
+          "sedmsto"
+        ],
+        "ins": [
+          "sedmsto"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sedmy",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "sedmy",
+          "sedmo",
+          "sedma"
+        ],
+        "acc": [
+          "sedmogo / sedmy",
+          "sedmo",
+          "sedmų"
+        ],
+        "gen": [
+          "sedmogo",
+          "sedmoj"
+        ],
+        "loc": [
+          "sedmom",
+          "sedmoj"
+        ],
+        "dat": [
+          "sedmomu",
+          "sedmoj"
+        ],
+        "ins": [
+          "sedmym",
+          "sedmojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "sedmi / sedme",
+          "sedme"
+        ],
+        "acc": [
+          "sedmyh / sedme",
+          "sedme"
+        ],
+        "gen": [
+          "sedmyh"
+        ],
+        "loc": [
+          "sedmyh"
+        ],
+        "dat": [
+          "sedmym"
+        ],
+        "ins": [
+          "sedmymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sȯtina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sȯtina",
+          "sȯtiny"
+        ],
+        "acc": [
+          "sȯtinų",
+          "sȯtiny"
+        ],
+        "gen": [
+          "sȯtiny",
+          "sȯtin"
+        ],
+        "loc": [
+          "sȯtině",
+          "sȯtinah"
+        ],
+        "dat": [
+          "sȯtině",
+          "sȯtinam"
+        ],
+        "ins": [
+          "sȯtinojų",
+          "sȯtinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sȯtny",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "sȯtny",
+          "sȯtno",
+          "sȯtna"
+        ],
+        "acc": [
+          "sȯtnogo / sȯtny",
+          "sȯtno",
+          "sȯtnų"
+        ],
+        "gen": [
+          "sȯtnogo",
+          "sȯtnoj"
+        ],
+        "loc": [
+          "sȯtnom",
+          "sȯtnoj"
+        ],
+        "dat": [
+          "sȯtnomu",
+          "sȯtnoj"
+        ],
+        "ins": [
+          "sȯtnym",
+          "sȯtnojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "sȯtni / sȯtne",
+          "sȯtne"
+        ],
+        "acc": [
+          "sȯtnyh / sȯtne",
+          "sȯtne"
+        ],
+        "gen": [
+          "sȯtnyh"
+        ],
+        "loc": [
+          "sȯtnyh"
+        ],
+        "dat": [
+          "sȯtnym"
+        ],
+        "ins": [
+          "sȯtnymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "sto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "sto",
+          "sta"
+        ],
+        "acc": [
+          "sto",
+          "sta"
+        ],
+        "gen": [
+          "sta",
+          "sȯt"
+        ],
+        "loc": [
+          "stu",
+          "stah"
+        ],
+        "dat": [
+          "stu",
+          "stam"
+        ],
+        "ins": [
+          "stom",
+          "stami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "stotina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "stotina",
+          "stotiny"
+        ],
+        "acc": [
+          "stotinų",
+          "stotiny"
+        ],
+        "gen": [
+          "stotiny",
+          "stotin"
+        ],
+        "loc": [
+          "stotině",
+          "stotinah"
+        ],
+        "dat": [
+          "stotině",
+          "stotinam"
+        ],
+        "ins": [
+          "stotinojų",
+          "stotinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "stoty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "stoty",
+          "stoto",
+          "stota"
+        ],
+        "acc": [
+          "stotogo / stoty",
+          "stoto",
+          "stotų"
+        ],
+        "gen": [
+          "stotogo",
+          "stotoj"
+        ],
+        "loc": [
+          "stotom",
+          "stotoj"
+        ],
+        "dat": [
+          "stotomu",
+          "stotoj"
+        ],
+        "ins": [
+          "stotym",
+          "stotojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "stoti / stote",
+          "stote"
+        ],
+        "acc": [
+          "stotyh / stote",
+          "stote"
+        ],
+        "gen": [
+          "stotyh"
+        ],
+        "loc": [
+          "stotyh"
+        ],
+        "dat": [
+          "stotym"
+        ],
+        "ins": [
+          "stotymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "šesť"
+        ],
+        "acc": [
+          "šesť"
+        ],
+        "gen": [
+          "šesti"
+        ],
+        "loc": [
+          "šesti"
+        ],
+        "dat": [
+          "šesti"
+        ],
+        "ins": [
+          "šesťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesťdesęt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "šesťdesęt"
+        ],
+        "acc": [
+          "šesťdesęt"
+        ],
+        "gen": [
+          "šesťdesęti"
+        ],
+        "loc": [
+          "šesťdesęti"
+        ],
+        "dat": [
+          "šesťdesęti"
+        ],
+        "ins": [
+          "šesťdesętjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesťdesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "šesťdesęty",
+          "šesťdesęto",
+          "šesťdesęta"
+        ],
+        "acc": [
+          "šesťdesętogo / šesťdesęty",
+          "šesťdesęto",
+          "šesťdesętų"
+        ],
+        "gen": [
+          "šesťdesętogo",
+          "šesťdesętoj"
+        ],
+        "loc": [
+          "šesťdesętom",
+          "šesťdesętoj"
+        ],
+        "dat": [
+          "šesťdesętomu",
+          "šesťdesętoj"
+        ],
+        "ins": [
+          "šesťdesętym",
+          "šesťdesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "šesťdesęti / šesťdesęte",
+          "šesťdesęte"
+        ],
+        "acc": [
+          "šesťdesętyh / šesťdesęte",
+          "šesťdesęte"
+        ],
+        "gen": [
+          "šesťdesętyh"
+        ],
+        "loc": [
+          "šesťdesętyh"
+        ],
+        "dat": [
+          "šesťdesętym"
+        ],
+        "ins": [
+          "šesťdesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesteraky",
+      "add": "",
+      "details": "num.diff."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "šesteraky",
+          "šesterako",
+          "šesteraka"
+        ],
+        "acc": [
+          "šesterakogo / šesteraky",
+          "šesterako",
+          "šesterakų"
+        ],
+        "gen": [
+          "šesterakogo",
+          "šesterakoj"
+        ],
+        "loc": [
+          "šesterakom",
+          "šesterakoj"
+        ],
+        "dat": [
+          "šesterakomu",
+          "šesterakoj"
+        ],
+        "ins": [
+          "šesterakym",
+          "šesterakojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "šesteraki / šesterake",
+          "šesterake"
+        ],
+        "acc": [
+          "šesterakyh / šesterake",
+          "šesterake"
+        ],
+        "gen": [
+          "šesterakyh"
+        ],
+        "loc": [
+          "šesterakyh"
+        ],
+        "dat": [
+          "šesterakym"
+        ],
+        "ins": [
+          "šesterakymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesterka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "šesterka",
+          "šesterky"
+        ],
+        "acc": [
+          "šesterkų",
+          "šesterky"
+        ],
+        "gen": [
+          "šesterky",
+          "šesterȯk"
+        ],
+        "loc": [
+          "šesterkě",
+          "šesterkah"
+        ],
+        "dat": [
+          "šesterkě",
+          "šesterkam"
+        ],
+        "ins": [
+          "šesterkojų",
+          "šesterkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesterny",
+      "add": "",
+      "details": "num.mult."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "šesterny",
+          "šesterno",
+          "šesterna"
+        ],
+        "acc": [
+          "šesternogo / šesterny",
+          "šesterno",
+          "šesternų"
+        ],
+        "gen": [
+          "šesternogo",
+          "šesternoj"
+        ],
+        "loc": [
+          "šesternom",
+          "šesternoj"
+        ],
+        "dat": [
+          "šesternomu",
+          "šesternoj"
+        ],
+        "ins": [
+          "šesternym",
+          "šesternojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "šesterni / šesterne",
+          "šesterne"
+        ],
+        "acc": [
+          "šesternyh / šesterne",
+          "šesterne"
+        ],
+        "gen": [
+          "šesternyh"
+        ],
+        "loc": [
+          "šesternyh"
+        ],
+        "dat": [
+          "šesternym"
+        ],
+        "ins": [
+          "šesternymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šestero",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "šestero"
+        ],
+        "acc": [
+          "šesteryh / šestero"
+        ],
+        "gen": [
+          "šesteryh"
+        ],
+        "loc": [
+          "šesteryh"
+        ],
+        "dat": [
+          "šesterym"
+        ],
+        "ins": [
+          "šesterymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šestina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "šestina",
+          "šestiny"
+        ],
+        "acc": [
+          "šestinų",
+          "šestiny"
+        ],
+        "gen": [
+          "šestiny",
+          "šestin"
+        ],
+        "loc": [
+          "šestině",
+          "šestinah"
+        ],
+        "dat": [
+          "šestině",
+          "šestinam"
+        ],
+        "ins": [
+          "šestinojų",
+          "šestinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šestka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "šestka",
+          "šestky"
+        ],
+        "acc": [
+          "šestkų",
+          "šestky"
+        ],
+        "gen": [
+          "šestky",
+          "šestȯk"
+        ],
+        "loc": [
+          "šestkě",
+          "šestkah"
+        ],
+        "dat": [
+          "šestkě",
+          "šestkam"
+        ],
+        "ins": [
+          "šestkojų",
+          "šestkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šestnadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "šestnadsęť"
+        ],
+        "acc": [
+          "šestnadsęť"
+        ],
+        "gen": [
+          "šestnadsęti"
+        ],
+        "loc": [
+          "šestnadsęti"
+        ],
+        "dat": [
+          "šestnadsęti"
+        ],
+        "ins": [
+          "šestnadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šestnadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "šestnadsęty",
+          "šestnadsęto",
+          "šestnadsęta"
+        ],
+        "acc": [
+          "šestnadsętogo / šestnadsęty",
+          "šestnadsęto",
+          "šestnadsętų"
+        ],
+        "gen": [
+          "šestnadsętogo",
+          "šestnadsętoj"
+        ],
+        "loc": [
+          "šestnadsętom",
+          "šestnadsętoj"
+        ],
+        "dat": [
+          "šestnadsętomu",
+          "šestnadsętoj"
+        ],
+        "ins": [
+          "šestnadsętym",
+          "šestnadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "šestnadsęti / šestnadsęte",
+          "šestnadsęte"
+        ],
+        "acc": [
+          "šestnadsętyh / šestnadsęte",
+          "šestnadsęte"
+        ],
+        "gen": [
+          "šestnadsętyh"
+        ],
+        "loc": [
+          "šestnadsętyh"
+        ],
+        "dat": [
+          "šestnadsętym"
+        ],
+        "ins": [
+          "šestnadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesťsȯt",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "šesťsȯt"
+        ],
+        "acc": [
+          "šesťsȯt"
+        ],
+        "gen": [
+          "šesťsȯt"
+        ],
+        "loc": [
+          "šestistah"
+        ],
+        "dat": [
+          "šestistam"
+        ],
+        "ins": [
+          "šesťjųstami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesťsto",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "šesťsto"
+        ],
+        "acc": [
+          "šesťsto"
+        ],
+        "gen": [
+          "šesťsto"
+        ],
+        "loc": [
+          "šesťsto"
+        ],
+        "dat": [
+          "šesťsto"
+        ],
+        "ins": [
+          "šesťsto"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "šesty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "šesty",
+          "šesto",
+          "šesta"
+        ],
+        "acc": [
+          "šestogo / šesty",
+          "šesto",
+          "šestų"
+        ],
+        "gen": [
+          "šestogo",
+          "šestoj"
+        ],
+        "loc": [
+          "šestom",
+          "šestoj"
+        ],
+        "dat": [
+          "šestomu",
+          "šestoj"
+        ],
+        "ins": [
+          "šestym",
+          "šestojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "šesti / šeste",
+          "šeste"
+        ],
+        "acc": [
+          "šestyh / šeste",
+          "šeste"
+        ],
+        "gen": [
+          "šestyh"
+        ],
+        "loc": [
+          "šestyh"
+        ],
+        "dat": [
+          "šestym"
+        ],
+        "ins": [
+          "šestymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tretina",
+      "add": "",
+      "details": "num.fract."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "tretina",
+          "tretiny"
+        ],
+        "acc": [
+          "tretinų",
+          "tretiny"
+        ],
+        "gen": [
+          "tretiny",
+          "tretin"
+        ],
+        "loc": [
+          "tretině",
+          "tretinah"
+        ],
+        "dat": [
+          "tretině",
+          "tretinam"
+        ],
+        "ins": [
+          "tretinojų",
+          "tretinami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "treťji",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "treťji",
+          "treťje",
+          "treťja"
+        ],
+        "acc": [
+          "treťjego / treťji",
+          "treťje",
+          "treťjų"
+        ],
+        "gen": [
+          "treťjego",
+          "treťjej"
+        ],
+        "loc": [
+          "treťjem",
+          "treťjej"
+        ],
+        "dat": [
+          "treťjemu",
+          "treťjej"
+        ],
+        "ins": [
+          "treťjim",
+          "treťjejų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "treťji / treťje",
+          "treťje"
+        ],
+        "acc": [
+          "treťjih / treťje",
+          "treťje"
+        ],
+        "gen": [
+          "treťjih"
+        ],
+        "loc": [
+          "treťjih"
+        ],
+        "dat": [
+          "treťjim"
+        ],
+        "ins": [
+          "treťjimi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tri",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "tri"
+        ],
+        "acc": [
+          "trěh / tri"
+        ],
+        "gen": [
+          "trěh"
+        ],
+        "loc": [
+          "trěh"
+        ],
+        "dat": [
+          "trěm"
+        ],
+        "ins": [
+          "trěmi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tridesęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "tridesęť"
+        ],
+        "acc": [
+          "tridesęť"
+        ],
+        "gen": [
+          "tridesęti"
+        ],
+        "loc": [
+          "tridesęti"
+        ],
+        "dat": [
+          "tridesęti"
+        ],
+        "ins": [
+          "tridesęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tridesęti",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": null
+  },
+  {
+    "init": {
+      "word": "tridesęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "tridesęty",
+          "tridesęto",
+          "tridesęta"
+        ],
+        "acc": [
+          "tridesętogo / tridesęty",
+          "tridesęto",
+          "tridesętų"
+        ],
+        "gen": [
+          "tridesętogo",
+          "tridesętoj"
+        ],
+        "loc": [
+          "tridesętom",
+          "tridesętoj"
+        ],
+        "dat": [
+          "tridesętomu",
+          "tridesętoj"
+        ],
+        "ins": [
+          "tridesętym",
+          "tridesętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "tridesęti / tridesęte",
+          "tridesęte"
+        ],
+        "acc": [
+          "tridesętyh / tridesęte",
+          "tridesęte"
+        ],
+        "gen": [
+          "tridesętyh"
+        ],
+        "loc": [
+          "tridesętyh"
+        ],
+        "dat": [
+          "tridesętym"
+        ],
+        "ins": [
+          "tridesętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "trinadsęť",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular"
+      ],
+      "cases": {
+        "nom": [
+          "trinadsęť"
+        ],
+        "acc": [
+          "trinadsęť"
+        ],
+        "gen": [
+          "trinadsęti"
+        ],
+        "loc": [
+          "trinadsęti"
+        ],
+        "dat": [
+          "trinadsęti"
+        ],
+        "ins": [
+          "trinadsęťjų"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "trinadsęty",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "trinadsęty",
+          "trinadsęto",
+          "trinadsęta"
+        ],
+        "acc": [
+          "trinadsętogo / trinadsęty",
+          "trinadsęto",
+          "trinadsętų"
+        ],
+        "gen": [
+          "trinadsętogo",
+          "trinadsętoj"
+        ],
+        "loc": [
+          "trinadsętom",
+          "trinadsętoj"
+        ],
+        "dat": [
+          "trinadsętomu",
+          "trinadsętoj"
+        ],
+        "ins": [
+          "trinadsętym",
+          "trinadsętojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "trinadsęti / trinadsęte",
+          "trinadsęte"
+        ],
+        "acc": [
+          "trinadsętyh / trinadsęte",
+          "trinadsęte"
+        ],
+        "gen": [
+          "trinadsętyh"
+        ],
+        "loc": [
+          "trinadsętyh"
+        ],
+        "dat": [
+          "trinadsętym"
+        ],
+        "ins": [
+          "trinadsętymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "trista",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "trista"
+        ],
+        "acc": [
+          "trista"
+        ],
+        "gen": [
+          "trěhsȯt"
+        ],
+        "loc": [
+          "trěhstah"
+        ],
+        "dat": [
+          "trěmstam"
+        ],
+        "ins": [
+          "trěmistami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tristo",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "tristo"
+        ],
+        "acc": [
+          "tristo"
+        ],
+        "gen": [
+          "tristo"
+        ],
+        "loc": [
+          "tristo"
+        ],
+        "dat": [
+          "tristo"
+        ],
+        "ins": [
+          "tristo"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "trojaky",
+      "add": "",
+      "details": "num.diff."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "trojaky",
+          "trojako",
+          "trojaka"
+        ],
+        "acc": [
+          "trojakogo / trojaky",
+          "trojako",
+          "trojakų"
+        ],
+        "gen": [
+          "trojakogo",
+          "trojakoj"
+        ],
+        "loc": [
+          "trojakom",
+          "trojakoj"
+        ],
+        "dat": [
+          "trojakomu",
+          "trojakoj"
+        ],
+        "ins": [
+          "trojakym",
+          "trojakojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "trojaki / trojake",
+          "trojake"
+        ],
+        "acc": [
+          "trojakyh / trojake",
+          "trojake"
+        ],
+        "gen": [
+          "trojakyh"
+        ],
+        "loc": [
+          "trojakyh"
+        ],
+        "dat": [
+          "trojakym"
+        ],
+        "ins": [
+          "trojakymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "troje",
+      "add": "",
+      "details": "num.coll."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "troje"
+        ],
+        "acc": [
+          "trojih / troje"
+        ],
+        "gen": [
+          "trojih"
+        ],
+        "loc": [
+          "trojih"
+        ],
+        "dat": [
+          "trojim"
+        ],
+        "ins": [
+          "trojimi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "trojka",
+      "add": "",
+      "details": "num.subst."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular",
+        "plural"
+      ],
+      "cases": {
+        "nom": [
+          "trojka",
+          "trojky"
+        ],
+        "acc": [
+          "trojkų",
+          "trojky"
+        ],
+        "gen": [
+          "trojky",
+          "trojek"
+        ],
+        "loc": [
+          "trojkě",
+          "trojkah"
+        ],
+        "dat": [
+          "trojkě",
+          "trojkam"
+        ],
+        "ins": [
+          "trojkojų",
+          "trojkami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "trojny",
+      "add": "",
+      "details": "num.mult."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "trojny",
+          "trojno",
+          "trojna"
+        ],
+        "acc": [
+          "trojnogo / trojny",
+          "trojno",
+          "trojnų"
+        ],
+        "gen": [
+          "trojnogo",
+          "trojnoj"
+        ],
+        "loc": [
+          "trojnom",
+          "trojnoj"
+        ],
+        "dat": [
+          "trojnomu",
+          "trojnoj"
+        ],
+        "ins": [
+          "trojnym",
+          "trojnojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "trojni / trojne",
+          "trojne"
+        ],
+        "acc": [
+          "trojnyh / trojne",
+          "trojne"
+        ],
+        "gen": [
+          "trojnyh"
+        ],
+        "loc": [
+          "trojnyh"
+        ],
+        "dat": [
+          "trojnym"
+        ],
+        "ins": [
+          "trojnymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tysęć",
+      "add": "",
+      "details": "num.card."
+    },
+    "expected": {
+      "type": "noun",
+      "columns": [
+        "singular (m./f.)",
+        "plural (m./f.)"
+      ],
+      "cases": {
+        "nom": [
+          "tysęć",
+          "tysęće / tysęći"
+        ],
+        "acc": [
+          "tysęć",
+          "tysęće / tysęći"
+        ],
+        "gen": [
+          "tysęća / tysęći",
+          "tysęćev / tysęćij"
+        ],
+        "loc": [
+          "tysęću / tysęći",
+          "tysęćah"
+        ],
+        "dat": [
+          "tysęću / tysęći",
+          "tysęćam"
+        ],
+        "ins": [
+          "tysęćem / tysęćjų",
+          "tysęćami"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "tysęčny",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "tysęčny",
+          "tysęčno",
+          "tysęčna"
+        ],
+        "acc": [
+          "tysęčnogo / tysęčny",
+          "tysęčno",
+          "tysęčnų"
+        ],
+        "gen": [
+          "tysęčnogo",
+          "tysęčnoj"
+        ],
+        "loc": [
+          "tysęčnom",
+          "tysęčnoj"
+        ],
+        "dat": [
+          "tysęčnomu",
+          "tysęčnoj"
+        ],
+        "ins": [
+          "tysęčnym",
+          "tysęčnojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "tysęčni / tysęčne",
+          "tysęčne"
+        ],
+        "acc": [
+          "tysęčnyh / tysęčne",
+          "tysęčne"
+        ],
+        "gen": [
+          "tysęčnyh"
+        ],
+        "loc": [
+          "tysęčnyh"
+        ],
+        "dat": [
+          "tysęčnym"
+        ],
+        "ins": [
+          "tysęčnymi"
+        ]
+      }
+    }
+  },
+  {
+    "init": {
+      "word": "vtory",
+      "add": "",
+      "details": "num.ord."
+    },
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "vtory",
+          "vtoro",
+          "vtora"
+        ],
+        "acc": [
+          "vtorogo / vtory",
+          "vtoro",
+          "vtorų"
+        ],
+        "gen": [
+          "vtorogo",
+          "vtoroj"
+        ],
+        "loc": [
+          "vtorom",
+          "vtoroj"
+        ],
+        "dat": [
+          "vtoromu",
+          "vtoroj"
+        ],
+        "ins": [
+          "vtorym",
+          "vtorojų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "vtori / vtore",
+          "vtore"
+        ],
+        "acc": [
+          "vtoryh / vtore",
+          "vtore"
+        ],
+        "gen": [
+          "vtoryh"
+        ],
+        "loc": [
+          "vtoryh"
+        ],
+        "dat": [
+          "vtorym"
+        ],
+        "ins": [
+          "vtorymi"
+        ]
+      }
+    }
+  }
+]

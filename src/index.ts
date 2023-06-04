@@ -1,8 +1,12 @@
 /*
- * @interslavic/steen-utils
+ * @interslavic/utils
  */
 
-export * as core from './core';
-export { default as transliterate } from './transliterate';
-export * as parse from './parse';
-export * as types from './types';
+export * from './adjective';
+export * from './constants';
+export * from './noun';
+export * from './numeral';
+export * from './partOfSpeech';
+export * from './pronoun';
+export * from './transliterate';
+export * from './verb';

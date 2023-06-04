@@ -4,17 +4,36 @@ import {
   TransliterationType,
 } from './transliterate';
 
-import { BCP47Interslavic } from '../types';
+import { FlavorisationBCP47Code } from '../constants';
 
-function transliterate(text: string, lang: BCP47Interslavic): string;
-function transliterate(text: string, lang: string): string;
-function transliterate(text: string, lang: string): string {
+export function transliterate(
+  text: string,
+  lang: FlavorisationBCP47Code,
+): string {
   switch (lang) {
+    case 'art-Latn-x-interslv':
+      return _transliterate(
+        text,
+        TransliterationType.Latin,
+        FlavorizationType.Standard,
+      );
     case 'art-Cyrl-x-interslv':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
         FlavorizationType.Standard,
+      );
+    case 'art-Glag-x-interslv':
+      return _transliterate(
+        text,
+        TransliterationType.Glagolitic,
+        FlavorizationType.Etymological,
+      );
+    case 'art-x-interslv-fonipa':
+      return _transliterate(
+        text,
+        TransliterationType.IPA,
+        FlavorizationType.Etymological,
       );
     case 'art-Cyrl-x-interslv-etym':
       return _transliterate(
@@ -52,12 +71,6 @@ function transliterate(text: string, lang: string): string {
         TransliterationType.StandardCyrillic,
         FlavorizationType.Southern,
       );
-    case 'art-Glag-x-interslv':
-      return _transliterate(
-        text,
-        TransliterationType.Glagolitic,
-        FlavorizationType.Etymological,
-      );
     case 'art-Glag-x-interslv-southern':
       return _transliterate(
         text,
@@ -75,12 +88,6 @@ function transliterate(text: string, lang: string): string {
         text,
         TransliterationType.Polish,
         FlavorizationType.Etymological,
-      );
-    case 'art-Latn-x-interslv':
-      return _transliterate(
-        text,
-        TransliterationType.Latin,
-        FlavorizationType.Standard,
       );
     case 'art-Latn-x-interslv-ascii':
       return _transliterate(
@@ -112,17 +119,9 @@ function transliterate(text: string, lang: string): string {
         TransliterationType.Latin,
         FlavorizationType.Southern,
       );
-    case 'art-x-interslv-fonipa':
-      return _transliterate(
-        text,
-        TransliterationType.IPA,
-        FlavorizationType.Etymological,
-      );
     case 'art-x-interslv':
       return text;
     default:
-      throw new TypeError(`Unsupported language tag: ${lang}`);
+      throw new TypeError(`Unsupported IETF BCP47 tag: ${lang}`);
   }
 }
-
-export default transliterate;

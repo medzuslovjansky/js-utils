@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`parseVoteStatus should throw given an unknown value: "A" 1`] = `"Failed to parse vote status: A"`;
-
-exports[`parseVoteStatus should throw given an unknown value: 100 1`] = `"Failed to parse vote status: 100"`;
-
-exports[`parseVoteStatus should throw given an unknown value: null 1`] = `"Failed to parse vote status: null"`;

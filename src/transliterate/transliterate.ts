@@ -1,3 +1,5 @@
+import { Glagolitic } from '../constants';
+
 export enum TransliterationType {
   Latin = 1,
   ASCII = 2,
@@ -377,54 +379,6 @@ function transliterateWord(
       iW = iW.replace(/#/g, '’');
     }
   } else if (type == 7) {
-    const GL_AZU = 'ⰰ';
-    const GL_BUKY = 'ⰱ';
-    const GL_VEDE = 'ⰲ';
-    const GL_GLAGOLI = 'ⰳ';
-    const GL_DOBRO = 'ⰴ';
-    const GL_YESTU = 'ⰵ';
-    const GL_ZHIVETE = 'ⰶ';
-    // const GL_DZELO = 'ⰷ';
-    const GL_ZEMLJA = 'ⰸ';
-    const GL_IZHE = 'ⰹ';
-    // const GL_INITIAL_IZHE = 'ⰺ';
-    const GL_I = 'ⰻ';
-    const GL_DJERVI = 'ⰼ';
-    const GL_KAKO = 'ⰽ';
-    const GL_LJUDIJE = 'ⰾ';
-    // const GL_MYSLITE = 'ⰿ';
-    const GL_NASHI = 'ⱀ';
-    const GL_ONU = 'ⱁ';
-    const GL_POKOJI = 'ⱂ';
-    const GL_RITSI = 'ⱃ';
-    const GL_SLOVO = 'ⱄ';
-    const GL_TVRIDO = 'ⱅ';
-    const GL_UKU = 'ⱆ';
-    const GL_FRITU = 'ⱇ';
-    const GL_HERU = 'ⱈ';
-    const GL_OTU = 'ⱉ';
-    // const GL_PE = 'ⱊ';
-    const GL_SHTA = 'ⱋ';
-    const GL_TSI = 'ⱌ';
-    const GL_CHRIVI = 'ⱍ';
-    const GL_SHA = 'ⱎ';
-    const GL_YERU = 'ⱏ';
-    const GL_YERI = 'ⱐ';
-    const GL_YATI = 'ⱑ';
-    // const GL_SPIDERY_HA = 'ⱒ';
-    const GL_YU = 'ⱓ';
-    const GL_SMALL_YUS = 'ⱔ';
-    // const GL_SMALL_YUS_WITH_TAIL = 'ⱕ';
-    const GL_YO = 'ⱖ';
-    const GL_IOTATED_SMALL_YUS = 'ⱗ';
-    const GL_BIG_YUS = 'ⱘ';
-    const GL_IOTATED_BIG_YUS = 'ⱙ';
-    // const GL_FITA = 'ⱚ';
-    // const GL_IZHITSA = 'ⱛ';
-    // const GL_SHTAPIC = 'ⱜ';
-    const GL_TROKUTASTI_A = 'ⱝ';
-    const GL_LATINATE_MYSLITE = 'ⱞ';
-
     iW = iW.replace(/ı/g, '');
     iW = iW.replace(/ṙ/g, 'r');
     iW = iW.replace(/ř/g, 'ŕ');
@@ -446,67 +400,76 @@ function transliterateWord(
     iW = iW.replace(/ď/g, 'dь');
     iW = iW.replace(/ś/g, 'sь');
     iW = iW.replace(/ź/g, 'zь');
-    iW = iW.replace(/([ln])ьę/g, '$1' + GL_IOTATED_SMALL_YUS);
-    iW = iW.replace(/([ln])ьų/g, '$1' + GL_IOTATED_BIG_YUS);
-    iW = iW.replace(/([dzrstln])ьu/g, '$1' + GL_YU);
-    iW = iW.replace(/([dzrstln])ьa/g, '$1' + GL_TROKUTASTI_A);
-    iW = iW.replace(/([dzrstln])ьje/g, '$1' + GL_YERI + GL_YESTU);
-    iW = iW.replace(/([dzrstln])ьję/g, '$1' + GL_IOTATED_SMALL_YUS);
-    iW = iW.replace(/([dzrstln])ьji/g, '$1' + GL_IZHE + GL_I);
-    iW = iW.replace(/([dzrstln])ьju/g, '$1' + GL_YERI + GL_YU);
-    iW = iW.replace(/([dzrstln])ьjų/g, '$1' + GL_IOTATED_BIG_YUS);
-    iW = iW.replace(/([dzrstln])ьja/g, '$1' + GL_YERI + GL_TROKUTASTI_A);
-    iW = iW.replace(/([dzrstln])ьjo/g, '$1' + GL_YO);
+    iW = iW.replace(/([ln])ьę/g, '$1' + Glagolitic.Iotated_Small_Yus);
+    iW = iW.replace(/([ln])ьų/g, '$1' + Glagolitic.Iotated_Big_Yus);
+    iW = iW.replace(/([dzrstln])ьu/g, '$1' + Glagolitic.Yu);
+    iW = iW.replace(/([dzrstln])ьa/g, '$1' + Glagolitic.Trokutasti_A);
+    iW = iW.replace(
+      /([dzrstln])ьje/g,
+      '$1' + Glagolitic.Yeri + Glagolitic.Yestu,
+    );
+    iW = iW.replace(/([dzrstln])ьję/g, '$1' + Glagolitic.Iotated_Small_Yus);
+    iW = iW.replace(/([dzrstln])ьji/g, '$1' + Glagolitic.Izhe + Glagolitic.I);
+    iW = iW.replace(/([dzrstln])ьju/g, '$1' + Glagolitic.Yeri + Glagolitic.Yu);
+    iW = iW.replace(/([dzrstln])ьjų/g, '$1' + Glagolitic.Iotated_Big_Yus);
+    iW = iW.replace(
+      /([dzrstln])ьja/g,
+      '$1' + Glagolitic.Yeri + Glagolitic.Trokutasti_A,
+    );
+    iW = iW.replace(/([dzrstln])ьjo/g, '$1' + Glagolitic.Yo);
 
-    iW = iW.replace(/([%aeėioȯuyąęųåěê])jo/g, '$1' + GL_IZHE + GL_ONU);
+    iW = iW.replace(
+      /([%aeėioȯuyąęųåěê])jo/g,
+      '$1' + Glagolitic.Izhe + Glagolitic.Onu,
+    );
 
-    iW = iW.replace(/je/g, GL_IZHE + GL_YESTU);
-    iW = iW.replace(/ję/g, GL_IOTATED_SMALL_YUS);
-    iW = iW.replace(/ji/g, GL_IZHE + GL_I);
-    iW = iW.replace(/ju/g, GL_YU);
-    iW = iW.replace(/jų/g, GL_IOTATED_BIG_YUS);
-    iW = iW.replace(/ja/g, GL_TROKUTASTI_A);
-    iW = iW.replace(/jo/g, GL_YO);
+    iW = iW.replace(/je/g, Glagolitic.Izhe + Glagolitic.Yestu);
+    iW = iW.replace(/ję/g, Glagolitic.Iotated_Small_Yus);
+    iW = iW.replace(/ji/g, Glagolitic.Izhe + Glagolitic.I);
+    iW = iW.replace(/ju/g, Glagolitic.Yu);
+    iW = iW.replace(/jų/g, Glagolitic.Iotated_Big_Yus);
+    iW = iW.replace(/ja/g, Glagolitic.Trokutasti_A);
+    iW = iW.replace(/jo/g, Glagolitic.Yo);
 
-    iW = iW.replace(/lj/g, GL_LJUDIJE + GL_YERI);
-    iW = iW.replace(/nj/g, GL_NASHI + GL_YERI);
-    iW = iW.replace(/(šč|šć)/g, GL_SHTA);
-    iW = iW.replace(/a/g, GL_AZU);
-    iW = iW.replace(/å/g, GL_OTU);
-    iW = iW.replace(/b/g, GL_BUKY);
-    iW = iW.replace(/c/g, GL_TSI);
-    iW = iW.replace(/ć/g, GL_SHTA);
-    iW = iW.replace(/č/g, GL_CHRIVI);
-    iW = iW.replace(/[dḓ]/g, GL_DOBRO);
-    iW = iW.replace(/dž/g, GL_DOBRO + GL_ZHIVETE);
-    iW = iW.replace(/đ/g, GL_DJERVI);
-    iW = iW.replace(/[eė]/g, GL_YESTU);
-    iW = iW.replace(/ę/g, GL_SMALL_YUS);
-    iW = iW.replace(/[êě]/g, GL_YATI);
-    iW = iW.replace(/f/g, GL_FRITU);
-    iW = iW.replace(/g/g, GL_GLAGOLI);
-    iW = iW.replace(/h/g, GL_HERU);
-    iW = iW.replace(/i/g, GL_I);
-    iW = iW.replace(/j/g, GL_IZHE);
-    iW = iW.replace(/k/g, GL_KAKO);
-    iW = iW.replace(/l/g, GL_LJUDIJE);
-    iW = iW.replace(/m/g, GL_LATINATE_MYSLITE);
-    iW = iW.replace(/n/g, GL_NASHI);
-    iW = iW.replace(/o/g, GL_ONU);
-    iW = iW.replace(/ȯ/g, GL_YERU);
-    iW = iW.replace(/p/g, GL_POKOJI);
-    iW = iW.replace(/[rṙ]/g, GL_RITSI);
-    iW = iW.replace(/s/g, GL_SLOVO);
-    iW = iW.replace(/š/g, GL_SHA);
-    iW = iW.replace(/[tṱ]/g, GL_TVRIDO);
-    iW = iW.replace(/u/g, GL_UKU);
-    iW = iW.replace(/ų/g, GL_BIG_YUS);
-    iW = iW.replace(/[vŭ]/g, GL_VEDE);
-    iW = iW.replace(/y/g, GL_YERI + GL_IZHE);
-    iW = iW.replace(/z/g, GL_ZEMLJA);
-    iW = iW.replace(/ž/g, GL_ZHIVETE);
-    iW = iW.replace(/ь/g, GL_YERI);
-    iW = iW.replace(/[’#]/g, GL_YERU);
+    iW = iW.replace(/lj/g, Glagolitic.Ljudije + Glagolitic.Yeri);
+    iW = iW.replace(/nj/g, Glagolitic.Nashi + Glagolitic.Yeri);
+    iW = iW.replace(/(šč|šć)/g, Glagolitic.Shta);
+    iW = iW.replace(/a/g, Glagolitic.Azu);
+    iW = iW.replace(/å/g, Glagolitic.Otu);
+    iW = iW.replace(/b/g, Glagolitic.Buky);
+    iW = iW.replace(/c/g, Glagolitic.Tsi);
+    iW = iW.replace(/ć/g, Glagolitic.Shta);
+    iW = iW.replace(/č/g, Glagolitic.Chrivi);
+    iW = iW.replace(/[dḓ]/g, Glagolitic.Dobro);
+    iW = iW.replace(/dž/g, Glagolitic.Dobro + Glagolitic.Zhivete);
+    iW = iW.replace(/đ/g, Glagolitic.Djervi);
+    iW = iW.replace(/[eė]/g, Glagolitic.Yestu);
+    iW = iW.replace(/ę/g, Glagolitic.Small_Yus);
+    iW = iW.replace(/[êě]/g, Glagolitic.Yati);
+    iW = iW.replace(/f/g, Glagolitic.Fritu);
+    iW = iW.replace(/g/g, Glagolitic.Glagoli);
+    iW = iW.replace(/h/g, Glagolitic.Heru);
+    iW = iW.replace(/i/g, Glagolitic.I);
+    iW = iW.replace(/j/g, Glagolitic.Izhe);
+    iW = iW.replace(/k/g, Glagolitic.Kako);
+    iW = iW.replace(/l/g, Glagolitic.Ljudije);
+    iW = iW.replace(/m/g, Glagolitic.Latinate_Myslite);
+    iW = iW.replace(/n/g, Glagolitic.Nashi);
+    iW = iW.replace(/o/g, Glagolitic.Onu);
+    iW = iW.replace(/ȯ/g, Glagolitic.Yeru);
+    iW = iW.replace(/p/g, Glagolitic.Pokoji);
+    iW = iW.replace(/[rṙ]/g, Glagolitic.Ritsi);
+    iW = iW.replace(/s/g, Glagolitic.Slovo);
+    iW = iW.replace(/š/g, Glagolitic.Sha);
+    iW = iW.replace(/[tṱ]/g, Glagolitic.Tvrido);
+    iW = iW.replace(/u/g, Glagolitic.Uku);
+    iW = iW.replace(/ų/g, Glagolitic.Big_Yus);
+    iW = iW.replace(/[vŭ]/g, Glagolitic.Vedi);
+    iW = iW.replace(/y/g, Glagolitic.Yeri + Glagolitic.Izhe);
+    iW = iW.replace(/z/g, Glagolitic.Zemlja);
+    iW = iW.replace(/ž/g, Glagolitic.Zhivete);
+    iW = iW.replace(/ь/g, Glagolitic.Yeri);
+    iW = iW.replace(/[’#]/g, Glagolitic.Yeru);
     iW = iW.replace(/`/g, '’');
   } else if (type == 10) {
     /* IPA */
