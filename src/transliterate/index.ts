@@ -27,7 +27,7 @@ export function transliterate(
       return _transliterate(
         text,
         TransliterationType.Glagolitic,
-        FlavorizationType.Etymological,
+        FlavorizationType.Standard,
       );
     case 'art-x-interslv-fonipa':
       return _transliterate(
@@ -35,10 +35,22 @@ export function transliterate(
         TransliterationType.IPA,
         FlavorizationType.Etymological,
       );
+    case 'art-Latn-x-interslv-etym':
+      return _transliterate(
+        text,
+        TransliterationType.Latin,
+        FlavorizationType.Etymological,
+      );
     case 'art-Cyrl-x-interslv-etym':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
+        FlavorizationType.Etymological,
+      );
+    case 'art-Glag-x-interslv-etym':
+      return _transliterate(
+        text,
+        TransliterationType.Glagolitic,
         FlavorizationType.Etymological,
       );
     case 'art-Cyrl-x-interslv-iotated':
@@ -71,18 +83,6 @@ export function transliterate(
         TransliterationType.StandardCyrillic,
         FlavorizationType.Southern,
       );
-    case 'art-Glag-x-interslv-southern':
-      return _transliterate(
-        text,
-        TransliterationType.Glagolitic,
-        FlavorizationType.Southern,
-      );
-    case 'art-Glag-x-interslv-sloviant':
-      return _transliterate(
-        text,
-        TransliterationType.Glagolitic,
-        FlavorizationType.Slovianto,
-      );
     case 'art-Latn-PL-x-interslv':
       return _transliterate(
         text,
@@ -94,12 +94,6 @@ export function transliterate(
         text,
         TransliterationType.ASCII,
         FlavorizationType.Standard,
-      );
-    case 'art-Latn-x-interslv-etym':
-      return _transliterate(
-        text,
-        TransliterationType.Latin,
-        FlavorizationType.Etymological,
       );
     case 'art-Latn-x-interslv-northern':
       return _transliterate(
@@ -118,6 +112,24 @@ export function transliterate(
         text,
         TransliterationType.Latin,
         FlavorizationType.Southern,
+      );
+    case 'art-Glag-x-interslv-northern':
+      return _transliterate(
+        text,
+        TransliterationType.Glagolitic,
+        FlavorizationType.Northern,
+      );
+    case 'art-Glag-x-interslv-southern':
+      return _transliterate(
+        text,
+        TransliterationType.Glagolitic,
+        FlavorizationType.Southern,
+      );
+    case 'art-Glag-x-interslv-sloviant':
+      return _transliterate(
+        text,
+        TransliterationType.Glagolitic,
+        FlavorizationType.Slovianto,
       );
     case 'art-x-interslv':
       return text;
