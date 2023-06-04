@@ -1,6 +1,6 @@
 {
   "entryPoints": ["src/index.ts"],
   "out": "dist/docs",
-  "name": "@interslavic/steen-utils",
+  "name": "@interslavic/utils",
   "hideGenerator": true
 }

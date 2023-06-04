@@ -1,7 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`parseGenesis should throw given an unknown value: "Ar" 1`] = `"Failed to parse word genesis: Ar"`;
-
-exports[`parseGenesis should throw given an unknown value: "unknown" 1`] = `"Failed to parse word genesis: unknown"`;
-
-exports[`parseGenesis should throw given an unknown value: null 1`] = `"Failed to parse word genesis: null"`;

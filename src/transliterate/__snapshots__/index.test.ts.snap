@@ -133,4 +133,4 @@ kɔɲi rʲɛkli: «sɫuʃaj, ɔvt͡sɔ, nam bɔli sʲǝrdt͡sɛ, kəgda vidimɔ 
 usɫɪʃavʃi tɔ, ɔvt͡sa izbjɛgɫa v rɒvninʊ. | ɔdjɛzd."
 `;
 
-exports[`abcd unknown code 1`] = `"Unsupported language tag: en"`;
+exports[`abcd unknown code 1`] = `"Unsupported IETF BCP47 tag: en"`;
