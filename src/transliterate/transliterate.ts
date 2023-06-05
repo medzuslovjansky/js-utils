@@ -45,7 +45,7 @@ function transliterateWord(
   //symbol % marks the borders of the %word%
   iW = '%' + iW + '%';
   let OrigW = iW;
-  iW = iW.toLowerCase();
+  iW = nmsify(iW.toLowerCase());
   iW = iW.replace(/ľ/g, 'ĺ');
   iW = iW.replace(/ň/g, 'ń');
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
@@ -604,4 +604,128 @@ function jgedoe(iW: string) {
     result += resC;
   }
   return result;
+}
+
+function nmsify(iW: string) {
+  return (
+    iW
+      .replace(/[яꙗ]/g, '#a')
+      .replace(/ьа/g, '#a')
+      .replace(/ѥ/g, '#e')
+      .replace(/ье/g, '#e')
+      .replace(/ї/g, '#i')
+      .replace(/ьи/g, '#i')
+      .replace(/ё/g, '#o')
+      .replace(/ьо/g, '#o')
+      .replace(/ю/g, '#u')
+      .replace(/ьу/g, '#u')
+      .replace(/ѩ/g, '#ę')
+      .replace(/ьѧ/g, '#ę')
+      .replace(/ѭ/g, '#ų')
+      .replace(/ьѫ/g, '#ų')
+      .replace(/нь/g, 'ń')
+      .replace(/н#/g, 'nj')
+      .replace(/њ/g, 'nj')
+      .replace(/ль/g, 'ĺ')
+      .replace(/л#/g, 'lj')
+      .replace(/љ/g, 'lj')
+      .replace(/рь/g, 'ŕ')
+      .replace(/р#/g, 'ŕ')
+      .replace(/ть/g, 'ť')
+      .replace(/т#/g, 'ť')
+      .replace(/дь/g, 'ď')
+      .replace(/д#/g, 'ď')
+      .replace(/сь/g, 'ś')
+      .replace(/с#/g, 'ś')
+      .replace(/зь/g, 'ź')
+      .replace(/з#/g, 'ź')
+      .replace(/ь%/g, '%')
+      .replace(/[ђѓ]/g, 'đ')
+      .replace(/[ћќ]/g, 'ć')
+      .replace(/ѕ/g, 'dz')
+      .replace(/џ/g, 'dž')
+      .replace(/а/g, 'a')
+      .replace(/б/g, 'b')
+      .replace(/в/g, 'v')
+      .replace(/[гґ]/g, 'g')
+      .replace(/д/g, 'd')
+      .replace(/[еэ]/g, 'e')
+      .replace(/[єѣ]/g, 'ě')
+      .replace(/ж/g, 'ž')
+      .replace(/[зꙁꙀ]/g, 'z')
+      .replace(/[иіѵѷ]/g, 'i')
+      .replace(/[йјь#]/g, 'j')
+      .replace(/к/g, 'k')
+      .replace(/л/g, 'l')
+      .replace(/м/g, 'm')
+      .replace(/н/g, 'n')
+      .replace(/[оѡ]/g, 'o')
+      .replace(/п/g, 'p')
+      .replace(/р/g, 'r')
+      .replace(/с/g, 's')
+      .replace(/[тѳ]/g, 't')
+      .replace(/[уȣѹ]/g, 'u')
+      .replace(/ф/g, 'f')
+      .replace(/х/g, 'h')
+      .replace(/ц/g, 'c')
+      .replace(/ч/g, 'č')
+      .replace(/ш/g, 'š')
+      .replace(/щ/g, 'šč')
+      .replace(/[ыꙑ]/g, 'y')
+      .replace(/ъ/g, 'ȯ') // Fixed by Denis Šabalin
+      .replace(/ў/g, 'ŭ')
+      .replace(/ѧ/g, 'ę')
+      .replace(/ѫ/g, 'ų')
+      .replace(/ѱ/g, 'ps')
+      .replace(/ѯ/g, 'ks')
+      .replace(/ӑ/g, 'å') // Added by Denis Šabalin
+      // ...
+      .replace(/⁙/g, '.')
+      // ...
+      .replace(/zsk/g, 'z#sk')
+      .replace(/zst/g, 'z#st')
+      .replace(/%izs/g, '%iz#s')
+      .replace(/%bezs/g, '%bez#s')
+      .replace(/%razs/g, '%raz#s')
+      .replace(/%råzs/g, '%råz#s')
+      .replace(/konjug/g, 'kon#jug')
+      .replace(/konjun/g, 'kon#jun')
+      .replace(/injek/g, 'in#jek')
+      // ...
+      .replace(/s[xz]/g, 'š')
+      .replace(/c[xz]/g, 'č')
+      .replace(/z[xs]/g, 'ž')
+      .replace(/ż/g, 'ž')
+      .replace(/ye/g, 'ě')
+      // ...
+      .replace(/qu/g, 'kv')
+      .replace(/ŀ/g, 'ȯl')
+      .replace(/[ăq`]/g, '’')
+      .replace(/ch/g, 'h')
+      .replace(/w/g, 'v')
+      .replace(/x/g, 'ks')
+      // ...
+      .replace(/[áàâā]/g, 'a')
+      .replace(/[íìîīĭı]/g, 'i')
+      .replace(/[úûůū]/g, 'u')
+      .replace(/[ąǫũ]/g, 'ų')
+      .replace(/ù/g, 'ŭ')
+      .replace(/[éē]/g, 'e')
+      .replace(/[ĕëè]/g, 'ė')
+      .replace(/[œóô]/g, 'o')
+      .replace(/[ŏöò]/g, 'ȯ')
+      .replace(/ý/g, 'y')
+      .replace(/ł/g, 'l')
+      .replace(/ç/g, 'c')
+      .replace(/ʒ/g, 'z')
+      .replace(/ĵ/g, 'j')
+      .replace(/[ĺļǉ]/g, 'ľ')
+      .replace(/[ňñņǌ]/g, 'ń')
+      .replace(/ř/g, 'ŕ')
+      .replace(/t́/g, 'ť')
+      .replace(/d́/g, 'ď')
+      // ...
+      .replace(/([jćđšžč])y/g, '$1i')
+      .replace(/jj/g, 'j')
+  );
 }

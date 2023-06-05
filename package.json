@@ -28,7 +28,9 @@
     "steenbergen"
   ],
   "authors": [
-    "Jan van Steenbergen <ijzeren.jan@gmail.com>",
+    "Jan van Steenbergen",
+    "Sergey Cherebedov",
+    "Denis Shabalin",
     "Yaroslav Serhieiev <noomorph@gmail.com>"
   ],
   "license": "MIT",
