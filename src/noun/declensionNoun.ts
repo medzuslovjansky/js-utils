@@ -38,6 +38,17 @@ function getDeclensionNounFlat(result: any): string[] {
   return Array.from(new Set(notFlat.flat().filter(Boolean)));
 }
 
+/** @deprecated */
+export type SteenNounParadigm = {
+  nom: [string | null, string | null];
+  acc: [string | null, string | null];
+  gen: [string | null, string | null];
+  loc: [string | null, string | null];
+  dat: [string | null, string | null];
+  ins: [string | null, string | null];
+  voc: [string | null, string | null];
+};
+
 export function declensionNoun(
   rawNoun: string,
   rawAdd: string,
@@ -46,7 +57,7 @@ export function declensionNoun(
   isPlural: boolean,
   isSingular: boolean,
   isIndeclinable: boolean,
-): any {
+): SteenNounParadigm | null {
   // remove square brackets
   let noun = removeBrackets(rawNoun, '[', ']');
   // now we don't know how to decline the phrases
@@ -656,7 +667,11 @@ function rules(word: string): string {
     .replace('cy', 'ci');
 }
 
-function declensionPluralNoun(word: string, add: string, gender: string) {
+function declensionPluralNoun(
+  word: string,
+  add: string,
+  gender: string,
+): SteenNounParadigm | null {
   const wordWithoutLast = word.slice(0, -1);
   if (add.slice(-2) === 'yh' || add.slice(-2) === 'ih') {
     const iOrY = add.slice(-2) === 'yh' ? 'y' : 'i';
@@ -714,7 +729,7 @@ function declensionSubstAdj(
   add: string,
   gender: Noun['gender'],
   animated: boolean,
-) {
+): SteenNounParadigm | null {
   if (gender === 'masculine' || gender === 'neuter') {
     const adjectiveParadigm = declensionAdjective(
       word.slice(0, -1) + (add === '-ogo' ? 'y' : 'i'),
