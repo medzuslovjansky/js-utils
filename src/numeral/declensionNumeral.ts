@@ -271,7 +271,7 @@ export function declensionNumeral(
       plural,
       singular,
       false,
-    );
+    )!;
 
     if (plural) {
       return {

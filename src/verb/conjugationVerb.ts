@@ -66,7 +66,57 @@ function getConjugationVerbFlat(result: any): string[] {
   return Array.from(new Set(forms));
 }
 
-export function conjugationVerb(inf: string, rawPts: string): any {
+/** @deprecated */
+export type SteenVerbParadigm = {
+  infinitive: string;
+  present: [string, string, string, string, string, string, string?];
+  imperfect: [string, string, string, string, string, string];
+  perfect: [
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string?,
+  ];
+  pluperfect: [
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string?,
+  ];
+  future: [string, string, string, string, string, string];
+  conditional: [
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string,
+    string?,
+  ];
+  imperative: string;
+  prap: string;
+  prpp: string;
+  pfap: string;
+  pfpp: string;
+  gerund: string;
+};
+
+export function conjugationVerb(
+  inf: string,
+  rawPts: string,
+): SteenVerbParadigm | null {
   //special cases
   if (inf.split(' ')[0].includes('/')) {
     return null;
@@ -86,19 +136,42 @@ export function conjugationVerb(inf: string, rawPts: string): any {
   const psi = secondary_present_tense_stem(ps);
   const lpa = l_participle(pref, pts, is);
 
-  const infinitive = build_infinitive(pref, is, refl);
-  const present = buildPresent(pref, ps, psi, refl);
-  const imperfect = build_imperfect(pref, is, refl);
-  const perfect = buildPerfect(lpa, refl);
-  const pluperfect = buildPluralPerfect(lpa, refl);
-  const future = buildFuture(infinitive, ps);
-  const conditional = buildConditional(lpa, refl);
-  const imperative = build_imperative(pref, psi, refl);
-  const prap = build_prap(pref, ps, refl);
-  const prpp = build_prpp(pref, ps, psi);
-  const pfap = build_pfap(lpa, refl);
-  const pfpp = build_pfpp(pref, is, psi);
-  const gerund = build_gerund(pfpp);
+  const infinitive = build_infinitive(
+    pref,
+    is,
+    refl,
+  ) as SteenVerbParadigm['infinitive'];
+  const present = buildPresent(
+    pref,
+    ps,
+    psi,
+    refl,
+  ) as SteenVerbParadigm['present'];
+  const imperfect = build_imperfect(
+    pref,
+    is,
+    refl,
+  ) as SteenVerbParadigm['imperfect'];
+  const perfect = buildPerfect(lpa, refl) as SteenVerbParadigm['perfect'];
+  const pluperfect = buildPluralPerfect(
+    lpa,
+    refl,
+  ) as SteenVerbParadigm['pluperfect'];
+  const future = buildFuture(infinitive, ps) as SteenVerbParadigm['future'];
+  const conditional = buildConditional(
+    lpa,
+    refl,
+  ) as SteenVerbParadigm['conditional'];
+  const imperative = build_imperative(
+    pref,
+    psi,
+    refl,
+  ) as SteenVerbParadigm['imperative'];
+  const prap = build_prap(pref, ps, refl) as SteenVerbParadigm['prap'];
+  const prpp = build_prpp(pref, ps, psi) as SteenVerbParadigm['prpp'];
+  const pfap = build_pfap(lpa, refl) as SteenVerbParadigm['pfap'];
+  const pfpp = build_pfpp(pref, is, psi) as SteenVerbParadigm['pfpp'];
+  const gerund = build_gerund(pfpp) as SteenVerbParadigm['gerund'];
 
   return {
     infinitive,

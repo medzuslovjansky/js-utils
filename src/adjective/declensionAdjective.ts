@@ -26,7 +26,32 @@ function getDeclensionAdjectiveFlat(result: any): string[] {
   return Array.from(new Set(forms.filter(Boolean)));
 }
 
-export function declensionAdjective(adj: string, postfix: string): any {
+/** @deprecated */
+export type SteenAdjectiveParadigm = {
+  singular: SteenAdjectiveParadigm$Case;
+  plural: SteenAdjectiveParadigm$Case;
+  comparison: SteenAdjectiveParadigm$Comparison;
+};
+
+type SteenAdjectiveParadigm$Case = {
+  nom: string[];
+  acc: string[];
+  gen: string[];
+  loc: string[];
+  dat: string[];
+  ins: string[];
+};
+
+type SteenAdjectiveParadigm$Comparison = {
+  positive: string[];
+  comparative: string[];
+  superlative: string[];
+};
+
+export function declensionAdjective(
+  adj: string,
+  postfix: string,
+): SteenAdjectiveParadigm {
   const root = establish_root(adj);
   const m_nom_sg = m_nominative_sg(adj, root);
   const m_acc_sg = m_accusative_sg(adj, root);
