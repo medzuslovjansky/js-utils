@@ -1,20 +1,19 @@
 export function markFluentVowel(word: string, add: string): string {
-  let j = 0;
+  let i = 0;
 
-  for (let i = 0; i < Math.min(word.length - 1, add.length); i++) {
-    if (word[i] === add[i]) {
-      continue;
-    } else if (word[i] !== add[i] && word[i + 1] === add[i]) {
-      j = i;
-      break;
-    } else {
-      break;
-    }
+  const L = Math.min(word.length - 1, add.length);
+  while (i < L && word[i] === add[i]) {
+    i++;
   }
-  if (j === 0) {
-    return word;
-  }
-  const fluentVowel = word[j].replace('è', 'e').replace('ò', 'o');
 
-  return word.slice(0, j) + '(' + fluentVowel + ')' + word.slice(j + 1);
+  if (word[i] !== add[i] && word[i + 1] === add[i]) {
+    return replaceFluentVowel(word, i);
+  }
+
+  return word;
+}
+
+function replaceFluentVowel(word: string, j: number): string {
+  const fluentVowel = word[j].normalize('NFD')[0];
+  return `${word.slice(0, j)}(${fluentVowel})${word.slice(j + 1)}`;
 }
