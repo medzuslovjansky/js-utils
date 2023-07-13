@@ -32,7 +32,9 @@ export function transliterate(
 ): string {
   return iSource
     .normalize('NFC')
-    .replace(/\p{Letter}+/gu, (w) => transliterateWord(w, type, flav));
+    .replace(/[\p{Letter}\p{Mark}]+/gu, (w) =>
+      transliterateWord(w, type, flav),
+    );
 }
 
 const VOWEL = /[aeiouyąęųåėȯèòěê]/;
