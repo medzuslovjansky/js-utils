@@ -1,4 +1,5 @@
 import { Glagolitic } from '../constants';
+import { njeCheck, njePosition } from './nje';
 
 export enum TransliterationType {
   Latin = 1,
@@ -48,6 +49,7 @@ function transliterateWord(
   iW = '%' + iW + '%';
   let OrigW = iW;
   iW = nmsify(iW.toLowerCase());
+  iW = softenNjIfNeeded(iW);
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
   iW = iW.replace(/ŕ/g, 'ř');
   const aPos = iW.indexOf('ř');
@@ -99,19 +101,7 @@ function transliterateWord(
   }
   // 3 - standard, 4 - slovianto
   if (flav == '3' || flav == '4') {
-    iW = iW.replace(/[ęė]/g, 'e');
-    iW = iW.replace(/å/g, 'a');
-    iW = iW.replace(/ȯ/g, 'o');
-    iW = iW.replace(/ų/g, 'u');
-    iW = iW.replace(/ć/g, 'č');
-    iW = iW.replace(/đ/g, 'dž');
-    iW = iW.replace(/ř/g, 'r');
-    iW = iW.replace(/ľ/g, 'l');
-    iW = iW.replace(/ń/g, 'n');
-    iW = iW.replace(/ť/g, 't');
-    iW = iW.replace(/ď/g, 'd');
-    iW = iW.replace(/ś/g, 's');
-    iW = iW.replace(/ź/g, 'z');
+    iW = standardize(iW);
   }
   // slovianto
   if (flav == '4') {
@@ -725,4 +715,35 @@ function nmsify(iW: string) {
       .replace(/([jćđšžč])y/g, '$1i')
       .replace(/jj/g, 'j')
   );
+}
+
+function standardize(iW: string): string {
+  return iW
+    .replace(/[ęė]/g, 'e')
+    .replace(/å/g, 'a')
+    .replace(/ȯ/g, 'o')
+    .replace(/ų/g, 'u')
+    .replace(/ć/g, 'č')
+    .replace(/đ/g, 'dž')
+    .replace(/ř/g, 'r')
+    .replace(/ľ/g, 'l')
+    .replace(/ń/g, 'n')
+    .replace(/ť/g, 't')
+    .replace(/ď/g, 'd')
+    .replace(/ś/g, 's')
+    .replace(/ź/g, 'z');
+}
+
+function softenNjIfNeeded(iW: string): string {
+  const siW = standardize(iW);
+  if (!njeCheck(siW)) {
+    return iW;
+  }
+
+  const lastNj = njePosition(siW);
+  if (lastNj < 0) {
+    return iW;
+  }
+
+  return iW.substring(0, lastNj) + 'ńj' + iW.substring(lastNj + 2);
 }
