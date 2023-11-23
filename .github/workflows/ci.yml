@@ -37,7 +37,6 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Semantic release
-        if: github.ref == 'refs/heads/main'
         run: npx --no-install semantic-release --debug
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
