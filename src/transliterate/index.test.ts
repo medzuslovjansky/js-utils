@@ -1,4 +1,4 @@
-import { transliterate } from './index';
+import transliterate from './index';
 
 const latin = `\
 Na vȯzvyšenosti ovca, ktora ne iměla vȯlnų, uviděla konjev. Pŕvy tęgal tęžky voz, vtory nosil veliko brěmę, tretji brzo vozil mųža.

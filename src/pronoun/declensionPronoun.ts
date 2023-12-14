@@ -1,6 +1,6 @@
 import { declensionAdjective } from '../adjective';
 import { stripDiacritics } from '../common';
-import { transliterate } from '../transliterate';
+import transliterate from '../transliterate';
 
 /** @deprecated */
 export interface SteenPronounParadigm {

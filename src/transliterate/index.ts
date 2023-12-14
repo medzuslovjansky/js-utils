@@ -6,7 +6,7 @@ import {
 
 import { FlavorisationBCP47Code } from '../constants';
 
-export function transliterate(
+export default function transliterate(
   text: string,
   lang: FlavorisationBCP47Code,
 ): string {

@@ -2,7 +2,7 @@ import { declensionAdjective } from '../adjective';
 import { stripDiacritics } from '../common';
 import { declensionNoun } from '../noun';
 import { Noun, parsePos } from '../partOfSpeech';
-import { transliterate } from '../transliterate';
+import transliterate from '../transliterate';
 
 /** @deprecated */
 export interface SteenNumeralParadigm {

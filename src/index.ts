@@ -8,5 +8,5 @@ export * from './noun';
 export * from './numeral';
 export * from './partOfSpeech';
 export * from './pronoun';
-export * from './transliterate';
+export { default as transliterate } from './transliterate';
 export * from './verb';
