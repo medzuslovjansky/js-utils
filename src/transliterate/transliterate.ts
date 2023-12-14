@@ -753,7 +753,7 @@ function softenLjIfNeeded(iW: string, siW: string): string {
 }
 
 function softenNjIfNeeded(iW: string, siW: string): string {
-  if (!njeCheck(siW)) {
+  if (!njeCheck(siW) || iW.endsWith('jų%')) {
     return iW;
   }
 
