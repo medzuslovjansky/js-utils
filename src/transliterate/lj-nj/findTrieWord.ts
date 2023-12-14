@@ -20,7 +20,7 @@ export function findTrieWord(
     node = node[chr];
   }
 
-  return node === 0 ? (i === -1 ? WHOLE : ENDS) : MISMATCH;
+  return node === 0 ? (i > 0 ? ENDS : WHOLE) : MISMATCH;
 }
 
 export function findTriePosition(endings: Dict, word: string): number {
