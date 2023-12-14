@@ -24,6 +24,7 @@ function* allWords() {
   yield* extractWordsFromFile('src/numeral/testCases.json');
   yield* extractWordsFromFile('src/pronoun/testCases.json');
   yield* extractWordsFromFile('src/verb/testCases.json');
+  yield* extractWordsFromFile('scripts/misc-nj-exceptions.txt');
 }
 
 function buildExceptionList(predicate) {
