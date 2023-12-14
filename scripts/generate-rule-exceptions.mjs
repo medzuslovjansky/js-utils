@@ -87,7 +87,8 @@ function endsWithNj(word) {
     || word.endsWith('njami')
     || word.endsWith('nje')
     || word.endsWith('njem')
-    || word.endsWith('nju');
+    || word.endsWith('nju')
+    || word.endsWith('njų');
 }
 
 fs.writeFileSync(

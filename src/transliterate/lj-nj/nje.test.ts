@@ -2,12 +2,16 @@ import { njeCheck, njePosition } from './index';
 
 describe('nje', () => {
   describe('njeCheck', () => {
-    test.each([['nje'], ['banje'], ['uravnja'], ['šeršenje'], ['prinajmenje']])(
-      'should return false for %j',
-      (input) => {
-        expect(njeCheck(toToken(input))).toBe(false);
-      },
-    );
+    test.each([
+      ['nje'],
+      ['banje'],
+      ['uravnja'],
+      ['šeršenje'],
+      ['prinajmenje'],
+      ['snju'],
+    ])('should return false for %j', (input) => {
+      expect(njeCheck(toToken(input))).toBe(false);
+    });
 
     test.each([['běganje'], ['dělanje']])(
       'should return true for %j',
