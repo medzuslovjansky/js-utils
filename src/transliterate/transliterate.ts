@@ -1,5 +1,5 @@
 import { Glagolitic } from '../constants';
-import { njeCheck, njePosition } from './nje';
+import { ljeCheck, ljePosition, njeCheck, njePosition } from './lj-nj';
 
 export enum TransliterationType {
   Latin = 1,
@@ -49,7 +49,11 @@ function transliterateWord(
   iW = '%' + iW + '%';
   let OrigW = iW;
   iW = nmsify(iW.toLowerCase());
-  iW = softenNjIfNeeded(iW);
+  {
+    const siW = standardize(iW);
+    iW = softenLjIfNeeded(iW, siW);
+    iW = softenNjIfNeeded(iW, siW);
+  }
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
   iW = iW.replace(/ŕ/g, 'ř');
   const aPos = iW.indexOf('ř');
@@ -432,7 +436,8 @@ function transliterateWord(
     iW = iW.replace(/[dḓ]/g, Glagolitic.Dobro);
     iW = iW.replace(/dž/g, Glagolitic.Dobro + Glagolitic.Zhivete);
     iW = iW.replace(/đ/g, Glagolitic.Djervi);
-    iW = iW.replace(/[eė]/g, Glagolitic.Yestu);
+    iW = iW.replace(/e/g, Glagolitic.Yestu);
+    iW = iW.replace(/ė/g, Glagolitic.Yeri);
     iW = iW.replace(/ę/g, Glagolitic.Small_Yus);
     iW = iW.replace(/[êě]/g, Glagolitic.Yati);
     iW = iW.replace(/f/g, Glagolitic.Fritu);
@@ -734,8 +739,20 @@ function standardize(iW: string): string {
     .replace(/ź/g, 'z');
 }
 
-function softenNjIfNeeded(iW: string): string {
-  const siW = standardize(iW);
+function softenLjIfNeeded(iW: string, siW: string): string {
+  if (!ljeCheck(siW)) {
+    return iW;
+  }
+
+  const lastLj = ljePosition(iW);
+  if (lastLj < 0) {
+    return iW;
+  }
+
+  return iW.substring(0, lastLj) + 'ľj' + iW.substring(lastLj + 2);
+}
+
+function softenNjIfNeeded(iW: string, siW: string): string {
   if (!njeCheck(siW)) {
     return iW;
   }
