@@ -36,6 +36,7 @@
     "assets",
     "dist",
     "jest.config.ts",
+    "rollup.config.js",
     "types.d.ts"
   ]
 }
