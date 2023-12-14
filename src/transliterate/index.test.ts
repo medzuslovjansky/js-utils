@@ -59,20 +59,13 @@ describe('transliterate to', () => {
     },
   );
 
-  test.failing(
-    'double transliteration should work equally from Latin and Cyrillic scripts',
-    () => {
-      const latn2cyrl = transliterate(latin, 'art-Cyrl-x-interslv');
-      const cyrl2latn = transliterate(cyrillic, 'art-Latn-x-interslv');
+  test('double transliteration should work equally from Latin and Cyrillic scripts', () => {
+    const latn2cyrl = transliterate(latin, 'art-Cyrl-x-interslv');
+    const cyrl2latn = transliterate(cyrillic, 'art-Latn-x-interslv');
 
-      expect(transliterate(latn2cyrl, 'art-Latn-x-interslv')).toEqual(
-        cyrl2latn,
-      );
-      expect(transliterate(cyrl2latn, 'art-Cyrl-x-interslv')).toEqual(
-        latn2cyrl,
-      );
-    },
-  );
+    expect(transliterate(latn2cyrl, 'art-Latn-x-interslv')).toEqual(cyrl2latn);
+    expect(transliterate(cyrl2latn, 'art-Cyrl-x-interslv')).toEqual(latn2cyrl);
+  });
 
   test('unknown code', () => {
     expect(() => transliterate('', 'en' as any)).toThrowErrorMatchingSnapshot();
