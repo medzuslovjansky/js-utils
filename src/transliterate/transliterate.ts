@@ -1,4 +1,5 @@
 import { Glagolitic } from '../constants';
+import { ljeCheck, ljePosition, njeCheck, njePosition } from './lj-nj';
 
 export enum TransliterationType {
   Latin = 1,
@@ -48,6 +49,11 @@ function transliterateWord(
   iW = '%' + iW + '%';
   let OrigW = iW;
   iW = nmsify(iW.toLowerCase());
+  {
+    const siW = standardize(iW);
+    iW = softenLjIfNeeded(iW, siW);
+    iW = softenNjIfNeeded(iW, siW);
+  }
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
   iW = iW.replace(/ŕ/g, 'ř');
   const aPos = iW.indexOf('ř');
@@ -99,19 +105,7 @@ function transliterateWord(
   }
   // 3 - standard, 4 - slovianto
   if (flav == '3' || flav == '4') {
-    iW = iW.replace(/[ęė]/g, 'e');
-    iW = iW.replace(/å/g, 'a');
-    iW = iW.replace(/ȯ/g, 'o');
-    iW = iW.replace(/ų/g, 'u');
-    iW = iW.replace(/ć/g, 'č');
-    iW = iW.replace(/đ/g, 'dž');
-    iW = iW.replace(/ř/g, 'r');
-    iW = iW.replace(/ľ/g, 'l');
-    iW = iW.replace(/ń/g, 'n');
-    iW = iW.replace(/ť/g, 't');
-    iW = iW.replace(/ď/g, 'd');
-    iW = iW.replace(/ś/g, 's');
-    iW = iW.replace(/ź/g, 'z');
+    iW = standardize(iW);
   }
   // slovianto
   if (flav == '4') {
@@ -442,7 +436,8 @@ function transliterateWord(
     iW = iW.replace(/[dḓ]/g, Glagolitic.Dobro);
     iW = iW.replace(/dž/g, Glagolitic.Dobro + Glagolitic.Zhivete);
     iW = iW.replace(/đ/g, Glagolitic.Djervi);
-    iW = iW.replace(/[eė]/g, Glagolitic.Yestu);
+    iW = iW.replace(/e/g, Glagolitic.Yestu);
+    iW = iW.replace(/ė/g, Glagolitic.Yeri);
     iW = iW.replace(/ę/g, Glagolitic.Small_Yus);
     iW = iW.replace(/[êě]/g, Glagolitic.Yati);
     iW = iW.replace(/f/g, Glagolitic.Fritu);
@@ -725,4 +720,47 @@ function nmsify(iW: string) {
       .replace(/([jćđšžč])y/g, '$1i')
       .replace(/jj/g, 'j')
   );
+}
+
+function standardize(iW: string): string {
+  return iW
+    .replace(/[ęė]/g, 'e')
+    .replace(/å/g, 'a')
+    .replace(/ȯ/g, 'o')
+    .replace(/ų/g, 'u')
+    .replace(/ć/g, 'č')
+    .replace(/đ/g, 'dž')
+    .replace(/ř/g, 'r')
+    .replace(/ľ/g, 'l')
+    .replace(/ń/g, 'n')
+    .replace(/ť/g, 't')
+    .replace(/ď/g, 'd')
+    .replace(/ś/g, 's')
+    .replace(/ź/g, 'z');
+}
+
+function softenLjIfNeeded(iW: string, siW: string): string {
+  if (!ljeCheck(siW)) {
+    return iW;
+  }
+
+  const lastLj = ljePosition(iW);
+  if (lastLj < 0) {
+    return iW;
+  }
+
+  return iW.substring(0, lastLj) + 'ľj' + iW.substring(lastLj + 2);
+}
+
+function softenNjIfNeeded(iW: string, siW: string): string {
+  if (!njeCheck(siW) || iW.endsWith('jų%')) {
+    return iW;
+  }
+
+  const lastNj = njePosition(iW);
+  if (lastNj < 0) {
+    return iW;
+  }
+
+  return iW.substring(0, lastNj) + 'ńj' + iW.substring(lastNj + 2);
 }
