@@ -13,7 +13,7 @@ describe('nje', () => {
       expect(njeCheck(toToken(input))).toBe(false);
     });
 
-    test.each([['běganje'], ['dělanje']])(
+    test.each([['běganje'], ['dělanje'], ['delfinju']])(
       'should return true for %j',
       (input) => {
         expect(njeCheck(toToken(input))).toBe(true);

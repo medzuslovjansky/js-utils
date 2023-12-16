@@ -2,6 +2,7 @@
 
 import fs from "node:fs";
 import utils from '../dist/index.js';
+import _ from 'lodash';
 
 function* extractWords(str) {
   // include letters and combining marks
@@ -18,20 +19,27 @@ function* extractWordsFromFile(filePath) {
   yield* extractWords(raw);
 }
 
-function* allWords() {
+function* readAllWords() {
   yield* extractWordsFromFile('src/adjective/testCases.json');
   yield* extractWordsFromFile('src/noun/__snapshots__/declensionNoun.test.ts.snap');
   yield* extractWordsFromFile('src/numeral/testCases.json');
   yield* extractWordsFromFile('src/pronoun/testCases.json');
   yield* extractWordsFromFile('src/verb/testCases.json');
-  yield* extractWordsFromFile('scripts/misc-nj-exceptions.txt');
+  yield* extractWordsFromFile('scripts/dictionary.txt');
 }
+
+console.log('Reading all words...');
+const allWords = _.uniq([...readAllWords()]).map(word => {
+  const lower = word.toLowerCase();
+  const standard = utils.transliterate(lower, 'art-Latn-x-interslv');
+  return [lower, standard];
+});
 
 function buildExceptionList(predicate) {
   const set = new Set();
-  for (const word of allWords()) {
-    if (predicate(word)) {
-      set.add(utils.transliterate(word.toLowerCase(), 'art-Latn-x-interslv'));
+  for (const [lower, standard] of allWords) {
+    if (predicate(lower, standard)) {
+      set.add(standard);
     }
   }
   return [...set].sort();
@@ -80,25 +88,43 @@ function containsLjj(word) {
   return word.includes('ľj');
 }
 
-function endsWithNj(word) {
+function containsNjj(word, standard) {
+  return word.includes('ńj') && !endsWithNonTypicalNje(standard) && !standard.endsWith('nju');
+}
+
+function endsWithNonTypicalNje(word) {
   return word.endsWith('nja')
     || word.endsWith('njah')
     || word.endsWith('njam')
     || word.endsWith('njami')
     || word.endsWith('nje')
-    || word.endsWith('njem')
-    || word.endsWith('nju')
-    || word.endsWith('njų');
+    || word.endsWith('njem');
 }
 
+function endsWithNonTypicalNjju(word) {
+  return word.endsWith('ńju') || word.endsWith('ńjų');
+}
+
+console.log('Generating fixtures...');
+
 fs.writeFileSync(
-  'src/transliterate/lj-nj/exceptions-lj.json',
+  'src/transliterate/lj-nj/list-ljj.json',
   generateRuleExceptions(containsLjj)
 );
 
 fs.writeFileSync(
-  'src/transliterate/lj-nj/exceptions-nj.json',
-  generateRuleExceptions(endsWithNj)
+  'src/transliterate/lj-nj/list-njj.json',
+  generateRuleExceptions(containsNjj)
+);
+
+fs.writeFileSync(
+  'src/transliterate/lj-nj/exceptions-nje.json',
+  generateRuleExceptions(endsWithNonTypicalNje)
+);
+
+fs.writeFileSync(
+  'src/transliterate/lj-nj/exceptions-njju.json',
+  generateRuleExceptions(endsWithNonTypicalNjju)
 );
 
 fs.writeFileSync(
@@ -110,6 +136,5 @@ fs.writeFileSync(
     'njami%',
     'nje%',
     'njem%',
-    'nju%',
   ]),
 );

@@ -1,19 +1,15 @@
-import ljeExceptions from './exceptions-lj.json';
-import njeExceptions from './exceptions-nj.json';
+import ljjList from './list-ljj.json';
+import njjList from './list-njj.json';
+import njeExceptions from './exceptions-nje.json';
+import njjuExceptions from './exceptions-njju.json';
 import njeEndings from './endings-nje.json';
-import {
-  ENDS,
-  MISMATCH,
-  findTrieWord,
-  findTriePosition,
-  WHOLE,
-} from './findTrieWord';
+import { ENDS, MISMATCH, findTrieWord, WHOLE } from './findTrieWord';
 
 /**
  * Check whether we should soften lj to ĺj
  */
 export function ljeCheck(word: string) {
-  return findTrieWord(word, ljeExceptions) === WHOLE;
+  return findTrieWord(word, ljjList) === WHOLE;
 }
 
 /**
@@ -27,12 +23,21 @@ export function ljePosition(word: string) {
  * Check whether we should soften nj to ńj
  */
 export function njeCheck(word: string) {
-  return (
-    findTrieWord(word, njeEndings) === ENDS &&
-    findTrieWord(word, njeExceptions) === MISMATCH
-  );
+  if (findTrieWord(word, njjList) === WHOLE) {
+    return true;
+  }
+
+  if (findTrieWord(word, njeEndings) === ENDS) {
+    return findTrieWord(word, njeExceptions) === MISMATCH;
+  }
+
+  if (word.endsWith('nju%') && findTrieWord(word, njjuExceptions) === WHOLE) {
+    return true;
+  }
+
+  return false;
 }
 
 export function njePosition(word: string): number {
-  return findTriePosition(njeEndings, word);
+  return word.lastIndexOf('nj');
 }
