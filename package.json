@@ -8,7 +8,6 @@
   "files": [
     "dist",
     "src/**/*.ts",
-    "!**/*.json",
     "!**/*.test.*"
   ],
   "scripts": {
