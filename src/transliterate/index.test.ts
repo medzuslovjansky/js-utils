@@ -1,16 +1,16 @@
-import transliterate from './index';
+import { transliterate } from './index';
 
 const latin = `\
 Na vȯzvyšenosti ovca, ktora ne iměla vȯlnų, uviděla konjev. Pŕvy tęgal tęžky voz, vtory nosil veliko brěmę, tretji brzo vozil mųža.
 Ovca rěkla konjam: «Boli mně sŕdce, kȯgda viđų, kako člověk vladaje konjami.»
 Konji rěkli: «Slušaj, ovco, nam boli sŕdce, kȯgda vidimo ovo: mųž, gospodaŕ, bere tvojų vȯlnų, da by iměl dlja sebe teplo paĺto. A ovca jest bez vȯlny.»
-Uslyšavši to, ovca izběgla v råvninų. | Odjezd. T́ma, i korenje revenja počęli råsteńje, a slugi pověděli krålju o veseĺju.`;
+Uslyšavši to, ovca izběgla v råvninų. | Odjezd.`;
 
 const cyrillic = `\
 На возвышености овца, ктора не имѣла вълнѫ, увидѣла коњев. Прьвы тѧгал тѧжкы воз, вторы носил велико брємѧ, третји брзо возил мѫжа.
 Овца рѣкла коням: «Боли мнє срьдце, къгда виџу, како чловѣк владаје коньами.»
 Конји рѣкли: «Слушай, овцо, нам боли срьдце, къгда видимо ово: мѫж, господарь, бере твоѭ вълнѫ, да бы имѣл дља себе тепло пальто. А овца ѥсть без вълны.»
-Услышавши то, овца избѣгла в рӑвнинѹ. | Одјезд. Тьма, и корење ревења почѧли рӑстеньје, а слуги повєдѣли крӑљу о весельју.`;
+Услышавши то, овца избѣгла в рӑвнинѹ. | Одјезд.`;
 
 describe('transliterate to', () => {
   describe.each([
@@ -58,14 +58,6 @@ describe('transliterate to', () => {
       expect(latn).toEqual(cyrl);
     },
   );
-
-  test('double transliteration should work equally from Latin and Cyrillic scripts', () => {
-    const latn2cyrl = transliterate(latin, 'art-Cyrl-x-interslv');
-    const cyrl2latn = transliterate(cyrillic, 'art-Latn-x-interslv');
-
-    expect(transliterate(latn2cyrl, 'art-Latn-x-interslv')).toEqual(cyrl2latn);
-    expect(transliterate(cyrl2latn, 'art-Cyrl-x-interslv')).toEqual(latn2cyrl);
-  });
 
   test('unknown code', () => {
     expect(() => transliterate('', 'en' as any)).toThrowErrorMatchingSnapshot();

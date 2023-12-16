@@ -1,5 +1,4 @@
 import { Glagolitic } from '../constants';
-import { ljeCheck, ljePosition, njeCheck, njePosition } from './lj-nj';
 
 export enum TransliterationType {
   Latin = 1,
@@ -33,35 +32,31 @@ export function transliterate(
 ): string {
   return iSource
     .normalize('NFC')
-    .replace(/[\p{Letter}\p{Mark}]+/gu, (w) =>
-      transliterateWord(w, type, flav),
-    );
+    .replace(/\p{Letter}+/gu, (w) => transliterateWord(w, type, flav));
 }
-
-const VOWEL = /[aeiouyąęųåėȯèòěê]/;
 
 function transliterateWord(
   iW: string,
   type: string | number,
   flav: string | number,
 ) {
+  let vowel;
+
   //symbol % marks the borders of the %word%
   iW = '%' + iW + '%';
   let OrigW = iW;
   iW = nmsify(iW.toLowerCase());
-  {
-    const siW = standardize(iW);
-    iW = softenLjIfNeeded(iW, siW);
-    iW = softenNjIfNeeded(iW, siW);
-  }
+  iW = iW.replace(/ľ/g, 'ĺ');
+  iW = iW.replace(/ň/g, 'ń');
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
   iW = iW.replace(/ŕ/g, 'ř');
   const aPos = iW.indexOf('ř');
+  vowel = /[aeiouyąęųåėȯèòěê]/;
   if (
     aPos > 1 &&
     iW.charAt(aPos - 1) != '%' &&
-    VOWEL.test(iW.charAt(aPos - 1)) == false &&
-    VOWEL.test(iW.charAt(aPos + 1)) == false
+    vowel.test(iW.charAt(aPos - 1)) == false &&
+    vowel.test(iW.charAt(aPos + 1)) == false
   ) {
     iW = iW.substring(0, aPos) + 'ŕ' + iW.substring(aPos + 1, iW.length);
   }
@@ -70,11 +65,12 @@ function transliterateWord(
   iW = iW.replace(/rj/g, 'Rj');
   iW = iW.replace(/jr/g, 'jR');
   const rPos = iW.indexOf('r');
+  vowel = /[aeiouyąęųåėȯèòěê]/;
   if (
     rPos > 1 &&
     iW.charAt(rPos - 1) != '%' &&
-    VOWEL.test(iW.charAt(rPos - 1)) == false &&
-    VOWEL.test(iW.charAt(rPos + 1)) == false
+    vowel.test(iW.charAt(rPos - 1)) == false &&
+    vowel.test(iW.charAt(rPos + 1)) == false
   ) {
     iW = iW.substring(0, rPos) + 'ṙ' + iW.substring(rPos + 1, iW.length);
     // iW = iW.replace (/’ṙ/, "ṙ");
@@ -85,7 +81,7 @@ function transliterateWord(
   // 'x' is replaced by 'ks'
   iW = iW.replace(/x/g, 'ks');
   // inserting auxiliary symbol 'ı' after soft consonants
-  iW = iW.replace(/([ńľřťďśź])j/g, '$1ıj');
+  iW = iW.replace(/([ńĺřťďśź])j/g, '$1ıj');
   // interting delimiter # in some cases
   iW = iW.replace(/([dsz])j/g, '$1#j');
   iW = iW.replace(/%obj/g, 'ob#j');
@@ -105,7 +101,19 @@ function transliterateWord(
   }
   // 3 - standard, 4 - slovianto
   if (flav == '3' || flav == '4') {
-    iW = standardize(iW);
+    iW = iW.replace(/[ęė]/g, 'e');
+    iW = iW.replace(/å/g, 'a');
+    iW = iW.replace(/ȯ/g, 'o');
+    iW = iW.replace(/ų/g, 'u');
+    iW = iW.replace(/ć/g, 'č');
+    iW = iW.replace(/đ/g, 'dž');
+    iW = iW.replace(/ř/g, 'r');
+    iW = iW.replace(/ĺ/g, 'l');
+    iW = iW.replace(/ń/g, 'n');
+    iW = iW.replace(/ť/g, 't');
+    iW = iW.replace(/ď/g, 'd');
+    iW = iW.replace(/ś/g, 's');
+    iW = iW.replace(/ź/g, 'z');
   }
   // slovianto
   if (flav == '4') {
@@ -135,7 +143,7 @@ function transliterateWord(
   else if (flav == 'J') {
     iW = iW.replace(/ų/g, 'u');
     iW = iW.replace(/ŭ/g, 'v');
-    iW = iW.replace(/ľ/g, 'l');
+    iW = iW.replace(/ĺ/g, 'l');
     iW = iW.replace(/ř/g, 'r');
     iW = iW.replace(/ń/g, 'n');
     iW = iW.replace(/ť/g, 't');
@@ -162,7 +170,7 @@ function transliterateWord(
     if (flav == '2') {
       iW = iW.replace(/ṙ/g, 'r');
       iW = iW.replace(/ř/g, 'ŕ');
-      iW = iW.replace(/ľ/g, 'ĺ');
+      iW = iW.replace(/ĺ/g, 'ĺ');
       iW = iW.replace(/ť/g, 't́');
       iW = iW.replace(/ď/g, 'd́');
       iW = iW.replace(/([čšžj])ŕ/g, '$1r');
@@ -187,7 +195,7 @@ function transliterateWord(
       iW = iW.replace (/łi/g,"l");
       iW = iW.replace (/łЬ/g,"l"); */
       iW = iW.replace(/h/g, 'ch');
-      iW = iW.replace(/lЬ/g, 'ľ');
+      iW = iW.replace(/lЬ/g, 'ĺ');
       iW = iW.replace(/nЬ/g, 'ń');
       iW = iW.replace(/rЬ/g, 'ŕ');
       iW = iW.replace(/tЬ/g, 'ť');
@@ -290,7 +298,7 @@ function transliterateWord(
     iW = iW.replace(/j/g, 'ј');
     iW = iW.replace(/k/g, 'к');
     iW = iW.replace(/l/g, 'л');
-    iW = iW.replace(/ľ/g, 'ль');
+    iW = iW.replace(/ĺ/g, 'ль');
     iW = iW.replace(/m/g, 'м');
     iW = iW.replace(/n/g, 'н');
     iW = iW.replace(/ń/g, 'нь');
@@ -371,7 +379,6 @@ function transliterateWord(
       iW = iW.replace(/#/g, '’');
     }
   } else if (type == 7) {
-    /* Glagolitic alphabet by Rafail Gasparyan */
     iW = iW.replace(/ı/g, '');
     iW = iW.replace(/ṙ/g, 'r');
     iW = iW.replace(/ř/g, 'ŕ');
@@ -387,7 +394,7 @@ function transliterateWord(
       iW = iW.replace(/ě/g, 'e');
     }
     iW = iW.replace(/ń/g, 'nь');
-    iW = iW.replace(/ľ/g, 'lь');
+    iW = iW.replace(/ĺ/g, 'lь');
     iW = iW.replace(/ŕ/g, 'rь');
     iW = iW.replace(/ť/g, 'tь');
     iW = iW.replace(/ď/g, 'dь');
@@ -436,8 +443,7 @@ function transliterateWord(
     iW = iW.replace(/[dḓ]/g, Glagolitic.Dobro);
     iW = iW.replace(/dž/g, Glagolitic.Dobro + Glagolitic.Zhivete);
     iW = iW.replace(/đ/g, Glagolitic.Djervi);
-    iW = iW.replace(/e/g, Glagolitic.Yestu);
-    iW = iW.replace(/ė/g, Glagolitic.Yeri);
+    iW = iW.replace(/[eė]/g, Glagolitic.Yestu);
     iW = iW.replace(/ę/g, Glagolitic.Small_Yus);
     iW = iW.replace(/[êě]/g, Glagolitic.Yati);
     iW = iW.replace(/f/g, Glagolitic.Fritu);
@@ -468,7 +474,7 @@ function transliterateWord(
   } else if (type == 10) {
     /* IPA */
     iW = iW.replace(/nads([eę])/g, 'nac$1');
-    iW = iW.replace(/([ľńřťďśź])ıj/g, '$1i̯');
+    iW = iW.replace(/([ĺńřťďśź])ıj/g, '$1i̯');
     iW = iW.replace(/e/g, 'ɛ');
     iW = iW.replace(/ė/g, 'ɜ');
     iW = iW.replace(/ě/g, 'ьɛ');
@@ -507,7 +513,7 @@ function transliterateWord(
     iW = iW.replace(/r[ьj]/g, 'rʲ');
     iW = iW.replace(/ń/g, 'ɲ');
     iW = iW.replace(/n[ьj]/g, 'ɲ');
-    iW = iW.replace(/ľ/g, 'ʎ');
+    iW = iW.replace(/ĺ/g, 'ʎ');
     iW = iW.replace(/l[ьj]/g, 'ʎ');
     iW = iW.replace(/ь/g, 'j');
     iW = iW.replace(/l/g, 'ɫ');
@@ -521,7 +527,7 @@ function transliterateWord(
   iW = iW.replace(/[#ı%]/g, '');
   OrigW = OrigW.replace(/%/g, '');
 
-  /** Restore the original case (lower, upperFirst, upper) **/
+  /** Hoofdletters maken **/
   const iW_first = iW.charAt(0);
   const iW_rest = iW.substring(1);
 
@@ -536,6 +542,7 @@ function transliterateWord(
     iW = iW.toUpperCase();
   }
 
+  iW = iW.replace(/℅/g, '%');
   return iW;
 }
 
@@ -546,7 +553,7 @@ function jgedoe(iW: string) {
 
   iW = iW.replace(/ć/g, 'cj');
   iW = iW.replace(/đ/g, 'dzj');
-  iW = iW.replace(/ľ/g, 'lj');
+  iW = iW.replace(/ĺ/g, 'lj');
   iW = iW.replace(/ń/g, 'nj');
   iW = iW.replace(/ř/g, 'rj');
   iW = iW.replace(/ď/g, 'dj');
@@ -563,6 +570,7 @@ function jgedoe(iW: string) {
   while (i < wLength) {
     nextChar = iW.charAt(i);
     resC = nextChar;
+    const vowel = /[aäåeęěėioȯuųyъ]/;
 
     switch (nextChar) {
       case 'j':
@@ -576,14 +584,14 @@ function jgedoe(iW: string) {
           resC = 'j';
           break;
         } else if (
-          VOWEL.test(iW.charAt(i - 1)) == false &&
-          VOWEL.test(iW.charAt(i + 1)) == true
+          vowel.test(iW.charAt(i - 1)) == false &&
+          vowel.test(iW.charAt(i + 1)) == true
         ) {
           resC = 'ь';
           break;
         } else if (
-          VOWEL.test(iW.charAt(i - 1)) == false &&
-          VOWEL.test(iW.charAt(i + 1)) == false
+          vowel.test(iW.charAt(i - 1)) == false &&
+          vowel.test(iW.charAt(i + 1)) == false
         ) {
           resC = 'Ь';
           break;
@@ -720,47 +728,4 @@ function nmsify(iW: string) {
       .replace(/([jćđšžč])y/g, '$1i')
       .replace(/jj/g, 'j')
   );
-}
-
-function standardize(iW: string): string {
-  return iW
-    .replace(/[ęė]/g, 'e')
-    .replace(/å/g, 'a')
-    .replace(/ȯ/g, 'o')
-    .replace(/ų/g, 'u')
-    .replace(/ć/g, 'č')
-    .replace(/đ/g, 'dž')
-    .replace(/ř/g, 'r')
-    .replace(/ľ/g, 'l')
-    .replace(/ń/g, 'n')
-    .replace(/ť/g, 't')
-    .replace(/ď/g, 'd')
-    .replace(/ś/g, 's')
-    .replace(/ź/g, 'z');
-}
-
-function softenLjIfNeeded(iW: string, siW: string): string {
-  if (!ljeCheck(siW)) {
-    return iW;
-  }
-
-  const lastLj = ljePosition(iW);
-  if (lastLj < 0) {
-    return iW;
-  }
-
-  return iW.substring(0, lastLj) + 'ľj' + iW.substring(lastLj + 2);
-}
-
-function softenNjIfNeeded(iW: string, siW: string): string {
-  if (!njeCheck(siW) || iW.endsWith('jų%')) {
-    return iW;
-  }
-
-  const lastNj = njePosition(siW);
-  if (lastNj < 0) {
-    return iW;
-  }
-
-  return iW.substring(0, lastNj) + 'ńj' + iW.substring(lastNj + 2);
 }
