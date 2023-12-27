@@ -270,25 +270,7 @@ export function declensionPronoun(
       'universal',
     ].includes(pronounType)
   ) {
-    let origWord = rawWord;
-    let postfix = '';
-    if (origWord === 'te') {
-      origWord = 'toj';
-    } else if (origWord === 'tojže') {
-      origWord = 'toj';
-      postfix = 'že';
-    } else if (word.match(/koli$/)) {
-      origWord = rawWord.slice(0, -4);
-      postfix = 'koli';
-    } else if (word.match(/nebud$/)) {
-      origWord = rawWord.slice(0, -6);
-      postfix = '-nebųď';
-    } else if (word.match(/libo$/)) {
-      origWord = rawWord.slice(0, -5);
-      postfix = '-libo';
-    } else if (word === 'vsi' || word === 'vse') {
-      origWord = 'veś';
-    }
+    const [origWord, postfix] = splitPostfix(rawWord, word);
     const adjectiveParadigm = declensionAdjective(origWord, postfix);
     return {
       type: 'adjective',
@@ -297,4 +279,42 @@ export function declensionPronoun(
     };
   }
   return null;
+}
+
+const DEMONSTRATIVE_PRONOUNS: Record<string, string> = {
+  ona: 'onoj',
+  ono: 'onoj',
+  ota: 'otoj',
+  oto: 'otoj',
+  ova: 'ov',
+  ovo: 'ov',
+  sa: 'sej',
+  se: 'sej',
+  tamta: 'tamtoj',
+  tamto: 'tamtoj',
+  tuta: 'tutoj',
+  tuto: 'tutoj',
+  ta: 'toj',
+  to: 'toj',
+  te: 'toj',
+  vsi: 'veś',
+  vse: 'veś',
+};
+
+const DEMONSTRATIVE_POSTFIXES: Record<string, string> = {
+  ze: 'že',
+  koli: 'koli',
+  libo: '-libo',
+  nebud: '-nebųď',
+};
+
+function splitPostfix(original: string, standard: string) {
+  const [match = '', postfix = ''] =
+    standard.match(/-?(nebud|koli|libo|ze)$/) || [];
+  const main = original.slice(0, -match.length || undefined);
+
+  return [
+    DEMONSTRATIVE_PRONOUNS[main] || main,
+    DEMONSTRATIVE_POSTFIXES[postfix] || postfix,
+  ];
 }

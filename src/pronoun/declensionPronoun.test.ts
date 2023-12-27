@@ -22,6 +22,29 @@ describe('pronoun', () => {
       expect(actual).toMatchObject(expected);
     }
   });
+
+  test.each([
+    ['ona', 'onoj'],
+    ['ono', 'onoj'],
+    ['ota', 'otoj'],
+    ['oto', 'otoj'],
+    ['ova', 'ov'],
+    ['ovo', 'ov'],
+    ['tamta', 'tamtoj'],
+    ['tamto', 'tamtoj'],
+    ['tuta', 'tutoj'],
+    ['tuto', 'tutoj'],
+    ['ta', 'toj'],
+    ['to', 'toj'],
+    ['te', 'toj'],
+    ['se', 'sej'],
+    ['sa', 'sej'],
+  ])('%s (pron.dem.) should decline as %s', (alternative, canonical) => {
+    const actual = declensionPronoun(alternative, 'demonstrative');
+    const expected = declensionPronoun(canonical, 'demonstrative');
+    expect(actual?.casesSingular).toEqual(expected?.casesSingular);
+    expect(actual?.casesPlural).toEqual(expected?.casesPlural);
+  });
 });
 
 function getPronounType(details: string) {
