@@ -3294,7 +3294,59 @@
       "add": "(jego, jemu, njim)",
       "details": "pron.pers."
     },
-    "expected": null
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "on",
+          "ono",
+          "ona"
+        ],
+        "acc": [
+          "(n)jego (go)",
+          "(n)jego (go)",
+          "(n)jų"
+        ],
+        "gen": [
+          "(n)jego",
+          "(n)jej"
+        ],
+        "loc": [
+          "(n)jem",
+          "(n)jej"
+        ],
+        "dat": [
+          "(n)jemu (mu)",
+          "(n)jej"
+        ],
+        "ins": [
+          "(n)jim",
+          "(n)jejų"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "oni / one",
+          "one"
+        ],
+        "acc": [
+          "(n)jih / (n)je",
+          "(n)je"
+        ],
+        "gen": [
+          "(n)jih"
+        ],
+        "loc": [
+          "(n)jih"
+        ],
+        "dat": [
+          "(n)jim"
+        ],
+        "ins": [
+          "(n)jimi"
+        ]
+      }
+    }
   },
   {
     "init": {
@@ -3542,7 +3594,63 @@
       "add": "",
       "details": "pron.pers."
     },
-    "expected": null
+    "expected": {
+      "type": "adjective",
+      "casesSingular": {
+        "nom": [
+          "sam",
+          "sama",
+          "samo"
+        ],
+        "acc": [
+          "samogo / sam",
+          "samų",
+          "samogo / samo"
+        ],
+        "gen": [
+          "samogo",
+          "samoj",
+          "samogo"
+        ],
+        "loc": [
+          "samom",
+          "samoj",
+          "samom"
+        ],
+        "dat": [
+          "samomu",
+          "samoj",
+          "samomu"
+        ],
+        "ins": [
+          "samym",
+          "samojų",
+          "samym"
+        ]
+      },
+      "casesPlural": {
+        "nom": [
+          "sami / same",
+          "same"
+        ],
+        "acc": [
+          "samyh / same",
+          "same"
+        ],
+        "gen": [
+          "samyh"
+        ],
+        "loc": [
+          "samyh"
+        ],
+        "dat": [
+          "samym"
+        ],
+        "ins": [
+          "samymi"
+        ]
+      }
+    }
   },
   {
     "init": {

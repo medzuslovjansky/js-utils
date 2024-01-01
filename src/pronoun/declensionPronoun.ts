@@ -1,6 +1,14 @@
 import { declensionAdjective } from '../adjective';
 import { stripDiacritics } from '../common';
 import transliterate from '../transliterate';
+import {
+  ALONE,
+  FIRST_PERSON,
+  POSSESSIVE,
+  REFLEXIVE,
+  SECOND_PERSON,
+  THIRD_PERSON,
+} from './lookups';
 
 /** @deprecated */
 export interface SteenPronounParadigm {
@@ -59,20 +67,7 @@ export function declensionPronoun(
 
   const word = stripDiacritics(transliterate(rawWord, 'art-Latn-x-interslv'));
   if (pronounType === 'personal' || pronounType === 'reflexive') {
-    if (
-      [
-        'ja',
-        'mene',
-        'me',
-        'mne',
-        'mi',
-        'mnoju',
-        'my',
-        'nas',
-        'nam',
-        'nami',
-      ].includes(word)
-    ) {
+    if (FIRST_PERSON.includes(word)) {
       return {
         type: 'noun',
         columns: ['singular', 'plural'],
@@ -85,20 +80,7 @@ export function declensionPronoun(
           ins: ['mnojų', 'nami'],
         },
       };
-    } else if (
-      [
-        'ty',
-        'tebe',
-        'te',
-        'tobe',
-        'ti',
-        'toboju',
-        'vy',
-        'vas',
-        'vam',
-        'vami',
-      ].includes(word)
-    ) {
+    } else if (SECOND_PERSON.includes(word)) {
       return {
         type: 'noun',
         columns: ['singular', 'plural'],
@@ -111,27 +93,7 @@ export function declensionPronoun(
           ins: ['tobojų', 'vami'],
         },
       };
-    } else if (
-      [
-        'on',
-        'jego',
-        'go',
-        'je',
-        'jemu',
-        'mu',
-        'njim',
-        'ona',
-        'ju',
-        'jej',
-        'jeju',
-        'njeju',
-        'oni',
-        'one',
-        'jih',
-        'jim',
-        'njimi',
-      ].includes(word)
-    ) {
+    } else if (THIRD_PERSON.includes(word)) {
       return {
         type: 'adjective',
         casesSingular: {
@@ -151,7 +113,7 @@ export function declensionPronoun(
           ins: ['(n)jimi'],
         },
       };
-    } else if (['sebe', 'se', 'sobe', 'si', 'soboju'].includes(word)) {
+    } else if (REFLEXIVE.includes(word)) {
       return {
         type: 'noun',
         columns: ['wordForm'],
@@ -164,11 +126,28 @@ export function declensionPronoun(
           ins: ['sobojų'],
         },
       };
+    } else if (ALONE.includes(word)) {
+      return {
+        type: 'adjective',
+        casesSingular: {
+          nom: ['sam', 'sama', 'samo'],
+          acc: ['samogo / sam', 'samų', 'samogo / samo'],
+          gen: ['samogo', 'samoj', 'samogo'],
+          loc: ['samom', 'samoj', 'samom'],
+          dat: ['samomu', 'samoj', 'samomu'],
+          ins: ['samym', 'samojų', 'samym'],
+        },
+        casesPlural: {
+          nom: ['sami / same', 'same'],
+          acc: ['samyh / same', 'same'],
+          gen: ['samyh'],
+          loc: ['samyh'],
+          dat: ['samym'],
+          ins: ['samymi'],
+        },
+      };
     }
-  } else if (
-    pronounType === 'possessive' &&
-    ['jih', 'jej', 'jego'].includes(word)
-  ) {
+  } else if (pronounType === 'possessive' && POSSESSIVE.includes(word)) {
     return {
       type: 'noun',
       columns: ['wordForm'],
