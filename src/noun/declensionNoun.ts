@@ -501,6 +501,7 @@ function plural_gen_ending(word: string) {
     .replace('zl%', 'zȯl')
     .replace('tl%', 'tȯl')
     .replace('mgl%', 'mgȯl')
+    .replace('ńj%', 'nij')
     .replace(/([jśźďťľŕńčšžćđc])(k)%/, '$1e$2')
     .replace(/([pbfvmlnrtdszkgh])(k)%/, '$1ȯ$2')
     .replace(/([vmpzšžt])(n)%/, '$1e$2')
