@@ -3,7 +3,7 @@
  */
 
 import { declensionAdjective } from '../adjective';
-import { markFluentVowel } from '../common';
+import { inferFluentVowel, markFluentVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
 import { removeBrackets } from '../utils';
 import { establishGender } from './establishGender';
@@ -101,6 +101,8 @@ export function declensionNoun(
 
   if (add && noun !== add) {
     noun = markFluentVowel(noun, add);
+  } else if (originGender === 'masculine') {
+    noun = inferFluentVowel(noun);
   }
 
   const rawGender = prepareGender(originGender, animated);

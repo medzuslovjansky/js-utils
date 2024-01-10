@@ -1,2 +1,2 @@
 export * from './stripDiacritics';
-export * from './markFluentVowel';
+export * from './fluentVowels';
