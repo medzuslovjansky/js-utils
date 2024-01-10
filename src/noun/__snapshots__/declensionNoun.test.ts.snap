@@ -79305,39 +79305,6 @@ exports[`noun f. urna  1`] = `
 }
 `;
 
-exports[`noun f. uråvenj (uråvnja) 1`] = `
-{
-  "acc": [
-    "uråvėnj",
-    "uråvnji",
-  ],
-  "dat": [
-    "uråvnji",
-    "uråvnjam",
-  ],
-  "gen": [
-    "uråvnji",
-    "uråvnjij",
-  ],
-  "ins": [
-    "uråvnjjų",
-    "uråvnjami",
-  ],
-  "loc": [
-    "uråvnji",
-    "uråvnjah",
-  ],
-  "nom": [
-    "uråvėnj",
-    "uråvnji",
-  ],
-  "voc": [
-    "uråvnji",
-    "uråvnji",
-  ],
-}
-`;
-
 exports[`noun f. usluga  1`] = `
 {
   "acc": [
@@ -103992,7 +103959,7 @@ exports[`noun m. Svět  1`] = `
 }
 `;
 
-exports[`noun m. Velikdenj (Velikdnja) 1`] = `
+exports[`noun m. Velikdėnj  1`] = `
 {
   "acc": [
     "Velikdėnj",
@@ -111868,43 +111835,6 @@ exports[`noun m. deminutiv  1`] = `
 }
 `;
 
-exports[`noun m. denj (dnja) 1`] = `
-{
-  "acc": [
-    "den / denj",
-    "dni / dnje",
-  ],
-  "dat": [
-    "dni / dnju",
-    "dnam / dnjam",
-  ],
-  "gen": [
-    "dne / dnja",
-    "dnev / dnjev",
-  ],
-  "ins": [
-    "dnem / dnjem",
-    "dnami / dnjami",
-  ],
-  "loc": [
-    "dni / dnju",
-    "dnah / dnjah",
-  ],
-  "nom": [
-    "den / denj",
-    "dni / dnje",
-  ],
-  "voc": [
-    "den / dnju",
-    "dni / dnje",
-  ],
-}
-`;
-
-exports[`noun m. denj oplakyvańja  1`] = `null`;
-
-exports[`noun m. denj rođeńja  1`] = `null`;
-
 exports[`noun m. departament  1`] = `
 {
   "acc": [
@@ -114081,6 +114011,43 @@ exports[`noun m. dyšnik  1`] = `
   ],
 }
 `;
+
+exports[`noun m. dėnj  1`] = `
+{
+  "acc": [
+    "den / denj",
+    "dni / dnje",
+  ],
+  "dat": [
+    "dni / dnju",
+    "dnam / dnjam",
+  ],
+  "gen": [
+    "dne / dnja",
+    "dnev / dnjev",
+  ],
+  "ins": [
+    "dnem / dnjem",
+    "dnami / dnjami",
+  ],
+  "loc": [
+    "dni / dnju",
+    "dnah / dnjah",
+  ],
+  "nom": [
+    "den / denj",
+    "dni / dnje",
+  ],
+  "voc": [
+    "den / dnju",
+    "dni / dnje",
+  ],
+}
+`;
+
+exports[`noun m. dėnj oplakyvańja  1`] = `null`;
+
+exports[`noun m. dėnj rođeńja  1`] = `null`;
 
 exports[`noun m. dęgylj  1`] = `
 {
@@ -140611,39 +140578,6 @@ exports[`noun m. penis  1`] = `
 }
 `;
 
-exports[`noun m. penj (pnja) 1`] = `
-{
-  "acc": [
-    "pėnj",
-    "pnje",
-  ],
-  "dat": [
-    "pnju",
-    "pnjam",
-  ],
-  "gen": [
-    "pnja",
-    "pnjev",
-  ],
-  "ins": [
-    "pnjem",
-    "pnjami",
-  ],
-  "loc": [
-    "pnju",
-    "pnjah",
-  ],
-  "nom": [
-    "pėnj",
-    "pnje",
-  ],
-  "voc": [
-    "pnju",
-    "pnje",
-  ],
-}
-`;
-
 exports[`noun m. pensijny fond  1`] = `null`;
 
 exports[`noun m. penthaus  1`] = `
@@ -143261,39 +143195,6 @@ exports[`noun m. pol  2`] = `
 }
 `;
 
-exports[`noun m. poldenj (poldnja) 1`] = `
-{
-  "acc": [
-    "poldėnj",
-    "poldnje",
-  ],
-  "dat": [
-    "poldnju",
-    "poldnjam",
-  ],
-  "gen": [
-    "poldnja",
-    "poldnjev",
-  ],
-  "ins": [
-    "poldnjem",
-    "poldnjami",
-  ],
-  "loc": [
-    "poldnju",
-    "poldnjah",
-  ],
-  "nom": [
-    "poldėnj",
-    "poldnje",
-  ],
-  "voc": [
-    "poldnju",
-    "poldnje",
-  ],
-}
-`;
-
 exports[`noun m. polder  1`] = `
 {
   "acc": [
@@ -143356,6 +143257,39 @@ exports[`noun m. poldnik  1`] = `
   "voc": [
     "poldniče",
     "poldniky",
+  ],
+}
+`;
+
+exports[`noun m. poldėnj (poldnja) 1`] = `
+{
+  "acc": [
+    "poldėnj",
+    "poldnje",
+  ],
+  "dat": [
+    "poldnju",
+    "poldnjam",
+  ],
+  "gen": [
+    "poldnja",
+    "poldnjev",
+  ],
+  "ins": [
+    "poldnjem",
+    "poldnjami",
+  ],
+  "loc": [
+    "poldnju",
+    "poldnjah",
+  ],
+  "nom": [
+    "poldėnj",
+    "poldnje",
+  ],
+  "voc": [
+    "poldnju",
+    "poldnje",
   ],
 }
 `;
@@ -143628,7 +143562,7 @@ exports[`noun m. pončik  1`] = `
 }
 `;
 
-exports[`noun m. popoldenj (popoldnja) 1`] = `
+exports[`noun m. popoldėnj  1`] = `
 {
   "acc": [
     "popoldėnj",
@@ -148998,6 +148932,39 @@ exports[`noun m. pčeľnik  1`] = `
   "voc": [
     "pčeľniče",
     "pčeľniky",
+  ],
+}
+`;
+
+exports[`noun m. pėnj  1`] = `
+{
+  "acc": [
+    "pėnj",
+    "pnje",
+  ],
+  "dat": [
+    "pnju",
+    "pnjam",
+  ],
+  "gen": [
+    "pnja",
+    "pnjev",
+  ],
+  "ins": [
+    "pnjem",
+    "pnjami",
+  ],
+  "loc": [
+    "pnju",
+    "pnjah",
+  ],
+  "nom": [
+    "pėnj",
+    "pnje",
+  ],
+  "voc": [
+    "pnju",
+    "pnje",
   ],
 }
 `;
@@ -157599,7 +157566,7 @@ exports[`noun m. stěnj  1`] = `
 }
 `;
 
-exports[`noun m. stųpenj (stųpnja) 1`] = `
+exports[`noun m. stųpėnj  1`] = `
 {
   "acc": [
     "stųpėnj",
@@ -157632,7 +157599,7 @@ exports[`noun m. stųpenj (stųpnja) 1`] = `
 }
 `;
 
-exports[`noun m. stųpenj (stųpnja) 2`] = `
+exports[`noun m. stųpėnj  2`] = `
 {
   "acc": [
     "stųpėnj",
@@ -158799,7 +158766,7 @@ exports[`noun m. sųd  1`] = `
 }
 `;
 
-exports[`noun m. sųdny denj  1`] = `null`;
+exports[`noun m. sųdny dėnj  1`] = `null`;
 
 exports[`noun m. sųdny pozȯv  1`] = `null`;
 
@@ -161593,7 +161560,9 @@ exports[`noun m. tvoriteljnik  1`] = `
 
 exports[`noun m. tvoriteljny padež  1`] = `null`;
 
-exports[`noun m. tydenj (tydnja) 1`] = `
+exports[`noun m. tydnjevy žurnal  1`] = `null`;
+
+exports[`noun m. tydėnj (tydnja) 1`] = `
 {
   "acc": [
     "tydėnj",
@@ -161625,8 +161594,6 @@ exports[`noun m. tydenj (tydnja) 1`] = `
   ],
 }
 `;
-
-exports[`noun m. tydnjevy žurnal  1`] = `null`;
 
 exports[`noun m. tyl  1`] = `
 {
@@ -162521,7 +162488,7 @@ exports[`noun m. urođaj  1`] = `
 }
 `;
 
-exports[`noun m. uråvenj (uråvnja) 1`] = `
+exports[`noun m. uråvėnj  1`] = `
 {
   "acc": [
     "uråvėnj",
@@ -219032,34 +218999,34 @@ exports[`noun m.sg. brom  1`] = `
 }
 `;
 
-exports[`noun m.sg. brězenj  1`] = `
+exports[`noun m.sg. brězėnj  1`] = `
 {
   "acc": [
-    "brězenj",
+    "brězėnj",
     null,
   ],
   "dat": [
-    "brězenju",
+    "brěznju",
     null,
   ],
   "gen": [
-    "brězenja",
+    "brěznja",
     null,
   ],
   "ins": [
-    "brězenjem",
+    "brěznjem",
     null,
   ],
   "loc": [
-    "brězenju",
+    "brěznju",
     null,
   ],
   "nom": [
-    "brězenj",
+    "brězėnj",
     null,
   ],
   "voc": [
-    "brězenju",
+    "brěznju",
     null,
   ],
 }
@@ -219296,34 +219263,34 @@ exports[`noun m.sg. cukr  1`] = `
 }
 `;
 
-exports[`noun m.sg. cvětenj  1`] = `
+exports[`noun m.sg. cvětėnj  1`] = `
 {
   "acc": [
-    "cvětenj",
+    "cvětėnj",
     null,
   ],
   "dat": [
-    "cvětenju",
+    "cvětnju",
     null,
   ],
   "gen": [
-    "cvětenja",
+    "cvětnja",
     null,
   ],
   "ins": [
-    "cvětenjem",
+    "cvětnjem",
     null,
   ],
   "loc": [
-    "cvětenju",
+    "cvětnju",
     null,
   ],
   "nom": [
-    "cvětenj",
+    "cvětėnj",
     null,
   ],
   "voc": [
-    "cvětenju",
+    "cvětnju",
     null,
   ],
 }
@@ -222701,34 +222668,34 @@ exports[`noun m.sg. lignit  1`] = `
 }
 `;
 
-exports[`noun m.sg. lipenj  1`] = `
+exports[`noun m.sg. lipėnj  1`] = `
 {
   "acc": [
-    "lipenj",
+    "lipėnj",
     null,
   ],
   "dat": [
-    "lipenju",
+    "lipnju",
     null,
   ],
   "gen": [
-    "lipenja",
+    "lipnja",
     null,
   ],
   "ins": [
-    "lipenjem",
+    "lipnjem",
     null,
   ],
   "loc": [
-    "lipenju",
+    "lipnju",
     null,
   ],
   "nom": [
-    "lipenj",
+    "lipėnj",
     null,
   ],
   "voc": [
-    "lipenju",
+    "lipnju",
     null,
   ],
 }
@@ -226205,34 +226172,34 @@ exports[`noun m.sg. styd  1`] = `
 }
 `;
 
-exports[`noun m.sg. styčenj  1`] = `
+exports[`noun m.sg. styčėnj  1`] = `
 {
   "acc": [
-    "styčenj",
+    "styčėnj",
     null,
   ],
   "dat": [
-    "styčenju",
+    "styčnju",
     null,
   ],
   "gen": [
-    "styčenja",
+    "styčnja",
     null,
   ],
   "ins": [
-    "styčenjem",
+    "styčnjem",
     null,
   ],
   "loc": [
-    "styčenju",
+    "styčnju",
     null,
   ],
   "nom": [
-    "styčenj",
+    "styčėnj",
     null,
   ],
   "voc": [
-    "styčenju",
+    "styčnju",
     null,
   ],
 }
@@ -226504,67 +226471,67 @@ exports[`noun m.sg. sěverozapad  1`] = `
 }
 `;
 
-exports[`noun m.sg. sěčenj  1`] = `
+exports[`noun m.sg. sěčėnj  1`] = `
 {
   "acc": [
-    "sěčenj",
+    "sěčėnj",
     null,
   ],
   "dat": [
-    "sěčenju",
+    "sěčnju",
     null,
   ],
   "gen": [
-    "sěčenja",
+    "sěčnja",
     null,
   ],
   "ins": [
-    "sěčenjem",
+    "sěčnjem",
     null,
   ],
   "loc": [
-    "sěčenju",
+    "sěčnju",
     null,
   ],
   "nom": [
-    "sěčenj",
+    "sěčėnj",
     null,
   ],
   "voc": [
-    "sěčenju",
+    "sěčnju",
     null,
   ],
 }
 `;
 
-exports[`noun m.sg. sŕpenj  1`] = `
+exports[`noun m.sg. sŕpėnj  1`] = `
 {
   "acc": [
-    "sŕpenj",
+    "sŕpėnj",
     null,
   ],
   "dat": [
-    "sŕpenju",
+    "sŕpnju",
     null,
   ],
   "gen": [
-    "sŕpenja",
+    "sŕpnja",
     null,
   ],
   "ins": [
-    "sŕpenjem",
+    "sŕpnjem",
     null,
   ],
   "loc": [
-    "sŕpenju",
+    "sŕpnju",
     null,
   ],
   "nom": [
-    "sŕpenj",
+    "sŕpėnj",
     null,
   ],
   "voc": [
-    "sŕpenju",
+    "sŕpnju",
     null,
   ],
 }
@@ -226770,34 +226737,34 @@ exports[`noun m.sg. totalitarizm  1`] = `
 }
 `;
 
-exports[`noun m.sg. travenj  1`] = `
+exports[`noun m.sg. travėnj  1`] = `
 {
   "acc": [
-    "travenj",
+    "travėnj",
     null,
   ],
   "dat": [
-    "travenju",
+    "travnju",
     null,
   ],
   "gen": [
-    "travenja",
+    "travnja",
     null,
   ],
   "ins": [
-    "travenjem",
+    "travnjem",
     null,
   ],
   "loc": [
-    "travenju",
+    "travnju",
     null,
   ],
   "nom": [
-    "travenj",
+    "travėnj",
     null,
   ],
   "voc": [
-    "travenju",
+    "travnju",
     null,
   ],
 }
@@ -227199,34 +227166,34 @@ exports[`noun m.sg. volfram  1`] = `
 }
 `;
 
-exports[`noun m.sg. vresenj  1`] = `
+exports[`noun m.sg. vresėnj  1`] = `
 {
   "acc": [
-    "vresenj",
+    "vresėnj",
     null,
   ],
   "dat": [
-    "vresenju",
+    "vresnju",
     null,
   ],
   "gen": [
-    "vresenja",
+    "vresnja",
     null,
   ],
   "ins": [
-    "vresenjem",
+    "vresnjem",
     null,
   ],
   "loc": [
-    "vresenju",
+    "vresnju",
     null,
   ],
   "nom": [
-    "vresenj",
+    "vresėnj",
     null,
   ],
   "voc": [
-    "vresenju",
+    "vresnju",
     null,
   ],
 }
@@ -227496,34 +227463,34 @@ exports[`noun m.sg. česnȯk  1`] = `
 }
 `;
 
-exports[`noun m.sg. črvenj  1`] = `
+exports[`noun m.sg. črvėnj  1`] = `
 {
   "acc": [
-    "črvenj",
+    "črvėnj",
     null,
   ],
   "dat": [
-    "črvenju",
+    "črvnju",
     null,
   ],
   "gen": [
-    "črvenja",
+    "črvnja",
     null,
   ],
   "ins": [
-    "črvenjem",
+    "črvnjem",
     null,
   ],
   "loc": [
-    "črvenju",
+    "črvnju",
     null,
   ],
   "nom": [
-    "črvenj",
+    "črvėnj",
     null,
   ],
   "voc": [
-    "črvenju",
+    "črvnju",
     null,
   ],
 }

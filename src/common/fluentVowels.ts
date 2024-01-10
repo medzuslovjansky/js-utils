@@ -1,0 +1,59 @@
+import { ALL_CHARACTERS, CONSONANT_CHARACTERS } from '../constants';
+
+const LETTERS = new Set(ALL_CHARACTERS);
+const CONSONANTS = new Set(CONSONANT_CHARACTERS);
+
+export function markFluentVowel(word: string, add: string): string {
+  let i = 0;
+
+  const L = Math.min(word.length - 1, add.length);
+  while (i < L && word[i] === add[i]) {
+    i++;
+  }
+
+  if (word[i] !== add[i] && word[i + 1] === add[i]) {
+    return replaceFluentVowel(word, i);
+  }
+
+  return word;
+}
+
+export function inferFluentVowel(word: string): string {
+  let i = word.length - 1;
+  let end = word.length;
+  let replaced = false;
+  let result = word;
+
+  while (i > 0) {
+    const char = word[i];
+    if (!LETTERS.has(char)) {
+      end = i;
+      replaced = false;
+    }
+
+    if (!replaced && isFleetingVowel(char)) {
+      if (isLastSyllable(word, i, end)) {
+        result = replaceFluentVowel(result, i);
+      }
+    }
+
+    i--;
+  }
+
+  return result;
+}
+
+function isFleetingVowel(char: string): boolean {
+  return char === 'è' || char === 'ė' || char === 'ȯ' || char === 'ò';
+}
+
+function replaceFluentVowel(word: string, j: number): string {
+  const fluentVowel = word[j].normalize('NFD')[0];
+  return `${word.slice(0, j)}(${fluentVowel})${word.slice(j + 1)}`;
+}
+
+function isLastSyllable(word: string, i: number, end: number): boolean {
+  if (i === end - 2) return CONSONANTS.has(word[i + 1]);
+  if (i === end - 3) return word[i + 1] === 'n' && word[i + 2] === 'j';
+  return false;
+}

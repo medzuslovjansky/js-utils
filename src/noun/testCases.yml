@@ -1441,7 +1441,7 @@
   morphology: m.
 - lemma: brěza
   morphology: f.
-- lemma: brězenj
+- lemma: brězėnj
   morphology: m.sg.
 - lemma: bridž
   morphology: m.sg.
@@ -1725,7 +1725,7 @@
   morphology: m.
 - lemma: cvět
   morphology: m.
-- lemma: cvětenj
+- lemma: cvětėnj
   morphology: m.sg.
 - lemma: cvěteńje
   morphology: n.sg.
@@ -2020,7 +2020,7 @@
   morphology: m.anim.
 - lemma: črvenica
   morphology: f.
-- lemma: črvenj
+- lemma: črvėnj
   morphology: m.sg.
 - lemma: črvenogrlka
   morphology: f.
@@ -2257,12 +2257,11 @@
   morphology: m.anim.
 - lemma: demonstracija
   morphology: f.
-- lemma: denj oplakyvańja
+- lemma: dėnj oplakyvańja
   morphology: m.
-- lemma: denj rođeńja
+- lemma: dėnj rođeńja
   morphology: m.
-- extra: "(dnja)"
-  lemma: denj
+- lemma: dėnj
   morphology: m.
 - lemma: denonočje
   morphology: n.
@@ -7052,7 +7051,7 @@
   morphology: f.
 - lemma: lipan
   morphology: m.anim.
-- lemma: lipenj
+- lemma: lipėnj
   morphology: m.sg.
 - lemma: Lisabon
   morphology: m.
@@ -10296,8 +10295,7 @@
   morphology: m.pl.
 - lemma: penis
   morphology: m.
-- extra: "(pnja)"
-  lemma: penj
+- lemma: pėnj
   morphology: m.
 - lemma: pěnna kųpělj
   morphology: f.
@@ -10931,7 +10929,7 @@
 - lemma: polarno sijańje
   morphology: n.sg.
 - extra: "(poldnja)"
-  lemma: poldenj
+  lemma: poldėnj
   morphology: m.
 - lemma: polder
   morphology: m.
@@ -11059,8 +11057,7 @@
   morphology: f.
 - lemma: pop-muzika
   morphology: f.
-- extra: "(popoldnja)"
-  lemma: popoldenj
+- lemma: popoldėnj
   morphology: m.
 - lemma: popoldenno spańje
   morphology: n.
@@ -13305,7 +13302,7 @@
   morphology: f.
 - lemma: sěča
   morphology: f.
-- lemma: sěčenj
+- lemma: sěčėnj
   morphology: m.sg.
 - lemma: sědališče
   morphology: n.
@@ -14211,7 +14208,7 @@
   morphology: n.
 - lemma: sŕp
   morphology: m.
-- lemma: sŕpenj
+- lemma: sŕpėnj
   morphology: m.sg.
 - lemma: sŕsť
   morphology: f.
@@ -14465,11 +14462,9 @@
   morphology: m.
 - lemma: stųpenišče
   morphology: n.
-- extra: "(stųpnja)"
-  lemma: stųpenj
+- lemma: stųpėnj
   morphology: m.
-- extra: "(stųpnja)"
-  lemma: stųpenj
+- lemma: stųpėnj
   morphology: m.
 - lemma: stųpnica
   morphology: f.
@@ -14483,7 +14478,7 @@
   morphology: m.
 - lemma: stvorjeńje
   morphology: n.
-- lemma: styčenj
+- lemma: styčėnj
   morphology: m.sg.
 - lemma: styd
   morphology: m.sg.
@@ -14519,7 +14514,7 @@
   morphology: f.
 - lemma: sųďja
   morphology: m.anim.
-- lemma: sųdny denj
+- lemma: sųdny dėnj
   morphology: m.
 - lemma: sųdny pozȯv
   morphology: m.
@@ -15380,7 +15375,7 @@
   morphology: f.
 - lemma: trava
   morphology: f.
-- lemma: travenj
+- lemma: travėnj
   morphology: m.sg.
 - lemma: travjeńje
   morphology: n.sg.
@@ -15559,7 +15554,7 @@
 - lemma: tyčkoskok
   morphology: m.
 - extra: "(tydnja)"
-  lemma: tydenj
+  lemma: tydėnj
   morphology: m.
 - lemma: tydnjeva gazeta
   morphology: f.
@@ -15783,12 +15778,8 @@
   morphology: m.sg.
 - lemma: Uran
   morphology: m.sg.
-- extra: "(uråvnja)"
-  lemma: uråvenj
+- lemma: uråvėnj
   morphology: m.
-- extra: "(uråvnja)"
-  lemma: uråvenj
-  morphology: f.
 - lemma: uraza
   morphology: f.
 - lemma: uręd
@@ -16105,8 +16096,7 @@
   morphology: f.
 - lemma: velikan
   morphology: m.anim.
-- extra: "(Velikdnja)"
-  lemma: Velikdenj
+- lemma: Velikdėnj
   morphology: m.
 - lemma: velikodušnosť
   morphology: f.
@@ -16820,7 +16810,7 @@
   morphology: n.
 - lemma: vrěs
   morphology: m.
-- lemma: vresenj
+- lemma: vresėnj
   morphology: m.sg.
 - lemma: vrěsk
   morphology: m.
