@@ -492,7 +492,7 @@
 - lemma: boljny
   morphology: adj.
 - lemma: boljši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: bordovy
   morphology: adj.
 - lemma: bosnijsky
@@ -674,7 +674,7 @@
 - lemma: daljny
   morphology: adj.
 - lemma: daljši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: dalmatinsky
   morphology: adj.
 - lemma: dansky
@@ -764,7 +764,7 @@
 - lemma: diskusijny
   morphology: adj.
 - lemma: divnějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: divny
   morphology: adj.
 - lemma: divy
@@ -1365,7 +1365,7 @@
 - lemma: historičny
   morphology: adj.
 - lemma: hlådnějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: hlådny
   morphology: adj.
 - lemma: hmeljny
@@ -1953,7 +1953,7 @@
 - lemma: krasivy
   morphology: adj.
 - lemma: krasnějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: krasnorěčivy
   morphology: adj.
 - lemma: krasny
@@ -2597,61 +2597,61 @@
 - lemma: naivny
   morphology: adj.
 - lemma: najblizši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najbogatši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najboljši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najdaljši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najdivnějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najemny
   morphology: adj.
 - lemma: najglųbši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najgorši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najhlådnějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najkrasivši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najkrasnějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najkrvavši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najlegši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najlěpši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najlučši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najmękši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najmenši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najnizši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najnovějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najpozdnějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najprostějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najranši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najstarějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najstarši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najvęćši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najveliky
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najzimnějši
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: najzly
-  morphology: adj.
+  morphology: adj.sup.
 - lemma: naklonjeny
   morphology: adj.
 - lemma: naležity
@@ -3898,7 +3898,7 @@
 - lemma: povyši
   morphology: adj.
 - lemma: pozdnějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: pozdny
   morphology: adj.
 - lemma: pozemny
@@ -4158,7 +4158,7 @@
 - lemma: prostačsky
   morphology: adj.
 - lemma: prostějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: prostrånny
   morphology: adj.
 - lemma: prostrånny
@@ -4809,7 +4809,7 @@
 - lemma: staranny
   morphology: adj.
 - lemma: starějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: starši
   morphology: adj.
 - lemma: starinny
@@ -5345,7 +5345,7 @@
 - lemma: velebny
   morphology: adj.
 - lemma: veličejši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: veličstveny
   morphology: adj.
 - lemma: velikodušny
@@ -5739,7 +5739,7 @@
 - lemma: zemsky
   morphology: adj.
 - lemma: zimnějši
-  morphology: adj.
+  morphology: adj.comp.
 - lemma: zimny
   morphology: adj.
 - lemma: zimovy
