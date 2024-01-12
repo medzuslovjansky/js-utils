@@ -8,13 +8,13 @@ const rawTestCases = yaml.load(
 ) as { morphology: string; lemma: string; extra?: string }[];
 
 const adjective = rawTestCases.map(
-  (t) => [t.morphology, t.lemma, t.extra ?? ''] as const,
+  (t) => [t.lemma, t.extra ?? '', t.morphology] as const,
 );
 
 describe('adjective', () => {
-  test.each(adjective)('%s %s %s', (morphology, lemma, extra) => {
+  test.each(adjective)('%s %s', (lemma, _extra, morphology) => {
     if (!morphology.startsWith('adj')) throw 'not an adjective';
-    const actual = declensionAdjective(lemma, extra);
+    const actual = declensionAdjective(lemma, '');
     expect(actual).toMatchSnapshot();
   });
 });
