@@ -5,8 +5,11 @@
 export function declensionAdjectiveFlat(
   adj: string,
   postfix: string,
+  partOfSpeech?: string,
 ): string[] {
-  return getDeclensionAdjectiveFlat(declensionAdjective(adj, postfix));
+  return getDeclensionAdjectiveFlat(
+    declensionAdjective(adj, postfix, partOfSpeech),
+  );
 }
 
 function getDeclensionAdjectiveFlat(result: any): string[] {
@@ -51,6 +54,7 @@ type SteenAdjectiveParadigm$Comparison = {
 export function declensionAdjective(
   adj: string,
   postfix: string,
+  partOfSpeech = 'adj.',
 ): SteenAdjectiveParadigm {
   const root = establish_root(adj);
   const m_nom_sg = m_nominative_sg(adj, root);
@@ -72,12 +76,6 @@ export function declensionAdjective(
   const dat_pl = dative_pl(root);
   const ins_pl = instrumental_pl(root);
 
-  const adv = adverb(root);
-  const comp_adj = comparative_adj(root);
-  const comp_adv = comparative_adv(root);
-  const sup_adj = superlative(root, comp_adj, 'adj');
-  const sup_adv = superlative(root, comp_adv, 'adv');
-
   return {
     singular: {
       nom: applyRules([m_nom_sg, n_nom_sg, f_nom_sg], postfix),
@@ -95,11 +93,41 @@ export function declensionAdjective(
       dat: applyRules([dat_pl], postfix),
       ins: applyRules([ins_pl], postfix),
     },
-    comparison: {
-      positive: applyRules([m_nom_sg, adv], postfix),
-      comparative: applyRules([comp_adj, comp_adv], postfix),
-      superlative: applyRules([sup_adj, sup_adv], postfix),
-    },
+    comparison: deriveComparison(root, adj, postfix, partOfSpeech),
+  };
+}
+
+function deriveComparison(
+  root: string,
+  adj: string,
+  postfix: string,
+  partOfSpeech: string,
+): SteenAdjectiveParadigm['comparison'] {
+  const { isPositive, isComparative, isSuperlative } =
+    parseComparisionModifiers(partOfSpeech);
+
+  const adv = adverb(root);
+  const m_nom_sg = m_nominative_sg(adj, root);
+  const comp_adj = isComparative ? m_nom_sg : comparative_adj(root);
+  const comp_adv = isComparative ? adv : comparative_adv(root);
+  const sup_adj = isSuperlative ? m_nom_sg : superlative(root, comp_adj, 'adj');
+  const sup_adv = isSuperlative ? m_nom_sg : superlative(root, comp_adv, 'adv');
+
+  return {
+    positive: isPositive ? applyRules([m_nom_sg, adv], postfix) : [],
+    comparative: isSuperlative ? [] : applyRules([comp_adj, comp_adv], postfix),
+    superlative: applyRules([sup_adj, sup_adv], postfix),
+  };
+}
+
+function parseComparisionModifiers(partOfSpeech: string) {
+  const isComparative = partOfSpeech.endsWith('comp.');
+  const isSuperlative = partOfSpeech.endsWith('sup.');
+
+  return {
+    isPositive: !isComparative && !isSuperlative,
+    isComparative,
+    isSuperlative,
   };
 }
 
