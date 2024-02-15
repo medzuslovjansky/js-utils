@@ -1,26 +1,20 @@
 import fs from 'node:fs';
 import path from 'node:path';
-
+import yaml from 'js-yaml';
 import { conjugationVerb } from './conjugationVerb';
 
-const rawTestCases: any[] = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'testCases.json'), 'utf8'),
+const rawTestCases = yaml.load(
+  fs.readFileSync(path.join(__dirname, 'testCases.yml'), 'utf8'),
+) as { morphology: string; lemma: string; extra?: string }[];
+
+const verb = rawTestCases.map(
+  (t) => [t.lemma, t.extra ?? '', t.morphology] as const,
 );
 
 describe('verb', () => {
-  const verb = (rawTestCases as any[]).map((t) => [
-    t.init.word,
-    t.init.add,
-    t.expected,
-  ]);
-
-  test.each(verb)('%s', (word: string, add: string, expected: any) => {
-    const actual = conjugationVerb(word, add);
-
-    if (actual === null) {
-      expect(actual).toBe(expected);
-    } else {
-      expect(actual).toMatchObject(expected);
-    }
+  test.each(verb)('%s %s', (lemma, extra, morphology) => {
+    if (!morphology.startsWith('v.')) throw 'not a verb';
+    const actual = conjugationVerb(lemma, extra);
+    expect(actual).toMatchSnapshot();
   });
 });
