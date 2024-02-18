@@ -108,3 +108,7 @@ dist
 
 # Mac
 .DS_Store
+
+# Allure Reports
+allure-results/
+allure-report/
