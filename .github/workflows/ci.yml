@@ -22,6 +22,9 @@ jobs:
         with:
           useLockFile: false
 
+      - name: Configure report URL
+        run: echo "ALLURE_URL=https://isv-utils-allure-${{ github.run_number }}.surge.sh" >> $GITHUB_ENV
+
       - name: Lint
         run: npm run lint
 
@@ -29,18 +32,31 @@ jobs:
         run: npm run build
 
       - name: Test
-        run: npm run test -- --coverage
+        id: test
+        run: npm test
+        continue-on-error: true
+
+      - name: Generate Allure report
+        run: scripts/allure.sh
+        env:
+          ALLURE_URL: ${{ env.ALLURE_URL }}
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+
+      - name: Replace report link to PR
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: 'View the deployed report at [surge.sh](${{ env.ALLURE_URL }})'
+          comment_tag: 'allure-report'
+
+      - name: Abort if tests failed
+        if: steps.test.outcome == 'failure'
+        run: exit 1
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Semantic release
-        run: npx --no-install semantic-release --debug
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Generate docs
         if: github.ref == 'refs/heads/main'
@@ -55,3 +71,10 @@ jobs:
           force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Semantic release
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta'
+        run: npx --no-install semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
