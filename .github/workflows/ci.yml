@@ -31,16 +31,19 @@ jobs:
       - name: Test
         run: npm run test -- --coverage
 
+      - name: Generate Allure report
+        run: npm run allure:generate
+
+      - name: Attach Allure report
+        uses: actions/upload-artifact@v2
+        with:
+          name: allure-report-${{ github.run_number }}.html
+          path: allure-report/index.html
+
       - name: Coveralls
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Semantic release
-        run: npx --no-install semantic-release --debug
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Generate docs
         if: github.ref == 'refs/heads/main'
@@ -55,3 +58,10 @@ jobs:
           force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
+
+      - name: Semantic release
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta'
+        run: npx --no-install semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
