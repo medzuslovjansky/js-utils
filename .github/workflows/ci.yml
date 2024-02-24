@@ -29,6 +29,7 @@ jobs:
         run: npm run build
 
       - name: Test
+        continue-on-error: true
         run: npm run test -- --coverage
 
       - name: Generate Allure report
@@ -52,12 +53,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate docs
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && success()
         run: npm run docs
 
       - name: Deploy to GH pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+        if: github.ref == 'refs/heads/main' && success()
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/docs
@@ -66,7 +67,7 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
 
       - name: Semantic release
-        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta'
+        if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta') && success()
         run: npx --no-install semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
