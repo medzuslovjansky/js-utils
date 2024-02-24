@@ -77,6 +77,9 @@ const allureConfig = {
           testFile.numPendingTests,
       },
     ],
+    status: ({ testFile, value }) => {
+      return testFile.numFailingTests > 0 ? 'failed' : value;
+    },
     description: ({ testFile, value = '' }) => {
       const {
         numPassingTests: passed,
@@ -96,6 +99,7 @@ const allureConfig = {
 
 /** @type {import('jest').Config} */
 module.exports = {
+  collectCoverage: !!process.env.CI,
   reporters: ['default', ['jest-allure2-reporter', allureConfig]],
   testEnvironment: 'jest-allure2-reporter/environment-node',
   transform: {

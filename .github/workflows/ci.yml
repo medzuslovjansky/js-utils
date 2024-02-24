@@ -22,6 +22,9 @@ jobs:
         with:
           useLockFile: false
 
+      - name: Configure report URL
+        run: echo "ALLURE_URL=https://isv-utils-allure-${{ github.run_number }}.surge.sh" >> $GITHUB_ENV
+
       - name: Lint
         run: npm run lint
 
@@ -29,23 +32,26 @@ jobs:
         run: npm run build
 
       - name: Test
+        id: test
+        run: npm test
         continue-on-error: true
-        run: npm run test -- --coverage
 
       - name: Generate Allure report
-        run: npm run allure:generate
-
-      - name: Deploy Allure report
-        run: npx --yes surge --project ./allure-report --domain isv-utils-allure-${{ github.run_number }}.surge.sh
+        run: scripts/allure.sh
         env:
+          ALLURE_URL: ${{ env.ALLURE_URL }}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
 
       - name: Replace report link to PR
         uses: thollander/actions-comment-pull-request@v2
         with:
-          message: 'View the deployed report at [surge.sh](https://isv-utils-allure-${{ github.run_number }}.surge.sh)'
+          message: 'View the deployed report at [surge.sh](${{ env.ALLURE_URL }})'
           comment_tag: 'allure-report'
+
+      - name: Abort if tests failed
+        if: steps.test.outcome == 'failure'
+        run: exit 1
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
@@ -53,12 +59,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate docs
-        if: github.ref == 'refs/heads/main' && success()
+        if: github.ref == 'refs/heads/main'
         run: npm run docs
 
       - name: Deploy to GH pages
         uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main' && success()
+        if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist/docs
@@ -67,7 +73,7 @@ jobs:
           user_email: 'github-actions[bot]@users.noreply.github.com'
 
       - name: Semantic release
-        if: (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta') && success()
+        if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/beta'
         run: npx --no-install semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
