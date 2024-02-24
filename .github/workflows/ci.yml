@@ -34,11 +34,17 @@ jobs:
       - name: Generate Allure report
         run: npm run allure:generate
 
-      - name: Attach Allure report
-        uses: actions/upload-artifact@v2
+      - name: Deploy Allure report
+        run: npx --yes surge --project ./allure-report --domain isv-utils-allure-${{ github.run_number }}.surge.sh
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+
+      - name: Replace report link to PR
+        uses: thollander/actions-comment-pull-request@v2
         with:
-          name: allure-report-${{ github.run_number }}.html
-          path: allure-report/index.html
+          message: 'View the deployed report at [surge.sh](https://isv-utils-allure-${{ github.run_number }}.surge.sh)'
+          comment_tag: 'allure-report'
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
