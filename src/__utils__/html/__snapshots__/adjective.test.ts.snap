@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderers HTML noun declension render 1`] = `
+"<figure>
+  <figcaption>Adjective declension</figcaption>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th colspan="3">singular</th>
+      </tr>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>neuter</th>
+        <th>feminine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Nom.</th>
+        <td>najdobry-koli</td>
+        <td>najdobro-koli</td>
+        <td>najdobra-koli</td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td>najdobrogo-koli / najdobry-koli</td>
+        <td>najdobro-koli</td>
+        <td>najdobrų-koli</td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2">najdobrogo-koli</td>
+        <td>najdobroj-koli</td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2">najdobrom-koli</td>
+        <td>najdobroj-koli</td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2">najdobromu-koli</td>
+        <td>najdobroj-koli</td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2">najdobrym-koli</td>
+        <td>najdobrojų-koli</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tbody>
+      <tr>
+        <th></th>
+        <th colspan="2">plural</th>
+      </tr>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>feminine/neuter</th>
+      </tr>
+      <tr>
+        <th>Nom.</th>
+        <td>najdobri-koli / najdobre-koli</td>
+        <td>najdobre-koli</td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td>najdobryh-koli / najdobre-koli</td>
+        <td>najdobre-koli</td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2">najdobryh-koli</td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2">najdobryh-koli</td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2">najdobrym-koli</td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2">najdobrymi-koli</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tbody>
+      <tr>
+        <th>Degrees of comparison</th>
+        <th>adjective</th>
+        <th>adverb</th>
+      </tr>
+      <tr>
+        <th>positive</th>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>comparative</th>
+        <td>—</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>superlative</th>
+        <td>najdobry-koli</td>
+        <td>najdobry-koli</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+"
+`;
+
+exports[`renderers HTML noun declension renderDiff 1`] = `
+"<figure>
+  <figcaption>Adjective declension</figcaption>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th colspan="3">singular</th>
+      </tr>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>neuter</th>
+        <th>feminine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Nom.</th>
+        <td><del>svěži</del> <ins>črstvy</ins></td>
+        <td><del>svěže</del> <ins>črstvo</ins></td>
+        <td><del>svěža</del> <ins>črstva</ins></td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td><del>svěžego / svěži</del> <ins>črstvogo / črstvy</ins></td>
+        <td><del>svěže</del> <ins>črstvo</ins></td>
+        <td><del>svěžų</del> <ins>črstvų</ins></td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2"><del>svěžego</del> <ins>črstvogo</ins></td>
+        <td><del>svěžej</del> <ins>črstvoj</ins></td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2"><del>svěžem</del> <ins>črstvom</ins></td>
+        <td><del>svěžej</del> <ins>črstvoj</ins></td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2"><del>svěžemu</del> <ins>črstvomu</ins></td>
+        <td><del>svěžej</del> <ins>črstvoj</ins></td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2"><del>svěžim</del> <ins>črstvym</ins></td>
+        <td><del>svěžejų</del> <ins>črstvojų</ins></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tbody>
+      <tr>
+        <th></th>
+        <th colspan="2">plural</th>
+      </tr>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>feminine/neuter</th>
+      </tr>
+      <tr>
+        <th>Nom.</th>
+        <td><del>svěži / svěže</del> <ins>črstvi / črstve</ins></td>
+        <td><del>svěže</del> <ins>črstve</ins></td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td><del>svěžih / svěže</del> <ins>črstvyh / črstve</ins></td>
+        <td><del>svěže</del> <ins>črstve</ins></td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2"><del>svěžih</del> <ins>črstvyh</ins></td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2"><del>svěžih</del> <ins>črstvyh</ins></td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2"><del>svěžim</del> <ins>črstvym</ins></td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2"><del>svěžimi</del> <ins>črstvymi</ins></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <tbody>
+      <tr>
+        <th>Degrees of comparison</th>
+        <th>adjective</th>
+        <th>adverb</th>
+      </tr>
+      <tr>
+        <th>positive</th>
+        <td><del>svěži</del> <ins>črstvy</ins></td>
+        <td><del>svěže</del> <ins>črstvo</ins></td>
+      </tr>
+      <tr>
+        <th>comparative</th>
+        <td><del>svěžejši</del> <ins>črstvějši</ins></td>
+        <td><del>svěžeje</del> <ins>črstvěje</ins></td>
+      </tr>
+      <tr>
+        <th>superlative</th>
+        <td><del>najsvěžejši</del> <ins>najčrstvějši</ins></td>
+        <td><del>najsvěžeje</del> <ins>najčrstvěje</ins></td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+"
+`;

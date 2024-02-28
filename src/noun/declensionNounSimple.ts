@@ -4,7 +4,7 @@ import { declensionNoun } from './declensionNoun';
 export function declensionNounSimple(
   lemma: string,
   morphology: string,
-  extra: string,
+  extra = '',
   genderOverride?: 'masculine' | 'feminine',
 ) {
   const pos = parsePos(morphology);

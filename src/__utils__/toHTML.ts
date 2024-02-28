@@ -1,19 +1,20 @@
 import vm from 'node:vm';
+
 import type { TestCaseResult } from '@jest/reporters';
-import { transliterate } from '..';
-import { toMarkdown as verb } from '../verb/__utils__/toMarkdown';
+
 import { SteenVerbParadigm } from '../verb';
+import { SteenNounParadigm } from '../noun';
+import { SteenAdjectiveParadigm } from '../adjective';
+
+import * as html from './html';
 
 type Tuple<T> = [T, T];
 type TupleProcessor<T> = (diff: Tuple<T>) => string;
 
-export function toMarkdown(test: TestCaseResult) {
-  const processor = getMarkdownProcessor(test);
-  const tables = processor ? getBeforeAndAfter(test).map(processor) : [];
-  return transliterate(
-    tables.map((table) => table + '\n\n').join(''),
-    'art-Latn-x-interslv-etym',
-  );
+export function toHTML(test: TestCaseResult) {
+  const renderer = getRenderer(test);
+  const figures = renderer ? getBeforeAndAfter(test).map(renderer) : [];
+  return figures.map((figure) => figure + '\n\n').join('');
 }
 
 function getBeforeAndAfter(test: TestCaseResult): Tuple<unknown>[] {
@@ -28,13 +29,20 @@ function getBeforeAndAfter(test: TestCaseResult): Tuple<unknown>[] {
     );
 }
 
-function getMarkdownProcessor(
+function getRenderer(
   test: TestCaseResult,
 ): TupleProcessor<unknown> | undefined {
   const partOfSpeech = test.ancestorTitles[0];
   switch (partOfSpeech) {
     case 'verb':
-      return (tuple) => verb(tuple as Tuple<SteenVerbParadigm>);
+      return (tuple) =>
+        html.verb.renderDiff(...(tuple as Tuple<SteenVerbParadigm>));
+    case 'noun':
+      return (tuple) =>
+        html.noun.renderDiff(...(tuple as Tuple<SteenNounParadigm>));
+    case 'adjective':
+      return (tuple) =>
+        html.adjective.renderDiff(...(tuple as Tuple<SteenAdjectiveParadigm>));
     default:
       return;
   }

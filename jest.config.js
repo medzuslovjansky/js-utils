@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { findLemmaById, toMarkdown } = require('./dist/__utils__');
+const { findLemmaById, toHTML } = require('./dist/__utils__');
 
 /** @type {import('jest-allure2-reporter').ReporterConfig} */
 const allureConfig = {
@@ -34,33 +34,34 @@ const allureConfig = {
 
       return value;
     },
-    description: ({ testCase, value = '' }) => {
-      return testCase.status === 'failed'
-        ? toMarkdown(testCase) + value
-        : value;
+    description: () => void 0,
+    descriptionHtml: ({ testCase, value = '' }) => {
+      const content =
+        testCase.status === 'failed' ? toHTML(testCase) + value : value;
+
+      return `\
+        <style>
+          figcaption { margin: 1em 0; font-style: italic; }
+          figure > table { margin-bottom: 0.75em }
+          figure th { background-color: #e4edfe }
+          figure th, figure td {
+            border: 1px solid #777;
+            padding: 0.5ch;
+          }
+          figure td > del {
+            background-color: #ffe7e6;
+            color: #9e0500;
+            display: block;
+          }
+          figure td > ins {
+            font-style: normal;
+            background-color: #eef9eb;
+            color: #125400;
+            display: block;
+          }
+        </style>
+        ${content}`;
     },
-    descriptionHtml: ({ value = '' }) => `\
-      <style>
-        h3 ~ table { margin-bottom: 1.25em }
-        h3 ~ table > thead { background-color: #e4edfe }
-        h3 ~ table th,
-        h3 ~ table td {
-          border: 1px solid #777;
-          padding: 0.5ch;
-        }
-        h3 ~ table del {
-          background-color: #ffe7e6;
-          color: #9e0500;
-          display: block;
-        }
-        h3 ~ table del + em {
-          font-style: normal;
-          background-color: #eef9eb;
-          color: #125400;
-          display: block;
-        }
-      </style>
-      ${value}`,
   },
   testFile: {
     hidden: () => false,

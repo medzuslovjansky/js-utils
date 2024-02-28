@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderers HTML verb conjugation render 1`] = `
+"<figure>
+   <figcaption>Verb conjugation</figcaption>
+   <table>
+      <thead>
+         <tr>
+            <th>person</th>
+            <th>pronoun</th>
+            <th>present</th>
+            <th>imperfect</th>
+            <th>future</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <th>1.sg</th>
+            <td>ja</td>
+            <td>derų, derem</td>
+            <td>drěh</td>
+            <td>bųdų drěti</td>
+         </tr>
+         <tr>
+            <th>2.sg</th>
+            <td>ty</td>
+            <td>dereš</td>
+            <td>drěše</td>
+            <td>bųdeš drěti</td>
+         </tr>
+         <tr>
+            <th>3.sg</th>
+            <td>on, ona, ono</td>
+            <td>dere</td>
+            <td>drěše</td>
+            <td>bųde drěti</td>
+         </tr>
+         <tr>
+            <th>1.pl</th>
+            <td>my</td>
+            <td>deremo</td>
+            <td>drěhmo</td>
+            <td>bųdemo drěti</td>
+         </tr>
+         <tr>
+            <th>2.pl</th>
+            <td>vy</td>
+            <td>derete</td>
+            <td>drěste</td>
+            <td>bųdete drěti</td>
+         </tr>
+         <tr>
+            <th>3.pl</th>
+            <td>oni, one</td>
+            <td>derųt</td>
+            <td>drěhų</td>
+            <td>bųdųt drěti</td>
+         </tr>
+      </tbody>
+      </table>
+      <table>
+      <thead>
+         <tr>
+            <th>person</th>
+            <th>pronoun</th>
+            <th>perfect</th>
+            <th>pluperfect</th>
+            <th>conditional</th>
+         </tr>
+         <tr>
+            <th>1.sg</th>
+            <td>ja</td>
+            <td>jesm dŕl(a)</td>
+            <td>běh dŕl(a)</td>
+            <td>byh dŕl(a)</td>
+         </tr>
+         <tr>
+            <th>2.sg</th>
+            <td>ty</td>
+            <td>jesi dŕl(a)</td>
+            <td>běše dŕl(a)</td>
+            <td>bys dŕl(a)</td>
+         </tr>
+         <tr>
+            <th rowspan="3">3.sg</th>
+            <td>on</td>
+            <td>(je) dŕl</td>
+            <td>běše dŕl</td>
+            <td>by dŕl</td>
+         </tr>
+         <tr>
+            <td>ona</td>
+            <td>(je) dŕla</td>
+            <td>běše dŕla</td>
+            <td>by dŕla</td>
+         </tr>
+         <tr>
+            <td>ono</td>
+            <td>(je) dŕlo</td>
+            <td>běše dŕlo</td>
+            <td>by dŕlo</td>
+         </tr>
+         <tr>
+            <th>1.pl</th>
+            <td>my</td>
+            <td>jesmo dŕli</td>
+            <td>běhmo dŕli</td>
+            <td>byhmo dŕli</td>
+         </tr>
+         <tr>
+            <th>2.pl</th>
+            <td>vy</td>
+            <td>jeste dŕli</td>
+            <td>běste dŕli</td>
+            <td>byste dŕli</td>
+         </tr>
+         <tr>
+            <th>3.pl</th>
+            <td>oni, one</td>
+            <td>(sųt) dŕli</td>
+            <td>běhų dŕli</td>
+            <td>by dŕli</td>
+         </tr>
+       </thead>
+       </table>
+       <table>
+       <tbody>
+         <tr>
+            <th align="left" colspan="2">infinitive</th>
+            <td colspan="3">drěti</td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">imperative</th>
+            <td colspan="3">deri, derimo, derite</td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">present active participle</th>
+            <td colspan="3">derųći (derųća, derųće)</td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">present passive participle</th>
+            <td colspan="3">deremy (derema, deremo)</td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">past active participle</th>
+            <td colspan="3">dŕši (dŕša, dŕše)</td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">past passive participle</th>
+            <td colspan="3">dŕty (dŕta, dŕto)</td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">verbal noun</th>
+            <td colspan="3">dŕt́je</td>
+         </tr>
+      </tbody>
+   </table>
+</figure>
+"
+`;
+
+exports[`renderers HTML verb conjugation renderDiff 1`] = `
+"<figure>
+   <figcaption>Verb conjugation</figcaption>
+   <table>
+      <thead>
+         <tr>
+            <th>person</th>
+            <th>pronoun</th>
+            <th>present</th>
+            <th>imperfect</th>
+            <th>future</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <th>1.sg</th>
+            <td>ja</td>
+            <td><del>derų, derem</del> <ins>trų, trem</ins></td>
+            <td><del>dreh</del> <ins>trěh</ins></td>
+            <td><del>bųdų dreti</del> <ins>bųdų trěti</ins></td>
+         </tr>
+         <tr>
+            <th>2.sg</th>
+            <td>ty</td>
+            <td><del>dereš</del> <ins>treš</ins></td>
+            <td><del>dreše</del> <ins>trěše</ins></td>
+            <td><del>bųdeš dreti</del> <ins>bųdeš trěti</ins></td>
+         </tr>
+         <tr>
+            <th>3.sg</th>
+            <td>on, ona, ono</td>
+            <td><del>dere</del> <ins>tre</ins></td>
+            <td><del>dreše</del> <ins>trěše</ins></td>
+            <td><del>bųde dreti</del> <ins>bųde trěti</ins></td>
+         </tr>
+         <tr>
+            <th>1.pl</th>
+            <td>my</td>
+            <td><del>deremo</del> <ins>tremo</ins></td>
+            <td><del>drehmo</del> <ins>trěhmo</ins></td>
+            <td><del>bųdemo dreti</del> <ins>bųdemo trěti</ins></td>
+         </tr>
+         <tr>
+            <th>2.pl</th>
+            <td>vy</td>
+            <td><del>derete</del> <ins>trete</ins></td>
+            <td><del>dreste</del> <ins>trěste</ins></td>
+            <td><del>bųdete dreti</del> <ins>bųdete trěti</ins></td>
+         </tr>
+         <tr>
+            <th>3.pl</th>
+            <td>oni, one</td>
+            <td><del>derųt</del> <ins>trųt</ins></td>
+            <td><del>drehų</del> <ins>trěhų</ins></td>
+            <td><del>bųdųt dreti</del> <ins>bųdųt trěti</ins></td>
+         </tr>
+      </tbody>
+      </table>
+      <table>
+      <thead>
+         <tr>
+            <th>person</th>
+            <th>pronoun</th>
+            <th>perfect</th>
+            <th>pluperfect</th>
+            <th>conditional</th>
+         </tr>
+         <tr>
+            <th>1.sg</th>
+            <td>ja</td>
+            <td><del>jesm dŕl(a)</del> <ins>jesm tŕl(a)</ins></td>
+            <td><del>běh dŕl(a)</del> <ins>běh tŕl(a)</ins></td>
+            <td><del>byh dŕl(a)</del> <ins>byh tŕl(a)</ins></td>
+         </tr>
+         <tr>
+            <th>2.sg</th>
+            <td>ty</td>
+            <td><del>jesi dŕl(a)</del> <ins>jesi tŕl(a)</ins></td>
+            <td><del>běše dŕl(a)</del> <ins>běše tŕl(a)</ins></td>
+            <td><del>bys dŕl(a)</del> <ins>bys tŕl(a)</ins></td>
+         </tr>
+         <tr>
+            <th rowspan="3">3.sg</th>
+            <td>on</td>
+            <td><del>(je) dŕl</del> <ins>(je) tŕl</ins></td>
+            <td><del>běše dŕl</del> <ins>běše tŕl</ins></td>
+            <td><del>by dŕl</del> <ins>by tŕl</ins></td>
+         </tr>
+         <tr>
+            <td>ona</td>
+            <td><del>(je) dŕla</del> <ins>(je) tŕla</ins></td>
+            <td><del>běše dŕla</del> <ins>běše tŕla</ins></td>
+            <td><del>by dŕla</del> <ins>by tŕla</ins></td>
+         </tr>
+         <tr>
+            <td>ono</td>
+            <td><del>(je) dŕlo</del> <ins>(je) tŕlo</ins></td>
+            <td><del>běše dŕlo</del> <ins>běše tŕlo</ins></td>
+            <td><del>by dŕlo</del> <ins>by tŕlo</ins></td>
+         </tr>
+         <tr>
+            <th>1.pl</th>
+            <td>my</td>
+            <td><del>jesmo dŕli</del> <ins>jesmo tŕli</ins></td>
+            <td><del>běhmo dŕli</del> <ins>běhmo tŕli</ins></td>
+            <td><del>byhmo dŕli</del> <ins>byhmo tŕli</ins></td>
+         </tr>
+         <tr>
+            <th>2.pl</th>
+            <td>vy</td>
+            <td><del>jeste dŕli</del> <ins>jeste tŕli</ins></td>
+            <td><del>běste dŕli</del> <ins>běste tŕli</ins></td>
+            <td><del>byste dŕli</del> <ins>byste tŕli</ins></td>
+         </tr>
+         <tr>
+            <th>3.pl</th>
+            <td>oni, one</td>
+            <td><del>(sųt) dŕli</del> <ins>(sųt) tŕli</ins></td>
+            <td><del>běhų dŕli</del> <ins>běhų tŕli</ins></td>
+            <td><del>by dŕli</del> <ins>by tŕli</ins></td>
+         </tr>
+       </thead>
+       </table>
+       <table>
+       <tbody>
+         <tr>
+            <th align="left" colspan="2">infinitive</th>
+            <td colspan="3"><del>dreti</del> <ins>trěti</ins></td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">imperative</th>
+            <td colspan="3"><del>deri, derimo, derite</del> <ins>tri, trimo, trite</ins></td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">present active participle</th>
+            <td colspan="3"><del>derųći (derųća, derųće)</del> <ins>trųći (trųća, trųće)</ins></td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">present passive participle</th>
+            <td colspan="3"><del>deremy (derema, deremo)</del> <ins>tremy (trema, tremo)</ins></td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">past active participle</th>
+            <td colspan="3"><del>dŕši (dŕša, dŕše)</del> <ins>tŕši (tŕša, tŕše)</ins></td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">past passive participle</th>
+            <td colspan="3"><del>dŕty (dŕta, dŕto)</del> <ins>tŕty (tŕta, tŕto)</ins></td>
+         </tr>
+         <tr>
+            <th align="left" colspan="2">verbal noun</th>
+            <td colspan="3"><del>dŕt́je</del> <ins>tŕt́je</ins></td>
+         </tr>
+      </tbody>
+   </table>
+</figure>
+"
+`;

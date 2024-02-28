@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderers HTML noun declension render 1`] = `
+"<figure>
+  <figcaption>Noun declension</figcaption>
+  <table>
+    <thead>
+      <tr>
+        <th>case</th>
+        <th>singular</th>
+        <th>plural</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Nom.</th>
+        <td>vrěsėnj</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td>vrěsėnj</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td>vrěsnja</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td>vrěsnju</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td>vrěsnju</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td>vrěsnjem</td>
+        <td>—</td>
+      </tr>
+      <tr>
+        <th>Voc.</th>
+        <td>vrěsnju</td>
+        <td>—</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+"
+`;
+
+exports[`renderers HTML noun declension renderDiff 1`] = `
+"<figure>
+  <figcaption>Noun declension</figcaption>
+  <table>
+    <thead>
+      <tr>
+        <th>case</th>
+        <th>singular</th>
+        <th>plural</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Nom.</th>
+        <td><del>hlåpėc</del> <ins>děvčina</ins></td>
+        <td><del>hlåpci</del> <ins>děvčiny</ins></td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td><del>hlåpca</del> <ins>děvčinų</ins></td>
+        <td><del>hlåpcev</del> <ins>děvčiny</ins></td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td><del>hlåpca</del> <ins>děvčiny</ins></td>
+        <td><del>hlåpcev</del> <ins>děvčin</ins></td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td><del>hlåpcu</del> <ins>děvčině</ins></td>
+        <td><del>hlåpcah</del> <ins>děvčinah</ins></td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td><del>hlåpcu</del> <ins>děvčině</ins></td>
+        <td><del>hlåpcam</del> <ins>děvčinam</ins></td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td><del>hlåpcem</del> <ins>děvčinojų</ins></td>
+        <td><del>hlåpcami</del> <ins>děvčinami</ins></td>
+      </tr>
+      <tr>
+        <th>Voc.</th>
+        <td><del>hlåpcu</del> <ins>děvčino</ins></td>
+        <td><del>hlåpci</del> <ins>děvčiny</ins></td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+"
+`;
