@@ -53,7 +53,7 @@ type SteenAdjectiveParadigm$Comparison = {
 
 export function declensionAdjective(
   adj: string,
-  postfix: string,
+  postfix = '',
   partOfSpeech = 'adj.',
 ): SteenAdjectiveParadigm {
   const root = establish_root(adj);
