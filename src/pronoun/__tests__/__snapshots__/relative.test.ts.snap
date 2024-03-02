@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun relative 2643 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "ktoryh / ktore",
+      "ktore",
+    ],
+    "dat": [
+      "ktorym",
+    ],
+    "gen": [
+      "ktoryh",
+    ],
+    "ins": [
+      "ktorymi",
+    ],
+    "loc": [
+      "ktoryh",
+    ],
+    "nom": [
+      "ktori / ktore",
+      "ktore",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "ktorogo / ktory",
+      "ktoro",
+      "ktorų",
+    ],
+    "dat": [
+      "ktoromu",
+      "ktoroj",
+    ],
+    "gen": [
+      "ktorogo",
+      "ktoroj",
+    ],
+    "ins": [
+      "ktorym",
+      "ktorojų",
+    ],
+    "loc": [
+      "ktorom",
+      "ktoroj",
+    ],
+    "nom": [
+      "ktory",
+      "ktoro",
+      "ktora",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun relative 5694 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kojih / koje",
+      "koje",
+    ],
+    "dat": [
+      "kojim",
+    ],
+    "gen": [
+      "kojih",
+    ],
+    "ins": [
+      "kojimi",
+    ],
+    "loc": [
+      "kojih",
+    ],
+    "nom": [
+      "koji / koje",
+      "koje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kojego / koj",
+      "koje",
+      "kojų",
+    ],
+    "dat": [
+      "kojemu",
+      "kojej",
+    ],
+    "gen": [
+      "kojego",
+      "kojej",
+    ],
+    "ins": [
+      "kojim",
+      "kojejų",
+    ],
+    "loc": [
+      "kojem",
+      "kojej",
+    ],
+    "nom": [
+      "koj",
+      "koje",
+      "koja",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun relative 8172 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jihže / (n)ježe",
+      "(n)ježe",
+    ],
+    "dat": [
+      "(n)jimže",
+    ],
+    "gen": [
+      "(n)jihže",
+    ],
+    "ins": [
+      "(n)jimiže",
+    ],
+    "loc": [
+      "(n)jihže",
+    ],
+    "nom": [
+      "iže",
+      "iže",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jegože",
+      "(n)jegože",
+      "(n)jųže",
+    ],
+    "dat": [
+      "(n)jemuže",
+      "(n)jejže",
+    ],
+    "gen": [
+      "(n)jegože",
+      "(n)jejže",
+    ],
+    "ins": [
+      "(n)jimže",
+      "(n)jejųže",
+    ],
+    "loc": [
+      "(n)jemže",
+      "(n)jejže",
+    ],
+    "nom": [
+      "iže",
+      "iže",
+      "iže",
+    ],
+  },
+  "type": "adjective",
+}
+`;

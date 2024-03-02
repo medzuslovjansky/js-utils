@@ -1,0 +1,1365 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun personal 73 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 675 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 716 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 792 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 982 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1183 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1507 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1553 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1602 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1629 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1816 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1871 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 1935 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 2150 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2219 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "samyh / same",
+      "same",
+    ],
+    "dat": [
+      "samym",
+    ],
+    "gen": [
+      "samyh",
+    ],
+    "ins": [
+      "samymi",
+    ],
+    "loc": [
+      "samyh",
+    ],
+    "nom": [
+      "sami / same",
+      "same",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "samogo / sam",
+      "samų",
+      "samogo / samo",
+    ],
+    "dat": [
+      "samomu",
+      "samoj",
+      "samomu",
+    ],
+    "gen": [
+      "samogo",
+      "samoj",
+      "samogo",
+    ],
+    "ins": [
+      "samym",
+      "samojų",
+      "samym",
+    ],
+    "loc": [
+      "samom",
+      "samoj",
+      "samom",
+    ],
+    "nom": [
+      "sam",
+      "sama",
+      "samo",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2413 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 2603 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2722 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 2771 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2821 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2925 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 3015 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 4803 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4804 1`] = `
+{
+  "cases": {
+    "acc": [
+      "mene (mę)",
+      "nas",
+    ],
+    "dat": [
+      "mně (mi)",
+      "nam",
+    ],
+    "gen": [
+      "mene",
+      "nas",
+    ],
+    "ins": [
+      "mnojų",
+      "nami",
+    ],
+    "loc": [
+      "mně",
+      "nas",
+    ],
+    "nom": [
+      "ja",
+      "my",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4805 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4809 1`] = `
+{
+  "cases": {
+    "acc": [
+      "tebe (tę)",
+      "vas",
+    ],
+    "dat": [
+      "tobě (ti)",
+      "vam",
+    ],
+    "gen": [
+      "tebe",
+      "vas",
+    ],
+    "ins": [
+      "tobojų",
+      "vami",
+    ],
+    "loc": [
+      "tobě",
+      "vas",
+    ],
+    "nom": [
+      "ty",
+      "vy",
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4815 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 14576 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 14717 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 35621 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "(n)jih / (n)je",
+      "(n)je",
+    ],
+    "dat": [
+      "(n)jim",
+    ],
+    "gen": [
+      "(n)jih",
+    ],
+    "ins": [
+      "(n)jimi",
+    ],
+    "loc": [
+      "(n)jih",
+    ],
+    "nom": [
+      "oni / one",
+      "one",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "(n)jego (go)",
+      "(n)jego (go)",
+      "(n)jų",
+    ],
+    "dat": [
+      "(n)jemu (mu)",
+      "(n)jej",
+    ],
+    "gen": [
+      "(n)jego",
+      "(n)jej",
+    ],
+    "ins": [
+      "(n)jim",
+      "(n)jejų",
+    ],
+    "loc": [
+      "(n)jem",
+      "(n)jej",
+    ],
+    "nom": [
+      "on",
+      "ono",
+      "ona",
+    ],
+  },
+  "type": "adjective",
+}
+`;

@@ -1,0 +1,928 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun possessive 190 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "čijih-nebųď / čije-nebųď",
+      "čije-nebųď",
+    ],
+    "dat": [
+      "čijim-nebųď",
+    ],
+    "gen": [
+      "čijih-nebųď",
+    ],
+    "ins": [
+      "čijimi-nebųď",
+    ],
+    "loc": [
+      "čijih-nebųď",
+    ],
+    "nom": [
+      "čiji-nebųď / čije-nebųď",
+      "čije-nebųď",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "čijego-nebųď / čij-nebųď",
+      "čije-nebųď",
+      "čijų-nebųď",
+    ],
+    "dat": [
+      "čijemu-nebųď",
+      "čijej-nebųď",
+    ],
+    "gen": [
+      "čijego-nebųď",
+      "čijej-nebųď",
+    ],
+    "ins": [
+      "čijim-nebųď",
+      "čijejų-nebųď",
+    ],
+    "loc": [
+      "čijem-nebųď",
+      "čijej-nebųď",
+    ],
+    "nom": [
+      "čij-nebųď",
+      "čije-nebųď",
+      "čija-nebųď",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 512 1`] = `
+{
+  "cases": {
+    "acc": [
+      "jego",
+    ],
+    "dat": [
+      "jego",
+    ],
+    "gen": [
+      "jego",
+    ],
+    "ins": [
+      "jego",
+    ],
+    "loc": [
+      "jego",
+    ],
+    "nom": [
+      "jego",
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun possessive 920 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "mojih / moje",
+      "moje",
+    ],
+    "dat": [
+      "mojim",
+    ],
+    "gen": [
+      "mojih",
+    ],
+    "ins": [
+      "mojimi",
+    ],
+    "loc": [
+      "mojih",
+    ],
+    "nom": [
+      "moji / moje",
+      "moje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "mojego / moj",
+      "moje",
+      "mojų",
+    ],
+    "dat": [
+      "mojemu",
+      "mojej",
+    ],
+    "gen": [
+      "mojego",
+      "mojej",
+    ],
+    "ins": [
+      "mojim",
+      "mojejų",
+    ],
+    "loc": [
+      "mojem",
+      "mojej",
+    ],
+    "nom": [
+      "moj",
+      "moje",
+      "moja",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 993 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "ničijih / ničije",
+      "ničije",
+    ],
+    "dat": [
+      "ničijim",
+    ],
+    "gen": [
+      "ničijih",
+    ],
+    "ins": [
+      "ničijimi",
+    ],
+    "loc": [
+      "ničijih",
+    ],
+    "nom": [
+      "ničiji / ničije",
+      "ničije",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "ničijego / ničij",
+      "ničije",
+      "ničijų",
+    ],
+    "dat": [
+      "ničijemu",
+      "ničijej",
+    ],
+    "gen": [
+      "ničijego",
+      "ničijej",
+    ],
+    "ins": [
+      "ničijim",
+      "ničijejų",
+    ],
+    "loc": [
+      "ničijem",
+      "ničijej",
+    ],
+    "nom": [
+      "ničij",
+      "ničije",
+      "ničija",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1099 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "svojih / svoje",
+      "svoje",
+    ],
+    "dat": [
+      "svojim",
+    ],
+    "gen": [
+      "svojih",
+    ],
+    "ins": [
+      "svojimi",
+    ],
+    "loc": [
+      "svojih",
+    ],
+    "nom": [
+      "svoji / svoje",
+      "svoje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "svojego / svoj",
+      "svoje",
+      "svojų",
+    ],
+    "dat": [
+      "svojemu",
+      "svojej",
+    ],
+    "gen": [
+      "svojego",
+      "svojej",
+    ],
+    "ins": [
+      "svojim",
+      "svojejų",
+    ],
+    "loc": [
+      "svojem",
+      "svojej",
+    ],
+    "nom": [
+      "svoj",
+      "svoje",
+      "svoja",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1179 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "čijih / čije",
+      "čije",
+    ],
+    "dat": [
+      "čijim",
+    ],
+    "gen": [
+      "čijih",
+    ],
+    "ins": [
+      "čijimi",
+    ],
+    "loc": [
+      "čijih",
+    ],
+    "nom": [
+      "čiji / čije",
+      "čije",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "čijego / čij",
+      "čije",
+      "čijų",
+    ],
+    "dat": [
+      "čijemu",
+      "čijej",
+    ],
+    "gen": [
+      "čijego",
+      "čijej",
+    ],
+    "ins": [
+      "čijim",
+      "čijejų",
+    ],
+    "loc": [
+      "čijem",
+      "čijej",
+    ],
+    "nom": [
+      "čij",
+      "čije",
+      "čija",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1319 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "inočijih / inočije",
+      "inočije",
+    ],
+    "dat": [
+      "inočijim",
+    ],
+    "gen": [
+      "inočijih",
+    ],
+    "ins": [
+      "inočijimi",
+    ],
+    "loc": [
+      "inočijih",
+    ],
+    "nom": [
+      "inočiji / inočije",
+      "inočije",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "inočijego / inočij",
+      "inočije",
+      "inočijų",
+    ],
+    "dat": [
+      "inočijemu",
+      "inočijej",
+    ],
+    "gen": [
+      "inočijego",
+      "inočijej",
+    ],
+    "ins": [
+      "inočijim",
+      "inočijejų",
+    ],
+    "loc": [
+      "inočijem",
+      "inočijej",
+    ],
+    "nom": [
+      "inočij",
+      "inočije",
+      "inočija",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1631 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "vaših / vaše",
+      "vaše",
+    ],
+    "dat": [
+      "vašim",
+    ],
+    "gen": [
+      "vaših",
+    ],
+    "ins": [
+      "vašimi",
+    ],
+    "loc": [
+      "vaših",
+    ],
+    "nom": [
+      "vaši / vaše",
+      "vaše",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "vašego / vaš",
+      "vaše",
+      "vašų",
+    ],
+    "dat": [
+      "vašemu",
+      "vašej",
+    ],
+    "gen": [
+      "vašego",
+      "vašej",
+    ],
+    "ins": [
+      "vašim",
+      "vašejų",
+    ],
+    "loc": [
+      "vašem",
+      "vašej",
+    ],
+    "nom": [
+      "vaš",
+      "vaše",
+      "vaša",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1993 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "naših / naše",
+      "naše",
+    ],
+    "dat": [
+      "našim",
+    ],
+    "gen": [
+      "naših",
+    ],
+    "ins": [
+      "našimi",
+    ],
+    "loc": [
+      "naših",
+    ],
+    "nom": [
+      "naši / naše",
+      "naše",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "našego / naš",
+      "naše",
+      "našų",
+    ],
+    "dat": [
+      "našemu",
+      "našej",
+    ],
+    "gen": [
+      "našego",
+      "našej",
+    ],
+    "ins": [
+      "našim",
+      "našejų",
+    ],
+    "loc": [
+      "našem",
+      "našej",
+    ],
+    "nom": [
+      "naš",
+      "naše",
+      "naša",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 2195 1`] = `
+{
+  "cases": {
+    "acc": [
+      "jej",
+    ],
+    "dat": [
+      "jej",
+    ],
+    "gen": [
+      "jej",
+    ],
+    "ins": [
+      "jej",
+    ],
+    "loc": [
+      "jej",
+    ],
+    "nom": [
+      "jej",
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun possessive 2231 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "tvojih / tvoje",
+      "tvoje",
+    ],
+    "dat": [
+      "tvojim",
+    ],
+    "gen": [
+      "tvojih",
+    ],
+    "ins": [
+      "tvojimi",
+    ],
+    "loc": [
+      "tvojih",
+    ],
+    "nom": [
+      "tvoji / tvoje",
+      "tvoje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "tvojego / tvoj",
+      "tvoje",
+      "tvojų",
+    ],
+    "dat": [
+      "tvojemu",
+      "tvojej",
+    ],
+    "gen": [
+      "tvojego",
+      "tvojej",
+    ],
+    "ins": [
+      "tvojim",
+      "tvojejų",
+    ],
+    "loc": [
+      "tvojem",
+      "tvojej",
+    ],
+    "nom": [
+      "tvoj",
+      "tvoje",
+      "tvoja",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 2601 1`] = `
+{
+  "cases": {
+    "acc": [
+      "jih",
+    ],
+    "dat": [
+      "jih",
+    ],
+    "gen": [
+      "jih",
+    ],
+    "ins": [
+      "jih",
+    ],
+    "loc": [
+      "jih",
+    ],
+    "nom": [
+      "jih",
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun possessive 2772 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "něčijih / něčije",
+      "něčije",
+    ],
+    "dat": [
+      "něčijim",
+    ],
+    "gen": [
+      "něčijih",
+    ],
+    "ins": [
+      "něčijimi",
+    ],
+    "loc": [
+      "něčijih",
+    ],
+    "nom": [
+      "něčiji / něčije",
+      "něčije",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "něčijego / něčij",
+      "něčije",
+      "něčijų",
+    ],
+    "dat": [
+      "něčijemu",
+      "něčijej",
+    ],
+    "gen": [
+      "něčijego",
+      "něčijej",
+    ],
+    "ins": [
+      "něčijim",
+      "něčijejų",
+    ],
+    "loc": [
+      "něčijem",
+      "něčijej",
+    ],
+    "nom": [
+      "něčij",
+      "něčije",
+      "něčija",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 6256 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "jegovyh / jegove",
+      "jegove",
+    ],
+    "dat": [
+      "jegovym",
+    ],
+    "gen": [
+      "jegovyh",
+    ],
+    "ins": [
+      "jegovymi",
+    ],
+    "loc": [
+      "jegovyh",
+    ],
+    "nom": [
+      "jegovi / jegove",
+      "jegove",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "jegovogo / jegov",
+      "jegovo",
+      "jegovų",
+    ],
+    "dat": [
+      "jegovomu",
+      "jegovoj",
+    ],
+    "gen": [
+      "jegovogo",
+      "jegovoj",
+    ],
+    "ins": [
+      "jegovym",
+      "jegovojų",
+    ],
+    "loc": [
+      "jegovom",
+      "jegovoj",
+    ],
+    "nom": [
+      "jegov",
+      "jegovo",
+      "jegova",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 6257 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "jejinyh / jejine",
+      "jejine",
+    ],
+    "dat": [
+      "jejinym",
+    ],
+    "gen": [
+      "jejinyh",
+    ],
+    "ins": [
+      "jejinymi",
+    ],
+    "loc": [
+      "jejinyh",
+    ],
+    "nom": [
+      "jejini / jejine",
+      "jejine",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "jejinogo / jejin",
+      "jejino",
+      "jejinų",
+    ],
+    "dat": [
+      "jejinomu",
+      "jejinoj",
+    ],
+    "gen": [
+      "jejinogo",
+      "jejinoj",
+    ],
+    "ins": [
+      "jejinym",
+      "jejinojų",
+    ],
+    "loc": [
+      "jejinom",
+      "jejinoj",
+    ],
+    "nom": [
+      "jejin",
+      "jejino",
+      "jejina",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 6258 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "jihnyh / jihne",
+      "jihne",
+    ],
+    "dat": [
+      "jihnym",
+    ],
+    "gen": [
+      "jihnyh",
+    ],
+    "ins": [
+      "jihnymi",
+    ],
+    "loc": [
+      "jihnyh",
+    ],
+    "nom": [
+      "jihni / jihne",
+      "jihne",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "jihnogo / jihny",
+      "jihno",
+      "jihnų",
+    ],
+    "dat": [
+      "jihnomu",
+      "jihnoj",
+    ],
+    "gen": [
+      "jihnogo",
+      "jihnoj",
+    ],
+    "ins": [
+      "jihnym",
+      "jihnojų",
+    ],
+    "loc": [
+      "jihnom",
+      "jihnoj",
+    ],
+    "nom": [
+      "jihny",
+      "jihno",
+      "jihna",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 14496 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "čijih-libo / čije-libo",
+      "čije-libo",
+    ],
+    "dat": [
+      "čijim-libo",
+    ],
+    "gen": [
+      "čijih-libo",
+    ],
+    "ins": [
+      "čijimi-libo",
+    ],
+    "loc": [
+      "čijih-libo",
+    ],
+    "nom": [
+      "čiji-libo / čije-libo",
+      "čije-libo",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "čijego-libo / čij-libo",
+      "čije-libo",
+      "čijų-libo",
+    ],
+    "dat": [
+      "čijemu-libo",
+      "čijej-libo",
+    ],
+    "gen": [
+      "čijego-libo",
+      "čijej-libo",
+    ],
+    "ins": [
+      "čijim-libo",
+      "čijejų-libo",
+    ],
+    "loc": [
+      "čijem-libo",
+      "čijej-libo",
+    ],
+    "nom": [
+      "čij-libo",
+      "čije-libo",
+      "čija-libo",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 19601 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "čijihkoli / čijekoli",
+      "čijekoli",
+    ],
+    "dat": [
+      "čijimkoli",
+    ],
+    "gen": [
+      "čijihkoli",
+    ],
+    "ins": [
+      "čijimikoli",
+    ],
+    "loc": [
+      "čijihkoli",
+    ],
+    "nom": [
+      "čijikoli / čijekoli",
+      "čijekoli",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "čijegokoli / čijkoli",
+      "čijekoli",
+      "čijųkoli",
+    ],
+    "dat": [
+      "čijemukoli",
+      "čijejkoli",
+    ],
+    "gen": [
+      "čijegokoli",
+      "čijejkoli",
+    ],
+    "ins": [
+      "čijimkoli",
+      "čijejųkoli",
+    ],
+    "loc": [
+      "čijemkoli",
+      "čijejkoli",
+    ],
+    "nom": [
+      "čijkoli",
+      "čijekoli",
+      "čijakoli",
+    ],
+  },
+  "type": "adjective",
+}
+`;

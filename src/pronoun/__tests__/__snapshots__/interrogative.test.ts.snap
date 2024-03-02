@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun interrogative 143 1`] = `
+{
+  "cases": {
+    "acc": [
+      "kogo",
+    ],
+    "dat": [
+      "komu",
+    ],
+    "gen": [
+      "kogo",
+    ],
+    "ins": [
+      "kym",
+    ],
+    "loc": [
+      "kom",
+    ],
+    "nom": [
+      "kto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun interrogative 3019 1`] = `
+{
+  "cases": {
+    "acc": [
+      "kogo",
+    ],
+    "dat": [
+      "komu",
+    ],
+    "gen": [
+      "kogo",
+    ],
+    "ins": [
+      "kym",
+    ],
+    "loc": [
+      "kom",
+    ],
+    "nom": [
+      "kto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun interrogative 4189 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "ktoryh / ktore",
+      "ktore",
+    ],
+    "dat": [
+      "ktorym",
+    ],
+    "gen": [
+      "ktoryh",
+    ],
+    "ins": [
+      "ktorymi",
+    ],
+    "loc": [
+      "ktoryh",
+    ],
+    "nom": [
+      "ktori / ktore",
+      "ktore",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "ktorogo / ktory",
+      "ktoro",
+      "ktorų",
+    ],
+    "dat": [
+      "ktoromu",
+      "ktoroj",
+    ],
+    "gen": [
+      "ktorogo",
+      "ktoroj",
+    ],
+    "ins": [
+      "ktorym",
+      "ktorojų",
+    ],
+    "loc": [
+      "ktorom",
+      "ktoroj",
+    ],
+    "nom": [
+      "ktory",
+      "ktoro",
+      "ktora",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun interrogative 5693 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kojih / koje",
+      "koje",
+    ],
+    "dat": [
+      "kojim",
+    ],
+    "gen": [
+      "kojih",
+    ],
+    "ins": [
+      "kojimi",
+    ],
+    "loc": [
+      "kojih",
+    ],
+    "nom": [
+      "koji / koje",
+      "koje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kojego / koj",
+      "koje",
+      "kojų",
+    ],
+    "dat": [
+      "kojemu",
+      "kojej",
+    ],
+    "gen": [
+      "kojego",
+      "kojej",
+    ],
+    "ins": [
+      "kojim",
+      "kojejų",
+    ],
+    "loc": [
+      "kojem",
+      "kojej",
+    ],
+    "nom": [
+      "koj",
+      "koje",
+      "koja",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun interrogative 19670 1`] = `
+{
+  "cases": {
+    "acc": [
+      "čego",
+    ],
+    "dat": [
+      "čemu",
+    ],
+    "gen": [
+      "čego",
+    ],
+    "ins": [
+      "čim",
+    ],
+    "loc": [
+      "čem",
+    ],
+    "nom": [
+      "čto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
