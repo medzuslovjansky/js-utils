@@ -37,6 +37,7 @@ jobs:
         continue-on-error: true
 
       - name: Generate Allure report
+        if: steps.test.outcome == 'failure'
         run: scripts/allure.sh
         env:
           ALLURE_URL: ${{ env.ALLURE_URL }}
@@ -44,7 +45,7 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
 
       - name: Replace report link to PR
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'pull_request' && steps.test.outcome == 'failure'
         uses: thollander/actions-comment-pull-request@v2
         with:
           message: 'View the deployed report at [surge.sh](${{ env.ALLURE_URL }})'
