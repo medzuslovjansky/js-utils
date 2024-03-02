@@ -1,0 +1,261 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renderers HTML pronoun declension adjective type render 1`] = `
+"<figure>
+  <figcaption>Pronoun declension</figcaption>
+  <table>
+    <caption>singular</caption>
+    <thead>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>neuter</th>
+        <th>feminine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Nom.</th>
+        <td>toj</td>
+        <td>to</td>
+        <td>ta</td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td>togo / toj</td>
+        <td>to</td>
+        <td>tų</td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2">togo</td>
+        <td>toj</td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2">tom</td>
+        <td>toj</td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2">tomu</td>
+        <td>toj</td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2">tym</td>
+        <td>tojų</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <caption>plural</caption>
+    <tbody>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>feminine/neuter</th>
+      </tr>
+      <tr>
+        <th>Nom.</th>
+        <td>ti / te</td>
+        <td>te</td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td>tyh / te</td>
+        <td>te</td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2">tyh</td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2">tyh</td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2">tym</td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2">tymi</td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+"
+`;
+
+exports[`renderers HTML pronoun declension adjective type renderDiff 1`] = `
+"<figure>
+  <figcaption>Pronoun declension</figcaption>
+  <table>
+    <caption>singular</caption>
+    <thead>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>neuter</th>
+        <th>feminine</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>Nom.</th>
+        <td><del>toj</del> <ins>tamtoj</ins></td>
+        <td><del>to</del> <ins>tamto</ins></td>
+        <td><del>ta</del> <ins>tamta</ins></td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td><del>togo / toj</del> <ins>tamtogo / tamtoj</ins></td>
+        <td><del>to</del> <ins>tamto</ins></td>
+        <td><del>tų</del> <ins>tamtų</ins></td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2"><del>togo</del> <ins>tamtogo</ins></td>
+        <td><del>toj</del> <ins>tamtoj</ins></td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2"><del>tom</del> <ins>tamtom</ins></td>
+        <td><del>toj</del> <ins>tamtoj</ins></td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2"><del>tomu</del> <ins>tamtomu</ins></td>
+        <td><del>toj</del> <ins>tamtoj</ins></td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2"><del>tym</del> <ins>tamtym</ins></td>
+        <td><del>tojų</del> <ins>tamtojų</ins></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <caption>plural</caption>
+    <tbody>
+      <tr>
+        <th>case</th>
+        <th>masculine</th>
+        <th>feminine/neuter</th>
+      </tr>
+      <tr>
+        <th>Nom.</th>
+        <td><del>ti / te</del> <ins>tamti / tamte</ins></td>
+        <td><del>te</del> <ins>tamte</ins></td>
+      </tr>
+      <tr>
+        <th>Acc.</th>
+        <td><del>tyh / te</del> <ins>tamtyh / tamte</ins></td>
+        <td><del>te</del> <ins>tamte</ins></td>
+      </tr>
+      <tr>
+        <th>Gen.</th>
+        <td colspan="2"><del>tyh</del> <ins>tamtyh</ins></td>
+      </tr>
+      <tr>
+        <th>Loc.</th>
+        <td colspan="2"><del>tyh</del> <ins>tamtyh</ins></td>
+      </tr>
+      <tr>
+        <th>Dat.</th>
+        <td colspan="2"><del>tym</del> <ins>tamtym</ins></td>
+      </tr>
+      <tr>
+        <th>Ins.</th>
+        <td colspan="2"><del>tymi</del> <ins>tamtymi</ins></td>
+      </tr>
+    </tbody>
+  </table>
+</figure>
+"
+`;
+
+exports[`renderers HTML pronoun declension noun type render 1`] = `
+"<figure>
+<figcaption>Pronoun declension</figcaption>
+<table>
+  <thead>
+    <tr>
+      <th>case</th>
+      <th>Word Form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Nom.</th>
+      <td>kto</td>
+    </tr>
+    <tr>
+      <th>Acc.</th>
+      <td>kogo</td>
+    </tr>
+    <tr>
+      <th>Gen.</th>
+      <td>kogo</td>
+    </tr>
+    <tr>
+      <th>Loc.</th>
+      <td>kom</td>
+    </tr>
+    <tr>
+      <th>Dat.</th>
+      <td>komu</td>
+    </tr>
+    <tr>
+      <th>Ins.</th>
+      <td>kym</td>
+    </tr>
+  </tbody>
+</table>
+</figure>
+"
+`;
+
+exports[`renderers HTML pronoun declension noun type renderDiff 1`] = `
+"<figure>
+<figcaption>Pronoun declension</figcaption>
+<table>
+  <thead>
+    <tr>
+      <th>case</th>
+      <th>Word Form</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Nom.</th>
+      <td><del>kto</del> <ins>čto</ins></td>
+    </tr>
+    <tr>
+      <th>Acc.</th>
+      <td><del>kogo</del> <ins>čego</ins></td>
+    </tr>
+    <tr>
+      <th>Gen.</th>
+      <td><del>kogo</del> <ins>čego</ins></td>
+    </tr>
+    <tr>
+      <th>Loc.</th>
+      <td><del>kom</del> <ins>čem</ins></td>
+    </tr>
+    <tr>
+      <th>Dat.</th>
+      <td><del>komu</del> <ins>čemu</ins></td>
+    </tr>
+    <tr>
+      <th>Ins.</th>
+      <td><del>kym</del> <ins>čim</ins></td>
+    </tr>
+  </tbody>
+</table>
+</figure>
+"
+`;

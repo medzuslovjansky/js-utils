@@ -5,6 +5,7 @@ import type { TestCaseResult } from '@jest/reporters';
 import { SteenVerbParadigm } from '../verb';
 import { SteenNounParadigm } from '../noun';
 import { SteenAdjectiveParadigm } from '../adjective';
+import { SteenPronounParadigm } from '../pronoun';
 
 import * as html from './html';
 
@@ -24,9 +25,15 @@ function getBeforeAndAfter(test: TestCaseResult): Tuple<unknown>[] {
       (matcherResult) =>
         matcherResult && matcherResult.expected && matcherResult.actual,
     )
-    .map((failure) =>
-      vm.runInNewContext(`[${failure.expected}, ${failure.actual}]`),
-    );
+    .map(({ actual, expected }) => {
+      try {
+        return vm.runInNewContext(`[${expected}, ${actual}]`);
+      } catch {
+        return vm.runInNewContext(
+          `[${JSON.stringify(expected)}, ${JSON.stringify(actual)}]`,
+        );
+      }
+    });
 }
 
 function getRenderer(
@@ -43,6 +50,9 @@ function getRenderer(
     case 'adjective':
       return (tuple) =>
         html.adjective.renderDiff(...(tuple as Tuple<SteenAdjectiveParadigm>));
+    case 'pronoun':
+      return (tuple) =>
+        html.pronoun.renderDiff(...(tuple as Tuple<SteenPronounParadigm>));
     default:
       return;
   }
