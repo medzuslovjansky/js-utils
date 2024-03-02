@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun reflexive 337 1`] = `null`;
+
+exports[`pronoun reflexive 4025 1`] = `
+{
+  "cases": {
+    "acc": [
+      "sebę (sę)",
+    ],
+    "dat": [
+      "sobě (si)",
+    ],
+    "gen": [
+      "sebe",
+    ],
+    "ins": [
+      "sobojų",
+    ],
+    "loc": [
+      "sobě",
+    ],
+    "nom": [
+      null,
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun reflexive 4811 1`] = `
+{
+  "cases": {
+    "acc": [
+      "sebę (sę)",
+    ],
+    "dat": [
+      "sobě (si)",
+    ],
+    "gen": [
+      "sebe",
+    ],
+    "ins": [
+      "sobojų",
+    ],
+    "loc": [
+      "sobě",
+    ],
+    "nom": [
+      null,
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun reflexive 4812 1`] = `
+{
+  "cases": {
+    "acc": [
+      "sebę (sę)",
+    ],
+    "dat": [
+      "sobě (si)",
+    ],
+    "gen": [
+      "sebe",
+    ],
+    "ins": [
+      "sobojų",
+    ],
+    "loc": [
+      "sobě",
+    ],
+    "nom": [
+      null,
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;

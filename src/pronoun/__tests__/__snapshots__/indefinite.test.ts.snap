@@ -1,0 +1,1334 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun indefinite -37056 1`] = `null`;
+
+exports[`pronoun indefinite -37059 1`] = `null`;
+
+exports[`pronoun indefinite 4 1`] = `
+{
+  "cases": {
+    "acc": [
+      "nikogo",
+    ],
+    "dat": [
+      "nikomu",
+    ],
+    "gen": [
+      "nikogo",
+    ],
+    "ins": [
+      "nikym",
+    ],
+    "loc": [
+      "nikom",
+    ],
+    "nom": [
+      "nikto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 155 1`] = `
+{
+  "cases": {
+    "acc": [
+      "inokogo",
+    ],
+    "dat": [
+      "inokomu",
+    ],
+    "gen": [
+      "inokogo",
+    ],
+    "ins": [
+      "inokym",
+    ],
+    "loc": [
+      "inokom",
+    ],
+    "nom": [
+      "inokto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 307 1`] = `
+{
+  "cases": {
+    "acc": [
+      "inočego",
+    ],
+    "dat": [
+      "inočemu",
+    ],
+    "gen": [
+      "inočego",
+    ],
+    "ins": [
+      "inočim",
+    ],
+    "loc": [
+      "inočem",
+    ],
+    "nom": [
+      "inočto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 322 1`] = `
+{
+  "cases": {
+    "acc": [
+      "kogo-nebųď",
+    ],
+    "dat": [
+      "komu-nebųď",
+    ],
+    "gen": [
+      "kogo-nebųď",
+    ],
+    "ins": [
+      "kym-nebųď",
+    ],
+    "loc": [
+      "kom-nebųď",
+    ],
+    "nom": [
+      "kto-nebųď",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 1454 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kakyh / kake",
+      "kake",
+    ],
+    "dat": [
+      "kakym",
+    ],
+    "gen": [
+      "kakyh",
+    ],
+    "ins": [
+      "kakymi",
+    ],
+    "loc": [
+      "kakyh",
+    ],
+    "nom": [
+      "kaki / kake",
+      "kake",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kakogo / kaky",
+      "kako",
+      "kakų",
+    ],
+    "dat": [
+      "kakomu",
+      "kakoj",
+    ],
+    "gen": [
+      "kakogo",
+      "kakoj",
+    ],
+    "ins": [
+      "kakym",
+      "kakojų",
+    ],
+    "loc": [
+      "kakom",
+      "kakoj",
+    ],
+    "nom": [
+      "kaky",
+      "kako",
+      "kaka",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 1675 1`] = `
+{
+  "cases": {
+    "acc": [
+      "vsečego",
+    ],
+    "dat": [
+      "vsečemu",
+    ],
+    "gen": [
+      "vsečego",
+    ],
+    "ins": [
+      "vsečim",
+    ],
+    "loc": [
+      "vsečem",
+    ],
+    "nom": [
+      "vsečto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 1676 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "vsih / vse",
+      "vse",
+    ],
+    "dat": [
+      "vsim",
+    ],
+    "gen": [
+      "vsih",
+    ],
+    "ins": [
+      "vsimi",
+    ],
+    "loc": [
+      "vsih",
+    ],
+    "nom": [
+      "vsi / vse",
+      "vse",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "vsego / veś",
+      "vse",
+      "vśų",
+    ],
+    "dat": [
+      "vsemu",
+      "vsej",
+    ],
+    "gen": [
+      "vsego",
+      "vsej",
+    ],
+    "ins": [
+      "vsim",
+      "vsejų",
+    ],
+    "loc": [
+      "vsem",
+      "vsej",
+    ],
+    "nom": [
+      "veś",
+      "vse",
+      "vśa",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 1786 1`] = `
+{
+  "cases": {
+    "acc": [
+      "čego-nebųď",
+    ],
+    "dat": [
+      "čemu-nebųď",
+    ],
+    "gen": [
+      "čego-nebųď",
+    ],
+    "ins": [
+      "čim-nebųď",
+    ],
+    "loc": [
+      "čem-nebųď",
+    ],
+    "nom": [
+      "čto-nebųď",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 1823 1`] = `
+{
+  "cases": {
+    "acc": [
+      "vsekogo",
+    ],
+    "dat": [
+      "vsekomu",
+    ],
+    "gen": [
+      "vsekogo",
+    ],
+    "ins": [
+      "vsekym",
+    ],
+    "loc": [
+      "vsekom",
+    ],
+    "nom": [
+      "vsekto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 2711 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kakyh-nebųď / kake-nebųď",
+      "kake-nebųď",
+    ],
+    "dat": [
+      "kakym-nebųď",
+    ],
+    "gen": [
+      "kakyh-nebųď",
+    ],
+    "ins": [
+      "kakymi-nebųď",
+    ],
+    "loc": [
+      "kakyh-nebųď",
+    ],
+    "nom": [
+      "kaki-nebųď / kake-nebųď",
+      "kake-nebųď",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kakogo-nebųď / kaky-nebųď",
+      "kako-nebųď",
+      "kakų-nebųď",
+    ],
+    "dat": [
+      "kakomu-nebųď",
+      "kakoj-nebųď",
+    ],
+    "gen": [
+      "kakogo-nebųď",
+      "kakoj-nebųď",
+    ],
+    "ins": [
+      "kakym-nebųď",
+      "kakojų-nebųď",
+    ],
+    "loc": [
+      "kakom-nebųď",
+      "kakoj-nebųď",
+    ],
+    "nom": [
+      "kaky-nebųď",
+      "kako-nebųď",
+      "kaka-nebųď",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 2954 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "ktoryh-nebųď / ktore-nebųď",
+      "ktore-nebųď",
+    ],
+    "dat": [
+      "ktorym-nebųď",
+    ],
+    "gen": [
+      "ktoryh-nebųď",
+    ],
+    "ins": [
+      "ktorymi-nebųď",
+    ],
+    "loc": [
+      "ktoryh-nebųď",
+    ],
+    "nom": [
+      "ktori-nebųď / ktore-nebųď",
+      "ktore-nebųď",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "ktorogo-nebųď / ktory-nebųď",
+      "ktoro-nebųď",
+      "ktorų-nebųď",
+    ],
+    "dat": [
+      "ktoromu-nebųď",
+      "ktoroj-nebųď",
+    ],
+    "gen": [
+      "ktorogo-nebųď",
+      "ktoroj-nebųď",
+    ],
+    "ins": [
+      "ktorym-nebųď",
+      "ktorojų-nebųď",
+    ],
+    "loc": [
+      "ktorom-nebųď",
+      "ktoroj-nebųď",
+    ],
+    "nom": [
+      "ktory-nebųď",
+      "ktoro-nebųď",
+      "ktora-nebųď",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 3098 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "vsih / vse",
+      "vse",
+    ],
+    "dat": [
+      "vsim",
+    ],
+    "gen": [
+      "vsih",
+    ],
+    "ins": [
+      "vsimi",
+    ],
+    "loc": [
+      "vsih",
+    ],
+    "nom": [
+      "vsi / vse",
+      "vse",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "vsego / veś",
+      "vse",
+      "vśų",
+    ],
+    "dat": [
+      "vsemu",
+      "vsej",
+    ],
+    "gen": [
+      "vsego",
+      "vsej",
+    ],
+    "ins": [
+      "vsim",
+      "vsejų",
+    ],
+    "loc": [
+      "vsem",
+      "vsej",
+    ],
+    "nom": [
+      "veś",
+      "vse",
+      "vśa",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 3344 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "nijednyh / nijedne",
+      "nijedne",
+    ],
+    "dat": [
+      "nijednym",
+    ],
+    "gen": [
+      "nijednyh",
+    ],
+    "ins": [
+      "nijednymi",
+    ],
+    "loc": [
+      "nijednyh",
+    ],
+    "nom": [
+      "nijedni / nijedne",
+      "nijedne",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "nijednogo / nijedin",
+      "nijedno",
+      "nijednų",
+    ],
+    "dat": [
+      "nijednomu",
+      "nijednoj",
+    ],
+    "gen": [
+      "nijednogo",
+      "nijednoj",
+    ],
+    "ins": [
+      "nijednym",
+      "nijednojų",
+    ],
+    "loc": [
+      "nijednom",
+      "nijednoj",
+    ],
+    "nom": [
+      "nijedin",
+      "nijedno",
+      "nijedna",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 4082 1`] = `
+{
+  "cases": {
+    "acc": [
+      "někogo",
+    ],
+    "dat": [
+      "někomu",
+    ],
+    "gen": [
+      "někogo",
+    ],
+    "ins": [
+      "někym",
+    ],
+    "loc": [
+      "někom",
+    ],
+    "nom": [
+      "někto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 5695 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kojih-nebųď / koje-nebųď",
+      "koje-nebųď",
+    ],
+    "dat": [
+      "kojim-nebųď",
+    ],
+    "gen": [
+      "kojih-nebųď",
+    ],
+    "ins": [
+      "kojimi-nebųď",
+    ],
+    "loc": [
+      "kojih-nebųď",
+    ],
+    "nom": [
+      "koji-nebųď / koje-nebųď",
+      "koje-nebųď",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kojego-nebųď / koj-nebųď",
+      "koje-nebųď",
+      "kojų-nebųď",
+    ],
+    "dat": [
+      "kojemu-nebųď",
+      "kojej-nebųď",
+    ],
+    "gen": [
+      "kojego-nebųď",
+      "kojej-nebųď",
+    ],
+    "ins": [
+      "kojim-nebųď",
+      "kojejų-nebųď",
+    ],
+    "loc": [
+      "kojem-nebųď",
+      "kojej-nebųď",
+    ],
+    "nom": [
+      "koj-nebųď",
+      "koje-nebųď",
+      "koja-nebųď",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 5696 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "někojih / někoje",
+      "někoje",
+    ],
+    "dat": [
+      "někojim",
+    ],
+    "gen": [
+      "někojih",
+    ],
+    "ins": [
+      "někojimi",
+    ],
+    "loc": [
+      "někojih",
+    ],
+    "nom": [
+      "někoji / někoje",
+      "někoje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "někojego / někoj",
+      "někoje",
+      "někojų",
+    ],
+    "dat": [
+      "někojemu",
+      "někojej",
+    ],
+    "gen": [
+      "někojego",
+      "někojej",
+    ],
+    "ins": [
+      "někojim",
+      "někojejų",
+    ],
+    "loc": [
+      "někojem",
+      "někojej",
+    ],
+    "nom": [
+      "někoj",
+      "někoje",
+      "někoja",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 14327 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "žadnyh / žadne",
+      "žadne",
+    ],
+    "dat": [
+      "žadnym",
+    ],
+    "gen": [
+      "žadnyh",
+    ],
+    "ins": [
+      "žadnymi",
+    ],
+    "loc": [
+      "žadnyh",
+    ],
+    "nom": [
+      "žadni / žadne",
+      "žadne",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "žadnogo / žaden",
+      "žadno",
+      "žadnų",
+    ],
+    "dat": [
+      "žadnomu",
+      "žadnoj",
+    ],
+    "gen": [
+      "žadnogo",
+      "žadnoj",
+    ],
+    "ins": [
+      "žadnym",
+      "žadnojų",
+    ],
+    "loc": [
+      "žadnom",
+      "žadnoj",
+    ],
+    "nom": [
+      "žaden",
+      "žadno",
+      "žadna",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 14502 1`] = `
+{
+  "cases": {
+    "acc": [
+      "čego-libo",
+    ],
+    "dat": [
+      "čemu-libo",
+    ],
+    "gen": [
+      "čego-libo",
+    ],
+    "ins": [
+      "čim-libo",
+    ],
+    "loc": [
+      "čem-libo",
+    ],
+    "nom": [
+      "čto-libo",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 14631 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kakyh-libo / kake-libo",
+      "kake-libo",
+    ],
+    "dat": [
+      "kakym-libo",
+    ],
+    "gen": [
+      "kakyh-libo",
+    ],
+    "ins": [
+      "kakymi-libo",
+    ],
+    "loc": [
+      "kakyh-libo",
+    ],
+    "nom": [
+      "kaki-libo / kake-libo",
+      "kake-libo",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kakogo-libo / kaky-libo",
+      "kako-libo",
+      "kakų-libo",
+    ],
+    "dat": [
+      "kakomu-libo",
+      "kakoj-libo",
+    ],
+    "gen": [
+      "kakogo-libo",
+      "kakoj-libo",
+    ],
+    "ins": [
+      "kakym-libo",
+      "kakojų-libo",
+    ],
+    "loc": [
+      "kakom-libo",
+      "kakoj-libo",
+    ],
+    "nom": [
+      "kaky-libo",
+      "kako-libo",
+      "kaka-libo",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 14670 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "ktoryh-libo / ktore-libo",
+      "ktore-libo",
+    ],
+    "dat": [
+      "ktorym-libo",
+    ],
+    "gen": [
+      "ktoryh-libo",
+    ],
+    "ins": [
+      "ktorymi-libo",
+    ],
+    "loc": [
+      "ktoryh-libo",
+    ],
+    "nom": [
+      "ktori-libo / ktore-libo",
+      "ktore-libo",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "ktorogo-libo / ktory-libo",
+      "ktoro-libo",
+      "ktorų-libo",
+    ],
+    "dat": [
+      "ktoromu-libo",
+      "ktoroj-libo",
+    ],
+    "gen": [
+      "ktorogo-libo",
+      "ktoroj-libo",
+    ],
+    "ins": [
+      "ktorym-libo",
+      "ktorojų-libo",
+    ],
+    "loc": [
+      "ktorom-libo",
+      "ktoroj-libo",
+    ],
+    "nom": [
+      "ktory-libo",
+      "ktoro-libo",
+      "ktora-libo",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 19602 1`] = `
+{
+  "cases": {
+    "acc": [
+      "čegokoli",
+    ],
+    "dat": [
+      "čemukoli",
+    ],
+    "gen": [
+      "čegokoli",
+    ],
+    "ins": [
+      "čimkoli",
+    ],
+    "loc": [
+      "čemkoli",
+    ],
+    "nom": [
+      "čtokoli",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 19605 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kakyhkoli / kakekoli",
+      "kakekoli",
+    ],
+    "dat": [
+      "kakymkoli",
+    ],
+    "gen": [
+      "kakyhkoli",
+    ],
+    "ins": [
+      "kakymikoli",
+    ],
+    "loc": [
+      "kakyhkoli",
+    ],
+    "nom": [
+      "kakikoli / kakekoli",
+      "kakekoli",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kakogokoli / kakykoli",
+      "kakokoli",
+      "kakųkoli",
+    ],
+    "dat": [
+      "kakomukoli",
+      "kakojkoli",
+    ],
+    "gen": [
+      "kakogokoli",
+      "kakojkoli",
+    ],
+    "ins": [
+      "kakymkoli",
+      "kakojųkoli",
+    ],
+    "loc": [
+      "kakomkoli",
+      "kakojkoli",
+    ],
+    "nom": [
+      "kakykoli",
+      "kakokoli",
+      "kakakoli",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 19614 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "ktoryhkoli / ktorekoli",
+      "ktorekoli",
+    ],
+    "dat": [
+      "ktorymkoli",
+    ],
+    "gen": [
+      "ktoryhkoli",
+    ],
+    "ins": [
+      "ktorymikoli",
+    ],
+    "loc": [
+      "ktoryhkoli",
+    ],
+    "nom": [
+      "ktorikoli / ktorekoli",
+      "ktorekoli",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "ktorogokoli / ktorykoli",
+      "ktorokoli",
+      "ktorųkoli",
+    ],
+    "dat": [
+      "ktoromukoli",
+      "ktorojkoli",
+    ],
+    "gen": [
+      "ktorogokoli",
+      "ktorojkoli",
+    ],
+    "ins": [
+      "ktorymkoli",
+      "ktorojųkoli",
+    ],
+    "loc": [
+      "ktoromkoli",
+      "ktorojkoli",
+    ],
+    "nom": [
+      "ktorykoli",
+      "ktorokoli",
+      "ktorakoli",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 19882 1`] = `
+{
+  "cases": {
+    "acc": [
+      "něčego",
+    ],
+    "dat": [
+      "něčemu",
+    ],
+    "gen": [
+      "něčego",
+    ],
+    "ins": [
+      "něčim",
+    ],
+    "loc": [
+      "něčem",
+    ],
+    "nom": [
+      "něčto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 19913 1`] = `
+{
+  "cases": {
+    "acc": [
+      "ničego",
+    ],
+    "dat": [
+      "ničemu",
+    ],
+    "gen": [
+      "ničego",
+    ],
+    "ins": [
+      "ničim",
+    ],
+    "loc": [
+      "ničem",
+    ],
+    "nom": [
+      "ničto",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 21315 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "kojihkoli / kojekoli",
+      "kojekoli",
+    ],
+    "dat": [
+      "kojimkoli",
+    ],
+    "gen": [
+      "kojihkoli",
+    ],
+    "ins": [
+      "kojimikoli",
+    ],
+    "loc": [
+      "kojihkoli",
+    ],
+    "nom": [
+      "kojikoli / kojekoli",
+      "kojekoli",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "kojegokoli / kojkoli",
+      "kojekoli",
+      "kojųkoli",
+    ],
+    "dat": [
+      "kojemukoli",
+      "kojejkoli",
+    ],
+    "gen": [
+      "kojegokoli",
+      "kojejkoli",
+    ],
+    "ins": [
+      "kojimkoli",
+      "kojejųkoli",
+    ],
+    "loc": [
+      "kojemkoli",
+      "kojejkoli",
+    ],
+    "nom": [
+      "kojkoli",
+      "kojekoli",
+      "kojakoli",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 21322 1`] = `
+{
+  "cases": {
+    "acc": [
+      "kogokoli",
+    ],
+    "dat": [
+      "komukoli",
+    ],
+    "gen": [
+      "kogokoli",
+    ],
+    "ins": [
+      "kymkoli",
+    ],
+    "loc": [
+      "komkoli",
+    ],
+    "nom": [
+      "ktokoli",
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 23790 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "vsih / vse",
+      "vse",
+    ],
+    "dat": [
+      "vsim",
+    ],
+    "gen": [
+      "vsih",
+    ],
+    "ins": [
+      "vsimi",
+    ],
+    "loc": [
+      "vsih",
+    ],
+    "nom": [
+      "vsi / vse",
+      "vse",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "vsego / veś",
+      "vse",
+      "vśų",
+    ],
+    "dat": [
+      "vsemu",
+      "vsej",
+    ],
+    "gen": [
+      "vsego",
+      "vsej",
+    ],
+    "ins": [
+      "vsim",
+      "vsejų",
+    ],
+    "loc": [
+      "vsem",
+      "vsej",
+    ],
+    "nom": [
+      "veś",
+      "vse",
+      "vśa",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 35112 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "poněktoryh / poněktore",
+      "poněktore",
+    ],
+    "dat": [
+      "poněktorym",
+    ],
+    "gen": [
+      "poněktoryh",
+    ],
+    "ins": [
+      "poněktorymi",
+    ],
+    "loc": [
+      "poněktoryh",
+    ],
+    "nom": [
+      "poněktori / poněktore",
+      "poněktore",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "poněktorogo / poněktory",
+      "poněktoro",
+      "poněktorų",
+    ],
+    "dat": [
+      "poněktoromu",
+      "poněktoroj",
+    ],
+    "gen": [
+      "poněktorogo",
+      "poněktoroj",
+    ],
+    "ins": [
+      "poněktorym",
+      "poněktorojų",
+    ],
+    "loc": [
+      "poněktorom",
+      "poněktoroj",
+    ],
+    "nom": [
+      "poněktory",
+      "poněktoro",
+      "poněktora",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 35113 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "poněkojih / poněkoje",
+      "poněkoje",
+    ],
+    "dat": [
+      "poněkojim",
+    ],
+    "gen": [
+      "poněkojih",
+    ],
+    "ins": [
+      "poněkojimi",
+    ],
+    "loc": [
+      "poněkojih",
+    ],
+    "nom": [
+      "poněkoji / poněkoje",
+      "poněkoje",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "poněkojego / poněkoj",
+      "poněkoje",
+      "poněkojų",
+    ],
+    "dat": [
+      "poněkojemu",
+      "poněkojej",
+    ],
+    "gen": [
+      "poněkojego",
+      "poněkojej",
+    ],
+    "ins": [
+      "poněkojim",
+      "poněkojejų",
+    ],
+    "loc": [
+      "poněkojem",
+      "poněkojej",
+    ],
+    "nom": [
+      "poněkoj",
+      "poněkoje",
+      "poněkoja",
+    ],
+  },
+  "type": "adjective",
+}
+`;

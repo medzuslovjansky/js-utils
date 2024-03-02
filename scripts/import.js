@@ -29,6 +29,39 @@ const FIXTURE_VERBS_PERFECT = path.join(FIXTURES_DIR, 'verbs-perfect.json');
 const FIXTURE_VERBS_IMPERFECT = path.join(FIXTURES_DIR, 'verbs-imperfect.json');
 const FIXTURE_VERBS_OTHER = path.join(FIXTURES_DIR, 'verbs-misc.json');
 
+const FIXTURE_PRONOUNS_DEMONSTRATIVE = path.join(
+  FIXTURES_DIR,
+  'pronouns-demonstrative.json',
+);
+const FIXTURE_PRONOUNS_INDEFINITE = path.join(
+  FIXTURES_DIR,
+  'pronouns-indefinite.json',
+);
+const FIXTURE_PRONOUNS_INTERROGATIVE = path.join(
+  FIXTURES_DIR,
+  'pronouns-interrogative.json',
+);
+const FIXTURE_PRONOUNS_PERSONAL = path.join(
+  FIXTURES_DIR,
+  'pronouns-personal.json',
+);
+const FIXTURE_PRONOUNS_POSSESSIVE = path.join(
+  FIXTURES_DIR,
+  'pronouns-possessive.json',
+);
+const FIXTURE_PRONOUNS_RECIPROCAL = path.join(
+  FIXTURES_DIR,
+  'pronouns-reciprocal.json',
+);
+const FIXTURE_PRONOUNS_REFLEXIVE = path.join(
+  FIXTURES_DIR,
+  'pronouns-reflexive.json',
+);
+const FIXTURE_PRONOUNS_RELATIVE = path.join(
+  FIXTURES_DIR,
+  'pronouns-relative.json',
+);
+
 async function downloadFile(url, outputPath) {
   const response = await fetch(url);
   if (!response.ok) {
@@ -76,6 +109,16 @@ async function splitToFixtures() {
     ipf: new JSONLFileStream({ filePath: FIXTURE_VERBS_IMPERFECT }),
     o: new JSONLFileStream({ filePath: FIXTURE_VERBS_OTHER }),
   };
+  const pronouns = {
+    dem: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_DEMONSTRATIVE }),
+    indef: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_INDEFINITE }),
+    int: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_INTERROGATIVE }),
+    pers: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_PERSONAL }),
+    poss: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_POSSESSIVE }),
+    rec: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_RECIPROCAL }),
+    refl: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_REFLEXIVE }),
+    rel: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_RELATIVE }),
+  };
 
   const findStream = (pos) => {
     if (/\badj\./.test(pos)) {
@@ -119,6 +162,13 @@ async function splitToFixtures() {
       }
 
       return verbs;
+    } else if (/^pron\./.test(pos)) {
+      const subtype = pos.split('.')[1].trim();
+      if (!pronouns[subtype]) {
+        throw new Error(`Unknown pronoun type: ${pos}`);
+      }
+
+      return pronouns[subtype];
     }
   };
 
