@@ -42,6 +42,7 @@ const allureConfig = {
       return `\
         <style>
           figcaption { margin: 1em 0; font-style: italic; }
+          figure caption { font-style: italic; margin-bottom: 0.5em; text-align: left }
           figure > table { margin-bottom: 0.75em }
           figure th { background-color: #e4edfe }
           figure th, figure td {
