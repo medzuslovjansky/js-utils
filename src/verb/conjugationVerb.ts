@@ -134,7 +134,7 @@ export function conjugationVerb(
   const is = infinitive_stem(pref, inf, pts);
   const ps = present_tense_stem(pref, pts, is);
   const psi = secondary_present_tense_stem(ps);
-  const lpa = l_participle(pref, pts, is);
+  const lpa = l_participle(pref, is);
 
   const infinitive = build_infinitive(
     pref,
@@ -454,7 +454,7 @@ function secondary_present_tense_stem(ps: string): string {
   return ps.replace(/g$/, 'ž').replace(/k$/, 'č');
 }
 
-function l_participle(pref: string, pts: string, is: string): string {
+function l_participle(pref: string, is: string): string {
   let result = '';
   if (is == 'vojd' || is == 'vȯjd') {
     result = 'všėl';
@@ -462,10 +462,6 @@ function l_participle(pref: string, pts: string, is: string): string {
     result = pref + 'šėl';
   } else if (is.slice(-2) == 'id' || is.slice(-2) == 'jd') {
     result = pref + is.slice(0, -2) + 'šėl';
-  }
-  //treti - trl (by Ranmaru Rei)
-  else if (is.match(/r[eě]$/) && pts.match(/re$/)) {
-    result = pref + is.slice(0, -2) + 'ŕl';
   } else {
     result = pref + is + 'l';
   }
@@ -782,10 +778,7 @@ function build_pfpp(pref: string, is: string, psi: string): string {
     if (((is.charAt(i) != 'j') && ((psi.charAt(psi.length - 1) == 'j') && (i < 4) && (is.charAt(0) != 'u')) || (is == 'by')) || (is.charAt(i) == 'ę')) {
         ppps = pref + is + 't';
     }*/
-  // rule for -t by Ranmaru Rei
-  if (is.match(/r[eě]$/) && psi.match(/r$/)) {
-    ppps = pref + is.slice(0, -2) + 'ŕt';
-  } else if (
+  if (
     (is.match(/[iyuě]$/) && psi.match(/[jvn]$/) && psi !== 'imaj') ||
     is.match(/[ęuųå]$/) ||
     is === 'by' ||
