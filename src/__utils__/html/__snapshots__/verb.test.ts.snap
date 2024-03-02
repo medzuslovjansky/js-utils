@@ -17,44 +17,44 @@ exports[`renderers HTML verb conjugation render 1`] = `
          <tr>
             <th>1.sg</th>
             <td>ja</td>
-            <td>derų, derem</td>
-            <td>drěh</td>
-            <td>bųdų drěti</td>
+            <td>dověm sę</td>
+            <td>dověděh sę</td>
+            <td>bųdų dověděti sę</td>
          </tr>
          <tr>
             <th>2.sg</th>
             <td>ty</td>
-            <td>dereš</td>
-            <td>drěše</td>
-            <td>bųdeš drěti</td>
+            <td>dověš sę</td>
+            <td>dověděše sę</td>
+            <td>bųdeš dověděti sę</td>
          </tr>
          <tr>
             <th>3.sg</th>
             <td>on, ona, ono</td>
-            <td>dere</td>
-            <td>drěše</td>
-            <td>bųde drěti</td>
+            <td>dově sę</td>
+            <td>dověděše sę</td>
+            <td>bųde dověděti sę</td>
          </tr>
          <tr>
             <th>1.pl</th>
             <td>my</td>
-            <td>deremo</td>
-            <td>drěhmo</td>
-            <td>bųdemo drěti</td>
+            <td>dověmo sę</td>
+            <td>dověděhmo sę</td>
+            <td>bųdemo dověděti sę</td>
          </tr>
          <tr>
             <th>2.pl</th>
             <td>vy</td>
-            <td>derete</td>
-            <td>drěste</td>
-            <td>bųdete drěti</td>
+            <td>dověte sę</td>
+            <td>dověděste sę</td>
+            <td>bųdete dověděti sę</td>
          </tr>
          <tr>
             <th>3.pl</th>
             <td>oni, one</td>
-            <td>derųt</td>
-            <td>drěhų</td>
-            <td>bųdųt drěti</td>
+            <td>dovědųt sę</td>
+            <td>dověděhų sę</td>
+            <td>bųdųt dověděti sę</td>
          </tr>
       </tbody>
       </table>
@@ -70,56 +70,56 @@ exports[`renderers HTML verb conjugation render 1`] = `
          <tr>
             <th>1.sg</th>
             <td>ja</td>
-            <td>jesm dŕl(a)</td>
-            <td>běh dŕl(a)</td>
-            <td>byh dŕl(a)</td>
+            <td>jesm dověděl(a) sę</td>
+            <td>běh dověděl(a) sę</td>
+            <td>byh dověděl(a) sę</td>
          </tr>
          <tr>
             <th>2.sg</th>
             <td>ty</td>
-            <td>jesi dŕl(a)</td>
-            <td>běše dŕl(a)</td>
-            <td>bys dŕl(a)</td>
+            <td>jesi dověděl(a) sę</td>
+            <td>běše dověděl(a) sę</td>
+            <td>bys dověděl(a) sę</td>
          </tr>
          <tr>
             <th rowspan="3">3.sg</th>
             <td>on</td>
-            <td>(je) dŕl</td>
-            <td>běše dŕl</td>
-            <td>by dŕl</td>
+            <td>(je) dověděl sę</td>
+            <td>běše dověděl sę</td>
+            <td>by dověděl sę</td>
          </tr>
          <tr>
             <td>ona</td>
-            <td>(je) dŕla</td>
-            <td>běše dŕla</td>
-            <td>by dŕla</td>
+            <td>(je) dověděla sę</td>
+            <td>běše dověděla sę</td>
+            <td>by dověděla sę</td>
          </tr>
          <tr>
             <td>ono</td>
-            <td>(je) dŕlo</td>
-            <td>běše dŕlo</td>
-            <td>by dŕlo</td>
+            <td>(je) dovědělo sę</td>
+            <td>běše dovědělo sę</td>
+            <td>by dovědělo sę</td>
          </tr>
          <tr>
             <th>1.pl</th>
             <td>my</td>
-            <td>jesmo dŕli</td>
-            <td>běhmo dŕli</td>
-            <td>byhmo dŕli</td>
+            <td>jesmo dověděli sę</td>
+            <td>běhmo dověděli sę</td>
+            <td>byhmo dověděli sę</td>
          </tr>
          <tr>
             <th>2.pl</th>
             <td>vy</td>
-            <td>jeste dŕli</td>
-            <td>běste dŕli</td>
-            <td>byste dŕli</td>
+            <td>jeste dověděli sę</td>
+            <td>běste dověděli sę</td>
+            <td>byste dověděli sę</td>
          </tr>
          <tr>
             <th>3.pl</th>
             <td>oni, one</td>
-            <td>(sųt) dŕli</td>
-            <td>běhų dŕli</td>
-            <td>by dŕli</td>
+            <td>(sųt) dověděli sę</td>
+            <td>běhų dověděli sę</td>
+            <td>by dověděli sę</td>
          </tr>
        </thead>
        </table>
@@ -127,31 +127,31 @@ exports[`renderers HTML verb conjugation render 1`] = `
        <tbody>
          <tr>
             <th align="left" colspan="2">infinitive</th>
-            <td colspan="3">drěti</td>
+            <td colspan="3">dověděti sę</td>
          </tr>
          <tr>
             <th align="left" colspan="2">imperative</th>
-            <td colspan="3">deri, derimo, derite</td>
+            <td colspan="3">dověd́ sę, dověd́mo sę, dověd́te sę</td>
          </tr>
          <tr>
             <th align="left" colspan="2">present active participle</th>
-            <td colspan="3">derųći (derųća, derųće)</td>
+            <td colspan="3">dovědųći (dovědųća, dovědųće) sę</td>
          </tr>
          <tr>
             <th align="left" colspan="2">present passive participle</th>
-            <td colspan="3">deremy (derema, deremo)</td>
+            <td colspan="3">dovědomy (dovědoma, dovědomo)</td>
          </tr>
          <tr>
             <th align="left" colspan="2">past active participle</th>
-            <td colspan="3">dŕši (dŕša, dŕše)</td>
+            <td colspan="3">dověděvši sę (dověděvši sa, dověděvši se)</td>
          </tr>
          <tr>
             <th align="left" colspan="2">past passive participle</th>
-            <td colspan="3">dŕty (dŕta, dŕto)</td>
+            <td colspan="3">dověděny (dověděna, dověděno)</td>
          </tr>
          <tr>
             <th align="left" colspan="2">verbal noun</th>
-            <td colspan="3">dŕt́je</td>
+            <td colspan="3">dověděńje</td>
          </tr>
       </tbody>
    </table>
@@ -176,44 +176,44 @@ exports[`renderers HTML verb conjugation renderDiff 1`] = `
          <tr>
             <th>1.sg</th>
             <td>ja</td>
-            <td><del>derų, derem</del> <ins>trų, trem</ins></td>
-            <td><del>dreh</del> <ins>trěh</ins></td>
-            <td><del>bųdų dreti</del> <ins>bųdų trěti</ins></td>
+            <td><del>dověm sę</del> <ins>pověm</ins></td>
+            <td><del>dověděh sę</del> <ins>pověděh</ins></td>
+            <td><del>bųdų dověděti sę</del> <ins>bųdų pověděti</ins></td>
          </tr>
          <tr>
             <th>2.sg</th>
             <td>ty</td>
-            <td><del>dereš</del> <ins>treš</ins></td>
-            <td><del>dreše</del> <ins>trěše</ins></td>
-            <td><del>bųdeš dreti</del> <ins>bųdeš trěti</ins></td>
+            <td><del>dověš sę</del> <ins>pověš</ins></td>
+            <td><del>dověděše sę</del> <ins>pověděše</ins></td>
+            <td><del>bųdeš dověděti sę</del> <ins>bųdeš pověděti</ins></td>
          </tr>
          <tr>
             <th>3.sg</th>
             <td>on, ona, ono</td>
-            <td><del>dere</del> <ins>tre</ins></td>
-            <td><del>dreše</del> <ins>trěše</ins></td>
-            <td><del>bųde dreti</del> <ins>bųde trěti</ins></td>
+            <td><del>dově sę</del> <ins>pově</ins></td>
+            <td><del>dověděše sę</del> <ins>pověděše</ins></td>
+            <td><del>bųde dověděti sę</del> <ins>bųde pověděti</ins></td>
          </tr>
          <tr>
             <th>1.pl</th>
             <td>my</td>
-            <td><del>deremo</del> <ins>tremo</ins></td>
-            <td><del>drehmo</del> <ins>trěhmo</ins></td>
-            <td><del>bųdemo dreti</del> <ins>bųdemo trěti</ins></td>
+            <td><del>dověmo sę</del> <ins>pověmo</ins></td>
+            <td><del>dověděhmo sę</del> <ins>pověděhmo</ins></td>
+            <td><del>bųdemo dověděti sę</del> <ins>bųdemo pověděti</ins></td>
          </tr>
          <tr>
             <th>2.pl</th>
             <td>vy</td>
-            <td><del>derete</del> <ins>trete</ins></td>
-            <td><del>dreste</del> <ins>trěste</ins></td>
-            <td><del>bųdete dreti</del> <ins>bųdete trěti</ins></td>
+            <td><del>dověte sę</del> <ins>pověte</ins></td>
+            <td><del>dověděste sę</del> <ins>pověděste</ins></td>
+            <td><del>bųdete dověděti sę</del> <ins>bųdete pověděti</ins></td>
          </tr>
          <tr>
             <th>3.pl</th>
             <td>oni, one</td>
-            <td><del>derųt</del> <ins>trųt</ins></td>
-            <td><del>drehų</del> <ins>trěhų</ins></td>
-            <td><del>bųdųt dreti</del> <ins>bųdųt trěti</ins></td>
+            <td><del>dovědųt sę</del> <ins>povědųt</ins></td>
+            <td><del>dověděhų sę</del> <ins>pověděhų</ins></td>
+            <td><del>bųdųt dověděti sę</del> <ins>bųdųt pověděti</ins></td>
          </tr>
       </tbody>
       </table>
@@ -229,56 +229,56 @@ exports[`renderers HTML verb conjugation renderDiff 1`] = `
          <tr>
             <th>1.sg</th>
             <td>ja</td>
-            <td><del>jesm dŕl(a)</del> <ins>jesm tŕl(a)</ins></td>
-            <td><del>běh dŕl(a)</del> <ins>běh tŕl(a)</ins></td>
-            <td><del>byh dŕl(a)</del> <ins>byh tŕl(a)</ins></td>
+            <td><del>jesm dověděl(a) sę</del> <ins>jesm pověděl(a)</ins></td>
+            <td><del>běh dověděl(a) sę</del> <ins>běh pověděl(a)</ins></td>
+            <td><del>byh dověděl(a) sę</del> <ins>byh pověděl(a)</ins></td>
          </tr>
          <tr>
             <th>2.sg</th>
             <td>ty</td>
-            <td><del>jesi dŕl(a)</del> <ins>jesi tŕl(a)</ins></td>
-            <td><del>běše dŕl(a)</del> <ins>běše tŕl(a)</ins></td>
-            <td><del>bys dŕl(a)</del> <ins>bys tŕl(a)</ins></td>
+            <td><del>jesi dověděl(a) sę</del> <ins>jesi pověděl(a)</ins></td>
+            <td><del>běše dověděl(a) sę</del> <ins>běše pověděl(a)</ins></td>
+            <td><del>bys dověděl(a) sę</del> <ins>bys pověděl(a)</ins></td>
          </tr>
          <tr>
             <th rowspan="3">3.sg</th>
             <td>on</td>
-            <td><del>(je) dŕl</del> <ins>(je) tŕl</ins></td>
-            <td><del>běše dŕl</del> <ins>běše tŕl</ins></td>
-            <td><del>by dŕl</del> <ins>by tŕl</ins></td>
+            <td><del>(je) dověděl sę</del> <ins>(je) pověděl</ins></td>
+            <td><del>běše dověděl sę</del> <ins>běše pověděl</ins></td>
+            <td><del>by dověděl sę</del> <ins>by pověděl</ins></td>
          </tr>
          <tr>
             <td>ona</td>
-            <td><del>(je) dŕla</del> <ins>(je) tŕla</ins></td>
-            <td><del>běše dŕla</del> <ins>běše tŕla</ins></td>
-            <td><del>by dŕla</del> <ins>by tŕla</ins></td>
+            <td><del>(je) dověděla sę</del> <ins>(je) pověděla</ins></td>
+            <td><del>běše dověděla sę</del> <ins>běše pověděla</ins></td>
+            <td><del>by dověděla sę</del> <ins>by pověděla</ins></td>
          </tr>
          <tr>
             <td>ono</td>
-            <td><del>(je) dŕlo</del> <ins>(je) tŕlo</ins></td>
-            <td><del>běše dŕlo</del> <ins>běše tŕlo</ins></td>
-            <td><del>by dŕlo</del> <ins>by tŕlo</ins></td>
+            <td><del>(je) dovědělo sę</del> <ins>(je) povědělo</ins></td>
+            <td><del>běše dovědělo sę</del> <ins>běše povědělo</ins></td>
+            <td><del>by dovědělo sę</del> <ins>by povědělo</ins></td>
          </tr>
          <tr>
             <th>1.pl</th>
             <td>my</td>
-            <td><del>jesmo dŕli</del> <ins>jesmo tŕli</ins></td>
-            <td><del>běhmo dŕli</del> <ins>běhmo tŕli</ins></td>
-            <td><del>byhmo dŕli</del> <ins>byhmo tŕli</ins></td>
+            <td><del>jesmo dověděli sę</del> <ins>jesmo pověděli</ins></td>
+            <td><del>běhmo dověděli sę</del> <ins>běhmo pověděli</ins></td>
+            <td><del>byhmo dověděli sę</del> <ins>byhmo pověděli</ins></td>
          </tr>
          <tr>
             <th>2.pl</th>
             <td>vy</td>
-            <td><del>jeste dŕli</del> <ins>jeste tŕli</ins></td>
-            <td><del>běste dŕli</del> <ins>běste tŕli</ins></td>
-            <td><del>byste dŕli</del> <ins>byste tŕli</ins></td>
+            <td><del>jeste dověděli sę</del> <ins>jeste pověděli</ins></td>
+            <td><del>běste dověděli sę</del> <ins>běste pověděli</ins></td>
+            <td><del>byste dověděli sę</del> <ins>byste pověděli</ins></td>
          </tr>
          <tr>
             <th>3.pl</th>
             <td>oni, one</td>
-            <td><del>(sųt) dŕli</del> <ins>(sųt) tŕli</ins></td>
-            <td><del>běhų dŕli</del> <ins>běhų tŕli</ins></td>
-            <td><del>by dŕli</del> <ins>by tŕli</ins></td>
+            <td><del>(sųt) dověděli sę</del> <ins>(sųt) pověděli</ins></td>
+            <td><del>běhų dověděli sę</del> <ins>běhų pověděli</ins></td>
+            <td><del>by dověděli sę</del> <ins>by pověděli</ins></td>
          </tr>
        </thead>
        </table>
@@ -286,31 +286,31 @@ exports[`renderers HTML verb conjugation renderDiff 1`] = `
        <tbody>
          <tr>
             <th align="left" colspan="2">infinitive</th>
-            <td colspan="3"><del>dreti</del> <ins>trěti</ins></td>
+            <td colspan="3"><del>dověděti sę</del> <ins>pověděti</ins></td>
          </tr>
          <tr>
             <th align="left" colspan="2">imperative</th>
-            <td colspan="3"><del>deri, derimo, derite</del> <ins>tri, trimo, trite</ins></td>
+            <td colspan="3"><del>dověd́ sę, dověd́mo sę, dověd́te sę</del> <ins>pověd́, pověd́mo, pověd́te</ins></td>
          </tr>
          <tr>
             <th align="left" colspan="2">present active participle</th>
-            <td colspan="3"><del>derųći (derųća, derųće)</del> <ins>trųći (trųća, trųće)</ins></td>
+            <td colspan="3"><del>dovědųći (dovědųća, dovědųće) sę</del> <ins>povědųći (povědųća, povědųće)</ins></td>
          </tr>
          <tr>
             <th align="left" colspan="2">present passive participle</th>
-            <td colspan="3"><del>deremy (derema, deremo)</del> <ins>tremy (trema, tremo)</ins></td>
+            <td colspan="3"><del>dovědomy (dovědoma, dovědomo)</del> <ins>povědomy (povědoma, povědomo)</ins></td>
          </tr>
          <tr>
             <th align="left" colspan="2">past active participle</th>
-            <td colspan="3"><del>dŕši (dŕša, dŕše)</del> <ins>tŕši (tŕša, tŕše)</ins></td>
+            <td colspan="3"><del>dověděvši sę (dověděvši sa, dověděvši se)</del> <ins>pověděvši (pověděvša, pověděvše)</ins></td>
          </tr>
          <tr>
             <th align="left" colspan="2">past passive participle</th>
-            <td colspan="3"><del>dŕty (dŕta, dŕto)</del> <ins>tŕty (tŕta, tŕto)</ins></td>
+            <td colspan="3"><del>dověděny (dověděna, dověděno)</del> <ins>pověděny (pověděna, pověděno)</ins></td>
          </tr>
          <tr>
             <th align="left" colspan="2">verbal noun</th>
-            <td colspan="3"><del>dŕt́je</del> <ins>tŕt́je</ins></td>
+            <td colspan="3"><del>dověděńje</del> <ins>pověděńje</ins></td>
          </tr>
       </tbody>
    </table>
