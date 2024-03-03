@@ -7731,17 +7731,11 @@ exports[`adjective 770 1`] = `
 exports[`adjective 779 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najgoršejši",
-      "najgoršeje",
-    ],
-    "positive": [
-      "najgorši",
-      "najgorše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajgoršejši",
-      "najnajgoršeje",
+      "najgorši",
+      "najgorši",
     ],
   },
   "plural": {
@@ -19324,16 +19318,13 @@ exports[`adjective 2299 1`] = `
 {
   "comparison": {
     "comparative": [
-      "lěpšejši",
-      "lěpšeje",
-    ],
-    "positive": [
       "lěpši",
       "lěpše",
     ],
+    "positive": [],
     "superlative": [
-      "najlěpšejši",
-      "najlěpšeje",
+      "najlěpši",
+      "najlěpše",
     ],
   },
   "plural": {
@@ -23946,17 +23937,11 @@ exports[`adjective 2764 1`] = `
 exports[`adjective 2770 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najlěpšejši",
-      "najlěpšeje",
-    ],
-    "positive": [
-      "najlěpši",
-      "najlěpše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajlěpšejši",
-      "najnajlěpšeje",
+      "najlěpši",
+      "najlěpši",
     ],
   },
   "plural": {
@@ -26017,16 +26002,13 @@ exports[`adjective 3032 1`] = `
 {
   "comparison": {
     "comparative": [
-      "daljšejši",
-      "daljšeje",
-    ],
-    "positive": [
       "daljši",
       "daljše",
     ],
+    "positive": [],
     "superlative": [
-      "najdaljšejši",
-      "najdaljšeje",
+      "najdaljši",
+      "najdaljše",
     ],
   },
   "plural": {
@@ -27810,17 +27792,11 @@ exports[`adjective 3267 1`] = `
 exports[`adjective 3280 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najlučšejši",
-      "najlučšeje",
-    ],
-    "positive": [
-      "najlučši",
-      "najlučše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajlučšejši",
-      "najnajlučšeje",
+      "najlučši",
+      "najlučši",
     ],
   },
   "plural": {
@@ -27879,17 +27855,11 @@ exports[`adjective 3280 1`] = `
 exports[`adjective 3281 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najzlějši",
-      "najzlěje",
-    ],
-    "positive": [
-      "najzly",
-      "najzlo",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajzlějši",
-      "najnajzlěje",
+      "najzly",
+      "najzly",
     ],
   },
   "plural": {
@@ -32226,17 +32196,11 @@ exports[`adjective 3834 1`] = `
 exports[`adjective 3841 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najnovějšejši",
-      "najnovějšeje",
-    ],
-    "positive": [
-      "najnovějši",
-      "najnovějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajnovějšejši",
-      "najnajnovějšeje",
+      "najnovějši",
+      "najnovějši",
     ],
   },
   "plural": {
@@ -48165,17 +48129,11 @@ exports[`adjective 5867 1`] = `
 exports[`adjective 5868 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najglųbšejši",
-      "najglųbšeje",
-    ],
-    "positive": [
-      "najglųbši",
-      "najglųbše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajglųbšejši",
-      "najnajglųbšeje",
+      "najglųbši",
+      "najglųbši",
     ],
   },
   "plural": {
@@ -53479,16 +53437,13 @@ exports[`adjective 7063 1`] = `
 {
   "comparison": {
     "comparative": [
-      "divnějšejši",
-      "divnějšeje",
-    ],
-    "positive": [
       "divnějši",
       "divnějše",
     ],
+    "positive": [],
     "superlative": [
-      "najdivnějšejši",
-      "najdivnějšeje",
+      "najdivnějši",
+      "najdivnějše",
     ],
   },
   "plural": {
@@ -55756,16 +55711,13 @@ exports[`adjective 7759 1`] = `
 {
   "comparison": {
     "comparative": [
-      "hlådnějšejši",
-      "hlådnějšeje",
-    ],
-    "positive": [
       "hlådnějši",
       "hlådnějše",
     ],
+    "positive": [],
     "superlative": [
-      "najhlådnějšejši",
-      "najhlådnějšeje",
+      "najhlådnějši",
+      "najhlådnějše",
     ],
   },
   "plural": {
@@ -58102,16 +58054,13 @@ exports[`adjective 8662 1`] = `
 {
   "comparison": {
     "comparative": [
-      "krasnějšejši",
-      "krasnějšeje",
-    ],
-    "positive": [
       "krasnějši",
       "krasnějše",
     ],
+    "positive": [],
     "superlative": [
-      "najkrasnějšejši",
-      "najkrasnějšeje",
+      "najkrasnějši",
+      "najkrasnějše",
     ],
   },
   "plural": {
@@ -59619,17 +59568,11 @@ exports[`adjective 9270 1`] = `
 exports[`adjective 9359 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najblizšejši",
-      "najblizšeje",
-    ],
-    "positive": [
-      "najblizši",
-      "najblizše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajblizšejši",
-      "najnajblizšeje",
+      "najblizši",
+      "najblizši",
     ],
   },
   "plural": {
@@ -59688,17 +59631,11 @@ exports[`adjective 9359 1`] = `
 exports[`adjective 9360 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najbogatšejši",
-      "najbogatšeje",
-    ],
-    "positive": [
-      "najbogatši",
-      "najbogatše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajbogatšejši",
-      "najnajbogatšeje",
+      "najbogatši",
+      "najbogatši",
     ],
   },
   "plural": {
@@ -59757,17 +59694,11 @@ exports[`adjective 9360 1`] = `
 exports[`adjective 9361 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najdivnějšejši",
-      "najdivnějšeje",
-    ],
-    "positive": [
-      "najdivnějši",
-      "najdivnějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajdivnějšejši",
-      "najnajdivnějšeje",
+      "najdivnějši",
+      "najdivnějši",
     ],
   },
   "plural": {
@@ -59826,17 +59757,11 @@ exports[`adjective 9361 1`] = `
 exports[`adjective 9364 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najvęćšejši",
-      "najvęćšeje",
-    ],
-    "positive": [
-      "najvęćši",
-      "najvęćše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajvęćšejši",
-      "najnajvęćšeje",
+      "najvęćši",
+      "najvęćši",
     ],
   },
   "plural": {
@@ -59895,17 +59820,11 @@ exports[`adjective 9364 1`] = `
 exports[`adjective 9371 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najhlådnějšejši",
-      "najhlådnějšeje",
-    ],
-    "positive": [
-      "najhlådnějši",
-      "najhlådnějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajhlådnějšejši",
-      "najnajhlådnějšeje",
+      "najhlådnějši",
+      "najhlådnějši",
     ],
   },
   "plural": {
@@ -59964,17 +59883,11 @@ exports[`adjective 9371 1`] = `
 exports[`adjective 9372 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najkrasivšejši",
-      "najkrasivšeje",
-    ],
-    "positive": [
-      "najkrasivši",
-      "najkrasivše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajkrasivšejši",
-      "najnajkrasivšeje",
+      "najkrasivši",
+      "najkrasivši",
     ],
   },
   "plural": {
@@ -60033,17 +59946,11 @@ exports[`adjective 9372 1`] = `
 exports[`adjective 9373 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najkrasnějšejši",
-      "najkrasnějšeje",
-    ],
-    "positive": [
-      "najkrasnějši",
-      "najkrasnějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajkrasnějšejši",
-      "najnajkrasnějšeje",
+      "najkrasnějši",
+      "najkrasnějši",
     ],
   },
   "plural": {
@@ -60102,17 +60009,11 @@ exports[`adjective 9373 1`] = `
 exports[`adjective 9374 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najkrvavšejši",
-      "najkrvavšeje",
-    ],
-    "positive": [
-      "najkrvavši",
-      "najkrvavše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajkrvavšejši",
-      "najnajkrvavšeje",
+      "najkrvavši",
+      "najkrvavši",
     ],
   },
   "plural": {
@@ -60171,17 +60072,11 @@ exports[`adjective 9374 1`] = `
 exports[`adjective 9379 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najmękšejši",
-      "najmękšeje",
-    ],
-    "positive": [
-      "najmękši",
-      "najmękše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajmękšejši",
-      "najnajmękšeje",
+      "najmękši",
+      "najmękši",
     ],
   },
   "plural": {
@@ -60240,17 +60135,11 @@ exports[`adjective 9379 1`] = `
 exports[`adjective 9381 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najmenšejši",
-      "najmenšeje",
-    ],
-    "positive": [
-      "najmenši",
-      "najmenše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajmenšejši",
-      "najnajmenšeje",
+      "najmenši",
+      "najmenši",
     ],
   },
   "plural": {
@@ -60309,17 +60198,11 @@ exports[`adjective 9381 1`] = `
 exports[`adjective 9382 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najnizšejši",
-      "najnizšeje",
-    ],
-    "positive": [
-      "najnizši",
-      "najnizše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajnizšejši",
-      "najnajnizšeje",
+      "najnizši",
+      "najnizši",
     ],
   },
   "plural": {
@@ -60378,17 +60261,11 @@ exports[`adjective 9382 1`] = `
 exports[`adjective 9383 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najpozdnějšejši",
-      "najpozdnějšeje",
-    ],
-    "positive": [
-      "najpozdnějši",
-      "najpozdnějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajpozdnějšejši",
-      "najnajpozdnějšeje",
+      "najpozdnějši",
+      "najpozdnějši",
     ],
   },
   "plural": {
@@ -60447,17 +60324,11 @@ exports[`adjective 9383 1`] = `
 exports[`adjective 9384 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najranšejši",
-      "najranšeje",
-    ],
-    "positive": [
-      "najranši",
-      "najranše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajranšejši",
-      "najnajranšeje",
+      "najranši",
+      "najranši",
     ],
   },
   "plural": {
@@ -60585,17 +60456,11 @@ exports[`adjective 9386 1`] = `
 exports[`adjective 9390 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najzimnějšejši",
-      "najzimnějšeje",
-    ],
-    "positive": [
-      "najzimnějši",
-      "najzimnějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajzimnějšejši",
-      "najnajzimnějšeje",
+      "najzimnějši",
+      "najzimnějši",
     ],
   },
   "plural": {
@@ -67072,16 +66937,13 @@ exports[`adjective 11106 1`] = `
 {
   "comparison": {
     "comparative": [
-      "pozdnějšejši",
-      "pozdnějšeje",
-    ],
-    "positive": [
       "pozdnějši",
       "pozdnějše",
     ],
+    "positive": [],
     "superlative": [
-      "najpozdnějšejši",
-      "najpozdnějšeje",
+      "najpozdnějši",
+      "najpozdnějše",
     ],
   },
   "plural": {
@@ -72661,16 +72523,13 @@ exports[`adjective 13545 1`] = `
 {
   "comparison": {
     "comparative": [
-      "veličejšejši",
-      "veličejšeje",
-    ],
-    "positive": [
       "veličejši",
       "veličejše",
     ],
+    "positive": [],
     "superlative": [
-      "najveličejšejši",
-      "najveličejšeje",
+      "najveličejši",
+      "najveličejše",
     ],
   },
   "plural": {
@@ -74938,16 +74797,13 @@ exports[`adjective 14234 1`] = `
 {
   "comparison": {
     "comparative": [
-      "zimnějšejši",
-      "zimnějšeje",
-    ],
-    "positive": [
       "zimnějši",
       "zimnějše",
     ],
+    "positive": [],
     "superlative": [
-      "najzimnějšejši",
-      "najzimnějšeje",
+      "najzimnějši",
+      "najzimnějše",
     ],
   },
   "plural": {
@@ -77076,17 +76932,11 @@ exports[`adjective 14666 1`] = `
 exports[`adjective 14734 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najveličějši",
-      "najveličeje",
-    ],
-    "positive": [
-      "najveliky",
-      "najveliko",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajveličějši",
-      "najnajveličeje",
+      "najveliky",
+      "najveliky",
     ],
   },
   "plural": {
@@ -90876,17 +90726,11 @@ exports[`adjective 17834 1`] = `
 exports[`adjective 17862 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najlegšejši",
-      "najlegšeje",
-    ],
-    "positive": [
-      "najlegši",
-      "najlegše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajlegšejši",
-      "najnajlegšeje",
+      "najlegši",
+      "najlegši",
     ],
   },
   "plural": {
@@ -90945,17 +90789,11 @@ exports[`adjective 17862 1`] = `
 exports[`adjective 17866 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najprostějšejši",
-      "najprostějšeje",
-    ],
-    "positive": [
-      "najprostějši",
-      "najprostějše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajprostějšejši",
-      "najnajprostějšeje",
+      "najprostějši",
+      "najprostějši",
     ],
   },
   "plural": {
@@ -93637,16 +93475,13 @@ exports[`adjective 18540 1`] = `
 {
   "comparison": {
     "comparative": [
-      "prostějšejši",
-      "prostějšeje",
-    ],
-    "positive": [
       "prostějši",
       "prostějše",
     ],
+    "positive": [],
     "superlative": [
-      "najprostějšejši",
-      "najprostějšeje",
+      "najprostějši",
+      "najprostějše",
     ],
   },
   "plural": {
@@ -120546,17 +120381,11 @@ exports[`adjective 23013 1`] = `
 exports[`adjective 23043 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najdaljšejši",
-      "najdaljšeje",
-    ],
-    "positive": [
-      "najdaljši",
-      "najdaljše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajdaljšejši",
-      "najnajdaljšeje",
+      "najdaljši",
+      "najdaljši",
     ],
   },
   "plural": {
@@ -178507,16 +178336,13 @@ exports[`adjective 35660 1`] = `
 {
   "comparison": {
     "comparative": [
-      "boljšejši",
-      "boljšeje",
-    ],
-    "positive": [
       "boljši",
       "boljše",
     ],
+    "positive": [],
     "superlative": [
-      "najboljšejši",
-      "najboljšeje",
+      "najboljši",
+      "najboljše",
     ],
   },
   "plural": {
@@ -178575,17 +178401,11 @@ exports[`adjective 35660 1`] = `
 exports[`adjective 35661 1`] = `
 {
   "comparison": {
-    "comparative": [
-      "najboljšejši",
-      "najboljšeje",
-    ],
-    "positive": [
-      "najboljši",
-      "najboljše",
-    ],
+    "comparative": [],
+    "positive": [],
     "superlative": [
-      "najnajboljšejši",
-      "najnajboljšeje",
+      "najboljši",
+      "najboljši",
     ],
   },
   "plural": {
