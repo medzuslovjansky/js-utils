@@ -112,7 +112,7 @@ exports[`renderers HTML noun declension render 1`] = `
       <tr>
         <th>superlative</th>
         <td>najdobry-koli</td>
-        <td>najdobry-koli</td>
+        <td>najdobro-koli</td>
       </tr>
     </tbody>
   </table>
