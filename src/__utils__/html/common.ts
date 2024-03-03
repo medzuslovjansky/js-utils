@@ -12,7 +12,9 @@ export function diff<T>(
       return beforeValue;
     }
 
-    return `<del>${beforeValue}</del> <ins>${afterValue}</ins>`;
+    const del = beforeValue ? `<del>${beforeValue}</del>` : '';
+    const ins = afterValue ? `<ins>${afterValue}</ins>` : '';
+    return del || ins ? [del, ins].join(' ') : null;
   };
 }
 
