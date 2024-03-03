@@ -111,7 +111,7 @@ function deriveComparison(
   const comp_adj = isComparative ? m_nom_sg : comparative_adj(root);
   const comp_adv = isComparative ? adv : comparative_adv(root);
   const sup_adj = isSuperlative ? m_nom_sg : superlative(root, comp_adj, 'adj');
-  const sup_adv = isSuperlative ? m_nom_sg : superlative(root, comp_adv, 'adv');
+  const sup_adv = isSuperlative ? adv : superlative(root, comp_adv, 'adv');
 
   return {
     positive: isPositive ? applyRules([m_nom_sg, adv], postfix) : [],
