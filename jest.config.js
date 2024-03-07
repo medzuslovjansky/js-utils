@@ -61,7 +61,23 @@ const allureConfig = {
             display: block;
           }
         </style>
-        ${content}`;
+        ${content}
+        <div id="disqus_thread"></div>
+        <script>
+            var disqus_config = function () {
+              const testID = ${JSON.stringify(testCase.fullName)};
+              this.language = navigator.language;
+              this.page.url = window.location.href;
+              this.page.title = window.location.hostname + '(' + testID + ')';
+              this.page.identifier = window.location.hostname + '/allure/' + encodeURIComponent(testID);
+            };
+            (function() {
+            var d = document, s = d.createElement('script');
+            s.src = 'https://interslavic-allure.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+        </script>`;
     },
   },
   testFile: {
