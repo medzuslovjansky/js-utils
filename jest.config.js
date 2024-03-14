@@ -1,6 +1,8 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { findLemmaById, toHTML } = require('./dist/__utils__');
 
+const isId = (value) => Number.isFinite(parseInt(value, 10));
+
 /** @type {import('jest-allure2-reporter').ReporterConfig} */
 const allureConfig = {
   testCase: {
@@ -9,12 +11,12 @@ const allureConfig = {
       context.testCase.status === 'skipped' ||
       context.testCase.status === 'pending',
     name: ({ testCase, value }) => {
-      const maybeId = parseInt(testCase.title, 10);
-      return Number.isFinite(maybeId) ? findLemmaById(String(maybeId)) : value;
+      const maybeId = testCase.title;
+      return isId(maybeId) ? findLemmaById(String(maybeId)) : value;
     },
     parameters: ({ testCase, value = [] }) => {
-      const maybeId = parseInt(testCase.title, 10);
-      return Number.isFinite(maybeId)
+      const maybeId = testCase.title;
+      return isId(maybeId)
         ? [
             ...value,
             {
