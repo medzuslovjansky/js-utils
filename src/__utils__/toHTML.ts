@@ -23,9 +23,9 @@ function getBeforeAndAfter(test: TestCaseResult): Tuple<unknown>[] {
     .map((failure) => failure?.matcherResult)
     .filter(
       (matcherResult) =>
-        matcherResult && matcherResult.expected && matcherResult.actual,
+        matcherResult && (matcherResult.expected || matcherResult.actual),
     )
-    .map(({ actual, expected }) => {
+    .map(({ expected, actual }) => {
       try {
         return vm.runInNewContext(`[${expected}, ${actual}]`);
       } catch {
