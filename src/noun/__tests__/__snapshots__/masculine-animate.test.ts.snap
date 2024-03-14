@@ -627,7 +627,71 @@ exports[`noun masculine (animate) 229 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 236 1`] = `null`;
+exports[`noun masculine (animate) 236 1`] = `
+{
+  "acc": [
+    "pěšehoda",
+    "pěšehodov",
+  ],
+  "dat": [
+    "pěšehodu",
+    "pěšehodam",
+  ],
+  "gen": [
+    "pěšehoda",
+    "pěšehodov",
+  ],
+  "ins": [
+    "pěšehodom",
+    "pěšehodami",
+  ],
+  "loc": [
+    "pěšehodu",
+    "pěšehodah",
+  ],
+  "nom": [
+    "pěšehod",
+    "pěšehodi",
+  ],
+  "voc": [
+    "pěšehode",
+    "pěšehodi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 236-1 1`] = `
+{
+  "acc": [
+    "pěšehodca",
+    "pěšehodcev",
+  ],
+  "dat": [
+    "pěšehodcu",
+    "pěšehodcam",
+  ],
+  "gen": [
+    "pěšehodca",
+    "pěšehodcev",
+  ],
+  "ins": [
+    "pěšehodcem",
+    "pěšehodcami",
+  ],
+  "loc": [
+    "pěšehodcu",
+    "pěšehodcah",
+  ],
+  "nom": [
+    "pěšehodec",
+    "pěšehodci",
+  ],
+  "voc": [
+    "pěšehodče",
+    "pěšehodci",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 272 1`] = `
 {
@@ -794,7 +858,71 @@ exports[`noun masculine (animate) 299 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 302 1`] = `null`;
+exports[`noun masculine (animate) 302 1`] = `
+{
+  "acc": [
+    "hristijana",
+    "hristijanov",
+  ],
+  "dat": [
+    "hristijanu",
+    "hristijanam",
+  ],
+  "gen": [
+    "hristijana",
+    "hristijanov",
+  ],
+  "ins": [
+    "hristijanom",
+    "hristijanami",
+  ],
+  "loc": [
+    "hristijanu",
+    "hristijanah",
+  ],
+  "nom": [
+    "hristijan",
+    "hristijani",
+  ],
+  "voc": [
+    "hristijane",
+    "hristijani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 302-1 1`] = `
+{
+  "acc": [
+    "hristijanina",
+    "hristijanov",
+  ],
+  "dat": [
+    "hristijaninu",
+    "hristijanam",
+  ],
+  "gen": [
+    "hristijanina",
+    "hristijanov",
+  ],
+  "ins": [
+    "hristijaninom",
+    "hristijanami",
+  ],
+  "loc": [
+    "hristijaninu",
+    "hristijanah",
+  ],
+  "nom": [
+    "hristijanin",
+    "hristijani",
+  ],
+  "voc": [
+    "hristijanine",
+    "hristijani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 305 1`] = `
 {
@@ -994,7 +1122,71 @@ exports[`noun masculine (animate) 345 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 349 1`] = `null`;
+exports[`noun masculine (animate) 349 1`] = `
+{
+  "acc": [
+    "Črnogorjana",
+    "Črnogorjanov",
+  ],
+  "dat": [
+    "Črnogorjanu",
+    "Črnogorjanam",
+  ],
+  "gen": [
+    "Črnogorjana",
+    "Črnogorjanov",
+  ],
+  "ins": [
+    "Črnogorjanom",
+    "Črnogorjanami",
+  ],
+  "loc": [
+    "Črnogorjanu",
+    "Črnogorjanah",
+  ],
+  "nom": [
+    "Črnogorjan",
+    "Črnogorjani",
+  ],
+  "voc": [
+    "Črnogorjane",
+    "Črnogorjani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 349-1 1`] = `
+{
+  "acc": [
+    "Črnogorjanina",
+    "Črnogorjanov",
+  ],
+  "dat": [
+    "Črnogorjaninu",
+    "Črnogorjanam",
+  ],
+  "gen": [
+    "Črnogorjanina",
+    "Črnogorjanov",
+  ],
+  "ins": [
+    "Črnogorjaninom",
+    "Črnogorjanami",
+  ],
+  "loc": [
+    "Črnogorjaninu",
+    "Črnogorjanah",
+  ],
+  "nom": [
+    "Črnogorjanin",
+    "Črnogorjani",
+  ],
+  "voc": [
+    "Črnogorjanine",
+    "Črnogorjani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 350 1`] = `
 {
@@ -2184,7 +2376,71 @@ exports[`noun masculine (animate) 916 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 922 1`] = `null`;
+exports[`noun masculine (animate) 922 1`] = `
+{
+  "acc": [
+    "muslimana",
+    "muslimanov",
+  ],
+  "dat": [
+    "muslimanu",
+    "muslimanam",
+  ],
+  "gen": [
+    "muslimana",
+    "muslimanov",
+  ],
+  "ins": [
+    "muslimanom",
+    "muslimanami",
+  ],
+  "loc": [
+    "muslimanu",
+    "muslimanah",
+  ],
+  "nom": [
+    "musliman",
+    "muslimani",
+  ],
+  "voc": [
+    "muslimane",
+    "muslimani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 922-1 1`] = `
+{
+  "acc": [
+    "muslimanina",
+    "muslimanov",
+  ],
+  "dat": [
+    "muslimaninu",
+    "muslimanam",
+  ],
+  "gen": [
+    "muslimanina",
+    "muslimanov",
+  ],
+  "ins": [
+    "muslimaninom",
+    "muslimanami",
+  ],
+  "loc": [
+    "muslimaninu",
+    "muslimanah",
+  ],
+  "nom": [
+    "muslimanin",
+    "muslimani",
+  ],
+  "voc": [
+    "muslimanine",
+    "muslimani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 932 1`] = `
 {
@@ -3077,7 +3333,71 @@ exports[`noun masculine (animate) 1356 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 1357 1`] = `null`;
+exports[`noun masculine (animate) 1357 1`] = `
+{
+  "acc": [
+    "Slovjana",
+    "Slovjanov",
+  ],
+  "dat": [
+    "Slovjanu",
+    "Slovjanam",
+  ],
+  "gen": [
+    "Slovjana",
+    "Slovjanov",
+  ],
+  "ins": [
+    "Slovjanom",
+    "Slovjanami",
+  ],
+  "loc": [
+    "Slovjanu",
+    "Slovjanah",
+  ],
+  "nom": [
+    "Slovjan",
+    "Slovjani",
+  ],
+  "voc": [
+    "Slovjane",
+    "Slovjani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 1357-1 1`] = `
+{
+  "acc": [
+    "Slovjanina",
+    "Slovjanov",
+  ],
+  "dat": [
+    "Slovjaninu",
+    "Slovjanam",
+  ],
+  "gen": [
+    "Slovjanina",
+    "Slovjanov",
+  ],
+  "ins": [
+    "Slovjaninom",
+    "Slovjanami",
+  ],
+  "loc": [
+    "Slovjaninu",
+    "Slovjanah",
+  ],
+  "nom": [
+    "Slovjanin",
+    "Slovjani",
+  ],
+  "voc": [
+    "Slovjanine",
+    "Slovjani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 1376 1`] = `
 {
@@ -6315,7 +6635,71 @@ exports[`noun masculine (animate) 2881 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 2905 1`] = `null`;
+exports[`noun masculine (animate) 2905 1`] = `
+{
+  "acc": [
+    "gråđana",
+    "gråđanov",
+  ],
+  "dat": [
+    "gråđanu",
+    "gråđanam",
+  ],
+  "gen": [
+    "gråđana",
+    "gråđanov",
+  ],
+  "ins": [
+    "gråđanom",
+    "gråđanami",
+  ],
+  "loc": [
+    "gråđanu",
+    "gråđanah",
+  ],
+  "nom": [
+    "gråđan",
+    "gråđani",
+  ],
+  "voc": [
+    "gråđane",
+    "gråđani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 2905-1 1`] = `
+{
+  "acc": [
+    "gråđanina",
+    "gråđanov",
+  ],
+  "dat": [
+    "gråđaninu",
+    "gråđanam",
+  ],
+  "gen": [
+    "gråđanina",
+    "gråđanov",
+  ],
+  "ins": [
+    "gråđaninom",
+    "gråđanami",
+  ],
+  "loc": [
+    "gråđaninu",
+    "gråđanah",
+  ],
+  "nom": [
+    "gråđanin",
+    "gråđani",
+  ],
+  "voc": [
+    "gråđanine",
+    "gråđani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 2911 1`] = `
 {
@@ -6779,7 +7163,71 @@ exports[`noun masculine (animate) 3158 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 3166 1`] = `null`;
+exports[`noun masculine (animate) 3166 1`] = `
+{
+  "acc": [
+    "seljana",
+    "seljanov",
+  ],
+  "dat": [
+    "seljanu",
+    "seljanam",
+  ],
+  "gen": [
+    "seljana",
+    "seljanov",
+  ],
+  "ins": [
+    "seljanom",
+    "seljanami",
+  ],
+  "loc": [
+    "seljanu",
+    "seljanah",
+  ],
+  "nom": [
+    "seljan",
+    "seljani",
+  ],
+  "voc": [
+    "seljane",
+    "seljani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 3166-1 1`] = `
+{
+  "acc": [
+    "seljanina",
+    "seljanov",
+  ],
+  "dat": [
+    "seljaninu",
+    "seljanam",
+  ],
+  "gen": [
+    "seljanina",
+    "seljanov",
+  ],
+  "ins": [
+    "seljaninom",
+    "seljanami",
+  ],
+  "loc": [
+    "seljaninu",
+    "seljanah",
+  ],
+  "nom": [
+    "seljanin",
+    "seljani",
+  ],
+  "voc": [
+    "seljanine",
+    "seljani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 3174 1`] = `
 {
@@ -8897,7 +9345,71 @@ exports[`noun masculine (animate) 4724 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 4725 1`] = `null`;
+exports[`noun masculine (animate) 4725 1`] = `
+{
+  "acc": [
+    "Bulgara",
+    "Bulgarov",
+  ],
+  "dat": [
+    "Bulgaru",
+    "Bulgaram",
+  ],
+  "gen": [
+    "Bulgara",
+    "Bulgarov",
+  ],
+  "ins": [
+    "Bulgarom",
+    "Bulgarami",
+  ],
+  "loc": [
+    "Bulgaru",
+    "Bulgarah",
+  ],
+  "nom": [
+    "Bulgar",
+    "Bulgari",
+  ],
+  "voc": [
+    "Bulgare",
+    "Bulgari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 4725-1 1`] = `
+{
+  "acc": [
+    "Bulgarina",
+    "Bulgarinov",
+  ],
+  "dat": [
+    "Bulgarinu",
+    "Bulgarinam",
+  ],
+  "gen": [
+    "Bulgarina",
+    "Bulgarinov",
+  ],
+  "ins": [
+    "Bulgarinom",
+    "Bulgarinami",
+  ],
+  "loc": [
+    "Bulgarinu",
+    "Bulgarinah",
+  ],
+  "nom": [
+    "Bulgarin",
+    "Bulgarini",
+  ],
+  "voc": [
+    "Bulgarine",
+    "Bulgarini",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 4727 1`] = `
 {
@@ -10879,7 +11391,71 @@ exports[`noun masculine (animate) 6305 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 6405 1`] = `null`;
+exports[`noun masculine (animate) 6405 1`] = `
+{
+  "acc": [
+    "Indijana",
+    "Indijanov",
+  ],
+  "dat": [
+    "Indijanu",
+    "Indijanam",
+  ],
+  "gen": [
+    "Indijana",
+    "Indijanov",
+  ],
+  "ins": [
+    "Indijanom",
+    "Indijanami",
+  ],
+  "loc": [
+    "Indijanu",
+    "Indijanah",
+  ],
+  "nom": [
+    "Indijan",
+    "Indijani",
+  ],
+  "voc": [
+    "Indijane",
+    "Indijani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 6405-1 1`] = `
+{
+  "acc": [
+    "Indijanina",
+    "Indijanov",
+  ],
+  "dat": [
+    "Indijaninu",
+    "Indijanam",
+  ],
+  "gen": [
+    "Indijanina",
+    "Indijanov",
+  ],
+  "ins": [
+    "Indijaninom",
+    "Indijanami",
+  ],
+  "loc": [
+    "Indijaninu",
+    "Indijanah",
+  ],
+  "nom": [
+    "Indijanin",
+    "Indijani",
+  ],
+  "voc": [
+    "Indijanine",
+    "Indijani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 6769 1`] = `
 {
@@ -14372,7 +14948,71 @@ exports[`noun masculine (animate) 13825 1`] = `
 
 exports[`noun masculine (animate) 13838 1`] = `null`;
 
-exports[`noun masculine (animate) 13898 1`] = `null`;
+exports[`noun masculine (animate) 13898 1`] = `
+{
+  "acc": [
+    "uja",
+    "ujev",
+  ],
+  "dat": [
+    "uju",
+    "ujam",
+  ],
+  "gen": [
+    "uja",
+    "ujev",
+  ],
+  "ins": [
+    "ujem",
+    "ujami",
+  ],
+  "loc": [
+    "uju",
+    "ujah",
+  ],
+  "nom": [
+    "uj",
+    "uji",
+  ],
+  "voc": [
+    "uju",
+    "uji",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 13898-1 1`] = `
+{
+  "acc": [
+    "ujca",
+    "ujcev",
+  ],
+  "dat": [
+    "ujcu",
+    "ujcam",
+  ],
+  "gen": [
+    "ujca",
+    "ujcev",
+  ],
+  "ins": [
+    "ujcem",
+    "ujcami",
+  ],
+  "loc": [
+    "ujcu",
+    "ujcah",
+  ],
+  "nom": [
+    "ujec",
+    "ujci",
+  ],
+  "voc": [
+    "ujče",
+    "ujci",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 14014 1`] = `
 {
@@ -16624,7 +17264,71 @@ exports[`noun masculine (animate) 16796 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 16810 1`] = `null`;
+exports[`noun masculine (animate) 16810 1`] = `
+{
+  "acc": [
+    "dvorjana",
+    "dvorjanov",
+  ],
+  "dat": [
+    "dvorjanu",
+    "dvorjanam",
+  ],
+  "gen": [
+    "dvorjana",
+    "dvorjanov",
+  ],
+  "ins": [
+    "dvorjanom",
+    "dvorjanami",
+  ],
+  "loc": [
+    "dvorjanu",
+    "dvorjanah",
+  ],
+  "nom": [
+    "dvorjan",
+    "dvorjani",
+  ],
+  "voc": [
+    "dvorjane",
+    "dvorjani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 16810-1 1`] = `
+{
+  "acc": [
+    "dvorjanina",
+    "dvorjanov",
+  ],
+  "dat": [
+    "dvorjaninu",
+    "dvorjanam",
+  ],
+  "gen": [
+    "dvorjanina",
+    "dvorjanov",
+  ],
+  "ins": [
+    "dvorjaninom",
+    "dvorjanami",
+  ],
+  "loc": [
+    "dvorjaninu",
+    "dvorjanah",
+  ],
+  "nom": [
+    "dvorjanin",
+    "dvorjani",
+  ],
+  "voc": [
+    "dvorjanine",
+    "dvorjani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 16817 1`] = `
 {
@@ -19635,7 +20339,71 @@ exports[`noun masculine (animate) 19762 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 19768 1`] = `null`;
+exports[`noun masculine (animate) 19768 1`] = `
+{
+  "acc": [
+    "językotvoritelja",
+    "językotvoriteljev",
+  ],
+  "dat": [
+    "językotvoritelju",
+    "językotvoriteljam",
+  ],
+  "gen": [
+    "językotvoritelja",
+    "językotvoriteljev",
+  ],
+  "ins": [
+    "językotvoriteljem",
+    "językotvoriteljami",
+  ],
+  "loc": [
+    "językotvoritelju",
+    "językotvoriteljah",
+  ],
+  "nom": [
+    "językotvoritelj",
+    "językotvoritelji",
+  ],
+  "voc": [
+    "językotvoritelju",
+    "językotvoritelji",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 19768-1 1`] = `
+{
+  "acc": [
+    "językotvorca",
+    "językotvorcev",
+  ],
+  "dat": [
+    "językotvorcu",
+    "językotvorcam",
+  ],
+  "gen": [
+    "językotvorca",
+    "językotvorcev",
+  ],
+  "ins": [
+    "językotvorcem",
+    "językotvorcami",
+  ],
+  "loc": [
+    "językotvorcu",
+    "językotvorcah",
+  ],
+  "nom": [
+    "językotvorec",
+    "językotvorci",
+  ],
+  "voc": [
+    "językotvorče",
+    "językotvorci",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 19784 1`] = `
 {
@@ -19835,7 +20603,71 @@ exports[`noun masculine (animate) 19873 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 20187 1`] = `null`;
+exports[`noun masculine (animate) 20187 1`] = `
+{
+  "acc": [
+    "sŕbolužičana",
+    "sŕbolužičanov",
+  ],
+  "dat": [
+    "sŕbolužičanu",
+    "sŕbolužičanam",
+  ],
+  "gen": [
+    "sŕbolužičana",
+    "sŕbolužičanov",
+  ],
+  "ins": [
+    "sŕbolužičanom",
+    "sŕbolužičanami",
+  ],
+  "loc": [
+    "sŕbolužičanu",
+    "sŕbolužičanah",
+  ],
+  "nom": [
+    "sŕbolužičan",
+    "sŕbolužičani",
+  ],
+  "voc": [
+    "sŕbolužičane",
+    "sŕbolužičani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 20187-1 1`] = `
+{
+  "acc": [
+    "sŕbolužičanina",
+    "sŕbolužičanov",
+  ],
+  "dat": [
+    "sŕbolužičaninu",
+    "sŕbolužičanam",
+  ],
+  "gen": [
+    "sŕbolužičanina",
+    "sŕbolužičanov",
+  ],
+  "ins": [
+    "sŕbolužičaninom",
+    "sŕbolužičanami",
+  ],
+  "loc": [
+    "sŕbolužičaninu",
+    "sŕbolužičanah",
+  ],
+  "nom": [
+    "sŕbolužičanin",
+    "sŕbolužičani",
+  ],
+  "voc": [
+    "sŕbolužičanine",
+    "sŕbolužičani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 20199 1`] = `
 {
@@ -19870,7 +20702,71 @@ exports[`noun masculine (animate) 20199 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 20333 1`] = `null`;
+exports[`noun masculine (animate) 20333 1`] = `
+{
+  "acc": [
+    "Angličana",
+    "Angličanov",
+  ],
+  "dat": [
+    "Angličanu",
+    "Angličanam",
+  ],
+  "gen": [
+    "Angličana",
+    "Angličanov",
+  ],
+  "ins": [
+    "Angličanom",
+    "Angličanami",
+  ],
+  "loc": [
+    "Angličanu",
+    "Angličanah",
+  ],
+  "nom": [
+    "Angličan",
+    "Angličani",
+  ],
+  "voc": [
+    "Angličane",
+    "Angličani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 20333-1 1`] = `
+{
+  "acc": [
+    "Angličanina",
+    "Angličanov",
+  ],
+  "dat": [
+    "Angličaninu",
+    "Angličanam",
+  ],
+  "gen": [
+    "Angličanina",
+    "Angličanov",
+  ],
+  "ins": [
+    "Angličaninom",
+    "Angličanami",
+  ],
+  "loc": [
+    "Angličaninu",
+    "Angličanah",
+  ],
+  "nom": [
+    "Angličanin",
+    "Angličani",
+  ],
+  "voc": [
+    "Angličanine",
+    "Angličani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 20334 1`] = `
 {
@@ -20268,7 +21164,71 @@ exports[`noun masculine (animate) 20385 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 20386 1`] = `null`;
+exports[`noun masculine (animate) 20386 1`] = `
+{
+  "acc": [
+    "Italijana",
+    "Italijanov",
+  ],
+  "dat": [
+    "Italijanu",
+    "Italijanam",
+  ],
+  "gen": [
+    "Italijana",
+    "Italijanov",
+  ],
+  "ins": [
+    "Italijanom",
+    "Italijanami",
+  ],
+  "loc": [
+    "Italijanu",
+    "Italijanah",
+  ],
+  "nom": [
+    "Italijan",
+    "Italijani",
+  ],
+  "voc": [
+    "Italijane",
+    "Italijani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 20386-1 1`] = `
+{
+  "acc": [
+    "Italijanina",
+    "Italijanov",
+  ],
+  "dat": [
+    "Italijaninu",
+    "Italijanam",
+  ],
+  "gen": [
+    "Italijanina",
+    "Italijanov",
+  ],
+  "ins": [
+    "Italijaninom",
+    "Italijanami",
+  ],
+  "loc": [
+    "Italijaninu",
+    "Italijanah",
+  ],
+  "nom": [
+    "Italijanin",
+    "Italijani",
+  ],
+  "voc": [
+    "Italijanine",
+    "Italijani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 20403 1`] = `
 {
@@ -20534,7 +21494,71 @@ exports[`noun masculine (animate) 20470 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 20478 1`] = `null`;
+exports[`noun masculine (animate) 20478 1`] = `
+{
+  "acc": [
+    "měšćana",
+    "měšćanov",
+  ],
+  "dat": [
+    "měšćanu",
+    "měšćanam",
+  ],
+  "gen": [
+    "měšćana",
+    "měšćanov",
+  ],
+  "ins": [
+    "měšćanom",
+    "měšćanami",
+  ],
+  "loc": [
+    "měšćanu",
+    "měšćanah",
+  ],
+  "nom": [
+    "měšćan",
+    "měšćani",
+  ],
+  "voc": [
+    "měšćane",
+    "měšćani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 20478-1 1`] = `
+{
+  "acc": [
+    "měšćanina",
+    "měšćanov",
+  ],
+  "dat": [
+    "měšćaninu",
+    "měšćanam",
+  ],
+  "gen": [
+    "měšćanina",
+    "měšćanov",
+  ],
+  "ins": [
+    "měšćaninom",
+    "měšćanami",
+  ],
+  "loc": [
+    "měšćaninu",
+    "měšćanah",
+  ],
+  "nom": [
+    "měšćanin",
+    "měšćani",
+  ],
+  "voc": [
+    "měšćanine",
+    "měšćani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 20500 1`] = `null`;
 
@@ -24871,7 +25895,71 @@ exports[`noun masculine (animate) 23591 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 23593 1`] = `null`;
+exports[`noun masculine (animate) 23593 1`] = `
+{
+  "acc": [
+    "Marsiana",
+    "Marsianov",
+  ],
+  "dat": [
+    "Marsianu",
+    "Marsianam",
+  ],
+  "gen": [
+    "Marsiana",
+    "Marsianov",
+  ],
+  "ins": [
+    "Marsianom",
+    "Marsianami",
+  ],
+  "loc": [
+    "Marsianu",
+    "Marsianah",
+  ],
+  "nom": [
+    "Marsian",
+    "Marsiani",
+  ],
+  "voc": [
+    "Marsiane",
+    "Marsiani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 23593-1 1`] = `
+{
+  "acc": [
+    "Marsianina",
+    "Marsianov",
+  ],
+  "dat": [
+    "Marsianinu",
+    "Marsianam",
+  ],
+  "gen": [
+    "Marsianina",
+    "Marsianov",
+  ],
+  "ins": [
+    "Marsianinom",
+    "Marsianami",
+  ],
+  "loc": [
+    "Marsianinu",
+    "Marsianah",
+  ],
+  "nom": [
+    "Marsianin",
+    "Marsiani",
+  ],
+  "voc": [
+    "Marsianine",
+    "Marsiani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 23604 1`] = `
 {
@@ -27517,7 +28605,71 @@ exports[`noun masculine (animate) 25701 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 25730 1`] = `null`;
+exports[`noun masculine (animate) 25730 1`] = `
+{
+  "acc": [
+    "gorjana",
+    "gorjanov",
+  ],
+  "dat": [
+    "gorjanu",
+    "gorjanam",
+  ],
+  "gen": [
+    "gorjana",
+    "gorjanov",
+  ],
+  "ins": [
+    "gorjanom",
+    "gorjanami",
+  ],
+  "loc": [
+    "gorjanu",
+    "gorjanah",
+  ],
+  "nom": [
+    "gorjan",
+    "gorjani",
+  ],
+  "voc": [
+    "gorjane",
+    "gorjani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 25730-1 1`] = `
+{
+  "acc": [
+    "gorjanina",
+    "gorjanov",
+  ],
+  "dat": [
+    "gorjaninu",
+    "gorjanam",
+  ],
+  "gen": [
+    "gorjanina",
+    "gorjanov",
+  ],
+  "ins": [
+    "gorjaninom",
+    "gorjanami",
+  ],
+  "loc": [
+    "gorjaninu",
+    "gorjanah",
+  ],
+  "nom": [
+    "gorjanin",
+    "gorjani",
+  ],
+  "voc": [
+    "gorjanine",
+    "gorjani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 25745 1`] = `
 {
@@ -28346,7 +29498,71 @@ exports[`noun masculine (animate) 26405 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 26407 1`] = `null`;
+exports[`noun masculine (animate) 26407 1`] = `
+{
+  "acc": [
+    "junoša",
+    "junošev",
+  ],
+  "dat": [
+    "junošu",
+    "junošam",
+  ],
+  "gen": [
+    "junoša",
+    "junošev",
+  ],
+  "ins": [
+    "junošem",
+    "junošami",
+  ],
+  "loc": [
+    "junošu",
+    "junošah",
+  ],
+  "nom": [
+    "junoš",
+    "junoši",
+  ],
+  "voc": [
+    "junošu",
+    "junoši",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 26407-1 1`] = `
+{
+  "acc": [
+    "junošų",
+    "junošev",
+  ],
+  "dat": [
+    "junoši",
+    "junošam",
+  ],
+  "gen": [
+    "junoše",
+    "junošev",
+  ],
+  "ins": [
+    "junošejų",
+    "junošami",
+  ],
+  "loc": [
+    "junoši",
+    "junošah",
+  ],
+  "nom": [
+    "junoša",
+    "junoši",
+  ],
+  "voc": [
+    "junošo",
+    "junoši",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 26410 1`] = `
 {
@@ -30130,7 +31346,71 @@ exports[`noun masculine (animate) 29627 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 29700 1`] = `null`;
+exports[`noun masculine (animate) 29700 1`] = `
+{
+  "acc": [
+    "ostrovjana",
+    "ostrovjanov",
+  ],
+  "dat": [
+    "ostrovjanu",
+    "ostrovjanam",
+  ],
+  "gen": [
+    "ostrovjana",
+    "ostrovjanov",
+  ],
+  "ins": [
+    "ostrovjanom",
+    "ostrovjanami",
+  ],
+  "loc": [
+    "ostrovjanu",
+    "ostrovjanah",
+  ],
+  "nom": [
+    "ostrovjan",
+    "ostrovjani",
+  ],
+  "voc": [
+    "ostrovjane",
+    "ostrovjani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 29700-1 1`] = `
+{
+  "acc": [
+    "ostrovjanina",
+    "ostrovjanov",
+  ],
+  "dat": [
+    "ostrovjaninu",
+    "ostrovjanam",
+  ],
+  "gen": [
+    "ostrovjanina",
+    "ostrovjanov",
+  ],
+  "ins": [
+    "ostrovjaninom",
+    "ostrovjanami",
+  ],
+  "loc": [
+    "ostrovjaninu",
+    "ostrovjanah",
+  ],
+  "nom": [
+    "ostrovjanin",
+    "ostrovjani",
+  ],
+  "voc": [
+    "ostrovjanine",
+    "ostrovjani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 29737 1`] = `
 {
@@ -35174,7 +36454,71 @@ exports[`noun masculine (animate) 35271 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 35275 1`] = `null`;
+exports[`noun masculine (animate) 35275 1`] = `
+{
+  "acc": [
+    "inoplanetjana",
+    "inoplanetjanov",
+  ],
+  "dat": [
+    "inoplanetjanu",
+    "inoplanetjanam",
+  ],
+  "gen": [
+    "inoplanetjana",
+    "inoplanetjanov",
+  ],
+  "ins": [
+    "inoplanetjanom",
+    "inoplanetjanami",
+  ],
+  "loc": [
+    "inoplanetjanu",
+    "inoplanetjanah",
+  ],
+  "nom": [
+    "inoplanetjan",
+    "inoplanetjani",
+  ],
+  "voc": [
+    "inoplanetjane",
+    "inoplanetjani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 35275-1 1`] = `
+{
+  "acc": [
+    "inoplanetjanina",
+    "inoplanetjanov",
+  ],
+  "dat": [
+    "inoplanetjaninu",
+    "inoplanetjanam",
+  ],
+  "gen": [
+    "inoplanetjanina",
+    "inoplanetjanov",
+  ],
+  "ins": [
+    "inoplanetjaninom",
+    "inoplanetjanami",
+  ],
+  "loc": [
+    "inoplanetjaninu",
+    "inoplanetjanah",
+  ],
+  "nom": [
+    "inoplanetjanin",
+    "inoplanetjani",
+  ],
+  "voc": [
+    "inoplanetjanine",
+    "inoplanetjani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 35333 1`] = `
 {
@@ -36859,7 +38203,71 @@ exports[`noun masculine (animate) 35857 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 35865 1`] = `null`;
+exports[`noun masculine (animate) 35865 1`] = `
+{
+  "acc": [
+    "Egipćana",
+    "Egipćanov",
+  ],
+  "dat": [
+    "Egipćanu",
+    "Egipćanam",
+  ],
+  "gen": [
+    "Egipćana",
+    "Egipćanov",
+  ],
+  "ins": [
+    "Egipćanom",
+    "Egipćanami",
+  ],
+  "loc": [
+    "Egipćanu",
+    "Egipćanah",
+  ],
+  "nom": [
+    "Egipćan",
+    "Egipćani",
+  ],
+  "voc": [
+    "Egipćane",
+    "Egipćani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 35865-1 1`] = `
+{
+  "acc": [
+    "Egipćanina",
+    "Egipćanov",
+  ],
+  "dat": [
+    "Egipćaninu",
+    "Egipćanam",
+  ],
+  "gen": [
+    "Egipćanina",
+    "Egipćanov",
+  ],
+  "ins": [
+    "Egipćaninom",
+    "Egipćanami",
+  ],
+  "loc": [
+    "Egipćaninu",
+    "Egipćanah",
+  ],
+  "nom": [
+    "Egipćanin",
+    "Egipćani",
+  ],
+  "voc": [
+    "Egipćanine",
+    "Egipćani",
+  ],
+}
+`;
 
 exports[`noun masculine (animate) 35870 1`] = `
 {
