@@ -184,17 +184,20 @@ async function splitToFixtures() {
       continue;
     }
 
-    const lemma = stripHash(record.isv);
-    const extra = stripHash(record.addition);
-    const key = `${morphology}:${lemma}:${extra}`;
-    if (visited.has(key)) {
-      continue;
-    }
+    const isv = stripSquareBrackets(stripHash(record.isv));
+    const lemmas = isv.split(/\s*,\s*/);
+    for (const lemma of lemmas) {
+      const extra = stripHash(record.addition);
+      const key = `${morphology}:${lemma}:${extra}`;
+      if (visited.has(key)) {
+        continue;
+      }
 
-    const id = stripHash(record.id);
-    const row = [id, morphology, lemma, extra];
-    stream.write(row);
-    visited.add(key);
+      const id = stripHash(record.id) + String(-lemmas.indexOf(lemma) || '');
+      const row = [id, morphology, lemma, extra];
+      stream.write(row);
+      visited.add(key);
+    }
   }
 
   await Promise.all(
@@ -231,6 +234,10 @@ main().catch((error) => {
 
 function stripHash(str) {
   return str.replace(/#/g, '');
+}
+
+function stripSquareBrackets(str) {
+  return str.replace(/\s*\[[^\]]+\]\s*/g, '');
 }
 
 class JSONLFileStream extends Writable {
