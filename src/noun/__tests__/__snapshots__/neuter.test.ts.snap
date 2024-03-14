@@ -7449,7 +7449,71 @@ exports[`noun neuter 4180 1`] = `
 }
 `;
 
-exports[`noun neuter 4193 1`] = `null`;
+exports[`noun neuter 4193 1`] = `
+{
+  "acc": [
+    "sȯglåšeńje",
+    "sȯglåšeńja",
+  ],
+  "dat": [
+    "sȯglåšeńju",
+    "sȯglåšeńjam",
+  ],
+  "gen": [
+    "sȯglåšeńja",
+    "sȯglåšenij",
+  ],
+  "ins": [
+    "sȯglåšeńjem",
+    "sȯglåšeńjami",
+  ],
+  "loc": [
+    "sȯglåšeńju",
+    "sȯglåšeńjah",
+  ],
+  "nom": [
+    "sȯglåšeńje",
+    "sȯglåšeńja",
+  ],
+  "voc": [
+    "sȯglåšeńje",
+    "sȯglåšeńja",
+  ],
+}
+`;
+
+exports[`noun neuter 4193-1 1`] = `
+{
+  "acc": [
+    "sųglåšeńje",
+    "sųglåšeńja",
+  ],
+  "dat": [
+    "sųglåšeńju",
+    "sųglåšeńjam",
+  ],
+  "gen": [
+    "sųglåšeńja",
+    "sųglåšenij",
+  ],
+  "ins": [
+    "sųglåšeńjem",
+    "sųglåšeńjami",
+  ],
+  "loc": [
+    "sųglåšeńju",
+    "sųglåšeńjah",
+  ],
+  "nom": [
+    "sųglåšeńje",
+    "sųglåšeńja",
+  ],
+  "voc": [
+    "sųglåšeńje",
+    "sųglåšeńja",
+  ],
+}
+`;
 
 exports[`noun neuter 4194 1`] = `
 {
@@ -24497,7 +24561,71 @@ exports[`noun neuter 19765 1`] = `
 }
 `;
 
-exports[`noun neuter 19770 1`] = `null`;
+exports[`noun neuter 19770 1`] = `
+{
+  "acc": [
+    "językotvorjeńje",
+    null,
+  ],
+  "dat": [
+    "językotvorjeńju",
+    null,
+  ],
+  "gen": [
+    "językotvorjeńja",
+    null,
+  ],
+  "ins": [
+    "językotvorjeńjem",
+    null,
+  ],
+  "loc": [
+    "językotvorjeńju",
+    null,
+  ],
+  "nom": [
+    "językotvorjeńje",
+    null,
+  ],
+  "voc": [
+    "językotvorjeńje",
+    null,
+  ],
+}
+`;
+
+exports[`noun neuter 19770-1 1`] = `
+{
+  "acc": [
+    "językotvorstvo",
+    null,
+  ],
+  "dat": [
+    "językotvorstvu",
+    null,
+  ],
+  "gen": [
+    "językotvorstva",
+    null,
+  ],
+  "ins": [
+    "językotvorstvom",
+    null,
+  ],
+  "loc": [
+    "językotvorstvu",
+    null,
+  ],
+  "nom": [
+    "językotvorstvo",
+    null,
+  ],
+  "voc": [
+    "językotvorstvo",
+    null,
+  ],
+}
+`;
 
 exports[`noun neuter 19772 1`] = `
 {
@@ -25095,7 +25223,71 @@ exports[`noun neuter 20145 1`] = `
 }
 `;
 
-exports[`noun neuter 20196 1`] = `null`;
+exports[`noun neuter 20196 1`] = `
+{
+  "acc": [
+    "sȯglåśje",
+    null,
+  ],
+  "dat": [
+    "sȯglåśju",
+    null,
+  ],
+  "gen": [
+    "sȯglåśja",
+    null,
+  ],
+  "ins": [
+    "sȯglåśjem",
+    null,
+  ],
+  "loc": [
+    "sȯglåśju",
+    null,
+  ],
+  "nom": [
+    "sȯglåśje",
+    null,
+  ],
+  "voc": [
+    "sȯglåśje",
+    null,
+  ],
+}
+`;
+
+exports[`noun neuter 20196-1 1`] = `
+{
+  "acc": [
+    "sųglåśje",
+    null,
+  ],
+  "dat": [
+    "sųglåśju",
+    null,
+  ],
+  "gen": [
+    "sųglåśja",
+    null,
+  ],
+  "ins": [
+    "sųglåśjem",
+    null,
+  ],
+  "loc": [
+    "sųglåśju",
+    null,
+  ],
+  "nom": [
+    "sųglåśje",
+    null,
+  ],
+  "voc": [
+    "sųglåśje",
+    null,
+  ],
+}
+`;
 
 exports[`noun neuter 20201 1`] = `
 {
@@ -36782,7 +36974,71 @@ exports[`noun neuter 33436 1`] = `
 }
 `;
 
-exports[`noun neuter 33509 1`] = `null`;
+exports[`noun neuter 33509 1`] = `
+{
+  "acc": [
+    "nesȯglåśje",
+    "nesȯglåśja",
+  ],
+  "dat": [
+    "nesȯglåśju",
+    "nesȯglåśjam",
+  ],
+  "gen": [
+    "nesȯglåśja",
+    "nesȯglåsij",
+  ],
+  "ins": [
+    "nesȯglåśjem",
+    "nesȯglåśjami",
+  ],
+  "loc": [
+    "nesȯglåśju",
+    "nesȯglåśjah",
+  ],
+  "nom": [
+    "nesȯglåśje",
+    "nesȯglåśja",
+  ],
+  "voc": [
+    "nesȯglåśje",
+    "nesȯglåśja",
+  ],
+}
+`;
+
+exports[`noun neuter 33509-1 1`] = `
+{
+  "acc": [
+    "nesųglåśje",
+    "nesųglåśja",
+  ],
+  "dat": [
+    "nesųglåśju",
+    "nesųglåśjam",
+  ],
+  "gen": [
+    "nesųglåśja",
+    "nesųglåsij",
+  ],
+  "ins": [
+    "nesųglåśjem",
+    "nesųglåśjami",
+  ],
+  "loc": [
+    "nesųglåśju",
+    "nesųglåśjah",
+  ],
+  "nom": [
+    "nesųglåśje",
+    "nesųglåśja",
+  ],
+  "voc": [
+    "nesųglåśje",
+    "nesųglåśja",
+  ],
+}
+`;
 
 exports[`noun neuter 33518 1`] = `
 {
@@ -39250,7 +39506,71 @@ exports[`noun neuter 36043 1`] = `
 }
 `;
 
-exports[`noun neuter 36054 1`] = `null`;
+exports[`noun neuter 36054 1`] = `
+{
+  "acc": [
+    "uho",
+    "uši / ušesa",
+  ],
+  "dat": [
+    "uhu / ušesi",
+    "ušam / ušesam",
+  ],
+  "gen": [
+    "uha / ušese",
+    "ušij / ušes",
+  ],
+  "ins": [
+    "uhom / ušesem",
+    "ušami / ušesami",
+  ],
+  "loc": [
+    "uhu / ušesi",
+    "ušah / ušesah",
+  ],
+  "nom": [
+    "uho",
+    "uši / ušesa",
+  ],
+  "voc": [
+    "uho",
+    "uši / ušesa",
+  ],
+}
+`;
+
+exports[`noun neuter 36054-1 1`] = `
+{
+  "acc": [
+    "uško",
+    "uška",
+  ],
+  "dat": [
+    "ušku",
+    "uškam",
+  ],
+  "gen": [
+    "uška",
+    "ušek",
+  ],
+  "ins": [
+    "uškom",
+    "uškami",
+  ],
+  "loc": [
+    "ušku",
+    "uškah",
+  ],
+  "nom": [
+    "uško",
+    "uška",
+  ],
+  "voc": [
+    "uško",
+    "uška",
+  ],
+}
+`;
 
 exports[`noun neuter 36057 1`] = `null`;
 
