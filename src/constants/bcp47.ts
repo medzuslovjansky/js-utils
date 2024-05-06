@@ -1,9 +1,9 @@
 export const InterslavicBCP47 = {
-  Generic: 'art-x-interslv',
-  Latin: 'art-Latn-x-interslv',
-  Cyrillic: 'art-Cyrl-x-interslv',
-  Glagolitic: 'art-Glag-x-interslv',
-  IPA: 'art-x-interslv-fonipa',
+  Generic: 'isv',
+  Latin: 'isv-Latn',
+  Cyrillic: 'isv-Cyrl',
+  Glagolitic: 'isv-Glag',
+  IPA: 'isv-x-fonipa',
 } as const;
 
 export type InterslavicBCP47Code =
@@ -11,22 +11,22 @@ export type InterslavicBCP47Code =
 
 export const FlavorisationBCP47 = {
   ...InterslavicBCP47,
-  ASCII: 'art-Latn-x-interslv-ascii',
-  LatinEtymological: 'art-Latn-x-interslv-etym',
-  LatinNorthern: 'art-Latn-x-interslv-northern',
-  LatinSlovianto: 'art-Latn-x-interslv-sloviant',
-  LatinSouthern: 'art-Latn-x-interslv-southern',
-  Polish: 'art-Latn-PL-x-interslv',
-  GlagoliticEtymological: 'art-Glag-x-interslv-etym',
-  GlagoliticNorthern: 'art-Glag-x-interslv-northern',
-  GlagoliticSlovianto: 'art-Glag-x-interslv-sloviant',
-  GlagoliticSouthern: 'art-Glag-x-interslv-southern',
-  CyrillicEtymological: 'art-Cyrl-x-interslv-etym',
-  CyrillicIotated: 'art-Cyrl-x-interslv-iotated',
-  CyrillicIotatedExtended: 'art-Cyrl-x-interslv-iotated-ext',
-  CyrillicNorthern: 'art-Cyrl-x-interslv-northern',
-  CyrillicSlovianto: 'art-Cyrl-x-interslv-sloviant',
-  CyrillicSouthern: 'art-Cyrl-x-interslv-southern',
+  ASCII: 'isv-Latn-x-ascii',
+  LatinEtymological: 'isv-Latn-x-etymolog',
+  LatinNorthern: 'isv-Latn-x-northern',
+  LatinSlovianto: 'isv-Latn-x-sloviant',
+  LatinSouthern: 'isv-Latn-x-southern',
+  Polish: 'isv-Latn-PL',
+  GlagoliticEtymological: 'isv-Glag-x-etymolog',
+  GlagoliticNorthern: 'isv-Glag-x-northern',
+  GlagoliticSlovianto: 'isv-Glag-x-sloviant',
+  GlagoliticSouthern: 'isv-Glag-x-southern',
+  CyrillicEtymological: 'isv-Cyrl-x-etymolog',
+  CyrillicIotated: 'isv-Cyrl-x-iotated',
+  CyrillicIotatedExtended: 'isv-Cyrl-x-iotated-ext',
+  CyrillicNorthern: 'isv-Cyrl-x-northern',
+  CyrillicSlovianto: 'isv-Cyrl-x-sloviant',
+  CyrillicSouthern: 'isv-Cyrl-x-southern',
 } as const;
 
 export type FlavorisationBCP47Code =

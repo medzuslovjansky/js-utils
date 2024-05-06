@@ -14,27 +14,27 @@ const cyrillic = `\
 
 describe('transliterate to', () => {
   describe.each([
-    ['art-Cyrl-x-interslv'],
-    ['art-Cyrl-x-interslv-etym'],
-    ['art-Cyrl-x-interslv-iotated'],
-    ['art-Cyrl-x-interslv-iotated-ext'],
-    ['art-Cyrl-x-interslv-northern'],
-    ['art-Cyrl-x-interslv-sloviant'],
-    ['art-Cyrl-x-interslv-southern'],
-    ['art-Glag-x-interslv'],
-    ['art-Glag-x-interslv-etym'],
-    ['art-Glag-x-interslv-sloviant'],
-    ['art-Glag-x-interslv-southern'],
-    ['art-Glag-x-interslv-northern'],
-    ['art-Latn-PL-x-interslv'],
-    ['art-Latn-x-interslv'],
-    ['art-Latn-x-interslv-ascii'],
-    ['art-Latn-x-interslv-etym'],
-    ['art-Latn-x-interslv-northern'],
-    ['art-Latn-x-interslv-sloviant'],
-    ['art-Latn-x-interslv-southern'],
-    ['art-x-interslv-fonipa'],
-    ['art-x-interslv'],
+    ['isv-Cyrl'],
+    ['isv-Cyrl-x-etymolog'],
+    ['isv-Cyrl-x-iotated'],
+    ['isv-Cyrl-x-iotated-ext'],
+    ['isv-Cyrl-x-northern'],
+    ['isv-Cyrl-x-sloviant'],
+    ['isv-Cyrl-x-southern'],
+    ['isv-Glag'],
+    ['isv-Glag-x-etymolog'],
+    ['isv-Glag-x-sloviant'],
+    ['isv-Glag-x-southern'],
+    ['isv-Glag-x-northern'],
+    ['isv-Latn'],
+    ['isv-Latn-PL'],
+    ['isv-Latn-x-ascii'],
+    ['isv-Latn-x-etymolog'],
+    ['isv-Latn-x-northern'],
+    ['isv-Latn-x-sloviant'],
+    ['isv-Latn-x-southern'],
+    ['isv-x-fonipa'],
+    ['isv'],
   ] as const)('%j', (bcp47) => {
     test('a latin text', () => {
       expect(transliterate(latin, bcp47)).toMatchSnapshot();
@@ -45,11 +45,7 @@ describe('transliterate to', () => {
     });
   });
 
-  test.each([
-    ['art-Latn-x-interslv'],
-    ['art-Cyrl-x-interslv'],
-    ['art-Glag-x-interslv'],
-  ] as const)(
+  test.each([['isv-Latn'], ['isv-Cyrl'], ['isv-Glag']] as const)(
     'should work equally from Latin and Cyrillic scripts to %j',
     (bcp47) => {
       const latn = transliterate(latin, bcp47);
@@ -62,15 +58,11 @@ describe('transliterate to', () => {
   test.failing(
     'double transliteration should work equally from Latin and Cyrillic scripts',
     () => {
-      const latn2cyrl = transliterate(latin, 'art-Cyrl-x-interslv');
-      const cyrl2latn = transliterate(cyrillic, 'art-Latn-x-interslv');
+      const latn2cyrl = transliterate(latin, 'isv-Cyrl');
+      const cyrl2latn = transliterate(cyrillic, 'isv-Latn');
 
-      expect(transliterate(latn2cyrl, 'art-Latn-x-interslv')).toEqual(
-        cyrl2latn,
-      );
-      expect(transliterate(cyrl2latn, 'art-Cyrl-x-interslv')).toEqual(
-        latn2cyrl,
-      );
+      expect(transliterate(latn2cyrl, 'isv-Latn')).toEqual(cyrl2latn);
+      expect(transliterate(cyrl2latn, 'isv-Cyrl')).toEqual(latn2cyrl);
     },
   );
 

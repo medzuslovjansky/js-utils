@@ -65,7 +65,7 @@ export function declensionPronoun(
     return null;
   }
 
-  const word = stripDiacritics(transliterate(rawWord, 'art-Latn-x-interslv'));
+  const word = stripDiacritics(transliterate(rawWord, 'isv-Latn'));
   if (pronounType === 'personal' || pronounType === 'reflexive') {
     if (FIRST_PERSON.includes(word)) {
       return {

@@ -326,6 +326,6 @@ export function declensionNumeral(
 }
 
 function getLatin(word: string): string {
-  const latin = transliterate(word, 'art-Latn-x-interslv');
+  const latin = transliterate(word, 'isv-Latn');
   return stripDiacritics(latin);
 }

@@ -25,5 +25,5 @@ export function get<T>(obj: T): (...path: any[]) => string | null {
 }
 
 function normalize(string: string | null): string | null {
-  return string && transliterate(string, 'art-Latn-x-interslv-etym');
+  return string && transliterate(string, 'isv-Latn-x-etymolog');
 }
