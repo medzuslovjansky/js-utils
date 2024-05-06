@@ -11,127 +11,127 @@ export default function transliterate(
   lang: FlavorisationBCP47Code,
 ): string {
   switch (lang) {
-    case 'art-Latn-x-interslv':
+    case 'isv-Latn':
       return _transliterate(
         text,
         TransliterationType.Latin,
         FlavorizationType.Standard,
       );
-    case 'art-Cyrl-x-interslv':
+    case 'isv-Cyrl':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
         FlavorizationType.Standard,
       );
-    case 'art-Glag-x-interslv':
+    case 'isv-Glag':
       return _transliterate(
         text,
         TransliterationType.Glagolitic,
         FlavorizationType.Standard,
       );
-    case 'art-x-interslv-fonipa':
+    case 'isv-x-fonipa':
       return _transliterate(
         text,
         TransliterationType.IPA,
         FlavorizationType.Etymological,
       );
-    case 'art-Latn-x-interslv-etym':
+    case 'isv-Latn-x-etymolog':
       return _transliterate(
         text,
         TransliterationType.Latin,
         FlavorizationType.Etymological,
       );
-    case 'art-Cyrl-x-interslv-etym':
+    case 'isv-Cyrl-x-etymolog':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
         FlavorizationType.Etymological,
       );
-    case 'art-Glag-x-interslv-etym':
+    case 'isv-Glag-x-etymolog':
       return _transliterate(
         text,
         TransliterationType.Glagolitic,
         FlavorizationType.Etymological,
       );
-    case 'art-Cyrl-x-interslv-iotated':
+    case 'isv-Cyrl-x-iotated':
       return _transliterate(
         text,
         TransliterationType.TraditionalIotatedCyrillic,
         FlavorizationType.Standard,
       );
-    case 'art-Cyrl-x-interslv-iotated-ext':
+    case 'isv-Cyrl-x-iotated-ext':
       return _transliterate(
         text,
         TransliterationType.TraditionalIotatedCyrillic,
         FlavorizationType.CyrillicExtended,
       );
-    case 'art-Cyrl-x-interslv-northern':
+    case 'isv-Cyrl-x-northern':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
         FlavorizationType.Northern,
       );
-    case 'art-Cyrl-x-interslv-sloviant':
+    case 'isv-Cyrl-x-sloviant':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
         FlavorizationType.Slovianto,
       );
-    case 'art-Cyrl-x-interslv-southern':
+    case 'isv-Cyrl-x-southern':
       return _transliterate(
         text,
         TransliterationType.StandardCyrillic,
         FlavorizationType.Southern,
       );
-    case 'art-Latn-PL-x-interslv':
+    case 'isv-Latn-PL':
       return _transliterate(
         text,
         TransliterationType.Polish,
         FlavorizationType.Etymological,
       );
-    case 'art-Latn-x-interslv-ascii':
+    case 'isv-Latn-x-ascii':
       return _transliterate(
         text,
         TransliterationType.ASCII,
         FlavorizationType.Standard,
       );
-    case 'art-Latn-x-interslv-northern':
+    case 'isv-Latn-x-northern':
       return _transliterate(
         text,
         TransliterationType.Latin,
         FlavorizationType.Northern,
       );
-    case 'art-Latn-x-interslv-sloviant':
+    case 'isv-Latn-x-sloviant':
       return _transliterate(
         text,
         TransliterationType.Latin,
         FlavorizationType.Slovianto,
       );
-    case 'art-Latn-x-interslv-southern':
+    case 'isv-Latn-x-southern':
       return _transliterate(
         text,
         TransliterationType.Latin,
         FlavorizationType.Southern,
       );
-    case 'art-Glag-x-interslv-northern':
+    case 'isv-Glag-x-northern':
       return _transliterate(
         text,
         TransliterationType.Glagolitic,
         FlavorizationType.Northern,
       );
-    case 'art-Glag-x-interslv-southern':
+    case 'isv-Glag-x-southern':
       return _transliterate(
         text,
         TransliterationType.Glagolitic,
         FlavorizationType.Southern,
       );
-    case 'art-Glag-x-interslv-sloviant':
+    case 'isv-Glag-x-sloviant':
       return _transliterate(
         text,
         TransliterationType.Glagolitic,
         FlavorizationType.Slovianto,
       );
-    case 'art-x-interslv':
+    case 'isv':
       return text;
     default:
       throw new TypeError(`Unsupported IETF BCP47 tag: ${lang}`);

@@ -20,7 +20,7 @@ Reference is automatically generated at: <https://medzuslovjansky.github.io/js-u
 
 ### Constants
 
-* `InterslavicBCP47` - primary BCP 47 codes for Interslavic like `art-x-interslv` and its variants per used alphabets.
+* `InterslavicBCP47` - primary BCP 47 codes for Interslavic like `isv` and its variants per used alphabets.
 * `FlavorisationBCP47` - all possible BCP 47 codes for Interslavic with flavorisations applied like Northern, Southern, Slovianto, etc.
 * `Glagolitic` - collection of named constants for Glagolitic letters, e.g. `Glagolitic.AZU`, `Glagolitic.BUKY`, etc.
 
