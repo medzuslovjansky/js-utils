@@ -3,28 +3,22 @@ const { findLemmaById, toHTML } = require('./dist/__utils__');
 
 const isId = (value) => Number.isFinite(parseInt(value, 10));
 
-/** @type {import('jest-allure2-reporter').ReporterConfig} */
+/** @type {import('jest-allure2-reporter').ReporterOptions} */
 const allureConfig = {
+  executor: {
+    reportName: '@interslavic/utils',
+  },
   testCase: {
-    hidden: (context) =>
+    ignored: (context) =>
       context.testCase.status === 'passed' ||
       context.testCase.status === 'skipped' ||
       context.testCase.status === 'pending',
-    name: ({ testCase, value }) => {
+    displayName: ({ testCase, value }) => {
       const maybeId = testCase.title;
       return isId(maybeId) ? findLemmaById(String(maybeId)) : value;
     },
-    parameters: ({ testCase, value = [] }) => {
-      const maybeId = testCase.title;
-      return isId(maybeId)
-        ? [
-            ...value,
-            {
-              name: 'ID',
-              value: String(maybeId),
-            },
-          ]
-        : value;
+    parameters: {
+      ID: ({ testCase }) => (isId(testCase.title) ? testCase.title : undefined),
     },
     statusDetails: ({ value }) => {
       if (value?.message?.includes(').toMatchSnapshot(')) {
@@ -83,20 +77,16 @@ const allureConfig = {
     },
   },
   testFile: {
-    hidden: () => false,
-    name: ({ filePath }) => {
+    ignored: false,
+    displayName: ({ filePath }) => {
       return filePath.slice(1).join('/');
     },
-    parameters: ({ testFile, value = [] }) => [
-      ...value,
-      {
-        name: 'Total tests',
-        value:
-          testFile.numPassingTests +
-          testFile.numFailingTests +
-          testFile.numPendingTests,
-      },
-    ],
+    parameters: {
+      'Total tests': ({ testFile }) =>
+        testFile.numPassingTests +
+        testFile.numFailingTests +
+        testFile.numPendingTests,
+    },
     status: ({ testFile, value }) => {
       return testFile.numFailingTests > 0 ? 'failed' : value;
     },
@@ -111,10 +101,6 @@ const allureConfig = {
       return summary + '\n\n' + value;
     },
   },
-  executor: ({ value }) => ({
-    ...value,
-    reportName: '@interslavic/utils',
-  }),
 };
 
 /** @type {import('jest').Config} */
