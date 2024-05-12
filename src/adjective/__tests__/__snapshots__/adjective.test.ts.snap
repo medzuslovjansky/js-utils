@@ -1,764 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`adjective -37003 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "matovějši",
-      "matověje",
-    ],
-    "positive": [
-      "matovy",
-      "matovo",
-    ],
-    "superlative": [
-      "najmatovějši",
-      "najmatověje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "matovyh / matove",
-      "matove",
-    ],
-    "dat": [
-      "matovym",
-    ],
-    "gen": [
-      "matovyh",
-    ],
-    "ins": [
-      "matovymi",
-    ],
-    "loc": [
-      "matovyh",
-    ],
-    "nom": [
-      "matovi / matove",
-      "matove",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "matovogo / matovy",
-      "matovo",
-      "matovų",
-    ],
-    "dat": [
-      "matovomu",
-      "matovoj",
-    ],
-    "gen": [
-      "matovogo",
-      "matovoj",
-    ],
-    "ins": [
-      "matovym",
-      "matovojų",
-    ],
-    "loc": [
-      "matovom",
-      "matovoj",
-    ],
-    "nom": [
-      "matovy",
-      "matovo",
-      "matova",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37013 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "zadumlivějši",
-      "zadumlivěje",
-    ],
-    "positive": [
-      "zadumlivy",
-      "zadumlivo",
-    ],
-    "superlative": [
-      "najzadumlivějši",
-      "najzadumlivěje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "zadumlivyh / zadumlive",
-      "zadumlive",
-    ],
-    "dat": [
-      "zadumlivym",
-    ],
-    "gen": [
-      "zadumlivyh",
-    ],
-    "ins": [
-      "zadumlivymi",
-    ],
-    "loc": [
-      "zadumlivyh",
-    ],
-    "nom": [
-      "zadumlivi / zadumlive",
-      "zadumlive",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "zadumlivogo / zadumlivy",
-      "zadumlivo",
-      "zadumlivų",
-    ],
-    "dat": [
-      "zadumlivomu",
-      "zadumlivoj",
-    ],
-    "gen": [
-      "zadumlivogo",
-      "zadumlivoj",
-    ],
-    "ins": [
-      "zadumlivym",
-      "zadumlivojų",
-    ],
-    "loc": [
-      "zadumlivom",
-      "zadumlivoj",
-    ],
-    "nom": [
-      "zadumlivy",
-      "zadumlivo",
-      "zadumliva",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37016 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "rodinnějši",
-      "rodinněje",
-    ],
-    "positive": [
-      "rodinny",
-      "rodinno",
-    ],
-    "superlative": [
-      "najrodinnějši",
-      "najrodinněje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "rodinnyh / rodinne",
-      "rodinne",
-    ],
-    "dat": [
-      "rodinnym",
-    ],
-    "gen": [
-      "rodinnyh",
-    ],
-    "ins": [
-      "rodinnymi",
-    ],
-    "loc": [
-      "rodinnyh",
-    ],
-    "nom": [
-      "rodinni / rodinne",
-      "rodinne",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "rodinnogo / rodinny",
-      "rodinno",
-      "rodinnų",
-    ],
-    "dat": [
-      "rodinnomu",
-      "rodinnoj",
-    ],
-    "gen": [
-      "rodinnogo",
-      "rodinnoj",
-    ],
-    "ins": [
-      "rodinnym",
-      "rodinnojų",
-    ],
-    "loc": [
-      "rodinnom",
-      "rodinnoj",
-    ],
-    "nom": [
-      "rodinny",
-      "rodinno",
-      "rodinna",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37017 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "sěmejnějši",
-      "sěmejněje",
-    ],
-    "positive": [
-      "sěmejny",
-      "sěmejno",
-    ],
-    "superlative": [
-      "najsěmejnějši",
-      "najsěmejněje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "sěmejnyh / sěmejne",
-      "sěmejne",
-    ],
-    "dat": [
-      "sěmejnym",
-    ],
-    "gen": [
-      "sěmejnyh",
-    ],
-    "ins": [
-      "sěmejnymi",
-    ],
-    "loc": [
-      "sěmejnyh",
-    ],
-    "nom": [
-      "sěmejni / sěmejne",
-      "sěmejne",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "sěmejnogo / sěmejny",
-      "sěmejno",
-      "sěmejnų",
-    ],
-    "dat": [
-      "sěmejnomu",
-      "sěmejnoj",
-    ],
-    "gen": [
-      "sěmejnogo",
-      "sěmejnoj",
-    ],
-    "ins": [
-      "sěmejnym",
-      "sěmejnojų",
-    ],
-    "loc": [
-      "sěmejnom",
-      "sěmejnoj",
-    ],
-    "nom": [
-      "sěmejny",
-      "sěmejno",
-      "sěmejna",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37021 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "råstlinnějši",
-      "råstlinněje",
-    ],
-    "positive": [
-      "råstlinny",
-      "råstlinno",
-    ],
-    "superlative": [
-      "najråstlinnějši",
-      "najråstlinněje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "råstlinnyh / råstlinne",
-      "råstlinne",
-    ],
-    "dat": [
-      "råstlinnym",
-    ],
-    "gen": [
-      "råstlinnyh",
-    ],
-    "ins": [
-      "råstlinnymi",
-    ],
-    "loc": [
-      "råstlinnyh",
-    ],
-    "nom": [
-      "råstlinni / råstlinne",
-      "råstlinne",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "råstlinnogo / råstlinny",
-      "råstlinno",
-      "råstlinnų",
-    ],
-    "dat": [
-      "råstlinnomu",
-      "råstlinnoj",
-    ],
-    "gen": [
-      "råstlinnogo",
-      "råstlinnoj",
-    ],
-    "ins": [
-      "råstlinnym",
-      "råstlinnojų",
-    ],
-    "loc": [
-      "råstlinnom",
-      "råstlinnoj",
-    ],
-    "nom": [
-      "råstlinny",
-      "råstlinno",
-      "råstlinna",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37024 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "bolje sųprųžski",
-      "bolje sųprųžsko",
-    ],
-    "positive": [
-      "sųprųžsky",
-      "sųprųžsko",
-    ],
-    "superlative": [
-      "najbolje sųprųžski",
-      "najbolje sųprųžsko",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "sųprųžskyh / sųprųžske",
-      "sųprųžske",
-    ],
-    "dat": [
-      "sųprųžskym",
-    ],
-    "gen": [
-      "sųprųžskyh",
-    ],
-    "ins": [
-      "sųprųžskymi",
-    ],
-    "loc": [
-      "sųprųžskyh",
-    ],
-    "nom": [
-      "sųprųžski / sųprųžske",
-      "sųprųžske",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "sųprųžskogo / sųprųžsky",
-      "sųprųžsko",
-      "sųprųžskų",
-    ],
-    "dat": [
-      "sųprųžskomu",
-      "sųprųžskoj",
-    ],
-    "gen": [
-      "sųprųžskogo",
-      "sųprųžskoj",
-    ],
-    "ins": [
-      "sųprųžskym",
-      "sųprųžskojų",
-    ],
-    "loc": [
-      "sųprųžskom",
-      "sųprųžskoj",
-    ],
-    "nom": [
-      "sųprųžsky",
-      "sųprųžsko",
-      "sųprųžska",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37025 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "gazovějši",
-      "gazověje",
-    ],
-    "positive": [
-      "gazovy",
-      "gazovo",
-    ],
-    "superlative": [
-      "najgazovějši",
-      "najgazověje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "gazovyh / gazove",
-      "gazove",
-    ],
-    "dat": [
-      "gazovym",
-    ],
-    "gen": [
-      "gazovyh",
-    ],
-    "ins": [
-      "gazovymi",
-    ],
-    "loc": [
-      "gazovyh",
-    ],
-    "nom": [
-      "gazovi / gazove",
-      "gazove",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "gazovogo / gazovy",
-      "gazovo",
-      "gazovų",
-    ],
-    "dat": [
-      "gazovomu",
-      "gazovoj",
-    ],
-    "gen": [
-      "gazovogo",
-      "gazovoj",
-    ],
-    "ins": [
-      "gazovym",
-      "gazovojų",
-    ],
-    "loc": [
-      "gazovom",
-      "gazovoj",
-    ],
-    "nom": [
-      "gazovy",
-      "gazovo",
-      "gazova",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37028 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "sněžnějši",
-      "sněžněje",
-    ],
-    "positive": [
-      "sněžny",
-      "sněžno",
-    ],
-    "superlative": [
-      "najsněžnějši",
-      "najsněžněje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "sněžnyh / sněžne",
-      "sněžne",
-    ],
-    "dat": [
-      "sněžnym",
-    ],
-    "gen": [
-      "sněžnyh",
-    ],
-    "ins": [
-      "sněžnymi",
-    ],
-    "loc": [
-      "sněžnyh",
-    ],
-    "nom": [
-      "sněžni / sněžne",
-      "sněžne",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "sněžnogo / sněžny",
-      "sněžno",
-      "sněžnų",
-    ],
-    "dat": [
-      "sněžnomu",
-      "sněžnoj",
-    ],
-    "gen": [
-      "sněžnogo",
-      "sněžnoj",
-    ],
-    "ins": [
-      "sněžnym",
-      "sněžnojų",
-    ],
-    "loc": [
-      "sněžnom",
-      "sněžnoj",
-    ],
-    "nom": [
-      "sněžny",
-      "sněžno",
-      "sněžna",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37031 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "drožđevějši",
-      "drožđevěje",
-    ],
-    "positive": [
-      "drožđevy",
-      "drožđevo",
-    ],
-    "superlative": [
-      "najdrožđevějši",
-      "najdrožđevěje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "drožđevyh / drožđeve",
-      "drožđeve",
-    ],
-    "dat": [
-      "drožđevym",
-    ],
-    "gen": [
-      "drožđevyh",
-    ],
-    "ins": [
-      "drožđevymi",
-    ],
-    "loc": [
-      "drožđevyh",
-    ],
-    "nom": [
-      "drožđevi / drožđeve",
-      "drožđeve",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "drožđevogo / drožđevy",
-      "drožđevo",
-      "drožđevų",
-    ],
-    "dat": [
-      "drožđevomu",
-      "drožđevoj",
-    ],
-    "gen": [
-      "drožđevogo",
-      "drožđevoj",
-    ],
-    "ins": [
-      "drožđevym",
-      "drožđevojų",
-    ],
-    "loc": [
-      "drožđevom",
-      "drožđevoj",
-    ],
-    "nom": [
-      "drožđevy",
-      "drožđevo",
-      "drožđeva",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37037 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "kvasnějši",
-      "kvasněje",
-    ],
-    "positive": [
-      "kvasny",
-      "kvasno",
-    ],
-    "superlative": [
-      "najkvasnějši",
-      "najkvasněje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "kvasnyh / kvasne",
-      "kvasne",
-    ],
-    "dat": [
-      "kvasnym",
-    ],
-    "gen": [
-      "kvasnyh",
-    ],
-    "ins": [
-      "kvasnymi",
-    ],
-    "loc": [
-      "kvasnyh",
-    ],
-    "nom": [
-      "kvasni / kvasne",
-      "kvasne",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "kvasnogo / kvasny",
-      "kvasno",
-      "kvasnų",
-    ],
-    "dat": [
-      "kvasnomu",
-      "kvasnoj",
-    ],
-    "gen": [
-      "kvasnogo",
-      "kvasnoj",
-    ],
-    "ins": [
-      "kvasnym",
-      "kvasnojų",
-    ],
-    "loc": [
-      "kvasnom",
-      "kvasnoj",
-    ],
-    "nom": [
-      "kvasny",
-      "kvasno",
-      "kvasna",
-    ],
-  },
-}
-`;
-
-exports[`adjective -37058 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "nedråžějši",
-      "nedråžeje",
-    ],
-    "positive": [
-      "nedrågy",
-      "nedrågo",
-    ],
-    "superlative": [
-      "najnedråžějši",
-      "najnedråžeje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "nedrågyh / nedråge",
-      "nedråge",
-    ],
-    "dat": [
-      "nedrågym",
-    ],
-    "gen": [
-      "nedrågyh",
-    ],
-    "ins": [
-      "nedrågymi",
-    ],
-    "loc": [
-      "nedrågyh",
-    ],
-    "nom": [
-      "nedrågi / nedråge",
-      "nedråge",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "nedrågogo / nedrågy",
-      "nedrågo",
-      "nedrågų",
-    ],
-    "dat": [
-      "nedrågomu",
-      "nedrågoj",
-    ],
-    "gen": [
-      "nedrågogo",
-      "nedrågoj",
-    ],
-    "ins": [
-      "nedrågym",
-      "nedrågojų",
-    ],
-    "loc": [
-      "nedrågom",
-      "nedrågoj",
-    ],
-    "nom": [
-      "nedrågy",
-      "nedrågo",
-      "nedråga",
-    ],
-  },
-}
-`;
-
 exports[`adjective 5 1`] = `
 {
   "comparison": {
@@ -5377,75 +4618,6 @@ exports[`adjective 515 1`] = `
       "mękky",
       "mękko",
       "mękka",
-    ],
-  },
-}
-`;
-
-exports[`adjective 517 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "ranějši",
-      "raněje",
-    ],
-    "positive": [
-      "rany",
-      "rano",
-    ],
-    "superlative": [
-      "najranějši",
-      "najraněje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "ranyh / rane",
-      "rane",
-    ],
-    "dat": [
-      "ranym",
-    ],
-    "gen": [
-      "ranyh",
-    ],
-    "ins": [
-      "ranymi",
-    ],
-    "loc": [
-      "ranyh",
-    ],
-    "nom": [
-      "rani / rane",
-      "rane",
-    ],
-  },
-  "singular": {
-    "acc": [
-      "ranogo / rany",
-      "rano",
-      "ranų",
-    ],
-    "dat": [
-      "ranomu",
-      "ranoj",
-    ],
-    "gen": [
-      "ranogo",
-      "ranoj",
-    ],
-    "ins": [
-      "ranym",
-      "ranojų",
-    ],
-    "loc": [
-      "ranom",
-      "ranoj",
-    ],
-    "nom": [
-      "rany",
-      "rano",
-      "rana",
     ],
   },
 }
@@ -13315,66 +12487,66 @@ exports[`adjective 1482 1`] = `
 {
   "comparison": {
     "comparative": [
-      "lěnjejši",
-      "lěnjeje",
+      "lěnějši",
+      "lěněje",
     ],
     "positive": [
-      "lěnji",
-      "lěnje",
+      "lěny",
+      "lěno",
     ],
     "superlative": [
-      "najlěnjejši",
-      "najlěnjeje",
+      "najlěnějši",
+      "najlěněje",
     ],
   },
   "plural": {
     "acc": [
-      "lěnjih / lěnje",
-      "lěnje",
+      "lěnyh / lěne",
+      "lěne",
     ],
     "dat": [
-      "lěnjim",
+      "lěnym",
     ],
     "gen": [
-      "lěnjih",
+      "lěnyh",
     ],
     "ins": [
-      "lěnjimi",
+      "lěnymi",
     ],
     "loc": [
-      "lěnjih",
+      "lěnyh",
     ],
     "nom": [
-      "lěnji / lěnje",
-      "lěnje",
+      "lěni / lěne",
+      "lěne",
     ],
   },
   "singular": {
     "acc": [
-      "lěnjego / lěnji",
-      "lěnje",
-      "lěnjų",
+      "lěnogo / lěny",
+      "lěno",
+      "lěnų",
     ],
     "dat": [
-      "lěnjemu",
-      "lěnjej",
+      "lěnomu",
+      "lěnoj",
     ],
     "gen": [
-      "lěnjego",
-      "lěnjej",
+      "lěnogo",
+      "lěnoj",
     ],
     "ins": [
-      "lěnjim",
-      "lěnjejų",
+      "lěnym",
+      "lěnojų",
     ],
     "loc": [
-      "lěnjem",
-      "lěnjej",
+      "lěnom",
+      "lěnoj",
     ],
     "nom": [
-      "lěnji",
-      "lěnje",
-      "lěnja",
+      "lěny",
+      "lěno",
+      "lěna",
     ],
   },
 }
@@ -27793,66 +26965,66 @@ exports[`adjective 3183 1`] = `
 {
   "comparison": {
     "comparative": [
-      "bolje grečski",
-      "bolje grečsko",
+      "bolje grėčski",
+      "bolje grėčsko",
     ],
     "positive": [
-      "grečsky",
-      "grečsko",
+      "grėčsky",
+      "grėčsko",
     ],
     "superlative": [
-      "najbolje grečski",
-      "najbolje grečsko",
+      "najbolje grėčski",
+      "najbolje grėčsko",
     ],
   },
   "plural": {
     "acc": [
-      "grečskyh / grečske",
-      "grečske",
+      "grėčskyh / grėčske",
+      "grėčske",
     ],
     "dat": [
-      "grečskym",
+      "grėčskym",
     ],
     "gen": [
-      "grečskyh",
+      "grėčskyh",
     ],
     "ins": [
-      "grečskymi",
+      "grėčskymi",
     ],
     "loc": [
-      "grečskyh",
+      "grėčskyh",
     ],
     "nom": [
-      "grečski / grečske",
-      "grečske",
+      "grėčski / grėčske",
+      "grėčske",
     ],
   },
   "singular": {
     "acc": [
-      "grečskogo / grečsky",
-      "grečsko",
-      "grečskų",
+      "grėčskogo / grėčsky",
+      "grėčsko",
+      "grėčskų",
     ],
     "dat": [
-      "grečskomu",
-      "grečskoj",
+      "grėčskomu",
+      "grėčskoj",
     ],
     "gen": [
-      "grečskogo",
-      "grečskoj",
+      "grėčskogo",
+      "grėčskoj",
     ],
     "ins": [
-      "grečskym",
-      "grečskojų",
+      "grėčskym",
+      "grėčskojų",
     ],
     "loc": [
-      "grečskom",
-      "grečskoj",
+      "grėčskom",
+      "grėčskoj",
     ],
     "nom": [
-      "grečsky",
-      "grečsko",
-      "grečska",
+      "grėčsky",
+      "grėčsko",
+      "grėčska",
     ],
   },
 }
@@ -28747,66 +27919,66 @@ exports[`adjective 3314 1`] = `
 {
   "comparison": {
     "comparative": [
-      "prijętnějši",
-      "prijętněje",
+      "prijatnějši",
+      "prijatněje",
     ],
     "positive": [
-      "prijętny",
-      "prijętno",
+      "prijatny",
+      "prijatno",
     ],
     "superlative": [
-      "najprijętnějši",
-      "najprijętněje",
+      "najprijatnějši",
+      "najprijatněje",
     ],
   },
   "plural": {
     "acc": [
-      "prijętnyh / prijętne",
-      "prijętne",
+      "prijatnyh / prijatne",
+      "prijatne",
     ],
     "dat": [
-      "prijętnym",
+      "prijatnym",
     ],
     "gen": [
-      "prijętnyh",
+      "prijatnyh",
     ],
     "ins": [
-      "prijętnymi",
+      "prijatnymi",
     ],
     "loc": [
-      "prijętnyh",
+      "prijatnyh",
     ],
     "nom": [
-      "prijętni / prijętne",
-      "prijętne",
+      "prijatni / prijatne",
+      "prijatne",
     ],
   },
   "singular": {
     "acc": [
-      "prijętnogo / prijętny",
-      "prijętno",
-      "prijętnų",
+      "prijatnogo / prijatny",
+      "prijatno",
+      "prijatnų",
     ],
     "dat": [
-      "prijętnomu",
-      "prijętnoj",
+      "prijatnomu",
+      "prijatnoj",
     ],
     "gen": [
-      "prijętnogo",
-      "prijętnoj",
+      "prijatnogo",
+      "prijatnoj",
     ],
     "ins": [
-      "prijętnym",
-      "prijętnojų",
+      "prijatnym",
+      "prijatnojų",
     ],
     "loc": [
-      "prijętnom",
-      "prijętnoj",
+      "prijatnom",
+      "prijatnoj",
     ],
     "nom": [
-      "prijętny",
-      "prijętno",
-      "prijętna",
+      "prijatny",
+      "prijatno",
+      "prijatna",
     ],
   },
 }
@@ -36814,66 +35986,66 @@ exports[`adjective 4317 1`] = `
 {
   "comparison": {
     "comparative": [
-      "perverznějši",
-      "perverzněje",
+      "perversnějši",
+      "perversněje",
     ],
     "positive": [
-      "perverzny",
-      "perverzno",
+      "perversny",
+      "perversno",
     ],
     "superlative": [
-      "najperverznějši",
-      "najperverzněje",
+      "najperversnějši",
+      "najperversněje",
     ],
   },
   "plural": {
     "acc": [
-      "perverznyh / perverzne",
-      "perverzne",
+      "perversnyh / perversne",
+      "perversne",
     ],
     "dat": [
-      "perverznym",
+      "perversnym",
     ],
     "gen": [
-      "perverznyh",
+      "perversnyh",
     ],
     "ins": [
-      "perverznymi",
+      "perversnymi",
     ],
     "loc": [
-      "perverznyh",
+      "perversnyh",
     ],
     "nom": [
-      "perverzni / perverzne",
-      "perverzne",
+      "perversni / perversne",
+      "perversne",
     ],
   },
   "singular": {
     "acc": [
-      "perverznogo / perverzny",
-      "perverzno",
-      "perverznų",
+      "perversnogo / perversny",
+      "perversno",
+      "perversnų",
     ],
     "dat": [
-      "perverznomu",
-      "perverznoj",
+      "perversnomu",
+      "perversnoj",
     ],
     "gen": [
-      "perverznogo",
-      "perverznoj",
+      "perversnogo",
+      "perversnoj",
     ],
     "ins": [
-      "perverznym",
-      "perverznojų",
+      "perversnym",
+      "perversnojų",
     ],
     "loc": [
-      "perverznom",
-      "perverznoj",
+      "perversnom",
+      "perversnoj",
     ],
     "nom": [
-      "perverzny",
-      "perverzno",
-      "perverzna",
+      "perversny",
+      "perversno",
+      "perversna",
     ],
   },
 }
@@ -73075,66 +72247,66 @@ exports[`adjective 13334 1`] = `
 {
   "comparison": {
     "comparative": [
-      "oprošćenějši",
-      "oprošćeněje",
+      "uprošćenějši",
+      "uprošćeněje",
     ],
     "positive": [
-      "oprošćeny",
-      "oprošćeno",
+      "uprošćeny",
+      "uprošćeno",
     ],
     "superlative": [
-      "najoprošćenějši",
-      "najoprošćeněje",
+      "najuprošćenějši",
+      "najuprošćeněje",
     ],
   },
   "plural": {
     "acc": [
-      "oprošćenyh / oprošćene",
-      "oprošćene",
+      "uprošćenyh / uprošćene",
+      "uprošćene",
     ],
     "dat": [
-      "oprošćenym",
+      "uprošćenym",
     ],
     "gen": [
-      "oprošćenyh",
+      "uprošćenyh",
     ],
     "ins": [
-      "oprošćenymi",
+      "uprošćenymi",
     ],
     "loc": [
-      "oprošćenyh",
+      "uprošćenyh",
     ],
     "nom": [
-      "oprošćeni / oprošćene",
-      "oprošćene",
+      "uprošćeni / uprošćene",
+      "uprošćene",
     ],
   },
   "singular": {
     "acc": [
-      "oprošćenogo / oprošćeny",
-      "oprošćeno",
-      "oprošćenų",
+      "uprošćenogo / uprošćeny",
+      "uprošćeno",
+      "uprošćenų",
     ],
     "dat": [
-      "oprošćenomu",
-      "oprošćenoj",
+      "uprošćenomu",
+      "uprošćenoj",
     ],
     "gen": [
-      "oprošćenogo",
-      "oprošćenoj",
+      "uprošćenogo",
+      "uprošćenoj",
     ],
     "ins": [
-      "oprošćenym",
-      "oprošćenojų",
+      "uprošćenym",
+      "uprošćenojų",
     ],
     "loc": [
-      "oprošćenom",
-      "oprošćenoj",
+      "uprošćenom",
+      "uprošćenoj",
     ],
     "nom": [
-      "oprošćeny",
-      "oprošćeno",
-      "oprošćena",
+      "uprošćeny",
+      "uprošćeno",
+      "uprošćena",
     ],
   },
 }
@@ -107272,66 +106444,66 @@ exports[`adjective 20101 1`] = `
 {
   "comparison": {
     "comparative": [
-      "råbotčejši",
-      "råbotčeje",
+      "råbočejši",
+      "råbočeje",
     ],
     "positive": [
-      "råbotči",
-      "råbotče",
+      "råboči",
+      "råboče",
     ],
     "superlative": [
-      "najråbotčejši",
-      "najråbotčeje",
+      "najråbočejši",
+      "najråbočeje",
     ],
   },
   "plural": {
     "acc": [
-      "råbotčih / råbotče",
-      "råbotče",
+      "råbočih / råboče",
+      "råboče",
     ],
     "dat": [
-      "råbotčim",
+      "råbočim",
     ],
     "gen": [
-      "råbotčih",
+      "råbočih",
     ],
     "ins": [
-      "råbotčimi",
+      "råbočimi",
     ],
     "loc": [
-      "råbotčih",
+      "råbočih",
     ],
     "nom": [
-      "råbotči / råbotče",
-      "råbotče",
+      "råboči / råboče",
+      "råboče",
     ],
   },
   "singular": {
     "acc": [
-      "råbotčego / råbotči",
-      "råbotče",
-      "råbotčų",
+      "råbočego / råboči",
+      "råboče",
+      "råbočų",
     ],
     "dat": [
-      "råbotčemu",
-      "råbotčej",
+      "råbočemu",
+      "råbočej",
     ],
     "gen": [
-      "råbotčego",
-      "råbotčej",
+      "råbočego",
+      "råbočej",
     ],
     "ins": [
-      "råbotčim",
-      "råbotčejų",
+      "råbočim",
+      "råbočejų",
     ],
     "loc": [
-      "råbotčem",
-      "råbotčej",
+      "råbočem",
+      "råbočej",
     ],
     "nom": [
-      "råbotči",
-      "råbotče",
-      "råbotča",
+      "råboči",
+      "råboče",
+      "råboča",
     ],
   },
 }
@@ -107410,66 +106582,135 @@ exports[`adjective 20106 1`] = `
 {
   "comparison": {
     "comparative": [
-      "råzdretějši",
-      "råzdretěje",
+      "råzdŕtějši",
+      "råzdŕtěje",
     ],
     "positive": [
-      "råzdrety",
-      "råzdreto",
+      "råzdŕty",
+      "råzdŕto",
     ],
     "superlative": [
-      "najråzdretějši",
-      "najråzdretěje",
+      "najråzdŕtějši",
+      "najråzdŕtěje",
     ],
   },
   "plural": {
     "acc": [
-      "råzdretyh / råzdrete",
-      "råzdrete",
+      "råzdŕtyh / råzdŕte",
+      "råzdŕte",
     ],
     "dat": [
-      "råzdretym",
+      "råzdŕtym",
     ],
     "gen": [
-      "råzdretyh",
+      "råzdŕtyh",
     ],
     "ins": [
-      "råzdretymi",
+      "råzdŕtymi",
     ],
     "loc": [
-      "råzdretyh",
+      "råzdŕtyh",
     ],
     "nom": [
-      "råzdreti / råzdrete",
-      "råzdrete",
+      "råzdŕti / råzdŕte",
+      "råzdŕte",
     ],
   },
   "singular": {
     "acc": [
-      "råzdretogo / råzdrety",
-      "råzdreto",
-      "råzdretų",
+      "råzdŕtogo / råzdŕty",
+      "råzdŕto",
+      "råzdŕtų",
     ],
     "dat": [
-      "råzdretomu",
-      "råzdretoj",
+      "råzdŕtomu",
+      "råzdŕtoj",
     ],
     "gen": [
-      "råzdretogo",
-      "råzdretoj",
+      "råzdŕtogo",
+      "råzdŕtoj",
     ],
     "ins": [
-      "råzdretym",
-      "råzdretojų",
+      "råzdŕtym",
+      "råzdŕtojų",
     ],
     "loc": [
-      "råzdretom",
-      "råzdretoj",
+      "råzdŕtom",
+      "råzdŕtoj",
     ],
     "nom": [
-      "råzdrety",
-      "råzdreto",
-      "råzdreta",
+      "råzdŕty",
+      "råzdŕto",
+      "råzdŕta",
+    ],
+  },
+}
+`;
+
+exports[`adjective 20106-1 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "råzdrěnějši",
+      "råzdrěněje",
+    ],
+    "positive": [
+      "råzdrěny",
+      "råzdrěno",
+    ],
+    "superlative": [
+      "najråzdrěnějši",
+      "najråzdrěněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "råzdrěnyh / råzdrěne",
+      "råzdrěne",
+    ],
+    "dat": [
+      "råzdrěnym",
+    ],
+    "gen": [
+      "råzdrěnyh",
+    ],
+    "ins": [
+      "råzdrěnymi",
+    ],
+    "loc": [
+      "råzdrěnyh",
+    ],
+    "nom": [
+      "råzdrěni / råzdrěne",
+      "råzdrěne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "råzdrěnogo / råzdrěny",
+      "råzdrěno",
+      "råzdrěnų",
+    ],
+    "dat": [
+      "råzdrěnomu",
+      "råzdrěnoj",
+    ],
+    "gen": [
+      "råzdrěnogo",
+      "råzdrěnoj",
+    ],
+    "ins": [
+      "råzdrěnym",
+      "råzdrěnojų",
+    ],
+    "loc": [
+      "råzdrěnom",
+      "råzdrěnoj",
+    ],
+    "nom": [
+      "råzdrěny",
+      "råzdrěno",
+      "råzdrěna",
     ],
   },
 }
@@ -109891,6 +109132,75 @@ exports[`adjective 20380 1`] = `
 `;
 
 exports[`adjective 20402 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "izumŕlějši",
+      "izumŕlěje",
+    ],
+    "positive": [
+      "izumŕly",
+      "izumŕlo",
+    ],
+    "superlative": [
+      "najizumŕlějši",
+      "najizumŕlěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "izumŕlyh / izumŕle",
+      "izumŕle",
+    ],
+    "dat": [
+      "izumŕlym",
+    ],
+    "gen": [
+      "izumŕlyh",
+    ],
+    "ins": [
+      "izumŕlymi",
+    ],
+    "loc": [
+      "izumŕlyh",
+    ],
+    "nom": [
+      "izumŕli / izumŕle",
+      "izumŕle",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "izumŕlogo / izumŕly",
+      "izumŕlo",
+      "izumŕlų",
+    ],
+    "dat": [
+      "izumŕlomu",
+      "izumŕloj",
+    ],
+    "gen": [
+      "izumŕlogo",
+      "izumŕloj",
+    ],
+    "ins": [
+      "izumŕlym",
+      "izumŕlojų",
+    ],
+    "loc": [
+      "izumŕlom",
+      "izumŕloj",
+    ],
+    "nom": [
+      "izumŕly",
+      "izumŕlo",
+      "izumŕla",
+    ],
+  },
+}
+`;
+
+exports[`adjective 20402-1 1`] = `
 {
   "comparison": {
     "comparative": [
@@ -126655,66 +125965,66 @@ exports[`adjective 23756 1`] = `
 {
   "comparison": {
     "comparative": [
-      "blågoprijętnějši",
-      "blågoprijętněje",
+      "blågoprijatnějši",
+      "blågoprijatněje",
     ],
     "positive": [
-      "blågoprijętny",
-      "blågoprijętno",
+      "blågoprijatny",
+      "blågoprijatno",
     ],
     "superlative": [
-      "najblågoprijętnějši",
-      "najblågoprijętněje",
+      "najblågoprijatnějši",
+      "najblågoprijatněje",
     ],
   },
   "plural": {
     "acc": [
-      "blågoprijętnyh / blågoprijętne",
-      "blågoprijętne",
+      "blågoprijatnyh / blågoprijatne",
+      "blågoprijatne",
     ],
     "dat": [
-      "blågoprijętnym",
+      "blågoprijatnym",
     ],
     "gen": [
-      "blågoprijętnyh",
+      "blågoprijatnyh",
     ],
     "ins": [
-      "blågoprijętnymi",
+      "blågoprijatnymi",
     ],
     "loc": [
-      "blågoprijętnyh",
+      "blågoprijatnyh",
     ],
     "nom": [
-      "blågoprijętni / blågoprijętne",
-      "blågoprijętne",
+      "blågoprijatni / blågoprijatne",
+      "blågoprijatne",
     ],
   },
   "singular": {
     "acc": [
-      "blågoprijętnogo / blågoprijętny",
-      "blågoprijętno",
-      "blågoprijętnų",
+      "blågoprijatnogo / blågoprijatny",
+      "blågoprijatno",
+      "blågoprijatnų",
     ],
     "dat": [
-      "blågoprijętnomu",
-      "blågoprijętnoj",
+      "blågoprijatnomu",
+      "blågoprijatnoj",
     ],
     "gen": [
-      "blågoprijętnogo",
-      "blågoprijętnoj",
+      "blågoprijatnogo",
+      "blågoprijatnoj",
     ],
     "ins": [
-      "blågoprijętnym",
-      "blågoprijętnojų",
+      "blågoprijatnym",
+      "blågoprijatnojų",
     ],
     "loc": [
-      "blågoprijętnom",
-      "blågoprijętnoj",
+      "blågoprijatnom",
+      "blågoprijatnoj",
     ],
     "nom": [
-      "blågoprijętny",
-      "blågoprijętno",
-      "blågoprijętna",
+      "blågoprijatny",
+      "blågoprijatno",
+      "blågoprijatna",
     ],
   },
 }
@@ -148735,66 +148045,66 @@ exports[`adjective 28490 1`] = `
 {
   "comparison": {
     "comparative": [
-      "neprijętnějši",
-      "neprijętněje",
+      "neprijatnějši",
+      "neprijatněje",
     ],
     "positive": [
-      "neprijętny",
-      "neprijętno",
+      "neprijatny",
+      "neprijatno",
     ],
     "superlative": [
-      "najneprijętnějši",
-      "najneprijętněje",
+      "najneprijatnějši",
+      "najneprijatněje",
     ],
   },
   "plural": {
     "acc": [
-      "neprijętnyh / neprijętne",
-      "neprijętne",
+      "neprijatnyh / neprijatne",
+      "neprijatne",
     ],
     "dat": [
-      "neprijętnym",
+      "neprijatnym",
     ],
     "gen": [
-      "neprijętnyh",
+      "neprijatnyh",
     ],
     "ins": [
-      "neprijętnymi",
+      "neprijatnymi",
     ],
     "loc": [
-      "neprijętnyh",
+      "neprijatnyh",
     ],
     "nom": [
-      "neprijętni / neprijętne",
-      "neprijętne",
+      "neprijatni / neprijatne",
+      "neprijatne",
     ],
   },
   "singular": {
     "acc": [
-      "neprijętnogo / neprijętny",
-      "neprijętno",
-      "neprijętnų",
+      "neprijatnogo / neprijatny",
+      "neprijatno",
+      "neprijatnų",
     ],
     "dat": [
-      "neprijętnomu",
-      "neprijętnoj",
+      "neprijatnomu",
+      "neprijatnoj",
     ],
     "gen": [
-      "neprijętnogo",
-      "neprijętnoj",
+      "neprijatnogo",
+      "neprijatnoj",
     ],
     "ins": [
-      "neprijętnym",
-      "neprijętnojų",
+      "neprijatnym",
+      "neprijatnojų",
     ],
     "loc": [
-      "neprijętnom",
-      "neprijętnoj",
+      "neprijatnom",
+      "neprijatnoj",
     ],
     "nom": [
-      "neprijętny",
-      "neprijętno",
-      "neprijętna",
+      "neprijatny",
+      "neprijatno",
+      "neprijatna",
     ],
   },
 }
@@ -153910,66 +153220,135 @@ exports[`adjective 30079 1`] = `
 {
   "comparison": {
     "comparative": [
-      "ranjejši",
-      "ranjeje",
+      "rannjejši",
+      "rannjeje",
     ],
     "positive": [
-      "ranji",
-      "ranje",
+      "rannji",
+      "rannje",
     ],
     "superlative": [
-      "najranjejši",
-      "najranjeje",
+      "najrannjejši",
+      "najrannjeje",
     ],
   },
   "plural": {
     "acc": [
-      "ranjih / ranje",
-      "ranje",
+      "rannjih / rannje",
+      "rannje",
     ],
     "dat": [
-      "ranjim",
+      "rannjim",
     ],
     "gen": [
-      "ranjih",
+      "rannjih",
     ],
     "ins": [
-      "ranjimi",
+      "rannjimi",
     ],
     "loc": [
-      "ranjih",
+      "rannjih",
     ],
     "nom": [
-      "ranji / ranje",
-      "ranje",
+      "rannji / rannje",
+      "rannje",
     ],
   },
   "singular": {
     "acc": [
-      "ranjego / ranji",
-      "ranje",
-      "ranjų",
+      "rannjego / rannji",
+      "rannje",
+      "rannjų",
     ],
     "dat": [
-      "ranjemu",
-      "ranjej",
+      "rannjemu",
+      "rannjej",
     ],
     "gen": [
-      "ranjego",
-      "ranjej",
+      "rannjego",
+      "rannjej",
     ],
     "ins": [
-      "ranjim",
-      "ranjejų",
+      "rannjim",
+      "rannjejų",
     ],
     "loc": [
-      "ranjem",
-      "ranjej",
+      "rannjem",
+      "rannjej",
     ],
     "nom": [
-      "ranji",
-      "ranje",
-      "ranja",
+      "rannji",
+      "rannje",
+      "rannja",
+    ],
+  },
+}
+`;
+
+exports[`adjective 30079-1 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "ranějši",
+      "raněje",
+    ],
+    "positive": [
+      "rany",
+      "rano",
+    ],
+    "superlative": [
+      "najranějši",
+      "najraněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "ranyh / rane",
+      "rane",
+    ],
+    "dat": [
+      "ranym",
+    ],
+    "gen": [
+      "ranyh",
+    ],
+    "ins": [
+      "ranymi",
+    ],
+    "loc": [
+      "ranyh",
+    ],
+    "nom": [
+      "rani / rane",
+      "rane",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "ranogo / rany",
+      "rano",
+      "ranų",
+    ],
+    "dat": [
+      "ranomu",
+      "ranoj",
+    ],
+    "gen": [
+      "ranogo",
+      "ranoj",
+    ],
+    "ins": [
+      "ranym",
+      "ranojų",
+    ],
+    "loc": [
+      "ranom",
+      "ranoj",
+    ],
+    "nom": [
+      "rany",
+      "rano",
+      "rana",
     ],
   },
 }
@@ -162532,6 +161911,75 @@ exports[`adjective 32583 1`] = `
 `;
 
 exports[`adjective 32623 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "nenaměrnějši",
+      "nenaměrněje",
+    ],
+    "positive": [
+      "nenaměrny",
+      "nenaměrno",
+    ],
+    "superlative": [
+      "najnenaměrnějši",
+      "najnenaměrněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "nenaměrnyh / nenaměrne",
+      "nenaměrne",
+    ],
+    "dat": [
+      "nenaměrnym",
+    ],
+    "gen": [
+      "nenaměrnyh",
+    ],
+    "ins": [
+      "nenaměrnymi",
+    ],
+    "loc": [
+      "nenaměrnyh",
+    ],
+    "nom": [
+      "nenaměrni / nenaměrne",
+      "nenaměrne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "nenaměrnogo / nenaměrny",
+      "nenaměrno",
+      "nenaměrnų",
+    ],
+    "dat": [
+      "nenaměrnomu",
+      "nenaměrnoj",
+    ],
+    "gen": [
+      "nenaměrnogo",
+      "nenaměrnoj",
+    ],
+    "ins": [
+      "nenaměrnym",
+      "nenaměrnojų",
+    ],
+    "loc": [
+      "nenaměrnom",
+      "nenaměrnoj",
+    ],
+    "nom": [
+      "nenaměrny",
+      "nenaměrno",
+      "nenaměrna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 32623-1 1`] = `
 {
   "comparison": {
     "comparative": [
@@ -177850,6 +177298,75 @@ exports[`adjective 35377 1`] = `
 `;
 
 exports[`adjective 35384 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "umŕlějši",
+      "umŕlěje",
+    ],
+    "positive": [
+      "umŕly",
+      "umŕlo",
+    ],
+    "superlative": [
+      "najumŕlějši",
+      "najumŕlěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "umŕlyh / umŕle",
+      "umŕle",
+    ],
+    "dat": [
+      "umŕlym",
+    ],
+    "gen": [
+      "umŕlyh",
+    ],
+    "ins": [
+      "umŕlymi",
+    ],
+    "loc": [
+      "umŕlyh",
+    ],
+    "nom": [
+      "umŕli / umŕle",
+      "umŕle",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "umŕlogo / umŕly",
+      "umŕlo",
+      "umŕlų",
+    ],
+    "dat": [
+      "umŕlomu",
+      "umŕloj",
+    ],
+    "gen": [
+      "umŕlogo",
+      "umŕloj",
+    ],
+    "ins": [
+      "umŕlym",
+      "umŕlojų",
+    ],
+    "loc": [
+      "umŕlom",
+      "umŕloj",
+    ],
+    "nom": [
+      "umŕly",
+      "umŕlo",
+      "umŕla",
+    ],
+  },
+}
+`;
+
+exports[`adjective 35384-1 1`] = `
 {
   "comparison": {
     "comparative": [
@@ -193429,6 +192946,2697 @@ exports[`adjective 36884 1`] = `
       "očekyvany",
       "očekyvano",
       "očekyvana",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36933 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "matovějši",
+      "matověje",
+    ],
+    "positive": [
+      "matovy",
+      "matovo",
+    ],
+    "superlative": [
+      "najmatovějši",
+      "najmatověje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "matovyh / matove",
+      "matove",
+    ],
+    "dat": [
+      "matovym",
+    ],
+    "gen": [
+      "matovyh",
+    ],
+    "ins": [
+      "matovymi",
+    ],
+    "loc": [
+      "matovyh",
+    ],
+    "nom": [
+      "matovi / matove",
+      "matove",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "matovogo / matovy",
+      "matovo",
+      "matovų",
+    ],
+    "dat": [
+      "matovomu",
+      "matovoj",
+    ],
+    "gen": [
+      "matovogo",
+      "matovoj",
+    ],
+    "ins": [
+      "matovym",
+      "matovojų",
+    ],
+    "loc": [
+      "matovom",
+      "matovoj",
+    ],
+    "nom": [
+      "matovy",
+      "matovo",
+      "matova",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36943 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "zadumlivějši",
+      "zadumlivěje",
+    ],
+    "positive": [
+      "zadumlivy",
+      "zadumlivo",
+    ],
+    "superlative": [
+      "najzadumlivějši",
+      "najzadumlivěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "zadumlivyh / zadumlive",
+      "zadumlive",
+    ],
+    "dat": [
+      "zadumlivym",
+    ],
+    "gen": [
+      "zadumlivyh",
+    ],
+    "ins": [
+      "zadumlivymi",
+    ],
+    "loc": [
+      "zadumlivyh",
+    ],
+    "nom": [
+      "zadumlivi / zadumlive",
+      "zadumlive",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "zadumlivogo / zadumlivy",
+      "zadumlivo",
+      "zadumlivų",
+    ],
+    "dat": [
+      "zadumlivomu",
+      "zadumlivoj",
+    ],
+    "gen": [
+      "zadumlivogo",
+      "zadumlivoj",
+    ],
+    "ins": [
+      "zadumlivym",
+      "zadumlivojų",
+    ],
+    "loc": [
+      "zadumlivom",
+      "zadumlivoj",
+    ],
+    "nom": [
+      "zadumlivy",
+      "zadumlivo",
+      "zadumliva",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36946 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "rodinnějši",
+      "rodinněje",
+    ],
+    "positive": [
+      "rodinny",
+      "rodinno",
+    ],
+    "superlative": [
+      "najrodinnějši",
+      "najrodinněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "rodinnyh / rodinne",
+      "rodinne",
+    ],
+    "dat": [
+      "rodinnym",
+    ],
+    "gen": [
+      "rodinnyh",
+    ],
+    "ins": [
+      "rodinnymi",
+    ],
+    "loc": [
+      "rodinnyh",
+    ],
+    "nom": [
+      "rodinni / rodinne",
+      "rodinne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "rodinnogo / rodinny",
+      "rodinno",
+      "rodinnų",
+    ],
+    "dat": [
+      "rodinnomu",
+      "rodinnoj",
+    ],
+    "gen": [
+      "rodinnogo",
+      "rodinnoj",
+    ],
+    "ins": [
+      "rodinnym",
+      "rodinnojų",
+    ],
+    "loc": [
+      "rodinnom",
+      "rodinnoj",
+    ],
+    "nom": [
+      "rodinny",
+      "rodinno",
+      "rodinna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36947 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "sěmėjnějši",
+      "sěmėjněje",
+    ],
+    "positive": [
+      "sěmėjny",
+      "sěmėjno",
+    ],
+    "superlative": [
+      "najsěmėjnějši",
+      "najsěmėjněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "sěmėjnyh / sěmėjne",
+      "sěmėjne",
+    ],
+    "dat": [
+      "sěmėjnym",
+    ],
+    "gen": [
+      "sěmėjnyh",
+    ],
+    "ins": [
+      "sěmėjnymi",
+    ],
+    "loc": [
+      "sěmėjnyh",
+    ],
+    "nom": [
+      "sěmėjni / sěmėjne",
+      "sěmėjne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "sěmėjnogo / sěmėjny",
+      "sěmėjno",
+      "sěmėjnų",
+    ],
+    "dat": [
+      "sěmėjnomu",
+      "sěmėjnoj",
+    ],
+    "gen": [
+      "sěmėjnogo",
+      "sěmėjnoj",
+    ],
+    "ins": [
+      "sěmėjnym",
+      "sěmėjnojų",
+    ],
+    "loc": [
+      "sěmėjnom",
+      "sěmėjnoj",
+    ],
+    "nom": [
+      "sěmėjny",
+      "sěmėjno",
+      "sěmėjna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36951 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "råstlinnějši",
+      "råstlinněje",
+    ],
+    "positive": [
+      "råstlinny",
+      "råstlinno",
+    ],
+    "superlative": [
+      "najråstlinnějši",
+      "najråstlinněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "råstlinnyh / råstlinne",
+      "råstlinne",
+    ],
+    "dat": [
+      "råstlinnym",
+    ],
+    "gen": [
+      "råstlinnyh",
+    ],
+    "ins": [
+      "råstlinnymi",
+    ],
+    "loc": [
+      "råstlinnyh",
+    ],
+    "nom": [
+      "råstlinni / råstlinne",
+      "råstlinne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "råstlinnogo / råstlinny",
+      "råstlinno",
+      "råstlinnų",
+    ],
+    "dat": [
+      "råstlinnomu",
+      "råstlinnoj",
+    ],
+    "gen": [
+      "råstlinnogo",
+      "råstlinnoj",
+    ],
+    "ins": [
+      "råstlinnym",
+      "råstlinnojų",
+    ],
+    "loc": [
+      "råstlinnom",
+      "råstlinnoj",
+    ],
+    "nom": [
+      "råstlinny",
+      "råstlinno",
+      "råstlinna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36954 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "bolje sųprųžski",
+      "bolje sųprųžsko",
+    ],
+    "positive": [
+      "sųprųžsky",
+      "sųprųžsko",
+    ],
+    "superlative": [
+      "najbolje sųprųžski",
+      "najbolje sųprųžsko",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "sųprųžskyh / sųprųžske",
+      "sųprųžske",
+    ],
+    "dat": [
+      "sųprųžskym",
+    ],
+    "gen": [
+      "sųprųžskyh",
+    ],
+    "ins": [
+      "sųprųžskymi",
+    ],
+    "loc": [
+      "sųprųžskyh",
+    ],
+    "nom": [
+      "sųprųžski / sųprųžske",
+      "sųprųžske",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "sųprųžskogo / sųprųžsky",
+      "sųprųžsko",
+      "sųprųžskų",
+    ],
+    "dat": [
+      "sųprųžskomu",
+      "sųprųžskoj",
+    ],
+    "gen": [
+      "sųprųžskogo",
+      "sųprųžskoj",
+    ],
+    "ins": [
+      "sųprųžskym",
+      "sųprųžskojų",
+    ],
+    "loc": [
+      "sųprųžskom",
+      "sųprųžskoj",
+    ],
+    "nom": [
+      "sųprųžsky",
+      "sųprųžsko",
+      "sųprųžska",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36955 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "gazovějši",
+      "gazověje",
+    ],
+    "positive": [
+      "gazovy",
+      "gazovo",
+    ],
+    "superlative": [
+      "najgazovějši",
+      "najgazověje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "gazovyh / gazove",
+      "gazove",
+    ],
+    "dat": [
+      "gazovym",
+    ],
+    "gen": [
+      "gazovyh",
+    ],
+    "ins": [
+      "gazovymi",
+    ],
+    "loc": [
+      "gazovyh",
+    ],
+    "nom": [
+      "gazovi / gazove",
+      "gazove",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "gazovogo / gazovy",
+      "gazovo",
+      "gazovų",
+    ],
+    "dat": [
+      "gazovomu",
+      "gazovoj",
+    ],
+    "gen": [
+      "gazovogo",
+      "gazovoj",
+    ],
+    "ins": [
+      "gazovym",
+      "gazovojų",
+    ],
+    "loc": [
+      "gazovom",
+      "gazovoj",
+    ],
+    "nom": [
+      "gazovy",
+      "gazovo",
+      "gazova",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36957 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "sněžnějši",
+      "sněžněje",
+    ],
+    "positive": [
+      "sněžny",
+      "sněžno",
+    ],
+    "superlative": [
+      "najsněžnějši",
+      "najsněžněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "sněžnyh / sněžne",
+      "sněžne",
+    ],
+    "dat": [
+      "sněžnym",
+    ],
+    "gen": [
+      "sněžnyh",
+    ],
+    "ins": [
+      "sněžnymi",
+    ],
+    "loc": [
+      "sněžnyh",
+    ],
+    "nom": [
+      "sněžni / sněžne",
+      "sněžne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "sněžnogo / sněžny",
+      "sněžno",
+      "sněžnų",
+    ],
+    "dat": [
+      "sněžnomu",
+      "sněžnoj",
+    ],
+    "gen": [
+      "sněžnogo",
+      "sněžnoj",
+    ],
+    "ins": [
+      "sněžnym",
+      "sněžnojų",
+    ],
+    "loc": [
+      "sněžnom",
+      "sněžnoj",
+    ],
+    "nom": [
+      "sněžny",
+      "sněžno",
+      "sněžna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36960 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "drožđevějši",
+      "drožđevěje",
+    ],
+    "positive": [
+      "drožđevy",
+      "drožđevo",
+    ],
+    "superlative": [
+      "najdrožđevějši",
+      "najdrožđevěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "drožđevyh / drožđeve",
+      "drožđeve",
+    ],
+    "dat": [
+      "drožđevym",
+    ],
+    "gen": [
+      "drožđevyh",
+    ],
+    "ins": [
+      "drožđevymi",
+    ],
+    "loc": [
+      "drožđevyh",
+    ],
+    "nom": [
+      "drožđevi / drožđeve",
+      "drožđeve",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "drožđevogo / drožđevy",
+      "drožđevo",
+      "drožđevų",
+    ],
+    "dat": [
+      "drožđevomu",
+      "drožđevoj",
+    ],
+    "gen": [
+      "drožđevogo",
+      "drožđevoj",
+    ],
+    "ins": [
+      "drožđevym",
+      "drožđevojų",
+    ],
+    "loc": [
+      "drožđevom",
+      "drožđevoj",
+    ],
+    "nom": [
+      "drožđevy",
+      "drožđevo",
+      "drožđeva",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36965 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "naměrnějši",
+      "naměrněje",
+    ],
+    "positive": [
+      "naměrny",
+      "naměrno",
+    ],
+    "superlative": [
+      "najnaměrnějši",
+      "najnaměrněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "naměrnyh / naměrne",
+      "naměrne",
+    ],
+    "dat": [
+      "naměrnym",
+    ],
+    "gen": [
+      "naměrnyh",
+    ],
+    "ins": [
+      "naměrnymi",
+    ],
+    "loc": [
+      "naměrnyh",
+    ],
+    "nom": [
+      "naměrni / naměrne",
+      "naměrne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "naměrnogo / naměrny",
+      "naměrno",
+      "naměrnų",
+    ],
+    "dat": [
+      "naměrnomu",
+      "naměrnoj",
+    ],
+    "gen": [
+      "naměrnogo",
+      "naměrnoj",
+    ],
+    "ins": [
+      "naměrnym",
+      "naměrnojų",
+    ],
+    "loc": [
+      "naměrnom",
+      "naměrnoj",
+    ],
+    "nom": [
+      "naměrny",
+      "naměrno",
+      "naměrna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36973 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "neodćuđimějši",
+      "neodćuđiměje",
+    ],
+    "positive": [
+      "neodćuđimy",
+      "neodćuđimo",
+    ],
+    "superlative": [
+      "najneodćuđimějši",
+      "najneodćuđiměje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "neodćuđimyh / neodćuđime",
+      "neodćuđime",
+    ],
+    "dat": [
+      "neodćuđimym",
+    ],
+    "gen": [
+      "neodćuđimyh",
+    ],
+    "ins": [
+      "neodćuđimymi",
+    ],
+    "loc": [
+      "neodćuđimyh",
+    ],
+    "nom": [
+      "neodćuđimi / neodćuđime",
+      "neodćuđime",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "neodćuđimogo / neodćuđimy",
+      "neodćuđimo",
+      "neodćuđimų",
+    ],
+    "dat": [
+      "neodćuđimomu",
+      "neodćuđimoj",
+    ],
+    "gen": [
+      "neodćuđimogo",
+      "neodćuđimoj",
+    ],
+    "ins": [
+      "neodćuđimym",
+      "neodćuđimojų",
+    ],
+    "loc": [
+      "neodćuđimom",
+      "neodćuđimoj",
+    ],
+    "nom": [
+      "neodćuđimy",
+      "neodćuđimo",
+      "neodćuđima",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36975 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "pušistějši",
+      "pušistěje",
+    ],
+    "positive": [
+      "pušisty",
+      "pušisto",
+    ],
+    "superlative": [
+      "najpušistějši",
+      "najpušistěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "pušistyh / pušiste",
+      "pušiste",
+    ],
+    "dat": [
+      "pušistym",
+    ],
+    "gen": [
+      "pušistyh",
+    ],
+    "ins": [
+      "pušistymi",
+    ],
+    "loc": [
+      "pušistyh",
+    ],
+    "nom": [
+      "pušisti / pušiste",
+      "pušiste",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "pušistogo / pušisty",
+      "pušisto",
+      "pušistų",
+    ],
+    "dat": [
+      "pušistomu",
+      "pušistoj",
+    ],
+    "gen": [
+      "pušistogo",
+      "pušistoj",
+    ],
+    "ins": [
+      "pušistym",
+      "pušistojų",
+    ],
+    "loc": [
+      "pušistom",
+      "pušistoj",
+    ],
+    "nom": [
+      "pušisty",
+      "pušisto",
+      "pušista",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36982 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "kvasnějši",
+      "kvasněje",
+    ],
+    "positive": [
+      "kvasny",
+      "kvasno",
+    ],
+    "superlative": [
+      "najkvasnějši",
+      "najkvasněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "kvasnyh / kvasne",
+      "kvasne",
+    ],
+    "dat": [
+      "kvasnym",
+    ],
+    "gen": [
+      "kvasnyh",
+    ],
+    "ins": [
+      "kvasnymi",
+    ],
+    "loc": [
+      "kvasnyh",
+    ],
+    "nom": [
+      "kvasni / kvasne",
+      "kvasne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "kvasnogo / kvasny",
+      "kvasno",
+      "kvasnų",
+    ],
+    "dat": [
+      "kvasnomu",
+      "kvasnoj",
+    ],
+    "gen": [
+      "kvasnogo",
+      "kvasnoj",
+    ],
+    "ins": [
+      "kvasnym",
+      "kvasnojų",
+    ],
+    "loc": [
+      "kvasnom",
+      "kvasnoj",
+    ],
+    "nom": [
+      "kvasny",
+      "kvasno",
+      "kvasna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36991 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "nedråžějši",
+      "nedråžeje",
+    ],
+    "positive": [
+      "nedrågy",
+      "nedrågo",
+    ],
+    "superlative": [
+      "najnedråžějši",
+      "najnedråžeje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "nedrågyh / nedråge",
+      "nedråge",
+    ],
+    "dat": [
+      "nedrågym",
+    ],
+    "gen": [
+      "nedrågyh",
+    ],
+    "ins": [
+      "nedrågymi",
+    ],
+    "loc": [
+      "nedrågyh",
+    ],
+    "nom": [
+      "nedrågi / nedråge",
+      "nedråge",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "nedrågogo / nedrågy",
+      "nedrågo",
+      "nedrågų",
+    ],
+    "dat": [
+      "nedrågomu",
+      "nedrågoj",
+    ],
+    "gen": [
+      "nedrågogo",
+      "nedrågoj",
+    ],
+    "ins": [
+      "nedrågym",
+      "nedrågojų",
+    ],
+    "loc": [
+      "nedrågom",
+      "nedrågoj",
+    ],
+    "nom": [
+      "nedrågy",
+      "nedrågo",
+      "nedråga",
+    ],
+  },
+}
+`;
+
+exports[`adjective 36998 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "blåženějši",
+      "blåženěje",
+    ],
+    "positive": [
+      "blåženy",
+      "blåženo",
+    ],
+    "superlative": [
+      "najblåženějši",
+      "najblåženěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "blåženyh / blåžene",
+      "blåžene",
+    ],
+    "dat": [
+      "blåženym",
+    ],
+    "gen": [
+      "blåženyh",
+    ],
+    "ins": [
+      "blåženymi",
+    ],
+    "loc": [
+      "blåženyh",
+    ],
+    "nom": [
+      "blåženi / blåžene",
+      "blåžene",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "blåženogo / blåženy",
+      "blåženo",
+      "blåženų",
+    ],
+    "dat": [
+      "blåženomu",
+      "blåženoj",
+    ],
+    "gen": [
+      "blåženogo",
+      "blåženoj",
+    ],
+    "ins": [
+      "blåženym",
+      "blåženojų",
+    ],
+    "loc": [
+      "blåženom",
+      "blåženoj",
+    ],
+    "nom": [
+      "blåženy",
+      "blåženo",
+      "blåžena",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37000 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "kondensovanějši",
+      "kondensovaněje",
+    ],
+    "positive": [
+      "kondensovany",
+      "kondensovano",
+    ],
+    "superlative": [
+      "najkondensovanějši",
+      "najkondensovaněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "kondensovanyh / kondensovane",
+      "kondensovane",
+    ],
+    "dat": [
+      "kondensovanym",
+    ],
+    "gen": [
+      "kondensovanyh",
+    ],
+    "ins": [
+      "kondensovanymi",
+    ],
+    "loc": [
+      "kondensovanyh",
+    ],
+    "nom": [
+      "kondensovani / kondensovane",
+      "kondensovane",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "kondensovanogo / kondensovany",
+      "kondensovano",
+      "kondensovanų",
+    ],
+    "dat": [
+      "kondensovanomu",
+      "kondensovanoj",
+    ],
+    "gen": [
+      "kondensovanogo",
+      "kondensovanoj",
+    ],
+    "ins": [
+      "kondensovanym",
+      "kondensovanojų",
+    ],
+    "loc": [
+      "kondensovanom",
+      "kondensovanoj",
+    ],
+    "nom": [
+      "kondensovany",
+      "kondensovano",
+      "kondensovana",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37005 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "izotermičnějši",
+      "izotermičněje",
+    ],
+    "positive": [
+      "izotermičny",
+      "izotermično",
+    ],
+    "superlative": [
+      "najizotermičnějši",
+      "najizotermičněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "izotermičnyh / izotermične",
+      "izotermične",
+    ],
+    "dat": [
+      "izotermičnym",
+    ],
+    "gen": [
+      "izotermičnyh",
+    ],
+    "ins": [
+      "izotermičnymi",
+    ],
+    "loc": [
+      "izotermičnyh",
+    ],
+    "nom": [
+      "izotermični / izotermične",
+      "izotermične",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "izotermičnogo / izotermičny",
+      "izotermično",
+      "izotermičnų",
+    ],
+    "dat": [
+      "izotermičnomu",
+      "izotermičnoj",
+    ],
+    "gen": [
+      "izotermičnogo",
+      "izotermičnoj",
+    ],
+    "ins": [
+      "izotermičnym",
+      "izotermičnojų",
+    ],
+    "loc": [
+      "izotermičnom",
+      "izotermičnoj",
+    ],
+    "nom": [
+      "izotermičny",
+      "izotermično",
+      "izotermična",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37019 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "nemŕtvějši",
+      "nemŕtvěje",
+    ],
+    "positive": [
+      "nemŕtvy",
+      "nemŕtvo",
+    ],
+    "superlative": [
+      "najnemŕtvějši",
+      "najnemŕtvěje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "nemŕtvyh / nemŕtve",
+      "nemŕtve",
+    ],
+    "dat": [
+      "nemŕtvym",
+    ],
+    "gen": [
+      "nemŕtvyh",
+    ],
+    "ins": [
+      "nemŕtvymi",
+    ],
+    "loc": [
+      "nemŕtvyh",
+    ],
+    "nom": [
+      "nemŕtvi / nemŕtve",
+      "nemŕtve",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "nemŕtvogo / nemŕtvy",
+      "nemŕtvo",
+      "nemŕtvų",
+    ],
+    "dat": [
+      "nemŕtvomu",
+      "nemŕtvoj",
+    ],
+    "gen": [
+      "nemŕtvogo",
+      "nemŕtvoj",
+    ],
+    "ins": [
+      "nemŕtvym",
+      "nemŕtvojų",
+    ],
+    "loc": [
+      "nemŕtvom",
+      "nemŕtvoj",
+    ],
+    "nom": [
+      "nemŕtvy",
+      "nemŕtvo",
+      "nemŕtva",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37024 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "telefonnějši",
+      "telefonněje",
+    ],
+    "positive": [
+      "telefonny",
+      "telefonno",
+    ],
+    "superlative": [
+      "najtelefonnějši",
+      "najtelefonněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "telefonnyh / telefonne",
+      "telefonne",
+    ],
+    "dat": [
+      "telefonnym",
+    ],
+    "gen": [
+      "telefonnyh",
+    ],
+    "ins": [
+      "telefonnymi",
+    ],
+    "loc": [
+      "telefonnyh",
+    ],
+    "nom": [
+      "telefonni / telefonne",
+      "telefonne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "telefonnogo / telefonny",
+      "telefonno",
+      "telefonnų",
+    ],
+    "dat": [
+      "telefonnomu",
+      "telefonnoj",
+    ],
+    "gen": [
+      "telefonnogo",
+      "telefonnoj",
+    ],
+    "ins": [
+      "telefonnym",
+      "telefonnojų",
+    ],
+    "loc": [
+      "telefonnom",
+      "telefonnoj",
+    ],
+    "nom": [
+      "telefonny",
+      "telefonno",
+      "telefonna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37110 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "kokosovějši",
+      "kokosověje",
+    ],
+    "positive": [
+      "kokosovy",
+      "kokosovo",
+    ],
+    "superlative": [
+      "najkokosovějši",
+      "najkokosověje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "kokosovyh / kokosove",
+      "kokosove",
+    ],
+    "dat": [
+      "kokosovym",
+    ],
+    "gen": [
+      "kokosovyh",
+    ],
+    "ins": [
+      "kokosovymi",
+    ],
+    "loc": [
+      "kokosovyh",
+    ],
+    "nom": [
+      "kokosovi / kokosove",
+      "kokosove",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "kokosovogo / kokosovy",
+      "kokosovo",
+      "kokosovų",
+    ],
+    "dat": [
+      "kokosovomu",
+      "kokosovoj",
+    ],
+    "gen": [
+      "kokosovogo",
+      "kokosovoj",
+    ],
+    "ins": [
+      "kokosovym",
+      "kokosovojų",
+    ],
+    "loc": [
+      "kokosovom",
+      "kokosovoj",
+    ],
+    "nom": [
+      "kokosovy",
+      "kokosovo",
+      "kokosova",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37112 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "koralovějši",
+      "koralověje",
+    ],
+    "positive": [
+      "koralovy",
+      "koralovo",
+    ],
+    "superlative": [
+      "najkoralovějši",
+      "najkoralověje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "koralovyh / koralove",
+      "koralove",
+    ],
+    "dat": [
+      "koralovym",
+    ],
+    "gen": [
+      "koralovyh",
+    ],
+    "ins": [
+      "koralovymi",
+    ],
+    "loc": [
+      "koralovyh",
+    ],
+    "nom": [
+      "koralovi / koralove",
+      "koralove",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "koralovogo / koralovy",
+      "koralovo",
+      "koralovų",
+    ],
+    "dat": [
+      "koralovomu",
+      "koralovoj",
+    ],
+    "gen": [
+      "koralovogo",
+      "koralovoj",
+    ],
+    "ins": [
+      "koralovym",
+      "koralovojų",
+    ],
+    "loc": [
+      "koralovom",
+      "koralovoj",
+    ],
+    "nom": [
+      "koralovy",
+      "koralovo",
+      "koralova",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37116 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "marinovanějši",
+      "marinovaněje",
+    ],
+    "positive": [
+      "marinovany",
+      "marinovano",
+    ],
+    "superlative": [
+      "najmarinovanějši",
+      "najmarinovaněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "marinovanyh / marinovane",
+      "marinovane",
+    ],
+    "dat": [
+      "marinovanym",
+    ],
+    "gen": [
+      "marinovanyh",
+    ],
+    "ins": [
+      "marinovanymi",
+    ],
+    "loc": [
+      "marinovanyh",
+    ],
+    "nom": [
+      "marinovani / marinovane",
+      "marinovane",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "marinovanogo / marinovany",
+      "marinovano",
+      "marinovanų",
+    ],
+    "dat": [
+      "marinovanomu",
+      "marinovanoj",
+    ],
+    "gen": [
+      "marinovanogo",
+      "marinovanoj",
+    ],
+    "ins": [
+      "marinovanym",
+      "marinovanojų",
+    ],
+    "loc": [
+      "marinovanom",
+      "marinovanoj",
+    ],
+    "nom": [
+      "marinovany",
+      "marinovano",
+      "marinovana",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37141 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "informacijnějši",
+      "informacijněje",
+    ],
+    "positive": [
+      "informacijny",
+      "informacijno",
+    ],
+    "superlative": [
+      "najinformacijnějši",
+      "najinformacijněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "informacijnyh / informacijne",
+      "informacijne",
+    ],
+    "dat": [
+      "informacijnym",
+    ],
+    "gen": [
+      "informacijnyh",
+    ],
+    "ins": [
+      "informacijnymi",
+    ],
+    "loc": [
+      "informacijnyh",
+    ],
+    "nom": [
+      "informacijni / informacijne",
+      "informacijne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "informacijnogo / informacijny",
+      "informacijno",
+      "informacijnų",
+    ],
+    "dat": [
+      "informacijnomu",
+      "informacijnoj",
+    ],
+    "gen": [
+      "informacijnogo",
+      "informacijnoj",
+    ],
+    "ins": [
+      "informacijnym",
+      "informacijnojų",
+    ],
+    "loc": [
+      "informacijnom",
+      "informacijnoj",
+    ],
+    "nom": [
+      "informacijny",
+      "informacijno",
+      "informacijna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37143 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "limonnějši",
+      "limonněje",
+    ],
+    "positive": [
+      "limonny",
+      "limonno",
+    ],
+    "superlative": [
+      "najlimonnějši",
+      "najlimonněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "limonnyh / limonne",
+      "limonne",
+    ],
+    "dat": [
+      "limonnym",
+    ],
+    "gen": [
+      "limonnyh",
+    ],
+    "ins": [
+      "limonnymi",
+    ],
+    "loc": [
+      "limonnyh",
+    ],
+    "nom": [
+      "limonni / limonne",
+      "limonne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "limonnogo / limonny",
+      "limonno",
+      "limonnų",
+    ],
+    "dat": [
+      "limonnomu",
+      "limonnoj",
+    ],
+    "gen": [
+      "limonnogo",
+      "limonnoj",
+    ],
+    "ins": [
+      "limonnym",
+      "limonnojų",
+    ],
+    "loc": [
+      "limonnom",
+      "limonnoj",
+    ],
+    "nom": [
+      "limonny",
+      "limonno",
+      "limonna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37144 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "neuvěrjenějši",
+      "neuvěrjeněje",
+    ],
+    "positive": [
+      "neuvěrjeny",
+      "neuvěrjeno",
+    ],
+    "superlative": [
+      "najneuvěrjenějši",
+      "najneuvěrjeněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "neuvěrjenyh / neuvěrjene",
+      "neuvěrjene",
+    ],
+    "dat": [
+      "neuvěrjenym",
+    ],
+    "gen": [
+      "neuvěrjenyh",
+    ],
+    "ins": [
+      "neuvěrjenymi",
+    ],
+    "loc": [
+      "neuvěrjenyh",
+    ],
+    "nom": [
+      "neuvěrjeni / neuvěrjene",
+      "neuvěrjene",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "neuvěrjenogo / neuvěrjeny",
+      "neuvěrjeno",
+      "neuvěrjenų",
+    ],
+    "dat": [
+      "neuvěrjenomu",
+      "neuvěrjenoj",
+    ],
+    "gen": [
+      "neuvěrjenogo",
+      "neuvěrjenoj",
+    ],
+    "ins": [
+      "neuvěrjenym",
+      "neuvěrjenojų",
+    ],
+    "loc": [
+      "neuvěrjenom",
+      "neuvěrjenoj",
+    ],
+    "nom": [
+      "neuvěrjeny",
+      "neuvěrjeno",
+      "neuvěrjena",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37153 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "světlodiodnějši",
+      "světlodiodněje",
+    ],
+    "positive": [
+      "světlodiodny",
+      "světlodiodno",
+    ],
+    "superlative": [
+      "najsvětlodiodnějši",
+      "najsvětlodiodněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "světlodiodnyh / světlodiodne",
+      "světlodiodne",
+    ],
+    "dat": [
+      "světlodiodnym",
+    ],
+    "gen": [
+      "světlodiodnyh",
+    ],
+    "ins": [
+      "světlodiodnymi",
+    ],
+    "loc": [
+      "světlodiodnyh",
+    ],
+    "nom": [
+      "světlodiodni / světlodiodne",
+      "světlodiodne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "světlodiodnogo / světlodiodny",
+      "světlodiodno",
+      "světlodiodnų",
+    ],
+    "dat": [
+      "světlodiodnomu",
+      "světlodiodnoj",
+    ],
+    "gen": [
+      "světlodiodnogo",
+      "světlodiodnoj",
+    ],
+    "ins": [
+      "světlodiodnym",
+      "světlodiodnojų",
+    ],
+    "loc": [
+      "světlodiodnom",
+      "světlodiodnoj",
+    ],
+    "nom": [
+      "světlodiodny",
+      "světlodiodno",
+      "světlodiodna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37191 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "sočnějši",
+      "sočněje",
+    ],
+    "positive": [
+      "sočny",
+      "sočno",
+    ],
+    "superlative": [
+      "najsočnějši",
+      "najsočněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "sočnyh / sočne",
+      "sočne",
+    ],
+    "dat": [
+      "sočnym",
+    ],
+    "gen": [
+      "sočnyh",
+    ],
+    "ins": [
+      "sočnymi",
+    ],
+    "loc": [
+      "sočnyh",
+    ],
+    "nom": [
+      "sočni / sočne",
+      "sočne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "sočnogo / sočny",
+      "sočno",
+      "sočnų",
+    ],
+    "dat": [
+      "sočnomu",
+      "sočnoj",
+    ],
+    "gen": [
+      "sočnogo",
+      "sočnoj",
+    ],
+    "ins": [
+      "sočnym",
+      "sočnojų",
+    ],
+    "loc": [
+      "sočnom",
+      "sočnoj",
+    ],
+    "nom": [
+      "sočny",
+      "sočno",
+      "sočna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37218 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "tutȯšnjejši",
+      "tutȯšnjeje",
+    ],
+    "positive": [
+      "tutȯšnji",
+      "tutȯšnje",
+    ],
+    "superlative": [
+      "najtutȯšnjejši",
+      "najtutȯšnjeje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "tutȯšnjih / tutȯšnje",
+      "tutȯšnje",
+    ],
+    "dat": [
+      "tutȯšnjim",
+    ],
+    "gen": [
+      "tutȯšnjih",
+    ],
+    "ins": [
+      "tutȯšnjimi",
+    ],
+    "loc": [
+      "tutȯšnjih",
+    ],
+    "nom": [
+      "tutȯšnji / tutȯšnje",
+      "tutȯšnje",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "tutȯšnjego / tutȯšnji",
+      "tutȯšnje",
+      "tutȯšnjų",
+    ],
+    "dat": [
+      "tutȯšnjemu",
+      "tutȯšnjej",
+    ],
+    "gen": [
+      "tutȯšnjego",
+      "tutȯšnjej",
+    ],
+    "ins": [
+      "tutȯšnjim",
+      "tutȯšnjejų",
+    ],
+    "loc": [
+      "tutȯšnjem",
+      "tutȯšnjej",
+    ],
+    "nom": [
+      "tutȯšnji",
+      "tutȯšnje",
+      "tutȯšnja",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37219 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "tamošnjejši",
+      "tamošnjeje",
+    ],
+    "positive": [
+      "tamošnji",
+      "tamošnje",
+    ],
+    "superlative": [
+      "najtamošnjejši",
+      "najtamošnjeje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "tamošnjih / tamošnje",
+      "tamošnje",
+    ],
+    "dat": [
+      "tamošnjim",
+    ],
+    "gen": [
+      "tamošnjih",
+    ],
+    "ins": [
+      "tamošnjimi",
+    ],
+    "loc": [
+      "tamošnjih",
+    ],
+    "nom": [
+      "tamošnji / tamošnje",
+      "tamošnje",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "tamošnjego / tamošnji",
+      "tamošnje",
+      "tamošnjų",
+    ],
+    "dat": [
+      "tamošnjemu",
+      "tamošnjej",
+    ],
+    "gen": [
+      "tamošnjego",
+      "tamošnjej",
+    ],
+    "ins": [
+      "tamošnjim",
+      "tamošnjejų",
+    ],
+    "loc": [
+      "tamošnjem",
+      "tamošnjej",
+    ],
+    "nom": [
+      "tamošnji",
+      "tamošnje",
+      "tamošnja",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37225 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "filharmoničnějši",
+      "filharmoničněje",
+    ],
+    "positive": [
+      "filharmoničny",
+      "filharmonično",
+    ],
+    "superlative": [
+      "najfilharmoničnějši",
+      "najfilharmoničněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "filharmoničnyh / filharmonične",
+      "filharmonične",
+    ],
+    "dat": [
+      "filharmoničnym",
+    ],
+    "gen": [
+      "filharmoničnyh",
+    ],
+    "ins": [
+      "filharmoničnymi",
+    ],
+    "loc": [
+      "filharmoničnyh",
+    ],
+    "nom": [
+      "filharmonični / filharmonične",
+      "filharmonične",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "filharmoničnogo / filharmoničny",
+      "filharmonično",
+      "filharmoničnų",
+    ],
+    "dat": [
+      "filharmoničnomu",
+      "filharmoničnoj",
+    ],
+    "gen": [
+      "filharmoničnogo",
+      "filharmoničnoj",
+    ],
+    "ins": [
+      "filharmoničnym",
+      "filharmoničnojų",
+    ],
+    "loc": [
+      "filharmoničnom",
+      "filharmoničnoj",
+    ],
+    "nom": [
+      "filharmoničny",
+      "filharmonično",
+      "filharmonična",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37239 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "operativnějši",
+      "operativněje",
+    ],
+    "positive": [
+      "operativny",
+      "operativno",
+    ],
+    "superlative": [
+      "najoperativnějši",
+      "najoperativněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "operativnyh / operativne",
+      "operativne",
+    ],
+    "dat": [
+      "operativnym",
+    ],
+    "gen": [
+      "operativnyh",
+    ],
+    "ins": [
+      "operativnymi",
+    ],
+    "loc": [
+      "operativnyh",
+    ],
+    "nom": [
+      "operativni / operativne",
+      "operativne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "operativnogo / operativny",
+      "operativno",
+      "operativnų",
+    ],
+    "dat": [
+      "operativnomu",
+      "operativnoj",
+    ],
+    "gen": [
+      "operativnogo",
+      "operativnoj",
+    ],
+    "ins": [
+      "operativnym",
+      "operativnojų",
+    ],
+    "loc": [
+      "operativnom",
+      "operativnoj",
+    ],
+    "nom": [
+      "operativny",
+      "operativno",
+      "operativna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37241 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "modularnějši",
+      "modularněje",
+    ],
+    "positive": [
+      "modularny",
+      "modularno",
+    ],
+    "superlative": [
+      "najmodularnějši",
+      "najmodularněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "modularnyh / modularne",
+      "modularne",
+    ],
+    "dat": [
+      "modularnym",
+    ],
+    "gen": [
+      "modularnyh",
+    ],
+    "ins": [
+      "modularnymi",
+    ],
+    "loc": [
+      "modularnyh",
+    ],
+    "nom": [
+      "modularni / modularne",
+      "modularne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "modularnogo / modularny",
+      "modularno",
+      "modularnų",
+    ],
+    "dat": [
+      "modularnomu",
+      "modularnoj",
+    ],
+    "gen": [
+      "modularnogo",
+      "modularnoj",
+    ],
+    "ins": [
+      "modularnym",
+      "modularnojų",
+    ],
+    "loc": [
+      "modularnom",
+      "modularnoj",
+    ],
+    "nom": [
+      "modularny",
+      "modularno",
+      "modularna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37250 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "zadovoliteljnějši",
+      "zadovoliteljněje",
+    ],
+    "positive": [
+      "zadovoliteljny",
+      "zadovoliteljno",
+    ],
+    "superlative": [
+      "najzadovoliteljnějši",
+      "najzadovoliteljněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "zadovoliteljnyh / zadovoliteljne",
+      "zadovoliteljne",
+    ],
+    "dat": [
+      "zadovoliteljnym",
+    ],
+    "gen": [
+      "zadovoliteljnyh",
+    ],
+    "ins": [
+      "zadovoliteljnymi",
+    ],
+    "loc": [
+      "zadovoliteljnyh",
+    ],
+    "nom": [
+      "zadovoliteljni / zadovoliteljne",
+      "zadovoliteljne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "zadovoliteljnogo / zadovoliteljny",
+      "zadovoliteljno",
+      "zadovoliteljnų",
+    ],
+    "dat": [
+      "zadovoliteljnomu",
+      "zadovoliteljnoj",
+    ],
+    "gen": [
+      "zadovoliteljnogo",
+      "zadovoliteljnoj",
+    ],
+    "ins": [
+      "zadovoliteljnym",
+      "zadovoliteljnojų",
+    ],
+    "loc": [
+      "zadovoliteljnom",
+      "zadovoliteljnoj",
+    ],
+    "nom": [
+      "zadovoliteljny",
+      "zadovoliteljno",
+      "zadovoliteljna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37251 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "nezadovoliteljnějši",
+      "nezadovoliteljněje",
+    ],
+    "positive": [
+      "nezadovoliteljny",
+      "nezadovoliteljno",
+    ],
+    "superlative": [
+      "najnezadovoliteljnějši",
+      "najnezadovoliteljněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "nezadovoliteljnyh / nezadovoliteljne",
+      "nezadovoliteljne",
+    ],
+    "dat": [
+      "nezadovoliteljnym",
+    ],
+    "gen": [
+      "nezadovoliteljnyh",
+    ],
+    "ins": [
+      "nezadovoliteljnymi",
+    ],
+    "loc": [
+      "nezadovoliteljnyh",
+    ],
+    "nom": [
+      "nezadovoliteljni / nezadovoliteljne",
+      "nezadovoliteljne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "nezadovoliteljnogo / nezadovoliteljny",
+      "nezadovoliteljno",
+      "nezadovoliteljnų",
+    ],
+    "dat": [
+      "nezadovoliteljnomu",
+      "nezadovoliteljnoj",
+    ],
+    "gen": [
+      "nezadovoliteljnogo",
+      "nezadovoliteljnoj",
+    ],
+    "ins": [
+      "nezadovoliteljnym",
+      "nezadovoliteljnojų",
+    ],
+    "loc": [
+      "nezadovoliteljnom",
+      "nezadovoliteljnoj",
+    ],
+    "nom": [
+      "nezadovoliteljny",
+      "nezadovoliteljno",
+      "nezadovoliteljna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37272 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "melanholičnějši",
+      "melanholičněje",
+    ],
+    "positive": [
+      "melanholičny",
+      "melanholično",
+    ],
+    "superlative": [
+      "najmelanholičnějši",
+      "najmelanholičněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "melanholičnyh / melanholične",
+      "melanholične",
+    ],
+    "dat": [
+      "melanholičnym",
+    ],
+    "gen": [
+      "melanholičnyh",
+    ],
+    "ins": [
+      "melanholičnymi",
+    ],
+    "loc": [
+      "melanholičnyh",
+    ],
+    "nom": [
+      "melanholični / melanholične",
+      "melanholične",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "melanholičnogo / melanholičny",
+      "melanholično",
+      "melanholičnų",
+    ],
+    "dat": [
+      "melanholičnomu",
+      "melanholičnoj",
+    ],
+    "gen": [
+      "melanholičnogo",
+      "melanholičnoj",
+    ],
+    "ins": [
+      "melanholičnym",
+      "melanholičnojų",
+    ],
+    "loc": [
+      "melanholičnom",
+      "melanholičnoj",
+    ],
+    "nom": [
+      "melanholičny",
+      "melanholično",
+      "melanholična",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37274 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "sangviničnějši",
+      "sangviničněje",
+    ],
+    "positive": [
+      "sangviničny",
+      "sangvinično",
+    ],
+    "superlative": [
+      "najsangviničnějši",
+      "najsangviničněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "sangviničnyh / sangvinične",
+      "sangvinične",
+    ],
+    "dat": [
+      "sangviničnym",
+    ],
+    "gen": [
+      "sangviničnyh",
+    ],
+    "ins": [
+      "sangviničnymi",
+    ],
+    "loc": [
+      "sangviničnyh",
+    ],
+    "nom": [
+      "sangvinični / sangvinične",
+      "sangvinične",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "sangviničnogo / sangviničny",
+      "sangvinično",
+      "sangviničnų",
+    ],
+    "dat": [
+      "sangviničnomu",
+      "sangviničnoj",
+    ],
+    "gen": [
+      "sangviničnogo",
+      "sangviničnoj",
+    ],
+    "ins": [
+      "sangviničnym",
+      "sangviničnojų",
+    ],
+    "loc": [
+      "sangviničnom",
+      "sangviničnoj",
+    ],
+    "nom": [
+      "sangviničny",
+      "sangvinično",
+      "sangvinična",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37276 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "holeričnějši",
+      "holeričněje",
+    ],
+    "positive": [
+      "holeričny",
+      "holerično",
+    ],
+    "superlative": [
+      "najholeričnějši",
+      "najholeričněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "holeričnyh / holerične",
+      "holerične",
+    ],
+    "dat": [
+      "holeričnym",
+    ],
+    "gen": [
+      "holeričnyh",
+    ],
+    "ins": [
+      "holeričnymi",
+    ],
+    "loc": [
+      "holeričnyh",
+    ],
+    "nom": [
+      "holerični / holerične",
+      "holerične",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "holeričnogo / holeričny",
+      "holerično",
+      "holeričnų",
+    ],
+    "dat": [
+      "holeričnomu",
+      "holeričnoj",
+    ],
+    "gen": [
+      "holeričnogo",
+      "holeričnoj",
+    ],
+    "ins": [
+      "holeričnym",
+      "holeričnojų",
+    ],
+    "loc": [
+      "holeričnom",
+      "holeričnoj",
+    ],
+    "nom": [
+      "holeričny",
+      "holerično",
+      "holerična",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37280 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "fajnějši",
+      "fajněje",
+    ],
+    "positive": [
+      "fajny",
+      "fajno",
+    ],
+    "superlative": [
+      "najfajnějši",
+      "najfajněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "fajnyh / fajne",
+      "fajne",
+    ],
+    "dat": [
+      "fajnym",
+    ],
+    "gen": [
+      "fajnyh",
+    ],
+    "ins": [
+      "fajnymi",
+    ],
+    "loc": [
+      "fajnyh",
+    ],
+    "nom": [
+      "fajni / fajne",
+      "fajne",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "fajnogo / fajny",
+      "fajno",
+      "fajnų",
+    ],
+    "dat": [
+      "fajnomu",
+      "fajnoj",
+    ],
+    "gen": [
+      "fajnogo",
+      "fajnoj",
+    ],
+    "ins": [
+      "fajnym",
+      "fajnojų",
+    ],
+    "loc": [
+      "fajnom",
+      "fajnoj",
+    ],
+    "nom": [
+      "fajny",
+      "fajno",
+      "fajna",
+    ],
+  },
+}
+`;
+
+exports[`adjective 37284 1`] = `
+{
+  "comparison": {
+    "comparative": [
+      "optimističnějši",
+      "optimističněje",
+    ],
+    "positive": [
+      "optimističny",
+      "optimistično",
+    ],
+    "superlative": [
+      "najoptimističnějši",
+      "najoptimističněje",
+    ],
+  },
+  "plural": {
+    "acc": [
+      "optimističnyh / optimistične",
+      "optimistične",
+    ],
+    "dat": [
+      "optimističnym",
+    ],
+    "gen": [
+      "optimističnyh",
+    ],
+    "ins": [
+      "optimističnymi",
+    ],
+    "loc": [
+      "optimističnyh",
+    ],
+    "nom": [
+      "optimistični / optimistične",
+      "optimistične",
+    ],
+  },
+  "singular": {
+    "acc": [
+      "optimističnogo / optimističny",
+      "optimistično",
+      "optimističnų",
+    ],
+    "dat": [
+      "optimističnomu",
+      "optimističnoj",
+    ],
+    "gen": [
+      "optimističnogo",
+      "optimističnoj",
+    ],
+    "ins": [
+      "optimističnym",
+      "optimističnojų",
+    ],
+    "loc": [
+      "optimističnom",
+      "optimističnoj",
+    ],
+    "nom": [
+      "optimističny",
+      "optimistično",
+      "optimistična",
     ],
   },
 }

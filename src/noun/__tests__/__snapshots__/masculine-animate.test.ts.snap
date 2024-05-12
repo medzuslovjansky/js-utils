@@ -1,38 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`noun masculine (animate) -37051 1`] = `
-{
-  "acc": [
-    "vojaka",
-    "vojakov",
-  ],
-  "dat": [
-    "vojaku",
-    "vojakam",
-  ],
-  "gen": [
-    "vojaka",
-    "vojakov",
-  ],
-  "ins": [
-    "vojakom",
-    "vojakami",
-  ],
-  "loc": [
-    "vojaku",
-    "vojakah",
-  ],
-  "nom": [
-    "vojak",
-    "vojaki",
-  ],
-  "voc": [
-    "vojače",
-    "vojaki",
-  ],
-}
-`;
-
 exports[`noun masculine (animate) 33 1`] = `
 {
   "acc": [
@@ -3765,32 +3732,32 @@ exports[`noun masculine (animate) 1468 1`] = `
 exports[`noun masculine (animate) 1469 1`] = `
 {
   "acc": [
-    "pěvatelja",
-    "pěvateljev",
+    "pěvca",
+    "pěvcev",
   ],
   "dat": [
-    "pěvatelju",
-    "pěvateljam",
+    "pěvcu",
+    "pěvcam",
   ],
   "gen": [
-    "pěvatelja",
-    "pěvateljev",
+    "pěvca",
+    "pěvcev",
   ],
   "ins": [
-    "pěvateljem",
-    "pěvateljami",
+    "pěvcem",
+    "pěvcami",
   ],
   "loc": [
-    "pěvatelju",
-    "pěvateljah",
+    "pěvcu",
+    "pěvcah",
   ],
   "nom": [
-    "pěvatelj",
-    "pěvatelji",
+    "pěvėc",
+    "pěvci",
   ],
   "voc": [
-    "pěvatelju",
-    "pěvatelji",
+    "pěvcu",
+    "pěvci",
   ],
 }
 `;
@@ -8686,32 +8653,32 @@ exports[`noun masculine (animate) 4301 1`] = `
 exports[`noun masculine (animate) 4320 1`] = `
 {
   "acc": [
-    "perverznika",
-    "perverznikov",
+    "perversnika",
+    "perversnikov",
   ],
   "dat": [
-    "perverzniku",
-    "perverznikam",
+    "perversniku",
+    "perversnikam",
   ],
   "gen": [
-    "perverznika",
-    "perverznikov",
+    "perversnika",
+    "perversnikov",
   ],
   "ins": [
-    "perverznikom",
-    "perverznikami",
+    "perversnikom",
+    "perversnikami",
   ],
   "loc": [
-    "perverzniku",
-    "perverznikah",
+    "perversniku",
+    "perversnikah",
   ],
   "nom": [
-    "perverznik",
-    "perverzniki",
+    "perversnik",
+    "perversniki",
   ],
   "voc": [
-    "perverzniče",
-    "perverzniki",
+    "perversniče",
+    "perversniki",
   ],
 }
 `;
@@ -11860,31 +11827,31 @@ exports[`noun masculine (animate) 7319 1`] = `
 exports[`noun masculine (animate) 7328 1`] = `
 {
   "acc": [
-    "drugara",
-    "drugarov",
+    "drugaŕa",
+    "drugaŕev",
   ],
   "dat": [
-    "drugaru",
-    "drugaram",
+    "drugaŕu",
+    "drugaŕam",
   ],
   "gen": [
-    "drugara",
-    "drugarov",
+    "drugaŕa",
+    "drugaŕev",
   ],
   "ins": [
-    "drugarom",
-    "drugarami",
+    "drugaŕem",
+    "drugaŕami",
   ],
   "loc": [
-    "drugaru",
-    "drugarah",
+    "drugaŕu",
+    "drugaŕah",
   ],
   "nom": [
-    "drugar",
+    "drugaŕ",
     "drugari",
   ],
   "voc": [
-    "drugare",
+    "drugaŕu",
     "drugari",
   ],
 }
@@ -11893,32 +11860,32 @@ exports[`noun masculine (animate) 7328 1`] = `
 exports[`noun masculine (animate) 7393 1`] = `
 {
   "acc": [
-    "dveŕnika",
-    "dveŕnikov",
+    "dvėŕnika",
+    "dvėŕnikov",
   ],
   "dat": [
-    "dveŕniku",
-    "dveŕnikam",
+    "dvėŕniku",
+    "dvėŕnikam",
   ],
   "gen": [
-    "dveŕnika",
-    "dveŕnikov",
+    "dvėŕnika",
+    "dvėŕnikov",
   ],
   "ins": [
-    "dveŕnikom",
-    "dveŕnikami",
+    "dvėŕnikom",
+    "dvėŕnikami",
   ],
   "loc": [
-    "dveŕniku",
-    "dveŕnikah",
+    "dvėŕniku",
+    "dvėŕnikah",
   ],
   "nom": [
-    "dveŕnik",
-    "dveŕniki",
+    "dvėŕnik",
+    "dvėŕniki",
   ],
   "voc": [
-    "dveŕniče",
-    "dveŕniki",
+    "dvėŕniče",
+    "dvėŕniki",
   ],
 }
 `;
@@ -13884,38 +13851,7 @@ exports[`noun masculine (animate) 11490 1`] = `
 
 exports[`noun masculine (animate) 11651 1`] = `null`;
 
-exports[`noun masculine (animate) 11716 1`] = `
-{
-  "acc": [
-    "ranečnika",
-    "ranečnikov",
-  ],
-  "dat": [
-    "ranečniku",
-    "ranečnikam",
-  ],
-  "gen": [
-    "ranečnika",
-    "ranečnikov",
-  ],
-  "ins": [
-    "ranečnikom",
-    "ranečnikami",
-  ],
-  "loc": [
-    "ranečniku",
-    "ranečnikah",
-  ],
-  "nom": [
-    "ranečnik",
-    "ranečniki",
-  ],
-  "voc": [
-    "ranečniče",
-    "ranečniki",
-  ],
-}
-`;
+exports[`noun masculine (animate) 11716 1`] = `null`;
 
 exports[`noun masculine (animate) 11789 1`] = `
 {
@@ -19877,39 +19813,6 @@ exports[`noun masculine (animate) 19090 1`] = `
 }
 `;
 
-exports[`noun masculine (animate) 19156 1`] = `
-{
-  "acc": [
-    "vȯzråstka",
-    "vȯzråstkov",
-  ],
-  "dat": [
-    "vȯzråstku",
-    "vȯzråstkam",
-  ],
-  "gen": [
-    "vȯzråstka",
-    "vȯzråstkov",
-  ],
-  "ins": [
-    "vȯzråstkom",
-    "vȯzråstkami",
-  ],
-  "loc": [
-    "vȯzråstku",
-    "vȯzråstkah",
-  ],
-  "nom": [
-    "vȯzråstȯk",
-    "vȯzråstki",
-  ],
-  "voc": [
-    "vȯzråstče",
-    "vȯzråstki",
-  ],
-}
-`;
-
 exports[`noun masculine (animate) 19201 1`] = `
 {
   "acc": [
@@ -21002,32 +20905,32 @@ exports[`noun masculine (animate) 20377 1`] = `
 exports[`noun masculine (animate) 20378 1`] = `
 {
   "acc": [
-    "Greka",
-    "Grekov",
+    "Grka",
+    "Grkov",
   ],
   "dat": [
-    "Greku",
-    "Grekam",
+    "Grku",
+    "Grkam",
   ],
   "gen": [
-    "Greka",
-    "Grekov",
+    "Grka",
+    "Grkov",
   ],
   "ins": [
-    "Grekom",
-    "Grekami",
+    "Grkom",
+    "Grkami",
   ],
   "loc": [
-    "Greku",
-    "Grekah",
+    "Grku",
+    "Grkah",
   ],
   "nom": [
-    "Grek",
-    "Greki",
+    "Grėk",
+    "Grki",
   ],
   "voc": [
-    "Greče",
-    "Greki",
+    "Grče",
+    "Grki",
   ],
 }
 `;
@@ -22660,32 +22563,32 @@ exports[`noun masculine (animate) 21096 1`] = `
 exports[`noun masculine (animate) 21143 1`] = `
 {
   "acc": [
-    "rodopisca",
-    "rodopiscev",
+    "rodoslovca",
+    "rodoslovcev",
   ],
   "dat": [
-    "rodopiscu",
-    "rodopiscam",
+    "rodoslovcu",
+    "rodoslovcam",
   ],
   "gen": [
-    "rodopisca",
-    "rodopiscev",
+    "rodoslovca",
+    "rodoslovcev",
   ],
   "ins": [
-    "rodopiscem",
-    "rodopiscami",
+    "rodoslovcem",
+    "rodoslovcami",
   ],
   "loc": [
-    "rodopiscu",
-    "rodopiscah",
+    "rodoslovcu",
+    "rodoslovcah",
   ],
   "nom": [
-    "rodopisec",
-    "rodopisci",
+    "rodoslovec",
+    "rodoslovci",
   ],
   "voc": [
-    "rodopisče",
-    "rodopisci",
+    "rodoslovče",
+    "rodoslovci",
   ],
 }
 `;
@@ -40115,6 +40018,1524 @@ exports[`noun masculine (animate) 36927 1`] = `
   "voc": [
     "vajatelju",
     "vajatelji",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 36971 1`] = `
+{
+  "acc": [
+    "gajdaŕa",
+    "gajdaŕev",
+  ],
+  "dat": [
+    "gajdaŕu",
+    "gajdaŕam",
+  ],
+  "gen": [
+    "gajdaŕa",
+    "gajdaŕev",
+  ],
+  "ins": [
+    "gajdaŕem",
+    "gajdaŕami",
+  ],
+  "loc": [
+    "gajdaŕu",
+    "gajdaŕah",
+  ],
+  "nom": [
+    "gajdaŕ",
+    "gajdari",
+  ],
+  "voc": [
+    "gajdaŕu",
+    "gajdari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 36976 1`] = `
+{
+  "acc": [
+    "solista",
+    "solistov",
+  ],
+  "dat": [
+    "solistu",
+    "solistam",
+  ],
+  "gen": [
+    "solista",
+    "solistov",
+  ],
+  "ins": [
+    "solistom",
+    "solistami",
+  ],
+  "loc": [
+    "solistu",
+    "solistah",
+  ],
+  "nom": [
+    "solist",
+    "solisti",
+  ],
+  "voc": [
+    "soliste",
+    "solisti",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 36984 1`] = `
+{
+  "acc": [
+    "vojaka",
+    "vojakov",
+  ],
+  "dat": [
+    "vojaku",
+    "vojakam",
+  ],
+  "gen": [
+    "vojaka",
+    "vojakov",
+  ],
+  "ins": [
+    "vojakom",
+    "vojakami",
+  ],
+  "loc": [
+    "vojaku",
+    "vojakah",
+  ],
+  "nom": [
+    "vojak",
+    "vojaki",
+  ],
+  "voc": [
+    "vojače",
+    "vojaki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37020 1`] = `
+{
+  "acc": [
+    "krčmaŕa",
+    "krčmaŕev",
+  ],
+  "dat": [
+    "krčmaŕu",
+    "krčmaŕam",
+  ],
+  "gen": [
+    "krčmaŕa",
+    "krčmaŕev",
+  ],
+  "ins": [
+    "krčmaŕem",
+    "krčmaŕami",
+  ],
+  "loc": [
+    "krčmaŕu",
+    "krčmaŕah",
+  ],
+  "nom": [
+    "krčmaŕ",
+    "krčmari",
+  ],
+  "voc": [
+    "krčmaŕu",
+    "krčmari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37022 1`] = `
+{
+  "acc": [
+    "ser",
+    "ser",
+  ],
+  "dat": [
+    "ser",
+    "ser",
+  ],
+  "gen": [
+    "ser",
+    "ser",
+  ],
+  "ins": [
+    "ser",
+    "ser",
+  ],
+  "loc": [
+    "ser",
+    "ser",
+  ],
+  "nom": [
+    "ser",
+    "ser",
+  ],
+  "voc": [
+    "ser",
+    "ser",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37025 1`] = `
+{
+  "acc": [
+    "mulata",
+    "mulatov",
+  ],
+  "dat": [
+    "mulatu",
+    "mulatam",
+  ],
+  "gen": [
+    "mulata",
+    "mulatov",
+  ],
+  "ins": [
+    "mulatom",
+    "mulatami",
+  ],
+  "loc": [
+    "mulatu",
+    "mulatah",
+  ],
+  "nom": [
+    "mulat",
+    "mulati",
+  ],
+  "voc": [
+    "mulate",
+    "mulati",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37026 1`] = `
+{
+  "acc": [
+    "mula",
+    "mulov",
+  ],
+  "dat": [
+    "mulu",
+    "mulam",
+  ],
+  "gen": [
+    "mula",
+    "mulov",
+  ],
+  "ins": [
+    "mulom",
+    "mulami",
+  ],
+  "loc": [
+    "mulu",
+    "mulah",
+  ],
+  "nom": [
+    "mul",
+    "muli",
+  ],
+  "voc": [
+    "mule",
+    "muli",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37036 1`] = `
+{
+  "acc": [
+    "bakteriofaga",
+    "bakteriofagov",
+  ],
+  "dat": [
+    "bakteriofagu",
+    "bakteriofagam",
+  ],
+  "gen": [
+    "bakteriofaga",
+    "bakteriofagov",
+  ],
+  "ins": [
+    "bakteriofagom",
+    "bakteriofagami",
+  ],
+  "loc": [
+    "bakteriofagu",
+    "bakteriofagah",
+  ],
+  "nom": [
+    "bakteriofag",
+    "bakteriofagi",
+  ],
+  "voc": [
+    "bakteriofaže",
+    "bakteriofagi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37036-1 1`] = `
+{
+  "acc": [
+    "faga",
+    "fagov",
+  ],
+  "dat": [
+    "fagu",
+    "fagam",
+  ],
+  "gen": [
+    "faga",
+    "fagov",
+  ],
+  "ins": [
+    "fagom",
+    "fagami",
+  ],
+  "loc": [
+    "fagu",
+    "fagah",
+  ],
+  "nom": [
+    "fag",
+    "fagi",
+  ],
+  "voc": [
+    "faže",
+    "fagi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37039 1`] = `
+{
+  "acc": [
+    "suslika",
+    "suslikov",
+  ],
+  "dat": [
+    "susliku",
+    "suslikam",
+  ],
+  "gen": [
+    "suslika",
+    "suslikov",
+  ],
+  "ins": [
+    "suslikom",
+    "suslikami",
+  ],
+  "loc": [
+    "susliku",
+    "suslikah",
+  ],
+  "nom": [
+    "suslik",
+    "susliki",
+  ],
+  "voc": [
+    "susliče",
+    "susliki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37040 1`] = `
+{
+  "acc": [
+    "svistaka",
+    "svistakov",
+  ],
+  "dat": [
+    "svistaku",
+    "svistakam",
+  ],
+  "gen": [
+    "svistaka",
+    "svistakov",
+  ],
+  "ins": [
+    "svistakom",
+    "svistakami",
+  ],
+  "loc": [
+    "svistaku",
+    "svistakah",
+  ],
+  "nom": [
+    "svistak",
+    "svistaki",
+  ],
+  "voc": [
+    "svistače",
+    "svistaki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37040-1 1`] = `
+{
+  "acc": [
+    "svišča",
+    "sviščev",
+  ],
+  "dat": [
+    "svišču",
+    "sviščam",
+  ],
+  "gen": [
+    "svišča",
+    "sviščev",
+  ],
+  "ins": [
+    "sviščem",
+    "sviščami",
+  ],
+  "loc": [
+    "svišču",
+    "sviščah",
+  ],
+  "nom": [
+    "svišč",
+    "svišči",
+  ],
+  "voc": [
+    "svišču",
+    "svišči",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37041 1`] = `
+{
+  "acc": [
+    "pȯlha",
+    "pȯlhov",
+  ],
+  "dat": [
+    "pȯlhu",
+    "pȯlham",
+  ],
+  "gen": [
+    "pȯlha",
+    "pȯlhov",
+  ],
+  "ins": [
+    "pȯlhom",
+    "pȯlhami",
+  ],
+  "loc": [
+    "pȯlhu",
+    "pȯlhah",
+  ],
+  "nom": [
+    "pȯlh",
+    "pȯlhi",
+  ],
+  "voc": [
+    "pȯlše",
+    "pȯlhi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37048 1`] = `
+{
+  "acc": [
+    "gryzuna",
+    "gryzunov",
+  ],
+  "dat": [
+    "gryzunu",
+    "gryzunam",
+  ],
+  "gen": [
+    "gryzuna",
+    "gryzunov",
+  ],
+  "ins": [
+    "gryzunom",
+    "gryzunami",
+  ],
+  "loc": [
+    "gryzunu",
+    "gryzunah",
+  ],
+  "nom": [
+    "gryzun",
+    "gryzuni",
+  ],
+  "voc": [
+    "gryzune",
+    "gryzuni",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37049 1`] = `
+{
+  "acc": [
+    "džokeja",
+    "džokejev",
+  ],
+  "dat": [
+    "džokeju",
+    "džokejam",
+  ],
+  "gen": [
+    "džokeja",
+    "džokejev",
+  ],
+  "ins": [
+    "džokejem",
+    "džokejami",
+  ],
+  "loc": [
+    "džokeju",
+    "džokejah",
+  ],
+  "nom": [
+    "džokej",
+    "džokeji",
+  ],
+  "voc": [
+    "džokeju",
+    "džokeji",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37050 1`] = `
+{
+  "acc": [
+    "žokeja",
+    "žokejev",
+  ],
+  "dat": [
+    "žokeju",
+    "žokejam",
+  ],
+  "gen": [
+    "žokeja",
+    "žokejev",
+  ],
+  "ins": [
+    "žokejem",
+    "žokejami",
+  ],
+  "loc": [
+    "žokeju",
+    "žokejah",
+  ],
+  "nom": [
+    "žokej",
+    "žokeji",
+  ],
+  "voc": [
+    "žokeju",
+    "žokeji",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37051 1`] = `
+{
+  "acc": [
+    "diskdžokeja",
+    "diskdžokejev",
+  ],
+  "dat": [
+    "diskdžokeju",
+    "diskdžokejam",
+  ],
+  "gen": [
+    "diskdžokeja",
+    "diskdžokejev",
+  ],
+  "ins": [
+    "diskdžokejem",
+    "diskdžokejami",
+  ],
+  "loc": [
+    "diskdžokeju",
+    "diskdžokejah",
+  ],
+  "nom": [
+    "diskdžokej",
+    "diskdžokeji",
+  ],
+  "voc": [
+    "diskdžokeju",
+    "diskdžokeji",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37098 1`] = `
+{
+  "acc": [
+    "slabaka",
+    "slabakov",
+  ],
+  "dat": [
+    "slabaku",
+    "slabakam",
+  ],
+  "gen": [
+    "slabaka",
+    "slabakov",
+  ],
+  "ins": [
+    "slabakom",
+    "slabakami",
+  ],
+  "loc": [
+    "slabaku",
+    "slabakah",
+  ],
+  "nom": [
+    "slabak",
+    "slabaki",
+  ],
+  "voc": [
+    "slabače",
+    "slabaki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37101 1`] = `
+{
+  "acc": [
+    "fotografa",
+    "fotografov",
+  ],
+  "dat": [
+    "fotografu",
+    "fotografam",
+  ],
+  "gen": [
+    "fotografa",
+    "fotografov",
+  ],
+  "ins": [
+    "fotografom",
+    "fotografami",
+  ],
+  "loc": [
+    "fotografu",
+    "fotografah",
+  ],
+  "nom": [
+    "fotograf",
+    "fotografi",
+  ],
+  "voc": [
+    "fotografe",
+    "fotografi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37102 1`] = `
+{
+  "acc": [
+    "gimnasta",
+    "gimnastov",
+  ],
+  "dat": [
+    "gimnastu",
+    "gimnastam",
+  ],
+  "gen": [
+    "gimnasta",
+    "gimnastov",
+  ],
+  "ins": [
+    "gimnastom",
+    "gimnastami",
+  ],
+  "loc": [
+    "gimnastu",
+    "gimnastah",
+  ],
+  "nom": [
+    "gimnast",
+    "gimnasti",
+  ],
+  "voc": [
+    "gimnaste",
+    "gimnasti",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37106 1`] = `
+{
+  "acc": [
+    "instrumentalista",
+    "instrumentalistov",
+  ],
+  "dat": [
+    "instrumentalistu",
+    "instrumentalistam",
+  ],
+  "gen": [
+    "instrumentalista",
+    "instrumentalistov",
+  ],
+  "ins": [
+    "instrumentalistom",
+    "instrumentalistami",
+  ],
+  "loc": [
+    "instrumentalistu",
+    "instrumentalistah",
+  ],
+  "nom": [
+    "instrumentalist",
+    "instrumentalisti",
+  ],
+  "voc": [
+    "instrumentaliste",
+    "instrumentalisti",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37114 1`] = `
+{
+  "acc": [
+    "gurmana",
+    "gurmanov",
+  ],
+  "dat": [
+    "gurmanu",
+    "gurmanam",
+  ],
+  "gen": [
+    "gurmana",
+    "gurmanov",
+  ],
+  "ins": [
+    "gurmanom",
+    "gurmanami",
+  ],
+  "loc": [
+    "gurmanu",
+    "gurmanah",
+  ],
+  "nom": [
+    "gurman",
+    "gurmani",
+  ],
+  "voc": [
+    "gurmane",
+    "gurmani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37130 1`] = `
+{
+  "acc": [
+    "lingvista",
+    "lingvistov",
+  ],
+  "dat": [
+    "lingvistu",
+    "lingvistam",
+  ],
+  "gen": [
+    "lingvista",
+    "lingvistov",
+  ],
+  "ins": [
+    "lingvistom",
+    "lingvistami",
+  ],
+  "loc": [
+    "lingvistu",
+    "lingvistah",
+  ],
+  "nom": [
+    "lingvist",
+    "lingvisti",
+  ],
+  "voc": [
+    "lingviste",
+    "lingvisti",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37157 1`] = `
+{
+  "acc": [
+    "genealoga",
+    "genealogov",
+  ],
+  "dat": [
+    "genealogu",
+    "genealogam",
+  ],
+  "gen": [
+    "genealoga",
+    "genealogov",
+  ],
+  "ins": [
+    "genealogom",
+    "genealogami",
+  ],
+  "loc": [
+    "genealogu",
+    "genealogah",
+  ],
+  "nom": [
+    "genealog",
+    "genealogi",
+  ],
+  "voc": [
+    "genealože",
+    "genealogi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37192 1`] = `
+{
+  "acc": [
+    "Sirijca",
+    "Sirijcev",
+  ],
+  "dat": [
+    "Sirijcu",
+    "Sirijcam",
+  ],
+  "gen": [
+    "Sirijca",
+    "Sirijcev",
+  ],
+  "ins": [
+    "Sirijcem",
+    "Sirijcami",
+  ],
+  "loc": [
+    "Sirijcu",
+    "Sirijcah",
+  ],
+  "nom": [
+    "Sirijėc",
+    "Sirijci",
+  ],
+  "voc": [
+    "Sirijcu",
+    "Sirijci",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37205 1`] = `
+{
+  "acc": [
+    "slådkaŕa",
+    "slådkaŕev",
+  ],
+  "dat": [
+    "slådkaŕu",
+    "slådkaŕam",
+  ],
+  "gen": [
+    "slådkaŕa",
+    "slådkaŕev",
+  ],
+  "ins": [
+    "slådkaŕem",
+    "slådkaŕami",
+  ],
+  "loc": [
+    "slådkaŕu",
+    "slådkaŕah",
+  ],
+  "nom": [
+    "slådkaŕ",
+    "slådkari",
+  ],
+  "voc": [
+    "slådkaŕu",
+    "slådkari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37206 1`] = `
+{
+  "acc": [
+    "cukraŕa",
+    "cukraŕev",
+  ],
+  "dat": [
+    "cukraŕu",
+    "cukraŕam",
+  ],
+  "gen": [
+    "cukraŕa",
+    "cukraŕev",
+  ],
+  "ins": [
+    "cukraŕem",
+    "cukraŕami",
+  ],
+  "loc": [
+    "cukraŕu",
+    "cukraŕah",
+  ],
+  "nom": [
+    "cukraŕ",
+    "cukrari",
+  ],
+  "voc": [
+    "cukraŕu",
+    "cukrari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37210 1`] = `
+{
+  "acc": [
+    "cvěćaŕa",
+    "cvěćaŕev",
+  ],
+  "dat": [
+    "cvěćaŕu",
+    "cvěćaŕam",
+  ],
+  "gen": [
+    "cvěćaŕa",
+    "cvěćaŕev",
+  ],
+  "ins": [
+    "cvěćaŕem",
+    "cvěćaŕami",
+  ],
+  "loc": [
+    "cvěćaŕu",
+    "cvěćaŕah",
+  ],
+  "nom": [
+    "cvěćaŕ",
+    "cvěćari",
+  ],
+  "voc": [
+    "cvěćaŕu",
+    "cvěćari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37211 1`] = `
+{
+  "acc": [
+    "sleďa",
+    "sleďev",
+  ],
+  "dat": [
+    "sleďu",
+    "sleďam",
+  ],
+  "gen": [
+    "sleďa",
+    "sleďev",
+  ],
+  "ins": [
+    "sleďem",
+    "sleďami",
+  ],
+  "loc": [
+    "sleďu",
+    "sleďah",
+  ],
+  "nom": [
+    "sleď",
+    "sledi",
+  ],
+  "voc": [
+    "sleďu",
+    "sledi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37215 1`] = `
+{
+  "acc": [
+    "tapira",
+    "tapirov",
+  ],
+  "dat": [
+    "tapiru",
+    "tapiram",
+  ],
+  "gen": [
+    "tapira",
+    "tapirov",
+  ],
+  "ins": [
+    "tapirom",
+    "tapirami",
+  ],
+  "loc": [
+    "tapiru",
+    "tapirah",
+  ],
+  "nom": [
+    "tapir",
+    "tapiri",
+  ],
+  "voc": [
+    "tapire",
+    "tapiri",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37216 1`] = `
+{
+  "acc": [
+    "cigana",
+    "ciganov",
+  ],
+  "dat": [
+    "ciganu",
+    "ciganam",
+  ],
+  "gen": [
+    "cigana",
+    "ciganov",
+  ],
+  "ins": [
+    "ciganom",
+    "ciganami",
+  ],
+  "loc": [
+    "ciganu",
+    "ciganah",
+  ],
+  "nom": [
+    "cigan",
+    "cigani",
+  ],
+  "voc": [
+    "cigane",
+    "cigani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37216-1 1`] = `
+{
+  "acc": [
+    "ciganina",
+    "ciganov",
+  ],
+  "dat": [
+    "ciganinu",
+    "ciganam",
+  ],
+  "gen": [
+    "ciganina",
+    "ciganov",
+  ],
+  "ins": [
+    "ciganinom",
+    "ciganami",
+  ],
+  "loc": [
+    "ciganinu",
+    "ciganah",
+  ],
+  "nom": [
+    "ciganin",
+    "cigani",
+  ],
+  "voc": [
+    "ciganine",
+    "cigani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37223 1`] = `
+{
+  "acc": [
+    "gitarista",
+    "gitaristov",
+  ],
+  "dat": [
+    "gitaristu",
+    "gitaristam",
+  ],
+  "gen": [
+    "gitarista",
+    "gitaristov",
+  ],
+  "ins": [
+    "gitaristom",
+    "gitaristami",
+  ],
+  "loc": [
+    "gitaristu",
+    "gitaristah",
+  ],
+  "nom": [
+    "gitarist",
+    "gitaristi",
+  ],
+  "voc": [
+    "gitariste",
+    "gitaristi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37238 1`] = `
+{
+  "acc": [
+    "časovnikaŕa",
+    "časovnikaŕev",
+  ],
+  "dat": [
+    "časovnikaŕu",
+    "časovnikaŕam",
+  ],
+  "gen": [
+    "časovnikaŕa",
+    "časovnikaŕev",
+  ],
+  "ins": [
+    "časovnikaŕem",
+    "časovnikaŕami",
+  ],
+  "loc": [
+    "časovnikaŕu",
+    "časovnikaŕah",
+  ],
+  "nom": [
+    "časovnikaŕ",
+    "časovnikari",
+  ],
+  "voc": [
+    "časovnikaŕu",
+    "časovnikari",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37242 1`] = `
+{
+  "acc": [
+    "kapuna",
+    "kapunov",
+  ],
+  "dat": [
+    "kapunu",
+    "kapunam",
+  ],
+  "gen": [
+    "kapuna",
+    "kapunov",
+  ],
+  "ins": [
+    "kapunom",
+    "kapunami",
+  ],
+  "loc": [
+    "kapunu",
+    "kapunah",
+  ],
+  "nom": [
+    "kapun",
+    "kapuni",
+  ],
+  "voc": [
+    "kapune",
+    "kapuni",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37243 1`] = `
+{
+  "acc": [
+    "evnuha",
+    "evnuhov",
+  ],
+  "dat": [
+    "evnuhu",
+    "evnuham",
+  ],
+  "gen": [
+    "evnuha",
+    "evnuhov",
+  ],
+  "ins": [
+    "evnuhom",
+    "evnuhami",
+  ],
+  "loc": [
+    "evnuhu",
+    "evnuhah",
+  ],
+  "nom": [
+    "evnuh",
+    "evnuhi",
+  ],
+  "voc": [
+    "evnuše",
+    "evnuhi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37244 1`] = `
+{
+  "acc": [
+    "kastrata",
+    "kastratov",
+  ],
+  "dat": [
+    "kastratu",
+    "kastratam",
+  ],
+  "gen": [
+    "kastrata",
+    "kastratov",
+  ],
+  "ins": [
+    "kastratom",
+    "kastratami",
+  ],
+  "loc": [
+    "kastratu",
+    "kastratah",
+  ],
+  "nom": [
+    "kastrat",
+    "kastrati",
+  ],
+  "voc": [
+    "kastrate",
+    "kastrati",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37245 1`] = `
+{
+  "acc": [
+    "juvilera",
+    "juvilerov",
+  ],
+  "dat": [
+    "juvileru",
+    "juvileram",
+  ],
+  "gen": [
+    "juvilera",
+    "juvilerov",
+  ],
+  "ins": [
+    "juvilerom",
+    "juvilerami",
+  ],
+  "loc": [
+    "juvileru",
+    "juvilerah",
+  ],
+  "nom": [
+    "juviler",
+    "juvileri",
+  ],
+  "voc": [
+    "juvilere",
+    "juvileri",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37246 1`] = `
+{
+  "acc": [
+    "optika",
+    "optikov",
+  ],
+  "dat": [
+    "optiku",
+    "optikam",
+  ],
+  "gen": [
+    "optika",
+    "optikov",
+  ],
+  "ins": [
+    "optikom",
+    "optikami",
+  ],
+  "loc": [
+    "optiku",
+    "optikah",
+  ],
+  "nom": [
+    "optik",
+    "optiki",
+  ],
+  "voc": [
+    "optiče",
+    "optiki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37247 1`] = `
+{
+  "acc": [
+    "trųbača",
+    "trųbačev",
+  ],
+  "dat": [
+    "trųbaču",
+    "trųbačam",
+  ],
+  "gen": [
+    "trųbača",
+    "trųbačev",
+  ],
+  "ins": [
+    "trųbačem",
+    "trųbačami",
+  ],
+  "loc": [
+    "trųbaču",
+    "trųbačah",
+  ],
+  "nom": [
+    "trųbač",
+    "trųbači",
+  ],
+  "voc": [
+    "trųbaču",
+    "trųbači",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37266 1`] = `
+{
+  "acc": [
+    "debila",
+    "debilov",
+  ],
+  "dat": [
+    "debilu",
+    "debilam",
+  ],
+  "gen": [
+    "debila",
+    "debilov",
+  ],
+  "ins": [
+    "debilom",
+    "debilami",
+  ],
+  "loc": [
+    "debilu",
+    "debilah",
+  ],
+  "nom": [
+    "debil",
+    "debili",
+  ],
+  "voc": [
+    "debile",
+    "debili",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37271 1`] = `
+{
+  "acc": [
+    "melanholika",
+    "melanholikov",
+  ],
+  "dat": [
+    "melanholiku",
+    "melanholikam",
+  ],
+  "gen": [
+    "melanholika",
+    "melanholikov",
+  ],
+  "ins": [
+    "melanholikom",
+    "melanholikami",
+  ],
+  "loc": [
+    "melanholiku",
+    "melanholikah",
+  ],
+  "nom": [
+    "melanholik",
+    "melanholiki",
+  ],
+  "voc": [
+    "melanholiče",
+    "melanholiki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37273 1`] = `
+{
+  "acc": [
+    "sangvinika",
+    "sangvinikov",
+  ],
+  "dat": [
+    "sangviniku",
+    "sangvinikam",
+  ],
+  "gen": [
+    "sangvinika",
+    "sangvinikov",
+  ],
+  "ins": [
+    "sangvinikom",
+    "sangvinikami",
+  ],
+  "loc": [
+    "sangviniku",
+    "sangvinikah",
+  ],
+  "nom": [
+    "sangvinik",
+    "sangviniki",
+  ],
+  "voc": [
+    "sangviniče",
+    "sangviniki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37275 1`] = `
+{
+  "acc": [
+    "holerika",
+    "holerikov",
+  ],
+  "dat": [
+    "holeriku",
+    "holerikam",
+  ],
+  "gen": [
+    "holerika",
+    "holerikov",
+  ],
+  "ins": [
+    "holerikom",
+    "holerikami",
+  ],
+  "loc": [
+    "holeriku",
+    "holerikah",
+  ],
+  "nom": [
+    "holerik",
+    "holeriki",
+  ],
+  "voc": [
+    "holeriče",
+    "holeriki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37277 1`] = `
+{
+  "acc": [
+    "flegmatika",
+    "flegmatikov",
+  ],
+  "dat": [
+    "flegmatiku",
+    "flegmatikam",
+  ],
+  "gen": [
+    "flegmatika",
+    "flegmatikov",
+  ],
+  "ins": [
+    "flegmatikom",
+    "flegmatikami",
+  ],
+  "loc": [
+    "flegmatiku",
+    "flegmatikah",
+  ],
+  "nom": [
+    "flegmatik",
+    "flegmatiki",
+  ],
+  "voc": [
+    "flegmatiče",
+    "flegmatiki",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37283 1`] = `
+{
+  "acc": [
+    "optimista",
+    "optimistov",
+  ],
+  "dat": [
+    "optimistu",
+    "optimistam",
+  ],
+  "gen": [
+    "optimista",
+    "optimistov",
+  ],
+  "ins": [
+    "optimistom",
+    "optimistami",
+  ],
+  "loc": [
+    "optimistu",
+    "optimistah",
+  ],
+  "nom": [
+    "optimist",
+    "optimisti",
+  ],
+  "voc": [
+    "optimiste",
+    "optimisti",
   ],
 }
 `;

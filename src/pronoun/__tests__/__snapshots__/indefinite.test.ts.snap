@@ -1,9 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pronoun indefinite -37056 1`] = `null`;
-
-exports[`pronoun indefinite -37059 1`] = `null`;
-
 exports[`pronoun indefinite 4 1`] = `
 {
   "cases": {
@@ -1332,3 +1328,5 @@ exports[`pronoun indefinite 35113 1`] = `
   "type": "adjective",
 }
 `;
+
+exports[`pronoun indefinite 36989 1`] = `null`;
