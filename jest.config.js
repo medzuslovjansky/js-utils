@@ -75,6 +75,26 @@ const allureConfig = {
             })();
         </script>`;
     },
+    labels: {
+      tag: ({ testCase, value }) => {
+        if (!isId(testCase.title)) {
+          return value;
+        }
+
+        const tags = Array.isArray(value) ? value : value ? [value] : [];
+        const expected = testCase.failureDetails.find((detail) => detail?.matcherResult?.expected);
+        const actual = testCase.failureDetails.find((detail) => detail?.matcherResult?.actual);
+        if (expected && actual) {
+          tags.push('update');
+        } else if (actual) {
+          tags.push('addition');
+        } else if (expected) {
+          tags.push('deletion');
+        }
+
+        return tags;
+      },
+    },
   },
   testFile: {
     ignored: false,
