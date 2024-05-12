@@ -23,31 +23,38 @@ export enum FlavorizationType {
  * @param iSource
  * @param type
  * @param flav
+ * @param preprocessed whether the input is already preprocessed, and should not be normalized
  * @see {@link http://steen.free.fr/scripts/transliteration.js}
  */
 export function transliterate(
   iSource: string,
   type: number,
   flav: string | number = 2,
+  preprocessed = false,
 ): string {
-  return iSource
-    .normalize('NFC')
-    .replace(/[\p{Letter}\p{Mark}]+/gu, (w) =>
-      transliterateWord(w, type, flav),
+  return iSource.normalize('NFC').replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
+    //symbol % marks the borders of the %word%
+    const OrigW = `%${word}%`;
+    const preprocess = preprocessed ? nmsifyStrict : nmsifyLoose;
+    return transliterateWord(
+      preprocess(OrigW.toLowerCase()),
+      OrigW,
+      type,
+      flav,
     );
+  });
 }
 
 const VOWEL = /[aeiouyąęųåėȯèòěê]/;
 
 function transliterateWord(
-  iW: string,
+  __iW: string,
+  __OrigW: string,
   type: string | number,
   flav: string | number,
 ) {
-  //symbol % marks the borders of the %word%
-  iW = '%' + iW + '%';
-  let OrigW = iW;
-  iW = nmsify(iW.toLowerCase());
+  let iW = __iW;
+  let OrigW = __OrigW;
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
   iW = iW.replace(/ŕ/g, 'ř');
   const aPos = iW.indexOf('ř');
@@ -603,7 +610,7 @@ function jgedoe(iW: string) {
   return result;
 }
 
-function nmsify(iW: string) {
+function nmsifyLoose(iW: string) {
   return (
     iW
       .replace(/[яꙗ]/g, '#a')
@@ -683,8 +690,12 @@ function nmsify(iW: string) {
       .replace(/zst/g, 'z#st')
       .replace(/%izs/g, '%iz#s')
       .replace(/%bezs/g, '%bez#s')
+      .replace(/%obezs/g, '%obez#s')
       .replace(/%razs/g, '%raz#s')
       .replace(/%råzs/g, '%råz#s')
+      .replace(/%szadu%/g, '%s#zadu%')
+      .replace(/%vozs/g, '%voz#s')
+      .replace(/%vȯzs/g, '%vȯz#s')
       .replace(/konjug/g, 'kon#jug')
       .replace(/konjun/g, 'kon#jun')
       .replace(/injek/g, 'in#jek')
@@ -725,4 +736,23 @@ function nmsify(iW: string) {
       .replace(/([jćđšžč])y/g, '$1i')
       .replace(/jj/g, 'j')
   );
+}
+
+function nmsifyStrict(iW: string) {
+  return iW
+    .replaceAll('konjug', 'kon#jug')
+    .replaceAll('konjun', 'kon#jun')
+    .replaceAll('injek', 'in#jek')
+    .replaceAll('%wifi%', '%vifi%')
+    .replaceAll('á', 'a')
+    .replaceAll('d́', 'ď')
+    .replaceAll('é', 'e')
+    .replaceAll('ì', 'i')
+    .replaceAll('í', 'i')
+    .replaceAll('ĵ', 'j')
+    .replaceAll('ĺ', 'ľ')
+    .replaceAll('ó', 'o')
+    .replaceAll('œ', 'o')
+    .replaceAll('t́', 'ť')
+    .replaceAll('ý', 'y');
 }
