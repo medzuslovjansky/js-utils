@@ -61,6 +61,7 @@ const FIXTURE_PRONOUNS_RELATIVE = path.join(
   FIXTURES_DIR,
   'pronouns-relative.json',
 );
+const FIXTURE_OTHER = path.join(FIXTURES_DIR, 'other.json');
 
 async function downloadFile(url, outputPath) {
   const response = await fetch(url);
@@ -119,6 +120,7 @@ async function splitToFixtures() {
     refl: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_REFLEXIVE }),
     rel: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_RELATIVE }),
   };
+  const other = new JSONLFileStream({ filePath: FIXTURE_OTHER });
 
   const findStream = (pos) => {
     if (/\badj\./.test(pos)) {
@@ -169,6 +171,8 @@ async function splitToFixtures() {
       }
 
       return pronouns[subtype];
+    } else {
+      return other;
     }
   };
 
