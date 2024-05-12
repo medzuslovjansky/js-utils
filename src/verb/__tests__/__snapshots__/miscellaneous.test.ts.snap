@@ -2868,6 +2868,75 @@ exports[`verb miscellaneous 31022 1`] = `
 }
 `;
 
+exports[`verb miscellaneous 31079 1`] = `
+{
+  "conditional": [
+    "byh velěl(a)",
+    "bys velěl(a)",
+    "by velěl",
+    "by velěla",
+    "by velělo",
+    "byhmȯ velěli",
+    "byste velěli",
+    "by velěli",
+    "",
+  ],
+  "future": [
+    "bųdų velětì",
+    "bųdeš velětì",
+    "bųde velětì",
+    "bųdemȯ velětì",
+    "bųdete velětì",
+    "bųdųt velětì",
+  ],
+  "gerund": "velěńje",
+  "imperative": "veli, velimȯ, velite",
+  "imperfect": [
+    "velěh",
+    "velěše",
+    "velěše",
+    "velěhmȯ",
+    "velěste",
+    "velěhų",
+  ],
+  "infinitive": "velětì",
+  "perfect": [
+    "jesm velěl(a)",
+    "jesi velěl(a)",
+    "(je) velěl",
+    "(je) velěla",
+    "(je) velělo",
+    "jesmȯ velěli",
+    "jeste velěli",
+    "(sųt) velěli",
+    "",
+  ],
+  "pfap": "velěvši (velěvšá, velěvšé)",
+  "pfpp": "velěný (velěná, velěnó)",
+  "pluperfect": [
+    "běh velěl(a)",
+    "běše velěl(a)",
+    "běše velěl",
+    "běše velěla",
+    "běše velělo",
+    "běhmo velěli",
+    "běste velěli",
+    "běhų velěli",
+    "",
+  ],
+  "prap": "velęćí (velęćá, velęćé)",
+  "present": [
+    "veljų, velim",
+    "veliš",
+    "veli",
+    "velimȯ",
+    "velite",
+    "velęt",
+  ],
+  "prpp": "velimý (velimá, velimœ)",
+}
+`;
+
 exports[`verb miscellaneous 31120 1`] = `
 {
   "conditional": [
@@ -4474,76 +4543,6 @@ exports[`verb miscellaneous 34900 1`] = `
     "",
   ],
   "prpp": "aktualizujemý (aktualizujemá, aktualizujemœ)",
-}
-`;
-
-exports[`verb miscellaneous 34930 1`] = `
-{
-  "conditional": [
-    "byh restavroval(a)",
-    "bys restavroval(a)",
-    "by restavroval",
-    "by restavrovala",
-    "by restavrovalo",
-    "byhmȯ restavrovali",
-    "byste restavrovali",
-    "by restavrovali",
-    "",
-  ],
-  "future": [
-    "bųdų restavrovatì",
-    "bųdeš restavrovatì",
-    "bųde restavrovatì",
-    "bųdemȯ restavrovatì",
-    "bųdete restavrovatì",
-    "bųdųt restavrovatì",
-  ],
-  "gerund": "restavrovańje",
-  "imperative": "restavruj, restavrujmȯ, restavrujte",
-  "imperfect": [
-    "restavrovah",
-    "restavrovaše",
-    "restavrovaše",
-    "restavrovahmȯ",
-    "restavrovaste",
-    "restavrovahų",
-  ],
-  "infinitive": "restavrovatì",
-  "perfect": [
-    "jesm restavroval(a)",
-    "jesi restavroval(a)",
-    "(je) restavroval",
-    "(je) restavrovala",
-    "(je) restavrovalo",
-    "jesmȯ restavrovali",
-    "jeste restavrovali",
-    "(sųt) restavrovali",
-    "",
-  ],
-  "pfap": "restavrovavši (restavrovavšá, restavrovavšé)",
-  "pfpp": "restavrovaný (restavrovaná, restavrovanó)",
-  "pluperfect": [
-    "běh restavroval(a)",
-    "běše restavroval(a)",
-    "běše restavroval",
-    "běše restavrovala",
-    "běše restavrovalo",
-    "běhmo restavrovali",
-    "běste restavrovali",
-    "běhų restavrovali",
-    "",
-  ],
-  "prap": "restavrujųćí (restavrujųćá, restavrujųćé)",
-  "present": [
-    "restavrujų, restavrujem",
-    "restavruješ",
-    "restavruje",
-    "restavrujemȯ",
-    "restavrujete",
-    "restavrujųt",
-    "",
-  ],
-  "prpp": "restavrujemý (restavrujemá, restavrujemœ)",
 }
 `;
 
@@ -7484,5 +7483,75 @@ exports[`verb miscellaneous 36846 1`] = `
     "",
   ],
   "prpp": "linčujemý (linčujemá, linčujemœ)",
+}
+`;
+
+exports[`verb miscellaneous 37117 1`] = `
+{
+  "conditional": [
+    "byh marinoval(a)",
+    "bys marinoval(a)",
+    "by marinoval",
+    "by marinovala",
+    "by marinovalo",
+    "byhmȯ marinovali",
+    "byste marinovali",
+    "by marinovali",
+    "",
+  ],
+  "future": [
+    "bųdų marinovatì",
+    "bųdeš marinovatì",
+    "bųde marinovatì",
+    "bųdemȯ marinovatì",
+    "bųdete marinovatì",
+    "bųdųt marinovatì",
+  ],
+  "gerund": "marinovańje",
+  "imperative": "marinuj, marinujmȯ, marinujte",
+  "imperfect": [
+    "marinovah",
+    "marinovaše",
+    "marinovaše",
+    "marinovahmȯ",
+    "marinovaste",
+    "marinovahų",
+  ],
+  "infinitive": "marinovatì",
+  "perfect": [
+    "jesm marinoval(a)",
+    "jesi marinoval(a)",
+    "(je) marinoval",
+    "(je) marinovala",
+    "(je) marinovalo",
+    "jesmȯ marinovali",
+    "jeste marinovali",
+    "(sųt) marinovali",
+    "",
+  ],
+  "pfap": "marinovavši (marinovavšá, marinovavšé)",
+  "pfpp": "marinovaný (marinovaná, marinovanó)",
+  "pluperfect": [
+    "běh marinoval(a)",
+    "běše marinoval(a)",
+    "běše marinoval",
+    "běše marinovala",
+    "běše marinovalo",
+    "běhmo marinovali",
+    "běste marinovali",
+    "běhų marinovali",
+    "",
+  ],
+  "prap": "marinujųćí (marinujųćá, marinujųćé)",
+  "present": [
+    "marinujų, marinujem",
+    "marinuješ",
+    "marinuje",
+    "marinujemȯ",
+    "marinujete",
+    "marinujųt",
+    "",
+  ],
+  "prpp": "marinujemý (marinujemá, marinujemœ)",
 }
 `;

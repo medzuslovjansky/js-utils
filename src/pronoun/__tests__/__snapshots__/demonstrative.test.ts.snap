@@ -1,173 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`pronoun demonstrative -37064 1`] = `
-{
-  "casesPlural": {
-    "acc": [
-      "tyh / te",
-      "te",
-    ],
-    "dat": [
-      "tym",
-    ],
-    "gen": [
-      "tyh",
-    ],
-    "ins": [
-      "tymi",
-    ],
-    "loc": [
-      "tyh",
-    ],
-    "nom": [
-      "ti / te",
-      "te",
-    ],
-  },
-  "casesSingular": {
-    "acc": [
-      "togo / toj",
-      "to",
-      "tų",
-    ],
-    "dat": [
-      "tomu",
-      "toj",
-    ],
-    "gen": [
-      "togo",
-      "toj",
-    ],
-    "ins": [
-      "tym",
-      "tojų",
-    ],
-    "loc": [
-      "tom",
-      "toj",
-    ],
-    "nom": [
-      "toj",
-      "to",
-      "ta",
-    ],
-  },
-  "type": "adjective",
-}
-`;
-
-exports[`pronoun demonstrative -37065 1`] = `
-{
-  "casesPlural": {
-    "acc": [
-      "tutyh / tute",
-      "tute",
-    ],
-    "dat": [
-      "tutym",
-    ],
-    "gen": [
-      "tutyh",
-    ],
-    "ins": [
-      "tutymi",
-    ],
-    "loc": [
-      "tutyh",
-    ],
-    "nom": [
-      "tuti / tute",
-      "tute",
-    ],
-  },
-  "casesSingular": {
-    "acc": [
-      "tutogo / tutoj",
-      "tuto",
-      "tutų",
-    ],
-    "dat": [
-      "tutomu",
-      "tutoj",
-    ],
-    "gen": [
-      "tutogo",
-      "tutoj",
-    ],
-    "ins": [
-      "tutym",
-      "tutojų",
-    ],
-    "loc": [
-      "tutom",
-      "tutoj",
-    ],
-    "nom": [
-      "tutoj",
-      "tuto",
-      "tuta",
-    ],
-  },
-  "type": "adjective",
-}
-`;
-
-exports[`pronoun demonstrative -37066 1`] = `
-{
-  "casesPlural": {
-    "acc": [
-      "tamtyh / tamte",
-      "tamte",
-    ],
-    "dat": [
-      "tamtym",
-    ],
-    "gen": [
-      "tamtyh",
-    ],
-    "ins": [
-      "tamtymi",
-    ],
-    "loc": [
-      "tamtyh",
-    ],
-    "nom": [
-      "tamti / tamte",
-      "tamte",
-    ],
-  },
-  "casesSingular": {
-    "acc": [
-      "tamtogo / tamtoj",
-      "tamto",
-      "tamtų",
-    ],
-    "dat": [
-      "tamtomu",
-      "tamtoj",
-    ],
-    "gen": [
-      "tamtogo",
-      "tamtoj",
-    ],
-    "ins": [
-      "tamtym",
-      "tamtojų",
-    ],
-    "loc": [
-      "tamtom",
-      "tamtoj",
-    ],
-    "nom": [
-      "tamtoj",
-      "tamto",
-      "tamta",
-    ],
-  },
-  "type": "adjective",
-}
-`;
-
 exports[`pronoun demonstrative 1347 1`] = `
 {
   "casesPlural": {
@@ -610,6 +442,174 @@ exports[`pronoun demonstrative 20212 1`] = `
       "tojže",
       "tože",
       "taže",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 36995 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "tyh / te",
+      "te",
+    ],
+    "dat": [
+      "tym",
+    ],
+    "gen": [
+      "tyh",
+    ],
+    "ins": [
+      "tymi",
+    ],
+    "loc": [
+      "tyh",
+    ],
+    "nom": [
+      "ti / te",
+      "te",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "togo / toj",
+      "to",
+      "tų",
+    ],
+    "dat": [
+      "tomu",
+      "toj",
+    ],
+    "gen": [
+      "togo",
+      "toj",
+    ],
+    "ins": [
+      "tym",
+      "tojų",
+    ],
+    "loc": [
+      "tom",
+      "toj",
+    ],
+    "nom": [
+      "toj",
+      "to",
+      "ta",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 36996 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "tutyh / tute",
+      "tute",
+    ],
+    "dat": [
+      "tutym",
+    ],
+    "gen": [
+      "tutyh",
+    ],
+    "ins": [
+      "tutymi",
+    ],
+    "loc": [
+      "tutyh",
+    ],
+    "nom": [
+      "tuti / tute",
+      "tute",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "tutogo / tutoj",
+      "tuto",
+      "tutų",
+    ],
+    "dat": [
+      "tutomu",
+      "tutoj",
+    ],
+    "gen": [
+      "tutogo",
+      "tutoj",
+    ],
+    "ins": [
+      "tutym",
+      "tutojų",
+    ],
+    "loc": [
+      "tutom",
+      "tutoj",
+    ],
+    "nom": [
+      "tutoj",
+      "tuto",
+      "tuta",
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 36997 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      "tamtyh / tamte",
+      "tamte",
+    ],
+    "dat": [
+      "tamtym",
+    ],
+    "gen": [
+      "tamtyh",
+    ],
+    "ins": [
+      "tamtymi",
+    ],
+    "loc": [
+      "tamtyh",
+    ],
+    "nom": [
+      "tamti / tamte",
+      "tamte",
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      "tamtogo / tamtoj",
+      "tamto",
+      "tamtų",
+    ],
+    "dat": [
+      "tamtomu",
+      "tamtoj",
+    ],
+    "gen": [
+      "tamtogo",
+      "tamtoj",
+    ],
+    "ins": [
+      "tamtym",
+      "tamtojų",
+    ],
+    "loc": [
+      "tamtom",
+      "tamtoj",
+    ],
+    "nom": [
+      "tamtoj",
+      "tamto",
+      "tamta",
     ],
   },
   "type": "adjective",
