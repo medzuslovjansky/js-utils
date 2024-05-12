@@ -90,7 +90,7 @@
     "tslib": "^2.2.0"
   },
   "browserslist": [
-    "node 14",
+    "node 18",
     "iOS >= 14.5"
   ]
 }
