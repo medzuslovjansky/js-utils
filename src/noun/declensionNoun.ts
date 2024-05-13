@@ -223,13 +223,6 @@ function establish_root(noun: string, gender: string) {
     result = noun.slice(0, -1) + 'ь';
   } else if (hasVowelEnding) {
     result = noun.slice(0, -1);
-  } else if (gender == 'f2' && noun.slice(-1) === 'ь') {
-    /*else if (noun.slice(-2) === 'um') {
-        result = (noun.substring(0, noun.length - 2));
-    }*/
-    /*	else if ((gender == 'f2') && (noun.lastIndexOf('ь') == noun.length - 1))
-            { result = (noun.substring (0, noun.length - 1)); } */
-    result = noun + 'ь';
   } else {
     result = noun;
   }
@@ -567,7 +560,9 @@ function rules(word: string): string {
     .replace('ńi', 'ni')
     .replace('ŕi', 'ri')
     .replace('jy', 'ji')
-    .replace('cy', 'ci');
+    .replace('cy', 'ci')
+    .replace('ljj', 'ľj')
+    .replace('njj', 'ńj');
 }
 
 function declensionPluralNoun(

@@ -1,5 +1,9 @@
 import { Glagolitic } from '../constants';
 
+import * as tries from './tries';
+import { replaceStringAt } from '../utils';
+import { stripEtymological } from './stripEtymological';
+
 export enum TransliterationType {
   Latin = 1,
   ASCII = 2,
@@ -33,15 +37,8 @@ export function transliterate(
   preprocessed = false,
 ): string {
   return iSource.normalize('NFC').replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
-    //symbol % marks the borders of the %word%
-    const OrigW = `%${word}%`;
     const preprocess = preprocessed ? nmsifyStrict : nmsifyLoose;
-    return transliterateWord(
-      preprocess(OrigW.toLowerCase()),
-      OrigW,
-      type,
-      flav,
-    );
+    return transliterateWord(preprocess(word.toLowerCase()), word, type, flav);
   });
 }
 
@@ -53,8 +50,10 @@ function transliterateWord(
   type: string | number,
   flav: string | number,
 ) {
-  let iW = __iW;
-  let OrigW = __OrigW;
+  // symbol % marks the borders of the %word%
+  let iW = '%' + insertLJNJSeparatorIfNeeded(__iW) + '%';
+  let OrigW = '%' + __OrigW + '%';
+
   // 'ŕ' remains between two consonants, in other cases is replaced by 'ř'
   iW = iW.replace(/ŕ/g, 'ř');
   const aPos = iW.indexOf('ř');
@@ -613,6 +612,43 @@ function jgedoe(iW: string) {
 function nmsifyLoose(iW: string) {
   return (
     iW
+      .replace(/zsk/g, 'z#sk')
+      .replace(/zst/g, 'z#st')
+      // ...
+      .replace(/s[xz]/g, 'š')
+      .replace(/c[xz]/g, 'č')
+      .replace(/z[xs]/g, 'ž')
+      // ...
+      .replace(/ż/g, 'ž')
+      .replace(/ye/g, 'ě')
+      // ...
+      .replace(/qu/g, 'kv')
+      .replace(/ŀ/g, 'ȯl')
+      .replace(/[ăq`]/g, '’')
+      .replace(/ch/g, 'h')
+      .replace(/w/g, 'v')
+      .replace(/x/g, 'ks')
+      // ...
+      .replace(/[áàâā]/g, 'a')
+      .replace(/[íìîīĭı]/g, 'i')
+      .replace(/[úûůū]/g, 'u')
+      .replace(/[ąǫũ]/g, 'ų')
+      .replace(/ù/g, 'ŭ')
+      .replace(/[éē]/g, 'e')
+      .replace(/[ĕëè]/g, 'ė')
+      .replace(/[œóô]/g, 'o')
+      .replace(/[ŏöò]/g, 'ȯ')
+      .replace(/ý/g, 'y')
+      .replace(/ł/g, 'l')
+      .replace(/ç/g, 'c')
+      .replace(/ʒ/g, 'z')
+      .replace(/ĵ/g, 'j')
+      .replace(/[ĺļǉ]/g, 'ľ')
+      .replace(/[ňñņǌ]/g, 'ń')
+      .replace(/ř/g, 'ŕ')
+      .replace(/t́/g, 'ť')
+      .replace(/d́/g, 'ď')
+      // ...
       .replace(/[яꙗ]/g, '#a')
       .replace(/ьа/g, '#a')
       .replace(/ѥ/g, '#e')
@@ -643,7 +679,7 @@ function nmsifyLoose(iW: string) {
       .replace(/с#/g, 'ś')
       .replace(/зь/g, 'ź')
       .replace(/з#/g, 'ź')
-      .replace(/ь%/g, '%')
+      .replace(/ь$/g, '')
       .replace(/[ђѓ]/g, 'đ')
       .replace(/[ћќ]/g, 'ć')
       .replace(/ѕ/g, 'dz')
@@ -700,40 +736,8 @@ function nmsifyLoose(iW: string) {
       .replace(/konjun/g, 'kon#jun')
       .replace(/injek/g, 'in#jek')
       // ...
-      .replace(/s[xz]/g, 'š')
-      .replace(/c[xz]/g, 'č')
-      .replace(/z[xs]/g, 'ž')
-      .replace(/ż/g, 'ž')
-      .replace(/ye/g, 'ě')
-      // ...
-      .replace(/qu/g, 'kv')
-      .replace(/ŀ/g, 'ȯl')
-      .replace(/[ăq`]/g, '’')
-      .replace(/ch/g, 'h')
-      .replace(/w/g, 'v')
-      .replace(/x/g, 'ks')
-      // ...
-      .replace(/[áàâā]/g, 'a')
-      .replace(/[íìîīĭı]/g, 'i')
-      .replace(/[úûůū]/g, 'u')
-      .replace(/[ąǫũ]/g, 'ų')
-      .replace(/ù/g, 'ŭ')
-      .replace(/[éē]/g, 'e')
-      .replace(/[ĕëè]/g, 'ė')
-      .replace(/[œóô]/g, 'o')
-      .replace(/[ŏöò]/g, 'ȯ')
-      .replace(/ý/g, 'y')
-      .replace(/ł/g, 'l')
-      .replace(/ç/g, 'c')
-      .replace(/ʒ/g, 'z')
-      .replace(/ĵ/g, 'j')
-      .replace(/[ĺļǉ]/g, 'ľ')
-      .replace(/[ňñņǌ]/g, 'ń')
-      .replace(/ř/g, 'ŕ')
-      .replace(/t́/g, 'ť')
-      .replace(/d́/g, 'ď')
-      // ...
       .replace(/([jćđšžč])y/g, '$1i')
+      .replaceAll('najj', 'naj#j')
       .replace(/jj/g, 'j')
   );
 }
@@ -755,4 +759,68 @@ function nmsifyStrict(iW: string) {
     .replaceAll('œ', 'o')
     .replaceAll('t́', 'ť')
     .replaceAll('ý', 'y');
+}
+
+const ENDINGS = new Set([
+  '',
+  'a',
+  'ah',
+  'am',
+  'ami',
+  'e',
+  'em',
+  'u',
+  'ų',
+  'ego',
+  'ej',
+  'emu',
+  'i',
+  'ih',
+  'im',
+  'imi',
+  'eju',
+  'ejų',
+]);
+
+function insertLJNJSeparatorIfNeeded(iW: string) {
+  const jeIndex = findIndexOfSuffixJE(iW);
+  if (jeIndex === -1) {
+    return iW;
+  }
+
+  if (shouldSeparateLJNJSuffix(iW)) {
+    return replaceStringAt(iW, jeIndex, '#j', 1);
+  }
+
+  return iW;
+}
+
+function shouldSeparateLJNJSuffix(iW: string) {
+  const word = stripEtymological(iW);
+
+  if (tries.ljj.match(word)) {
+    return true; // rare -ĺje word
+  }
+
+  const njIndex = tries.nj.findIndex(word);
+  if (njIndex === -1) {
+    return true; // common -ńje word
+  }
+
+  const njjIndex = tries.njjOverride.findIndex(word);
+  if (njjIndex !== -1 && njjIndex < njIndex) {
+    return true; // raNJu, oraŃJu, poraNJu
+  }
+
+  return false;
+}
+
+function findIndexOfSuffixJE(iW: string) {
+  const lnjIndex = Math.max(iW.lastIndexOf('lj'), iW.lastIndexOf('nj'));
+  if (lnjIndex === -1) {
+    return -1;
+  }
+
+  const ending = iW.slice(lnjIndex + 2);
+  return ENDINGS.has(ending) ? lnjIndex + 1 : -1;
 }
