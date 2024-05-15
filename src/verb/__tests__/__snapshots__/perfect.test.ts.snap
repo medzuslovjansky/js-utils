@@ -90847,7 +90847,7 @@ exports[`verb perfect 28091 1`] = `
     "bųdųt napastì",
   ],
   "gerund": "napaseńje",
-  "imperative": "napi, napimȯ, napite",
+  "imperative": "napasi, napasimȯ, napasite",
   "imperfect": [
     "napaseh",
     "napaseše",
@@ -90881,17 +90881,17 @@ exports[`verb perfect 28091 1`] = `
     "běhų napasli",
     "",
   ],
-  "prap": "napųćí (napųćá, napųćé)",
+  "prap": "napasųćí (napasųćá, napasųćé)",
   "present": [
-    "napų, napem",
-    "napeš",
-    "nape",
-    "napemȯ",
-    "napete",
-    "napųt",
+    "napasų, napasem",
+    "napaseš",
+    "napase",
+    "napasemȯ",
+    "napasete",
+    "napasųt",
     "",
   ],
-  "prpp": "napemý (napemá, napemœ)",
+  "prpp": "napasomý (napasomá, napasomœ)",
 }
 `;
 
@@ -116584,7 +116584,7 @@ exports[`verb perfect 32948 1`] = `
     "bųdųt napastì sę",
   ],
   "gerund": "napaseńje",
-  "imperative": "napi sę, napimȯ sę, napite sę",
+  "imperative": "napasi sę, napasimȯ sę, napasite sę",
   "imperfect": [
     "napaseh sę",
     "napaseše sę",
@@ -116618,17 +116618,17 @@ exports[`verb perfect 32948 1`] = `
     "běhų napasli sę",
     "",
   ],
-  "prap": "napųćí (napųćá, napųćé) sę",
+  "prap": "napasųćí (napasųćá, napasųćé) sę",
   "present": [
-    "napų sę, napem sę",
-    "napeš sę",
-    "nape sę",
-    "napemȯ sę",
-    "napete sę",
-    "napųt sę",
+    "napasų sę, napasem sę",
+    "napaseš sę",
+    "napase sę",
+    "napasemȯ sę",
+    "napasete sę",
+    "napasųt sę",
     "",
   ],
-  "prpp": "napemý (napemá, napemœ)",
+  "prpp": "napasomý (napasomá, napasomœ)",
 }
 `;
 
