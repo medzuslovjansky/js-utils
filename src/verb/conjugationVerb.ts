@@ -383,7 +383,10 @@ function present_tense_stem(pref: string, pts: string, is: string) {
   if (pts.length == 0) {
     result = derive_present_tense_stem(is);
   } else {
-    if ((pts.slice(-2) === 'se' || pts.slice(-2) === 'sę') && pts.length > 2) {
+    if (
+      (pts.slice(-3) === ' se' || pts.slice(-3) === ' sę') &&
+      pts.length > 3
+    ) {
       pts = pts.slice(0, -3);
     } else if (pts.indexOf('se ') == 0 || pts.indexOf('sę ') == 0) {
       pts = pts.slice(3);

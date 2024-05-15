@@ -46521,7 +46521,7 @@ exports[`verb imperfect 5017 1`] = `
     "bųdųt pastì",
   ],
   "gerund": "paseńje",
-  "imperative": "pi, pimȯ, pite",
+  "imperative": "pasi, pasimȯ, pasite",
   "imperfect": [
     "paseh",
     "paseše",
@@ -46555,17 +46555,17 @@ exports[`verb imperfect 5017 1`] = `
     "běhų pasli",
     "",
   ],
-  "prap": "pųćí (pųćá, pųćé)",
+  "prap": "pasųćí (pasųćá, pasųćé)",
   "present": [
-    "pų, pem",
-    "peš",
-    "pe",
-    "pemȯ",
-    "pete",
-    "pųt",
+    "pasų, pasem",
+    "paseš",
+    "pase",
+    "pasemȯ",
+    "pasete",
+    "pasųt",
     "",
   ],
-  "prpp": "pemý (pemá, pemœ)",
+  "prpp": "pasomý (pasomá, pasomœ)",
 }
 `;
 
@@ -148808,7 +148808,7 @@ exports[`verb imperfect 32945 1`] = `
     "bųdųt pastì sę",
   ],
   "gerund": "paseńje",
-  "imperative": "pi sę, pimȯ sę, pite sę",
+  "imperative": "pasi sę, pasimȯ sę, pasite sę",
   "imperfect": [
     "paseh sę",
     "paseše sę",
@@ -148842,17 +148842,17 @@ exports[`verb imperfect 32945 1`] = `
     "běhų pasli sę",
     "",
   ],
-  "prap": "pųćí (pųćá, pųćé) sę",
+  "prap": "pasųćí (pasųćá, pasųćé) sę",
   "present": [
-    "pų sę, pem sę",
-    "peš sę",
-    "pe sę",
-    "pemȯ sę",
-    "pete sę",
-    "pųt sę",
+    "pasų sę, pasem sę",
+    "paseš sę",
+    "pase sę",
+    "pasemȯ sę",
+    "pasete sę",
+    "pasųt sę",
     "",
   ],
-  "prpp": "pemý (pemá, pemœ)",
+  "prpp": "pasomý (pasomá, pasomœ)",
 }
 `;
 
