@@ -134826,3 +134826,73 @@ exports[`verb perfect 37281 1`] = `
   "prpp": "nedoględnemý (nedoględnemá, nedoględnemœ)",
 }
 `;
+
+exports[`verb perfect 37307 1`] = `
+{
+  "conditional": [
+    "byh namoknųl(a)",
+    "bys namoknųl(a)",
+    "by namoknųl",
+    "by namoknųla",
+    "by namoknųlo",
+    "byhmȯ namoknųli",
+    "byste namoknųli",
+    "by namoknųli",
+    "",
+  ],
+  "future": [
+    "bųdų namoknųtì",
+    "bųdeš namoknųtì",
+    "bųde namoknųtì",
+    "bųdemȯ namoknųtì",
+    "bųdete namoknųtì",
+    "bųdųt namoknųtì",
+  ],
+  "gerund": "namoknųťje",
+  "imperative": "namokni, namoknimȯ, namoknite",
+  "imperfect": [
+    "namoknųh",
+    "namoknųše",
+    "namoknųše",
+    "namoknųhmȯ",
+    "namoknųste",
+    "namoknųhų",
+  ],
+  "infinitive": "namoknųtì",
+  "perfect": [
+    "jesm namoknųl(a)",
+    "jesi namoknųl(a)",
+    "(je) namoknųl",
+    "(je) namoknųla",
+    "(je) namoknųlo",
+    "jesmȯ namoknųli",
+    "jeste namoknųli",
+    "(sųt) namoknųli",
+    "",
+  ],
+  "pfap": "namoknųvši (namoknųvšá, namoknųvšé)",
+  "pfpp": "namoknųtý (namoknųtá, namoknųtó)",
+  "pluperfect": [
+    "běh namoknųl(a)",
+    "běše namoknųl(a)",
+    "běše namoknųl",
+    "běše namoknųla",
+    "běše namoknųlo",
+    "běhmo namoknųli",
+    "běste namoknųli",
+    "běhų namoknųli",
+    "",
+  ],
+  "prap": "namoknųćí (namoknųćá, namoknųćé)",
+  "present": [
+    "namoknų, namoknem",
+    "namokneš",
+    "namokne",
+    "namoknemȯ",
+    "namoknete",
+    "namoknųt",
+    "",
+  ],
+  "prpp": "namoknemý (namoknemá, namoknemœ)",
+}
+`;

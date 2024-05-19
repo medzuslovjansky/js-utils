@@ -41397,3 +41397,36 @@ exports[`noun neuter 37230 1`] = `
 `;
 
 exports[`noun neuter 37236 1`] = `null`;
+
+exports[`noun neuter 37314 1`] = `
+{
+  "acc": [
+    "verbovańje",
+    "verbovańja",
+  ],
+  "dat": [
+    "verbovańju",
+    "verbovańjam",
+  ],
+  "gen": [
+    "verbovańja",
+    "verbovanij",
+  ],
+  "ins": [
+    "verbovańjem",
+    "verbovańjami",
+  ],
+  "loc": [
+    "verbovańju",
+    "verbovańjah",
+  ],
+  "nom": [
+    "verbovańje",
+    "verbovańja",
+  ],
+  "voc": [
+    "verbovańje",
+    "verbovańja",
+  ],
+}
+`;

@@ -79440,3 +79440,300 @@ exports[`noun masculine 37282 1`] = `
   ],
 }
 `;
+
+exports[`noun masculine 37287 1`] = `
+{
+  "acc": [
+    "centralizm",
+    "centralizmy",
+  ],
+  "dat": [
+    "centralizmu",
+    "centralizmam",
+  ],
+  "gen": [
+    "centralizma",
+    "centralizmov",
+  ],
+  "ins": [
+    "centralizmom",
+    "centralizmami",
+  ],
+  "loc": [
+    "centralizmu",
+    "centralizmah",
+  ],
+  "nom": [
+    "centralizm",
+    "centralizmy",
+  ],
+  "voc": [
+    "centralizme",
+    "centralizmy",
+  ],
+}
+`;
+
+exports[`noun masculine 37289 1`] = `
+{
+  "acc": [
+    "federalizm",
+    "federalizmy",
+  ],
+  "dat": [
+    "federalizmu",
+    "federalizmam",
+  ],
+  "gen": [
+    "federalizma",
+    "federalizmov",
+  ],
+  "ins": [
+    "federalizmom",
+    "federalizmami",
+  ],
+  "loc": [
+    "federalizmu",
+    "federalizmah",
+  ],
+  "nom": [
+    "federalizm",
+    "federalizmy",
+  ],
+  "voc": [
+    "federalizme",
+    "federalizmy",
+  ],
+}
+`;
+
+exports[`noun masculine 37292 1`] = `
+{
+  "acc": [
+    "ilirizm",
+    "ilirizmy",
+  ],
+  "dat": [
+    "ilirizmu",
+    "ilirizmam",
+  ],
+  "gen": [
+    "ilirizma",
+    "ilirizmov",
+  ],
+  "ins": [
+    "ilirizmom",
+    "ilirizmami",
+  ],
+  "loc": [
+    "ilirizmu",
+    "ilirizmah",
+  ],
+  "nom": [
+    "ilirizm",
+    "ilirizmy",
+  ],
+  "voc": [
+    "ilirizme",
+    "ilirizmy",
+  ],
+}
+`;
+
+exports[`noun masculine 37299 1`] = `
+{
+  "acc": [
+    "tezaurus",
+    "tezaurusy",
+  ],
+  "dat": [
+    "tezaurusu",
+    "tezaurusam",
+  ],
+  "gen": [
+    "tezaurusa",
+    "tezaurusov",
+  ],
+  "ins": [
+    "tezaurusom",
+    "tezaurusami",
+  ],
+  "loc": [
+    "tezaurusu",
+    "tezaurusah",
+  ],
+  "nom": [
+    "tezaurus",
+    "tezaurusy",
+  ],
+  "voc": [
+    "tezauruse",
+    "tezaurusy",
+  ],
+}
+`;
+
+exports[`noun masculine 37301 1`] = `
+{
+  "acc": [
+    "šifr",
+    "šifry",
+  ],
+  "dat": [
+    "šifru",
+    "šifram",
+  ],
+  "gen": [
+    "šifra",
+    "šifrov",
+  ],
+  "ins": [
+    "šifrom",
+    "šiframi",
+  ],
+  "loc": [
+    "šifru",
+    "šifrah",
+  ],
+  "nom": [
+    "šifr",
+    "šifry",
+  ],
+  "voc": [
+    "šifre",
+    "šifry",
+  ],
+}
+`;
+
+exports[`noun masculine 37310 1`] = `
+{
+  "acc": [
+    "sabotaž",
+    "sabotaže",
+  ],
+  "dat": [
+    "sabotažu",
+    "sabotažam",
+  ],
+  "gen": [
+    "sabotaža",
+    "sabotažev",
+  ],
+  "ins": [
+    "sabotažem",
+    "sabotažami",
+  ],
+  "loc": [
+    "sabotažu",
+    "sabotažah",
+  ],
+  "nom": [
+    "sabotaž",
+    "sabotaže",
+  ],
+  "voc": [
+    "sabotažu",
+    "sabotaže",
+  ],
+}
+`;
+
+exports[`noun masculine 37315 1`] = `
+{
+  "acc": [
+    "nabor",
+    "nabory",
+  ],
+  "dat": [
+    "naboru",
+    "naboram",
+  ],
+  "gen": [
+    "nabora",
+    "naborov",
+  ],
+  "ins": [
+    "naborom",
+    "naborami",
+  ],
+  "loc": [
+    "naboru",
+    "naborah",
+  ],
+  "nom": [
+    "nabor",
+    "nabory",
+  ],
+  "voc": [
+    "nabore",
+    "nabory",
+  ],
+}
+`;
+
+exports[`noun masculine 37319 1`] = `
+{
+  "acc": [
+    "nacionalsocializm",
+    "nacionalsocializmy",
+  ],
+  "dat": [
+    "nacionalsocializmu",
+    "nacionalsocializmam",
+  ],
+  "gen": [
+    "nacionalsocializma",
+    "nacionalsocializmov",
+  ],
+  "ins": [
+    "nacionalsocializmom",
+    "nacionalsocializmami",
+  ],
+  "loc": [
+    "nacionalsocializmu",
+    "nacionalsocializmah",
+  ],
+  "nom": [
+    "nacionalsocializm",
+    "nacionalsocializmy",
+  ],
+  "voc": [
+    "nacionalsocializme",
+    "nacionalsocializmy",
+  ],
+}
+`;
+
+exports[`noun masculine 37322 1`] = `
+{
+  "acc": [
+    "atlas",
+    "atlasy",
+  ],
+  "dat": [
+    "atlasu",
+    "atlasam",
+  ],
+  "gen": [
+    "atlasa",
+    "atlasov",
+  ],
+  "ins": [
+    "atlasom",
+    "atlasami",
+  ],
+  "loc": [
+    "atlasu",
+    "atlasah",
+  ],
+  "nom": [
+    "atlas",
+    "atlasy",
+  ],
+  "voc": [
+    "atlase",
+    "atlasy",
+  ],
+}
+`;
