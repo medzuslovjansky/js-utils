@@ -41539,3 +41539,267 @@ exports[`noun masculine (animate) 37283 1`] = `
   ],
 }
 `;
+
+exports[`noun masculine (animate) 37288 1`] = `
+{
+  "acc": [
+    "kapelana",
+    "kapelanov",
+  ],
+  "dat": [
+    "kapelanu",
+    "kapelanam",
+  ],
+  "gen": [
+    "kapelana",
+    "kapelanov",
+  ],
+  "ins": [
+    "kapelanom",
+    "kapelanami",
+  ],
+  "loc": [
+    "kapelanu",
+    "kapelanah",
+  ],
+  "nom": [
+    "kapelan",
+    "kapelani",
+  ],
+  "voc": [
+    "kapelane",
+    "kapelani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37290 1`] = `
+{
+  "acc": [
+    "federalista",
+    "federalistov",
+  ],
+  "dat": [
+    "federalistu",
+    "federalistam",
+  ],
+  "gen": [
+    "federalista",
+    "federalistov",
+  ],
+  "ins": [
+    "federalistom",
+    "federalistami",
+  ],
+  "loc": [
+    "federalistu",
+    "federalistah",
+  ],
+  "nom": [
+    "federalist",
+    "federalisti",
+  ],
+  "voc": [
+    "federaliste",
+    "federalisti",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37294 1`] = `
+{
+  "acc": [
+    "liberala",
+    "liberalov",
+  ],
+  "dat": [
+    "liberalu",
+    "liberalam",
+  ],
+  "gen": [
+    "liberala",
+    "liberalov",
+  ],
+  "ins": [
+    "liberalom",
+    "liberalami",
+  ],
+  "loc": [
+    "liberalu",
+    "liberalah",
+  ],
+  "nom": [
+    "liberal",
+    "liberali",
+  ],
+  "voc": [
+    "liberale",
+    "liberali",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37304 1`] = `
+{
+  "acc": [
+    "pogana",
+    "poganov",
+  ],
+  "dat": [
+    "poganu",
+    "poganam",
+  ],
+  "gen": [
+    "pogana",
+    "poganov",
+  ],
+  "ins": [
+    "poganom",
+    "poganami",
+  ],
+  "loc": [
+    "poganu",
+    "poganah",
+  ],
+  "nom": [
+    "pogan",
+    "pogani",
+  ],
+  "voc": [
+    "pogane",
+    "pogani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37304-1 1`] = `
+{
+  "acc": [
+    "poganina",
+    "poganov",
+  ],
+  "dat": [
+    "poganinu",
+    "poganam",
+  ],
+  "gen": [
+    "poganina",
+    "poganov",
+  ],
+  "ins": [
+    "poganinom",
+    "poganami",
+  ],
+  "loc": [
+    "poganinu",
+    "poganah",
+  ],
+  "nom": [
+    "poganin",
+    "pogani",
+  ],
+  "voc": [
+    "poganine",
+    "pogani",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37312 1`] = `
+{
+  "acc": [
+    "stratega",
+    "strategov",
+  ],
+  "dat": [
+    "strategu",
+    "strategam",
+  ],
+  "gen": [
+    "stratega",
+    "strategov",
+  ],
+  "ins": [
+    "strategom",
+    "strategami",
+  ],
+  "loc": [
+    "strategu",
+    "strategah",
+  ],
+  "nom": [
+    "strateg",
+    "strategi",
+  ],
+  "voc": [
+    "strateže",
+    "strategi",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37318 1`] = `
+{
+  "acc": [
+    "socialdemokrata",
+    "socialdemokratov",
+  ],
+  "dat": [
+    "socialdemokratu",
+    "socialdemokratam",
+  ],
+  "gen": [
+    "socialdemokrata",
+    "socialdemokratov",
+  ],
+  "ins": [
+    "socialdemokratom",
+    "socialdemokratami",
+  ],
+  "loc": [
+    "socialdemokratu",
+    "socialdemokratah",
+  ],
+  "nom": [
+    "socialdemokrat",
+    "socialdemokrati",
+  ],
+  "voc": [
+    "socialdemokrate",
+    "socialdemokrati",
+  ],
+}
+`;
+
+exports[`noun masculine (animate) 37321 1`] = `
+{
+  "acc": [
+    "nacionalsocialista",
+    "nacionalsocialistov",
+  ],
+  "dat": [
+    "nacionalsocialistu",
+    "nacionalsocialistam",
+  ],
+  "gen": [
+    "nacionalsocialista",
+    "nacionalsocialistov",
+  ],
+  "ins": [
+    "nacionalsocialistom",
+    "nacionalsocialistami",
+  ],
+  "loc": [
+    "nacionalsocialistu",
+    "nacionalsocialistah",
+  ],
+  "nom": [
+    "nacionalsocialist",
+    "nacionalsocialisti",
+  ],
+  "voc": [
+    "nacionalsocialiste",
+    "nacionalsocialisti",
+  ],
+}
+`;

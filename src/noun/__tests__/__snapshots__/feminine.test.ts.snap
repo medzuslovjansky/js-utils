@@ -102644,3 +102644,170 @@ exports[`noun feminine 37270 1`] = `
   ],
 }
 `;
+
+exports[`noun feminine 37286 1`] = `
+{
+  "acc": [
+    "Avstro-Vųgrijų",
+    "Avstro-Vųgrije",
+  ],
+  "dat": [
+    "Avstro-Vųgriji",
+    "Avstro-Vųgrijam",
+  ],
+  "gen": [
+    "Avstro-Vųgrije",
+    "Avstro-Vųgrij",
+  ],
+  "ins": [
+    "Avstro-Vųgrijejų",
+    "Avstro-Vųgrijami",
+  ],
+  "loc": [
+    "Avstro-Vųgriji",
+    "Avstro-Vųgrijah",
+  ],
+  "nom": [
+    "Avstro-Vųgrija",
+    "Avstro-Vųgrije",
+  ],
+  "voc": [
+    "Avstro-Vųgrijo",
+    "Avstro-Vųgrije",
+  ],
+}
+`;
+
+exports[`noun feminine 37291 1`] = `
+{
+  "acc": [
+    "gimnazijų",
+    "gimnazije",
+  ],
+  "dat": [
+    "gimnaziji",
+    "gimnazijam",
+  ],
+  "gen": [
+    "gimnazije",
+    "gimnazij",
+  ],
+  "ins": [
+    "gimnazijejų",
+    "gimnazijami",
+  ],
+  "loc": [
+    "gimnaziji",
+    "gimnazijah",
+  ],
+  "nom": [
+    "gimnazija",
+    "gimnazije",
+  ],
+  "voc": [
+    "gimnazijo",
+    "gimnazije",
+  ],
+}
+`;
+
+exports[`noun feminine 37293 1`] = `null`;
+
+exports[`noun feminine 37295 1`] = `
+{
+  "acc": [
+    "Štirijų",
+    "Štirije",
+  ],
+  "dat": [
+    "Štiriji",
+    "Štirijam",
+  ],
+  "gen": [
+    "Štirije",
+    "Štirij",
+  ],
+  "ins": [
+    "Štirijejų",
+    "Štirijami",
+  ],
+  "loc": [
+    "Štiriji",
+    "Štirijah",
+  ],
+  "nom": [
+    "Štirija",
+    "Štirije",
+  ],
+  "voc": [
+    "Štirijo",
+    "Štirije",
+  ],
+}
+`;
+
+exports[`noun feminine 37309 1`] = `
+{
+  "acc": [
+    "dokumentacijų",
+    "dokumentacije",
+  ],
+  "dat": [
+    "dokumentaciji",
+    "dokumentacijam",
+  ],
+  "gen": [
+    "dokumentacije",
+    "dokumentacij",
+  ],
+  "ins": [
+    "dokumentacijejų",
+    "dokumentacijami",
+  ],
+  "loc": [
+    "dokumentaciji",
+    "dokumentacijah",
+  ],
+  "nom": [
+    "dokumentacija",
+    "dokumentacije",
+  ],
+  "voc": [
+    "dokumentacijo",
+    "dokumentacije",
+  ],
+}
+`;
+
+exports[`noun feminine 37316 1`] = `
+{
+  "acc": [
+    "socialdemokracijų",
+    "socialdemokracije",
+  ],
+  "dat": [
+    "socialdemokraciji",
+    "socialdemokracijam",
+  ],
+  "gen": [
+    "socialdemokracije",
+    "socialdemokracij",
+  ],
+  "ins": [
+    "socialdemokracijejų",
+    "socialdemokracijami",
+  ],
+  "loc": [
+    "socialdemokraciji",
+    "socialdemokracijah",
+  ],
+  "nom": [
+    "socialdemokracija",
+    "socialdemokracije",
+  ],
+  "voc": [
+    "socialdemokracijo",
+    "socialdemokracije",
+  ],
+}
+`;

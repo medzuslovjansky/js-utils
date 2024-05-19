@@ -7555,3 +7555,73 @@ exports[`verb miscellaneous 37117 1`] = `
   "prpp": "marinujemý (marinujemá, marinujemœ)",
 }
 `;
+
+exports[`verb miscellaneous 37311 1`] = `
+{
+  "conditional": [
+    "byh sabotoval(a)",
+    "bys sabotoval(a)",
+    "by sabotoval",
+    "by sabotovala",
+    "by sabotovalo",
+    "byhmȯ sabotovali",
+    "byste sabotovali",
+    "by sabotovali",
+    "",
+  ],
+  "future": [
+    "bųdų sabotovatì",
+    "bųdeš sabotovatì",
+    "bųde sabotovatì",
+    "bųdemȯ sabotovatì",
+    "bųdete sabotovatì",
+    "bųdųt sabotovatì",
+  ],
+  "gerund": "sabotovańje",
+  "imperative": "sabotuj, sabotujmȯ, sabotujte",
+  "imperfect": [
+    "sabotovah",
+    "sabotovaše",
+    "sabotovaše",
+    "sabotovahmȯ",
+    "sabotovaste",
+    "sabotovahų",
+  ],
+  "infinitive": "sabotovatì",
+  "perfect": [
+    "jesm sabotoval(a)",
+    "jesi sabotoval(a)",
+    "(je) sabotoval",
+    "(je) sabotovala",
+    "(je) sabotovalo",
+    "jesmȯ sabotovali",
+    "jeste sabotovali",
+    "(sųt) sabotovali",
+    "",
+  ],
+  "pfap": "sabotovavši (sabotovavšá, sabotovavšé)",
+  "pfpp": "sabotovaný (sabotovaná, sabotovanó)",
+  "pluperfect": [
+    "běh sabotoval(a)",
+    "běše sabotoval(a)",
+    "běše sabotoval",
+    "běše sabotovala",
+    "běše sabotovalo",
+    "běhmo sabotovali",
+    "běste sabotovali",
+    "běhų sabotovali",
+    "",
+  ],
+  "prap": "sabotujųćí (sabotujųćá, sabotujųćé)",
+  "present": [
+    "sabotujų, sabotujem",
+    "sabotuješ",
+    "sabotuje",
+    "sabotujemȯ",
+    "sabotujete",
+    "sabotujųt",
+    "",
+  ],
+  "prpp": "sabotujemý (sabotujemá, sabotujemœ)",
+}
+`;

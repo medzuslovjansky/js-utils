@@ -22,7 +22,7 @@
     "allure": "cross-env ALLURE_NO_ANALYTICS=true allure serve",
     "allure:generate": "allure generate --clean",
     "prepare": "husky install",
-    "precommit": "lint-staged && git add src",
+    "precommit": "lint-staged",
     "prepush": "bash scripts/prepush.sh"
   },
   "repository": {
@@ -61,7 +61,7 @@
     "@types/stream-json": "^1.7.7",
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
-    "allure-commandline": "2.27.0",
+    "allure-commandline": "2.29.0",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.5.3",
     "cz-conventional-changelog": "^3.3.0",
