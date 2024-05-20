@@ -79737,3 +79737,597 @@ exports[`noun masculine 37322 1`] = `
   ],
 }
 `;
+
+exports[`noun masculine 37326 1`] = `
+{
+  "acc": [
+    "dur",
+    "dur",
+  ],
+  "dat": [
+    "dur",
+    "dur",
+  ],
+  "gen": [
+    "dur",
+    "dur",
+  ],
+  "ins": [
+    "dur",
+    "dur",
+  ],
+  "loc": [
+    "dur",
+    "dur",
+  ],
+  "nom": [
+    "dur",
+    "dur",
+  ],
+  "voc": [
+    "dur",
+    "dur",
+  ],
+}
+`;
+
+exports[`noun masculine 37328 1`] = `
+{
+  "acc": [
+    "mol",
+    "mol",
+  ],
+  "dat": [
+    "mol",
+    "mol",
+  ],
+  "gen": [
+    "mol",
+    "mol",
+  ],
+  "ins": [
+    "mol",
+    "mol",
+  ],
+  "loc": [
+    "mol",
+    "mol",
+  ],
+  "nom": [
+    "mol",
+    "mol",
+  ],
+  "voc": [
+    "mol",
+    "mol",
+  ],
+}
+`;
+
+exports[`noun masculine 37339 1`] = `
+{
+  "acc": [
+    "konsonans",
+    "konsonansy",
+  ],
+  "dat": [
+    "konsonansu",
+    "konsonansam",
+  ],
+  "gen": [
+    "konsonansa",
+    "konsonansov",
+  ],
+  "ins": [
+    "konsonansom",
+    "konsonansami",
+  ],
+  "loc": [
+    "konsonansu",
+    "konsonansah",
+  ],
+  "nom": [
+    "konsonans",
+    "konsonansy",
+  ],
+  "voc": [
+    "konsonanse",
+    "konsonansy",
+  ],
+}
+`;
+
+exports[`noun masculine 37340 1`] = `
+{
+  "acc": [
+    "disonans",
+    "disonansy",
+  ],
+  "dat": [
+    "disonansu",
+    "disonansam",
+  ],
+  "gen": [
+    "disonansa",
+    "disonansov",
+  ],
+  "ins": [
+    "disonansom",
+    "disonansami",
+  ],
+  "loc": [
+    "disonansu",
+    "disonansah",
+  ],
+  "nom": [
+    "disonans",
+    "disonansy",
+  ],
+  "voc": [
+    "disonanse",
+    "disonansy",
+  ],
+}
+`;
+
+exports[`noun masculine 37343 1`] = `
+{
+  "acc": [
+    "tembr",
+    "tembry",
+  ],
+  "dat": [
+    "tembru",
+    "tembram",
+  ],
+  "gen": [
+    "tembra",
+    "tembrov",
+  ],
+  "ins": [
+    "tembrom",
+    "tembrami",
+  ],
+  "loc": [
+    "tembru",
+    "tembrah",
+  ],
+  "nom": [
+    "tembr",
+    "tembry",
+  ],
+  "voc": [
+    "tembre",
+    "tembry",
+  ],
+}
+`;
+
+exports[`noun masculine 37347 1`] = `
+{
+  "acc": [
+    "kiberprostor",
+    "kiberprostory",
+  ],
+  "dat": [
+    "kiberprostoru",
+    "kiberprostoram",
+  ],
+  "gen": [
+    "kiberprostora",
+    "kiberprostorov",
+  ],
+  "ins": [
+    "kiberprostorom",
+    "kiberprostorami",
+  ],
+  "loc": [
+    "kiberprostoru",
+    "kiberprostorah",
+  ],
+  "nom": [
+    "kiberprostor",
+    "kiberprostory",
+  ],
+  "voc": [
+    "kiberprostore",
+    "kiberprostory",
+  ],
+}
+`;
+
+exports[`noun masculine 37350 1`] = `
+{
+  "acc": [
+    "cinizm",
+    "cinizmy",
+  ],
+  "dat": [
+    "cinizmu",
+    "cinizmam",
+  ],
+  "gen": [
+    "cinizma",
+    "cinizmov",
+  ],
+  "ins": [
+    "cinizmom",
+    "cinizmami",
+  ],
+  "loc": [
+    "cinizmu",
+    "cinizmah",
+  ],
+  "nom": [
+    "cinizm",
+    "cinizmy",
+  ],
+  "voc": [
+    "cinizme",
+    "cinizmy",
+  ],
+}
+`;
+
+exports[`noun masculine 37351 1`] = `
+{
+  "acc": [
+    "kanistr",
+    "kanistry",
+  ],
+  "dat": [
+    "kanistru",
+    "kanistram",
+  ],
+  "gen": [
+    "kanistra",
+    "kanistrov",
+  ],
+  "ins": [
+    "kanistrom",
+    "kanistrami",
+  ],
+  "loc": [
+    "kanistru",
+    "kanistrah",
+  ],
+  "nom": [
+    "kanistr",
+    "kanistry",
+  ],
+  "voc": [
+    "kanistre",
+    "kanistry",
+  ],
+}
+`;
+
+exports[`noun masculine 37353 1`] = `
+{
+  "acc": [
+    "lotos",
+    "lotosy",
+  ],
+  "dat": [
+    "lotosu",
+    "lotosam",
+  ],
+  "gen": [
+    "lotosa",
+    "lotosov",
+  ],
+  "ins": [
+    "lotosom",
+    "lotosami",
+  ],
+  "loc": [
+    "lotosu",
+    "lotosah",
+  ],
+  "nom": [
+    "lotos",
+    "lotosy",
+  ],
+  "voc": [
+    "lotose",
+    "lotosy",
+  ],
+}
+`;
+
+exports[`noun masculine 37357 1`] = `
+{
+  "acc": [
+    "šnicl",
+    "šnicly",
+  ],
+  "dat": [
+    "šniclu",
+    "šniclam",
+  ],
+  "gen": [
+    "šnicla",
+    "šniclov",
+  ],
+  "ins": [
+    "šniclom",
+    "šniclami",
+  ],
+  "loc": [
+    "šniclu",
+    "šniclah",
+  ],
+  "nom": [
+    "šnicl",
+    "šnicly",
+  ],
+  "voc": [
+    "šnicle",
+    "šnicly",
+  ],
+}
+`;
+
+exports[`noun masculine 37364 1`] = `
+{
+  "acc": [
+    "konsensus",
+    "konsensusy",
+  ],
+  "dat": [
+    "konsensusu",
+    "konsensusam",
+  ],
+  "gen": [
+    "konsensusa",
+    "konsensusov",
+  ],
+  "ins": [
+    "konsensusom",
+    "konsensusami",
+  ],
+  "loc": [
+    "konsensusu",
+    "konsensusah",
+  ],
+  "nom": [
+    "konsensus",
+    "konsensusy",
+  ],
+  "voc": [
+    "konsensuse",
+    "konsensusy",
+  ],
+}
+`;
+
+exports[`noun masculine 37371 1`] = `
+{
+  "acc": [
+    "kampus",
+    "kampusy",
+  ],
+  "dat": [
+    "kampusu",
+    "kampusam",
+  ],
+  "gen": [
+    "kampusa",
+    "kampusov",
+  ],
+  "ins": [
+    "kampusom",
+    "kampusami",
+  ],
+  "loc": [
+    "kampusu",
+    "kampusah",
+  ],
+  "nom": [
+    "kampus",
+    "kampusy",
+  ],
+  "voc": [
+    "kampuse",
+    "kampusy",
+  ],
+}
+`;
+
+exports[`noun masculine 37375 1`] = `
+{
+  "acc": [
+    "bruk",
+    "bruky",
+  ],
+  "dat": [
+    "bruku",
+    "brukam",
+  ],
+  "gen": [
+    "bruka",
+    "brukov",
+  ],
+  "ins": [
+    "brukom",
+    "brukami",
+  ],
+  "loc": [
+    "bruku",
+    "brukah",
+  ],
+  "nom": [
+    "bruk",
+    "bruky",
+  ],
+  "voc": [
+    "bruče",
+    "bruky",
+  ],
+}
+`;
+
+exports[`noun masculine 37380 1`] = `
+{
+  "acc": [
+    "Kurdistan",
+    "Kurdistany",
+  ],
+  "dat": [
+    "Kurdistanu",
+    "Kurdistanam",
+  ],
+  "gen": [
+    "Kurdistana",
+    "Kurdistanov",
+  ],
+  "ins": [
+    "Kurdistanom",
+    "Kurdistanami",
+  ],
+  "loc": [
+    "Kurdistanu",
+    "Kurdistanah",
+  ],
+  "nom": [
+    "Kurdistan",
+    "Kurdistany",
+  ],
+  "voc": [
+    "Kurdistane",
+    "Kurdistany",
+  ],
+}
+`;
+
+exports[`noun masculine 37384 1`] = `
+{
+  "acc": [
+    "logotip",
+    "logotipy",
+  ],
+  "dat": [
+    "logotipu",
+    "logotipam",
+  ],
+  "gen": [
+    "logotipa",
+    "logotipov",
+  ],
+  "ins": [
+    "logotipom",
+    "logotipami",
+  ],
+  "loc": [
+    "logotipu",
+    "logotipah",
+  ],
+  "nom": [
+    "logotip",
+    "logotipy",
+  ],
+  "voc": [
+    "logotipe",
+    "logotipy",
+  ],
+}
+`;
+
+exports[`noun masculine 37392 1`] = `
+{
+  "acc": [
+    "kič",
+    "kiče",
+  ],
+  "dat": [
+    "kiču",
+    "kičam",
+  ],
+  "gen": [
+    "kiča",
+    "kičev",
+  ],
+  "ins": [
+    "kičem",
+    "kičami",
+  ],
+  "loc": [
+    "kiču",
+    "kičah",
+  ],
+  "nom": [
+    "kič",
+    "kiče",
+  ],
+  "voc": [
+    "kiču",
+    "kiče",
+  ],
+}
+`;
+
+exports[`noun masculine 37395 1`] = `
+{
+  "acc": [
+    "ročnik",
+    "ročniky",
+  ],
+  "dat": [
+    "ročniku",
+    "ročnikam",
+  ],
+  "gen": [
+    "ročnika",
+    "ročnikov",
+  ],
+  "ins": [
+    "ročnikom",
+    "ročnikami",
+  ],
+  "loc": [
+    "ročniku",
+    "ročnikah",
+  ],
+  "nom": [
+    "ročnik",
+    "ročniky",
+  ],
+  "voc": [
+    "ročniče",
+    "ročniky",
+  ],
+}
+`;
+
+exports[`noun masculine 37396 1`] = `
+{
+  "acc": [
+    "godišnik",
+    "godišniky",
+  ],
+  "dat": [
+    "godišniku",
+    "godišnikam",
+  ],
+  "gen": [
+    "godišnika",
+    "godišnikov",
+  ],
+  "ins": [
+    "godišnikom",
+    "godišnikami",
+  ],
+  "loc": [
+    "godišniku",
+    "godišnikah",
+  ],
+  "nom": [
+    "godišnik",
+    "godišniky",
+  ],
+  "voc": [
+    "godišniče",
+    "godišniky",
+  ],
+}
+`;
