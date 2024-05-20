@@ -35484,32 +35484,32 @@ exports[`noun neuter 31537 1`] = `
 exports[`noun neuter 31568 1`] = `
 {
   "acc": [
-    "zatmjeńje",
-    "zatmjeńja",
+    "zaťmjeńje",
+    "zaťmjeńja",
   ],
   "dat": [
-    "zatmjeńju",
-    "zatmjeńjam",
+    "zaťmjeńju",
+    "zaťmjeńjam",
   ],
   "gen": [
-    "zatmjeńja",
-    "zatmjenij",
+    "zaťmjeńja",
+    "zaťmjenij",
   ],
   "ins": [
-    "zatmjeńjem",
-    "zatmjeńjami",
+    "zaťmjeńjem",
+    "zaťmjeńjami",
   ],
   "loc": [
-    "zatmjeńju",
-    "zatmjeńjah",
+    "zaťmjeńju",
+    "zaťmjeńjah",
   ],
   "nom": [
-    "zatmjeńje",
-    "zatmjeńja",
+    "zaťmjeńje",
+    "zaťmjeńja",
   ],
   "voc": [
-    "zatmjeńje",
-    "zatmjeńja",
+    "zaťmjeńje",
+    "zaťmjeńja",
   ],
 }
 `;
@@ -41262,6 +41262,8 @@ exports[`noun neuter 37154 1`] = `
 
 exports[`noun neuter 37161 1`] = `null`;
 
+exports[`noun neuter 37162 1`] = `null`;
+
 exports[`noun neuter 37167 1`] = `
 {
   "acc": [
@@ -41427,6 +41429,138 @@ exports[`noun neuter 37314 1`] = `
   "voc": [
     "verbovańje",
     "verbovańja",
+  ],
+}
+`;
+
+exports[`noun neuter 37346 1`] = `
+{
+  "acc": [
+    "kiberprostranstvo",
+    "kiberprostranstva",
+  ],
+  "dat": [
+    "kiberprostranstvu",
+    "kiberprostranstvam",
+  ],
+  "gen": [
+    "kiberprostranstva",
+    "kiberprostranstv",
+  ],
+  "ins": [
+    "kiberprostranstvom",
+    "kiberprostranstvami",
+  ],
+  "loc": [
+    "kiberprostranstvu",
+    "kiberprostranstvah",
+  ],
+  "nom": [
+    "kiberprostranstvo",
+    "kiberprostranstva",
+  ],
+  "voc": [
+    "kiberprostranstvo",
+    "kiberprostranstva",
+  ],
+}
+`;
+
+exports[`noun neuter 37372 1`] = `
+{
+  "acc": [
+    "jojo",
+    "jojo",
+  ],
+  "dat": [
+    "jojo",
+    "jojo",
+  ],
+  "gen": [
+    "jojo",
+    "jojo",
+  ],
+  "ins": [
+    "jojo",
+    "jojo",
+  ],
+  "loc": [
+    "jojo",
+    "jojo",
+  ],
+  "nom": [
+    "jojo",
+    "jojo",
+  ],
+  "voc": [
+    "jojo",
+    "jojo",
+  ],
+}
+`;
+
+exports[`noun neuter 37378 1`] = `
+{
+  "acc": [
+    "slovjanofiľstvo",
+    "slovjanofiľstva",
+  ],
+  "dat": [
+    "slovjanofiľstvu",
+    "slovjanofiľstvam",
+  ],
+  "gen": [
+    "slovjanofiľstva",
+    "slovjanofiľstv",
+  ],
+  "ins": [
+    "slovjanofiľstvom",
+    "slovjanofiľstvami",
+  ],
+  "loc": [
+    "slovjanofiľstvu",
+    "slovjanofiľstvah",
+  ],
+  "nom": [
+    "slovjanofiľstvo",
+    "slovjanofiľstva",
+  ],
+  "voc": [
+    "slovjanofiľstvo",
+    "slovjanofiľstva",
+  ],
+}
+`;
+
+exports[`noun neuter 37383 1`] = `
+{
+  "acc": [
+    "logo",
+    "logo",
+  ],
+  "dat": [
+    "logo",
+    "logo",
+  ],
+  "gen": [
+    "logo",
+    "logo",
+  ],
+  "ins": [
+    "logo",
+    "logo",
+  ],
+  "loc": [
+    "logo",
+    "logo",
+  ],
+  "nom": [
+    "logo",
+    "logo",
+  ],
+  "voc": [
+    "logo",
+    "logo",
   ],
 }
 `;
