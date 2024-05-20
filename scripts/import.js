@@ -15,7 +15,9 @@ const FIXTURES_DIR = path.join(__dirname, '../src/__fixtures__');
 const WORDS_SHEET = path.join(CACHE_DIR, 'words.csv');
 
 const FIXTURE_ADJECTIVES = path.join(FIXTURES_DIR, 'adjectives.json');
-
+const FIXTURE_ADVERBS = path.join(FIXTURES_DIR, 'adverbs.json');
+const FIXTURE_CONJUNCTIONS = path.join(FIXTURES_DIR, 'conjunctions.json');
+const FIXTURE_INTERJECTIONS = path.join(FIXTURES_DIR, 'interjections.json');
 const FIXTURE_NOUNS_MASCULINE = path.join(FIXTURES_DIR, 'nouns-masculine.json');
 const FIXTURE_NOUNS_MASCULINE_ANIMATE = path.join(
   FIXTURES_DIR,
@@ -24,6 +26,11 @@ const FIXTURE_NOUNS_MASCULINE_ANIMATE = path.join(
 const FIXTURE_NOUNS_FEMININE = path.join(FIXTURES_DIR, 'nouns-feminine.json');
 const FIXTURE_NOUNS_NEUTER = path.join(FIXTURES_DIR, 'nouns-neuter.json');
 const FIXTURE_NOUNS_OTHER = path.join(FIXTURES_DIR, 'nouns-misc.json');
+
+const FIXTURE_NUMERALS = path.join(FIXTURES_DIR, 'numerals.json');
+const FIXTURE_PARTICLES = path.join(FIXTURES_DIR, 'particles.json');
+const FIXTURE_PHRASES = path.join(FIXTURES_DIR, 'phrases.json');
+const FIXTURE_PREPOSITIONS = path.join(FIXTURES_DIR, 'prepositions.json');
 
 const FIXTURE_VERBS_PERFECT = path.join(FIXTURES_DIR, 'verbs-perfect.json');
 const FIXTURE_VERBS_IMPERFECT = path.join(FIXTURES_DIR, 'verbs-imperfect.json');
@@ -120,6 +127,13 @@ async function splitToFixtures() {
     refl: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_REFLEXIVE }),
     rel: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_RELATIVE }),
   };
+  const adverbs = new JSONLFileStream({ filePath: FIXTURE_ADVERBS });
+  const conjunctions = new JSONLFileStream({ filePath: FIXTURE_CONJUNCTIONS });
+  const interjections = new JSONLFileStream({ filePath: FIXTURE_INTERJECTIONS });
+  const numerals = new JSONLFileStream({ filePath: FIXTURE_NUMERALS });
+  const particles = new JSONLFileStream({ filePath: FIXTURE_PARTICLES });
+  const phrases = new JSONLFileStream({ filePath: FIXTURE_PHRASES });
+  const prepositions = new JSONLFileStream({ filePath: FIXTURE_PREPOSITIONS });
   const other = new JSONLFileStream({ filePath: FIXTURE_OTHER });
 
   const findStream = (pos) => {
@@ -171,6 +185,20 @@ async function splitToFixtures() {
       }
 
       return pronouns[subtype];
+    } else if (/^adv\./.test(pos)) {
+      return adverbs;
+    } else if (/^conj\./.test(pos)) {
+      return conjunctions;
+    } else if (/^intj\./.test(pos)) {
+      return interjections;
+    } else if (/^prep\./.test(pos)) {
+      return prepositions;
+    } else if (/^num\./.test(pos)) {
+      return numerals;
+    } else if (/^phr/.test(pos)) {
+      return phrases;
+    } else if (pos === 'particle') {
+      return particles;
     } else {
       return other;
     }
