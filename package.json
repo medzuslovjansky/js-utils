@@ -20,7 +20,7 @@
     "lint": "eslint src/**/*.ts",
     "test": "jest",
     "allure": "cross-env ALLURE_NO_ANALYTICS=true allure serve",
-    "allure:generate": "allure generate --clean",
+    "allure:generate": "allure generate --clean --lang isv",
     "prepare": "husky install",
     "precommit": "lint-staged",
     "prepush": "bash scripts/prepush.sh"
