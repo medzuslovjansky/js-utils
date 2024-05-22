@@ -5,6 +5,7 @@
 import { declensionAdjective } from '../adjective';
 import { inferFluentVowel, markFluentVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
+import { VOWELS } from '../substitutions';
 import { removeBrackets, replaceStringAt } from '../utils';
 import { establishGender } from './establishGender';
 
@@ -284,9 +285,7 @@ function nominative_sg(noun: string, root: string, gender: string) {
   if (gender == 'f2') {
     result = root;
   }
-  if (gender == 'f3' && root.endsWith('v')) {
-    result = root.substring(0, root.length - 1) + 'ȯv';
-  } else if (gender == 'f3') {
+  if (gender == 'f3') {
     result = noun;
   } else if (gender == 'm3' && root == 'dn') {
     result = 'den / denj';
@@ -362,7 +361,11 @@ function instrumental_sg(root: string, gender: string) {
     result = root + 'ojų';
   } else if (gender == 'f2') {
     result = root + 'jų';
-  } else if (gender == 'f3' && root.endsWith('v')) {
+  } else if (
+    gender == 'f3' &&
+    root.endsWith('v') &&
+    !VOWELS.has(root.slice(-2, -1))
+  ) {
     result = root.substring(0, root.length - 1) + 'ȯvjų';
   } else if (gender == 'f3') {
     result = root + 'jų';
