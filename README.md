@@ -32,7 +32,7 @@ Reference is automatically generated at: <https://medzuslovjansky.github.io/js-u
 
 #### Part of speech
 
-* `parsePos` - parse tags like `f.`, `v.tr. impf.`, etc. into an object with convenient properties
+* `parsePos` - parse tags like `f.`, `v.tr. ipf.`, etc. into an object with convenient properties
 
 #### Adjectives
 

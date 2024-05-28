@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ud/verb forms 1`] = `
+"Form	Lemma	uPosTag	Feats
+pravitì	pravitì	VERB	Aspect=Imp|VerbForm=Inf
+pravjų, pravim	pravitì	VERB	Aspect=Imp|Mood=Ind|Tense=Pres|Person=1|Number=Sing
+praviš	pravitì	VERB	Aspect=Imp|Mood=Ind|Tense=Pres|Person=2|Number=Sing
+pravi	pravitì	VERB	Aspect=Imp|Mood=Ind|Tense=Pres|Person=3|Number=Sing
+pravimȯ	pravitì	VERB	Aspect=Imp|Mood=Ind|Tense=Pres|Person=1|Number=Plur
+pravite	pravitì	VERB	Aspect=Imp|Mood=Ind|Tense=Pres|Person=2|Number=Plur
+pravęt	pravitì	VERB	Aspect=Imp|Mood=Ind|Tense=Pres|Person=3|Number=Plur
+pravi	pravitì	VERB	Aspect=Imp|Mood=Imp|Person=2|Number=Sing
+pravimȯ	pravitì	VERB	Aspect=Imp|Mood=Imp|Person=1|Number=Plur
+pravite	pravitì	VERB	Aspect=Imp|Mood=Imp|Person=2|Number=Plur"
+`;
