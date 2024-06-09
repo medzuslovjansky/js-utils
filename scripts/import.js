@@ -5,11 +5,8 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Writable } = require('node:stream');
 
-// import { conjugationVerb } from 'verb/conjugationVerb';
 const conjugationVerb = require('../dist/verb/conjugationVerb.js');
 const declensionAdjective = require('../dist/adjective/declensionAdjective');
-const declensionNoun = require('../dist/noun/declensionNoun');
-
 
 const csvParse = require('csv-parse').parse;
 const fetch = require('node-fetch');
@@ -68,7 +65,6 @@ const FIXTURE_PRONOUNS_RELATIVE = path.join(
   'pronouns-relative.json',
 );
 const FIXTURE_OTHER = path.join(FIXTURES_DIR, 'other.json');
-const FIXTURE_DERIVED_BASE = path.join(FIXTURES_DIR, 'base.json');
 
 async function downloadFile(url, outputPath) {
   const response = await fetch(url);
@@ -128,7 +124,6 @@ async function splitToFixtures() {
     rel: new JSONLFileStream({ filePath: FIXTURE_PRONOUNS_RELATIVE }),
   };
   const other = new JSONLFileStream({ filePath: FIXTURE_OTHER });
-  const derivation_stream = new JSONLFileStream({ filePath: FIXTURE_DERIVED_BASE });
 
   const checkDerivationPossible = (pos) => {
     if (/\badj\./.test(pos)) {
