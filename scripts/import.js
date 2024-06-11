@@ -235,6 +235,9 @@ async function splitToFixtures() {
                 // blågy -> unši, blåžejši
                 // dobry -> lěpši, lučši
                 for (const new_adj of new_adj_set.split(", ")) {
+                    if (new_adj.includes("bolje ")) {
+                        continue;
+                    }
                     // or `adj.comp.:${new_adj}:`?
                     const key = `adj.:${new_adj}:`;
                     if (visited.has(key)) {
@@ -253,6 +256,10 @@ async function splitToFixtures() {
         if (/^v\./.test(morphology)) {
             let add_id = 0;
             // verb2noun
+            if (lemma.startsWith("ne ")) {
+                // things like "ne poslušańje"
+                continue;
+            }
             wordData = conjugationVerb.conjugationVerb(lemma, extra);
             if (!wordData) {
                 console.log(row);
