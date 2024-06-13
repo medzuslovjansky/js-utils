@@ -5,6 +5,9 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Writable } = require('node:stream');
 
+const conjugationVerb = require('../dist/verb/conjugationVerb.js');
+const declensionAdjective = require('../dist/adjective/declensionAdjective');
+
 const csvParse = require('csv-parse').parse;
 const fetch = require('node-fetch');
 const WORDS_URL =
@@ -122,6 +125,16 @@ async function splitToFixtures() {
   };
   const other = new JSONLFileStream({ filePath: FIXTURE_OTHER });
 
+  const checkDerivationPossible = (pos) => {
+    if (/\badj\./.test(pos)) {
+      return 1;
+    } else if (/^v\./.test(pos)) {
+      return 1;
+    } else {
+      return 0;
+    }
+  };
+
   const findStream = (pos) => {
     if (/\badj\./.test(pos)) {
       return adjectives.o;
@@ -179,6 +192,7 @@ async function splitToFixtures() {
   const visited = new Set();
   const csvRecords = fileStream.pipe(csvParser);
   let counter = 0;
+  let derivation_queue = new Set();
   for await (const record of csvRecords) {
     counter++;
 
@@ -187,6 +201,7 @@ async function splitToFixtures() {
     if (!stream) {
       continue;
     }
+    const isDerivationPossible = checkDerivationPossible(morphology);
 
     const isv = stripSquareBrackets(stripHash(record.isv));
     const lemmas = isv.split(/\s*,\s*/);
@@ -201,7 +216,116 @@ async function splitToFixtures() {
       const row = [id, morphology, lemma, extra];
       stream.write(row);
       visited.add(key);
+      if (isDerivationPossible) {
+          derivation_queue.add(row)
+      }
     }
+  }
+
+  let counter_derived = 0;
+  let found_forms = {prap: [], prpp: [], pfpp: [], pfap: [], vnoun: [], comparative: [], superlative: []}
+  for (row of derivation_queue) {
+        const [id, morphology, lemma, extra] = row;
+        let wordData;
+        if (/\badj\./.test(morphology)) {
+            // adj2comp
+            wordData = declensionAdjective.declensionAdjective(lemma, '');  // I ignore extra deliberately
+            let add_id = 0;
+            for (const new_adj_type of ["comparative", "superlative"]) {
+                const new_adj_set = wordData.comparison[new_adj_type][0]
+                // blågy -> unši, blåžejši
+                // dobry -> lěpši, lučši
+                for (const new_adj of new_adj_set.split(", ")) {
+                    if (new_adj.includes("bolje ")) {
+                        continue;
+                    }
+                    // or `adj.comp.:${new_adj}:`?
+                    const key = `adj.:${new_adj}:`;
+                    const new_key = `adj.comp.:${new_adj}:`;
+                    if (visited.has(new_key)) {
+                        continue;
+                    }
+                    if (visited.has(key)) {
+                        // add Degree=Cmp|Sup to its POS?
+                        if (found_forms[new_adj_type].includes(new_adj)) { 
+                           continue;
+                        }
+                        found_forms[new_adj_type].push(new_adj)
+                        continue;
+                    }
+                    const new_row = [id + ">" + add_id, '#adj.comp.', new_adj, ""];
+                    add_id++;
+                    adjectives.o.write(new_row);
+                    visited.add(new_key);
+                    counter_derived++;
+                }
+            }
+        }
+        if (/^v\./.test(morphology)) {
+            let add_id = 0;
+            // verb2noun
+            if (lemma.startsWith("ne ")) {
+                // things like "ne poslušańje"
+                continue;
+            }
+            wordData = conjugationVerb.conjugationVerb(lemma, extra);
+            if (!wordData) {
+                console.log(row);
+                continue;
+            }
+            const new_noun = wordData.gerund;
+            const noun_key = `n.:${new_noun}:`;
+            if (visited.has(noun_key)) {
+                    // add verbForm=Vnoun to its POS?
+                    if (found_forms['vnoun'].includes(new_noun)) { 
+                        continue;
+                    }
+                    found_forms['vnoun'].push(new_noun)
+            } else {
+                const noun_row = [id + ">" + add_id, '#n.vnoun.', new_noun, ""];
+                add_id++;
+                nouns.n.write(noun_row);
+                const new_noun_key = `n.vnoun.:${new_noun}:`;
+                visited.add(new_noun_key);
+                counter_derived++;
+            }
+            // verb2adj
+            for (const adj_type of ["prap", "prpp", "pfap", "pfpp"]) {
+                const new_adj = wordData[adj_type];
+                const new_adj_lemma = new_adj.split(" ")[0].trim();
+                const key = `adj.:${new_adj_lemma}:`;
+                const new_key = `adj.ptcp.:${new_adj_lemma}:`;
+                if (visited.has(new_key)) {
+                    continue;
+                }
+                if (!conjugationVerb.isParticipleValid(adj_type, morphology)) {
+                    if (visited.has(key)) {
+                        console.log("forbidden form encountered!")
+                    }
+                    continue;
+                }
+                if (visited.has(key)) {
+                    // add verbForm=Part to its POS?
+                    if (found_forms[adj_type].includes(new_adj_lemma)) { 
+                        continue;
+                    }
+                    found_forms[adj_type].push(new_adj_lemma)
+                    continue;
+                }
+                const new_row = [id + ">" + add_id, '#adj.ptcp.', new_adj_lemma, ""];
+                add_id++;
+                adjectives.o.write(new_row);
+                visited.add(new_key);
+                counter_derived++;
+            }
+        }
+  }
+  let counter_derived_existing = 0;
+  for (const adj_type of ["prap", "prpp", "pfap", "pfpp", "vnoun", "comparative", "superlative"]) {
+    counter_derived_existing = counter_derived_existing + found_forms[adj_type].length;
+
+    console.log(adj_type, found_forms[adj_type].length)
+    console.log(found_forms[adj_type])
   }
 
   await Promise.all(
@@ -224,6 +348,8 @@ async function splitToFixtures() {
   );
 
   console.log(`Processed ${counter} records...`);
+  console.log(`Added ${counter_derived} derived word forms.`);
+  console.log(`${counter_derived_existing} derived words already exist.`);
 }
 
 async function main() {

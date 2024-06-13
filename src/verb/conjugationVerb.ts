@@ -38,6 +38,27 @@ const prefixes = [
 
 const irregular_stems = { da: 1, je: 1, jě: 1, ja: 1, vě: 1 };
 
+export function isParticipleValid(
+  ptcpType: string,
+  verbMorpho: string,
+): boolean {
+  if (ptcpType == 'prap') {
+    return verbMorpho.includes('ipf');
+  }
+  if (ptcpType == 'prpp') {
+    return verbMorpho.includes('ipf') && verbMorpho.includes('tr.');
+  }
+  if (ptcpType == 'pfap') {
+    // always allowed
+    return true;
+  }
+  if (ptcpType == 'pfpp') {
+    return verbMorpho.includes('tr.');
+  }
+  // should not be possible, but...
+  return false;
+}
+
 export function conjugationVerbFlat(inf: string, rawPts: string): string[] {
   return getConjugationVerbFlat(conjugationVerb(inf, rawPts));
 }
