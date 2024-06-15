@@ -56,6 +56,13 @@ export function declensionAdjective(
   postfix = '',
   partOfSpeech = 'adj.',
 ): SteenAdjectiveParadigm {
+  if ([' na', ' od', ' za'].includes(adj.slice(-3))) {
+    // FIXME: I think we can re-use the 'postfix' logic, originaly written for stuff like "kogo-libo" in declensionPronoun
+    // but it doesn't work for `applyRules(['osnovany', 'osnovano', 'osnovana'], " na")` for some reason
+    // postfix = adj.slice(-3);
+    adj = adj.slice(0, -3);
+  }
+
   const root = establish_root(adj);
   const m_nom_sg = m_nominative_sg(adj, root);
   const m_acc_sg = m_accusative_sg(adj, root);
@@ -94,6 +101,7 @@ export function declensionAdjective(
       ins: applyRules([ins_pl], postfix),
     },
     comparison: deriveComparison(root, adj, postfix, partOfSpeech),
+    short: applyRules([makeShortAdj(adj)], postfix),
   };
 }
 
@@ -118,6 +126,102 @@ function deriveComparison(
     comparative: isSuperlative ? [] : applyRules([comp_adj, comp_adv], postfix),
     superlative: applyRules([sup_adj, sup_adv], postfix),
   };
+}
+
+function getConsonantsEnding(word: string): string {
+  // should this be a module-level constant? it is used in other functions
+  const CONSONANTS = 'bcdfghjklmnprstvzćčďľńŕśšťźžʒđ';
+
+  if (!word.endsWith('y') && !word.endsWith('i')) {
+    return word;
+  }
+  word = word.slice(0, -1);
+
+  // copy ending while it is made of consonants
+  let cons = '';
+  for (let i = word.length - 1; i >= 0; i--) {
+    if (CONSONANTS.includes(word[i])) {
+      cons = word[i] + cons;
+    } else {
+      break;
+    }
+  }
+  return cons;
+}
+
+function makeShortAdj(longAdj: string): string {
+  const SOFT_CONSONANTS = 'jcćčšž' + 'ŕĺľťśď';
+  const VOWELS = 'aeiouųåėęěȯy';
+  const CONSONANTS = 'bcdfghjklmnprstvzćčďľńŕśšťźžʒđ';
+
+  const simplestForm = longAdj.slice(0, -1);
+
+  if (['lěnji', 'ranji', 'sinji'].includes(longAdj)) {
+    return simplestForm;
+  }
+  if (longAdj === 'dȯlgy') {
+    return 'dȯlȯg';
+  }
+  // short form is awkward for these
+  if (longAdj.endsWith('ji')) {
+    return longAdj;
+  }
+  // is it already in a short form?
+  for (const ending of ['ov', 'ev', 'in', 'en', 'rad']) {
+    if (longAdj.endsWith(ending)) {
+      return longAdj;
+    }
+  }
+  // is it a comparative or participle in a disguise?
+  for (const ending of ['ši', 'ći']) {
+    if (longAdj.endsWith(ending)) {
+      return longAdj;
+    }
+  }
+
+  // Is ending consonant cluster pronounceable? Does it have any syllabic RLs?
+  const consEnding = getConsonantsEnding(longAdj);
+  // if it's not "rabotč/izkonavč"
+  if (consEnding.length === 2 && !consEnding.includes('č')) {
+    return simplestForm;
+  }
+  // I don't use native JS /regex/ syntax here because it has no string interpolation
+  const syllabicRegex = new RegExp(`.*[${VOWELS}]st[ŕrl]?y$`);
+  // const syllabicRegex2 = new RegExp(`.*[${VOWELS}][${CONSONANTS}][ŕrl][${CONSONANTS}]y$`);  // brzy
+
+  const syllabicEndingSet = new Set([
+    'tvŕd',
+    'lst',
+    'čŕstv',
+    'črstv',
+    'mŕtv',
+    'brz',
+  ]);
+  if (
+    consEnding.length === 1 ||
+    syllabicRegex.test(longAdj) ||
+    syllabicEndingSet.has(consEnding)
+  ) {
+    return simplestForm;
+  }
+
+  if (longAdj.endsWith('ny')) {
+    if (longAdj.slice(-3, -2) === 'l') {
+      return longAdj.slice(0, -2) + 'ȯn';
+    }
+    return longAdj.slice(0, -2) + 'ėn';
+  }
+  if (longAdj.endsWith('zly') || longAdj.endsWith('mly')) {
+    return longAdj.slice(0, -2) + 'ȯl';
+  }
+  if (longAdj.endsWith('ky')) {
+    if (SOFT_CONSONANTS.includes(longAdj.slice(-3, -2))) {
+      return longAdj.slice(0, -2) + 'ėk';
+    } else {
+      return longAdj.slice(0, -2) + 'ȯk';
+    }
+  }
+  return '-';
 }
 
 function parseComparisionModifiers(partOfSpeech: string) {
