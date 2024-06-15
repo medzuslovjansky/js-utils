@@ -8,7 +8,7 @@ test('declensionAdjectiveFlat integrity', () => {
 
   // No empty strings expected
   expect(joint.filter(Boolean).length).toBe(joint.length);
-  expect(positive.length).toBe(18);
+  expect(positive.length).toBe(19);
   expect(comparative.length).toBe(14);
   expect(superlative.length).toBe(12);
 });

@@ -2,6 +2,12 @@
  * @link http://steen.free.fr/interslavic/adjectivator.html
  */
 
+const SOFT_CONSONANTS = 'jcćčšž' + 'ŕĺľťśď';
+const VOWELS = 'aeiouųåėęěȯy';
+const CONSONANTS = 'bcdfghjklmnprstvzćčďľńŕśšťźžʒđ';
+// const liquid = /[lrŕ]/;
+// const nasal = /[nm]/;
+
 export function declensionAdjectiveFlat(
   adj: string,
   postfix: string,
@@ -34,6 +40,7 @@ export type SteenAdjectiveParadigm = {
   singular: SteenAdjectiveParadigm$Case;
   plural: SteenAdjectiveParadigm$Case;
   comparison: SteenAdjectiveParadigm$Comparison;
+  short: string[];
 };
 
 type SteenAdjectiveParadigm$Case = {
@@ -82,6 +89,12 @@ export function declensionAdjective(
   const glo_pl = genloc_pl(root);
   const dat_pl = dative_pl(root);
   const ins_pl = instrumental_pl(root);
+  const short_adj = makeShortAdj(adj);
+
+  // for debug:
+  // if (short_adj != adj) {
+  //  console.log(adj, "->", short_adj);
+  // }
 
   return {
     singular: {
@@ -101,7 +114,7 @@ export function declensionAdjective(
       ins: applyRules([ins_pl], postfix),
     },
     comparison: deriveComparison(root, adj, postfix, partOfSpeech),
-    short: applyRules([makeShortAdj(adj)], postfix),
+    short: applyRules([short_adj], postfix),
   };
 }
 
@@ -129,9 +142,6 @@ function deriveComparison(
 }
 
 function getConsonantsEnding(word: string): string {
-  // should this be a module-level constant? it is used in other functions
-  const CONSONANTS = 'bcdfghjklmnprstvzćčďľńŕśšťźžʒđ';
-
   if (!word.endsWith('y') && !word.endsWith('i')) {
     return word;
   }
@@ -150,45 +160,79 @@ function getConsonantsEnding(word: string): string {
 }
 
 function makeShortAdj(longAdj: string): string {
-  const SOFT_CONSONANTS = 'jcćčšž' + 'ŕĺľťśď';
-  const VOWELS = 'aeiouųåėęěȯy';
-  const CONSONANTS = 'bcdfghjklmnprstvzćčďľńŕśšťźžʒđ';
-
   const simplestForm = longAdj.slice(0, -1);
 
-  if (['lěnji', 'ranji', 'sinji'].includes(longAdj)) {
+  if (['sinji', 'obći'].includes(longAdj)) {
     return simplestForm;
   }
   if (longAdj === 'dȯlgy') {
     return 'dȯlȯg';
+  }
+  // TODO: should these words have PoS like "pron.indef." instead of just "adj."?
+  if (longAdj === 'iny' || longAdj === 'drugy' || longAdj === 'něktory') {
+    return '-';
   }
   // short form is awkward for these
   if (longAdj.endsWith('ji')) {
     return longAdj;
   }
   // is it already in a short form?
-  for (const ending of ['ov', 'ev', 'in', 'en', 'rad']) {
+  for (const ending of ['ov', 'ev', 'in', 'en', 'ėn', 'ȯk', 'ėk', 'rad']) {
     if (longAdj.endsWith(ending)) {
       return longAdj;
     }
   }
-  // is it a comparative or participle in a disguise?
-  for (const ending of ['ši', 'ći']) {
+  // is it a comparative, relative or participle in a disguise?
+  for (const ending of ['ši', 'ći', 'sky']) {
     if (longAdj.endsWith(ending)) {
       return longAdj;
+    }
+  }
+  // should we add yers?
+  const consEnding = getConsonantsEnding(longAdj);
+
+  if (consEnding.length === 1) {
+    return simplestForm;
+  }
+  if (longAdj.endsWith('ny')) {
+    if (longAdj.slice(-3, -2) === 'l') {
+      return longAdj.slice(0, -2) + 'ȯn'; // pȯlny -> pȯlȯn
+    }
+    if (longAdj.slice(-3, -2) === 'ĺ' || longAdj.slice(-3, -2) === 'ľ') {
+      return longAdj.slice(0, -3) + 'lėn'; // siĺny -> silėn
+    }
+    return longAdj.slice(0, -2) + 'ėn';
+  }
+  if (longAdj.endsWith('zly') || longAdj.endsWith('mly')) {
+    return longAdj.slice(0, -2) + 'ȯl';
+  }
+
+  // uncomment for Southern flavorization:
+  // if (longAdj.endsWith("ry")) { return longAdj.slice(0, -2) + "ėr"; }
+  // if (longAdj.endsWith("ly")) { return longAdj.slice(0, -2) + "ėl"; }
+
+  // https://en.wiktionary.org/wiki/Reconstruction:Proto-Slavic/obьlъ
+  // HR obao, BG объл, MK обол, SL obel; but RU обл
+  if (longAdj.endsWith('bly')) {
+    return longAdj.slice(0, -2) + 'ėl';
+  }
+  if (longAdj.endsWith('ky')) {
+    if (SOFT_CONSONANTS.includes(longAdj.slice(-3, -2))) {
+      return longAdj.slice(0, -2) + 'ėk';
+    } else {
+      return longAdj.slice(0, -2) + 'ȯk';
     }
   }
 
-  // Is ending consonant cluster pronounceable? Does it have any syllabic RLs?
-  const consEnding = getConsonantsEnding(longAdj);
-  // if it's not "rabotč/izkonavč"
+  // we can handle "věth/trězv/dobr", but not "rabotč/izkonavč"
   if (consEnding.length === 2 && !consEnding.includes('č')) {
     return simplestForm;
   }
   // I don't use native JS /regex/ syntax here because it has no string interpolation
-  const syllabicRegex = new RegExp(`.*[${VOWELS}]st[ŕrl]?y$`);
+  const syllabicRegex = new RegExp(`.*[${VOWELS}]st[ŕrl]?y$`); // ostr, bystr
   // const syllabicRegex2 = new RegExp(`.*[${VOWELS}][${CONSONANTS}][ŕrl][${CONSONANTS}]y$`);  // brzy
 
+  // Is ending consonant cluster pronounceable? Does it have any syllabic RLs?
   const syllabicEndingSet = new Set([
     'tvŕd',
     'lst',
@@ -197,29 +241,8 @@ function makeShortAdj(longAdj: string): string {
     'mŕtv',
     'brz',
   ]);
-  if (
-    consEnding.length === 1 ||
-    syllabicRegex.test(longAdj) ||
-    syllabicEndingSet.has(consEnding)
-  ) {
+  if (syllabicRegex.test(longAdj) || syllabicEndingSet.has(consEnding)) {
     return simplestForm;
-  }
-
-  if (longAdj.endsWith('ny')) {
-    if (longAdj.slice(-3, -2) === 'l') {
-      return longAdj.slice(0, -2) + 'ȯn';
-    }
-    return longAdj.slice(0, -2) + 'ėn';
-  }
-  if (longAdj.endsWith('zly') || longAdj.endsWith('mly')) {
-    return longAdj.slice(0, -2) + 'ȯl';
-  }
-  if (longAdj.endsWith('ky')) {
-    if (SOFT_CONSONANTS.includes(longAdj.slice(-3, -2))) {
-      return longAdj.slice(0, -2) + 'ėk';
-    } else {
-      return longAdj.slice(0, -2) + 'ȯk';
-    }
   }
   return '-';
 }
@@ -372,9 +395,6 @@ function comparative_adj(root: string) {
   let result = '';
   const hacek = root.indexOf('^');
   const lastchar = hacek !== -1 ? root.length - 2 : root.length - 1;
-  const vowel = /[aåeěęėioȯuųy]/;
-  // const liquid = /[lrŕ]/;
-  // const nasal = /[nm]/;
 
   if (root == 'velik') {
     result = 'vęčši';
@@ -397,7 +417,7 @@ function comparative_adj(root: string) {
     result = root.substring(0, root.length - 2) + 'ši';
   } else if (
     root.lastIndexOf('k') == root.length - 1 &&
-    vowel.test(root.charAt(lastchar - 1)) == false
+    !VOWELS.includes(root.charAt(lastchar - 1))
   ) {
     result = root.substring(0, root.length - 1) + 'ši';
   } else {
@@ -423,8 +443,6 @@ function comparative_adv(root: string) {
   let result = '';
   const hacek = root.indexOf('^');
   const lastchar = hacek !== -1 ? root.length - 2 : root.length - 1;
-  const vowel = /[aåeěęėioȯuųy]/;
-  // const liquid = /[lrŕ]/;
 
   if (root == 'velik') {
     result = 'vęče';
@@ -447,7 +465,7 @@ function comparative_adv(root: string) {
     result = root.substring(0, root.length - 2) + '%je';
   } else if (
     root.lastIndexOf('k') == root.length - 1 &&
-    vowel.test(root.charAt(lastchar - 1)) == false
+    !VOWELS.includes(root.charAt(lastchar - 1))
   ) {
     result = root.substring(0, root.length - 1) + '%je';
   } else if (root.indexOf('^') != -1) {
