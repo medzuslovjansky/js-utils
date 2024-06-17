@@ -8627,7 +8627,7 @@ exports[`verb imperfect 925 1`] = `
     "bųdųt mlětì",
   ],
   "gerund": "mlěťje",
-  "imperative": "melj, meljmȯ, meljte",
+  "imperative": "melji, meljimȯ, meljite",
   "imperfect": [
     "mlěh",
     "mlěše",
@@ -106696,7 +106696,7 @@ exports[`verb imperfect 21575 1`] = `
     "bųdųt slatì",
   ],
   "gerund": "slańje",
-  "imperative": "šlj, šljmȯ, šljte",
+  "imperative": "šlji, šljimȯ, šljite",
   "imperfect": [
     "slah",
     "slaše",
@@ -129382,7 +129382,7 @@ exports[`verb imperfect 26528 1`] = `
     "bųdųt klåtì",
   ],
   "gerund": "klåťje",
-  "imperative": "kolj, koljmȯ, koljte",
+  "imperative": "kolji, koljimȯ, koljite",
   "imperfect": [
     "klåh",
     "klåše",
@@ -151569,7 +151569,7 @@ exports[`verb imperfect 33440 1`] = `
     "bųdųt stlatì",
   ],
   "gerund": "stlańje",
-  "imperative": "stelj, steljmȯ, steljte",
+  "imperative": "stelji, steljimȯ, steljite",
   "imperfect": [
     "stlah",
     "stlaše",
