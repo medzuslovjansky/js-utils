@@ -2,6 +2,9 @@
  * @source http://steen.free.fr/interslavic/conjugator.html
  */
 
+import { compactArray } from '../utils';
+import { parsePos, Verb } from '../partOfSpeech';
+
 const prefixes = [
   'do',
   'iz',
@@ -38,27 +41,33 @@ const prefixes = [
 
 const irregular_stems = { da: 1, je: 1, jě: 1, ja: 1, vě: 1 };
 
-export function conjugationVerbFlat(inf: string, rawPts: string): string[] {
-  return getConjugationVerbFlat(conjugationVerb(inf, rawPts));
+export function conjugationVerbFlat(
+  inf: string,
+  rawPts: string,
+  partOfSpeech?: string,
+): string[] {
+  return getConjugationVerbFlat(conjugationVerb(inf, rawPts, partOfSpeech));
 }
 
-function getConjugationVerbFlat(result: any): string[] {
+function getConjugationVerbFlat(result: SteenVerbParadigm | null): string[] {
   if (!result) {
     return [];
   }
 
   const forms = [
-    ...result.conditional
-      .filter(Boolean)
-      .map((item: string) => item.split(' ')[1].replace(/[()]/g, '')),
+    ...compactArray(result.conditional).map((item) =>
+      item.split(' ')[1].replace(/[()]/g, ''),
+    ),
     result.gerund,
     ...result.imperative.replace(/ /g, '').split(','),
     ...result.imperfect,
     result.infinitive,
-    ...result.pfap.replace(/[(),]/g, '').split(' '),
-    ...result.pfpp.replace(/[(),]/g, '').split(' '),
-    ...result.prap.replace(/[(),]/g, '').split(' '),
-    ...result.prpp.replace(/[(),]/g, '').split(' '),
+    ...compactArray([
+      result.pfap,
+      result.pfpp,
+      result.prap,
+      result.prpp,
+    ]).flatMap((item) => item.replace(/[(),]/g, '').split(' ')),
     ...result.present.join(',').replace(/ /g, '').split(','),
   ]
     .filter(Boolean)
@@ -106,16 +115,33 @@ export type SteenVerbParadigm = {
     string?,
   ];
   imperative: string;
-  prap: string;
-  prpp: string;
-  pfap: string;
-  pfpp: string;
+  /**
+   * Present active participle
+   * @example 'dělajući'
+   */
+  prap?: string;
+  /**
+   * Present passive participle (uncommon)
+   * @example 'dělajemy'
+   */
+  prpp?: string;
+  /**
+   * Past active participle
+   * @example 'sdělavši'
+   */
+  pfap?: string;
+  /**
+   * Past passive participle (bookish)
+   * @example 'dělany'
+   */
+  pfpp?: string;
   gerund: string;
 };
 
 export function conjugationVerb(
   inf: string,
   rawPts: string,
+  partOfSpeech = 'v.tr. ipf./pf.',
 ): SteenVerbParadigm | null {
   //special cases
   if (inf.split(' ')[0].includes('/')) {
@@ -129,6 +155,7 @@ export function conjugationVerb(
     .replace(/[()]/g, '')
     .split(/[;,/]/)[0]
     .replace(/\+\d/, '');
+  const { imperfective, transitive } = parsePos(partOfSpeech) as Verb;
   const refl = reflexive(inf);
   const pref = prefix(inf);
   const is = infinitive_stem(pref, inf, pts);
@@ -167,11 +194,13 @@ export function conjugationVerb(
     psi,
     refl,
   ) as SteenVerbParadigm['imperative'];
-  const prap = build_prap(pref, ps, refl) as SteenVerbParadigm['prap'];
-  const prpp = build_prpp(pref, ps, psi) as SteenVerbParadigm['prpp'];
-  const pfap = build_pfap(lpa, refl) as SteenVerbParadigm['pfap'];
-  const pfpp = build_pfpp(pref, is, psi) as SteenVerbParadigm['pfpp'];
-  const gerund = build_gerund(pfpp) as SteenVerbParadigm['gerund'];
+
+  const prap = imperfective ? build_prap(pref, ps, refl) : undefined;
+  const prpp =
+    imperfective && transitive ? build_prpp(pref, ps, psi) : undefined;
+  const pfap = build_pfap(lpa, refl);
+  const pfpp = transitive ? build_pfpp(pref, is, psi) : undefined;
+  const gerund = build_gerund(build_pfpp(pref, is, psi));
 
   return {
     infinitive,
