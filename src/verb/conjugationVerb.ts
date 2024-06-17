@@ -116,7 +116,7 @@ export type SteenVerbParadigm = {
   ];
   imperative: string;
   /**
-   * Present active participle
+   * Present active participle, derived from imperfective verbs.
    * @example 'dělajući'
    */
   prap?: string;
@@ -126,7 +126,7 @@ export type SteenVerbParadigm = {
    */
   prpp?: string;
   /**
-   * Past active participle
+   * Past active participle, derived from perfective verbs.
    * @example 'sdělavši'
    */
   pfap?: string;
@@ -200,7 +200,7 @@ export function conjugationVerb(
     imperfective && transitive ? build_prpp(pref, ps, psi) : undefined;
   const pfap = build_pfap(lpa, refl);
   const pfpp = transitive ? build_pfpp(pref, is, psi) : undefined;
-  const gerund = build_gerund(build_pfpp(pref, is, psi));
+  const gerund = build_gerund(pfpp ?? build_pfpp(pref, is, psi));
 
   return {
     infinitive,
