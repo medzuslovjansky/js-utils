@@ -4,6 +4,12 @@
 
 import { compactArray, matchEnd } from '../utils';
 import { parsePos, Verb } from '../partOfSpeech';
+import {
+  BIG_YUS,
+  BIG_YUS_LOOSE,
+  IOTATED_SMALL_YUS,
+  SMALL_YUS,
+} from '../substitutions';
 
 const _SE = [' se', ' se'];
 const SE_ = ['sę ', 'se '];
@@ -358,36 +364,29 @@ function derive_present_tense_stem(infinitive_stem_string: string): string {
   // ...ĵ in cases where most Slavic languages have contraction -aje- > -a-
   let result = infinitive_stem_string;
 
-  if (['ova', 'eva'].includes(result.slice(-3)) && result !== 'hova') {
+  if (result === 'vzę') {
+    result = 'vȯzm';
+  } else if (result === 'umě') {
+    result = 'uměĵ';
+  } else if (result === 'hova') {
+    result = 'hovaĵ';
+  } else if (matchEnd(result, [['o', 'e'], 'va'])) {
     result = result.slice(0, -3) + 'uj';
-  } else if (result.length > 3 && ['nu', 'nų'].includes(result.slice(-2))) {
+  } else if (result.length > 3 && matchEnd(result, ['n', BIG_YUS_LOOSE])) {
     result = result.slice(0, -1);
-  } else if (result.slice(-1) === 'ę') {
-    if (result.slice(-2) === 'ję') {
-      if (['bję', 'dję', 'sję', 'zję'].includes(result.slice(-3))) {
-        result = result.slice(0, -2) + 'ȯjm';
-      } else {
-        result = result.slice(0, -1) + 'm';
-      }
-    } else if (result === 'vzę') {
-      result = 'vȯzm';
-    } else {
-      result = result.slice(0, -1) + 'n';
-    }
-  } else if (result.slice(-1) === 'ų') {
-    result = result.slice(0, -1) /*+ 'm'*/;
-  } else if (
-    result.length < 4 &&
-    ['o', 'u', 'e', 'ě'].includes(result.slice(-1))
-  ) {
-    if (result.charAt(0) === 'u') {
-      result = result + 'ĵ';
-    } else {
-      result = result + 'j';
-    }
-  } else if (result.slice(-1) === 'y') {
+  } else if (result.length < 4 && matchEnd(result, [['o', 'u', 'e', 'ě']])) {
     result = result + 'j';
-  } else if (['a', 'e', 'ě'].includes(result.slice(-1))) {
+  } else if (matchEnd(result, [['b', 'd', 's', 'z'], IOTATED_SMALL_YUS])) {
+    result = result.slice(0, -2) + 'ȯjm';
+  } else if (result.endsWith(IOTATED_SMALL_YUS)) {
+    result = result.slice(0, -1) + 'm';
+  } else if (result.endsWith(SMALL_YUS)) {
+    result = result.slice(0, -1) + 'n';
+  } else if (result.endsWith(BIG_YUS)) {
+    result = result.slice(0, -1) /*+ 'm'*/;
+  } else if (result.endsWith('y')) {
+    result = result + 'j';
+  } else if (matchEnd(result, [['a', 'e', 'ě']])) {
     result = result + 'ĵ';
   }
   return result;
@@ -448,6 +447,8 @@ function process_present_tense_stem_exceptions(
     result = 'da';
   } else if (result == 'žeg' || result == 'žž') {
     result = 'žg';
+  } else if (result.endsWith('maj')) {
+    result = result.slice(0, -1) + 'ĵ';
   }
   if (result == 'jěhaĵ' || (result == 'jě' && is == 'jěha')) {
     result = 'jěd';
