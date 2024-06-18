@@ -1,3 +1,3 @@
 export * from './toHTML';
-export * from './findLemmaById';
+export * from './lemmata';
 export * as fixtures from './fixtures';

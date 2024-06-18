@@ -1,5 +1,5 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { findLemmaById, toHTML } = require('./dist/__utils__');
+const { findLemmaById, findPosTags, toHTML } = require('./dist/__utils__');
 
 const isId = (value) => Number.isFinite(parseInt(value, 10));
 
@@ -92,6 +92,7 @@ const allureConfig = {
           tags.push('deletion');
         }
 
+        tags.push(...findPosTags(testCase.title));
         return tags;
       },
     },

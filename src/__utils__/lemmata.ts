@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { parsePos } from '../partOfSpeech';
 
 const fixturesDir = path.join(__dirname, '../../src/__fixtures__');
 
@@ -7,6 +8,18 @@ let fixtures: Map<string, string[]> | undefined;
 
 export function findLemmaById(id: string): string {
   return initFixtures().get(id)?.[2] ?? id;
+}
+
+export function findPosTags(id: string): string[] {
+  const pos = initFixtures().get(id)?.[1];
+  if (!pos) return [];
+
+  const { name, ...attributes } = parsePos(pos);
+  const trueAttributes = Object.entries(attributes)
+    .filter(([_, value]) => value)
+    .map(([key]) => key);
+
+  return [name, ...trueAttributes];
 }
 
 function initFixtures() {
