@@ -603,7 +603,7 @@ exports[`verb miscellaneous 9775 1`] = `
     "",
   ],
   "pfap": "obědavši (obědavšá, obědavšé)",
-  "pfpp": "obědaný (obědaná, obědanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh obědal(a)",
     "běše obědal(a)",
@@ -624,7 +624,7 @@ exports[`verb miscellaneous 9775 1`] = `
     "obědajete, obědate",
     "obědajųt",
   ],
-  "prpp": "obědajemý (-á, -œ), obědamý (-á, -œ)",
+  "prpp": undefined,
 }
 `;
 
@@ -812,7 +812,7 @@ exports[`verb miscellaneous 18076 1`] = `
     "",
   ],
   "pfap": "odlogovavši sę (odlogovavši sá, odlogovavši sé)",
-  "pfpp": "odlogovaný (odlogovaná, odlogovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh odlogoval(a) sę",
     "běše odlogoval(a) sę",
@@ -834,7 +834,7 @@ exports[`verb miscellaneous 18076 1`] = `
     "odlogujųt sę",
     "",
   ],
-  "prpp": "odlogujemý (odlogujemá, odlogujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -882,7 +882,7 @@ exports[`verb miscellaneous 18648 1`] = `
     "",
   ],
   "pfap": "rokirovavši (rokirovavšá, rokirovavšé)",
-  "pfpp": "rokirovaný (rokirovaná, rokirovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh rokiroval(a)",
     "běše rokiroval(a)",
@@ -904,7 +904,7 @@ exports[`verb miscellaneous 18648 1`] = `
     "rokirujųt",
     "",
   ],
-  "prpp": "rokirujemý (rokirujemá, rokirujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -1442,7 +1442,7 @@ exports[`verb miscellaneous 24337 1`] = `
     "",
   ],
   "pfap": "avansovavši (avansovavšá, avansovavšé)",
-  "pfpp": "avansovaný (avansovaná, avansovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh avansoval(a)",
     "běše avansoval(a)",
@@ -1464,7 +1464,7 @@ exports[`verb miscellaneous 24337 1`] = `
     "avansujųt",
     "",
   ],
-  "prpp": "avansujemý (avansujemá, avansujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -1722,7 +1722,7 @@ exports[`verb miscellaneous 25152 1`] = `
     "",
   ],
   "pfap": "debjutovavši (debjutovavšá, debjutovavšé)",
-  "pfpp": "debjutovaný (debjutovaná, debjutovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh debjutoval(a)",
     "běše debjutoval(a)",
@@ -1744,7 +1744,7 @@ exports[`verb miscellaneous 25152 1`] = `
     "debjutujųt",
     "",
   ],
-  "prpp": "debjutujemý (debjutujemá, debjutujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -1792,7 +1792,7 @@ exports[`verb miscellaneous 25153 1`] = `
     "",
   ],
   "pfap": "deblokovavši (deblokovavšá, deblokovavšé)",
-  "pfpp": "deblokovaný (deblokovaná, deblokovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh deblokoval(a)",
     "běše deblokoval(a)",
@@ -1814,7 +1814,7 @@ exports[`verb miscellaneous 25153 1`] = `
     "deblokujųt",
     "",
   ],
-  "prpp": "deblokujemý (deblokujemá, deblokujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -1862,7 +1862,7 @@ exports[`verb miscellaneous 25169 1`] = `
     "",
   ],
   "pfap": "degenerovavši (degenerovavšá, degenerovavšé)",
-  "pfpp": "degenerovaný (degenerovaná, degenerovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh degeneroval(a)",
     "běše degeneroval(a)",
@@ -1884,7 +1884,7 @@ exports[`verb miscellaneous 25169 1`] = `
     "degenerujųt",
     "",
   ],
-  "prpp": "degenerujemý (degenerujemá, degenerujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -2072,7 +2072,7 @@ exports[`verb miscellaneous 25239 1`] = `
     "",
   ],
   "pfap": "dezertovavši (dezertovavšá, dezertovavšé)",
-  "pfpp": "dezertovaný (dezertovaná, dezertovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh dezertoval(a)",
     "běše dezertoval(a)",
@@ -2094,7 +2094,7 @@ exports[`verb miscellaneous 25239 1`] = `
     "dezertujųt",
     "",
   ],
-  "prpp": "dezertujemý (dezertujemá, dezertujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -2352,7 +2352,7 @@ exports[`verb miscellaneous 25553 1`] = `
     "",
   ],
   "pfap": "galopovavši (galopovavšá, galopovavšé)",
-  "pfpp": "galopovaný (galopovaná, galopovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh galopoval(a)",
     "běše galopoval(a)",
@@ -2374,7 +2374,7 @@ exports[`verb miscellaneous 25553 1`] = `
     "galopujųt",
     "",
   ],
-  "prpp": "galopujemý (galopujemá, galopujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -2422,7 +2422,7 @@ exports[`verb miscellaneous 25559 1`] = `
     "",
   ],
   "pfap": "galvanizovavši (galvanizovavšá, galvanizovavšé)",
-  "pfpp": "galvanizovaný (galvanizovaná, galvanizovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh galvanizoval(a)",
     "běše galvanizoval(a)",
@@ -2444,7 +2444,7 @@ exports[`verb miscellaneous 25559 1`] = `
     "galvanizujųt",
     "",
   ],
-  "prpp": "galvanizujemý (galvanizujemá, galvanizujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -2772,7 +2772,7 @@ exports[`verb miscellaneous 30997 1`] = `
     "",
   ],
   "pfap": "valjcevavši (valjcevavšá, valjcevavšé)",
-  "pfpp": "valjcevaný (valjcevaná, valjcevanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh valjceval(a)",
     "běše valjceval(a)",
@@ -2794,7 +2794,7 @@ exports[`verb miscellaneous 30997 1`] = `
     "valjcujųt",
     "",
   ],
-  "prpp": "valjcujemý (valjcujemá, valjcujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -2842,7 +2842,7 @@ exports[`verb miscellaneous 31022 1`] = `
     "",
   ],
   "pfap": "variovavši (variovavšá, variovavšé)",
-  "pfpp": "variovaný (variovaná, variovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh varioval(a)",
     "běše varioval(a)",
@@ -2864,7 +2864,7 @@ exports[`verb miscellaneous 31022 1`] = `
     "variujųt",
     "",
   ],
-  "prpp": "variujemý (variujemá, variujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -3121,7 +3121,7 @@ exports[`verb miscellaneous 31181 1`] = `
     "",
   ],
   "pfap": "vibrovavši (vibrovavšá, vibrovavšé)",
-  "pfpp": "vibrovaný (vibrovaná, vibrovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh vibroval(a)",
     "běše vibroval(a)",
@@ -3143,7 +3143,7 @@ exports[`verb miscellaneous 31181 1`] = `
     "vibrujųt",
     "",
   ],
-  "prpp": "vibrujemý (vibrujemá, vibrujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -3680,7 +3680,7 @@ exports[`verb miscellaneous 32410 1`] = `
     "",
   ],
   "pfap": "parkovavši sę (parkovavši sá, parkovavši sé)",
-  "pfpp": "parkovaný (parkovaná, parkovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh parkoval(a) sę",
     "běše parkoval(a) sę",
@@ -3702,7 +3702,7 @@ exports[`verb miscellaneous 32410 1`] = `
     "parkujųt sę",
     "",
   ],
-  "prpp": "parkujemý (parkujemá, parkujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -3750,7 +3750,7 @@ exports[`verb miscellaneous 32603 1`] = `
     "",
   ],
   "pfap": "diskriminovavši (diskriminovavšá, diskriminovavšé)",
-  "pfpp": "diskriminovaný (diskriminovaná, diskriminovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh diskriminoval(a)",
     "běše diskriminoval(a)",
@@ -3772,7 +3772,7 @@ exports[`verb miscellaneous 32603 1`] = `
     "diskriminujųt",
     "",
   ],
-  "prpp": "diskriminujemý (diskriminujemá, diskriminujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -5360,7 +5360,7 @@ exports[`verb miscellaneous 35366 1`] = `
     "",
   ],
   "pfap": "eskalovavši (eskalovavšá, eskalovavšé)",
-  "pfpp": "eskalovaný (eskalovaná, eskalovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh eskaloval(a)",
     "běše eskaloval(a)",
@@ -5382,7 +5382,7 @@ exports[`verb miscellaneous 35366 1`] = `
     "eskalujųt",
     "",
   ],
-  "prpp": "eskalujemý (eskalujemá, eskalujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -6200,7 +6200,7 @@ exports[`verb miscellaneous 35869 1`] = `
     "",
   ],
   "pfap": "avtostopovavši (avtostopovavšá, avtostopovavšé)",
-  "pfpp": "avtostopovaný (avtostopovaná, avtostopovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh avtostopoval(a)",
     "běše avtostopoval(a)",
@@ -6222,7 +6222,7 @@ exports[`verb miscellaneous 35869 1`] = `
     "avtostopujųt",
     "",
   ],
-  "prpp": "avtostopujemý (avtostopujemá, avtostopujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -6480,7 +6480,7 @@ exports[`verb miscellaneous 35944 1`] = `
     "",
   ],
   "pfap": "distancevavši sę (distancevavši sá, distancevavši sé)",
-  "pfpp": "distancevaný (distancevaná, distancevanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh distanceval(a) sę",
     "běše distanceval(a) sę",
@@ -6502,7 +6502,7 @@ exports[`verb miscellaneous 35944 1`] = `
     "distancujųt sę",
     "",
   ],
-  "prpp": "distancujemý (distancujemá, distancujemœ)",
+  "prpp": undefined,
 }
 `;
 
@@ -6620,7 +6620,7 @@ exports[`verb miscellaneous 35966 1`] = `
     "",
   ],
   "pfap": "pretendovavši (pretendovavšá, pretendovavšé)",
-  "pfpp": "pretendovaný (pretendovaná, pretendovanó)",
+  "pfpp": undefined,
   "pluperfect": [
     "běh pretendoval(a)",
     "běše pretendoval(a)",
@@ -6642,7 +6642,7 @@ exports[`verb miscellaneous 35966 1`] = `
     "pretendujųt",
     "",
   ],
-  "prpp": "pretendujemý (pretendujemá, pretendujemœ)",
+  "prpp": undefined,
 }
 `;
 
