@@ -1,19 +1,16 @@
-export const ALL_CHARACTERS =
-  'aáàăâåąāæbcćçčdďđḓeéèĕêěëėęēǝfghiíìĭîīıjĵklĺľļłŀǉmnńňñņǌoóòŏôöȯǫœpqrŕṙřsśšŠtťṱuúùŭûůũųūvwxyýzźżž'.split(
-    '',
-  );
+export const ALL_LETTERS = new Set(
+  'aáàăâåąāæbcćçčdďđḓeéèĕêěëėęēǝfghiíìĭîīıjĵklĺľļłŀǉmnńňñņǌoóòŏôöȯǫœpqrŕṙřsśšŠtťṱuúùŭûůũųūvwxyýzźżž',
+);
 
-export const ANY = ALL_CHARACTERS;
+export const ALL_CONSONANTS = new Set(
+  'bcćçčdďđḓfghklĺľļłŀǉmnńňñņǌpqrŕṙřsśštťṱvwxzźżž',
+);
 
-export const CONSONANT_CHARACTERS =
-  'bcćçčdďđḓfghklĺľļłŀǉmnńňñņǌpqrŕṙřsśštťṱvwxzźżž'.split('');
+export const ALL_VOWELS = new Set(
+  'aáàăâåąāæeéèĕêěëėęēǝiíìĭîīıoóòŏôöȯǫœuúùŭûůũųūyý',
+);
 
-export const CONSONANT = CONSONANT_CHARACTERS;
-
-export const VOWEL_CHARACTERS =
-  'aáàăâåąāæeéèĕêěëėęēǝiíìĭîīıoóòŏôöȯǫœuúùŭûůũųūyý'.split('');
-
-export const VOWEL = VOWEL_CHARACTERS;
+export const VOWELS = new Set('aåeęěėioȯuųy');
 
 export const LJ_NJ = ['lj', 'nj'];
 export const LJj_NJj = ['lj', 'ĺj', 'ľj', 'ǉ', 'nj', 'ńj', 'ňj', 'ñj', 'ǌ'];

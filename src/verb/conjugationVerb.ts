@@ -2,17 +2,18 @@
  * @source http://steen.free.fr/interslavic/conjugator.html
  */
 
-import { compactArray, matchEnd } from '../utils';
+import { compactArray } from '../utils';
 import { parsePos, Verb } from '../partOfSpeech';
-import {
-  BIG_YUS,
-  BIG_YUS_LOOSE,
-  IOTATED_SMALL_YUS,
-  SMALL_YUS,
-} from '../substitutions';
+import { BIG_YUS, IOTATED_SMALL_YUS, SMALL_YUS } from '../substitutions';
 
-const _SE = [' se', ' se'];
-const SE_ = ['sę ', 'se '];
+const _SE = /. s[eę]$/;
+const SE_ = /s[eę] $/;
+const EVA_OVA = /[eo]va$/;
+const NUU = /..n[uų]$/;
+const OUEE = /^..?[eěou]$/;
+const BDSZE = /[bdsz]ję$/;
+const AEE = /[aeě]$/;
+const MEUU = /[meuų-]$/;
 
 const PREFIXES = [
   'prědpo',
@@ -48,16 +49,7 @@ const PREFIXES = [
   'v',
 ];
 
-const NON_REGULAR_VERBS = [
-  'věděti',
-  'vedeti',
-  'jesti',
-  'jěsti',
-  'dati',
-  'dųti',
-  'byti',
-  'žegti',
-];
+const NON_REGULAR_VERBS = /(v[eě]d[eě]ti|j[eě]sti|d[aų]ti|byti|žegti)$/;
 
 const irregular_stems = { da: 1, je: 1, jě: 1, ja: 1, vě: 1 };
 
@@ -253,9 +245,9 @@ function splitReflexive(inf: string) {
 
 function prefix(inf: string) {
   // get prefixes for some non-regular verbs
-  const irregular = matchEnd(inf, [NON_REGULAR_VERBS]);
-  if (irregular) {
-    const maybePrefix = inf.slice(0, -irregular.length);
+  const match = inf.match(NON_REGULAR_VERBS);
+  if (match) {
+    const maybePrefix = inf.slice(0, -match[1].length);
     if (PREFIXES.includes(maybePrefix)) {
       return maybePrefix;
     }
@@ -370,13 +362,13 @@ function derive_present_tense_stem(infinitive_stem_string: string): string {
     result = 'uměĵ';
   } else if (result === 'hova') {
     result = 'hovaĵ';
-  } else if (matchEnd(result, [['o', 'e'], 'va'])) {
+  } else if (EVA_OVA.test(result)) {
     result = result.slice(0, -3) + 'uj';
-  } else if (result.length > 3 && matchEnd(result, ['n', BIG_YUS_LOOSE])) {
+  } else if (NUU.test(result)) {
     result = result.slice(0, -1);
-  } else if (result.length < 4 && matchEnd(result, [['o', 'u', 'e', 'ě']])) {
+  } else if (OUEE.test(result)) {
     result = result + 'j';
-  } else if (matchEnd(result, [['b', 'd', 's', 'z'], IOTATED_SMALL_YUS])) {
+  } else if (BDSZE.test(result)) {
     result = result.slice(0, -2) + 'ȯjm';
   } else if (result.endsWith(IOTATED_SMALL_YUS)) {
     result = result.slice(0, -1) + 'm';
@@ -386,7 +378,7 @@ function derive_present_tense_stem(infinitive_stem_string: string): string {
     result = result.slice(0, -1) /*+ 'm'*/;
   } else if (result.endsWith('y')) {
     result = result + 'j';
-  } else if (matchEnd(result, [['a', 'e', 'ě']])) {
+  } else if (AEE.test(result)) {
     result = result + 'ĵ';
   }
   return result;
@@ -398,9 +390,9 @@ function present_tense_stem(pref: string, pts: string, is: string) {
   if (pts.length == 0) {
     result = derive_present_tense_stem(is);
   } else {
-    if (matchEnd(pts, _SE) && pts.length > 3) {
+    if (_SE.test(pts)) {
       pts = pts.slice(0, -3);
-    } else if (matchEnd(pts, SE_)) {
+    } else if (SE_.test(pts)) {
       pts = pts.slice(3);
     }
 
@@ -412,7 +404,7 @@ function present_tense_stem(pref: string, pts: string, is: string) {
       }
     }
 
-    if (matchEnd(pts, [['-', 'm', 'e', 'ų', 'u']])) {
+    if (MEUU.test(pts)) {
       result = pts.slice(0, -1);
     } else {
       result = pts;

@@ -1,7 +1,4 @@
-import { ALL_CHARACTERS, CONSONANT_CHARACTERS } from '../constants';
-
-const LETTERS = new Set(ALL_CHARACTERS);
-const CONSONANTS = new Set(CONSONANT_CHARACTERS);
+import { ALL_LETTERS, ALL_CONSONANTS } from '../substitutions';
 
 export function markFluentVowel(word: string, add: string): string {
   let i = 0;
@@ -26,7 +23,7 @@ export function inferFluentVowel(word: string): string {
 
   while (i > 0) {
     const char = word[i];
-    if (!LETTERS.has(char)) {
+    if (!ALL_LETTERS.has(char)) {
       end = i;
       replaced = false;
     }
@@ -53,7 +50,7 @@ function replaceFluentVowel(word: string, j: number): string {
 }
 
 function isLastSyllable(word: string, i: number, end: number): boolean {
-  if (i === end - 2) return CONSONANTS.has(word[i + 1]);
+  if (i === end - 2) return ALL_CONSONANTS.has(word[i + 1]);
   if (i === end - 3) return word[i + 1] === 'n' && word[i + 2] === 'j';
   return false;
 }

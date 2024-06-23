@@ -5,10 +5,11 @@
 import { declensionAdjective } from '../adjective';
 import { inferFluentVowel, markFluentVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
-import { matchEnd, removeBrackets, replaceStringAt } from '../utils';
+import { removeBrackets, replaceStringAt } from '../utils';
 import { establishGender } from './establishGender';
 
-const AEEO = ['a', 'e', 'ę', 'o'];
+// endings like -i, -u are not declinable usually
+const AEEO$ = /[aeęo]$/;
 
 export function declensionNounFlat(
   rawNoun: string,
@@ -189,7 +190,7 @@ function establish_root(noun: string, gender: string) {
     noun.lastIndexOf('ȯ'),
   );
 
-  const hasVowelEnding = matchEnd(noun, [AEEO]);
+  const hasVowelEnding = AEEO$.test(noun);
 
   if (noun == 'lėv' || noun == 'lev') {
     result = 'ljv';
@@ -283,7 +284,7 @@ function nominative_sg(noun: string, root: string, gender: string) {
   if (gender == 'f2') {
     result = root;
   }
-  if (gender == 'f3' && root.lastIndexOf('v') == root.length - 1) {
+  if (gender == 'f3' && root.endsWith('v')) {
     result = root.substring(0, root.length - 1) + 'ȯv';
   } else if (gender == 'f3') {
     result = noun;
@@ -361,7 +362,7 @@ function instrumental_sg(root: string, gender: string) {
     result = root + 'ojų';
   } else if (gender == 'f2') {
     result = root + 'jų';
-  } else if (gender == 'f3' && root.lastIndexOf('v') == root.length - 1) {
+  } else if (gender == 'f3' && root.endsWith('v')) {
     result = root.substring(0, root.length - 1) + 'ȯvjų';
   } else if (gender == 'f3') {
     result = root + 'jų';
