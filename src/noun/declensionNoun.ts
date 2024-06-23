@@ -5,8 +5,10 @@
 import { declensionAdjective } from '../adjective';
 import { inferFluentVowel, markFluentVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
-import { removeBrackets } from '../utils';
+import { matchEnd, removeBrackets, replaceStringAt } from '../utils';
 import { establishGender } from './establishGender';
+
+const AEEO = ['a', 'e', 'ę', 'o'];
 
 export function declensionNounFlat(
   rawNoun: string,
@@ -181,6 +183,14 @@ function establish_root(noun: string, gender: string) {
   /*if ((noun == 'den') || (noun == 'dėn') || (noun == 'denjь') || (noun == 'dėnjь')) {
         result = 'dn';
     }*/
+
+  const fluentVowelIndex = Math.max(
+    noun.lastIndexOf('ė'),
+    noun.lastIndexOf('ȯ'),
+  );
+
+  const hasVowelEnding = matchEnd(noun, [AEEO]);
+
   if (noun == 'lėv' || noun == 'lev') {
     result = 'ljv';
   } else if (noun == 'Lėv' || noun == 'Lev') {
@@ -198,11 +208,7 @@ function establish_root(noun: string, gender: string) {
     result = result.replace('%', '');
   } else if (noun == 'mati' || noun == 'dočьi' || noun == 'doćьi') {
     result = noun.slice(0, -1) + 'er';
-  } else if (
-    gender == 'f3' &&
-    (noun.slice(-2, -1) === 'o' || noun.slice(-2, -1) === 'ȯ') &&
-    noun.slice(-1) === 'v'
-  ) {
+  } else if (gender == 'f3' && noun.endsWith('ov')) {
     result = noun.slice(0, -2) + 'v';
   } else if (gender == 'f3') {
     result = noun;
@@ -214,11 +220,7 @@ function establish_root(noun: string, gender: string) {
     result = noun.slice(0, -1) + 'jь';
   } else if (noun.slice(-1) === 'i') {
     result = noun.slice(0, -1) + 'ь';
-  } else if (
-    noun.slice(-1) === 'a' ||
-    noun.slice(-1) === 'e' ||
-    noun.slice(-1) === 'o'
-  ) {
+  } else if (hasVowelEnding) {
     result = noun.slice(0, -1);
   } else if (gender == 'f2' && noun.slice(-1) === 'ь') {
     /*else if (noun.slice(-2) === 'um') {
@@ -231,21 +233,10 @@ function establish_root(noun: string, gender: string) {
     result = noun;
   }
 
-  const filler_e = result.lastIndexOf('ė');
-  const filler_o = result.lastIndexOf('ȯ');
-  let filler;
-  if (filler_e != -1 || filler_o != -1) {
-    if (filler_o > filler_e) {
-      filler = filler_o;
-    } else {
-      filler = filler_e;
-    }
-    if (filler > result.length - 3) {
-      result =
-        result.substring(0, filler) +
-        result.substring(filler + 1, result.length);
-    }
+  if (!hasVowelEnding && fluentVowelIndex > result.length - 3) {
+    result = replaceStringAt(result, fluentVowelIndex, '');
   }
+
   return result;
 }
 

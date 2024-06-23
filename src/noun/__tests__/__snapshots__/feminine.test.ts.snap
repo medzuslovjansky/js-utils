@@ -14172,32 +14172,32 @@ exports[`noun feminine 2457 1`] = `
 exports[`noun feminine 2460 1`] = `
 {
   "acc": [
-    "blhų",
-    "blhy",
+    "blȯhų",
+    "blȯhy",
   ],
   "dat": [
-    "blhě",
-    "blham",
+    "blȯhě",
+    "blȯham",
   ],
   "gen": [
-    "blhy",
-    "blh",
+    "blȯhy",
+    "blȯh",
   ],
   "ins": [
-    "blhojų",
-    "blhami",
+    "blȯhojų",
+    "blȯhami",
   ],
   "loc": [
-    "blhě",
-    "blhah",
+    "blȯhě",
+    "blȯhah",
   ],
   "nom": [
     "blȯha",
-    "blhy",
+    "blȯhy",
   ],
   "voc": [
-    "blho",
-    "blhy",
+    "blȯho",
+    "blȯhy",
   ],
 }
 `;
@@ -70691,32 +70691,32 @@ exports[`noun feminine 26862 1`] = `
 exports[`noun feminine 26868 1`] = `
 {
   "acc": [
-    "krhų",
-    "krhy",
+    "krȯhų",
+    "krȯhy",
   ],
   "dat": [
-    "krhě",
-    "krham",
+    "krȯhě",
+    "krȯham",
   ],
   "gen": [
-    "krhy",
-    "krh",
+    "krȯhy",
+    "krȯh",
   ],
   "ins": [
-    "krhojų",
-    "krhami",
+    "krȯhojų",
+    "krȯhami",
   ],
   "loc": [
-    "krhě",
-    "krhah",
+    "krȯhě",
+    "krȯhah",
   ],
   "nom": [
     "krȯha",
-    "krhy",
+    "krȯhy",
   ],
   "voc": [
-    "krho",
-    "krhy",
+    "krȯho",
+    "krȯhy",
   ],
 }
 `;
