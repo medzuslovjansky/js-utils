@@ -811,7 +811,7 @@ exports[`verb miscellaneous 18076 1`] = `
     "(sųt) odlogovali sę",
     "",
   ],
-  "pfap": "odlogovavši sę (odlogovavši sá, odlogovavši sé)",
+  "pfap": "odlogovavši (odlogovavšá, odlogovavšé) sę",
   "pfpp": undefined,
   "pluperfect": [
     "běh odlogoval(a) sę",
@@ -3679,7 +3679,7 @@ exports[`verb miscellaneous 32410 1`] = `
     "(sųt) parkovali sę",
     "",
   ],
-  "pfap": "parkovavši sę (parkovavši sá, parkovavši sé)",
+  "pfap": "parkovavši (parkovavšá, parkovavšé) sę",
   "pfpp": undefined,
   "pluperfect": [
     "běh parkoval(a) sę",
@@ -6479,7 +6479,7 @@ exports[`verb miscellaneous 35944 1`] = `
     "(sųt) distancevali sę",
     "",
   ],
-  "pfap": "distancevavši sę (distancevavši sá, distancevavši sé)",
+  "pfap": "distancevavši (distancevavšá, distancevavšé) sę",
   "pfpp": undefined,
   "pluperfect": [
     "běh distanceval(a) sę",
