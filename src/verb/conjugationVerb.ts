@@ -675,6 +675,8 @@ function buildConditional(lpa: string, refl: string): string[] {
 function build_imperative(pref: string, ps: string, refl: string): string {
   let p2s = '';
   const i = ps.length - 1;
+  const last = ps[i];
+  const penultimate = ps[i - 1];
 
   if (ps == 'jes') {
     p2s = 'bųď';
@@ -683,15 +685,14 @@ function build_imperative(pref: string, ps: string, refl: string): string {
     p2s = pref + ps + 'j';
   } else if (ps in irregular_stems) {
     p2s = pref + ps + 'ď';
-  } else if (ps.charAt(i) == 'ĵ' || ps.charAt(i) == 'j') {
-    p2s = pref + ps;
   } else if (
-    ps.charAt(i) == 'a' ||
-    ps.charAt(i) == 'e' ||
-    ps.charAt(i) == 'ě'
+    (last == 'ĵ' || last == 'j') &&
+    !(penultimate === 'l' || penultimate === 'n')
   ) {
+    p2s = pref + ps;
+  } else if (last == 'a' || last == 'e' || last == 'ě') {
     p2s = pref + ps + 'j';
-  } else if (ps.charAt(i) == 'i') {
+  } else if (last == 'i') {
     p2s = pref + ps;
   } else {
     p2s = pref + ps + 'i';
