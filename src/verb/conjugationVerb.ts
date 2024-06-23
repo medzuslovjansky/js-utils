@@ -2,41 +2,55 @@
  * @source http://steen.free.fr/interslavic/conjugator.html
  */
 
-import { compactArray } from '../utils';
+import { compactArray, matchEnd } from '../utils';
 import { parsePos, Verb } from '../partOfSpeech';
 
-const prefixes = [
-  'do',
-  'iz',
-  'izpo',
-  'nad',
-  'na',
-  'ne',
-  'ob',
-  'odpo',
-  'od',
-  'o',
+const _SE = [' se', ' se'];
+const SE_ = ['sę ', 'se '];
+
+const PREFIXES = [
   'prědpo',
+  'razpro',
+  'råzpro',
+  'izpo',
+  'odpo',
+  'nad',
   'pod',
-  'po',
-  'prě',
   'pre',
   'pri',
   'pro',
-  'råzpro',
-  'razpro',
-  'råz',
+  'prě',
   'raz',
+  'råz',
+  'voz',
+  'vȯz',
+  'do',
+  'iz',
+  'na',
+  'ne',
+  'ob',
+  'od',
+  'po',
   'sȯ',
+  'vo',
+  'vy',
+  'vȯ',
+  'za',
+  'o',
   's',
   'u',
-  'vȯ',
-  'vo',
   'v',
-  'vȯz',
-  'voz',
-  'vy',
-  'za',
+];
+
+const NON_REGULAR_VERBS = [
+  'věděti',
+  'vedeti',
+  'jesti',
+  'jěsti',
+  'dati',
+  'dųti',
+  'byti',
+  'žegti',
 ];
 
 const irregular_stems = { da: 1, je: 1, jě: 1, ja: 1, vě: 1 };
@@ -139,25 +153,26 @@ export type SteenVerbParadigm = {
 };
 
 export function conjugationVerb(
-  inf: string,
+  rawInf: string,
   rawPts: string,
   partOfSpeech = 'v.tr. ipf./pf.',
 ): SteenVerbParadigm | null {
-  //special cases
-  if (inf.split(' ')[0].includes('/')) {
+  // eslint-disable-next-line prefer-const
+  let [inf, refl] = splitReflexive(rawInf);
+
+  // special cases
+  if (inf.includes('/')) {
     return null;
   }
   if (inf === 'sųt' || inf === 'je' || inf === 'jest') {
     inf = 'byti';
   }
+  const pref = prefix(inf);
   const pts = rawPts
     .replace(/\) \(/g, ')(')
     .replace(/[()]/g, '')
     .split(/[;,/]/)[0]
     .replace(/\+\d/, '');
-  const { imperfective, transitive } = parsePos(partOfSpeech) as Verb;
-  const refl = reflexive(inf);
-  const pref = prefix(inf);
   const is = infinitive_stem(pref, inf, pts);
   const ps = present_tense_stem(pref, pts, is);
   const psi = secondary_present_tense_stem(ps);
@@ -195,6 +210,7 @@ export function conjugationVerb(
     refl,
   ) as SteenVerbParadigm['imperative'];
 
+  const { imperfective, transitive } = parsePos(partOfSpeech) as Verb;
   const prap = imperfective ? build_prap(pref, ps, refl) : undefined;
   const prpp =
     imperfective && transitive ? build_prpp(pref, ps, psi) : undefined;
@@ -219,49 +235,34 @@ export function conjugationVerb(
   };
 }
 
-function reflexive(inf: string) {
-  let result = '';
-  /*if ((inf.lastIndexOf('se') == inf.length - 2) || (inf.lastIndexOf('sę') == inf.length - 2) ||
-        (inf.indexOf('se ') == 0) || (inf.indexOf('sę ') == 0)) {
-        result = ' sę';
-    }*/
-  if (
-    inf.indexOf(' ') !== -1 &&
-    ['se', 'sę'].indexOf(inf.split(' ')[1]) !== -1
-  ) {
-    result = ' sę';
-  } else {
-    result = '';
-  }
-  return result;
+function splitReflexive(inf: string) {
+  const hasNE = inf.startsWith('ne ');
+  const spaceIndex = inf.indexOf(' ', hasNE ? 3 : 0);
+  const maybeSE =
+    spaceIndex > 0 ? inf.slice(spaceIndex + 1, spaceIndex + 3) : '';
+  const se = maybeSE === 'se' || maybeSE === 'sę' ? ' sę' : '';
+  const verb = spaceIndex > 0 ? inf.slice(0, spaceIndex) : inf;
+  return [verb, se];
 }
 
 function prefix(inf: string) {
   // get prefixes for some non-regular verbs
-  const prefArr = prefixes.filter(
-    (prfx) =>
-      inf.indexOf(prfx) === 0 &&
-      [
-        'věděti',
-        'vedeti',
-        'jesti',
-        'jěsti',
-        'dati',
-        'dųti',
-        'byti',
-        'žegti',
-      ].includes(inf.split(' ')[0].slice(prfx.length)),
-  );
-  if (prefArr.length > 0) {
-    return prefArr[0];
+  const irregular = matchEnd(inf, [NON_REGULAR_VERBS]);
+  if (irregular) {
+    const maybePrefix = inf.slice(0, -irregular.length);
+    if (PREFIXES.includes(maybePrefix)) {
+      return maybePrefix;
+    }
   }
+
   // get prefix separated with '-'
   const kreska = inf.indexOf('-');
   if (kreska != -1) {
     return inf.substring(0, kreska + 1);
   }
+
   // get prefix 'ne '
-  if (inf.indexOf('ne ') === 0) {
+  if (inf.startsWith('ne ')) {
     return 'ne ';
   }
 
@@ -284,33 +285,20 @@ function prefix(inf: string) {
     else if ((inf.substring (0, 2) == 'vy') || (inf.substring (0, 2) == 'ob'))
         {	result = inf.substring (0, 2); 	}
     */
+
   return '';
 }
 
 function infinitive_stem(pref: string, inf: string, pts: string) {
-  let trunc = '';
   let result = '';
+  const trunc = inf.replace(pref, '');
 
-  inf = inf.replace(pref, '');
-
-  if (inf.length == 0) {
-    result = 'ERROR-1';
-    return result;
-  } else if (inf.includes(' ')) {
-    /*else if ((inf.lastIndexOf('se') == inf.length - 2) || (inf.lastIndexOf('sę') == inf.length - 2)) {
-        trunc = inf.substring(0, inf.length - 3);
-    }
-    else if ((inf.indexOf('se ') == 0) || (inf.indexOf('sę ') == 0)) {
-        trunc = inf.substring(3, inf.length);
-    }*/
-    trunc = inf.slice(0, inf.indexOf(' '));
-  } else {
-    trunc = inf;
+  if (trunc.length == 0) {
+    return 'ERROR-1';
   }
 
   if (trunc == '') {
-    result = 'ERROR-2';
-    return result;
+    return 'ERROR-2';
   }
 
   const valid_endings = ['ti', 'tì', 't', 'ť'];
@@ -323,8 +311,7 @@ function infinitive_stem(pref: string, inf: string, pts: string) {
   }
 
   if (result == '') {
-    result = 'ERROR-2';
-    return result;
+    return 'ERROR-2';
   }
 
   if (result.slice(-1) === 's') {
@@ -412,12 +399,9 @@ function present_tense_stem(pref: string, pts: string, is: string) {
   if (pts.length == 0) {
     result = derive_present_tense_stem(is);
   } else {
-    if (
-      (pts.slice(-3) === ' se' || pts.slice(-3) === ' sę') &&
-      pts.length > 3
-    ) {
+    if (matchEnd(pts, _SE) && pts.length > 3) {
       pts = pts.slice(0, -3);
-    } else if (pts.indexOf('se ') == 0 || pts.indexOf('sę ') == 0) {
+    } else if (matchEnd(pts, SE_)) {
       pts = pts.slice(3);
     }
 
@@ -428,13 +412,8 @@ function present_tense_stem(pref: string, pts: string, is: string) {
         pts = pts.slice(pref.length - 1);
       }
     }
-    if (
-      pts.slice(-1) === '-' ||
-      pts.slice(-1) === 'm' ||
-      pts.slice(-1) === 'e' ||
-      pts.slice(-1) === 'ų' ||
-      pts.slice(-1) === 'u'
-    ) {
+
+    if (matchEnd(pts, [['-', 'm', 'e', 'ų', 'u']])) {
       result = pts.slice(0, -1);
     } else {
       result = pts;
@@ -856,7 +835,10 @@ function build_pfpp(pref: string, is: string, psi: string): string {
 
 function build_gerund(pfpp: string): string {
   const ppps = pfpp.indexOf('(') - 2;
-  return transliterateBack(pfpp.substring(0, ppps) + 'ıje' /*+ refl*/);
+  return transliterateBack(pfpp.substring(0, ppps) + 'ıje' /*+ refl*/).replace(
+    'ne ',
+    'ne',
+  );
 }
 
 function idti(sel: string): string {

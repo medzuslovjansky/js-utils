@@ -1,7 +1,5 @@
-export const ALL_CHARACTERS =
-  'aáàăâåąāæbcćçčdďđḓeéèĕêěëėęēǝfghiíìĭîīıjĵklĺľļłŀǉmnńňñņǌoóòŏôöȯǫœpqrŕṙřsśšŠtťṱuúùŭûůũųūvwxyýzźżž'.split(
-    '',
-  );
-
-export const CONSONANT_CHARACTERS =
-  'bcćçčdďđḓfghklĺľļłŀǉmnńňñņǌpqrŕṙřsśštťṱvwxzźżž'.split('');
+export {
+  ALL_CHARACTERS,
+  CONSONANT_CHARACTERS,
+  VOWEL_CHARACTERS,
+} from '../substitutions';
