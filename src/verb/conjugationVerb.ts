@@ -770,15 +770,21 @@ function build_pfap(lpa: string, refl: string): string {
   // Past Participle Active (napr., izslědovavši)
   let result = '';
   if (lpa.slice(-2, -1).match(/[aeiouyęųåěėȯ)]/)) {
-    result = lpa.substring(0, lpa.length - 1) + 'vši' + refl;
+    result = lpa.substring(0, lpa.length - 1) + 'vši';
   } else {
-    result = lpa.substring(0, lpa.length - 1) + 'ši' + refl;
+    result = lpa.substring(0, lpa.length - 1) + 'ši';
   }
   if (result.indexOf('šėv') != -1) {
     result = idti(result);
   }
   result =
-    result + ' (' + result.slice(0, -1) + 'á, ' + result.slice(0, -1) + 'é)';
+    result +
+    ' (' +
+    result.slice(0, -1) +
+    'á, ' +
+    result.slice(0, -1) +
+    'é)' +
+    refl;
   result = transliterateBack(result);
   return result;
 }
