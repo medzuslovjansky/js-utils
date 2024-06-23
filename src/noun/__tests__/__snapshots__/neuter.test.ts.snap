@@ -367,31 +367,31 @@ exports[`noun neuter 282 1`] = `
 {
   "acc": [
     "jablȯko",
-    "jablka",
+    "jablȯka",
   ],
   "dat": [
-    "jablku",
-    "jablkam",
+    "jablȯku",
+    "jablȯkam",
   ],
   "gen": [
-    "jablka",
+    "jablȯka",
     "jablȯk",
   ],
   "ins": [
-    "jablkom",
-    "jablkami",
+    "jablȯkom",
+    "jablȯkami",
   ],
   "loc": [
-    "jablku",
-    "jablkah",
+    "jablȯku",
+    "jablȯkah",
   ],
   "nom": [
     "jablȯko",
-    "jablka",
+    "jablȯka",
   ],
   "voc": [
     "jablȯko",
-    "jablka",
+    "jablȯka",
   ],
 }
 `;
