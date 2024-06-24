@@ -54142,7 +54142,7 @@ exports[`noun feminine 20836 1`] = `
 exports[`noun feminine 20837 1`] = `
 {
   "acc": [
-    "žȯlȯv",
+    "žȯlv",
     "žȯlvi",
   ],
   "dat": [
@@ -54162,11 +54162,11 @@ exports[`noun feminine 20837 1`] = `
     "žȯlvah",
   ],
   "nom": [
-    "žȯlȯv",
+    "žȯlv",
     "žȯlvi",
   ],
   "voc": [
-    "žȯlȯv",
+    "žȯlv",
     "žȯlvi",
   ],
 }
@@ -57949,7 +57949,7 @@ exports[`noun feminine 22759 1`] = `
 exports[`noun feminine 22760 1`] = `
 {
   "acc": [
-    "obuȯv",
+    "obuv",
     "obuvi",
   ],
   "dat": [
@@ -57961,7 +57961,7 @@ exports[`noun feminine 22760 1`] = `
     "obuvij",
   ],
   "ins": [
-    "obuȯvjų",
+    "obuvjų",
     "obuvami",
   ],
   "loc": [
@@ -57969,11 +57969,11 @@ exports[`noun feminine 22760 1`] = `
     "obuvah",
   ],
   "nom": [
-    "obuȯv",
+    "obuv",
     "obuvi",
   ],
   "voc": [
-    "obuȯv",
+    "obuv",
     "obuvi",
   ],
 }
