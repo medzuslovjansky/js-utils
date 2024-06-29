@@ -5,12 +5,13 @@
 import { declensionAdjective } from '../adjective';
 import { inferFluentVowel, markFluentVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
-import { VOWELS } from '../substitutions';
 import { removeBrackets, replaceStringAt } from '../utils';
 import { establishGender } from './establishGender';
 
 // endings like -i, -u are not declinable usually
 const AEEO$ = /[aeęo]$/;
+// should omit words like: obUv, žOLv
+const XV$ = /(?:[^aåeęěėioȯuųyl]|[^oȯ]l)v$/;
 
 export function declensionNounFlat(
   rawNoun: string,
@@ -224,13 +225,6 @@ function establish_root(noun: string, gender: string) {
     result = noun.slice(0, -1) + 'ь';
   } else if (hasVowelEnding) {
     result = noun.slice(0, -1);
-  } else if (gender == 'f2' && noun.slice(-1) === 'ь') {
-    /*else if (noun.slice(-2) === 'um') {
-        result = (noun.substring(0, noun.length - 2));
-    }*/
-    /*	else if ((gender == 'f2') && (noun.lastIndexOf('ь') == noun.length - 1))
-            { result = (noun.substring (0, noun.length - 1)); } */
-    result = noun + 'ь';
   } else {
     result = noun;
   }
@@ -285,7 +279,9 @@ function nominative_sg(noun: string, root: string, gender: string) {
   if (gender == 'f2') {
     result = root;
   }
-  if (gender == 'f3') {
+  if (gender == 'f3' && XV$.test(root)) {
+    result = root.slice(0, root.length - 1) + 'ȯv';
+  } else if (gender == 'f3') {
     result = noun;
   } else if (gender == 'm3' && root == 'dn') {
     result = 'den / denj';
@@ -361,11 +357,7 @@ function instrumental_sg(root: string, gender: string) {
     result = root + 'ojų';
   } else if (gender == 'f2') {
     result = root + 'jų';
-  } else if (
-    gender == 'f3' &&
-    root.endsWith('v') &&
-    !VOWELS.has(root.slice(-2, -1))
-  ) {
+  } else if (gender == 'f3' && XV$.test(root)) {
     result = root.substring(0, root.length - 1) + 'ȯvjų';
   } else if (gender == 'f3') {
     result = root + 'jų';
@@ -570,7 +562,9 @@ function rules(word: string): string {
     .replace('ńi', 'ni')
     .replace('ŕi', 'ri')
     .replace('jy', 'ji')
-    .replace('cy', 'ci');
+    .replace('cy', 'ci')
+    .replace('ljj', 'ľj')
+    .replace('njj', 'ńj');
 }
 
 function declensionPluralNoun(
