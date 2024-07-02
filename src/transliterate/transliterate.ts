@@ -113,8 +113,8 @@ function transliterateWord(
     iW = iW.replace(/ć/g, 'č');
     iW = iW.replace(/đ/g, 'dž');
     iW = iW.replace(/ř/g, 'r');
-    iW = iW.replace(/ľ/g, 'l');
-    iW = iW.replace(/ń/g, 'n');
+    iW = iW.replace(/ľ(?!j)/g, 'l');
+    iW = iW.replace(/ń(?!j)/g, 'n');
     iW = iW.replace(/ť/g, 't');
     iW = iW.replace(/ď/g, 'd');
     iW = iW.replace(/ś/g, 's');
@@ -124,6 +124,8 @@ function transliterateWord(
   if (flav == '4') {
     iW = iW.replace(/ě/g, 'e');
     iW = iW.replace(/y/g, 'i');
+    iW = iW.replace(/ľ/g, 'l');
+    iW = iW.replace(/ń/g, 'n');
   }
   // northern flavorisation
   else if (flav == 'S') {
@@ -171,7 +173,7 @@ function transliterateWord(
 
   /* Latin alphabet */
   if (type == 1) {
-    //ethymological
+    //etymological
     if (flav == '2') {
       iW = iW.replace(/ṙ/g, 'r');
       iW = iW.replace(/ř/g, 'ŕ');
@@ -278,6 +280,12 @@ function transliterateWord(
     iW = iW.replace(/yo/g, 'jo');
     iW = iW.replace(/rzj/g, 'rj');
     iW = iW.replace(/#/g, '');
+  }
+
+  /* Cyrillic alphabet: 5 - standard */
+  if (type == 5) {
+    iW = iW.replace(/ľj/g, 'лј');
+    iW = iW.replace(/ńj/g, 'нј');
   }
 
   /* Cyrillic alphabet: 5 - standard, 6 - traditional */
@@ -613,20 +621,27 @@ function jgedoe(iW: string) {
 function nmsifyLoose(iW: string) {
   return (
     iW
-      .replace(/[яꙗ]/g, '#a')
+      .replace(/ь[ѩя]/g, '#ja')
+      .replace(/ь[ѥє]/g, '#je')
+      .replace(/ьї/g, '#ji')
+      .replace(/ьё/g, '#jo')
+      .replace(/ь[ѭю]/g, '#ju')
       .replace(/ьа/g, '#a')
-      .replace(/ѥ/g, '#e')
       .replace(/ье/g, '#e')
-      .replace(/ї/g, '#i')
       .replace(/ьи/g, '#i')
-      .replace(/ё/g, '#o')
       .replace(/ьо/g, '#o')
-      .replace(/ю/g, '#u')
       .replace(/ьу/g, '#u')
-      .replace(/ѩ/g, '#ę')
       .replace(/ьѧ/g, '#ę')
-      .replace(/ѭ/g, '#ų')
       .replace(/ьѫ/g, '#ų')
+      .replace(/[яꙗ]/g, '#a')
+      .replace(/ѥ/g, '#e')
+      .replace(/ї/g, '#i')
+      .replace(/ё/g, '#o')
+      .replace(/ю/g, '#u')
+      .replace(/ѩ/g, '#ę')
+      .replace(/ѭ/g, '#ų')
+      .replace(/н#[jјй]/g, 'ńj')
+      .replace(/л#[jјй]/g, 'ĺj')
       .replace(/нь/g, 'ń')
       .replace(/н#/g, 'nj')
       .replace(/њ/g, 'nj')
@@ -696,9 +711,9 @@ function nmsifyLoose(iW: string) {
       .replace(/%szadu%/g, '%s#zadu%')
       .replace(/%vozs/g, '%voz#s')
       .replace(/%vȯzs/g, '%vȯz#s')
-      .replace(/konjug/g, 'kon#jug')
-      .replace(/konjun/g, 'kon#jun')
-      .replace(/injek/g, 'in#jek')
+      .replace(/ko[nń]jug/g, 'kon#jug')
+      .replace(/ko[nń]jun/g, 'kon#jun')
+      .replace(/i[nń]jek/g, 'in#jek')
       // ...
       .replace(/s[xz]/g, 'š')
       .replace(/c[xz]/g, 'č')
