@@ -490,27 +490,27 @@ function buildPresent(
   // see: irregular_stems
   switch (ps) {
     case 'jes':
-      return ['jesm', 'jesi', 'jest (je)', 'jesmȯ', 'jeste', 'sųt'].map(
+      return ['jesm', 'jesi', 'jest (je)', 'jesmo', 'jeste', 'sųt'].map(
         transliterateBack,
       );
     case 'da':
-      return ['dam', 'daš', 'da', 'damȯ', 'date', 'dadųt'].map((word) =>
+      return ['dam', 'daš', 'da', 'damo', 'date', 'dadųt'].map((word) =>
         transliterateBack(`${pref}${word}${refl}`),
       );
     case 'vě':
-      return ['věm', 'věš', 'vě', 'věmȯ', 'věte', 'vědųt'].map((word) =>
+      return ['věm', 'věš', 'vě', 'věmo', 'věte', 'vědųt'].map((word) =>
         transliterateBack(`${pref}${word}${refl}`),
       );
     case 'jě':
-      return ['jěm', 'jěš', 'jě', 'jěmȯ', 'jěte', 'jědųt'].map((word) =>
+      return ['jěm', 'jěš', 'jě', 'jěmo', 'jěte', 'jědųt'].map((word) =>
         transliterateBack(`${pref}${word}${refl}`),
       );
     case 'je':
-      return ['jem', 'ješ', 'je', 'jemȯ', 'jete', 'jedųt'].map((word) =>
+      return ['jem', 'ješ', 'je', 'jemo', 'jete', 'jedųt'].map((word) =>
         transliterateBack(`${pref}${word}${refl}`),
       );
     case 'ja':
-      return ['jam', 'jaš', 'ja', 'jamȯ', 'jate', 'jadųt'].map((word) =>
+      return ['jam', 'jaš', 'ja', 'jamo', 'jate', 'jadųt'].map((word) =>
         transliterateBack(`${pref}${word}${refl}`),
       );
   }
@@ -525,7 +525,7 @@ function buildPresent(
         `${pref}${pps}ų${refl}, ${pref}${cut}m${refl}`,
         `${pref}${pps}eš${refl}, ${pref}${cut}š${refl}`,
         `${pref}${pps}e${refl}, ${pref}${cut}${refl}`,
-        `${pref}${pps}emȯ${refl}, ${pref}${cut}mo${refl}`,
+        `${pref}${pps}emo${refl}, ${pref}${cut}mo${refl}`,
         `${pref}${pps}ete${refl}, ${pref}${cut}te${refl}`,
         `${pref}${pps}ųt${refl}`,
       ].map(transliterateBack);
@@ -536,7 +536,7 @@ function buildPresent(
         `${pref}${cut}xų${refl}, ${pref}${ps}m${refl}`,
         `${pref}${ps}š${refl}`,
         `${pref}${ps}${refl}`,
-        `${pref}${ps}mȯ${refl}`,
+        `${pref}${ps}mo${refl}`,
         `${pref}${ps}te${refl}`,
         `${pref}${cut}ęt${refl}`,
       ].map(transliterateBack);
@@ -546,7 +546,7 @@ function buildPresent(
         `${pref}${ps}ų${refl}, ${pref}${psi}em${refl}`,
         `${pref}${psi}eš${refl}`,
         `${pref}${psi}e${refl}`,
-        `${pref}${psi}emȯ${refl}`,
+        `${pref}${psi}emo${refl}`,
         `${pref}${psi}ete${refl}`,
         `${pref}${ps}ųt${refl}`,
         '',
@@ -577,7 +577,7 @@ function build_imperfect(pref: string, is: string, refl: string): string[] {
     `${pref}${impst}h${refl}`,
     `${pref}${impst}še${refl}`,
     `${pref}${impst}še${refl}`,
-    `${pref}${impst}hmȯ${refl}`,
+    `${pref}${impst}hmo${refl}`,
     `${pref}${impst}ste${refl}`,
     `${pref}${impst}hų${refl}`,
   ].map(transliterateBack);
@@ -598,7 +598,7 @@ function buildFuture(infinitive: string, ps: string): string[] {
     `bųdų ${verb}`,
     `bųdeš ${verb}`,
     `bųde ${verb}`,
-    `bųdemȯ ${verb}`,
+    `bųdemo ${verb}`,
     `bųdete ${verb}`,
     `bųdųt ${verb}`,
   ];
@@ -611,7 +611,7 @@ function buildPerfect(lpa: string, refl: string): string[] {
     `(je) ${lpa}${refl}`,
     `(je) ${lpa}a${refl}`,
     `(je) ${lpa}o${refl}`,
-    `jesmȯ ${lpa}i${refl}`,
+    `jesmo ${lpa}i${refl}`,
     `jeste ${lpa}i${refl}`,
     `(sųt) ${lpa}i${refl}`,
     '',
@@ -651,7 +651,7 @@ function buildConditional(lpa: string, refl: string): string[] {
     `by ${lpa}${refl}`,
     `by ${lpa}a${refl}`,
     `by ${lpa}o${refl}`,
-    `byhmȯ ${lpa}i${refl}`,
+    `byhmo ${lpa}i${refl}`,
     `byste ${lpa}i${refl}`,
     `by ${lpa}i${refl}`,
     '',
@@ -690,7 +690,7 @@ function build_imperative(pref: string, ps: string, refl: string): string {
     p2s = pref + ps + 'i';
   }
 
-  let result = p2s + refl + ', ' + p2s + 'mȯ' + refl + ', ' + p2s + 'te' + refl;
+  let result = p2s + refl + ', ' + p2s + 'mo' + refl + ', ' + p2s + 'te' + refl;
   result = result.replace(/jij/g, 'j');
   result = result.replace(/ĵij/g, 'ĵ');
   result = transliterateBack(result);
