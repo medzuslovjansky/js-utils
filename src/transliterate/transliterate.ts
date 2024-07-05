@@ -98,7 +98,6 @@ function transliterateWord(
   // 2 - ethymological, 3 - standard, 4 - slovianto
   if (flav == '2' || flav == '3' || flav == '4') {
     iW = iW.replace(/ê/g, 'ě');
-    iW = iW.replace(/ȯ%/g, 'o%');
     iW = iW.replace(/ŭ/g, 'v');
     iW = iW.replace(/[ṱḓ]/g, '');
     iW = iW.replace(/[’`]/g, '#%');
@@ -161,7 +160,6 @@ function transliterateWord(
     iW = iW.replace(/[ęė]/g, 'e');
     iW = iW.replace(/ê/g, 'ě');
     iW = iW.replace(/y/g, 'i');
-    iW = iW.replace(/ȯ%/g, 'o%');
     iW = iW.replace(/([šžčcj])ě/g, '$1e');
     iW = iW.replace(/[`’]/g, '#%');
     iW = iW.replace(/ı/g, '');
