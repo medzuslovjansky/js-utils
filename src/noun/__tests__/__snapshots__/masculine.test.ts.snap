@@ -1,29 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`noun masculine -38033 1`] = `null`;
-
-exports[`noun masculine -38038 1`] = `null`;
-
-exports[`noun masculine -38039 1`] = `null`;
-
-exports[`noun masculine -38040 1`] = `null`;
-
-exports[`noun masculine -38041 1`] = `null`;
-
-exports[`noun masculine -38042 1`] = `null`;
-
-exports[`noun masculine -38043 1`] = `null`;
-
-exports[`noun masculine -38044 1`] = `null`;
-
-exports[`noun masculine -38045 1`] = `null`;
-
-exports[`noun masculine -38046 1`] = `null`;
-
-exports[`noun masculine -38047 1`] = `null`;
-
-exports[`noun masculine -38048 1`] = `null`;
-
 exports[`noun masculine 16 1`] = `
 {
   "acc": [
@@ -691,32 +667,32 @@ exports[`noun masculine 130 1`] = `null`;
 exports[`noun masculine 140 1`] = `
 {
   "acc": [
-    "faulj",
-    "faulje",
+    "faul",
+    "fauly",
   ],
   "dat": [
-    "faulju",
-    "fauljam",
+    "faulu",
+    "faulam",
   ],
   "gen": [
-    "faulja",
-    "fauljev",
+    "faula",
+    "faulov",
   ],
   "ins": [
-    "fauljem",
-    "fauljami",
+    "faulom",
+    "faulami",
   ],
   "loc": [
-    "faulju",
-    "fauljah",
+    "faulu",
+    "faulah",
   ],
   "nom": [
-    "faulj",
-    "faulje",
+    "faul",
+    "fauly",
   ],
   "voc": [
-    "faulju",
-    "faulje",
+    "faule",
+    "fauly",
   ],
 }
 `;
@@ -12346,7 +12322,7 @@ exports[`noun masculine 2567 1`] = `
 {
   "acc": [
     null,
-    "groši",
+    "groše",
   ],
   "dat": [
     null,
@@ -12366,11 +12342,11 @@ exports[`noun masculine 2567 1`] = `
   ],
   "nom": [
     null,
-    "groši",
+    "groše",
   ],
   "voc": [
     null,
-    "groši",
+    "groše",
   ],
 }
 `;
@@ -22208,6 +22184,39 @@ exports[`noun masculine 5791 1`] = `
 }
 `;
 
+exports[`noun masculine 5795 1`] = `
+{
+  "acc": [
+    "telegram",
+    "telegramy",
+  ],
+  "dat": [
+    "telegramu",
+    "telegramam",
+  ],
+  "gen": [
+    "telegrama",
+    "telegramov",
+  ],
+  "ins": [
+    "telegramom",
+    "telegramami",
+  ],
+  "loc": [
+    "telegramu",
+    "telegramah",
+  ],
+  "nom": [
+    "telegram",
+    "telegramy",
+  ],
+  "voc": [
+    "telegrame",
+    "telegramy",
+  ],
+}
+`;
+
 exports[`noun masculine 5801 1`] = `
 {
   "acc": [
@@ -28302,39 +28311,6 @@ exports[`noun masculine 14975 1`] = `
 `;
 
 exports[`noun masculine 15051 1`] = `null`;
-
-exports[`noun masculine 15054 1`] = `
-{
-  "acc": [
-    "Svět",
-    "Světy",
-  ],
-  "dat": [
-    "Světu",
-    "Světam",
-  ],
-  "gen": [
-    "Světa",
-    "Světov",
-  ],
-  "ins": [
-    "Světom",
-    "Světami",
-  ],
-  "loc": [
-    "Světu",
-    "Světah",
-  ],
-  "nom": [
-    "Svět",
-    "Světy",
-  ],
-  "voc": [
-    "Světe",
-    "Světy",
-  ],
-}
-`;
 
 exports[`noun masculine 15201 1`] = `
 {
@@ -39854,6 +39830,39 @@ exports[`noun masculine 21669 1`] = `
 }
 `;
 
+exports[`noun masculine 21672 1`] = `
+{
+  "acc": [
+    "začętȯk",
+    "začętky",
+  ],
+  "dat": [
+    "začętku",
+    "začętkam",
+  ],
+  "gen": [
+    "začętka",
+    "začętkov",
+  ],
+  "ins": [
+    "začętkom",
+    "začętkami",
+  ],
+  "loc": [
+    "začętku",
+    "začętkah",
+  ],
+  "nom": [
+    "začętȯk",
+    "začętky",
+  ],
+  "voc": [
+    "začętče",
+    "začętky",
+  ],
+}
+`;
+
 exports[`noun masculine 21700 1`] = `
 {
   "acc": [
@@ -44315,39 +44324,6 @@ exports[`noun masculine 23054 1`] = `
 }
 `;
 
-exports[`noun masculine 23079 1`] = `
-{
-  "acc": [
-    "personaž",
-    "personaže",
-  ],
-  "dat": [
-    "personažu",
-    "personažam",
-  ],
-  "gen": [
-    "personaža",
-    "personažev",
-  ],
-  "ins": [
-    "personažem",
-    "personažami",
-  ],
-  "loc": [
-    "personažu",
-    "personažah",
-  ],
-  "nom": [
-    "personaž",
-    "personaže",
-  ],
-  "voc": [
-    "personažu",
-    "personaže",
-  ],
-}
-`;
-
 exports[`noun masculine 23083 1`] = `
 {
   "acc": [
@@ -46959,32 +46935,32 @@ exports[`noun masculine 23607 1`] = `
 exports[`noun masculine 23613 1`] = `
 {
   "acc": [
-    "odpečętȯk",
-    "odpečętky",
+    "odpečatȯk",
+    "odpečatky",
   ],
   "dat": [
-    "odpečętku",
-    "odpečętkam",
+    "odpečatku",
+    "odpečatkam",
   ],
   "gen": [
-    "odpečętka",
-    "odpečętkov",
+    "odpečatka",
+    "odpečatkov",
   ],
   "ins": [
-    "odpečętkom",
-    "odpečętkami",
+    "odpečatkom",
+    "odpečatkami",
   ],
   "loc": [
-    "odpečętku",
-    "odpečętkah",
+    "odpečatku",
+    "odpečatkah",
   ],
   "nom": [
-    "odpečętȯk",
-    "odpečętky",
+    "odpečatȯk",
+    "odpečatky",
   ],
   "voc": [
-    "odpečętče",
-    "odpečętky",
+    "odpečatče",
+    "odpečatky",
   ],
 }
 `;
@@ -62409,39 +62385,6 @@ exports[`noun masculine 32349 1`] = `
   "voc": [
     "stekľniče",
     "stekľniky",
-  ],
-}
-`;
-
-exports[`noun masculine 32365 1`] = `
-{
-  "acc": [
-    "začętȯk",
-    "začętky",
-  ],
-  "dat": [
-    "začętku",
-    "začętkam",
-  ],
-  "gen": [
-    "začętka",
-    "začętkov",
-  ],
-  "ins": [
-    "začętkom",
-    "začętkami",
-  ],
-  "loc": [
-    "začętku",
-    "začętkah",
-  ],
-  "nom": [
-    "začętȯk",
-    "začętky",
-  ],
-  "voc": [
-    "začętče",
-    "začętky",
   ],
 }
 `;
@@ -80328,6 +80271,403 @@ exports[`noun masculine 37396 1`] = `
   "voc": [
     "godišniče",
     "godišniky",
+  ],
+}
+`;
+
+exports[`noun masculine 37448 1`] = `
+{
+  "acc": [
+    "hologram",
+    "hologramy",
+  ],
+  "dat": [
+    "hologramu",
+    "hologramam",
+  ],
+  "gen": [
+    "holograma",
+    "hologramov",
+  ],
+  "ins": [
+    "hologramom",
+    "hologramami",
+  ],
+  "loc": [
+    "hologramu",
+    "hologramah",
+  ],
+  "nom": [
+    "hologram",
+    "hologramy",
+  ],
+  "voc": [
+    "holograme",
+    "hologramy",
+  ],
+}
+`;
+
+exports[`noun masculine 37464 1`] = `
+{
+  "acc": [
+    "pagorȯk",
+    "pagorky",
+  ],
+  "dat": [
+    "pagorku",
+    "pagorkam",
+  ],
+  "gen": [
+    "pagorka",
+    "pagorkov",
+  ],
+  "ins": [
+    "pagorkom",
+    "pagorkami",
+  ],
+  "loc": [
+    "pagorku",
+    "pagorkah",
+  ],
+  "nom": [
+    "pagorȯk",
+    "pagorky",
+  ],
+  "voc": [
+    "pagorče",
+    "pagorky",
+  ],
+}
+`;
+
+exports[`noun masculine 37472 1`] = `null`;
+
+exports[`noun masculine 37473 1`] = `null`;
+
+exports[`noun masculine 37474 1`] = `null`;
+
+exports[`noun masculine 37475 1`] = `null`;
+
+exports[`noun masculine 37476 1`] = `null`;
+
+exports[`noun masculine 37477 1`] = `null`;
+
+exports[`noun masculine 37478 1`] = `null`;
+
+exports[`noun masculine 37479 1`] = `null`;
+
+exports[`noun masculine 37480 1`] = `null`;
+
+exports[`noun masculine 37481 1`] = `null`;
+
+exports[`noun masculine 37482 1`] = `null`;
+
+exports[`noun masculine 37483 1`] = `null`;
+
+exports[`noun masculine 37488 1`] = `
+{
+  "acc": [
+    "mikrob",
+    "mikroby",
+  ],
+  "dat": [
+    "mikrobu",
+    "mikrobam",
+  ],
+  "gen": [
+    "mikroba",
+    "mikrobov",
+  ],
+  "ins": [
+    "mikrobom",
+    "mikrobami",
+  ],
+  "loc": [
+    "mikrobu",
+    "mikrobah",
+  ],
+  "nom": [
+    "mikrob",
+    "mikroby",
+  ],
+  "voc": [
+    "mikrobe",
+    "mikroby",
+  ],
+}
+`;
+
+exports[`noun masculine 37490 1`] = `
+{
+  "acc": [
+    "hipodrom",
+    "hipodromy",
+  ],
+  "dat": [
+    "hipodromu",
+    "hipodromam",
+  ],
+  "gen": [
+    "hipodroma",
+    "hipodromov",
+  ],
+  "ins": [
+    "hipodromom",
+    "hipodromami",
+  ],
+  "loc": [
+    "hipodromu",
+    "hipodromah",
+  ],
+  "nom": [
+    "hipodrom",
+    "hipodromy",
+  ],
+  "voc": [
+    "hipodrome",
+    "hipodromy",
+  ],
+}
+`;
+
+exports[`noun masculine 37493 1`] = `null`;
+
+exports[`noun masculine 37494 1`] = `null`;
+
+exports[`noun masculine 37495 1`] = `
+{
+  "acc": [
+    "podkast",
+    "podkasty",
+  ],
+  "dat": [
+    "podkastu",
+    "podkastam",
+  ],
+  "gen": [
+    "podkasta",
+    "podkastov",
+  ],
+  "ins": [
+    "podkastom",
+    "podkastami",
+  ],
+  "loc": [
+    "podkastu",
+    "podkastah",
+  ],
+  "nom": [
+    "podkast",
+    "podkasty",
+  ],
+  "voc": [
+    "podkaste",
+    "podkasty",
+  ],
+}
+`;
+
+exports[`noun masculine 37496 1`] = `
+{
+  "acc": [
+    "horor",
+    "horory",
+  ],
+  "dat": [
+    "hororu",
+    "hororam",
+  ],
+  "gen": [
+    "horora",
+    "hororov",
+  ],
+  "ins": [
+    "hororom",
+    "hororami",
+  ],
+  "loc": [
+    "hororu",
+    "hororah",
+  ],
+  "nom": [
+    "horor",
+    "horory",
+  ],
+  "voc": [
+    "horore",
+    "horory",
+  ],
+}
+`;
+
+exports[`noun masculine 37497 1`] = `
+{
+  "acc": [
+    null,
+    "užasy",
+  ],
+  "dat": [
+    null,
+    "užasam",
+  ],
+  "gen": [
+    null,
+    "užasov",
+  ],
+  "ins": [
+    null,
+    "užasami",
+  ],
+  "loc": [
+    null,
+    "užasah",
+  ],
+  "nom": [
+    null,
+    "užasy",
+  ],
+  "voc": [
+    null,
+    "užasy",
+  ],
+}
+`;
+
+exports[`noun masculine 37498 1`] = `
+{
+  "acc": [
+    "horor-film",
+    "horor-filmy",
+  ],
+  "dat": [
+    "horor-filmu",
+    "horor-filmam",
+  ],
+  "gen": [
+    "horor-filma",
+    "horor-filmov",
+  ],
+  "ins": [
+    "horor-filmom",
+    "horor-filmami",
+  ],
+  "loc": [
+    "horor-filmu",
+    "horor-filmah",
+  ],
+  "nom": [
+    "horor-film",
+    "horor-filmy",
+  ],
+  "voc": [
+    "horor-filme",
+    "horor-filmy",
+  ],
+}
+`;
+
+exports[`noun masculine 37499 1`] = `null`;
+
+exports[`noun masculine 37503 1`] = `
+{
+  "acc": [
+    "avatar",
+    "avatary",
+  ],
+  "dat": [
+    "avataru",
+    "avataram",
+  ],
+  "gen": [
+    "avatara",
+    "avatarov",
+  ],
+  "ins": [
+    "avatarom",
+    "avatarami",
+  ],
+  "loc": [
+    "avataru",
+    "avatarah",
+  ],
+  "nom": [
+    "avatar",
+    "avatary",
+  ],
+  "voc": [
+    "avatare",
+    "avatary",
+  ],
+}
+`;
+
+exports[`noun masculine 37504 1`] = `null`;
+
+exports[`noun masculine 37505 1`] = `null`;
+
+exports[`noun masculine 37507 1`] = `
+{
+  "acc": [
+    "afiks",
+    "afiksy",
+  ],
+  "dat": [
+    "afiksu",
+    "afiksam",
+  ],
+  "gen": [
+    "afiksa",
+    "afiksov",
+  ],
+  "ins": [
+    "afiksom",
+    "afiksami",
+  ],
+  "loc": [
+    "afiksu",
+    "afiksah",
+  ],
+  "nom": [
+    "afiks",
+    "afiksy",
+  ],
+  "voc": [
+    "afikse",
+    "afiksy",
+  ],
+}
+`;
+
+exports[`noun masculine 37508 1`] = `
+{
+  "acc": [
+    "brȯnjenosėc",
+    "brȯnjenosce",
+  ],
+  "dat": [
+    "brȯnjenoscu",
+    "brȯnjenoscam",
+  ],
+  "gen": [
+    "brȯnjenosca",
+    "brȯnjenoscev",
+  ],
+  "ins": [
+    "brȯnjenoscem",
+    "brȯnjenoscami",
+  ],
+  "loc": [
+    "brȯnjenoscu",
+    "brȯnjenoscah",
+  ],
+  "nom": [
+    "brȯnjenosėc",
+    "brȯnjenosce",
+  ],
+  "voc": [
+    "brȯnjenoscu",
+    "brȯnjenosce",
   ],
 }
 `;

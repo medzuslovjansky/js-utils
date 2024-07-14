@@ -19437,32 +19437,32 @@ exports[`noun neuter 16888 1`] = `
 exports[`noun neuter 16913 1`] = `
 {
   "acc": [
-    "pŕvenstvo",
-    "pŕvenstva",
+    "pŕveństvo",
+    "pŕveństva",
   ],
   "dat": [
-    "pŕvenstvu",
-    "pŕvenstvam",
+    "pŕveństvu",
+    "pŕveństvam",
   ],
   "gen": [
-    "pŕvenstva",
-    "pŕvenstv",
+    "pŕveństva",
+    "pŕveństv",
   ],
   "ins": [
-    "pŕvenstvom",
-    "pŕvenstvami",
+    "pŕveństvom",
+    "pŕveństvami",
   ],
   "loc": [
-    "pŕvenstvu",
-    "pŕvenstvah",
+    "pŕveństvu",
+    "pŕveństvah",
   ],
   "nom": [
-    "pŕvenstvo",
-    "pŕvenstva",
+    "pŕveństvo",
+    "pŕveństva",
   ],
   "voc": [
-    "pŕvenstvo",
-    "pŕvenstva",
+    "pŕveństvo",
+    "pŕveństva",
   ],
 }
 `;
@@ -23838,32 +23838,32 @@ exports[`noun neuter 19234 1`] = `
 exports[`noun neuter 19252 1`] = `
 {
   "acc": [
-    "vpečętljeńje",
-    "vpečętljeńja",
+    "vpečatljeńje",
+    "vpečatljeńja",
   ],
   "dat": [
-    "vpečętljeńju",
-    "vpečętljeńjam",
+    "vpečatljeńju",
+    "vpečatljeńjam",
   ],
   "gen": [
-    "vpečętljeńja",
-    "vpečętljenij",
+    "vpečatljeńja",
+    "vpečatljenij",
   ],
   "ins": [
-    "vpečętljeńjem",
-    "vpečętljeńjami",
+    "vpečatljeńjem",
+    "vpečatljeńjami",
   ],
   "loc": [
-    "vpečętljeńju",
-    "vpečętljeńjah",
+    "vpečatljeńju",
+    "vpečatljeńjah",
   ],
   "nom": [
-    "vpečętljeńje",
-    "vpečętljeńja",
+    "vpečatljeńje",
+    "vpečatljeńja",
   ],
   "voc": [
-    "vpečętljeńje",
-    "vpečętljeńja",
+    "vpečatljeńje",
+    "vpečatljeńja",
   ],
 }
 `;
@@ -29472,31 +29472,31 @@ exports[`noun neuter 23584 1`] = `
 exports[`noun neuter 23609 1`] = `
 {
   "acc": [
-    "pečętaŕstvo",
+    "pečataŕstvo",
     null,
   ],
   "dat": [
-    "pečętaŕstvu",
+    "pečataŕstvu",
     null,
   ],
   "gen": [
-    "pečętaŕstva",
+    "pečataŕstva",
     null,
   ],
   "ins": [
-    "pečętaŕstvom",
+    "pečataŕstvom",
     null,
   ],
   "loc": [
-    "pečętaŕstvu",
+    "pečataŕstvu",
     null,
   ],
   "nom": [
-    "pečętaŕstvo",
+    "pečataŕstvo",
     null,
   ],
   "voc": [
-    "pečętaŕstvo",
+    "pečataŕstvo",
     null,
   ],
 }
@@ -41561,6 +41561,72 @@ exports[`noun neuter 37383 1`] = `
   "voc": [
     "logo",
     "logo",
+  ],
+}
+`;
+
+exports[`noun neuter 37463 1`] = `
+{
+  "acc": [
+    "suši",
+    "suši",
+  ],
+  "dat": [
+    "suši",
+    "suši",
+  ],
+  "gen": [
+    "suši",
+    "suši",
+  ],
+  "ins": [
+    "suši",
+    "suši",
+  ],
+  "loc": [
+    "suši",
+    "suši",
+  ],
+  "nom": [
+    "suši",
+    "suši",
+  ],
+  "voc": [
+    "suši",
+    "suši",
+  ],
+}
+`;
+
+exports[`noun neuter 37465 1`] = `
+{
+  "acc": [
+    "bŕdo",
+    "bŕda",
+  ],
+  "dat": [
+    "bŕdu",
+    "bŕdam",
+  ],
+  "gen": [
+    "bŕda",
+    "bŕd",
+  ],
+  "ins": [
+    "bŕdom",
+    "bŕdami",
+  ],
+  "loc": [
+    "bŕdu",
+    "bŕdah",
+  ],
+  "nom": [
+    "bŕdo",
+    "bŕda",
+  ],
+  "voc": [
+    "bŕdo",
+    "bŕda",
   ],
 }
 `;
