@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`verb miscellaneous 11 1`] = `
+{
+  "conditional": [
+    "byh abdikoval(a)",
+    "bys abdikoval(a)",
+    "by abdikoval",
+    "by abdikovala",
+    "by abdikovalo",
+    "byhmo abdikovali",
+    "byste abdikovali",
+    "by abdikovali",
+    "",
+  ],
+  "future": [
+    "bųdų abdikovatì",
+    "bųdeš abdikovatì",
+    "bųde abdikovatì",
+    "bųdemo abdikovatì",
+    "bųdete abdikovatì",
+    "bųdųt abdikovatì",
+  ],
+  "gerund": "abdikovańje",
+  "imperative": "abdikuj, abdikujmo, abdikujte",
+  "imperfect": [
+    "abdikovah",
+    "abdikovaše",
+    "abdikovaše",
+    "abdikovahmo",
+    "abdikovaste",
+    "abdikovahų",
+  ],
+  "infinitive": "abdikovatì",
+  "perfect": [
+    "jesm abdikoval(a)",
+    "jesi abdikoval(a)",
+    "(je) abdikoval",
+    "(je) abdikovala",
+    "(je) abdikovalo",
+    "jesmo abdikovali",
+    "jeste abdikovali",
+    "(sųt) abdikovali",
+    "",
+  ],
+  "pfap": "abdikovavši (abdikovavšá, abdikovavšé)",
+  "pfpp": undefined,
+  "pluperfect": [
+    "běh abdikoval(a)",
+    "běše abdikoval(a)",
+    "běše abdikoval",
+    "běše abdikovala",
+    "běše abdikovalo",
+    "běhmo abdikovali",
+    "běste abdikovali",
+    "běhų abdikovali",
+    "",
+  ],
+  "prap": "abdikujųćí (abdikujųćá, abdikujųćé)",
+  "present": [
+    "abdikujų, abdikujem",
+    "abdikuješ",
+    "abdikuje",
+    "abdikujemo",
+    "abdikujete",
+    "abdikujųt",
+    "",
+  ],
+  "prpp": undefined,
+}
+`;
+
 exports[`verb miscellaneous 37 1`] = `
 {
   "conditional": [
