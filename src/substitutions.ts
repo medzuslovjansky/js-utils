@@ -1,16 +1,24 @@
-export const ALL_LETTERS = new Set(
+class LetterSet extends Set<string> {
+  toString() {
+    return [...this].join('');
+  }
+}
+
+export const ALL_LETTERS = new LetterSet(
   'aáàăâåąāæbcćçčdďđḓeéèĕêěëėęēǝfghiíìĭîīıjĵklĺľļłŀǉmnńňñņǌoóòŏôöȯǫœpqrŕṙřsśšŠtťṱuúùŭûůũųūvwxyýzźżž',
 );
 
-export const ALL_CONSONANTS = new Set(
+export const ALL_CONSONANTS = new LetterSet(
   'bcćçčdďđḓfghklĺľļłŀǉmnńňñņǌpqrŕṙřsśštťṱvwxzźżž',
 );
 
-export const ALL_VOWELS = new Set(
+export const ALL_VOWELS = new LetterSet(
   'aáàăâåąāæeéèĕêěëėęēǝiíìĭîīıoóòŏôöȯǫœuúùŭûůũųūyý',
 );
 
-export const VOWELS = new Set('aåeęěėioȯuųy');
+export const SOFT_CONSONANTS = new LetterSet('jcćčšžŕĺľťśď');
+
+export const VOWELS = new LetterSet('aåeęěėioȯuųy');
 
 export const LJ_NJ = ['lj', 'nj'];
 export const LJj_NJj = ['lj', 'ĺj', 'ľj', 'ǉ', 'nj', 'ńj', 'ňj', 'ñj', 'ǌ'];

@@ -2,6 +2,8 @@
  * @link http://steen.free.fr/interslavic/adjectivator.html
  */
 
+import { ALL_CONSONANTS, VOWELS } from '../substitutions';
+
 export function declensionAdjectiveFlat(
   adj: string,
   postfix: string,
@@ -15,9 +17,12 @@ export function declensionAdjectiveFlat(
 function getDeclensionAdjectiveFlat(result: any): string[] {
   const forms = [];
 
-  for (const key in result) {
-    if (result[key] !== undefined) {
-      const notFlat: any = Object.values(result[key]);
+  for (const key of Object.keys(result)) {
+    const value = result[key];
+    if (typeof value === 'string') {
+      forms.push(value);
+    } else if (value !== undefined) {
+      const notFlat: any = Object.values(value);
       const flatArr = notFlat
         .flat()
         .map((word: string) => word.replace(/ /g, '').split('/'))
@@ -33,6 +38,7 @@ function getDeclensionAdjectiveFlat(result: any): string[] {
 export type SteenAdjectiveParadigm = {
   singular: SteenAdjectiveParadigm$Case;
   plural: SteenAdjectiveParadigm$Case;
+  short: string | undefined;
   comparison: SteenAdjectiveParadigm$Comparison;
 };
 
@@ -51,12 +57,29 @@ type SteenAdjectiveParadigm$Comparison = {
   superlative: string[];
 };
 
+const LOOKS_LIKE_ADJECTIVE = /[yij]$/;
+
+function looksLikeAdjective(word: string) {
+  return LOOKS_LIKE_ADJECTIVE.test(word);
+}
+
 export function declensionAdjective(
   adj: string,
   postfix = '',
   partOfSpeech = 'adj.',
 ): SteenAdjectiveParadigm {
+  const isCompound = adj.includes(' ');
+  if (isCompound) {
+    const words = adj.split(' ');
+    const index = words.findIndex(looksLikeAdjective);
+    if (0 <= index && index < words.length - 1) {
+      postfix = ' ' + words.slice(index + 1).join(' ') + postfix;
+      adj = words.slice(0, index + 1).join(' ');
+    }
+  }
+
   const root = establish_root(adj);
+  const short = short_form(adj, root, partOfSpeech);
   const m_nom_sg = m_nominative_sg(adj, root);
   const m_acc_sg = m_accusative_sg(adj, root);
   const f_nom_sg = f_nominative_sg(root);
@@ -93,7 +116,10 @@ export function declensionAdjective(
       dat: applyRules([dat_pl], postfix),
       ins: applyRules([ins_pl], postfix),
     },
-    comparison: deriveComparison(root, adj, postfix, partOfSpeech),
+    short,
+    comparison: isCompound
+      ? { positive: [], comparative: [], superlative: [] }
+      : deriveComparison(root, adj, postfix, partOfSpeech),
   };
 }
 
@@ -133,7 +159,7 @@ function parseComparisionModifiers(partOfSpeech: string) {
 
 function applyRules(arr: string[], postfix: string) {
   return arr.map(rules).map((item) => {
-    return item.replace(/$/, postfix).replace(/([^/]) /g, '$1' + postfix + ' ');
+    return item.replace(/$/, postfix).replace(/( *\/ *)/g, postfix + '$1');
   });
 }
 
@@ -182,6 +208,72 @@ function establish_root(adj: string) {
   }
 
   return result.replace('k^', 'k').replace('g^', 'g').replace('h^', 'h');
+}
+
+// TODO: should these words have PoS like "pron.indef." instead of just "adj."?
+const NO_SHORT_FORM = /(^in|ktor|seksi|sk|[čj]\^|\|)$/;
+const NJI_ENDING = /[^aåeęěijrŕouųy]nj\^$/;
+
+const SIMPLEST_FORM_EXCEPTIONS = /(sinj)$/;
+const SHORT_O_ENDING = /(z[gk]|[mz]l|[^jcćčšžŕĺľťśď]k)$/;
+const SHORT_E_ENDING = /(bl|[^l][kn])$/;
+const MAYBE_COMPARATIVE = /[ćš]\^$/;
+const TWO_LETTER_ENDING = /^.[^č]$/; // "věth/trězv/dobr", but not "rabotč/izkonavč"
+const SYLLABIC_ENDING_REGEX = new RegExp(
+  `([${VOWELS}]st[ŕrl]|tv[rŕ]d|lst|č[rŕ]stv|m[rŕ]tv|brz)$`,
+); // ostr, bystr, črstv, tvrd, mrtv, brz
+const CONSONANTS_ENDING = new RegExp(`[j${ALL_CONSONANTS}]*$`);
+
+function short_form(
+  adj: string,
+  root: string,
+  partOfSpeech: string,
+): string | undefined {
+  if (!adj.endsWith('y') && !adj.endsWith('i')) {
+    return;
+  }
+
+  const simplestForm = adj.slice(0, -1);
+  if (SIMPLEST_FORM_EXCEPTIONS.test(root)) {
+    return simplestForm; // simplestForm;
+  }
+
+  if (NJI_ENDING.test(root)) {
+    root = root.slice(0, -2);
+  }
+
+  if (NO_SHORT_FORM.test(root)) {
+    return;
+  }
+
+  if (MAYBE_COMPARATIVE.test(root)) {
+    const modifiers = parseComparisionModifiers(partOfSpeech);
+    return modifiers.isComparative || modifiers.isSuperlative
+      ? undefined
+      : simplestForm;
+  }
+
+  if (root.endsWith('^')) {
+    return simplestForm;
+  }
+
+  // should we add yers?
+  const [consEnding] = root.match(CONSONANTS_ENDING)!;
+  if (consEnding.length === 1) {
+    return root;
+  }
+
+  if (SHORT_O_ENDING.test(root)) {
+    return root.slice(0, -1) + 'ȯ' + root.slice(-1); // zl -> zȯl
+  }
+  if (SHORT_E_ENDING.test(root)) {
+    return root.slice(0, -1) + 'ė' + root.slice(-1); // mekky -> mekek
+  }
+  if (TWO_LETTER_ENDING.test(consEnding) || SYLLABIC_ENDING_REGEX.test(root)) {
+    return root;
+  }
+
+  return;
 }
 
 function m_nominative_sg(adj: string, root: string) {
