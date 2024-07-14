@@ -19,6 +19,7 @@
     "docs": "typedoc",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
+    "test:update": "jest -u",
     "allure": "cross-env ALLURE_NO_ANALYTICS=true allure serve",
     "allure:generate": "allure generate --clean --lang isv",
     "prepare": "husky install",

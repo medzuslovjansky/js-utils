@@ -1,0 +1,40 @@
+name: Update Snapshots on PR Approval
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  update_snapshots:
+    name: Update Snapshots
+    if: github.event.review.state == 'approved' && github.event.pull_request.title == 'Daily dictionary update'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: NPM install
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+
+      - name: Build
+        run: npm run build
+
+      - name: Update snapshots
+        run: npm run test:update
+
+      - name: Commit changes
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: src
+          message: 'test: update snapshots'
+          author_name: Medžuslovjansky Bot
+          author_email: noreply@interslavic.fun
