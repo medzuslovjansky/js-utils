@@ -115,7 +115,7 @@ export function declensionNoun(
   noun = noun.replace(/[ńň]$/, 'nj');
   noun = noun.replace(/[ľĺ]$/, 'lj');
   noun =
-    noun.slice(0, -2) + noun.slice(-2).replace(/([cšžčćńľŕťďśźj])/g, '$1ь');
+    noun.slice(0, -2) + noun.slice(-2).replace(/([cšžčćńľŕťďśźđj])/g, '$1ь');
 
   const nounWithoutFluent = noun.replace(/\([oe]\)/, '');
 
@@ -466,7 +466,7 @@ function genitive_pl(root: string, gender: string) {
     result = 'sȯt';
   } else if (gender.charAt(0) == 'n') {
     result =
-      root.replace('ь', '%').replace(/([pbvfmlnrszńľŕťďśźščž])j%/, '$1ij') +
+      root.replace('ь', '%').replace(/([pbvfmlnrszńľŕťďśźščžđ])j%/, '$1ij') +
       '%';
     if (gender == 'n3') {
       result = result + ' / ' + palatalizationEnding(root) + 'es';

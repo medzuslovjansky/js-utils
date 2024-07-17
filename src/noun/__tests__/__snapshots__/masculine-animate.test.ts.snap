@@ -5913,7 +5913,7 @@ exports[`noun masculine (animate) 2541 1`] = `
 {
   "acc": [
     "vođa",
-    "vođov",
+    "vođev",
   ],
   "dat": [
     "vođu",
@@ -5921,10 +5921,10 @@ exports[`noun masculine (animate) 2541 1`] = `
   ],
   "gen": [
     "vođa",
-    "vođov",
+    "vođev",
   ],
   "ins": [
-    "vođom",
+    "vođem",
     "vođami",
   ],
   "loc": [
@@ -5936,7 +5936,7 @@ exports[`noun masculine (animate) 2541 1`] = `
     "vođi",
   ],
   "voc": [
-    "vođe",
+    "vođu",
     "vođi",
   ],
 }
