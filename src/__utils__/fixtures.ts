@@ -36,3 +36,5 @@ export const pronouns_relative: FixtureGetter = () =>
   jest.requireActual('../__fixtures__/pronouns-relative.json');
 export const other: FixtureGetter = () =>
   jest.requireActual('../__fixtures__/other.json');
+export const scientific: () => string[] = () =>
+  jest.requireActual('../__fixtures__/scientific.json');

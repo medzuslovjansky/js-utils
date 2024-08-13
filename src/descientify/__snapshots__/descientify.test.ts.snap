@@ -1,0 +1,6487 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`descientify (dojde; došèl) 1`] = `"(dojde; došėl)"`;
+
+exports[`descientify (dojěde) 1`] = `"(dojede)"`;
+
+exports[`descientify (drėva/drėvese) 1`] = `"(drěva/drěvese)"`;
+
+exports[`descientify (dòćere) 1`] = `"(dȯćere)"`;
+
+exports[`descientify (dŀbe) 1`] = `"(dȯlbe)"`;
+
+exports[`descientify (dŀžna, dŀžno) 1`] = `"(dȯlžna, dȯlžno)"`;
+
+exports[`descientify (grèmi) 1`] = `"(grėmi)"`;
+
+exports[`descientify (ide; šèl) 1`] = `"(ide; šėl)"`;
+
+exports[`descientify (izide; izšèl) 1`] = `"(izide; izšėl)"`;
+
+exports[`descientify (izjěde) 1`] = `"(izjede)"`;
+
+exports[`descientify (izoře) 1`] = `"(izore)"`;
+
+exports[`descientify (izplėje/izplėve) 1`] = `"(izplěje/izplěve)"`;
+
+exports[`descientify (izzòve) 1`] = `"(izzȯve)"`;
+
+exports[`descientify (izòjme) 1`] = `"(izȯjme)"`;
+
+exports[`descientify (jesm, jesi, jest, jesmò, jeste, sųt; byl; bųdų) 1`] = `"(jesm, jesi, jest, jesmȯ, jeste, sųt; byl; bųdų)"`;
+
+exports[`descientify (jě) 1`] = `"(je)"`;
+
+exports[`descientify (jěde) 1`] = `"(jede)"`;
+
+exports[`descientify (najde; našèl) 1`] = `"(najde; našėl)"`;
+
+exports[`descientify (najě) 1`] = `"(naje)"`;
+
+exports[`descientify (nazòve) 1`] = `"(nazȯve)"`;
+
+exports[`descientify (objě) 1`] = `"(obje)"`;
+
+exports[`descientify (objěde) 1`] = `"(objede)"`;
+
+exports[`descientify (obòjde; obšèl) 1`] = `"(obȯjde; obšėl)"`;
+
+exports[`descientify (obòjme) 1`] = `"(obȯjme)"`;
+
+exports[`descientify (obòzri) 1`] = `"(obȯzri)"`;
+
+exports[`descientify (odide; odšèl) 1`] = `"(odide; odšėl)"`;
+
+exports[`descientify (odjěde) 1`] = `"(odjede)"`;
+
+exports[`descientify (odzòve) 1`] = `"(odzȯve)"`;
+
+exports[`descientify (odòjme) 1`] = `"(odȯjme)"`;
+
+exports[`descientify (oplėje/oplėve) 1`] = `"(oplěje/oplěve)"`;
+
+exports[`descientify (oře) 1`] = `"(ore)"`;
+
+exports[`descientify (plėje/plėve) 1`] = `"(plěje/plěve)"`;
+
+exports[`descientify (podòjme) 1`] = `"(podȯjme)"`;
+
+exports[`descientify (pojde; pošèl) 1`] = `"(pojde; pošėl)"`;
+
+exports[`descientify (pojěde) 1`] = `"(pojede)"`;
+
+exports[`descientify (pozòve) 1`] = `"(pozȯve)"`;
+
+exports[`descientify (poře) 1`] = `"(pore)"`;
+
+exports[`descientify (prijde; prišèl) 1`] = `"(prijde; prišėl)"`;
+
+exports[`descientify (prijěde) 1`] = `"(prijede)"`;
+
+exports[`descientify (prizòve) 1`] = `"(prizȯve)"`;
+
+exports[`descientify (projde; prošèl) 1`] = `"(projde; prošėl)"`;
+
+exports[`descientify (projěde) 1`] = `"(projede)"`;
+
+exports[`descientify (prėda) 1`] = `"(prěda)"`;
+
+exports[`descientify (prėdide; prėdšèl) 1`] = `"(prědide; prědšėl)"`;
+
+exports[`descientify (prėdpově) 1`] = `"(prědpově)"`;
+
+exports[`descientify (prėdprijme) 1`] = `"(prědprijme)"`;
+
+exports[`descientify (prėdskaže) 1`] = `"(prědskaže)"`;
+
+exports[`descientify (prėdvidi) 1`] = `"(prědvidi)"`;
+
+exports[`descientify (prėdòjde; prėdšèl) 1`] = `"(prědȯjde; prědšėl)"`;
+
+exports[`descientify (prėględi) 1`] = `"(prěględi)"`;
+
+exports[`descientify (prėjde; prėšèl) 1`] = `"(prějde; prěšėl)"`;
+
+exports[`descientify (prėjme) 1`] = `"(prějme)"`;
+
+exports[`descientify (prėpiše) 1`] = `"(prěpiše)"`;
+
+exports[`descientify (prėplove) 1`] = `"(prěplove)"`;
+
+exports[`descientify (prėrve) 1`] = `"(prěrve)"`;
+
+exports[`descientify (prėråste) 1`] = `"(prěråste)"`;
+
+exports[`descientify (prėrěže) 1`] = `"(prěrěže)"`;
+
+exports[`descientify (prėskaže) 1`] = `"(prěskaže)"`;
+
+exports[`descientify (prėspi) 1`] = `"(prěspi)"`;
+
+exports[`descientify (prėsęde) 1`] = `"(prěsęde)"`;
+
+exports[`descientify (prės’vęže) 1`] = `"(prěsvęže)"`;
+
+exports[`descientify (prėtŕpi) 1`] = `"(prětŕpi)"`;
+
+exports[`descientify (prėvede) 1`] = `"(prěvede)"`;
+
+exports[`descientify (prėvòzòjde) 1`] = `"(prěvȯzȯjde)"`;
+
+exports[`descientify (prėzòve) 1`] = `"(prězȯve)"`;
+
+exports[`descientify (prėžive) 1`] = `"(prěžive)"`;
+
+exports[`descientify (prėžuje) 1`] = `"(prěžuje)"`;
+
+exports[`descientify (råzide; råzšèl) 1`] = `"(råzide; råzšėl)"`;
+
+exports[`descientify (råzjěde) 1`] = `"(råzjede)"`;
+
+exports[`descientify (råzpoře) 1`] = `"(råzpore)"`;
+
+exports[`descientify (skvṙči) 1`] = `"(skvrči)"`;
+
+exports[`descientify (skṙbi) 1`] = `"(skrbi)"`;
+
+exports[`descientify (sòjde; sòšèl) 1`] = `"(sȯjde; sȯšėl)"`;
+
+exports[`descientify (sòjme) 1`] = `"(sȯjme)"`;
+
+exports[`descientify (sòstoji) 1`] = `"(sȯstoji)"`;
+
+exports[`descientify (sòzòve) 1`] = `"(sȯzȯve)"`;
+
+exports[`descientify (sòžre) 1`] = `"(sȯžre)"`;
+
+exports[`descientify (sòžže) 1`] = `"(sȯžže)"`;
+
+exports[`descientify (s’bere) 1`] = `"(sbere)"`;
+
+exports[`descientify (s’dere) 1`] = `"(sdere)"`;
+
+exports[`descientify (s’gnete) 1`] = `"(sgnete)"`;
+
+exports[`descientify (s’hovaje) 1`] = `"(shovaje)"`;
+
+exports[`descientify (s’jě) 1`] = `"(sje)"`;
+
+exports[`descientify (s’kaže) 1`] = `"(skaže)"`;
+
+exports[`descientify (s’lije) 1`] = `"(slije)"`;
+
+exports[`descientify (s’lže) 1`] = `"(slže)"`;
+
+exports[`descientify (s’melje) 1`] = `"(smelje)"`;
+
+exports[`descientify (s’nabdi) 1`] = `"(snabdi)"`;
+
+exports[`descientify (s’pade) 1`] = `"(spade)"`;
+
+exports[`descientify (s’piše) 1`] = `"(spiše)"`;
+
+exports[`descientify (s’plete) 1`] = `"(splete)"`;
+
+exports[`descientify (s’pomni) 1`] = `"(spomni)"`;
+
+exports[`descientify (s’potyče) 1`] = `"(spotyče)"`;
+
+exports[`descientify (s’pre) 1`] = `"(spre)"`;
+
+exports[`descientify (s’pręde) 1`] = `"(spręde)"`;
+
+exports[`descientify (s’råste) 1`] = `"(sråste)"`;
+
+exports[`descientify (s’sęde) 1`] = `"(ssęde)"`;
+
+exports[`descientify (s’vije) 1`] = `"(svije)"`;
+
+exports[`descientify (s’vęže) 1`] = `"(svęže)"`;
+
+exports[`descientify (ujde; ušèl) 1`] = `"(ujde; ušėl)"`;
+
+exports[`descientify (ujěde) 1`] = `"(ujede)"`;
+
+exports[`descientify (vyjde; vyšèl) 1`] = `"(vyjde; vyšėl)"`;
+
+exports[`descientify (vòjde; v’šèl) 1`] = `"(vȯjde; všėl)"`;
+
+exports[`descientify (vòzda) 1`] = `"(vȯzda)"`;
+
+exports[`descientify (vòzide; vòzšèl) 1`] = `"(vȯzide; vȯzšėl)"`;
+
+exports[`descientify (vòzleti) 1`] = `"(vȯzleti)"`;
+
+exports[`descientify (vòzme) 1`] = `"(vȯzme)"`;
+
+exports[`descientify (vòzpomni) 1`] = `"(vȯzpomni)"`;
+
+exports[`descientify (vòzråste) 1`] = `"(vȯzråste)"`;
+
+exports[`descientify (vòzråstloj) 1`] = `"(vȯzråstloj)"`;
+
+exports[`descientify (vòzvede) 1`] = `"(vȯzvede)"`;
+
+exports[`descientify (vòzòjme) 1`] = `"(vȯzȯjme)"`;
+
+exports[`descientify (v’ględi) 1`] = `"(vględi)"`;
+
+exports[`descientify (v’jěde) 1`] = `"(vjede)"`;
+
+exports[`descientify (v’pade) 1`] = `"(vpade)"`;
+
+exports[`descientify (v’pije) 1`] = `"(vpije)"`;
+
+exports[`descientify (v’piše) 1`] = `"(vpiše)"`;
+
+exports[`descientify (v’plete) 1`] = `"(vplete)"`;
+
+exports[`descientify (v’vede) 1`] = `"(vvede)"`;
+
+exports[`descientify (v’žive) 1`] = `"(vžive)"`;
+
+exports[`descientify (zajde; zašèl) 1`] = `"(zajde; zašėl)"`;
+
+exports[`descientify (zòve) 1`] = `"(zȯve)"`;
+
+exports[`descientify -lětıje 1`] = `"-lětje"`;
+
+exports[`descientify Afroamerikanèc 1`] = `"Afroamerikanėc"`;
+
+exports[`descientify Albanèc 1`] = `"Albanėc"`;
+
+exports[`descientify Amerikanske Děvičıje Ostrovy 1`] = `"Amerikanske Děvičje Ostrovy"`;
+
+exports[`descientify Amerikanèc 1`] = `"Amerikanėc"`;
+
+exports[`descientify Aùstralija 1`] = `"Avstralija"`;
+
+exports[`descientify Aùstrija 1`] = `"Avstrija"`;
+
+exports[`descientify Aùstrijèc 1`] = `"Avstrijėc"`;
+
+exports[`descientify Blizky Vòzhod 1`] = `"Blizky Vȯzhod"`;
+
+exports[`descientify Blågověšćenıje 1`] = `"Blågověšćeńje"`;
+
+exports[`descientify Bogojavjenıje 1`] = `"Bogojavjeńje"`;
+
+exports[`descientify Britanske Děvičıje Ostrovy 1`] = `"Britanske Děvičje Ostrovy"`;
+
+exports[`descientify Brėg Slonovoj Kosti 1`] = `"Brěg Slonovoj Kosti"`;
+
+exports[`descientify Byti ili ne byti? To jest pytanıje 1`] = `"Byti ili ne byti? To jest pytańje"`;
+
+exports[`descientify Cetinıje 1`] = `"Cetińje"`;
+
+exports[`descientify Daleky Vòzhod 1`] = `"Daleky Vȯzhod"`;
+
+exports[`descientify Dobry dènj! 1`] = `"Dobry dėnj!"`;
+
+exports[`descientify Děvičıje Ostrovy 1`] = `"Děvičje Ostrovy"`;
+
+exports[`descientify Eùfrat 1`] = `"Evfrat"`;
+
+exports[`descientify Eùrazija 1`] = `"Evrazija"`;
+
+exports[`descientify Eùropa 1`] = `"Evropa"`;
+
+exports[`descientify Eùropejka 1`] = `"Evropejka"`;
+
+exports[`descientify Eùropejska Unija 1`] = `"Evropejska Unija"`;
+
+exports[`descientify Eùropejsky Sòjųz 1`] = `"Evropejsky Sȯjųz"`;
+
+exports[`descientify Eùropejèc 1`] = `"Evropejėc"`;
+
+exports[`descientify Grècija 1`] = `"Grėcija"`;
+
+exports[`descientify Hṙvat 1`] = `"Hrvat"`;
+
+exports[`descientify Hṙvatija 1`] = `"Hrvatija"`;
+
+exports[`descientify I slěpa veverica poněkògda najde orěh 1`] = `"I slěpa veverica poněkȯgda najde orěh"`;
+
+exports[`descientify Izraelèc 1`] = `"Izraelėc"`;
+
+exports[`descientify Iztočna Eùropa 1`] = `"Iztočna Evropa"`;
+
+exports[`descientify Izvěstovanıje 1`] = `"Izvěstovańje"`;
+
+exports[`descientify Japonèc 1`] = `"Japonėc"`;
+
+exports[`descientify Kaùkaz 1`] = `"Kavkaz"`;
+
+exports[`descientify Kitajèc 1`] = `"Kitajėc"`;
+
+exports[`descientify Kubanèc 1`] = `"Kubanėc"`;
+
+exports[`descientify Litvanèc 1`] = `"Litvanėc"`;
+
+exports[`descientify Lèv 1`] = `"Lėv"`;
+
+exports[`descientify Makedonèc 1`] = `"Makedonėc"`;
+
+exports[`descientify Ministerstvo Pravosųdıja 1`] = `"Ministerstvo Pravosųďja"`;
+
+exports[`descientify Mlėčna dråga 1`] = `"Mlěčna dråga"`;
+
+exports[`descientify Mlėčny pųť 1`] = `"Mlěčny pųť"`;
+
+exports[`descientify Ne trati vrėmene! 1`] = `"Ne trati vrěmene!"`;
+
+exports[`descientify Ne trėba 1`] = `"Ne trěba"`;
+
+exports[`descientify Němèc 1`] = `"Němėc"`;
+
+exports[`descientify Organizacija S’jedinjenyh Narodov 1`] = `"Organizacija Sjedinjenyh Narodov"`;
+
+exports[`descientify Ovèn 1`] = `"Ovėn"`;
+
+exports[`descientify Peruanèc 1`] = `"Peruanėc"`;
+
+exports[`descientify Portugalèc 1`] = `"Portugalėc"`;
+
+exports[`descientify Pravoslavıje 1`] = `"Pravoslavje"`;
+
+exports[`descientify Providěnıje 1`] = `"Providěńje"`;
+
+exports[`descientify Rođenıje 1`] = `"Rođeńje"`;
+
+exports[`descientify Saudijèc 1`] = `"Saudijėc"`;
+
+exports[`descientify Skopıje 1`] = `"Skopje"`;
+
+exports[`descientify Slovenèc 1`] = `"Slovenėc"`;
+
+exports[`descientify Sovětsky Sòjųz 1`] = `"Sovětsky Sȯjųz"`;
+
+exports[`descientify Srėdnji Iztok 1`] = `"Srědnji Iztok"`;
+
+exports[`descientify Srėdnji Vòzhod 1`] = `"Srědnji Vȯzhod"`;
+
+exports[`descientify Srėdzemsko morje 1`] = `"Srědzemsko morje"`;
+
+exports[`descientify Strělèc 1`] = `"Strělėc"`;
+
+exports[`descientify Světska tṙgova organizacija 1`] = `"Světska trgova organizacija"`;
+
+exports[`descientify Světska zdråvstvèna organizacija 1`] = `"Světska zdråvstvėna organizacija"`;
+
+exports[`descientify Sòdružstvo Nezavisnyh Dŕžav 1`] = `"Sȯdružstvo Nezavisnyh Dŕžav"`;
+
+exports[`descientify Sòdružstvo narodov 1`] = `"Sȯdružstvo narodov"`;
+
+exports[`descientify S’jedinjene Štaty Ameriky 1`] = `"Sjedinjene Štaty Ameriky"`;
+
+exports[`descientify Ukrajinèc 1`] = `"Ukrajinėc"`;
+
+exports[`descientify Velikdènj 1`] = `"Velikdėnj"`;
+
+exports[`descientify Veliky Pętòk 1`] = `"Veliky Pętȯk"`;
+
+exports[`descientify Veselogo Rođenıja! 1`] = `"Veselogo Rođeńja!"`;
+
+exports[`descientify Vòzhodna Eùropa 1`] = `"Vȯzhodna Evropa"`;
+
+exports[`descientify Vòznesenıje 1`] = `"Vȯzneseńje"`;
+
+exports[`descientify Vųgrèc 1`] = `"Vųgrėc"`;
+
+exports[`descientify Za drėva lěs ne viděti 1`] = `"Za drěva lěs ne viděti"`;
+
+exports[`descientify Zapadna Eùropa 1`] = `"Zapadna Evropa"`;
+
+exports[`descientify adamovo jablòko 1`] = `"adamovo jablȯko"`;
+
+exports[`descientify aeronaùtika 1`] = `"aeronavtika"`;
+
+exports[`descientify aeronaùtičny 1`] = `"aeronavtičny"`;
+
+exports[`descientify afrikansky mråvojěd 1`] = `"afrikansky mråvojed"`;
+
+exports[`descientify akanıje 1`] = `"akańje"`;
+
+exports[`descientify anglijsky rožèk 1`] = `"anglijsky rožėk"`;
+
+exports[`descientify aplodovanıje 1`] = `"aplodovańje"`;
+
+exports[`descientify astronaùt 1`] = `"astronavt"`;
+
+exports[`descientify aùgust 1`] = `"avgust"`;
+
+exports[`descientify aùstralijsky 1`] = `"avstralijsky"`;
+
+exports[`descientify aùstrijsky 1`] = `"avstrijsky"`;
+
+exports[`descientify aùtentičny 1`] = `"avtentičny"`;
+
+exports[`descientify aùto 1`] = `"avto"`;
+
+exports[`descientify aùtobiografija 1`] = `"avtobiografija"`;
+
+exports[`descientify aùtobiografičny 1`] = `"avtobiografičny"`;
+
+exports[`descientify aùtobomba 1`] = `"avtobomba"`;
+
+exports[`descientify aùtobus 1`] = `"avtobus"`;
+
+exports[`descientify aùtobusna linija 1`] = `"avtobusna linija"`;
+
+exports[`descientify aùtobusna postojka 1`] = `"avtobusna postojka"`;
+
+exports[`descientify aùtograf 1`] = `"avtograf"`;
+
+exports[`descientify aùtohton 1`] = `"avtohton"`;
+
+exports[`descientify aùtokracija 1`] = `"avtokracija"`;
+
+exports[`descientify aùtokrat 1`] = `"avtokrat"`;
+
+exports[`descientify aùtomagistralj 1`] = `"avtomagistralj"`;
+
+exports[`descientify aùtomat 1`] = `"avtomat"`;
+
+exports[`descientify aùtomatika 1`] = `"avtomatika"`;
+
+exports[`descientify aùtomatizacija 1`] = `"avtomatizacija"`;
+
+exports[`descientify aùtomatizm 1`] = `"avtomatizm"`;
+
+exports[`descientify aùtomatizovati 1`] = `"avtomatizovati"`;
+
+exports[`descientify aùtomatično 1`] = `"avtomatično"`;
+
+exports[`descientify aùtomatičny 1`] = `"avtomatičny"`;
+
+exports[`descientify aùtomobil 1`] = `"avtomobil"`;
+
+exports[`descientify aùtomobiľny 1`] = `"avtomobiľny"`;
+
+exports[`descientify aùtonomija 1`] = `"avtonomija"`;
+
+exports[`descientify aùtonomny 1`] = `"avtonomny"`;
+
+exports[`descientify aùtopromysl 1`] = `"avtopromysl"`;
+
+exports[`descientify aùtor 1`] = `"avtor"`;
+
+exports[`descientify aùtoritarny 1`] = `"avtoritarny"`;
+
+exports[`descientify aùtoritativno 1`] = `"avtoritativno"`;
+
+exports[`descientify aùtoritativny 1`] = `"avtoritativny"`;
+
+exports[`descientify aùtoritet 1`] = `"avtoritet"`;
+
+exports[`descientify aùtoritetno 1`] = `"avtoritetno"`;
+
+exports[`descientify aùtoritetnosť 1`] = `"avtoritetnosť"`;
+
+exports[`descientify aùtoritetny 1`] = `"avtoritetny"`;
+
+exports[`descientify aùtoritety 1`] = `"avtoritety"`;
+
+exports[`descientify aùtorizacija 1`] = `"avtorizacija"`;
+
+exports[`descientify aùtorizovati 1`] = `"avtorizovati"`;
+
+exports[`descientify aùtorka 1`] = `"avtorka"`;
+
+exports[`descientify aùtorsko pravo 1`] = `"avtorsko pravo"`;
+
+exports[`descientify aùtorsky 1`] = `"avtorsky"`;
+
+exports[`descientify aùtorstvo 1`] = `"avtorstvo"`;
+
+exports[`descientify aùtostop 1`] = `"avtostop"`;
+
+exports[`descientify aùtostopnik 1`] = `"avtostopnik"`;
+
+exports[`descientify aùtostopovati 1`] = `"avtostopovati"`;
+
+exports[`descientify aùtostrada 1`] = `"avtostrada"`;
+
+exports[`descientify aùtostrahovka 1`] = `"avtostrahovka"`;
+
+exports[`descientify aùtozavod 1`] = `"avtozavod"`;
+
+exports[`descientify aùtožir 1`] = `"avtožir"`;
+
+exports[`descientify barvinòk 1`] = `"barvinȯk"`;
+
+exports[`descientify bavŀna 1`] = `"bavȯlna"`;
+
+exports[`descientify bděnıje 1`] = `"bděńje"`;
+
+exports[`descientify bedrenèc 1`] = `"bedrenėc"`;
+
+exports[`descientify bezbožıje 1`] = `"bezbožje"`;
+
+exports[`descientify bezdrėvny 1`] = `"bezdrěvny"`;
+
+exports[`descientify bezdònny 1`] = `"bezdȯnny"`;
+
+exports[`descientify bezdòždıje 1`] = `"bezdȯžďje"`;
+
+exports[`descientify bezkonečıje 1`] = `"bezkonečje"`;
+
+exports[`descientify bezkriḓly 1`] = `"bezkrily"`;
+
+exports[`descientify bezkròvny 1`] = `"bezkrȯvny"`;
+
+exports[`descientify bezmŀvny 1`] = `"bezmȯlvny"`;
+
+exports[`descientify bezpokojenıje 1`] = `"bezpokojeńje"`;
+
+exports[`descientify bezposrėdnje 1`] = `"bezposrědnje"`;
+
+exports[`descientify bezposrėdnji, bezposrėdny 1`] = `"bezposrědnji, bezposrědny"`;
+
+exports[`descientify bezprėryvno 1`] = `"bezprěryvno"`;
+
+exports[`descientify bezprėryvny 1`] = `"bezprěryvny"`;
+
+exports[`descientify bezsònnica 1`] = `"bezsȯnnica"`;
+
+exports[`descientify bezsònny 1`] = `"bezsȯnny"`;
+
+exports[`descientify bezs’myslica 1`] = `"bezsmyslica"`;
+
+exports[`descientify bezs’mysľny 1`] = `"bezsmysľny"`;
+
+exports[`descientify bezumıje 1`] = `"bezumje"`;
+
+exports[`descientify bezusilıje 1`] = `"bezusiľje"`;
+
+exports[`descientify bezvlastıje 1`] = `"bezvlastje"`;
+
+exports[`descientify bezvěrıje 1`] = `"bezvěŕje"`;
+
+exports[`descientify bezvětrıje 1`] = `"bezvětŕje"`;
+
+exports[`descientify bezv’kųsny 1`] = `"bezvkųsny"`;
+
+exports[`descientify bezčestıje 1`] = `"bezčestje"`;
+
+exports[`descientify bitıje 1`] = `"bitje"`;
+
+exports[`descientify bliznèc 1`] = `"bliznėc"`;
+
+exports[`descientify blågodarjenıje 1`] = `"blågodarjeńje"`;
+
+exports[`descientify blågoslovjenıje 1`] = `"blågoslovjeńje"`;
+
+exports[`descientify blågostanıje 1`] = `"blågostańje"`;
+
+exports[`descientify blågos’klonnosť 1`] = `"blågosklonnosť"`;
+
+exports[`descientify blågos’klonny 1`] = `"blågosklonny"`;
+
+exports[`descientify blòha 1`] = `"blȯha"`;
+
+exports[`descientify bobrıja damba 1`] = `"bobŕja damba"`;
+
+exports[`descientify bobrıji 1`] = `"bobŕji"`;
+
+exports[`descientify bodèc 1`] = `"bodėc"`;
+
+exports[`descientify bogomoḓlka 1`] = `"bogomolka"`;
+
+exports[`descientify bogoslovèc 1`] = `"bogoslovėc"`;
+
+exports[`descientify bogoslovıje 1`] = `"bogoslovje"`;
+
+exports[`descientify bogosluženıje 1`] = `"bogoslužeńje"`;
+
+exports[`descientify bogounižanıje 1`] = `"bogounižańje"`;
+
+exports[`descientify bojèc 1`] = `"bojėc"`;
+
+exports[`descientify borèc 1`] = `"borėc"`;
+
+exports[`descientify božıja kråvka 1`] = `"božja kråvka"`;
+
+exports[`descientify božıji 1`] = `"božji"`;
+
+exports[`descientify brat bliznèc 1`] = `"brat bliznėc"`;
+
+exports[`descientify braterska ljubòv 1`] = `"braterska ljubȯv"`;
+
+exports[`descientify brådobrivèc 1`] = `"brådobrivėc"`;
+
+exports[`descientify brèšljan 1`] = `"brėšljan"`;
+
+exports[`descientify brònja 1`] = `"brȯnja"`;
+
+exports[`descientify bròv 1`] = `"brȯv"`;
+
+exports[`descientify brėg 1`] = `"brěg"`;
+
+exports[`descientify brėgovy 1`] = `"brěgovy"`;
+
+exports[`descientify brėk 1`] = `"brěk"`;
+
+exports[`descientify brėmennosť 1`] = `"brěmennosť"`;
+
+exports[`descientify brėmenny 1`] = `"brěmenny"`;
+
+exports[`descientify brėmę 1`] = `"brěmę"`;
+
+exports[`descientify brėst 1`] = `"brěst"`;
+
+exports[`descientify brėza 1`] = `"brěza"`;
+
+exports[`descientify brėzènj 1`] = `"brězėnj"`;
+
+exports[`descientify brėžny 1`] = `"brěžny"`;
+
+exports[`descientify budynòk 1`] = `"budynȯk"`;
+
+exports[`descientify byti prėhlåđeny 1`] = `"byti prěhlåđeny"`;
+
+exports[`descientify byti sòglåsny 1`] = `"byti sȯglåsny"`;
+
+exports[`descientify bytıje 1`] = `"bytje"`;
+
+exports[`descientify byčèk 1`] = `"byčėk"`;
+
+exports[`descientify byčıji 1`] = `"byčji"`;
+
+exports[`descientify bòdnaŕ 1`] = `"bȯdnaŕ"`;
+
+exports[`descientify bòrščevnik 1`] = `"bȯrščevnik"`;
+
+exports[`descientify bòz 1`] = `"bȯz"`;
+
+exports[`descientify bòzina 1`] = `"bȯzina"`;
+
+exports[`descientify bòčka 1`] = `"bȯčka"`;
+
+exports[`descientify bòčva 1`] = `"bȯčva"`;
+
+exports[`descientify běliḓlo 1`] = `"bělilo"`;
+
+exports[`descientify bělòk 1`] = `"bělȯk"`;
+
+exports[`descientify běženèc 1`] = `"běženėc"`;
+
+exports[`descientify běženıje 1`] = `"běžeńje"`;
+
+exports[`descientify bųbèn 1`] = `"bųbėn"`;
+
+exports[`descientify bṙtnik 1`] = `"brtnik"`;
+
+exports[`descientify bṙzina 1`] = `"brzina"`;
+
+exports[`descientify bṙzo 1`] = `"brzo"`;
+
+exports[`descientify bṙzy 1`] = `"brzy"`;
+
+exports[`descientify bṙšč 1`] = `"bršč"`;
+
+exports[`descientify bṙť 1`] = `"brť"`;
+
+exports[`descientify cukṙka 1`] = `"cukrka"`;
+
+exports[`descientify cvětenıje 1`] = `"cvěteńje"`;
+
+exports[`descientify cvětènj 1`] = `"cvětėnj"`;
+
+exports[`descientify cvŕčèk 1`] = `"cvŕčėk"`;
+
+exports[`descientify cědiḓlo 1`] = `"cědilo"`;
+
+exports[`descientify cělovanıje 1`] = `"cělovańje"`;
+
+exports[`descientify cŕkòv 1`] = `"cŕkȯv"`;
+
+exports[`descientify cŕkòvnoslovjansky 1`] = `"cŕkȯvnoslovjansky"`;
+
+exports[`descientify cŕkòvny 1`] = `"cŕkȯvny"`;
+
+exports[`descientify danòk 1`] = `"danȯk"`;
+
+exports[`descientify dar kṙve 1`] = `"dar krve"`;
+
+exports[`descientify daritelj kṙve 1`] = `"daritelj krve"`;
+
+exports[`descientify darmojěd 1`] = `"darmojed"`;
+
+exports[`descientify darovanıje 1`] = `"darovańje"`;
+
+exports[`descientify darovanıje kṙve 1`] = `"darovańje krve"`;
+
+exports[`descientify dati zajèm 1`] = `"dati zajėm"`;
+
+exports[`descientify daunlodovanıje 1`] = `"daunlodovańje"`;
+
+exports[`descientify davati zajèm 1`] = `"davati zajėm"`;
+
+exports[`descientify davèc 1`] = `"davėc"`;
+
+exports[`descientify defisovanıje 1`] = `"defisovańje"`;
+
+exports[`descientify degèť 1`] = `"degėť"`;
+
+exports[`descientify delfinıji 1`] = `"delfińji"`;
+
+exports[`descientify desętilětıje 1`] = `"desętilětje"`;
+
+exports[`descientify devęťsòt, devęťsto 1`] = `"devęťsȯt, devęťsto"`;
+
+exports[`descientify diavòl 1`] = `"diavȯl"`;
+
+exports[`descientify diavòľsko 1`] = `"diavȯľsko"`;
+
+exports[`descientify dinozaùr 1`] = `"dinozavr"`;
+
+exports[`descientify do viděnıja! 1`] = `"do viděńja!"`;
+
+exports[`descientify dobro nastrojenıje 1`] = `"dobro nastrojeńje"`;
+
+exports[`descientify dobro os’vědomjeny 1`] = `"dobro osvědomjeny"`;
+
+exports[`descientify dobrovoljèc 1`] = `"dobrovoljėc"`;
+
+exports[`descientify dobytòk 1`] = `"dobytȯk"`;
+
+exports[`descientify dodatòk 1`] = `"dodatȯk"`;
+
+exports[`descientify dodatòčno 1`] = `"dodatȯčno"`;
+
+exports[`descientify dodatòčny 1`] = `"dodatȯčny"`;
+
+exports[`descientify dojèm 1`] = `"dojėm"`;
+
+exports[`descientify dojěhati 1`] = `"dojehati"`;
+
+exports[`descientify dojězd 1`] = `"dojezd"`;
+
+exports[`descientify dojěžđati 1`] = `"doježđati"`;
+
+exports[`descientify dokončenıje 1`] = `"dokončeńje"`;
+
+exports[`descientify domorodny s’por 1`] = `"domorodny spor"`;
+
+exports[`descientify dopisyvanıje 1`] = `"dopisyvańje"`;
+
+exports[`descientify dopŀniteljny 1`] = `"dopȯlniteljny"`;
+
+exports[`descientify dopŀniti 1`] = `"dopȯlniti"`;
+
+exports[`descientify dopŀnjati 1`] = `"dopȯlnjati"`;
+
+exports[`descientify dopŀnjeny 1`] = `"dopȯlnjeny"`;
+
+exports[`descientify dopŀnjenıje 1`] = `"dopȯlnjeńje"`;
+
+exports[`descientify dopŀzati 1`] = `"dopȯlzati"`;
+
+exports[`descientify dopŀzti 1`] = `"dopȯlzti"`;
+
+exports[`descientify doråzuměvanıje 1`] = `"doråzuměvańje"`;
+
+exports[`descientify dostatòk 1`] = `"dostatȯk"`;
+
+exports[`descientify dostatòčno 1`] = `"dostatȯčno"`;
+
+exports[`descientify dostatòčnosť 1`] = `"dostatȯčnosť"`;
+
+exports[`descientify dostatòčny 1`] = `"dostatȯčny"`;
+
+exports[`descientify dosęgnenıje 1`] = `"dosęgneńje"`;
+
+exports[`descientify dosęženıje 1`] = `"dosęžeńje"`;
+
+exports[`descientify dověrjenıje 1`] = `"dověrjeńje"`;
+
+exports[`descientify dověrıje 1`] = `"dověŕje"`;
+
+exports[`descientify dozvoljenıje 1`] = `"dozvoljeńje"`;
+
+exports[`descientify doľno oblėčenıje 1`] = `"doľno oblěčeńje"`;
+
+exports[`descientify drganıje 1`] = `"drgańje"`;
+
+exports[`descientify drobjenèc 1`] = `"drobjenėc"`;
+
+exports[`descientify dročenıje 1`] = `"dročeńje"`;
+
+exports[`descientify drèti 1`] = `"drėti"`;
+
+exports[`descientify drèti gṙḓlo 1`] = `"drėti grlo"`;
+
+exports[`descientify drėn 1`] = `"drěn"`;
+
+exports[`descientify drėvny 1`] = `"drěvny"`;
+
+exports[`descientify drėvny vųgòlj 1`] = `"drěvny vųgȯlj"`;
+
+exports[`descientify drėvo 1`] = `"drěvo"`;
+
+exports[`descientify drėvorěženıje 1`] = `"drěvorěžeńje"`;
+
+exports[`descientify drėvorųb 1`] = `"drěvorųb"`;
+
+exports[`descientify drėvěny 1`] = `"drěvěny"`;
+
+exports[`descientify drėvěny dom 1`] = `"drěvěny dom"`;
+
+exports[`descientify drėvěny dyhovy instrument 1`] = `"drěvěny dyhovy instrument"`;
+
+exports[`descientify držaḓlo 1`] = `"držalo"`;
+
+exports[`descientify dubljenıje 1`] = `"dubljeńje"`;
+
+exports[`descientify durènj 1`] = `"durėnj"`;
+
+exports[`descientify dušenıje 1`] = `"dušeńje"`;
+
+exports[`descientify dviženıje 1`] = `"dvižeńje"`;
+
+exports[`descientify dvojstvèno čislo 1`] = `"dvojstvėno čislo"`;
+
+exports[`descientify dvucifrèny 1`] = `"dvucifrėny"`;
+
+exports[`descientify dvuetažny aùtobus 1`] = `"dvuetažny avtobus"`;
+
+exports[`descientify dvus’mysľnosť 1`] = `"dvusmysľnosť"`;
+
+exports[`descientify dvus’mysľny 1`] = `"dvusmysľny"`;
+
+exports[`descientify dvuvlastıje 1`] = `"dvuvlastje"`;
+
+exports[`descientify dvuženèc 1`] = `"dvuženėc"`;
+
+exports[`descientify dyhanıje 1`] = `"dyhańje"`;
+
+exports[`descientify dyšno gṙḓlo 1`] = `"dyšno grlo"`;
+
+exports[`descientify dènj 1`] = `"dėnj"`;
+
+exports[`descientify dènj oplakyvanıja 1`] = `"dėnj oplakyvańja"`;
+
+exports[`descientify dènj poslě dnja 1`] = `"dėnj poslě dnja"`;
+
+exports[`descientify dènj rođenıja 1`] = `"dėnj rođeńja"`;
+
+exports[`descientify dòhnųti 1`] = `"dȯhnųti"`;
+
+exports[`descientify dòska 1`] = `"dȯska"`;
+
+exports[`descientify dòćera 1`] = `"dȯćera"`;
+
+exports[`descientify dòćerka 1`] = `"dȯćerka"`;
+
+exports[`descientify dòćerska ljubòv 1`] = `"dȯćerska ljubȯv"`;
+
+exports[`descientify dòćersky 1`] = `"dȯćersky"`;
+
+exports[`descientify dòći 1`] = `"dȯći"`;
+
+exports[`descientify dòščeny 1`] = `"dȯščeny"`;
+
+exports[`descientify dòžditi 1`] = `"dȯžditi"`;
+
+exports[`descientify dòždlivy 1`] = `"dȯždlivy"`;
+
+exports[`descientify dòždnik 1`] = `"dȯždnik"`;
+
+exports[`descientify dòžď 1`] = `"dȯžď"`;
+
+exports[`descientify dòžďevy 1`] = `"dȯžďevy"`;
+
+exports[`descientify dòžďevy čŕvjak 1`] = `"dȯžďevy čŕvjak"`;
+
+exports[`descientify dědòk 1`] = `"dědȯk"`;
+
+exports[`descientify dějanıja 1`] = `"dějańja"`;
+
+exports[`descientify dějanıja apostolov 1`] = `"dějańja apostolov"`;
+
+exports[`descientify dějanıje 1`] = `"dějańje"`;
+
+exports[`descientify dělanıja 1`] = `"dělańja"`;
+
+exports[`descientify děljenıje 1`] = `"děljeńje"`;
+
+exports[`descientify děvičıji 1`] = `"děvičji"`;
+
+exports[`descientify dŀbti 1`] = `"dȯlbti"`;
+
+exports[`descientify dŀg 1`] = `"dȯlg"`;
+
+exports[`descientify dŀgo 1`] = `"dȯlgo"`;
+
+exports[`descientify dŀgodenstvo 1`] = `"dȯlgodenstvo"`;
+
+exports[`descientify dŀgohvosty 1`] = `"dȯlgohvosty"`;
+
+exports[`descientify dŀgohvosty papugaj 1`] = `"dȯlgohvosty papugaj"`;
+
+exports[`descientify dŀgosť 1`] = `"dȯlgosť"`;
+
+exports[`descientify dŀgosť žitıja 1`] = `"dȯlgosť žitja"`;
+
+exports[`descientify dŀgota 1`] = `"dȯlgota"`;
+
+exports[`descientify dŀgotrajny 1`] = `"dȯlgotrajny"`;
+
+exports[`descientify dŀgověčnosť 1`] = `"dȯlgověčnosť"`;
+
+exports[`descientify dŀgověčny 1`] = `"dȯlgověčny"`;
+
+exports[`descientify dŀgočasiti 1`] = `"dȯlgočasiti"`;
+
+exports[`descientify dŀgočasiti sę 1`] = `"dȯlgočasiti sę"`;
+
+exports[`descientify dŀgočasnica 1`] = `"dȯlgočasnica"`;
+
+exports[`descientify dŀgočasnik 1`] = `"dȯlgočasnik"`;
+
+exports[`descientify dŀgočasny 1`] = `"dȯlgočasny"`;
+
+exports[`descientify dŀgočasıje 1`] = `"dȯlgočaśje"`;
+
+exports[`descientify dŀgočašeny 1`] = `"dȯlgočašeny"`;
+
+exports[`descientify dŀgoživeny 1`] = `"dȯlgoživeny"`;
+
+exports[`descientify dŀgoživostno råziskyvanıje 1`] = `"dȯlgoživostno råziskyvańje"`;
+
+exports[`descientify dŀgoživostny 1`] = `"dȯlgoživostny"`;
+
+exports[`descientify dŀgoživosť 1`] = `"dȯlgoživosť"`;
+
+exports[`descientify dŀgy 1`] = `"dȯlgy"`;
+
+exports[`descientify dŀžina 1`] = `"dȯlžina"`;
+
+exports[`descientify dŀžina valy 1`] = `"dȯlžina valy"`;
+
+exports[`descientify dŀžina vŀny 1`] = `"dȯlžina vȯlny"`;
+
+exports[`descientify dŀžiti 1`] = `"dȯlžiti"`;
+
+exports[`descientify dŀžnik 1`] = `"dȯlžnik"`;
+
+exports[`descientify dŀžnosť 1`] = `"dȯlžnosť"`;
+
+exports[`descientify dŀžny 1`] = `"dȯlžny"`;
+
+exports[`descientify dŀžèn 1`] = `"dȯlžėn"`;
+
+exports[`descientify dŀžèn byti 1`] = `"dȯlžėn byti"`;
+
+exports[`descientify dŕkanıje 1`] = `"dŕkańje"`;
+
+exports[`descientify dṙn 1`] = `"drn"`;
+
+exports[`descientify egzistovanıje 1`] = `"egzistovańje"`;
+
+exports[`descientify elektrošokovo orųžıje 1`] = `"elektrošokovo orųžje"`;
+
+exports[`descientify epicentr zemjetręsenıja 1`] = `"epicentr zemjetręseńja"`;
+
+exports[`descientify eùro 1`] = `"evro"`;
+
+exports[`descientify eùropejsky, eùropsky 1`] = `"evropejsky, evropsky"`;
+
+exports[`descientify fazovanıje 1`] = `"fazovańje"`;
+
+exports[`descientify fehtovanıje 1`] = `"fehtovańje"`;
+
+exports[`descientify formovanıje 1`] = `"formovańje"`;
+
+exports[`descientify gadıji 1`] = `"gaďji"`;
+
+exports[`descientify gasiḓlo 1`] = `"gasilo"`;
+
+exports[`descientify genovo ozdravjenıje 1`] = `"genovo ozdravjeńje"`;
+
+exports[`descientify glezènj 1`] = `"glezėnj"`;
+
+exports[`descientify globaľno potepljenıje 1`] = `"globaľno potepljeńje"`;
+
+exports[`descientify glupèc 1`] = `"glupėc"`;
+
+exports[`descientify glåsovanıje 1`] = `"glåsovańje"`;
+
+exports[`descientify gnitıje 1`] = `"gnitje"`;
+
+exports[`descientify golųbıji 1`] = `"golųbji"`;
+
+exports[`descientify gonèc 1`] = `"gonėc"`;
+
+exports[`descientify gonščik aùtomobiljev 1`] = `"gonščik avtomobiljev"`;
+
+exports[`descientify gorsky lanèc 1`] = `"gorsky lanėc"`;
+
+exports[`descientify gostinèc 1`] = `"gostinėc"`;
+
+exports[`descientify govędıji 1`] = `"govęďji"`;
+
+exports[`descientify granatno jablòko 1`] = `"granatno jablȯko"`;
+
+exports[`descientify grozdıje 1`] = `"grozďje"`;
+
+exports[`descientify gruby pěsòk 1`] = `"gruby pěsȯk"`;
+
+exports[`descientify grèměti 1`] = `"grėměti"`;
+
+exports[`descientify grèmųća zmija 1`] = `"grėmųća zmija"`;
+
+exports[`descientify grèčsky 1`] = `"grėčsky"`;
+
+exports[`descientify gŀk 1`] = `"gȯlk"`;
+
+exports[`descientify gŀtanıje 1`] = `"gȯltańje"`;
+
+exports[`descientify gŀtati 1`] = `"gȯltati"`;
+
+exports[`descientify gŀtati sŀzy 1`] = `"gȯltati sȯlzy"`;
+
+exports[`descientify gŀtka 1`] = `"gȯltka"`;
+
+exports[`descientify gŀtnųti 1`] = `"gȯltnųti"`;
+
+exports[`descientify gŀtòk 1`] = `"gȯltȯk"`;
+
+exports[`descientify gųstıje 1`] = `"gųstje"`;
+
+exports[`descientify gųsıji 1`] = `"gųśji"`;
+
+exports[`descientify gṙb 1`] = `"grb"`;
+
+exports[`descientify gṙbaty 1`] = `"grbaty"`;
+
+exports[`descientify gṙbač 1`] = `"grbač"`;
+
+exports[`descientify gṙbiti sę 1`] = `"grbiti sę"`;
+
+exports[`descientify gṙditi 1`] = `"grditi"`;
+
+exports[`descientify gṙdosť 1`] = `"grdosť"`;
+
+exports[`descientify gṙdy 1`] = `"grdy"`;
+
+exports[`descientify gṙn 1`] = `"grn"`;
+
+exports[`descientify gṙnèc 1`] = `"grnėc"`;
+
+exports[`descientify gṙnčaŕ 1`] = `"grnčaŕ"`;
+
+exports[`descientify gṙnčaŕstvo 1`] = `"grnčaŕstvo"`;
+
+exports[`descientify gṙnųti 1`] = `"grnųti"`;
+
+exports[`descientify gṙsť 1`] = `"grsť"`;
+
+exports[`descientify gṙtanj 1`] = `"grtanj"`;
+
+exports[`descientify gṙḓlica 1`] = `"grlica"`;
+
+exports[`descientify gṙḓlo 1`] = `"grlo"`;
+
+exports[`descientify hantèlj 1`] = `"hantėlj"`;
+
+exports[`descientify hidraùličny 1`] = `"hidravličny"`;
+
+exports[`descientify hlåpèc 1`] = `"hlåpėc"`;
+
+exports[`descientify hlåđenıje 1`] = `"hlåđeńje"`;
+
+exports[`descientify hodèc 1`] = `"hodėc"`;
+
+exports[`descientify hođenıje 1`] = `"hođeńje"`;
+
+exports[`descientify hråbrèc 1`] = `"hråbrėc"`;
+
+exports[`descientify hrånjenèc 1`] = `"hrånjenėc"`;
+
+exports[`descientify hrèbet 1`] = `"hrėbet"`;
+
+exports[`descientify hrèbetny 1`] = `"hrėbetny"`;
+
+exports[`descientify hrèbetny mozòk 1`] = `"hrėbetny mozȯk"`;
+
+exports[`descientify hrčèk 1`] = `"hrčėk"`;
+
+exports[`descientify hujesòs 1`] = `"hujesȯs"`;
+
+exports[`descientify huljenıje 1`] = `"huljeńje"`;
+
+exports[`descientify hytrèc 1`] = `"hytrėc"`;
+
+exports[`descientify hŀm 1`] = `"hȯlm"`;
+
+exports[`descientify hṙt 1`] = `"hrt"`;
+
+exports[`descientify hṙvatsky 1`] = `"hrvatsky"`;
+
+exports[`descientify hṙčati 1`] = `"hrčati"`;
+
+exports[`descientify idti v’prėd 1`] = `"idti vprěd"`;
+
+exports[`descientify idti v’zad 1`] = `"idti vzad"`;
+
+exports[`descientify ignorovanıje 1`] = `"ignorovańje"`;
+
+exports[`descientify iměnıje 1`] = `"iměńje"`;
+
+exports[`descientify iměti značenıje 1`] = `"iměti značeńje"`;
+
+exports[`descientify imųtòk 1`] = `"imųtȯk"`;
+
+exports[`descientify inaùguraľny 1`] = `"inavguraľny"`;
+
+exports[`descientify indoeùropejsky 1`] = `"indoevropejsky"`;
+
+exports[`descientify inoskazanıje 1`] = `"inoskazańje"`;
+
+exports[`descientify inostrånèc 1`] = `"inostrånėc"`;
+
+exports[`descientify inovrėmenno 1`] = `"inovrěmenno"`;
+
+exports[`descientify inozemèc 1`] = `"inozemėc"`;
+
+exports[`descientify invalidsky vozòk 1`] = `"invalidsky vozȯk"`;
+
+exports[`descientify inògda, inògdy 1`] = `"inȯgda, inȯgdy"`;
+
+exports[`descientify iz-prėd 1`] = `"iz-prěd"`;
+
+exports[`descientify iz-srėd 1`] = `"iz-srěd"`;
+
+exports[`descientify izbavjenıje 1`] = `"izbavjeńje"`;
+
+exports[`descientify izbiranıje 1`] = `"izbirańje"`;
+
+exports[`descientify izbytòk 1`] = `"izbytȯk"`;
+
+exports[`descientify izdanıje 1`] = `"izdańje"`;
+
+exports[`descientify izdŀbti 1`] = `"izdȯlbti"`;
+
+exports[`descientify izganjanıje 1`] = `"izganjańje"`;
+
+exports[`descientify izglåvıje 1`] = `"izglåvje"`;
+
+exports[`descientify izgnanèc 1`] = `"izgnanėc"`;
+
+exports[`descientify izgnanıje 1`] = `"izgnańje"`;
+
+exports[`descientify izigranıje 1`] = `"izigrańje"`;
+
+exports[`descientify izjasnjenıje 1`] = `"izjasnjeńje"`;
+
+exports[`descientify izjavjenıje 1`] = `"izjavjeńje"`;
+
+exports[`descientify izjěhati 1`] = `"izjehati"`;
+
+exports[`descientify izjězd 1`] = `"izjezd"`;
+
+exports[`descientify izjěžđati 1`] = `"izježđati"`;
+
+exports[`descientify izkazanıje 1`] = `"izkazańje"`;
+
+exports[`descientify izključenıje 1`] = `"izključeńje"`;
+
+exports[`descientify izkrikanıje 1`] = `"izkrikańje"`;
+
+exports[`descientify izkušenıje 1`] = `"izkušeńje"`;
+
+exports[`descientify izkṙviti 1`] = `"izkrviti"`;
+
+exports[`descientify izkṙviti do smŕti 1`] = `"izkrviti do smŕti"`;
+
+exports[`descientify izlišèk 1`] = `"izlišėk"`;
+
+exports[`descientify izmysljenıje 1`] = `"izmysljeńje"`;
+
+exports[`descientify izměnjenıje 1`] = `"izměnjeńje"`;
+
+exports[`descientify izměšćenıje 1`] = `"izměšćeńje"`;
+
+exports[`descientify izniščenıje 1`] = `"izniščeńje"`;
+
+exports[`descientify izobraženıje 1`] = `"izobražeńje"`;
+
+exports[`descientify izplatny spisòk 1`] = `"izplatny spisȯk"`;
+
+exports[`descientify izplėti 1`] = `"izplěti"`;
+
+exports[`descientify izprobovanıje 1`] = `"izprobovańje"`;
+
+exports[`descientify izpŀniti 1`] = `"izpȯlniti"`;
+
+exports[`descientify izpŀnjati 1`] = `"izpȯlnjati"`;
+
+exports[`descientify izpŀzati 1`] = `"izpȯlzati"`;
+
+exports[`descientify izpŀzti 1`] = `"izpȯlzti"`;
+
+exports[`descientify izraženıje 1`] = `"izražeńje"`;
+
+exports[`descientify izrodòk 1`] = `"izrodȯk"`;
+
+exports[`descientify izrođenıje 1`] = `"izrođeńje"`;
+
+exports[`descientify izrěčenıje 1`] = `"izrěčeńje"`;
+
+exports[`descientify izseḓliti 1`] = `"izseliti"`;
+
+exports[`descientify izseḓljati 1`] = `"izseljati"`;
+
+exports[`descientify izseḓljenica 1`] = `"izseljenica"`;
+
+exports[`descientify izseḓljenèc 1`] = `"izseljenėc"`;
+
+exports[`descientify izseḓljenıje 1`] = `"izseljeńje"`;
+
+exports[`descientify izslědovanıje 1`] = `"izslědovańje"`;
+
+exports[`descientify izslědòk 1`] = `"izslědȯk"`;
+
+exports[`descientify izsmějivanıje 1`] = `"izsmějivańje"`;
+
+exports[`descientify izstavjenıje 1`] = `"izstavjeńje"`;
+
+exports[`descientify izsunųtıje 1`] = `"izsunųtje"`;
+
+exports[`descientify izsylanıje 1`] = `"izsylańje"`;
+
+exports[`descientify izsòhnųti 1`] = `"izsȯhnųti"`;
+
+exports[`descientify izsòsati 1`] = `"izsȯsati"`;
+
+exports[`descientify iztrèti 1`] = `"iztrėti"`;
+
+exports[`descientify iztvorjenıje 1`] = `"iztvorjeńje"`;
+
+exports[`descientify iztŀkti 1`] = `"iztȯlkti"`;
+
+exports[`descientify iztṙgati 1`] = `"iztrgati"`;
+
+exports[`descientify iztṙgnųti 1`] = `"iztrgnųti"`;
+
+exports[`descientify izumiranıje 1`] = `"izumirańje"`;
+
+exports[`descientify izumrèti 1`] = `"izumrėti"`;
+
+exports[`descientify izvinjenıje 1`] = `"izvinjeńje"`;
+
+exports[`descientify izvlėkti 1`] = `"izvlěkti"`;
+
+exports[`descientify izvoljenıje 1`] = `"izvoljeńje"`;
+
+exports[`descientify izvođenıje 1`] = `"izvođeńje"`;
+
+exports[`descientify izvěstoglåšenıje 1`] = `"izvěstoglåšeńje"`;
+
+exports[`descientify izvěstıje 1`] = `"izvěstje"`;
+
+exports[`descientify izznačenıje 1`] = `"izznačeńje"`;
+
+exports[`descientify izzòv 1`] = `"izzȯv"`;
+
+exports[`descientify izòjdti 1`] = `"izȯjdti"`;
+
+exports[`descientify izčeznenıje 1`] = `"izčezneńje"`;
+
+exports[`descientify izčisljenıje 1`] = `"izčisljeńje"`;
+
+exports[`descientify izčŕkanıje 1`] = `"izčŕkańje"`;
+
+exports[`descientify jablòko 1`] = `"jablȯko"`;
+
+exports[`descientify jablòčny 1`] = `"jablȯčny"`;
+
+exports[`descientify jagnętıji 1`] = `"jagnętji"`;
+
+exports[`descientify jajcebělòk 1`] = `"jajcebělȯk"`;
+
+exports[`descientify jalovèc 1`] = `"jalovėc"`;
+
+exports[`descientify jasenèc 1`] = `"jasenėc"`;
+
+exports[`descientify jasla-sadòk 1`] = `"jasla-sadȯk"`;
+
+exports[`descientify jasnovidèc 1`] = `"jasnovidėc"`;
+
+exports[`descientify jatròv 1`] = `"jatrȯv"`;
+
+exports[`descientify javjenıje 1`] = `"javjeńje"`;
+
+exports[`descientify jazvèc 1`] = `"jazvėc"`;
+
+exports[`descientify jebanıje 1`] = `"jebańje"`;
+
+exports[`descientify jedino pytanıje vrėmene 1`] = `"jedino pytańje vrěmene"`;
+
+exports[`descientify jedinstvèno čislo 1`] = `"jedinstvėno čislo"`;
+
+exports[`descientify jedinstvèny 1`] = `"jedinstvėny"`;
+
+exports[`descientify jedinèc 1`] = `"jedinėc"`;
+
+exports[`descientify jednos’ložny 1`] = `"jednosložny"`;
+
+exports[`descientify jednos’měrny 1`] = `"jednosměrny"`;
+
+exports[`descientify jednovrėmenno 1`] = `"jednovrěmenno"`;
+
+exports[`descientify jednovrėmenny 1`] = `"jednovrěmenny"`;
+
+exports[`descientify jelenıji 1`] = `"jeleńji"`;
+
+exports[`descientify jelèc 1`] = `"jelėc"`;
+
+exports[`descientify jestli trėba 1`] = `"jestli trěba"`;
+
+exports[`descientify junèc 1`] = `"junėc"`;
+
+exports[`descientify juròk 1`] = `"jurȯk"`;
+
+exports[`descientify južnoeùropejsky 1`] = `"južnoevropejsky"`;
+
+exports[`descientify jèmela 1`] = `"jėmela"`;
+
+exports[`descientify jędrno odstrašenıje 1`] = `"jędrno odstrašeńje"`;
+
+exports[`descientify językoslovèc 1`] = `"językoslovėc"`;
+
+exports[`descientify językotvoritelj, językotvorèc 1`] = `"językotvoritelj, językotvorėc"`;
+
+exports[`descientify językotvorjenıje, językotvorstvo 1`] = `"językotvorjeńje, językotvorstvo"`;
+
+exports[`descientify językoznanıje 1`] = `"językoznańje"`;
+
+exports[`descientify językoznavèc 1`] = `"językoznavėc"`;
+
+exports[`descientify języčèk 1`] = `"języčėk"`;
+
+exports[`descientify jěda 1`] = `"jeda"`;
+
+exports[`descientify jědak 1`] = `"jedak"`;
+
+exports[`descientify jědanıje 1`] = `"jedańje"`;
+
+exports[`descientify jědatelj 1`] = `"jedatelj"`;
+
+exports[`descientify jědati 1`] = `"jedati"`;
+
+exports[`descientify jědenıje 1`] = `"jedeńje"`;
+
+exports[`descientify jědivo 1`] = `"jedivo"`;
+
+exports[`descientify jědlivy 1`] = `"jedlivy"`;
+
+exports[`descientify jědomy 1`] = `"jedomy"`;
+
+exports[`descientify jěhati 1`] = `"jehati"`;
+
+exports[`descientify jěhati želěznicejų 1`] = `"jehati želěznicejų"`;
+
+exports[`descientify jěsti 1`] = `"jesti"`;
+
+exports[`descientify jězda 1`] = `"jezda"`;
+
+exports[`descientify jězditi 1`] = `"jezditi"`;
+
+exports[`descientify jězditi na velosipedu 1`] = `"jezditi na velosipedu"`;
+
+exports[`descientify jězdèc 1`] = `"jezdėc"`;
+
+exports[`descientify jěždna čęsť 1`] = `"ježdna čęsť"`;
+
+exports[`descientify jěḓlo 1`] = `"jelo"`;
+
+exports[`descientify k, kò 1`] = `"k, kȯ"`;
+
+exports[`descientify kabačèk 1`] = `"kabačėk"`;
+
+exports[`descientify kabèlj 1`] = `"kabėlj"`;
+
+exports[`descientify kadiḓlo 1`] = `"kadilo"`;
+
+exports[`descientify kadiḓľnica 1`] = `"kadiľnica"`;
+
+exports[`descientify kadŀb 1`] = `"kadȯlb"`;
+
+exports[`descientify kartofèlj 1`] = `"kartofėlj"`;
+
+exports[`descientify katòčka 1`] = `"katȯčka"`;
+
+exports[`descientify kašèlj 1`] = `"kašėlj"`;
+
+exports[`descientify klimatsko potepljenıje 1`] = `"klimatsko potepljeńje"`;
+
+exports[`descientify klådèc, klådeź 1`] = `"klådėc, klådeź"`;
+
+exports[`descientify klòk 1`] = `"klȯk"`;
+
+exports[`descientify klěskanıje 1`] = `"klěskańje"`;
+
+exports[`descientify klětka kṙve 1`] = `"klětka krve"`;
+
+exports[`descientify klětòčna terapija 1`] = `"klětȯčna terapija"`;
+
+exports[`descientify klětòčno ozdravjenıje 1`] = `"klětȯčno ozdravjeńje"`;
+
+exports[`descientify klětòčny 1`] = `"klětȯčny"`;
+
+exports[`descientify klųbòk 1`] = `"klųbȯk"`;
+
+exports[`descientify količèk 1`] = `"količėk"`;
+
+exports[`descientify kompjuterovanıje 1`] = `"kompjuterovańje"`;
+
+exports[`descientify konservativèc 1`] = `"konservativėc"`;
+
+exports[`descientify kontrabandovanıje 1`] = `"kontrabandovańje"`;
+
+exports[`descientify konèc 1`] = `"konėc"`;
+
+exports[`descientify konèc tydnja 1`] = `"konėc tydnja"`;
+
+exports[`descientify kopanıje 1`] = `"kopańje"`;
+
+exports[`descientify kopòť 1`] = `"kopȯť"`;
+
+exports[`descientify kopıje 1`] = `"kopje"`;
+
+exports[`descientify korabokrušenèc 1`] = `"korabokrušenėc"`;
+
+exports[`descientify korabokrušenıje 1`] = `"korabokrušeńje"`;
+
+exports[`descientify koròk 1`] = `"korȯk"`;
+
+exports[`descientify kosmonaùt 1`] = `"kosmonavt"`;
+
+exports[`descientify kostny mozòk 1`] = `"kostny mozȯk"`;
+
+exports[`descientify kotèl 1`] = `"kotėl"`;
+
+exports[`descientify kovanıje 1`] = `"kovańje"`;
+
+exports[`descientify koverèc 1`] = `"koverėc"`;
+
+exports[`descientify kozèl 1`] = `"kozėl"`;
+
+exports[`descientify kozèl odpušćenıja 1`] = `"kozėl odpušćeńja"`;
+
+exports[`descientify kozıja bråda 1`] = `"koźja bråda"`;
+
+exports[`descientify kozıji 1`] = `"koźji"`;
+
+exports[`descientify košenıje 1`] = `"košeńje"`;
+
+exports[`descientify krajnèc 1`] = `"krajnėc"`;
+
+exports[`descientify krajèc 1`] = `"krajėc"`;
+
+exports[`descientify krasavèc 1`] = `"krasavėc"`;
+
+exports[`descientify krasopisèc 1`] = `"krasopisėc"`;
+
+exports[`descientify kresaḓlo 1`] = `"kresalo"`;
+
+exports[`descientify križenosèc 1`] = `"križenosėc"`;
+
+exports[`descientify kriḓlaty 1`] = `"krilaty"`;
+
+exports[`descientify kriḓlo 1`] = `"krilo"`;
+
+exports[`descientify kropiḓlo 1`] = `"kropilo"`;
+
+exports[`descientify krvinòk 1`] = `"krvinȯk"`;
+
+exports[`descientify krvopijèc 1`] = `"krvopijėc"`;
+
+exports[`descientify krvoprolitıje 1`] = `"krvoprolitje"`;
+
+exports[`descientify kråvıji 1`] = `"kråvji"`;
+
+exports[`descientify krèst 1`] = `"krėst"`;
+
+exports[`descientify krèstitelj 1`] = `"krėstitelj"`;
+
+exports[`descientify krèstiti 1`] = `"krėstiti"`;
+
+exports[`descientify krèstna mati 1`] = `"krėstna mati"`;
+
+exports[`descientify krèstny otèc 1`] = `"krėstny otėc"`;
+
+exports[`descientify krèstovy pohod 1`] = `"krėstovy pohod"`;
+
+exports[`descientify krèšćenıje 1`] = `"krėšćeńje"`;
+
+exports[`descientify kròha 1`] = `"krȯha"`;
+
+exports[`descientify kròt 1`] = `"krȯt"`;
+
+exports[`descientify kròv 1`] = `"krȯv"`;
+
+exports[`descientify kròvna infekcija 1`] = `"krȯvna infekcija"`;
+
+exports[`descientify kròvno těljče 1`] = `"krȯvno těljče"`;
+
+exports[`descientify kròvny 1`] = `"krȯvny"`;
+
+exports[`descientify kròvny pritisk 1`] = `"krȯvny pritisk"`;
+
+exports[`descientify kròšiti 1`] = `"krȯšiti"`;
+
+exports[`descientify kròšiti sę 1`] = `"krȯšiti sę"`;
+
+exports[`descientify krųženıje 1`] = `"krųžeńje"`;
+
+exports[`descientify kubòk 1`] = `"kubȯk"`;
+
+exports[`descientify kufèr 1`] = `"kufėr"`;
+
+exports[`descientify kupèc 1`] = `"kupėc"`;
+
+exports[`descientify kurèc 1`] = `"kurėc"`;
+
+exports[`descientify kurıji 1`] = `"kuŕji"`;
+
+exports[`descientify kustomizovanıje 1`] = `"kustomizovańje"`;
+
+exports[`descientify kypěnıje 1`] = `"kypěńje"`;
+
+exports[`descientify kògda, kògdy 1`] = `"kȯgda, kȯgdy"`;
+
+exports[`descientify kògda-libo, kògdy-libo 1`] = `"kȯgda-libo, kȯgdy-libo"`;
+
+exports[`descientify kògda-nebųď, kògdy-nebųď 1`] = `"kȯgda-nebųď, kȯgdy-nebųď"`;
+
+exports[`descientify kògdakoli, kògdykoli 1`] = `"kȯgdakoli, kȯgdykoli"`;
+
+exports[`descientify kòl 1`] = `"kȯl"`;
+
+exports[`descientify kŀbasa 1`] = `"kȯlbasa"`;
+
+exports[`descientify kŀzati sę 1`] = `"kȯlzati sę"`;
+
+exports[`descientify kŀzky 1`] = `"kȯlzky"`;
+
+exports[`descientify kųpanıje 1`] = `"kųpańje"`;
+
+exports[`descientify kųsòk 1`] = `"kųsȯk"`;
+
+exports[`descientify kṙma 1`] = `"krma"`;
+
+exports[`descientify kṙmiti 1`] = `"krmiti"`;
+
+exports[`descientify kṙmjenıje 1`] = `"krmjeńje"`;
+
+exports[`descientify kṙmna trųbka 1`] = `"krmna trųbka"`;
+
+exports[`descientify kṙmny 1`] = `"krmny"`;
+
+exports[`descientify kṙzno 1`] = `"krzno"`;
+
+exports[`descientify kṙč 1`] = `"krč"`;
+
+exports[`descientify kṙčiti 1`] = `"krčiti"`;
+
+exports[`descientify kṙčma 1`] = `"krčma"`;
+
+exports[`descientify labędıji 1`] = `"labęďji"`;
+
+exports[`descientify lajanıje 1`] = `"lajańje"`;
+
+exports[`descientify lakomèc 1`] = `"lakomėc"`;
+
+exports[`descientify lamanıje 1`] = `"lamańje"`;
+
+exports[`descientify lanèc 1`] = `"lanėc"`;
+
+exports[`descientify laùr 1`] = `"lavr"`;
+
+exports[`descientify laùreat 1`] = `"lavreat"`;
+
+exports[`descientify ledovèc 1`] = `"ledovėc"`;
+
+exports[`descientify lepetanıje 1`] = `"lepetańje"`;
+
+exports[`descientify letòk 1`] = `"letȯk"`;
+
+exports[`descientify lganıje 1`] = `"lgańje"`;
+
+exports[`descientify liceměrıje 1`] = `"liceměŕje"`;
+
+exports[`descientify limfatičny vųzèl 1`] = `"limfatičny vųzėl"`;
+
+exports[`descientify lipènj 1`] = `"lipėnj"`;
+
+exports[`descientify listòk 1`] = `"listȯk"`;
+
+exports[`descientify listıje 1`] = `"listje"`;
+
+exports[`descientify lisıji 1`] = `"liśji"`;
+
+exports[`descientify litòvsky 1`] = `"litȯvsky"`;
+
+exports[`descientify lizanıje 1`] = `"lizańje"`;
+
+exports[`descientify ljubimèc 1`] = `"ljubimėc"`;
+
+exports[`descientify ljubòv 1`] = `"ljubȯv"`;
+
+exports[`descientify ljudojěd 1`] = `"ljudojed"`;
+
+exports[`descientify ljudojědsky 1`] = `"ljudojedsky"`;
+
+exports[`descientify ljudojědstvo 1`] = `"ljudojedstvo"`;
+
+exports[`descientify ljudožerèc 1`] = `"ljudožerėc"`;
+
+exports[`descientify lomjenıje 1`] = `"lomjeńje"`;
+
+exports[`descientify lovjenıje 1`] = `"lovjeńje"`;
+
+exports[`descientify lovèc 1`] = `"lovėc"`;
+
+exports[`descientify låkòť 1`] = `"låkȯť"`;
+
+exports[`descientify lègke pěnęzy 1`] = `"lėgke pěnęzy"`;
+
+exports[`descientify lègko 1`] = `"lėgko"`;
+
+exports[`descientify lègkomysljny 1`] = `"lėgkomysljny"`;
+
+exports[`descientify lègkosť 1`] = `"lėgkosť"`;
+
+exports[`descientify lègkověrny 1`] = `"lėgkověrny"`;
+
+exports[`descientify lègky 1`] = `"lėgky"`;
+
+exports[`descientify lègše 1`] = `"lėgše"`;
+
+exports[`descientify lèn 1`] = `"lėn"`;
+
+exports[`descientify lènišče 1`] = `"lėnišče"`;
+
+exports[`descientify lèskati 1`] = `"lėskati"`;
+
+exports[`descientify lèsknųti 1`] = `"lėsknųti"`;
+
+exports[`descientify lèv 1`] = `"lėv"`;
+
+exports[`descientify lèvıji 1`] = `"lėvji"`;
+
+exports[`descientify lòb 1`] = `"lȯb"`;
+
+exports[`descientify lòž 1`] = `"lȯž"`;
+
+exports[`descientify lòžica 1`] = `"lȯžica"`;
+
+exports[`descientify lòžka 1`] = `"lȯžka"`;
+
+exports[`descientify lòžnosť 1`] = `"lȯžnosť"`;
+
+exports[`descientify lòžny 1`] = `"lȯžny"`;
+
+exports[`descientify lěnivèc 1`] = `"lěnivėc"`;
+
+exports[`descientify lěpiḓlo 1`] = `"lěpilo"`;
+
+exports[`descientify lěsòk 1`] = `"lěsȯk"`;
+
+exports[`descientify lětanıje 1`] = `"lětańje"`;
+
+exports[`descientify lětaḓlo 1`] = `"lětalo"`;
+
+exports[`descientify lětnji sŀncevråt 1`] = `"lětnji sȯlncevråt"`;
+
+exports[`descientify lětopisèc 1`] = `"lětopisėc"`;
+
+exports[`descientify lěčenıje 1`] = `"lěčeńje"`;
+
+exports[`descientify malokṙvıje 1`] = `"malokrvje"`;
+
+exports[`descientify malomŀvny 1`] = `"malomȯlvny"`;
+
+exports[`descientify marèc 1`] = `"marėc"`;
+
+exports[`descientify masturbovanıje 1`] = `"masturbovańje"`;
+
+exports[`descientify materska ljubòv 1`] = `"materska ljubȯv"`;
+
+exports[`descientify maziḓlo 1`] = `"mazilo"`;
+
+exports[`descientify maùzolej 1`] = `"mavzolej"`;
+
+exports[`descientify mašinopisèc 1`] = `"mašinopisėc"`;
+
+exports[`descientify mašinostrojenıje 1`] = `"mašinostrojeńje"`;
+
+exports[`descientify medvědıje objętıje 1`] = `"medvěďje objętje"`;
+
+exports[`descientify medvědıji 1`] = `"medvěďji"`;
+
+exports[`descientify metenıje 1`] = `"meteńje"`;
+
+exports[`descientify međugorıje 1`] = `"međugoŕje"`;
+
+exports[`descientify međumetıje 1`] = `"međumetje"`;
+
+exports[`descientify međurěčıje 1`] = `"međurěčje"`;
+
+exports[`descientify međuvlastıje 1`] = `"međuvlastje"`;
+
+exports[`descientify međuvrėmenno 1`] = `"međuvrěmenno"`;
+
+exports[`descientify međuvrėmę 1`] = `"međuvrěmę"`;
+
+exports[`descientify miganıje 1`] = `"migańje"`;
+
+exports[`descientify mikrovŀnova peć 1`] = `"mikrovȯlnova peć"`;
+
+exports[`descientify milosŕdıje 1`] = `"milosŕďje"`;
+
+exports[`descientify mimohodòm 1`] = `"mimohodȯm"`;
+
+exports[`descientify mlådenèc 1`] = `"mlådenėc"`;
+
+exports[`descientify mlådèc 1`] = `"mlådėc"`;
+
+exports[`descientify mlåtòk 1`] = `"mlåtȯk"`;
+
+exports[`descientify mlåćenıje 1`] = `"mlåćeńje"`;
+
+exports[`descientify mlėkaŕ 1`] = `"mlěkaŕ"`;
+
+exports[`descientify mlėko 1`] = `"mlěko"`;
+
+exports[`descientify mlėti 1`] = `"mlěti"`;
+
+exports[`descientify mlėzivo 1`] = `"mlězivo"`;
+
+exports[`descientify mlėčaj 1`] = `"mlěčaj"`;
+
+exports[`descientify mlėčny 1`] = `"mlěčny"`;
+
+exports[`descientify mnogos’ložny 1`] = `"mnogosložny"`;
+
+exports[`descientify mnogovųgòľnik 1`] = `"mnogovųgȯľnik"`;
+
+exports[`descientify množstvèno čislo 1`] = `"množstvėno čislo"`;
+
+exports[`descientify mněnıje 1`] = `"mněńje"`;
+
+exports[`descientify montovanıje 1`] = `"montovańje"`;
+
+exports[`descientify moskòvsky 1`] = `"moskȯvsky"`;
+
+exports[`descientify motoviḓlo 1`] = `"motovilo"`;
+
+exports[`descientify motòk 1`] = `"motȯk"`;
+
+exports[`descientify mozòčna kosť 1`] = `"mozȯčna kosť"`;
+
+exports[`descientify moḓlitevnik 1`] = `"molitevnik"`;
+
+exports[`descientify moḓliti sę 1`] = `"moliti sę"`;
+
+exports[`descientify moḓlitva 1`] = `"molitva"`;
+
+exports[`descientify mråvojěd 1`] = `"mråvojed"`;
+
+exports[`descientify mråvıja kopa 1`] = `"mråvja kopa"`;
+
+exports[`descientify mråvıji 1`] = `"mråvji"`;
+
+exports[`descientify mråzosušenıje 1`] = `"mråzosušeńje"`;
+
+exports[`descientify mrėža 1`] = `"mrěža"`;
+
+exports[`descientify mukanıje 1`] = `"mukańje"`;
+
+exports[`descientify mučanıje 1`] = `"mučańje"`;
+
+exports[`descientify mysljenıje 1`] = `"mysljeńje"`;
+
+exports[`descientify myḓliti 1`] = `"myliti"`;
+
+exports[`descientify myḓlo 1`] = `"mylo"`;
+
+exports[`descientify myḓľnica 1`] = `"myľnica"`;
+
+exports[`descientify mèdliti 1`] = `"mėdliti"`;
+
+exports[`descientify mèdlo 1`] = `"mėdlo"`;
+
+exports[`descientify mèdly 1`] = `"mėdly"`;
+
+exports[`descientify mènj 1`] = `"mėnj"`;
+
+exports[`descientify mènje 1`] = `"mėnje"`;
+
+exports[`descientify mènši 1`] = `"mėnši"`;
+
+exports[`descientify mènšinstvo 1`] = `"mėnšinstvo"`;
+
+exports[`descientify mèčta 1`] = `"mėčta"`;
+
+exports[`descientify mèčtatelj 1`] = `"mėčtatelj"`;
+
+exports[`descientify mèčtateljny 1`] = `"mėčtateljny"`;
+
+exports[`descientify mèčtati 1`] = `"mėčtati"`;
+
+exports[`descientify mòh 1`] = `"mȯh"`;
+
+exports[`descientify męsojěd 1`] = `"męsojed"`;
+
+exports[`descientify męsojědny 1`] = `"męsojedny"`;
+
+exports[`descientify męsožerèc 1`] = `"męsožerėc"`;
+
+exports[`descientify měhuròk 1`] = `"měhurȯk"`;
+
+exports[`descientify měriḓlo 1`] = `"měrilo"`;
+
+exports[`descientify měrjenıje 1`] = `"měrjeńje"`;
+
+exports[`descientify město rođenıja 1`] = `"město rođeńja"`;
+
+exports[`descientify městopoloženıje 1`] = `"městopoložeńje"`;
+
+exports[`descientify městovjenıje 1`] = `"městovjeńje"`;
+
+exports[`descientify měšanèc 1`] = `"měšanėc"`;
+
+exports[`descientify měšanıje 1`] = `"měšańje"`;
+
+exports[`descientify měšèk 1`] = `"měšėk"`;
+
+exports[`descientify mŀknųti 1`] = `"mȯlknųti"`;
+
+exports[`descientify mŀnja 1`] = `"mȯlnja"`;
+
+exports[`descientify mŀva 1`] = `"mȯlva"`;
+
+exports[`descientify mŀviti 1`] = `"mȯlviti"`;
+
+exports[`descientify mŀčalivy 1`] = `"mȯlčalivy"`;
+
+exports[`descientify mŀčanıje 1`] = `"mȯlčańje"`;
+
+exports[`descientify mŀčati 1`] = `"mȯlčati"`;
+
+exports[`descientify mŀčno 1`] = `"mȯlčno"`;
+
+exports[`descientify mŀčny 1`] = `"mȯlčny"`;
+
+exports[`descientify mŕtvèc 1`] = `"mŕtvėc"`;
+
+exports[`descientify mŕzavèc 1`] = `"mŕzavėc"`;
+
+exports[`descientify mŕšejěd 1`] = `"mŕšejed"`;
+
+exports[`descientify mųdrèc 1`] = `"mųdrėc"`;
+
+exports[`descientify mųčenıje 1`] = `"mųčeńje"`;
+
+exports[`descientify mḓlavy 1`] = `"mlavy"`;
+
+exports[`descientify mḓlo 1`] = `"mlo"`;
+
+exports[`descientify mḓlosť 1`] = `"mlosť"`;
+
+exports[`descientify mḓly 1`] = `"mly"`;
+
+exports[`descientify mṙdati 1`] = `"mrdati"`;
+
+exports[`descientify mṙdnųti 1`] = `"mrdnųti"`;
+
+exports[`descientify mṙkva 1`] = `"mrkva"`;
+
+exports[`descientify mṙmjati 1`] = `"mrmjati"`;
+
+exports[`descientify mṙznųti 1`] = `"mrznųti"`;
+
+exports[`descientify mṙščiti 1`] = `"mrščiti"`;
+
+exports[`descientify mṙščiti brvi 1`] = `"mrščiti brvi"`;
+
+exports[`descientify mṙščiti sę 1`] = `"mrščiti sę"`;
+
+exports[`descientify na dŀgo 1`] = `"na dȯlgo"`;
+
+exports[`descientify na glåvų naseḓljenıja 1`] = `"na glåvų naseljeńja"`;
+
+exports[`descientify na prėkor 1`] = `"na prěkor"`;
+
+exports[`descientify na vśaky s’lučaj 1`] = `"na vśaky slučaj"`;
+
+exports[`descientify na ščęstıje 1`] = `"na ščęstje"`;
+
+exports[`descientify nabrėžna 1`] = `"nabrěžna"`;
+
+exports[`descientify nadråžıje 1`] = `"nadråžje"`;
+
+exports[`descientify nadòhnenıje 1`] = `"nadȯhneńje"`;
+
+exports[`descientify nadòhnųti 1`] = `"nadȯhnųti"`;
+
+exports[`descientify nagromađenıje 1`] = `"nagromađeńje"`;
+
+exports[`descientify nagòtky 1`] = `"nagȯtky"`;
+
+exports[`descientify najkṙvavši 1`] = `"najkrvavši"`;
+
+exports[`descientify najmènje 1`] = `"najmėnje"`;
+
+exports[`descientify najmènši 1`] = `"najmėnši"`;
+
+exports[`descientify najèm 1`] = `"najėm"`;
+
+exports[`descientify najědati sę 1`] = `"najedati sę"`;
+
+exports[`descientify najěsti sę 1`] = `"najesti sę"`;
+
+exports[`descientify najězd 1`] = `"najezd"`;
+
+exports[`descientify najězdnik 1`] = `"najezdnik"`;
+
+exports[`descientify naklonjenıje 1`] = `"naklonjeńje"`;
+
+exports[`descientify nakonèc 1`] = `"nakonėc"`;
+
+exports[`descientify nakovaḓljnja 1`] = `"nakovaljnja"`;
+
+exports[`descientify nakṙmiti 1`] = `"nakrmiti"`;
+
+exports[`descientify namyḓliti 1`] = `"namyliti"`;
+
+exports[`descientify namyḓljati 1`] = `"namyljati"`;
+
+exports[`descientify naočiḓla 1`] = `"naočila"`;
+
+exports[`descientify napadany od tŀpy 1`] = `"napadany od tȯlpy"`;
+
+exports[`descientify napitòk 1`] = `"napitȯk"`;
+
+exports[`descientify napomněnıje 1`] = `"napomněńje"`;
+
+exports[`descientify naposlědòk 1`] = `"naposlědȯk"`;
+
+exports[`descientify naprėd 1`] = `"naprěd"`;
+
+exports[`descientify naprėti 1`] = `"naprěti"`;
+
+exports[`descientify napręženıje 1`] = `"napręžeńje"`;
+
+exports[`descientify naprųženıje 1`] = `"naprųžeńje"`;
+
+exports[`descientify napŀniti 1`] = `"napȯlniti"`;
+
+exports[`descientify napŀniti perami 1`] = `"napȯlniti perami"`;
+
+exports[`descientify napŕstòk 1`] = `"napŕstȯk"`;
+
+exports[`descientify narodopisèc 1`] = `"narodopisėc"`;
+
+exports[`descientify narođenıje 1`] = `"narođeńje"`;
+
+exports[`descientify narušenıje 1`] = `"narušeńje"`;
+
+exports[`descientify narěkanıje 1`] = `"narěkańje"`;
+
+exports[`descientify narěčıje 1`] = `"narěčje"`;
+
+exports[`descientify narųčıje 1`] = `"narųčje"`;
+
+exports[`descientify naseḓliti 1`] = `"naseliti"`;
+
+exports[`descientify naseḓljati 1`] = `"naseljati"`;
+
+exports[`descientify naseḓljeny 1`] = `"naseljeny"`;
+
+exports[`descientify naseḓljenıje 1`] = `"naseljeńje"`;
+
+exports[`descientify nasilovanıje 1`] = `"nasilovańje"`;
+
+exports[`descientify nasilıje 1`] = `"nasiľje"`;
+
+exports[`descientify naslědovanıje 1`] = `"naslědovańje"`;
+
+exports[`descientify naslědòk 1`] = `"naslědȯk"`;
+
+exports[`descientify nastavjenıja 1`] = `"nastavjeńja"`;
+
+exports[`descientify nastavjenıje 1`] = `"nastavjeńje"`;
+
+exports[`descientify nastavòk 1`] = `"nastavȯk"`;
+
+exports[`descientify nastrojenıje 1`] = `"nastrojeńje"`;
+
+exports[`descientify nasyćenıje 1`] = `"nasyćeńje"`;
+
+exports[`descientify nas’klon 1`] = `"nasklon"`;
+
+exports[`descientify natronjenıje 1`] = `"natronjeńje"`;
+
+exports[`descientify natrèti 1`] = `"natrėti"`;
+
+exports[`descientify natvṙđenıje 1`] = `"natvrđeńje"`;
+
+exports[`descientify natŀkati sę 1`] = `"natȯlkati sę"`;
+
+exports[`descientify natŀkti sę 1`] = `"natȯlkti sę"`;
+
+exports[`descientify navlėkati 1`] = `"navlěkati"`;
+
+exports[`descientify navlėkti 1`] = `"navlěkti"`;
+
+exports[`descientify navodnjenıje 1`] = `"navodnjeńje"`;
+
+exports[`descientify načętòk 1`] = `"načętȯk"`;
+
+exports[`descientify načętıje 1`] = `"načętje"`;
+
+exports[`descientify ne imaje značenıja 1`] = `"ne imaje značeńja"`;
+
+exports[`descientify ne sòglasiti sę, ne sųglasiti sę 1`] = `"ne sȯglasiti sę, ne sųglasiti sę"`;
+
+exports[`descientify ne sòglašati sę, ne sųglašati sę 1`] = `"ne sȯglašati sę, ne sųglašati sę"`;
+
+exports[`descientify ne trėba 1`] = `"ne trěba"`;
+
+exports[`descientify neandertalèc 1`] = `"neandertalėc"`;
+
+exports[`descientify nebytıje 1`] = `"nebytje"`;
+
+exports[`descientify nedomŀvka 1`] = `"nedomȯlvka"`;
+
+exports[`descientify nedonosòk 1`] = `"nedonosȯk"`;
+
+exports[`descientify nedoråzuměnıje 1`] = `"nedoråzuměńje"`;
+
+exports[`descientify nedostatòk 1`] = `"nedostatȯk"`;
+
+exports[`descientify nedostatòčno 1`] = `"nedostatȯčno"`;
+
+exports[`descientify nedostatòčnosť sŕdca 1`] = `"nedostatȯčnosť sŕdca"`;
+
+exports[`descientify nedoumıje 1`] = `"nedoumje"`;
+
+exports[`descientify negodovanıje 1`] = `"negodovańje"`;
+
+exports[`descientify nekrasna katòčka 1`] = `"nekrasna katȯčka"`;
+
+exports[`descientify nenaviděnıje 1`] = `"nenaviděńje"`;
+
+exports[`descientify neoprėděljeno 1`] = `"neoprěděljeno"`;
+
+exports[`descientify neoprėděljeny 1`] = `"neoprěděljeny"`;
+
+exports[`descientify neporędòk 1`] = `"neporędȯk"`;
+
+exports[`descientify neposrėdnje 1`] = `"neposrědnje"`;
+
+exports[`descientify neposrėdnji, neposrėdny 1`] = `"neposrědnji, neposrědny"`;
+
+exports[`descientify neposrėdnosť 1`] = `"neposrědnosť"`;
+
+exports[`descientify nepotrėbny 1`] = `"nepotrěbny"`;
+
+exports[`descientify nepraviḓľny 1`] = `"nepraviľny"`;
+
+exports[`descientify nepriględanıje 1`] = `"nepriględańje"`;
+
+exports[`descientify neprėdvidimy 1`] = `"neprědvidimy"`;
+
+exports[`descientify neprėdvidlivy 1`] = `"neprědvidlivy"`;
+
+exports[`descientify neprėhodny 1`] = `"neprěhodny"`;
+
+exports[`descientify neprėstanno 1`] = `"neprěstanno"`;
+
+exports[`descientify neprėstanny 1`] = `"neprěstanny"`;
+
+exports[`descientify nepŀnomožnica 1`] = `"nepȯlnomožnica"`;
+
+exports[`descientify nepŀnomožnik 1`] = `"nepȯlnomožnik"`;
+
+exports[`descientify nepŀnomožnosť 1`] = `"nepȯlnomožnosť"`;
+
+exports[`descientify nepŀnomožny 1`] = `"nepȯlnomožny"`;
+
+exports[`descientify nepŀnosposobnica 1`] = `"nepȯlnosposobnica"`;
+
+exports[`descientify nepŀnosposobnik 1`] = `"nepȯlnosposobnik"`;
+
+exports[`descientify nepŀnosposobnosť 1`] = `"nepȯlnosposobnosť"`;
+
+exports[`descientify nepŀnosposobny 1`] = `"nepȯlnosposobny"`;
+
+exports[`descientify nepŀny 1`] = `"nepȯlny"`;
+
+exports[`descientify neråzuměnıje 1`] = `"neråzuměńje"`;
+
+exports[`descientify nesòglåsıje, nesųglåsıje 1`] = `"nesȯglåśje, nesųglåśje"`;
+
+exports[`descientify nesòvŕšeny 1`] = `"nesȯvŕšeny"`;
+
+exports[`descientify nesòvŕšeny vid 1`] = `"nesȯvŕšeny vid"`;
+
+exports[`descientify nes’goda 1`] = `"nesgoda"`;
+
+exports[`descientify nes’mysľny 1`] = `"nesmysľny"`;
+
+exports[`descientify nes’nosny 1`] = `"nesnosny"`;
+
+exports[`descientify nes’rųčny 1`] = `"nesrųčny"`;
+
+exports[`descientify nes’vęzany 1`] = `"nesvęzany"`;
+
+exports[`descientify nes’vědomo 1`] = `"nesvědomo"`;
+
+exports[`descientify nes’vědomosť 1`] = `"nesvědomosť"`;
+
+exports[`descientify nes’vědomy 1`] = `"nesvědomy"`;
+
+exports[`descientify nes’čisljeny 1`] = `"nesčisljeny"`;
+
+exports[`descientify netrėzvy 1`] = `"netrězvy"`;
+
+exports[`descientify netŕpjenıje 1`] = `"netŕpjeńje"`;
+
+exports[`descientify neumoḓlimy 1`] = `"neumolimy"`;
+
+exports[`descientify neuměnıje 1`] = `"neuměńje"`;
+
+exports[`descientify nevěrıje 1`] = `"nevěŕje"`;
+
+exports[`descientify nev’dęčny 1`] = `"nevdęčny"`;
+
+exports[`descientify neznanıje 1`] = `"neznańje"`;
+
+exports[`descientify neùrolog 1`] = `"nevrolog"`;
+
+exports[`descientify neùrologija 1`] = `"nevrologija"`;
+
+exports[`descientify neùrologičny 1`] = `"nevrologičny"`;
+
+exports[`descientify neùromorfny 1`] = `"nevromorfny"`;
+
+exports[`descientify neùtralizacija 1`] = `"nevtralizacija"`;
+
+exports[`descientify neùtralizovati 1`] = `"nevtralizovati"`;
+
+exports[`descientify neùtraľnosť 1`] = `"nevtraľnosť"`;
+
+exports[`descientify neùtraľny 1`] = `"nevtraľny"`;
+
+exports[`descientify neùtron 1`] = `"nevtron"`;
+
+exports[`descientify neščęstny s’lučaj 1`] = `"neščęstny slučaj"`;
+
+exports[`descientify neščęstıje 1`] = `"neščęstje"`;
+
+exports[`descientify neženjenèc 1`] = `"neženjenėc"`;
+
+exports[`descientify nikògda, nikògdy 1`] = `"nikȯgda, nikȯgdy"`;
+
+exports[`descientify nizanıje 1`] = `"nizańje"`;
+
+exports[`descientify niščenèc 1`] = `"niščenėc"`;
+
+exports[`descientify niščenıje 1`] = `"niščeńje"`;
+
+exports[`descientify niščivo kritikovanıje 1`] = `"niščivo kritikovańje"`;
+
+exports[`descientify nogòť 1`] = `"nogȯť"`;
+
+exports[`descientify nosiḓlka 1`] = `"nosilka"`;
+
+exports[`descientify nosòk 1`] = `"nosȯk"`;
+
+exports[`descientify novogodišnje drėvo 1`] = `"novogodišnje drěvo"`;
+
+exports[`descientify novoprišelèc 1`] = `"novoprišelėc"`;
+
+exports[`descientify novorođenèc 1`] = `"novorođenėc"`;
+
+exports[`descientify nošenıje 1`] = `"nošeńje"`;
+
+exports[`descientify nrėst 1`] = `"nrěst"`;
+
+exports[`descientify nrėstilišče 1`] = `"nrěstilišče"`;
+
+exports[`descientify nrėstiti sę 1`] = `"nrěstiti sę"`;
+
+exports[`descientify nyrjanıje 1`] = `"nyrjańje"`;
+
+exports[`descientify nyrèc 1`] = `"nyrėc"`;
+
+exports[`descientify někògda, někògdy 1`] = `"někȯgda, někȯgdy"`;
+
+exports[`descientify němèčsky 1`] = `"němėčsky"`;
+
+exports[`descientify obdobıje 1`] = `"obdobje"`;
+
+exports[`descientify obdrèti 1`] = `"obdrėti"`;
+
+exports[`descientify obezčešćenıje 1`] = `"obezčešćeńje"`;
+
+exports[`descientify obilıje 1`] = `"obiľje"`;
+
+exports[`descientify objasnjenıje 1`] = `"objasnjeńje"`;
+
+exports[`descientify objavjanıje 1`] = `"objavjańje"`;
+
+exports[`descientify objedinjenıje 1`] = `"objedinjeńje"`;
+
+exports[`descientify objętıje 1`] = `"objętje"`;
+
+exports[`descientify objědati sę 1`] = `"objedati sę"`;
+
+exports[`descientify objěhati 1`] = `"objehati"`;
+
+exports[`descientify objěsti sę 1`] = `"objesti sę"`;
+
+exports[`descientify objězd 1`] = `"objezd"`;
+
+exports[`descientify objězditi 1`] = `"objezditi"`;
+
+exports[`descientify objěžđati 1`] = `"obježđati"`;
+
+exports[`descientify oblačèk 1`] = `"oblačėk"`;
+
+exports[`descientify obličıje 1`] = `"obličje"`;
+
+exports[`descientify oblåčenıje 1`] = `"oblåčeńje"`;
+
+exports[`descientify oblègčati 1`] = `"oblėgčati"`;
+
+exports[`descientify oblègčenıje 1`] = `"oblėgčeńje"`;
+
+exports[`descientify oblègčiti 1`] = `"oblėgčiti"`;
+
+exports[`descientify oblėkati 1`] = `"oblěkati"`;
+
+exports[`descientify oblėkti 1`] = `"oblěkti"`;
+
+exports[`descientify oblėčeny 1`] = `"oblěčeny"`;
+
+exports[`descientify oblėčenıje 1`] = `"oblěčeńje"`;
+
+exports[`descientify obmeđenıje 1`] = `"obmeđeńje"`;
+
+exports[`descientify obmysljenıje 1`] = `"obmysljeńje"`;
+
+exports[`descientify obniženıje 1`] = `"obnižeńje"`;
+
+exports[`descientify obnovjenıje 1`] = `"obnovjeńje"`;
+
+exports[`descientify obobćenıje 1`] = `"obobćeńje"`;
+
+exports[`descientify obosobjenıje 1`] = `"obosobjeńje"`;
+
+exports[`descientify obožanıje 1`] = `"obožańje"`;
+
+exports[`descientify oboživanıje 1`] = `"oboživańje"`;
+
+exports[`descientify obrazovanıje 1`] = `"obrazovańje"`;
+
+exports[`descientify obrazèc 1`] = `"obrazėc"`;
+
+exports[`descientify obrazòk 1`] = `"obrazȯk"`;
+
+exports[`descientify obraćanıje 1`] = `"obraćańje"`;
+
+exports[`descientify obryvòk 1`] = `"obryvȯk"`;
+
+exports[`descientify obråćenıje 1`] = `"obråćeńje"`;
+
+exports[`descientify obrėmeniti 1`] = `"obrěmeniti"`;
+
+exports[`descientify obrėmenjati 1`] = `"obrěmenjati"`;
+
+exports[`descientify obrězanıje 1`] = `"obrězańje"`;
+
+exports[`descientify obslědovanıje 1`] = `"obslědovańje"`;
+
+exports[`descientify obsrėdina 1`] = `"obsrědina"`;
+
+exports[`descientify obsòhnųti 1`] = `"obsȯhnųti"`;
+
+exports[`descientify obtrèti 1`] = `"obtrėti"`;
+
+exports[`descientify obtrèti sę 1`] = `"obtrėti sę"`;
+
+exports[`descientify obučenıje 1`] = `"obučeńje"`;
+
+exports[`descientify obvinjenıje 1`] = `"obvinjeńje"`;
+
+exports[`descientify obvęzòk 1`] = `"obvęzȯk"`;
+
+exports[`descientify obòjdti 1`] = `"obȯjdti"`;
+
+exports[`descientify obòjdti sę 1`] = `"obȯjdti sę"`;
+
+exports[`descientify obòjdti sę bez 1`] = `"obȯjdti sę bez"`;
+
+exports[`descientify obòrvanèc 1`] = `"obȯrvanėc"`;
+
+exports[`descientify obòzrěti sę 1`] = `"obȯzrěti sę"`;
+
+exports[`descientify obćežitıje 1`] = `"obćežitje"`;
+
+exports[`descientify občudovanıje 1`] = `"občudovańje"`;
+
+exports[`descientify oběćanıje 1`] = `"oběćańje"`;
+
+exports[`descientify obšitıje 1`] = `"obšitje"`;
+
+exports[`descientify ocèt 1`] = `"ocėt"`;
+
+exports[`descientify ocěnjenıje 1`] = `"ocěnjeńje"`;
+
+exports[`descientify oddaljenıje 1`] = `"oddaljeńje"`;
+
+exports[`descientify oddanıje 1`] = `"oddańje"`;
+
+exports[`descientify oddrèti 1`] = `"oddrėti"`;
+
+exports[`descientify oddòhnųti 1`] = `"oddȯhnųti"`;
+
+exports[`descientify odděljenıje 1`] = `"odděljeńje"`;
+
+exports[`descientify odhođenıje 1`] = `"odhođeńje"`;
+
+exports[`descientify odimanıje 1`] = `"odimańje"`;
+
+exports[`descientify odjěhati 1`] = `"odjehati"`;
+
+exports[`descientify odjězd 1`] = `"odjezd"`;
+
+exports[`descientify odjěžđati 1`] = `"odježđati"`;
+
+exports[`descientify odkazanıje 1`] = `"odkazańje"`;
+
+exports[`descientify odklonjenıje 1`] = `"odklonjeńje"`;
+
+exports[`descientify odkrytıje 1`] = `"odkrytje"`;
+
+exports[`descientify odkryvanıje 1`] = `"odkryvańje"`;
+
+exports[`descientify odkògda, odkògdy 1`] = `"odkȯgda, odkȯgdy"`;
+
+exports[`descientify odlomòk 1`] = `"odlomȯk"`;
+
+exports[`descientify odmetenıje 1`] = `"odmeteńje"`;
+
+exports[`descientify odnošenıje 1`] = `"odnošeńje"`;
+
+exports[`descientify odobrjenıje 1`] = `"odobrjeńje"`;
+
+exports[`descientify odomašnjenıje 1`] = `"odomašnjeńje"`;
+
+exports[`descientify odpečętòk 1`] = `"odpečętȯk"`;
+
+exports[`descientify odpočinòk 1`] = `"odpočinȯk"`;
+
+exports[`descientify odpravjenıje 1`] = `"odpravjeńje"`;
+
+exports[`descientify odprėti sę 1`] = `"odprěti sę"`;
+
+exports[`descientify odpušćenıje 1`] = `"odpušćeńje"`;
+
+exports[`descientify odrěz, odrězòk 1`] = `"odrěz, odrězȯk"`;
+
+exports[`descientify odrěčenıje 1`] = `"odrěčeńje"`;
+
+exports[`descientify odstųpanıje 1`] = `"odstųpańje"`;
+
+exports[`descientify odstųpjenıje 1`] = `"odstųpjeńje"`;
+
+exports[`descientify odsòhnųti 1`] = `"odsȯhnųti"`;
+
+exports[`descientify odtrèti 1`] = `"odtrėti"`;
+
+exports[`descientify odtěnòk 1`] = `"odtěnȯk"`;
+
+exports[`descientify odvlėkati 1`] = `"odvlěkati"`;
+
+exports[`descientify odvlėkti 1`] = `"odvlěkti"`;
+
+exports[`descientify odvlėčeny 1`] = `"odvlěčeny"`;
+
+exports[`descientify odvlėčenıje 1`] = `"odvlěčeńje"`;
+
+exports[`descientify odvoženıje 1`] = `"odvožeńje"`;
+
+exports[`descientify odvråćenıje 1`] = `"odvråćeńje"`;
+
+exports[`descientify odvŕganıje 1`] = `"odvŕgańje"`;
+
+exports[`descientify odščepòk 1`] = `"odščepȯk"`;
+
+exports[`descientify ogaròk 1`] = `"ogarȯk"`;
+
+exports[`descientify oglåšenıje 1`] = `"oglåšeńje"`;
+
+exports[`descientify ogovarjanıje 1`] = `"ogovarjańje"`;
+
+exports[`descientify ograničenıje 1`] = `"ograničeńje"`;
+
+exports[`descientify ogroženıje 1`] = `"ogrožeńje"`;
+
+exports[`descientify ogråđenıje 1`] = `"ogråđeńje"`;
+
+exports[`descientify oguròk 1`] = `"ogurȯk"`;
+
+exports[`descientify ogònj 1`] = `"ogȯnj"`;
+
+exports[`descientify ogṙḓlica 1`] = `"ogrlica"`;
+
+exports[`descientify ohlåđenıje 1`] = `"ohlåđeńje"`;
+
+exports[`descientify okrèstiti 1`] = `"okrėstiti"`;
+
+exports[`descientify okònnica 1`] = `"okȯnnica"`;
+
+exports[`descientify okònny 1`] = `"okȯnny"`;
+
+exports[`descientify omŕženıje 1`] = `"omŕžeńje"`;
+
+exports[`descientify omḓlěti 1`] = `"omlěti"`;
+
+exports[`descientify omḓlěvati 1`] = `"omlěvati"`;
+
+exports[`descientify onògda, onògdy 1`] = `"onȯgda, onȯgdy"`;
+
+exports[`descientify onògdašnji, onògdašny 1`] = `"onȯgdašnji, onȯgdašny"`;
+
+exports[`descientify opakovanıje 1`] = `"opakovańje"`;
+
+exports[`descientify opalòk 1`] = `"opalȯk"`;
+
+exports[`descientify opasno prėdprijętıje 1`] = `"opasno prědprijętje"`;
+
+exports[`descientify operjenıje 1`] = `"operjeńje"`;
+
+exports[`descientify oplakyvanıje 1`] = `"oplakyvańje"`;
+
+exports[`descientify oplođenıje 1`] = `"oplođeńje"`;
+
+exports[`descientify oplėti 1`] = `"oplěti"`;
+
+exports[`descientify opozdnjenıje 1`] = `"opozdnjeńje"`;
+
+exports[`descientify opravdanıje 1`] = `"opravdańje"`;
+
+exports[`descientify oprošćenıje 1`] = `"oprošćeńje"`;
+
+exports[`descientify oprėděliti 1`] = `"oprěděliti"`;
+
+exports[`descientify oprėděljati 1`] = `"oprěděljati"`;
+
+exports[`descientify oprėděljeno 1`] = `"oprěděljeno"`;
+
+exports[`descientify oprėděljeny 1`] = `"oprěděljeny"`;
+
+exports[`descientify oprėti sę 1`] = `"oprěti sę"`;
+
+exports[`descientify opustošenıje 1`] = `"opustošeńje"`;
+
+exports[`descientify opušćenıje 1`] = `"opušćeńje"`;
+
+exports[`descientify opyljenıje 1`] = `"opyljeńje"`;
+
+exports[`descientify oranıje 1`] = `"orańje"`;
+
+exports[`descientify orlıji 1`] = `"orľji"`;
+
+exports[`descientify orèl 1`] = `"orėl"`;
+
+exports[`descientify orųdovanıje 1`] = `"orųdovańje"`;
+
+exports[`descientify orųdıje 1`] = `"orųďje"`;
+
+exports[`descientify orųženıje 1`] = `"orųžeńje"`;
+
+exports[`descientify orųžıje 1`] = `"orųžje"`;
+
+exports[`descientify orųžıjenosèc 1`] = `"orųžjenosėc"`;
+
+exports[`descientify osadòk 1`] = `"osadȯk"`;
+
+exports[`descientify oseḓlenıje 1`] = `"oseleńje"`;
+
+exports[`descientify oseḓliti sę 1`] = `"oseliti sę"`;
+
+exports[`descientify oskvŕnjenıje 1`] = `"oskvŕnjeńje"`;
+
+exports[`descientify oslabjenıje 1`] = `"oslabjeńje"`;
+
+exports[`descientify osložnjenıje 1`] = `"osložnjeńje"`;
+
+exports[`descientify oslěpjenıje 1`] = `"oslěpjeńje"`;
+
+exports[`descientify osmsòt, osmsto 1`] = `"osmsȯt, osmsto"`;
+
+exports[`descientify osnovanıje 1`] = `"osnovańje"`;
+
+exports[`descientify osobna potrėba 1`] = `"osobna potrěba"`;
+
+exports[`descientify osobny aùtomobil 1`] = `"osobny avtomobil"`;
+
+exports[`descientify osrėdòk 1`] = `"osrědȯk"`;
+
+exports[`descientify ostatòk 1`] = `"ostatȯk"`;
+
+exports[`descientify ostavjenıje 1`] = `"ostavjeńje"`;
+
+exports[`descientify ostriženıje 1`] = `"ostrižeńje"`;
+
+exports[`descientify ostroumıje 1`] = `"ostroumje"`;
+
+exports[`descientify ostrėgati 1`] = `"ostrěgati"`;
+
+exports[`descientify ostrėgati sę 1`] = `"ostrěgati sę"`;
+
+exports[`descientify ostrėgti 1`] = `"ostrěgti"`;
+
+exports[`descientify ostrėženıje 1`] = `"ostrěžeńje"`;
+
+exports[`descientify ostrıje 1`] = `"ostŕje"`;
+
+exports[`descientify osvobođenıje 1`] = `"osvobođeńje"`;
+
+exports[`descientify osvětljenıje 1`] = `"osvětljeńje"`;
+
+exports[`descientify osvěćenıje 1`] = `"osvěćeńje"`;
+
+exports[`descientify osèl 1`] = `"osėl"`;
+
+exports[`descientify osòt 1`] = `"osȯt"`;
+
+exports[`descientify osòvrėmenniti 1`] = `"osȯvrěmenniti"`;
+
+exports[`descientify osòvrėmennjati 1`] = `"osȯvrěmennjati"`;
+
+exports[`descientify osòvrėmennjenıje 1`] = `"osȯvrěmennjeńje"`;
+
+exports[`descientify osųđenıje 1`] = `"osųđeńje"`;
+
+exports[`descientify os’loženiti 1`] = `"osloženiti"`;
+
+exports[`descientify os’loženjati 1`] = `"osloženjati"`;
+
+exports[`descientify os’mysljeno 1`] = `"osmysljeno"`;
+
+exports[`descientify os’mysljenosť 1`] = `"osmysljenosť"`;
+
+exports[`descientify os’mysljeny 1`] = `"osmysljeny"`;
+
+exports[`descientify os’parjati 1`] = `"osparjati"`;
+
+exports[`descientify os’poriti 1`] = `"osporiti"`;
+
+exports[`descientify os’vědamjati sę 1`] = `"osvědamjati sę"`;
+
+exports[`descientify os’vědomiti sę 1`] = `"osvědomiti sę"`;
+
+exports[`descientify otcevska ljubòv 1`] = `"otcevska ljubȯv"`;
+
+exports[`descientify otravjenıje 1`] = `"otravjeńje"`;
+
+exports[`descientify otrudnjenıje 1`] = `"otrudnjeńje"`;
+
+exports[`descientify otrėzviti 1`] = `"otrězviti"`;
+
+exports[`descientify otrėzvjati 1`] = `"otrězvjati"`;
+
+exports[`descientify otrėzvěti 1`] = `"otrězvěti"`;
+
+exports[`descientify otèc 1`] = `"otėc"`;
+
+exports[`descientify otèčstvo 1`] = `"otėčstvo"`;
+
+exports[`descientify otęženıje 1`] = `"otęžeńje"`;
+
+exports[`descientify ovèn 1`] = `"ovėn"`;
+
+exports[`descientify ovès 1`] = `"ovės"`;
+
+exports[`descientify ovògda, ovògdy 1`] = `"ovȯgda, ovȯgdy"`;
+
+exports[`descientify ovŀgnųti 1`] = `"ovȯlgnųti"`;
+
+exports[`descientify ov’plyvniti 1`] = `"ovplyvniti"`;
+
+exports[`descientify ov’plyvnjati 1`] = `"ovplyvnjati"`;
+
+exports[`descientify ozdravjenıje 1`] = `"ozdravjeńje"`;
+
+exports[`descientify ozlobjenıje 1`] = `"ozlobjeńje"`;
+
+exports[`descientify označenıje 1`] = `"označeńje"`;
+
+exports[`descientify očevidèc 1`] = `"očevidėc"`;
+
+exports[`descientify očišćenıje 1`] = `"očišćeńje"`;
+
+exports[`descientify očěkyvanıje 1`] = `"očěkyvańje"`;
+
+exports[`descientify ožrėbiti sę 1`] = `"ožrěbiti sę"`;
+
+exports[`descientify ožŀtěti 1`] = `"ožȯltěti"`;
+
+exports[`descientify palèc 1`] = `"palėc"`;
+
+exports[`descientify panel orųdıj 1`] = `"panel orųďj"`;
+
+exports[`descientify pavųčıja niť 1`] = `"pavųčja niť"`;
+
+exports[`descientify peprèc 1`] = `"peprėc"`;
+
+exports[`descientify persijèc 1`] = `"persijėc"`;
+
+exports[`descientify pikirovanıje 1`] = `"pikirovańje"`;
+
+exports[`descientify pisanıje 1`] = `"pisańje"`;
+
+exports[`descientify plavanıje 1`] = `"plavańje"`;
+
+exports[`descientify plemenèc 1`] = `"plemenėc"`;
+
+exports[`descientify pleskanıje 1`] = `"pleskańje"`;
+
+exports[`descientify plòť 1`] = `"plȯť"`;
+
+exports[`descientify plėti 1`] = `"plěti"`;
+
+exports[`descientify plėva 1`] = `"plěva"`;
+
+exports[`descientify plėvnja 1`] = `"plěvnja"`;
+
+exports[`descientify pneùmonija 1`] = `"pnevmonija"`;
+
+exports[`descientify po mojemu skromnomu mněnıju 1`] = `"po mojemu skromnomu mněńju"`;
+
+exports[`descientify po odnošenıju k 1`] = `"po odnošeńju k"`;
+
+exports[`descientify pobitıje 1`] = `"pobitje"`;
+
+exports[`descientify pobrėžny 1`] = `"pobrěžny"`;
+
+exports[`descientify pobuđenıje 1`] = `"pobuđeńje"`;
+
+exports[`descientify pobytıje 1`] = `"pobytje"`;
+
+exports[`descientify pocělunòk 1`] = `"pocělunȯk"`;
+
+exports[`descientify podanòk 1`] = `"podanȯk"`;
+
+exports[`descientify podanıje 1`] = `"podańje"`;
+
+exports[`descientify podaròk 1`] = `"podarȯk"`;
+
+exports[`descientify podbrådòk 1`] = `"podbrådȯk"`;
+
+exports[`descientify poddanıje 1`] = `"poddańje"`;
+
+exports[`descientify poddŕživanıje 1`] = `"poddŕživańje"`;
+
+exports[`descientify podlèc 1`] = `"podlėc"`;
+
+exports[`descientify podnebıje 1`] = `"podnebje"`;
+
+exports[`descientify podokònnik 1`] = `"podokȯnnik"`;
+
+exports[`descientify podpaljenıje 1`] = `"podpaljeńje"`;
+
+exports[`descientify podråstòk 1`] = `"podråstȯk"`;
+
+exports[`descientify podråzděljenıje 1`] = `"podråzděljeńje"`;
+
+exports[`descientify podslušivanıje 1`] = `"podslušivańje"`;
+
+exports[`descientify podstavka na myḓlo 1`] = `"podstavka na mylo"`;
+
+exports[`descientify podstrěkanıje 1`] = `"podstrěkańje"`;
+
+exports[`descientify pods’vědomo 1`] = `"podsvědomo"`;
+
+exports[`descientify pods’vědomosť 1`] = `"podsvědomosť"`;
+
+exports[`descientify pods’vědomy 1`] = `"podsvědomy"`;
+
+exports[`descientify pods’vědomıje 1`] = `"podsvědomje"`;
+
+exports[`descientify podtiskanıje 1`] = `"podtiskańje"`;
+
+exports[`descientify podtrimyvanıje 1`] = `"podtrimyvańje"`;
+
+exports[`descientify podvodno těčenıje 1`] = `"podvodno těčeńje"`;
+
+exports[`descientify podvŕganıje 1`] = `"podvŕgańje"`;
+
+exports[`descientify podzemıje 1`] = `"podzemje"`;
+
+exports[`descientify podòšva 1`] = `"podȯšva"`;
+
+exports[`descientify podŀg 1`] = `"podȯlg"`;
+
+exports[`descientify poglåvòk 1`] = `"poglåvȯk"`;
+
+exports[`descientify poględanıje vitrin 1`] = `"poględańje vitrin"`;
+
+exports[`descientify pogorıje 1`] = `"pogoŕje"`;
+
+exports[`descientify pogŀtnųti 1`] = `"pogȯltnųti"`;
+
+exports[`descientify pogŀtnųti sŀzy 1`] = `"pogȯltnųti sȯlzy"`;
+
+exports[`descientify pogṙdlivy 1`] = `"pogrdlivy"`;
+
+exports[`descientify pohmelıje 1`] = `"pohmeľje"`;
+
+exports[`descientify pohođenıje 1`] = `"pohođeńje"`;
+
+exports[`descientify pohyćanıje 1`] = `"pohyćańje"`;
+
+exports[`descientify pohyćenèc 1`] = `"pohyćenėc"`;
+
+exports[`descientify pohyćenıje 1`] = `"pohyćeńje"`;
+
+exports[`descientify pojavjenıje 1`] = `"pojavjeńje"`;
+
+exports[`descientify pojedinòk 1`] = `"pojedinȯk"`;
+
+exports[`descientify pojmanıje 1`] = `"pojmańje"`;
+
+exports[`descientify pojętıje 1`] = `"pojętje"`;
+
+exports[`descientify pojěhati 1`] = `"pojehati"`;
+
+exports[`descientify pojězd 1`] = `"pojezd"`;
+
+exports[`descientify pokajanıje 1`] = `"pokajańje"`;
+
+exports[`descientify pokoljenıje 1`] = `"pokoljeńje"`;
+
+exports[`descientify pokrytıje 1`] = `"pokrytje"`;
+
+exports[`descientify pokryvaḓlo 1`] = `"pokryvalo"`;
+
+exports[`descientify pokrèstiti 1`] = `"pokrėstiti"`;
+
+exports[`descientify pokròvnik 1`] = `"pokrȯvnik"`;
+
+exports[`descientify pokròvnosť 1`] = `"pokrȯvnosť"`;
+
+exports[`descientify pokròvny 1`] = `"pokrȯvny"`;
+
+exports[`descientify pokušenıje 1`] = `"pokušeńje"`;
+
+exports[`descientify pokušenıje na něčije žitıje 1`] = `"pokušeńje na něčije žitje"`;
+
+exports[`descientify pokṙčati ramenami 1`] = `"pokrčati ramenami"`;
+
+exports[`descientify pokṙčiti ramenami 1`] = `"pokrčiti ramenami"`;
+
+exports[`descientify poldènj 1`] = `"poldėnj"`;
+
+exports[`descientify poldòčerka 1`] = `"poldȯčerka"`;
+
+exports[`descientify položenıje 1`] = `"položeńje"`;
+
+exports[`descientify poludnıje 1`] = `"poludńje"`;
+
+exports[`descientify pomilovanıje 1`] = `"pomilovańje"`;
+
+exports[`descientify pomirjenıje 1`] = `"pomirjeńje"`;
+
+exports[`descientify pomṙdati 1`] = `"pomrdati"`;
+
+exports[`descientify ponedělòk 1`] = `"ponedělȯk"`;
+
+exports[`descientify poniženıje 1`] = `"ponižeńje"`;
+
+exports[`descientify poněkògda, poněkògdy 1`] = `"poněkȯgda, poněkȯgdy"`;
+
+exports[`descientify popoldenno spanıje 1`] = `"popoldenno spańje"`;
+
+exports[`descientify popoldènj 1`] = `"popoldėnj"`;
+
+exports[`descientify popoludnıje 1`] = `"popoludńje"`;
+
+exports[`descientify popravjenıje 1`] = `"popravjeńje"`;
+
+exports[`descientify poprėdnji, poprėdny 1`] = `"poprědnji, poprědny"`;
+
+exports[`descientify poprėk 1`] = `"poprěk"`;
+
+exports[`descientify poprėměnno 1`] = `"poprěměnno"`;
+
+exports[`descientify poprėčnik 1`] = `"poprěčnik"`;
+
+exports[`descientify poprėčny 1`] = `"poprěčny"`;
+
+exports[`descientify popŀno 1`] = `"popȯlno"`;
+
+exports[`descientify popŀnosť 1`] = `"popȯlnosť"`;
+
+exports[`descientify popŀny 1`] = `"popȯlny"`;
+
+exports[`descientify popŀzati 1`] = `"popȯlzati"`;
+
+exports[`descientify popŀzti 1`] = `"popȯlzti"`;
+
+exports[`descientify popŕsıje 1`] = `"popŕśje"`;
+
+exports[`descientify poranjenıje 1`] = `"poranjeńje"`;
+
+exports[`descientify porędòk 1`] = `"porędȯk"`;
+
+exports[`descientify porųčenèc 1`] = `"porųčenėc"`;
+
+exports[`descientify porųčenıje 1`] = `"porųčeńje"`;
+
+exports[`descientify poseḓljenıje 1`] = `"poseljeńje"`;
+
+exports[`descientify poslanèc 1`] = `"poslanėc"`;
+
+exports[`descientify poslanıje 1`] = `"poslańje"`;
+
+exports[`descientify poslětręšenıje 1`] = `"poslětręšeńje"`;
+
+exports[`descientify posrėbriti 1`] = `"posrěbriti"`;
+
+exports[`descientify posrėbrjati 1`] = `"posrěbrjati"`;
+
+exports[`descientify posrėbrjeny 1`] = `"posrěbrjeny"`;
+
+exports[`descientify posrėd 1`] = `"posrěd"`;
+
+exports[`descientify posrėdkovati 1`] = `"posrědkovati"`;
+
+exports[`descientify posrėdnik 1`] = `"posrědnik"`;
+
+exports[`descientify posrėdničstvo 1`] = `"posrědničstvo"`;
+
+exports[`descientify posrėdnje 1`] = `"posrědnje"`;
+
+exports[`descientify posrėdnji, posrėdny 1`] = `"posrědnji, posrědny"`;
+
+exports[`descientify posrėdstvom 1`] = `"posrědstvom"`;
+
+exports[`descientify postanovjenıje 1`] = `"postanovjeńje"`;
+
+exports[`descientify postaviti pytanıje 1`] = `"postaviti pytańje"`;
+
+exports[`descientify postavjenıje 1`] = `"postavjeńje"`;
+
+exports[`descientify postųpanıje 1`] = `"postųpańje"`;
+
+exports[`descientify posvęćenıje 1`] = `"posvęćeńje"`;
+
+exports[`descientify posòl 1`] = `"posȯl"`;
+
+exports[`descientify posòvětovati 1`] = `"posȯvětovati"`;
+
+exports[`descientify posědanıje 1`] = `"posědańje"`;
+
+exports[`descientify posěćenıje 1`] = `"posěćeńje"`;
+
+exports[`descientify pos’vědčati 1`] = `"posvědčati"`;
+
+exports[`descientify pos’vědčiti 1`] = `"posvědčiti"`;
+
+exports[`descientify potomòk 1`] = `"potomȯk"`;
+
+exports[`descientify potrėba 1`] = `"potrěba"`;
+
+exports[`descientify potrėbno 1`] = `"potrěbno"`;
+
+exports[`descientify potrėbny 1`] = `"potrěbny"`;
+
+exports[`descientify potrėbovati 1`] = `"potrěbovati"`;
+
+exports[`descientify potvŕđenıje 1`] = `"potvŕđeńje"`;
+
+exports[`descientify potěnıje 1`] = `"potěńje"`;
+
+exports[`descientify potṙvati 1`] = `"potrvati"`;
+
+exports[`descientify poučenıje 1`] = `"poučeńje"`;
+
+exports[`descientify považanıje 1`] = `"považańje"`;
+
+exports[`descientify povinèn 1`] = `"povinėn"`;
+
+exports[`descientify povlėkati za sobojų 1`] = `"povlěkati za sobojų"`;
+
+exports[`descientify povlėkti za sobojų 1`] = `"povlěkti za sobojų"`;
+
+exports[`descientify povråtna s’vęź 1`] = `"povråtna svęź"`;
+
+exports[`descientify povråtòk 1`] = `"povråtȯk"`;
+
+exports[`descientify povrėmenno 1`] = `"povrěmenno"`;
+
+exports[`descientify povyšenıje 1`] = `"povyšeńje"`;
+
+exports[`descientify povědka prėd spanıjem 1`] = `"povědka prěd spańjem"`;
+
+exports[`descientify pověrıje 1`] = `"pověŕje"`;
+
+exports[`descientify pov’stanèc 1`] = `"povstanėc"`;
+
+exports[`descientify pov’stanıje 1`] = `"povstańje"`;
+
+exports[`descientify pov’stati 1`] = `"povstati"`;
+
+exports[`descientify pov’stavati 1`] = `"povstavati"`;
+
+exports[`descientify pozadıje 1`] = `"pozaďje"`;
+
+exports[`descientify pozastavjenıje 1`] = `"pozastavjeńje"`;
+
+exports[`descientify poznanèc 1`] = `"poznanėc"`;
+
+exports[`descientify poznanıje 1`] = `"poznańje"`;
+
+exports[`descientify pozvanıje 1`] = `"pozvańje"`;
+
+exports[`descientify pozòv 1`] = `"pozȯv"`;
+
+exports[`descientify počutıje 1`] = `"počutje"`;
+
+exports[`descientify počętòk 1`] = `"počętȯk"`;
+
+exports[`descientify počętıje 1`] = `"počętje"`;
+
+exports[`descientify poškođenıje 1`] = `"poškođeńje"`;
+
+exports[`descientify požiranıje 1`] = `"požirańje"`;
+
+exports[`descientify poživjenıje 1`] = `"poživjeńje"`;
+
+exports[`descientify požędanıje 1`] = `"požędańje"`;
+
+exports[`descientify pracodavèc 1`] = `"pracodavėc"`;
+
+exports[`descientify pradědòk 1`] = `"pradědȯk"`;
+
+exports[`descientify praindoeùropejsky 1`] = `"praindoevropejsky"`;
+
+exports[`descientify praotèc 1`] = `"praotėc"`;
+
+exports[`descientify praviḓlo 1`] = `"pravilo"`;
+
+exports[`descientify praviḓľno 1`] = `"praviľno"`;
+
+exports[`descientify praviḓľnosť 1`] = `"praviľnosť"`;
+
+exports[`descientify praviḓľny 1`] = `"praviľny"`;
+
+exports[`descientify pravopisanıje 1`] = `"pravopisańje"`;
+
+exports[`descientify pravopisèc 1`] = `"pravopisėc"`;
+
+exports[`descientify pravosųdıje 1`] = `"pravosųďje"`;
+
+exports[`descientify pravovųgòľnik 1`] = `"pravovųgȯľnik"`;
+
+exports[`descientify prav’zor 1`] = `"pravzor"`;
+
+exports[`descientify pribrėžıje 1`] = `"pribrěžje"`;
+
+exports[`descientify pridatòk 1`] = `"pridatȯk"`;
+
+exports[`descientify pridělanıje 1`] = `"pridělańje"`;
+
+exports[`descientify priględanıje 1`] = `"priględańje"`;
+
+exports[`descientify prigotovjenıje 1`] = `"prigotovjeńje"`;
+
+exports[`descientify prijèm 1`] = `"prijėm"`;
+
+exports[`descientify prijętıje 1`] = `"prijętje"`;
+
+exports[`descientify prijěhati 1`] = `"prijehati"`;
+
+exports[`descientify prijěžđati 1`] = `"priježđati"`;
+
+exports[`descientify priloženıje 1`] = `"priložeńje"`;
+
+exports[`descientify primirıje 1`] = `"primiŕje"`;
+
+exports[`descientify primorıje 1`] = `"primoŕje"`;
+
+exports[`descientify priměnjenıje 1`] = `"priměnjeńje"`;
+
+exports[`descientify prinajmènje 1`] = `"prinajmėnje"`;
+
+exports[`descientify prislovòk 1`] = `"prislovȯk"`;
+
+exports[`descientify prislovıje 1`] = `"prislovje"`;
+
+exports[`descientify prisposobjenıja 1`] = `"prisposobjeńja"`;
+
+exports[`descientify prisposobjenıje 1`] = `"prisposobjeńje"`;
+
+exports[`descientify pristųpjenıje 1`] = `"pristųpjeńje"`;
+
+exports[`descientify prisųdòk 1`] = `"prisųdȯk"`;
+
+exports[`descientify pritisk kṙvi 1`] = `"pritisk krvi"`;
+
+exports[`descientify pritiskanıje 1`] = `"pritiskańje"`;
+
+exports[`descientify pritvorjenıje 1`] = `"pritvorjeńje"`;
+
+exports[`descientify pritęganıje 1`] = `"pritęgańje"`;
+
+exports[`descientify prividěnıje 1`] = `"prividěńje"`;
+
+exports[`descientify privitanıje 1`] = `"privitańje"`;
+
+exports[`descientify privlėkateljnosť 1`] = `"privlěkateljnosť"`;
+
+exports[`descientify privlėkateljny 1`] = `"privlěkateljny"`;
+
+exports[`descientify privlėkati 1`] = `"privlěkati"`;
+
+exports[`descientify privlėkti 1`] = `"privlěkti"`;
+
+exports[`descientify privŕženèc 1`] = `"privŕženėc"`;
+
+exports[`descientify prizemıje 1`] = `"prizemje"`;
+
+exports[`descientify priznanıje 1`] = `"priznańje"`;
+
+exports[`descientify prizvanıje 1`] = `"prizvańje"`;
+
+exports[`descientify pričęstıje 1`] = `"pričęstje"`;
+
+exports[`descientify probkovanıje 1`] = `"probkovańje"`;
+
+exports[`descientify probna jězda 1`] = `"probna jezda"`;
+
+exports[`descientify probovati s’nova 1`] = `"probovati snova"`;
+
+exports[`descientify probòk 1`] = `"probȯk"`;
+
+exports[`descientify proběganıje 1`] = `"proběgańje"`;
+
+exports[`descientify prodavèc 1`] = `"prodavėc"`;
+
+exports[`descientify prodrèti sę 1`] = `"prodrėti sę"`;
+
+exports[`descientify prodŀžati 1`] = `"prodȯlžati"`;
+
+exports[`descientify prodŀženıje 1`] = `"prodȯlžeńje"`;
+
+exports[`descientify prodŀžiti 1`] = `"prodȯlžiti"`;
+
+exports[`descientify proganjanıje 1`] = `"proganjańje"`;
+
+exports[`descientify proglåšenıje 1`] = `"proglåšeńje"`;
+
+exports[`descientify progŀtati 1`] = `"progȯltati"`;
+
+exports[`descientify progŀtnųti 1`] = `"progȯltnųti"`;
+
+exports[`descientify progŀtnųti sŀzy 1`] = `"progȯltnųti sȯlzy"`;
+
+exports[`descientify proigranèc 1`] = `"proigranėc"`;
+
+exports[`descientify proizhođenıje 1`] = `"proizhođeńje"`;
+
+exports[`descientify projavjenıje 1`] = `"projavjeńje"`;
+
+exports[`descientify projektovanıje 1`] = `"projektovańje"`;
+
+exports[`descientify projěhati 1`] = `"projehati"`;
+
+exports[`descientify projěžđati 1`] = `"proježđati"`;
+
+exports[`descientify proklętıje 1`] = `"proklętje"`;
+
+exports[`descientify pronevěrjenıje 1`] = `"pronevěrjeńje"`;
+
+exports[`descientify pronikanıje 1`] = `"pronikańje"`;
+
+exports[`descientify prostrėti 1`] = `"prostrěti"`;
+
+exports[`descientify prosvěćanıje 1`] = `"prosvěćańje"`;
+
+exports[`descientify protrèti 1`] = `"protrėti"`;
+
+exports[`descientify protęženıje 1`] = `"protęžeńje"`;
+
+exports[`descientify providěnıje 1`] = `"providěńje"`;
+
+exports[`descientify provođenıje 1`] = `"provođeńje"`;
+
+exports[`descientify prošèdšesť 1`] = `"prošėdšesť"`;
+
+exports[`descientify prošèdši 1`] = `"prošėdši"`;
+
+exports[`descientify proščanıje 1`] = `"proščańje"`;
+
+exports[`descientify pråhosòsaľnik 1`] = `"pråhosȯsaľnik"`;
+
+exports[`descientify pråzdnověrıje 1`] = `"pråzdnověŕje"`;
+
+exports[`descientify pråšèk 1`] = `"pråšėk"`;
+
+exports[`descientify pròč 1`] = `"prȯč"`;
+
+exports[`descientify pròč iz drågy! 1`] = `"prȯč iz drågy!"`;
+
+exports[`descientify prėadresovati 1`] = `"prěadresovati"`;
+
+exports[`descientify prėbudovati 1`] = `"prěbudovati"`;
+
+exports[`descientify prėbudovyvati 1`] = `"prěbudovyvati"`;
+
+exports[`descientify prėbyvanıje 1`] = `"prěbyvańje"`;
+
+exports[`descientify prėbyvati 1`] = `"prěbyvati"`;
+
+exports[`descientify prėběglik 1`] = `"prěběglik"`;
+
+exports[`descientify prėd 1`] = `"prěd"`;
+
+exports[`descientify prėd davnym vrėmenem 1`] = `"prěd davnym vrěmenem"`;
+
+exports[`descientify prėd davnym časom 1`] = `"prěd davnym časom"`;
+
+exports[`descientify prėd hviljejų 1`] = `"prěd hviljejų"`;
+
+exports[`descientify prėd nekoliko dnjev 1`] = `"prěd nekoliko dnjev"`;
+
+exports[`descientify prėd vsem 1`] = `"prěd vsem"`;
+
+exports[`descientify prėdanıje 1`] = `"prědańje"`;
+
+exports[`descientify prėdati 1`] = `"prědati"`;
+
+exports[`descientify prėdavati 1`] = `"prědavati"`;
+
+exports[`descientify prėdavnica 1`] = `"prědavnica"`;
+
+exports[`descientify prėdavnik 1`] = `"prědavnik"`;
+
+exports[`descientify prėdavničsky 1`] = `"prědavničsky"`;
+
+exports[`descientify prėdavstvo 1`] = `"prědavstvo"`;
+
+exports[`descientify prėdběžny 1`] = `"prědběžny"`;
+
+exports[`descientify prėdgrådny 1`] = `"prědgrådny"`;
+
+exports[`descientify prėdgrådıje 1`] = `"prědgråďje"`;
+
+exports[`descientify prėdhistorija 1`] = `"prědhistorija"`;
+
+exports[`descientify prėdhistoričny 1`] = `"prědhistoričny"`;
+
+exports[`descientify prėdhoditi 1`] = `"prědhoditi"`;
+
+exports[`descientify prėdhodnik 1`] = `"prědhodnik"`;
+
+exports[`descientify prėdhodny 1`] = `"prědhodny"`;
+
+exports[`descientify prėdidti 1`] = `"prědidti"`;
+
+exports[`descientify prėdigra 1`] = `"prědigra"`;
+
+exports[`descientify prėdimenovany 1`] = `"prědimenovany"`;
+
+exports[`descientify prėdki 1`] = `"prědki"`;
+
+exports[`descientify prėdkladati 1`] = `"prědkladati"`;
+
+exports[`descientify prėdlagati 1`] = `"prědlagati"`;
+
+exports[`descientify prėdlanji 1`] = `"prědlanji"`;
+
+exports[`descientify prėdlog 1`] = `"prědlog"`;
+
+exports[`descientify prėdloženıje 1`] = `"prědložeńje"`;
+
+exports[`descientify prėdložitelj 1`] = `"prědložitelj"`;
+
+exports[`descientify prėdložiti 1`] = `"prědložiti"`;
+
+exports[`descientify prėdložlivy 1`] = `"prědložlivy"`;
+
+exports[`descientify prėdložnik 1`] = `"prědložnik"`;
+
+exports[`descientify prėdmet 1`] = `"prědmet"`;
+
+exports[`descientify prėdminųly 1`] = `"prědminųly"`;
+
+exports[`descientify prėdměstny 1`] = `"prědměstny"`;
+
+exports[`descientify prėdměstıje 1`] = `"prědměstje"`;
+
+exports[`descientify prėdnje 1`] = `"prědnje"`;
+
+exports[`descientify prėdnji, prėdny 1`] = `"prědnji, prědny"`;
+
+exports[`descientify prėdnosť 1`] = `"prědnosť"`;
+
+exports[`descientify prėdoplatnik 1`] = `"prědoplatnik"`;
+
+exports[`descientify prėdpis 1`] = `"prědpis"`;
+
+exports[`descientify prėdpisati 1`] = `"prědpisati"`;
+
+exports[`descientify prėdpisyvati 1`] = `"prědpisyvati"`;
+
+exports[`descientify prėdplatiti 1`] = `"prědplatiti"`;
+
+exports[`descientify prėdplaćati 1`] = `"prědplaćati"`;
+
+exports[`descientify prėdpoklad 1`] = `"prědpoklad"`;
+
+exports[`descientify prėdpokladati 1`] = `"prědpokladati"`;
+
+exports[`descientify prėdpolagati 1`] = `"prědpolagati"`;
+
+exports[`descientify prėdpoloženıje 1`] = `"prědpoložeńje"`;
+
+exports[`descientify prėdpoložiteljno 1`] = `"prědpoložiteljno"`;
+
+exports[`descientify prėdpoložiti 1`] = `"prědpoložiti"`;
+
+exports[`descientify prėdposlědnji, prėdposlědny 1`] = `"prědposlědnji, prědposlědny"`;
+
+exports[`descientify prėdpostavjati 1`] = `"prědpostavjati"`;
+
+exports[`descientify prėdpotopny 1`] = `"prědpotopny"`;
+
+exports[`descientify prėdpovědati 1`] = `"prědpovědati"`;
+
+exports[`descientify prėdpověděti 1`] = `"prědpověděti"`;
+
+exports[`descientify prėdpověď 1`] = `"prědpověď"`;
+
+exports[`descientify prėdpočitanıje 1`] = `"prědpočitańje"`;
+
+exports[`descientify prėdpočitati 1`] = `"prědpočitati"`;
+
+exports[`descientify prėdprijemstvo 1`] = `"prědprijemstvo"`;
+
+exports[`descientify prėdprijmati 1`] = `"prědprijmati"`;
+
+exports[`descientify prėdprijęti 1`] = `"prědprijęti"`;
+
+exports[`descientify prėdprimetny 1`] = `"prědprimetny"`;
+
+exports[`descientify prėdråstka 1`] = `"prědråstka"`;
+
+exports[`descientify prėdslovıje 1`] = `"prědslovje"`;
+
+exports[`descientify prėdstati 1`] = `"prědstati"`;
+
+exports[`descientify prėdstava 1`] = `"prědstava"`;
+
+exports[`descientify prėdstavati 1`] = `"prědstavati"`;
+
+exports[`descientify prėdstavitelj 1`] = `"prědstavitelj"`;
+
+exports[`descientify prėdstaviteljstvo 1`] = `"prědstaviteljstvo"`;
+
+exports[`descientify prėdstaviti 1`] = `"prědstaviti"`;
+
+exports[`descientify prėdstaviti sobě 1`] = `"prědstaviti sobě"`;
+
+exports[`descientify prėdstavjati 1`] = `"prědstavjati"`;
+
+exports[`descientify prėdstavjati sobě 1`] = `"prědstavjati sobě"`;
+
+exports[`descientify prėdstavjenıje 1`] = `"prědstavjeńje"`;
+
+exports[`descientify prėdstojęći 1`] = `"prědstojęći"`;
+
+exports[`descientify prėdsědatelj 1`] = `"prědsědatelj"`;
+
+exports[`descientify prėdsědateljstvo 1`] = `"prědsědateljstvo"`;
+
+exports[`descientify prėdsědati 1`] = `"prědsědati"`;
+
+exports[`descientify prėdsědnik 1`] = `"prědsědnik"`;
+
+exports[`descientify prėdsųdny 1`] = `"prědsųdny"`;
+
+exports[`descientify prėdsųdòk 1`] = `"prědsųdȯk"`;
+
+exports[`descientify prėdsųdıje 1`] = `"prědsųďje"`;
+
+exports[`descientify prėds’kazanıje 1`] = `"prědskazańje"`;
+
+exports[`descientify prėds’kazati 1`] = `"prědskazati"`;
+
+exports[`descientify prėds’kazyvati 1`] = `"prědskazyvati"`;
+
+exports[`descientify prėdteča 1`] = `"prědteča"`;
+
+exports[`descientify prėduprėditi 1`] = `"prěduprěditi"`;
+
+exports[`descientify prėduprėđati 1`] = `"prěduprěđati"`;
+
+exports[`descientify prėduprėđenıje 1`] = `"prěduprěđeńje"`;
+
+exports[`descientify prėdvečer 1`] = `"prědvečer"`;
+
+exports[`descientify prėdvidimy 1`] = `"prědvidimy"`;
+
+exports[`descientify prėdvidlivy 1`] = `"prědvidlivy"`;
+
+exports[`descientify prėdvidyvati 1`] = `"prědvidyvati"`;
+
+exports[`descientify prėdviděti 1`] = `"prědviděti"`;
+
+exports[`descientify prėdvrėmenny 1`] = `"prědvrěmenny"`;
+
+exports[`descientify prėdvyšati 1`] = `"prědvyšati"`;
+
+exports[`descientify prėdvčera 1`] = `"prědvčera"`;
+
+exports[`descientify prėdvěstıje 1`] = `"prědvěstje"`;
+
+exports[`descientify prėdznak 1`] = `"prědznak"`;
+
+exports[`descientify prėdòjdti 1`] = `"prědȯjdti"`;
+
+exports[`descientify prėdòk 1`] = `"prědȯk"`;
+
+exports[`descientify prėdčasny 1`] = `"prědčasny"`;
+
+exports[`descientify prėdčutıje 1`] = `"prědčutje"`;
+
+exports[`descientify prėdčuvati 1`] = `"prědčuvati"`;
+
+exports[`descientify prėdšèdši 1`] = `"prědšėdši"`;
+
+exports[`descientify prėględ 1`] = `"prěględ"`;
+
+exports[`descientify prėględati 1`] = `"prěględati"`;
+
+exports[`descientify prėględka 1`] = `"prěględka"`;
+
+exports[`descientify prėględěti 1`] = `"prěględěti"`;
+
+exports[`descientify prėgovory 1`] = `"prěgovory"`;
+
+exports[`descientify prėgråda 1`] = `"prěgråda"`;
+
+exports[`descientify prėhlađati sę 1`] = `"prěhlađati sę"`;
+
+exports[`descientify prėhlåditi sę 1`] = `"prěhlåditi sę"`;
+
+exports[`descientify prėhlåđenıje 1`] = `"prěhlåđeńje"`;
+
+exports[`descientify prėhod 1`] = `"prěhod"`;
+
+exports[`descientify prėhoditi 1`] = `"prěhoditi"`;
+
+exports[`descientify prėhodny 1`] = `"prěhodny"`;
+
+exports[`descientify prėhytriti 1`] = `"prěhytriti"`;
+
+exports[`descientify prėhytrjati 1`] = `"prěhytrjati"`;
+
+exports[`descientify prėimenovati 1`] = `"prěimenovati"`;
+
+exports[`descientify prėimenovyvati 1`] = `"prěimenovyvati"`;
+
+exports[`descientify prėinačati 1`] = `"prěinačati"`;
+
+exports[`descientify prėinačeny 1`] = `"prěinačeny"`;
+
+exports[`descientify prėinačenıje 1`] = `"prěinačeńje"`;
+
+exports[`descientify prėinačiti 1`] = `"prěinačiti"`;
+
+exports[`descientify prėjdti 1`] = `"prějdti"`;
+
+exports[`descientify prėjmati 1`] = `"prějmati"`;
+
+exports[`descientify prėjęti 1`] = `"prějęti"`;
+
+exports[`descientify prėklad 1`] = `"prěklad"`;
+
+exports[`descientify prėkladatelj 1`] = `"prěkladatelj"`;
+
+exports[`descientify prėkladati 1`] = `"prěkladati"`;
+
+exports[`descientify prėključ 1`] = `"prěključ"`;
+
+exports[`descientify prėključati 1`] = `"prěključati"`;
+
+exports[`descientify prėključiti 1`] = `"prěključiti"`;
+
+exports[`descientify prėkrasny 1`] = `"prěkrasny"`;
+
+exports[`descientify prėkydanıje 1`] = `"prěkydańje"`;
+
+exports[`descientify prėlet 1`] = `"prělet"`;
+
+exports[`descientify prėletny 1`] = `"prěletny"`;
+
+exports[`descientify prėljubstvo 1`] = `"prěljubstvo"`;
+
+exports[`descientify prėlom 1`] = `"prělom"`;
+
+exports[`descientify prėložiti 1`] = `"prěložiti"`;
+
+exports[`descientify prėlěpy 1`] = `"prělěpy"`;
+
+exports[`descientify prėmagati 1`] = `"prěmagati"`;
+
+exports[`descientify prėmeblovati 1`] = `"prěmeblovati"`;
+
+exports[`descientify prėmešćenıje 1`] = `"prěmešćeńje"`;
+
+exports[`descientify prėmnogo 1`] = `"prěmnogo"`;
+
+exports[`descientify prėmogti 1`] = `"prěmogti"`;
+
+exports[`descientify prėmotanıje 1`] = `"prěmotańje"`;
+
+exports[`descientify prėmotati 1`] = `"prěmotati"`;
+
+exports[`descientify prėmotyvati 1`] = `"prěmotyvati"`;
+
+exports[`descientify prėměna 1`] = `"prěměna"`;
+
+exports[`descientify prėměniti 1`] = `"prěměniti"`;
+
+exports[`descientify prėměniti sę 1`] = `"prěměniti sę"`;
+
+exports[`descientify prėměnjati 1`] = `"prěměnjati"`;
+
+exports[`descientify prėměnjati sę 1`] = `"prěměnjati sę"`;
+
+exports[`descientify prėměnna 1`] = `"prěměnna"`;
+
+exports[`descientify prėměnny 1`] = `"prěměnny"`;
+
+exports[`descientify prėměstiti 1`] = `"prěměstiti"`;
+
+exports[`descientify prėměstiti sę 1`] = `"prěměstiti sę"`;
+
+exports[`descientify prėměšćati 1`] = `"prěměšćati"`;
+
+exports[`descientify prėměšćati sę 1`] = `"prěměšćati sę"`;
+
+exports[`descientify prėmŀviti 1`] = `"prěmȯlviti"`;
+
+exports[`descientify prėmŀvjati 1`] = `"prěmȯlvjati"`;
+
+exports[`descientify prėnapinati 1`] = `"prěnapinati"`;
+
+exports[`descientify prėnapęti 1`] = `"prěnapęti"`;
+
+exports[`descientify prėnesti 1`] = `"prěnesti"`;
+
+exports[`descientify prėnositi 1`] = `"prěnositi"`;
+
+exports[`descientify prėnosny 1`] = `"prěnosny"`;
+
+exports[`descientify prėnoćevati 1`] = `"prěnoćevati"`;
+
+exports[`descientify prėobraziti 1`] = `"prěobraziti"`;
+
+exports[`descientify prėobraćati 1`] = `"prěobraćati"`;
+
+exports[`descientify prėobražati 1`] = `"prěobražati"`;
+
+exports[`descientify prėobraženıje 1`] = `"prěobražeńje"`;
+
+exports[`descientify prėobråtiti 1`] = `"prěobråtiti"`;
+
+exports[`descientify prėocěniti 1`] = `"prěocěniti"`;
+
+exports[`descientify prėocěnjati 1`] = `"prěocěnjati"`;
+
+exports[`descientify prėoděti sę 1`] = `"prěoděti sę"`;
+
+exports[`descientify prėoděvati sę 1`] = `"prěoděvati sę"`;
+
+exports[`descientify prėpirati sę 1`] = `"prěpirati sę"`;
+
+exports[`descientify prėpisany 1`] = `"prěpisany"`;
+
+exports[`descientify prėpisanıje 1`] = `"prěpisańje"`;
+
+exports[`descientify prėpisati 1`] = `"prěpisati"`;
+
+exports[`descientify prėpiska 1`] = `"prěpiska"`;
+
+exports[`descientify prėpisyvati 1`] = `"prěpisyvati"`;
+
+exports[`descientify prėpluti 1`] = `"prěpluti"`;
+
+exports[`descientify prėplyvati 1`] = `"prěplyvati"`;
+
+exports[`descientify prėplyvti 1`] = `"prěplyvti"`;
+
+exports[`descientify prėpona 1`] = `"prěpona"`;
+
+exports[`descientify prėporųka 1`] = `"prěporųka"`;
+
+exports[`descientify prėporųčati 1`] = `"prěporųčati"`;
+
+exports[`descientify prėporųčiti 1`] = `"prěporųčiti"`;
+
+exports[`descientify prėprava 1`] = `"prěprava"`;
+
+exports[`descientify prėpraviti 1`] = `"prěpraviti"`;
+
+exports[`descientify prėpravjati 1`] = `"prěpravjati"`;
+
+exports[`descientify prėprogramovati 1`] = `"prěprogramovati"`;
+
+exports[`descientify prėpŀnjeny 1`] = `"prěpȯlnjeny"`;
+
+exports[`descientify prėrastati 1`] = `"prěrastati"`;
+
+exports[`descientify prėroditi sę 1`] = `"prěroditi sę"`;
+
+exports[`descientify prėrođenıje 1`] = `"prěrođeńje"`;
+
+exports[`descientify prėrvati 1`] = `"prěrvati"`;
+
+exports[`descientify prėryv 1`] = `"prěryv"`;
+
+exports[`descientify prėryvanıje 1`] = `"prěryvańje"`;
+
+exports[`descientify prėryvati 1`] = `"prěryvati"`;
+
+exports[`descientify prėråsti 1`] = `"prěråsti"`;
+
+exports[`descientify prėråzkazanıje 1`] = `"prěråzkazańje"`;
+
+exports[`descientify prėråzkazati 1`] = `"prěråzkazati"`;
+
+exports[`descientify prėråzkazyvati 1`] = `"prěråzkazyvati"`;
+
+exports[`descientify prėrěkati sę 1`] = `"prěrěkati sę"`;
+
+exports[`descientify prėrěkti sę 1`] = `"prěrěkti sę"`;
+
+exports[`descientify prėrězati 1`] = `"prěrězati"`;
+
+exports[`descientify prėrěčenıje 1`] = `"prěrěčeńje"`;
+
+exports[`descientify prėseḓlenica 1`] = `"prěselenica"`;
+
+exports[`descientify prėseḓlenèc 1`] = `"prěselenėc"`;
+
+exports[`descientify prėseḓliti 1`] = `"prěseliti"`;
+
+exports[`descientify prėseḓliti sę 1`] = `"prěseliti sę"`;
+
+exports[`descientify prėseḓljati 1`] = `"prěseljati"`;
+
+exports[`descientify prėseḓljati sę 1`] = `"prěseljati sę"`;
+
+exports[`descientify prėseḓljenıje 1`] = `"prěseljeńje"`;
+
+exports[`descientify prėslušati 1`] = `"prěslušati"`;
+
+exports[`descientify prėslušivanıje 1`] = `"prěslušivańje"`;
+
+exports[`descientify prėslušivati 1`] = `"prěslušivati"`;
+
+exports[`descientify prėslědovany 1`] = `"prěslědovany"`;
+
+exports[`descientify prėslědovanıje 1`] = `"prěslědovańje"`;
+
+exports[`descientify prėslědovati 1`] = `"prěslědovati"`;
+
+exports[`descientify prėslěpiti 1`] = `"prěslěpiti"`;
+
+exports[`descientify prėsměšnik 1`] = `"prěsměšnik"`;
+
+exports[`descientify prėspati 1`] = `"prěspati"`;
+
+exports[`descientify prėstarati sę 1`] = `"prěstarati sę"`;
+
+exports[`descientify prėstati 1`] = `"prěstati"`;
+
+exports[`descientify prėstavati 1`] = `"prěstavati"`;
+
+exports[`descientify prėstaviti 1`] = `"prěstaviti"`;
+
+exports[`descientify prėstaviti sę 1`] = `"prěstaviti sę"`;
+
+exports[`descientify prėstavjati 1`] = `"prěstavjati"`;
+
+exports[`descientify prėstavjati sę 1`] = `"prěstavjati sę"`;
+
+exports[`descientify prėstigati 1`] = `"prěstigati"`;
+
+exports[`descientify prėstignųti 1`] = `"prěstignųti"`;
+
+exports[`descientify prėstrašeny 1`] = `"prěstrašeny"`;
+
+exports[`descientify prėstrašiti 1`] = `"prěstrašiti"`;
+
+exports[`descientify prėstrělka 1`] = `"prěstrělka"`;
+
+exports[`descientify prėstųpanıje 1`] = `"prěstųpańje"`;
+
+exports[`descientify prėstųpati 1`] = `"prěstųpati"`;
+
+exports[`descientify prėstųpiti 1`] = `"prěstųpiti"`;
+
+exports[`descientify prėstųpnik 1`] = `"prěstųpnik"`;
+
+exports[`descientify prėstųpnosť 1`] = `"prěstųpnosť"`;
+
+exports[`descientify prėstųpny 1`] = `"prěstųpny"`;
+
+exports[`descientify prėstųpny god 1`] = `"prěstųpny god"`;
+
+exports[`descientify prėstųpòk 1`] = `"prěstųpȯk"`;
+
+exports[`descientify prėsunųti 1`] = `"prěsunųti"`;
+
+exports[`descientify prėsuvati 1`] = `"prěsuvati"`;
+
+exports[`descientify prėsęsti 1`] = `"prěsęsti"`;
+
+exports[`descientify prėsědanıje 1`] = `"prěsědańje"`;
+
+exports[`descientify prėsědati 1`] = `"prěsědati"`;
+
+exports[`descientify prėsěkati 1`] = `"prěsěkati"`;
+
+exports[`descientify prėsěkti 1`] = `"prěsěkti"`;
+
+exports[`descientify prėsěčenıje 1`] = `"prěsěčeńje"`;
+
+exports[`descientify prės’měriti 1`] = `"prěsměriti"`;
+
+exports[`descientify prės’měrjati 1`] = `"prěsměrjati"`;
+
+exports[`descientify prės’měrjenıje 1`] = `"prěsměrjeńje"`;
+
+exports[`descientify prės’vęzati 1`] = `"prěsvęzati"`;
+
+exports[`descientify prės’vęzyvati 1`] = `"prěsvęzyvati"`;
+
+exports[`descientify prėtekti 1`] = `"prětekti"`;
+
+exports[`descientify prėtečenıje 1`] = `"prětečeńje"`;
+
+exports[`descientify prėti 1`] = `"prěti"`;
+
+exports[`descientify prėtok rěky 1`] = `"prětok rěky"`;
+
+exports[`descientify prėtraviti 1`] = `"prětraviti"`;
+
+exports[`descientify prėtravjati 1`] = `"prětravjati"`;
+
+exports[`descientify prėtvarjati 1`] = `"prětvarjati"`;
+
+exports[`descientify prėtvoriti 1`] = `"prětvoriti"`;
+
+exports[`descientify prėtěkati 1`] = `"prětěkati"`;
+
+exports[`descientify prėtŀmačiti 1`] = `"prětȯlmačiti"`;
+
+exports[`descientify prėtŕpěti 1`] = `"prětŕpěti"`;
+
+exports[`descientify prėuveličati 1`] = `"prěuveličati"`;
+
+exports[`descientify prėuveličenıje 1`] = `"prěuveličeńje"`;
+
+exports[`descientify prėuveličiti 1`] = `"prěuveličiti"`;
+
+exports[`descientify prėvaga 1`] = `"prěvaga"`;
+
+exports[`descientify prėvariti 1`] = `"prěvariti"`;
+
+exports[`descientify prėvarjati 1`] = `"prěvarjati"`;
+
+exports[`descientify prėvažajųći 1`] = `"prěvažajųći"`;
+
+exports[`descientify prėvažati 1`] = `"prěvažati"`;
+
+exports[`descientify prėvažiti 1`] = `"prěvažiti"`;
+
+exports[`descientify prėvažno 1`] = `"prěvažno"`;
+
+exports[`descientify prėvesti 1`] = `"prěvesti"`;
+
+exports[`descientify prėvezti 1`] = `"prěvezti"`;
+
+exports[`descientify prėvladnųti 1`] = `"prěvladnųti"`;
+
+exports[`descientify prėvladyvati 1`] = `"prěvladyvati"`;
+
+exports[`descientify prėvlađenıje 1`] = `"prěvlađeńje"`;
+
+exports[`descientify prėvod 1`] = `"prěvod"`;
+
+exports[`descientify prėvoditelj 1`] = `"prěvoditelj"`;
+
+exports[`descientify prėvoditi 1`] = `"prěvoditi"`;
+
+exports[`descientify prėvoz 1`] = `"prěvoz"`;
+
+exports[`descientify prėvoziti 1`] = `"prěvoziti"`;
+
+exports[`descientify prėvođenıje 1`] = `"prěvođeńje"`;
+
+exports[`descientify prėvråt 1`] = `"prěvråt"`;
+
+exports[`descientify prėvråtnik 1`] = `"prěvråtnik"`;
+
+exports[`descientify prėvråtny 1`] = `"prěvråtny"`;
+
+exports[`descientify prėvysiti 1`] = `"prěvysiti"`;
+
+exports[`descientify prėvyšati 1`] = `"prěvyšati"`;
+
+exports[`descientify prėvòzhoditi 1`] = `"prěvȯzhoditi"`;
+
+exports[`descientify prėvòzòjdti 1`] = `"prěvȯzȯjdti"`;
+
+exports[`descientify prėz 1`] = `"prěz"`;
+
+exports[`descientify prėzimę 1`] = `"prězimę"`;
+
+exports[`descientify prėzir 1`] = `"prězir"`;
+
+exports[`descientify prėzirati 1`] = `"prězirati"`;
+
+exports[`descientify prėzměrno 1`] = `"prězměrno"`;
+
+exports[`descientify prėznačati 1`] = `"prěznačati"`;
+
+exports[`descientify prėznačeny za 1`] = `"prěznačeny za"`;
+
+exports[`descientify prėznačenıje 1`] = `"prěznačeńje"`;
+
+exports[`descientify prėznačiti 1`] = `"prěznačiti"`;
+
+exports[`descientify prėzravo 1`] = `"prězravo"`;
+
+exports[`descientify prėzravy 1`] = `"prězravy"`;
+
+exports[`descientify prėzrěnıje 1`] = `"prězrěńje"`;
+
+exports[`descientify prėzvati 1`] = `"prězvati"`;
+
+exports[`descientify prėzvišče 1`] = `"prězvišče"`;
+
+exports[`descientify prėzyvati 1`] = `"prězyvati"`;
+
+exports[`descientify prėčiti 1`] = `"prěčiti"`;
+
+exports[`descientify prėčnik 1`] = `"prěčnik"`;
+
+exports[`descientify prėčęsto 1`] = `"prěčęsto"`;
+
+exports[`descientify prėđe 1`] = `"prěđe"`;
+
+exports[`descientify prėškoda 1`] = `"prěškoda"`;
+
+exports[`descientify prėžitelj 1`] = `"prěžitelj"`;
+
+exports[`descientify prėžiti 1`] = `"prěžiti"`;
+
+exports[`descientify prėžitòk 1`] = `"prěžitȯk"`;
+
+exports[`descientify prėžitıje 1`] = `"prěžitje"`;
+
+exports[`descientify prėživanıje 1`] = `"prěživańje"`;
+
+exports[`descientify prėživati 1`] = `"prěživati"`;
+
+exports[`descientify prėživimosť 1`] = `"prěživimosť"`;
+
+exports[`descientify prėživimy 1`] = `"prěživimy"`;
+
+exports[`descientify prėžuvati 1`] = `"prěžuvati"`;
+
+exports[`descientify pseùdo- 1`] = `"psevdo-"`;
+
+exports[`descientify pseùdonauka 1`] = `"psevdonauka"`;
+
+exports[`descientify pseùdonim 1`] = `"psevdonim"`;
+
+exports[`descientify ptačıji 1`] = `"ptačji"`;
+
+exports[`descientify ptičıji 1`] = `"ptičji"`;
+
+exports[`descientify pylòk 1`] = `"pylȯk"`;
+
+exports[`descientify pytanıje 1`] = `"pytańje"`;
+
+exports[`descientify pènj 1`] = `"pėnj"`;
+
+exports[`descientify pès 1`] = `"pės"`;
+
+exports[`descientify pèstry 1`] = `"pėstry"`;
+
+exports[`descientify pòstrųg 1`] = `"pȯstrųg"`;
+
+exports[`descientify pčelıji 1`] = `"pčeľji"`;
+
+exports[`descientify pętivųgòľnik 1`] = `"pętivųgȯľnik"`;
+
+exports[`descientify pętòk 1`] = `"pętȯk"`;
+
+exports[`descientify pęťsòt, pęťsto 1`] = `"pęťsȯt, pęťsto"`;
+
+exports[`descientify pěsòk 1`] = `"pěsȯk"`;
+
+exports[`descientify pěsòčna burja 1`] = `"pěsȯčna burja"`;
+
+exports[`descientify pěsòčny 1`] = `"pěsȯčny"`;
+
+exports[`descientify pěvanıje 1`] = `"pěvańje"`;
+
+exports[`descientify pěšehod, pěšehodèc 1`] = `"pěšehod, pěšehodėc"`;
+
+exports[`descientify pŀk 1`] = `"pȯlk"`;
+
+exports[`descientify pŀkovnik 1`] = `"pȯlkovnik"`;
+
+exports[`descientify pŀniti 1`] = `"pȯlniti"`;
+
+exports[`descientify pŀno 1`] = `"pȯlno"`;
+
+exports[`descientify pŀnolunıje 1`] = `"pȯlnoluńje"`;
+
+exports[`descientify pŀnolětnosť 1`] = `"pȯlnolětnosť"`;
+
+exports[`descientify pŀnolětny 1`] = `"pȯlnolětny"`;
+
+exports[`descientify pŀnomoćnik 1`] = `"pȯlnomoćnik"`;
+
+exports[`descientify pŀnomoćıje 1`] = `"pȯlnomoćje"`;
+
+exports[`descientify pŀny 1`] = `"pȯlny"`;
+
+exports[`descientify pŀzati 1`] = `"pȯlzati"`;
+
+exports[`descientify pŀzavica 1`] = `"pȯlzavica"`;
+
+exports[`descientify pŀzti 1`] = `"pȯlzti"`;
+
+exports[`descientify pŀzųća råstlina 1`] = `"pȯlzųća råstlina"`;
+
+exports[`descientify pŀž 1`] = `"pȯlž"`;
+
+exports[`descientify pŕvov’zor 1`] = `"pŕvovzor"`;
+
+exports[`descientify pŕvěstòk 1`] = `"pŕvěstȯk"`;
+
+exports[`descientify pųpòk 1`] = `"pųpȯk"`;
+
+exports[`descientify pųtovanıje 1`] = `"pųtovańje"`;
+
+exports[`descientify pṙskati 1`] = `"prskati"`;
+
+exports[`descientify pṙsknųti 1`] = `"prsknųti"`;
+
+exports[`descientify rahunòk 1`] = `"rahunȯk"`;
+
+exports[`descientify ranèc 1`] = `"ranėc"`;
+
+exports[`descientify rasovo stereotipovanıje 1`] = `"rasovo stereotipovańje"`;
+
+exports[`descientify rasovo uniženıje 1`] = `"rasovo unižeńje"`;
+
+exports[`descientify razòm 1`] = `"razȯm"`;
+
+exports[`descientify raḓlo 1`] = `"ralo"`;
+
+exports[`descientify redkòvka 1`] = `"redkȯvka"`;
+
+exports[`descientify reklamovanıje 1`] = `"reklamovańje"`;
+
+exports[`descientify rentgenovy s’nimòk 1`] = `"rentgenovy snimȯk"`;
+
+exports[`descientify republikanèc 1`] = `"republikanėc"`;
+
+exports[`descientify restaùracija 1`] = `"restavracija"`;
+
+exports[`descientify restaùrovati 1`] = `"restavrovati"`;
+
+exports[`descientify reùmatizm 1`] = `"revmatizm"`;
+
+exports[`descientify reùmatičny 1`] = `"revmatičny"`;
+
+exports[`descientify rodopisèc 1`] = `"rodopisėc"`;
+
+exports[`descientify rodoslovıje 1`] = `"rodoslovje"`;
+
+exports[`descientify rodstvèny 1`] = `"rodstvėny"`;
+
+exports[`descientify roptanıje 1`] = `"roptańje"`;
+
+exports[`descientify rođenıje 1`] = `"rođeńje"`;
+
+exports[`descientify rujènj 1`] = `"rujėnj"`;
+
+exports[`descientify ruměnèc 1`] = `"ruměnėc"`;
+
+exports[`descientify ryḓlo 1`] = `"rylo"`;
+
+exports[`descientify råstlinožerèc 1`] = `"råstlinožerėc"`;
+
+exports[`descientify råstòk 1`] = `"råstȯk"`;
+
+exports[`descientify råvnanıje 1`] = `"råvnańje"`;
+
+exports[`descientify råvnohaḓlo 1`] = `"råvnohalo"`;
+
+exports[`descientify råvnověsıje 1`] = `"råvnověśje"`;
+
+exports[`descientify råzdiranıje 1`] = `"råzdirańje"`;
+
+exports[`descientify råzdražnjenıje 1`] = `"råzdražnjeńje"`;
+
+exports[`descientify råzdrobjenıje 1`] = `"råzdrobjeńje"`;
+
+exports[`descientify råzdrèti 1`] = `"råzdrėti"`;
+
+exports[`descientify råzdrèty 1`] = `"råzdrėty"`;
+
+exports[`descientify råzdvojenıje 1`] = `"råzdvojeńje"`;
+
+exports[`descientify råzdŀbati 1`] = `"råzdȯlbati"`;
+
+exports[`descientify råzdŀbti 1`] = `"råzdȯlbti"`;
+
+exports[`descientify råzgrěvanıje 1`] = `"råzgrěvańje"`;
+
+exports[`descientify råziskyvanıje 1`] = `"råziskyvańje"`;
+
+exports[`descientify råziskyvanıje dŀgoživosti 1`] = `"råziskyvańje dȯlgoživosti"`;
+
+exports[`descientify råzjěhati sę 1`] = `"råzjehati sę"`;
+
+exports[`descientify råzjěžđati sę 1`] = `"råzježđati sę"`;
+
+exports[`descientify råzkajanıje 1`] = `"råzkajańje"`;
+
+exports[`descientify råzkrytıje 1`] = `"råzkrytje"`;
+
+exports[`descientify råzkròšiti 1`] = `"råzkrȯšiti"`;
+
+exports[`descientify råzlitıje 1`] = `"råzlitje"`;
+
+exports[`descientify råzličenıje 1`] = `"råzličeńje"`;
+
+exports[`descientify råzličıje 1`] = `"råzličje"`;
+
+exports[`descientify råzloženıje klaviatury 1`] = `"råzložeńje klaviatury"`;
+
+exports[`descientify råzlųčenıje 1`] = `"råzlųčeńje"`;
+
+exports[`descientify råzmah kriḓla 1`] = `"råzmah krila"`;
+
+exports[`descientify råzmlėti 1`] = `"råzmlěti"`;
+
+exports[`descientify råzmnažanıje 1`] = `"råzmnažańje"`;
+
+exports[`descientify råzmnoženıje 1`] = `"råzmnožeńje"`;
+
+exports[`descientify råzmysljanıje 1`] = `"råzmysljańje"`;
+
+exports[`descientify råzmysljenıje 1`] = `"råzmysljeńje"`;
+
+exports[`descientify råzměšćenıje 1`] = `"råzměšćeńje"`;
+
+exports[`descientify råzorjenıje 1`] = `"råzorjeńje"`;
+
+exports[`descientify råzorųženıje 1`] = `"råzorųžeńje"`;
+
+exports[`descientify råzočarovanıje 1`] = `"råzočarovańje"`;
+
+exports[`descientify råzpoloženıje 1`] = `"råzpoložeńje"`;
+
+exports[`descientify råzporęđenıje 1`] = `"råzporęđeńje"`;
+
+exports[`descientify råzpoznanıje 1`] = `"råzpoznańje"`;
+
+exports[`descientify råzpoznavanıje 1`] = `"råzpoznavańje"`;
+
+exports[`descientify råzprostrånjenıje 1`] = `"råzprostrånjeńje"`;
+
+exports[`descientify råzprostrėti 1`] = `"råzprostrěti"`;
+
+exports[`descientify råzpušćenıje 1`] = `"råzpušćeńje"`;
+
+exports[`descientify råzpytyvanıje 1`] = `"råzpytyvańje"`;
+
+exports[`descientify råzpętıje 1`] = `"råzpętje"`;
+
+exports[`descientify råzpųtıje 1`] = `"råzpųtje"`;
+
+exports[`descientify råzrastanıje 1`] = `"råzrastańje"`;
+
+exports[`descientify råzrušenıje 1`] = `"råzrušeńje"`;
+
+exports[`descientify råzrěšenıje 1`] = `"råzrěšeńje"`;
+
+exports[`descientify råzseḓlina 1`] = `"råzselina"`;
+
+exports[`descientify råzslědovanıje 1`] = `"råzslědovańje"`;
+
+exports[`descientify råzstavjenıje 1`] = `"råzstavjeńje"`;
+
+exports[`descientify råzstojanıje 1`] = `"råzstojańje"`;
+
+exports[`descientify råzsųdòk 1`] = `"råzsųdȯk"`;
+
+exports[`descientify råzsųđenıje 1`] = `"råzsųđeńje"`;
+
+exports[`descientify råzs’čitati 1`] = `"råzsčitati"`;
+
+exports[`descientify råzs’čityvati 1`] = `"råzsčityvati"`;
+
+exports[`descientify råztrèti 1`] = `"råztrėti"`;
+
+exports[`descientify råztòptati 1`] = `"råztȯptati"`;
+
+exports[`descientify råztòptyvati 1`] = `"råztȯptyvati"`;
+
+exports[`descientify råztŀkati 1`] = `"råztȯlkati"`;
+
+exports[`descientify råztŀkti 1`] = `"råztȯlkti"`;
+
+exports[`descientify råztŀstěti 1`] = `"råztȯlstěti"`;
+
+exports[`descientify råztṙgati 1`] = `"råztrgati"`;
+
+exports[`descientify råztṙgnųti 1`] = `"råztrgnųti"`;
+
+exports[`descientify råzuměnıje 1`] = `"råzuměńje"`;
+
+exports[`descientify råzvažanıje 1`] = `"råzvažańje"`;
+
+exports[`descientify råzvitıje 1`] = `"råzvitje"`;
+
+exports[`descientify råzvivanıje 1`] = `"råzvivańje"`;
+
+exports[`descientify råzvodıje 1`] = `"råzvoďje"`;
+
+exports[`descientify råzvęzanıje 1`] = `"råzvęzańje"`;
+
+exports[`descientify råzòjdti sę 1`] = `"råzȯjdti sę"`;
+
+exports[`descientify råzširjenıje 1`] = `"råzširjeńje"`;
+
+exports[`descientify råžèn 1`] = `"råžėn"`;
+
+exports[`descientify rèvnivosť 1`] = `"rėvnivosť"`;
+
+exports[`descientify rèvnivy 1`] = `"rėvnivy"`;
+
+exports[`descientify rędòk 1`] = `"rędȯk"`;
+
+exports[`descientify rěznik drėv 1`] = `"rěznik drěv"`;
+
+exports[`descientify rěčenıje 1`] = `"rěčeńje"`;
+
+exports[`descientify rěšenıje 1`] = `"rěšeńje"`;
+
+exports[`descientify rųkopleskanıje 1`] = `"rųkopleskańje"`;
+
+exports[`descientify rųkopoloženıje 1`] = `"rųkopoložeńje"`;
+
+exports[`descientify s izključenıjèm 1`] = `"s izključeńjėm"`;
+
+exports[`descientify s obziròm na 1`] = `"s obzirȯm na"`;
+
+exports[`descientify s, sò 1`] = `"s, sȯ"`;
+
+exports[`descientify sabljevanıje 1`] = `"sabljevańje"`;
+
+exports[`descientify samodostatòčnosť 1`] = `"samodostatȯčnosť"`;
+
+exports[`descientify samodostatòčny 1`] = `"samodostatȯčny"`;
+
+exports[`descientify samodŕžèc 1`] = `"samodŕžėc"`;
+
+exports[`descientify samoljubèc 1`] = `"samoljubėc"`;
+
+exports[`descientify samoposmatrjanıje 1`] = `"samoposmatrjańje"`;
+
+exports[`descientify samovlastıje 1`] = `"samovlastje"`;
+
+exports[`descientify samozvanèc 1`] = `"samozvanėc"`;
+
+exports[`descientify samèc 1`] = `"samėc"`;
+
+exports[`descientify sanskrit, sanskṙt 1`] = `"sanskrit, sanskrt"`;
+
+exports[`descientify saḓlo 1`] = `"salo"`;
+
+exports[`descientify sebeljubıje 1`] = `"sebeljubje"`;
+
+exports[`descientify sedmsòt, sedmsto 1`] = `"sedmsȯt, sedmsto"`;
+
+exports[`descientify seksuaľno privlėkateljny 1`] = `"seksuaľno privlěkateljny"`;
+
+exports[`descientify sestèrska ljubòv 1`] = `"sestėrska ljubȯv"`;
+
+exports[`descientify sestèrsky 1`] = `"sestėrsky"`;
+
+exports[`descientify seḓliti sę 1`] = `"seliti sę"`;
+
+exports[`descientify seḓljan, seḓljanin 1`] = `"seljan, seljanin"`;
+
+exports[`descientify seḓljanka 1`] = `"seljanka"`;
+
+exports[`descientify seḓlo 1`] = `"selo"`;
+
+exports[`descientify seḓľsky 1`] = `"seľsky"`;
+
+exports[`descientify skakanna dòska 1`] = `"skakanna dȯska"`;
+
+exports[`descientify skakanıje 1`] = `"skakańje"`;
+
+exports[`descientify skovrånòk 1`] = `"skovrånȯk"`;
+
+exports[`descientify skrinja s orųdıjami 1`] = `"skrinja s orųďjami"`;
+
+exports[`descientify skvorèc 1`] = `"skvorėc"`;
+
+exports[`descientify skvṙčati 1`] = `"skvrčati"`;
+
+exports[`descientify skųpèc 1`] = `"skųpėc"`;
+
+exports[`descientify skṙb 1`] = `"skrb"`;
+
+exports[`descientify skṙběti 1`] = `"skrběti"`;
+
+exports[`descientify slabèc 1`] = `"slabėc"`;
+
+exports[`descientify slavjenıje 1`] = `"slavjeńje"`;
+
+exports[`descientify slovos’bor 1`] = `"slovosbor"`;
+
+exports[`descientify služebno pųtovanıje 1`] = `"služebno pųtovańje"`;
+
+exports[`descientify slyšenıje 1`] = `"slyšeńje"`;
+
+exports[`descientify slåvèj 1`] = `"slåvėj"`;
+
+exports[`descientify slėzena 1`] = `"slězena"`;
+
+exports[`descientify slěpèc 1`] = `"slěpėc"`;
+
+exports[`descientify smalèc 1`] = `"smalėc"`;
+
+exports[`descientify smrėk 1`] = `"smrěk"`;
+
+exports[`descientify smyčèk 1`] = `"smyčėk"`;
+
+exports[`descientify smějanıje sę 1`] = `"smějańje sę"`;
+
+exports[`descientify smṙf 1`] = `"smrf"`;
+
+exports[`descientify smṙkati 1`] = `"smrkati"`;
+
+exports[`descientify smṙkati sę 1`] = `"smrkati sę"`;
+
+exports[`descientify smṙkač 1`] = `"smrkač"`;
+
+exports[`descientify snědanıje 1`] = `"snědańje"`;
+
+exports[`descientify sněžènj 1`] = `"sněžėnj"`;
+
+exports[`descientify sopèlj 1`] = `"sopėlj"`;
+
+exports[`descientify spanıje 1`] = `"spańje"`;
+
+exports[`descientify spolòčenstvo 1`] = `"spolȯčenstvo"`;
+
+exports[`descientify spolòčnosť 1`] = `"spolȯčnosť"`;
+
+exports[`descientify spolòčny 1`] = `"spolȯčny"`;
+
+exports[`descientify srėbristy 1`] = `"srěbristy"`;
+
+exports[`descientify srėbrny 1`] = `"srěbrny"`;
+
+exports[`descientify srėbro 1`] = `"srěbro"`;
+
+exports[`descientify srėd 1`] = `"srěd"`;
+
+exports[`descientify srėda 1`] = `"srěda"`;
+
+exports[`descientify srėdina 1`] = `"srědina"`;
+
+exports[`descientify srėdišče 1`] = `"srědišče"`;
+
+exports[`descientify srėdnija 1`] = `"srědnija"`;
+
+exports[`descientify srėdnjevěčny 1`] = `"srědnjevěčny"`;
+
+exports[`descientify srėdnjevěčıje 1`] = `"srědnjevěčje"`;
+
+exports[`descientify srėdnji rod 1`] = `"srědnji rod"`;
+
+exports[`descientify srėdnji, srėdny 1`] = `"srědnji, srědny"`;
+
+exports[`descientify srėdoběžny 1`] = `"srědoběžny"`;
+
+exports[`descientify srėdotěčny 1`] = `"srědotěčny"`;
+
+exports[`descientify srėdstva 1`] = `"srědstva"`;
+
+exports[`descientify srėdstvo 1`] = `"srědstvo"`;
+
+exports[`descientify stanòk 1`] = `"stanȯk"`;
+
+exports[`descientify starocŕkòvnoslovjansky 1`] = `"starocŕkȯvnoslovjansky"`;
+
+exports[`descientify starèc 1`] = `"starėc"`;
+
+exports[`descientify starěnıje 1`] = `"starěńje"`;
+
+exports[`descientify staviti pytanıje 1`] = `"staviti pytańje"`;
+
+exports[`descientify stolova lòžica 1`] = `"stolova lȯžica"`;
+
+exports[`descientify stolětıje 1`] = `"stolětje"`;
+
+exports[`descientify stonanıje 1`] = `"stonańje"`;
+
+exports[`descientify strahlivèc 1`] = `"strahlivėc"`;
+
+exports[`descientify strahovanıje 1`] = `"strahovańje"`;
+
+exports[`descientify stryjèc 1`] = `"stryjėc"`;
+
+exports[`descientify strėgti 1`] = `"strěgti"`;
+
+exports[`descientify strėgti sę 1`] = `"strěgti sę"`;
+
+exports[`descientify strělèc 1`] = `"strělėc"`;
+
+exports[`descientify strělòčnik 1`] = `"strělȯčnik"`;
+
+exports[`descientify strětenıje 1`] = `"strěteńje"`;
+
+exports[`descientify stèblo 1`] = `"stėblo"`;
+
+exports[`descientify stèklo 1`] = `"stėklo"`;
+
+exports[`descientify stèklěna čaša 1`] = `"stėklěna čaša"`;
+
+exports[`descientify stèklěny 1`] = `"stėklěny"`;
+
+exports[`descientify stèkľnik 1`] = `"stėkľnik"`;
+
+exports[`descientify stŀp 1`] = `"stȯlp"`;
+
+exports[`descientify stųpnjevanıje 1`] = `"stųpnjevańje"`;
+
+exports[`descientify stųpènj 1`] = `"stųpėnj"`;
+
+exports[`descientify stṙčiti 1`] = `"strčiti"`;
+
+exports[`descientify sujevěrıje 1`] = `"sujevěŕje"`;
+
+exports[`descientify surfovanıje 1`] = `"surfovańje"`;
+
+exports[`descientify svaťbèna obrųčka 1`] = `"svaťbėna obrųčka"`;
+
+exports[`descientify svaťbèna zabava 1`] = `"svaťbėna zabava"`;
+
+exports[`descientify svaťbèni sųprųgi 1`] = `"svaťbėni sųprųgi"`;
+
+exports[`descientify svaťbèny 1`] = `"svaťbėny"`;
+
+exports[`descientify svaťbèny konvoj 1`] = `"svaťbėny konvoj"`;
+
+exports[`descientify svaťbèny kostjum 1`] = `"svaťbėny kostjum"`;
+
+exports[`descientify svaťbèny oděv 1`] = `"svaťbėny oděv"`;
+
+exports[`descientify svekròv 1`] = `"svekrȯv"`;
+
+exports[`descientify svinèc 1`] = `"svinėc"`;
+
+exports[`descientify svistòk 1`] = `"svistȯk"`;
+
+exports[`descientify svitanıje 1`] = `"svitańje"`;
+
+exports[`descientify svojevrėmenno 1`] = `"svojevrěmenno"`;
+
+exports[`descientify svojevrėmennosť 1`] = `"svojevrěmennosť"`;
+
+exports[`descientify svojevrėmenny 1`] = `"svojevrěmenny"`;
+
+exports[`descientify svorènj 1`] = `"svorėnj"`;
+
+exports[`descientify svętogṙđenıje 1`] = `"svętogrđeńje"`;
+
+exports[`descientify svętòk 1`] = `"svętȯk"`;
+
+exports[`descientify svętòčny 1`] = `"svętȯčny"`;
+
+exports[`descientify svŕčèk 1`] = `"svŕčėk"`;
+
+exports[`descientify sòbranıje 1`] = `"sȯbrańje"`;
+
+exports[`descientify sòbrati 1`] = `"sȯbrati"`;
+
+exports[`descientify sòbrati sę 1`] = `"sȯbrati sę"`;
+
+exports[`descientify sòbytıje 1`] = `"sȯbytje"`;
+
+exports[`descientify sòdŕžanosť 1`] = `"sȯdŕžanosť"`;
+
+exports[`descientify sòdŕžanıje 1`] = `"sȯdŕžańje"`;
+
+exports[`descientify sòdŕžati 1`] = `"sȯdŕžati"`;
+
+exports[`descientify sòdŕživati 1`] = `"sȯdŕživati"`;
+
+exports[`descientify sòdŕžnik 1`] = `"sȯdŕžnik"`;
+
+exports[`descientify sòglašati sę, sųglašati sę 1`] = `"sȯglašati sę, sųglašati sę"`;
+
+exports[`descientify sòglåsiti sę, sųglåsiti sę 1`] = `"sȯglåsiti sę, sųglåsiti sę"`;
+
+exports[`descientify sòglåska, sųglåska 1`] = `"sȯglåska, sųglåska"`;
+
+exports[`descientify sòglåsno, sųglåsno 1`] = `"sȯglåsno, sųglåsno"`;
+
+exports[`descientify sòglåsnosť, sųglåsnosť 1`] = `"sȯglåsnosť, sųglåsnosť"`;
+
+exports[`descientify sòglåsny, sųglåsny 1`] = `"sȯglåsny, sųglåsny"`;
+
+exports[`descientify sòglåsıje, sųglåsıje 1`] = `"sȯglåśje, sųglåśje"`;
+
+exports[`descientify sòglåšenıje, sųglåšenıje 1`] = `"sȯglåšeńje, sųglåšeńje"`;
+
+exports[`descientify sòhnųti 1`] = `"sȯhnųti"`;
+
+exports[`descientify sòjdti 1`] = `"sȯjdti"`;
+
+exports[`descientify sòjdti sę 1`] = `"sȯjdti sę"`;
+
+exports[`descientify sòjųz 1`] = `"sȯjųz"`;
+
+exports[`descientify sòjųznik 1`] = `"sȯjųznik"`;
+
+exports[`descientify sòmknųti 1`] = `"sȯmknųti"`;
+
+exports[`descientify sòn 1`] = `"sȯn"`;
+
+exports[`descientify sòobćati 1`] = `"sȯobćati"`;
+
+exports[`descientify sòobćati sę 1`] = `"sȯobćati sę"`;
+
+exports[`descientify sòobčenıje 1`] = `"sȯobčeńje"`;
+
+exports[`descientify sòobčiti 1`] = `"sȯobčiti"`;
+
+exports[`descientify sòočati sę s, sųočati sę s 1`] = `"sȯočati sę s, sųočati sę s"`;
+
+exports[`descientify sòočiti sę s, sųočiti sę s 1`] = `"sȯočiti sę s, sųočiti sę s"`;
+
+exports[`descientify sòsati 1`] = `"sȯsati"`;
+
+exports[`descientify sòsavèc 1`] = `"sȯsavėc"`;
+
+exports[`descientify sòska 1`] = `"sȯska"`;
+
+exports[`descientify sòstav 1`] = `"sȯstav"`;
+
+exports[`descientify sòstaviti 1`] = `"sȯstaviti"`;
+
+exports[`descientify sòstavjati 1`] = `"sȯstavjati"`;
+
+exports[`descientify sòstavjenıje 1`] = `"sȯstavjeńje"`;
+
+exports[`descientify sòstavna čęsť 1`] = `"sȯstavna čęsť"`;
+
+exports[`descientify sòstavny 1`] = `"sȯstavny"`;
+
+exports[`descientify sòstojati sę iz 1`] = `"sȯstojati sę iz"`;
+
+exports[`descientify sòtina 1`] = `"sȯtina"`;
+
+exports[`descientify sòtka, sòtnja 1`] = `"sȯtka, sȯtnja"`;
+
+exports[`descientify sòtkati 1`] = `"sȯtkati"`;
+
+exports[`descientify sòtny 1`] = `"sȯtny"`;
+
+exports[`descientify sòučęstnica 1`] = `"sȯučęstnica"`;
+
+exports[`descientify sòučęstnik 1`] = `"sȯučęstnik"`;
+
+exports[`descientify sòučęstničstvo 1`] = `"sȯučęstničstvo"`;
+
+exports[`descientify sòučęstıje 1`] = `"sȯučęstje"`;
+
+exports[`descientify sòvladnųti 1`] = `"sȯvladnųti"`;
+
+exports[`descientify sòvladyvati 1`] = `"sȯvladyvati"`;
+
+exports[`descientify sòvrėmennik 1`] = `"sȯvrěmennik"`;
+
+exports[`descientify sòvrėmennosť 1`] = `"sȯvrěmennosť"`;
+
+exports[`descientify sòvrėmenny 1`] = `"sȯvrěmenny"`;
+
+exports[`descientify sòvsěm, sòvsim 1`] = `"sȯvsěm, sȯvsim"`;
+
+exports[`descientify sòvět 1`] = `"sȯvět"`;
+
+exports[`descientify sòvětnik 1`] = `"sȯvětnik"`;
+
+exports[`descientify sòvětničstvo 1`] = `"sȯvětničstvo"`;
+
+exports[`descientify sòvětovati 1`] = `"sȯvětovati"`;
+
+exports[`descientify sòvŕšati 1`] = `"sȯvŕšati"`;
+
+exports[`descientify sòvŕšenosť 1`] = `"sȯvŕšenosť"`;
+
+exports[`descientify sòvŕšeny 1`] = `"sȯvŕšeny"`;
+
+exports[`descientify sòvŕšeny vid 1`] = `"sȯvŕšeny vid"`;
+
+exports[`descientify sòvŕšiti 1`] = `"sȯvŕšiti"`;
+
+exports[`descientify sòv’padenıje 1`] = `"sȯvpadeńje"`;
+
+exports[`descientify sòzdati 1`] = `"sȯzdati"`;
+
+exports[`descientify sòzdavati 1`] = `"sȯzdavati"`;
+
+exports[`descientify sòzvati 1`] = `"sȯzvati"`;
+
+exports[`descientify sòzyvati 1`] = `"sȯzyvati"`;
+
+exports[`descientify sòčuvstvovati 1`] = `"sȯčuvstvovati"`;
+
+exports[`descientify sòžegti 1`] = `"sȯžegti"`;
+
+exports[`descientify sòžrati 1`] = `"sȯžrati"`;
+
+exports[`descientify sěděnıje 1`] = `"sěděńje"`;
+
+exports[`descientify sěmèjstvo 1`] = `"sěmėjstvo"`;
+
+exports[`descientify sěvernoeùropejsky 1`] = `"sěvernoevropejsky"`;
+
+exports[`descientify sěverovòzhod 1`] = `"sěverovȯzhod"`;
+
+exports[`descientify sěverovòzhodny 1`] = `"sěverovȯzhodny"`;
+
+exports[`descientify sŀnce 1`] = `"sȯlnce"`;
+
+exports[`descientify sŀncevråt 1`] = `"sȯlncevråt"`;
+
+exports[`descientify sŀnečna sistema 1`] = `"sȯlnečna sistema"`;
+
+exports[`descientify sŀnečny 1`] = `"sȯlnečny"`;
+
+exports[`descientify sŀza 1`] = `"sȯlza"`;
+
+exports[`descientify sŀzotvorny gaz 1`] = `"sȯlzotvorny gaz"`;
+
+exports[`descientify sŕbohṙvatsky 1`] = `"sŕbohrvatsky"`;
+
+exports[`descientify sŕbskohṙvatsky 1`] = `"sŕbskohrvatsky"`;
+
+exports[`descientify sŕdèčno 1`] = `"sŕdėčno"`;
+
+exports[`descientify sŕdèčnosòsųdny 1`] = `"sŕdėčnosȯsųdny"`;
+
+exports[`descientify sŕdèčnosť 1`] = `"sŕdėčnosť"`;
+
+exports[`descientify sŕdèčny 1`] = `"sŕdėčny"`;
+
+exports[`descientify sŕdèčny napad 1`] = `"sŕdėčny napad"`;
+
+exports[`descientify sŕpènj 1`] = `"sŕpėnj"`;
+
+exports[`descientify sųdny dènj 1`] = `"sųdny dėnj"`;
+
+exports[`descientify sųdny pozòv 1`] = `"sųdny pozȯv"`;
+
+exports[`descientify sųmněnıje 1`] = `"sųmněńje"`;
+
+exports[`descientify sųprovođenıje 1`] = `"sųprovođeńje"`;
+
+exports[`descientify sųsrėdotočati 1`] = `"sųsrědotočati"`;
+
+exports[`descientify sųsrėdotočati sę 1`] = `"sųsrědotočati sę"`;
+
+exports[`descientify sųsrėdotočiti 1`] = `"sųsrědotočiti"`;
+
+exports[`descientify sųsrėdotočiti sę 1`] = `"sųsrědotočiti sę"`;
+
+exports[`descientify sųstradanıje 1`] = `"sųstradańje"`;
+
+exports[`descientify sųvlađenıje 1`] = `"sųvlađeńje"`;
+
+exports[`descientify sųzvězdıje 1`] = `"sųzvězďje"`;
+
+exports[`descientify sųćstvèno 1`] = `"sųćstvėno"`;
+
+exports[`descientify sųćstvèny 1`] = `"sųćstvėny"`;
+
+exports[`descientify sųđenıje 1`] = `"sųđeńje"`;
+
+exports[`descientify sṙna 1`] = `"srna"`;
+
+exports[`descientify s’biranıje 1`] = `"sbirańje"`;
+
+exports[`descientify s’birati 1`] = `"sbirati"`;
+
+exports[`descientify s’birati sę 1`] = `"sbirati sę"`;
+
+exports[`descientify s’birka 1`] = `"sbirka"`;
+
+exports[`descientify s’bližanıje 1`] = `"sbližańje"`;
+
+exports[`descientify s’bližati sę 1`] = `"sbližati sę"`;
+
+exports[`descientify s’bližiti sę 1`] = `"sbližiti sę"`;
+
+exports[`descientify s’bogom! 1`] = `"sbogom!"`;
+
+exports[`descientify s’bor 1`] = `"sbor"`;
+
+exports[`descientify s’borka 1`] = `"sborka"`;
+
+exports[`descientify s’bornik 1`] = `"sbornik"`;
+
+exports[`descientify s’borny čislovnik 1`] = `"sborny čislovnik"`;
+
+exports[`descientify s’bože 1`] = `"sbože"`;
+
+exports[`descientify s’budovati 1`] = `"sbudovati"`;
+
+exports[`descientify s’běgati sę 1`] = `"sběgati sę"`;
+
+exports[`descientify s’běgti sę 1`] = `"sběgti sę"`;
+
+exports[`descientify s’danlivo 1`] = `"sdanlivo"`;
+
+exports[`descientify s’danlivy 1`] = `"sdanlivy"`;
+
+exports[`descientify s’davati sę 1`] = `"sdavati sę"`;
+
+exports[`descientify s’deformovati 1`] = `"sdeformovati"`;
+
+exports[`descientify s’dirati 1`] = `"sdirati"`;
+
+exports[`descientify s’drèti 1`] = `"sdrėti"`;
+
+exports[`descientify s’drěmnųti 1`] = `"sdrěmnųti"`;
+
+exports[`descientify s’dyhati 1`] = `"sdyhati"`;
+
+exports[`descientify s’dòhnųti 1`] = `"sdȯhnųti"`;
+
+exports[`descientify s’dělati 1`] = `"sdělati"`;
+
+exports[`descientify s’gnesti 1`] = `"sgnesti"`;
+
+exports[`descientify s’gnųti 1`] = `"sgnųti"`;
+
+exports[`descientify s’godno s 1`] = `"sgodno s"`;
+
+exports[`descientify s’grěšiti 1`] = `"sgrěšiti"`;
+
+exports[`descientify s’gybati 1`] = `"sgybati"`;
+
+exports[`descientify s’hoditi 1`] = `"shoditi"`;
+
+exports[`descientify s’hoditi sę 1`] = `"shoditi sę"`;
+
+exports[`descientify s’hodka 1`] = `"shodka"`;
+
+exports[`descientify s’hodnosť 1`] = `"shodnosť"`;
+
+exports[`descientify s’hodny 1`] = `"shodny"`;
+
+exports[`descientify s’hovati 1`] = `"shovati"`;
+
+exports[`descientify s’hranjati 1`] = `"shranjati"`;
+
+exports[`descientify s’hråniti 1`] = `"shråniti"`;
+
+exports[`descientify s’hrånjenıje 1`] = `"shrånjeńje"`;
+
+exports[`descientify s’hudnųti 1`] = `"shudnųti"`;
+
+exports[`descientify s’hvatiti 1`] = `"shvatiti"`;
+
+exports[`descientify s’jediniti 1`] = `"sjediniti"`;
+
+exports[`descientify s’jediniti sę 1`] = `"sjediniti sę"`;
+
+exports[`descientify s’jedinjati 1`] = `"sjedinjati"`;
+
+exports[`descientify s’jedinjati sę 1`] = `"sjedinjati sę"`;
+
+exports[`descientify s’jedinjenosť 1`] = `"sjedinjenosť"`;
+
+exports[`descientify s’jedinjeny 1`] = `"sjedinjeny"`;
+
+exports[`descientify s’jedinjenıje 1`] = `"sjedinjeńje"`;
+
+exports[`descientify s’jem 1`] = `"sjem"`;
+
+exports[`descientify s’jęti 1`] = `"sjęti"`;
+
+exports[`descientify s’jědeny 1`] = `"sjedeny"`;
+
+exports[`descientify s’jěsti 1`] = `"sjesti"`;
+
+exports[`descientify s’jězd 1`] = `"sjezd"`;
+
+exports[`descientify s’kamenělosť 1`] = `"skamenělosť"`;
+
+exports[`descientify s’kameněly 1`] = `"skameněly"`;
+
+exports[`descientify s’kazati 1`] = `"skazati"`;
+
+exports[`descientify s’kazka 1`] = `"skazka"`;
+
+exports[`descientify s’klad 1`] = `"sklad"`;
+
+exports[`descientify s’kladati 1`] = `"skladati"`;
+
+exports[`descientify s’kladati sę 1`] = `"skladati sę"`;
+
+exports[`descientify s’kladati sę iz 1`] = `"skladati sę iz"`;
+
+exports[`descientify s’kladišče 1`] = `"skladišče"`;
+
+exports[`descientify s’kladovati 1`] = `"skladovati"`;
+
+exports[`descientify s’klanjati 1`] = `"sklanjati"`;
+
+exports[`descientify s’klanjati sę k 1`] = `"sklanjati sę k"`;
+
+exports[`descientify s’klejiti 1`] = `"sklejiti"`;
+
+exports[`descientify s’klon 1`] = `"sklon"`;
+
+exports[`descientify s’kloniti 1`] = `"skloniti"`;
+
+exports[`descientify s’kloniti sę k 1`] = `"skloniti sę k"`;
+
+exports[`descientify s’klonjenıje 1`] = `"sklonjeńje"`;
+
+exports[`descientify s’klonnosť 1`] = `"sklonnosť"`;
+
+exports[`descientify s’klonny 1`] = `"sklonny"`;
+
+exports[`descientify s’kombinovati 1`] = `"skombinovati"`;
+
+exports[`descientify s’kompensovati 1`] = `"skompensovati"`;
+
+exports[`descientify s’komplikovati 1`] = `"skomplikovati"`;
+
+exports[`descientify s’konfiskovati 1`] = `"skonfiskovati"`;
+
+exports[`descientify s’konstruovany język 1`] = `"skonstruovany język"`;
+
+exports[`descientify s’končiti 1`] = `"skončiti"`;
+
+exports[`descientify s’končiti sę 1`] = `"skončiti sę"`;
+
+exports[`descientify s’kraćati 1`] = `"skraćati"`;
+
+exports[`descientify s’kriviti 1`] = `"skriviti"`;
+
+exports[`descientify s’kryti 1`] = `"skryti"`;
+
+exports[`descientify s’kryti sę 1`] = `"skryti sę"`;
+
+exports[`descientify s’kryto 1`] = `"skryto"`;
+
+exports[`descientify s’kryty 1`] = `"skryty"`;
+
+exports[`descientify s’kryvati 1`] = `"skryvati"`;
+
+exports[`descientify s’kryvati sę 1`] = `"skryvati sę"`;
+
+exports[`descientify s’kråtiti 1`] = `"skråtiti"`;
+
+exports[`descientify s’kråćeny 1`] = `"skråćeny"`;
+
+exports[`descientify s’kråćenıje 1`] = `"skråćeńje"`;
+
+exports[`descientify s’kuhati 1`] = `"skuhati"`;
+
+exports[`descientify s’kupina 1`] = `"skupina"`;
+
+exports[`descientify s’kŀzavka 1`] = `"skȯlzavka"`;
+
+exports[`descientify s’lgati 1`] = `"slgati"`;
+
+exports[`descientify s’liti sę 1`] = `"sliti sę"`;
+
+exports[`descientify s’livanıje 1`] = `"slivańje"`;
+
+exports[`descientify s’livati sę 1`] = `"slivati sę"`;
+
+exports[`descientify s’log 1`] = `"slog"`;
+
+exports[`descientify s’lomiti 1`] = `"slomiti"`;
+
+exports[`descientify s’lomjeny 1`] = `"slomjeny"`;
+
+exports[`descientify s’loženo slovo 1`] = `"složeno slovo"`;
+
+exports[`descientify s’loženosť 1`] = `"složenosť"`;
+
+exports[`descientify s’loženy 1`] = `"složeny"`;
+
+exports[`descientify s’ložiti 1`] = `"složiti"`;
+
+exports[`descientify s’ložiti sę 1`] = `"složiti sę"`;
+
+exports[`descientify s’lučaj 1`] = `"slučaj"`;
+
+exports[`descientify s’lučajno 1`] = `"slučajno"`;
+
+exports[`descientify s’lučajnosť 1`] = `"slučajnosť"`;
+
+exports[`descientify s’lučajny 1`] = `"slučajny"`;
+
+exports[`descientify s’lučati sę 1`] = `"slučati sę"`;
+
+exports[`descientify s’lučiti sę 1`] = `"slučiti sę"`;
+
+exports[`descientify s’lučka 1`] = `"slučka"`;
+
+exports[`descientify s’lègka 1`] = `"slėgka"`;
+
+exports[`descientify s’lězi iz mene! 1`] = `"slězi iz mene!"`;
+
+exports[`descientify s’lųčati 1`] = `"slųčati"`;
+
+exports[`descientify s’lųčiti 1`] = `"slųčiti"`;
+
+exports[`descientify s’meti 1`] = `"smeti"`;
+
+exports[`descientify s’meť 1`] = `"smeť"`;
+
+exports[`descientify s’mlåtiti 1`] = `"smlåtiti"`;
+
+exports[`descientify s’mlėti 1`] = `"smlěti"`;
+
+exports[`descientify s’mogti 1`] = `"smogti"`;
+
+exports[`descientify s’mućati 1`] = `"smućati"`;
+
+exports[`descientify s’mykati 1`] = `"smykati"`;
+
+exports[`descientify s’mysl 1`] = `"smysl"`;
+
+exports[`descientify s’mysly 1`] = `"smysly"`;
+
+exports[`descientify s’mysľny 1`] = `"smysľny"`;
+
+exports[`descientify s’mènšati 1`] = `"smėnšati"`;
+
+exports[`descientify s’mènšenıje 1`] = `"smėnšeńje"`;
+
+exports[`descientify s’mènšiti 1`] = `"smėnšiti"`;
+
+exports[`descientify s’mękčati 1`] = `"smękčati"`;
+
+exports[`descientify s’mękčiti 1`] = `"smękčiti"`;
+
+exports[`descientify s’mętenıje 1`] = `"smęteńje"`;
+
+exports[`descientify s’męčkati 1`] = `"smęčkati"`;
+
+exports[`descientify s’měna 1`] = `"směna"`;
+
+exports[`descientify s’měr 1`] = `"směr"`;
+
+exports[`descientify s’měrnica 1`] = `"směrnica"`;
+
+exports[`descientify s’měs 1`] = `"směs"`;
+
+exports[`descientify s’města 1`] = `"směsta"`;
+
+exports[`descientify s’měšany 1`] = `"směšany"`;
+
+exports[`descientify s’měšati 1`] = `"směšati"`;
+
+exports[`descientify s’měšivati 1`] = `"směšivati"`;
+
+exports[`descientify s’mųtiti 1`] = `"smųtiti"`;
+
+exports[`descientify s’mųtno 1`] = `"smųtno"`;
+
+exports[`descientify s’mųtny 1`] = `"smųtny"`;
+
+exports[`descientify s’mųtòk 1`] = `"smųtȯk"`;
+
+exports[`descientify s’mųćati 1`] = `"smųćati"`;
+
+exports[`descientify s’mųćeny 1`] = `"smųćeny"`;
+
+exports[`descientify s’mṙščeny 1`] = `"smrščeny"`;
+
+exports[`descientify s’mṙščiti 1`] = `"smrščiti"`;
+
+exports[`descientify s’mṙščiti brvi 1`] = `"smrščiti brvi"`;
+
+exports[`descientify s’mṙščiti sę 1`] = `"smrščiti sę"`;
+
+exports[`descientify s’nabděti 1`] = `"snabděti"`;
+
+exports[`descientify s’nabděvati 1`] = `"snabděvati"`;
+
+exports[`descientify s’nesti 1`] = `"snesti"`;
+
+exports[`descientify s’netvarjati 1`] = `"snetvarjati"`;
+
+exports[`descientify s’netvoriti 1`] = `"snetvoriti"`;
+
+exports[`descientify s’nimòk 1`] = `"snimȯk"`;
+
+exports[`descientify s’niziti 1`] = `"sniziti"`;
+
+exports[`descientify s’nizu 1`] = `"snizu"`;
+
+exports[`descientify s’nižati 1`] = `"snižati"`;
+
+exports[`descientify s’niženıje 1`] = `"snižeńje"`;
+
+exports[`descientify s’nižka 1`] = `"snižka"`;
+
+exports[`descientify s’nositi 1`] = `"snositi"`;
+
+exports[`descientify s’nosny 1`] = `"snosny"`;
+
+exports[`descientify s’nova 1`] = `"snova"`;
+
+exports[`descientify s’nova i s’nova 1`] = `"snova i snova"`;
+
+exports[`descientify s’nuđeny 1`] = `"snuđeny"`;
+
+exports[`descientify s’pad 1`] = `"spad"`;
+
+exports[`descientify s’padati 1`] = `"spadati"`;
+
+exports[`descientify s’pakovati 1`] = `"spakovati"`;
+
+exports[`descientify s’pakovati sę 1`] = `"spakovati sę"`;
+
+exports[`descientify s’paliti 1`] = `"spaliti"`;
+
+exports[`descientify s’pasati 1`] = `"spasati"`;
+
+exports[`descientify s’pasenıje 1`] = `"spaseńje"`;
+
+exports[`descientify s’pasitelj 1`] = `"spasitelj"`;
+
+exports[`descientify s’pasti 1`] = `"spasti"`;
+
+exports[`descientify s’pirati sę 1`] = `"spirati sę"`;
+
+exports[`descientify s’pis 1`] = `"spis"`;
+
+exports[`descientify s’pisati 1`] = `"spisati"`;
+
+exports[`descientify s’pisyvati 1`] = `"spisyvati"`;
+
+exports[`descientify s’pisòk 1`] = `"spisȯk"`;
+
+exports[`descientify s’plesti 1`] = `"splesti"`;
+
+exports[`descientify s’ploditi 1`] = `"sploditi"`;
+
+exports[`descientify s’podnica 1`] = `"spodnica"`;
+
+exports[`descientify s’pokròvnjeny 1`] = `"spokrȯvnjeny"`;
+
+exports[`descientify s’pomaliti 1`] = `"spomaliti"`;
+
+exports[`descientify s’pomaljati 1`] = `"spomaljati"`;
+
+exports[`descientify s’pomaljenıje 1`] = `"spomaljeńje"`;
+
+exports[`descientify s’pominati 1`] = `"spominati"`;
+
+exports[`descientify s’pomněti 1`] = `"spomněti"`;
+
+exports[`descientify s’pona 1`] = `"spona"`;
+
+exports[`descientify s’ponka 1`] = `"sponka"`;
+
+exports[`descientify s’por 1`] = `"spor"`;
+
+exports[`descientify s’poriti 1`] = `"sporiti"`;
+
+exports[`descientify s’porlivy 1`] = `"sporlivy"`;
+
+exports[`descientify s’porno 1`] = `"sporno"`;
+
+exports[`descientify s’porny 1`] = `"sporny"`;
+
+exports[`descientify s’poråzuměvanıje 1`] = `"sporåzuměvańje"`;
+
+exports[`descientify s’potiti sę 1`] = `"spotiti sę"`;
+
+exports[`descientify s’potknųti sę 1`] = `"spotknųti sę"`;
+
+exports[`descientify s’potrėbitelj 1`] = `"spotrěbitelj"`;
+
+exports[`descientify s’potrėbiti 1`] = `"spotrěbiti"`;
+
+exports[`descientify s’potrėbjenıje 1`] = `"spotrěbjeńje"`;
+
+exports[`descientify s’potrėbovati 1`] = `"spotrěbovati"`;
+
+exports[`descientify s’potykati sę 1`] = `"spotykati sę"`;
+
+exports[`descientify s’potěti 1`] = `"spotěti"`;
+
+exports[`descientify s’pozdniti sę 1`] = `"spozdniti sę"`;
+
+exports[`descientify s’pozdnjati sę 1`] = `"spozdnjati sę"`;
+
+exports[`descientify s’pozdnjenıje 1`] = `"spozdnjeńje"`;
+
+exports[`descientify s’poznati 1`] = `"spoznati"`;
+
+exports[`descientify s’poznavati 1`] = `"spoznavati"`;
+
+exports[`descientify s’pravědlivosť 1`] = `"spravědlivosť"`;
+
+exports[`descientify s’pravědlivy 1`] = `"spravědlivy"`;
+
+exports[`descientify s’prašati 1`] = `"sprašati"`;
+
+exports[`descientify s’prijateliti sę 1`] = `"sprijateliti sę"`;
+
+exports[`descientify s’prositi 1`] = `"sprositi"`;
+
+exports[`descientify s’protiviti sę 1`] = `"sprotiviti sę"`;
+
+exports[`descientify s’protivjenıje 1`] = `"sprotivjeńje"`;
+
+exports[`descientify s’provađati 1`] = `"sprovađati"`;
+
+exports[`descientify s’provoditi 1`] = `"sprovoditi"`;
+
+exports[`descientify s’prėdu 1`] = `"sprědu"`;
+
+exports[`descientify s’prėti sę 1`] = `"sprěti sę"`;
+
+exports[`descientify s’pręgati 1`] = `"spręgati"`;
+
+exports[`descientify s’pręsti 1`] = `"spręsti"`;
+
+exports[`descientify s’pręženıje 1`] = `"spręžeńje"`;
+
+exports[`descientify s’puhnųti 1`] = `"spuhnųti"`;
+
+exports[`descientify s’pust 1`] = `"spust"`;
+
+exports[`descientify s’pustiti 1`] = `"spustiti"`;
+
+exports[`descientify s’pustiti sę 1`] = `"spustiti sę"`;
+
+exports[`descientify s’pušćati 1`] = `"spušćati"`;
+
+exports[`descientify s’pušćati sę 1`] = `"spušćati sę"`;
+
+exports[`descientify s’pušćenıje 1`] = `"spušćeńje"`;
+
+exports[`descientify s’pytati 1`] = `"spytati"`;
+
+exports[`descientify s’pěvanıje 1`] = `"spěvańje"`;
+
+exports[`descientify s’pěvati 1`] = `"spěvati"`;
+
+exports[`descientify s’pųtnik 1`] = `"spųtnik"`;
+
+exports[`descientify s’rastanıje 1`] = `"srastańje"`;
+
+exports[`descientify s’rastati sę 1`] = `"srastati sę"`;
+
+exports[`descientify s’rodnica 1`] = `"srodnica"`;
+
+exports[`descientify s’rodnik 1`] = `"srodnik"`;
+
+exports[`descientify s’rodno slovo 1`] = `"srodno slovo"`;
+
+exports[`descientify s’rodny 1`] = `"srodny"`;
+
+exports[`descientify s’rodstvo 1`] = `"srodstvo"`;
+
+exports[`descientify s’ruinovati 1`] = `"sruinovati"`;
+
+exports[`descientify s’råst 1`] = `"sråst"`;
+
+exports[`descientify s’råsti sę 1`] = `"sråsti sę"`;
+
+exports[`descientify s’råvnimy 1`] = `"sråvnimy"`;
+
+exports[`descientify s’råvniteljny 1`] = `"sråvniteljny"`;
+
+exports[`descientify s’råvniti 1`] = `"sråvniti"`;
+
+exports[`descientify s’råvnjati 1`] = `"sråvnjati"`;
+
+exports[`descientify s’råvnjenıje 1`] = `"sråvnjeńje"`;
+
+exports[`descientify s’råzumělosť 1`] = `"sråzumělosť"`;
+
+exports[`descientify s’råzuměti 1`] = `"sråzuměti"`;
+
+exports[`descientify s’rųbati 1`] = `"srųbati"`;
+
+exports[`descientify s’rųbyvati 1`] = `"srųbyvati"`;
+
+exports[`descientify s’rųčny 1`] = `"srųčny"`;
+
+exports[`descientify s’sora 1`] = `"ssora"`;
+
+exports[`descientify s’sęsti sę 1`] = `"ssęsti sę"`;
+
+exports[`descientify s’sědati sę 1`] = `"ssědati sę"`;
+
+exports[`descientify s’tapjati 1`] = `"stapjati"`;
+
+exports[`descientify s’tekti 1`] = `"stekti"`;
+
+exports[`descientify s’tečenıje 1`] = `"stečeńje"`;
+
+exports[`descientify s’tiskati 1`] = `"stiskati"`;
+
+exports[`descientify s’tisknųti 1`] = `"stisknųti"`;
+
+exports[`descientify s’topiti 1`] = `"stopiti"`;
+
+exports[`descientify s’topjenıje 1`] = `"stopjeńje"`;
+
+exports[`descientify s’trimati 1`] = `"strimati"`;
+
+exports[`descientify s’trimyvati 1`] = `"strimyvati"`;
+
+exports[`descientify s’tręsenıje 1`] = `"stręseńje"`;
+
+exports[`descientify s’tręsenıje mozga 1`] = `"stręseńje mozga"`;
+
+exports[`descientify s’tvarjati 1`] = `"stvarjati"`;
+
+exports[`descientify s’tvor 1`] = `"stvor"`;
+
+exports[`descientify s’tvoriti 1`] = `"stvoriti"`;
+
+exports[`descientify s’tvorjenıje 1`] = `"stvorjeńje"`;
+
+exports[`descientify s’tvår 1`] = `"stvår"`;
+
+exports[`descientify s’tvårno 1`] = `"stvårno"`;
+
+exports[`descientify s’tvårnosť 1`] = `"stvårnosť"`;
+
+exports[`descientify s’tvŕditi 1`] = `"stvŕditi"`;
+
+exports[`descientify s’tyk 1`] = `"styk"`;
+
+exports[`descientify s’tyčènj 1`] = `"styčėnj"`;
+
+exports[`descientify s’vabiti 1`] = `"svabiti"`;
+
+exports[`descientify s’variti 1`] = `"svariti"`;
+
+exports[`descientify s’varjati 1`] = `"svarjati"`;
+
+exports[`descientify s’viti 1`] = `"sviti"`;
+
+exports[`descientify s’vitòk 1`] = `"svitȯk"`;
+
+exports[`descientify s’vod 1`] = `"svod"`;
+
+exports[`descientify s’vodnik 1`] = `"svodnik"`;
+
+exports[`descientify s’vråtno 1`] = `"svråtno"`;
+
+exports[`descientify s’vråtny 1`] = `"svråtny"`;
+
+exports[`descientify s’vęzany 1`] = `"svęzany"`;
+
+exports[`descientify s’vęzati 1`] = `"svęzati"`;
+
+exports[`descientify s’vęzati šnurom 1`] = `"svęzati šnurom"`;
+
+exports[`descientify s’vęzyvati 1`] = `"svęzyvati"`;
+
+exports[`descientify s’vęzyvati šnurom 1`] = `"svęzyvati šnurom"`;
+
+exports[`descientify s’vęzòk 1`] = `"svęzȯk"`;
+
+exports[`descientify s’vęź 1`] = `"svęź"`;
+
+exports[`descientify s’vědomo 1`] = `"svědomo"`;
+
+exports[`descientify s’vědomosť 1`] = `"svědomosť"`;
+
+exports[`descientify s’vědomy 1`] = `"svědomy"`;
+
+exports[`descientify s’vědomıje 1`] = `"svědomje"`;
+
+exports[`descientify s’vědòk 1`] = `"svědȯk"`;
+
+exports[`descientify s’vědòčstvo 1`] = `"svědȯčstvo"`;
+
+exports[`descientify s’vědčiti 1`] = `"svědčiti"`;
+
+exports[`descientify s’věriti sę 1`] = `"svěriti sę"`;
+
+exports[`descientify s’věrjati sę 1`] = `"svěrjati sę"`;
+
+exports[`descientify s’věstny 1`] = `"svěstny"`;
+
+exports[`descientify s’věsť 1`] = `"svěsť"`;
+
+exports[`descientify s’vŕdlo 1`] = `"svŕdlo"`;
+
+exports[`descientify s’vŕgati 1`] = `"svŕgati"`;
+
+exports[`descientify s’vŕgnųti 1`] = `"svŕgnųti"`;
+
+exports[`descientify s’vŕh- 1`] = `"svŕh-"`;
+
+exports[`descientify s’vŕhny 1`] = `"svŕhny"`;
+
+exports[`descientify s’vŕhu 1`] = `"svŕhu"`;
+
+exports[`descientify s’zadu 1`] = `"szadu"`;
+
+exports[`descientify s’čet 1`] = `"sčet"`;
+
+exports[`descientify s’čisliti 1`] = `"sčisliti"`;
+
+exports[`descientify s’čitati 1`] = `"sčitati"`;
+
+exports[`descientify s’čityvati 1`] = `"sčityvati"`;
+
+exports[`descientify tajenıje 1`] = `"tajeńje"`;
+
+exports[`descientify tajnopisèc 1`] = `"tajnopisėc"`;
+
+exports[`descientify tanèc 1`] = `"tanėc"`;
+
+exports[`descientify televiděnıje 1`] = `"televiděńje"`;
+
+exports[`descientify terapeùt 1`] = `"terapevt"`;
+
+exports[`descientify tečenıje 1`] = `"tečeńje"`;
+
+exports[`descientify tlěnıje 1`] = `"tlěńje"`;
+
+exports[`descientify torba do spanıja 1`] = `"torba do spańja"`;
+
+exports[`descientify točka zrěnıja 1`] = `"točka zrěńja"`;
+
+exports[`descientify travjenıje 1`] = `"travjeńje"`;
+
+exports[`descientify travojěd 1`] = `"travojed"`;
+
+exports[`descientify travojědny 1`] = `"travojedny"`;
+
+exports[`descientify travènj 1`] = `"travėnj"`;
+
+exports[`descientify traùma 1`] = `"travma"`;
+
+exports[`descientify traùmatizovati 1`] = `"travmatizovati"`;
+
+exports[`descientify trivųgòľnik 1`] = `"trivųgȯľnik"`;
+
+exports[`descientify trizųbèc 1`] = `"trizųbėc"`;
+
+exports[`descientify trudoljubıje 1`] = `"trudoljubje"`;
+
+exports[`descientify trutènj 1`] = `"trutėnj"`;
+
+exports[`descientify trèti 1`] = `"trėti"`;
+
+exports[`descientify trèvoga 1`] = `"trėvoga"`;
+
+exports[`descientify trèvožiti 1`] = `"trėvožiti"`;
+
+exports[`descientify trèvožiti sę 1`] = `"trėvožiti sę"`;
+
+exports[`descientify trèvožny 1`] = `"trėvožny"`;
+
+exports[`descientify trėba 1`] = `"trěba"`;
+
+exports[`descientify trėba by bylo 1`] = `"trěba by bylo"`;
+
+exports[`descientify trėba priznati 1`] = `"trěba priznati"`;
+
+exports[`descientify trėbovanıje 1`] = `"trěbovańje"`;
+
+exports[`descientify trėbovati 1`] = `"trěbovati"`;
+
+exports[`descientify trėzvy 1`] = `"trězvy"`;
+
+exports[`descientify trėzvěti 1`] = `"trězvěti"`;
+
+exports[`descientify tręsenıje 1`] = `"tręseńje"`;
+
+exports[`descientify trųbka poživjenıja 1`] = `"trųbka poživjeńja"`;
+
+exports[`descientify tunèc 1`] = `"tunėc"`;
+
+exports[`descientify turèčsky 1`] = `"turėčsky"`;
+
+exports[`descientify tutdènj 1`] = `"tutdėnj"`;
+
+exports[`descientify tuzemèc 1`] = `"tuzemėc"`;
+
+exports[`descientify tvorjenıje 1`] = `"tvorjeńje"`;
+
+exports[`descientify tvorèc 1`] = `"tvorėc"`;
+
+exports[`descientify tvorčıji 1`] = `"tvorčji"`;
+
+exports[`descientify tvŕđenıje 1`] = `"tvŕđeńje"`;
+
+exports[`descientify tydènj 1`] = `"tydėnj"`;
+
+exports[`descientify tykaḓlo 1`] = `"tykalo"`;
+
+exports[`descientify tym ne mènje 1`] = `"tym ne mėnje"`;
+
+exports[`descientify tysęćlětıje 1`] = `"tysęćlětje"`;
+
+exports[`descientify tysęćročıje 1`] = `"tysęćročje"`;
+
+exports[`descientify tènky 1`] = `"tėnky"`;
+
+exports[`descientify tògda, tògdy 1`] = `"tȯgda, tȯgdy"`;
+
+exports[`descientify tònky 1`] = `"tȯnky"`;
+
+exports[`descientify tòptati 1`] = `"tȯptati"`;
+
+exports[`descientify tòž 1`] = `"tȯž"`;
+
+exports[`descientify tŀkti 1`] = `"tȯlkti"`;
+
+exports[`descientify tŀmač 1`] = `"tȯlmač"`;
+
+exports[`descientify tŀmačenıje 1`] = `"tȯlmačeńje"`;
+
+exports[`descientify tŀmačiti 1`] = `"tȯlmačiti"`;
+
+exports[`descientify tŀpa 1`] = `"tȯlpa"`;
+
+exports[`descientify tŀsto piśmo 1`] = `"tȯlsto piśmo"`;
+
+exports[`descientify tŀstosť 1`] = `"tȯlstosť"`;
+
+exports[`descientify tŀsty 1`] = `"tȯlsty"`;
+
+exports[`descientify tṙg 1`] = `"trg"`;
+
+exports[`descientify tṙgati 1`] = `"trgati"`;
+
+exports[`descientify tṙgnųti 1`] = `"trgnųti"`;
+
+exports[`descientify tṙgovanıje 1`] = `"trgovańje"`;
+
+exports[`descientify tṙgovati 1`] = `"trgovati"`;
+
+exports[`descientify tṙgovišče 1`] = `"trgovišče"`;
+
+exports[`descientify tṙgovja 1`] = `"trgovja"`;
+
+exports[`descientify tṙgovnik 1`] = `"trgovnik"`;
+
+exports[`descientify tṙgovy 1`] = `"trgovy"`;
+
+exports[`descientify tṙgovèc 1`] = `"trgovėc"`;
+
+exports[`descientify tṙvaly 1`] = `"trvaly"`;
+
+exports[`descientify tṙvanıje 1`] = `"trvańje"`;
+
+exports[`descientify tṙvati 1`] = `"trvati"`;
+
+exports[`descientify uběđenıje 1`] = `"uběđeńje"`;
+
+exports[`descientify udaljenıje 1`] = `"udaljeńje"`;
+
+exports[`descientify udarjenıje 1`] = `"udarjeńje"`;
+
+exports[`descientify udivjenıje 1`] = `"udivjeńje"`;
+
+exports[`descientify ugadyvanıje 1`] = `"ugadyvańje"`;
+
+exports[`descientify uj, ujèc 1`] = `"uj, ujėc"`;
+
+exports[`descientify ujěhati 1`] = `"ujehati"`;
+
+exports[`descientify ujěžđati 1`] = `"uježđati"`;
+
+exports[`descientify ukazanıje 1`] = `"ukazańje"`;
+
+exports[`descientify ukrađenıje 1`] = `"ukrađeńje"`;
+
+exports[`descientify ukrašenıje 1`] = `"ukrašeńje"`;
+
+exports[`descientify ukryvanıje 1`] = `"ukryvańje"`;
+
+exports[`descientify ulomòk 1`] = `"ulomȯk"`;
+
+exports[`descientify ulučšenıje 1`] = `"ulučšeńje"`;
+
+exports[`descientify ulègšati 1`] = `"ulėgšati"`;
+
+exports[`descientify ulègšiti 1`] = `"ulėgšiti"`;
+
+exports[`descientify ulěpšenıje 1`] = `"ulěpšeńje"`;
+
+exports[`descientify umorjenıje 1`] = `"umorjeńje"`;
+
+exports[`descientify umoḓliti 1`] = `"umoliti"`;
+
+exports[`descientify umoḓljati 1`] = `"umoljati"`;
+
+exports[`descientify umrèti 1`] = `"umrėti"`;
+
+exports[`descientify umènšati 1`] = `"umėnšati"`;
+
+exports[`descientify umènšiti 1`] = `"umėnšiti"`;
+
+exports[`descientify uměnıje 1`] = `"uměńje"`;
+
+exports[`descientify uměšćenıje 1`] = `"uměšćeńje"`;
+
+exports[`descientify unarodnjenıje 1`] = `"unarodnjeńje"`;
+
+exports[`descientify uniščenıje 1`] = `"uniščeńje"`;
+
+exports[`descientify uniženıje 1`] = `"unižeńje"`;
+
+exports[`descientify uosobjenıje 1`] = `"uosobjeńje"`;
+
+exports[`descientify upadòk 1`] = `"upadȯk"`;
+
+exports[`descientify upotrėba 1`] = `"upotrěba"`;
+
+exports[`descientify upotrėbimy 1`] = `"upotrěbimy"`;
+
+exports[`descientify upotrėbitelj 1`] = `"upotrěbitelj"`;
+
+exports[`descientify upotrėbiti 1`] = `"upotrěbiti"`;
+
+exports[`descientify upotrėbjati 1`] = `"upotrěbjati"`;
+
+exports[`descientify upotrėbjenıje 1`] = `"upotrěbjeńje"`;
+
+exports[`descientify upravjenıje 1`] = `"upravjeńje"`;
+
+exports[`descientify upŀnomoćeny 1`] = `"upȯlnomoćeny"`;
+
+exports[`descientify upŀnomoćevati 1`] = `"upȯlnomoćevati"`;
+
+exports[`descientify upŀnomoćiti 1`] = `"upȯlnomoćiti"`;
+
+exports[`descientify urođenıje 1`] = `"urođeńje"`;
+
+exports[`descientify uråvènj 1`] = `"uråvėnj"`;
+
+exports[`descientify usiljenıje 1`] = `"usiljeńje"`;
+
+exports[`descientify usilıje 1`] = `"usiľje"`;
+
+exports[`descientify uskorjenıje 1`] = `"uskorjeńje"`;
+
+exports[`descientify uslovıje 1`] = `"uslovje"`;
+
+exports[`descientify uspokojenıje 1`] = `"uspokojeńje"`;
+
+exports[`descientify uspravědlivjenıje 1`] = `"uspravědlivjeńje"`;
+
+exports[`descientify ustavjenıje 1`] = `"ustavjeńje"`;
+
+exports[`descientify ustıje 1`] = `"ustje"`;
+
+exports[`descientify ustųpjenıje 1`] = `"ustųpjeńje"`;
+
+exports[`descientify usòhnųti 1`] = `"usȯhnųti"`;
+
+exports[`descientify us’ložniti 1`] = `"usložniti"`;
+
+exports[`descientify us’ložnjati 1`] = `"usložnjati"`;
+
+exports[`descientify utočnjenıje 1`] = `"utočnjeńje"`;
+
+exports[`descientify utraćati vrėmę 1`] = `"utraćati vrěmę"`;
+
+exports[`descientify utrèti 1`] = `"utrėti"`;
+
+exports[`descientify utvŕđenıje 1`] = `"utvŕđeńje"`;
+
+exports[`descientify utěšenıje 1`] = `"utěšeńje"`;
+
+exports[`descientify uvažanıje 1`] = `"uvažańje"`;
+
+exports[`descientify uveličenıje 1`] = `"uveličeńje"`;
+
+exports[`descientify uvědomjenıje 1`] = `"uvědomjeńje"`;
+
+exports[`descientify uznanıje 1`] = `"uznańje"`;
+
+exports[`descientify učenıje 1`] = `"učeńje"`;
+
+exports[`descientify učinòk 1`] = `"učinȯk"`;
+
+exports[`descientify učęstıje 1`] = `"učęstje"`;
+
+exports[`descientify uživanıje 1`] = `"uživańje"`;
+
+exports[`descientify v obličıju prava 1`] = `"v obličju prava"`;
+
+exports[`descientify v obličıju trudnostij 1`] = `"v obličju trudnostij"`;
+
+exports[`descientify v odnošenıju k 1`] = `"v odnošeńju k"`;
+
+exports[`descientify v prošlòm godu 1`] = `"v prošlȯm godu"`;
+
+exports[`descientify v råzličıji od 1`] = `"v råzličji od"`;
+
+exports[`descientify v s’měru strělky časovnika 1`] = `"v směru strělky časovnika"`;
+
+exports[`descientify v s’vęzi s 1`] = `"v svęzi s"`;
+
+exports[`descientify v tečenıju 1`] = `"v tečeńju"`;
+
+exports[`descientify v tom samom vrėmenu 1`] = `"v tom samom vrěmenu"`;
+
+exports[`descientify v vrėmenu 1`] = `"v vrěmenu"`;
+
+exports[`descientify v vśakom s’lučaju 1`] = `"v vśakom slučaju"`;
+
+exports[`descientify v, vò 1`] = `"v, vȯ"`;
+
+exports[`descientify valèc 1`] = `"valėc"`;
+
+exports[`descientify varjenıje 1`] = `"varjeńje"`;
+
+exports[`descientify važenıje 1`] = `"važeńje"`;
+
+exports[`descientify vdovèc 1`] = `"vdovėc"`;
+
+exports[`descientify vegetarianèc 1`] = `"vegetarianėc"`;
+
+exports[`descientify veliky palèc 1`] = `"veliky palėc"`;
+
+exports[`descientify veličıje 1`] = `"veličje"`;
+
+exports[`descientify veseljanıje 1`] = `"veseljańje"`;
+
+exports[`descientify veselıje 1`] = `"veseľje"`;
+
+exports[`descientify večeròm 1`] = `"večerȯm"`;
+
+exports[`descientify viděnıje 1`] = `"viděńje"`;
+
+exports[`descientify vihòr 1`] = `"vihȯr"`;
+
+exports[`descientify vinobranıje 1`] = `"vinobrańje"`;
+
+exports[`descientify visęći zamòk 1`] = `"visęći zamȯk"`;
+
+exports[`descientify vitanıje 1`] = `"vitańje"`;
+
+exports[`descientify viḓlica 1`] = `"vilica"`;
+
+exports[`descientify viḓly 1`] = `"vily"`;
+
+exports[`descientify vladèc 1`] = `"vladėc"`;
+
+exports[`descientify vlėkti 1`] = `"vlěkti"`;
+
+exports[`descientify vnųtrny s’por 1`] = `"vnųtrny spor"`;
+
+exports[`descientify voditeljska dòska 1`] = `"voditeljska dȯska"`;
+
+exports[`descientify vodojèm 1`] = `"vodojėm"`;
+
+exports[`descientify vojenno-vòzdušne sily 1`] = `"vojenno-vȯzdušne sily"`;
+
+exports[`descientify vojevničıji 1`] = `"vojevničji"`;
+
+exports[`descientify voljno vrėmę 1`] = `"voljno vrěmę"`;
+
+exports[`descientify voziḓlo 1`] = `"vozilo"`;
+
+exports[`descientify voziḓlo na vòzdušnoj poduškě 1`] = `"vozilo na vȯzdušnoj poduškě"`;
+
+exports[`descientify vozòk 1`] = `"vozȯk"`;
+
+exports[`descientify vođenıje 1`] = `"vođeńje"`;
+
+exports[`descientify vresènj 1`] = `"vresėnj"`;
+
+exports[`descientify vråbèc 1`] = `"vråbėc"`;
+
+exports[`descientify vrėd 1`] = `"vrěd"`;
+
+exports[`descientify vrėdny 1`] = `"vrědny"`;
+
+exports[`descientify vrėmenny 1`] = `"vrěmenny"`;
+
+exports[`descientify vrėmę 1`] = `"vrěmę"`;
+
+exports[`descientify vrėmę goda 1`] = `"vrěmę goda"`;
+
+exports[`descientify vrėmę roka 1`] = `"vrěmę roka"`;
+
+exports[`descientify vrės 1`] = `"vrěs"`;
+
+exports[`descientify vrėsk 1`] = `"vrěsk"`;
+
+exports[`descientify vrėteno 1`] = `"vrěteno"`;
+
+exports[`descientify vrėća 1`] = `"vrěća"`;
+
+exports[`descientify vrėščati 1`] = `"vrěščati"`;
+
+exports[`descientify vsejěd 1`] = `"vsejed"`;
+
+exports[`descientify vsejědny 1`] = `"vsejedny"`;
+
+exports[`descientify vsežerèc 1`] = `"vsežerėc"`;
+
+exports[`descientify vsežèrny 1`] = `"vsežėrny"`;
+
+exports[`descientify vtoròk 1`] = `"vtorȯk"`;
+
+exports[`descientify vysluženèc 1`] = `"vysluženėc"`;
+
+exports[`descientify vysmṙkati sę 1`] = `"vysmrkati sę"`;
+
+exports[`descientify vzajemodějanıje 1`] = `"vzajemodějańje"`;
+
+exports[`descientify vèlžnosť 1`] = `"vėlžnosť"`;
+
+exports[`descientify vèlžny 1`] = `"vėlžny"`;
+
+exports[`descientify vèś 1`] = `"vėś"`;
+
+exports[`descientify vòdle 1`] = `"vȯdle"`;
+
+exports[`descientify vòjdti 1`] = `"vȯjdti"`;
+
+exports[`descientify vòobražati sobě 1`] = `"vȯobražati sobě"`;
+
+exports[`descientify vòobraženıje 1`] = `"vȯobražeńje"`;
+
+exports[`descientify vòobće 1`] = `"vȯobće"`;
+
+exports[`descientify vòorųženy 1`] = `"vȯorųženy"`;
+
+exports[`descientify vòorųžiti 1`] = `"vȯorųžiti"`;
+
+exports[`descientify vòphati 1`] = `"vȯphati"`;
+
+exports[`descientify vòplòtiti 1`] = `"vȯplȯtiti"`;
+
+exports[`descientify vòplòćati 1`] = `"vȯplȯćati"`;
+
+exports[`descientify vòpros 1`] = `"vȯpros"`;
+
+exports[`descientify vòprosnik 1`] = `"vȯprosnik"`;
+
+exports[`descientify vòzbita smetana 1`] = `"vȯzbita smetana"`;
+
+exports[`descientify vòzbito těsto 1`] = `"vȯzbito těsto"`;
+
+exports[`descientify vòzbogatiti 1`] = `"vȯzbogatiti"`;
+
+exports[`descientify vòzbogaćati 1`] = `"vȯzbogaćati"`;
+
+exports[`descientify vòzbranjati 1`] = `"vȯzbranjati"`;
+
+exports[`descientify vòzbråniti 1`] = `"vȯzbråniti"`;
+
+exports[`descientify vòzbrånjeny 1`] = `"vȯzbrånjeny"`;
+
+exports[`descientify vòzbudimy 1`] = `"vȯzbudimy"`;
+
+exports[`descientify vòzbuditi 1`] = `"vȯzbuditi"`;
+
+exports[`descientify vòzbudlivo 1`] = `"vȯzbudlivo"`;
+
+exports[`descientify vòzbudlivy 1`] = `"vȯzbudlivy"`;
+
+exports[`descientify vòzbuđati 1`] = `"vȯzbuđati"`;
+
+exports[`descientify vòzbuđeny 1`] = `"vȯzbuđeny"`;
+
+exports[`descientify vòzbuđenıje 1`] = `"vȯzbuđeńje"`;
+
+exports[`descientify vòzdati česť 1`] = `"vȯzdati česť"`;
+
+exports[`descientify vòzdavati česť 1`] = `"vȯzdavati česť"`;
+
+exports[`descientify vòzduh 1`] = `"vȯzduh"`;
+
+exports[`descientify vòzduholoď 1`] = `"vȯzduholoď"`;
+
+exports[`descientify vòzduhonosima hvoroba 1`] = `"vȯzduhonosima hvoroba"`;
+
+exports[`descientify vòzduhonosima infekcija 1`] = `"vȯzduhonosima infekcija"`;
+
+exports[`descientify vòzduhonosimo zabolevanıje 1`] = `"vȯzduhonosimo zabolevańje"`;
+
+exports[`descientify vòzduhonosimy 1`] = `"vȯzduhonosimy"`;
+
+exports[`descientify vòzduhonosimy bolez 1`] = `"vȯzduhonosimy bolez"`;
+
+exports[`descientify vòzduhoplavstvo 1`] = `"vȯzduhoplavstvo"`;
+
+exports[`descientify vòzdušna divizija 1`] = `"vȯzdušna divizija"`;
+
+exports[`descientify vòzdušny 1`] = `"vȯzdušny"`;
+
+exports[`descientify vòzdušny prostor 1`] = `"vȯzdušny prostor"`;
+
+exports[`descientify vòzdvigati 1`] = `"vȯzdvigati"`;
+
+exports[`descientify vòzdvignųti 1`] = `"vȯzdvignųti"`;
+
+exports[`descientify vòzdyh 1`] = `"vȯzdyh"`;
+
+exports[`descientify vòzdyhati 1`] = `"vȯzdyhati"`;
+
+exports[`descientify vòzdòhnųti 1`] = `"vȯzdȯhnųti"`;
+
+exports[`descientify vòzdŀž 1`] = `"vȯzdȯlž"`;
+
+exports[`descientify vòzdŕžati sę 1`] = `"vȯzdŕžati sę"`;
+
+exports[`descientify vòzdŕživati sę 1`] = `"vȯzdŕživati sę"`;
+
+exports[`descientify vòzględ 1`] = `"vȯzględ"`;
+
+exports[`descientify vòzhod 1`] = `"vȯzhod"`;
+
+exports[`descientify vòzhod sŀnca 1`] = `"vȯzhod sȯlnca"`;
+
+exports[`descientify vòzhoditi 1`] = `"vȯzhoditi"`;
+
+exports[`descientify vòzhodno 1`] = `"vȯzhodno"`;
+
+exports[`descientify vòzhodnoeùropejsky 1`] = `"vȯzhodnoevropejsky"`;
+
+exports[`descientify vòzhodnoslovjansky 1`] = `"vȯzhodnoslovjansky"`;
+
+exports[`descientify vòzhodny 1`] = `"vȯzhodny"`;
+
+exports[`descientify vòzidti 1`] = `"vȯzidti"`;
+
+exports[`descientify vòzimati 1`] = `"vȯzimati"`;
+
+exports[`descientify vòzjęti 1`] = `"vȯzjęti"`;
+
+exports[`descientify vòzklicanıje 1`] = `"vȯzklicańje"`;
+
+exports[`descientify vòzklicati 1`] = `"vȯzklicati"`;
+
+exports[`descientify vòzklicaľnik 1`] = `"vȯzklicaľnik"`;
+
+exports[`descientify vòzklicaľny 1`] = `"vȯzklicaľny"`;
+
+exports[`descientify vòzklicaľny znak 1`] = `"vȯzklicaľny znak"`;
+
+exports[`descientify vòzklik 1`] = `"vȯzklik"`;
+
+exports[`descientify vòzkliknųti 1`] = `"vȯzkliknųti"`;
+
+exports[`descientify vòzkresati 1`] = `"vȯzkresati"`;
+
+exports[`descientify vòzkresiti 1`] = `"vȯzkresiti"`;
+
+exports[`descientify vòzkresnųti 1`] = `"vȯzkresnųti"`;
+
+exports[`descientify vòzkrešati 1`] = `"vȯzkrešati"`;
+
+exports[`descientify vòzkypyvati 1`] = `"vȯzkypyvati"`;
+
+exports[`descientify vòzletěti 1`] = `"vȯzletěti"`;
+
+exports[`descientify vòzlětati 1`] = `"vȯzlětati"`;
+
+exports[`descientify vòznesti 1`] = `"vȯznesti"`;
+
+exports[`descientify vòznikati 1`] = `"vȯznikati"`;
+
+exports[`descientify vòzniknenıje 1`] = `"vȯznikneńje"`;
+
+exports[`descientify vòzniknųti 1`] = `"vȯzniknųti"`;
+
+exports[`descientify vòznositi 1`] = `"vȯznositi"`;
+
+exports[`descientify vòzpamętati 1`] = `"vȯzpamętati"`;
+
+exports[`descientify vòzpitanıje 1`] = `"vȯzpitańje"`;
+
+exports[`descientify vòzpitati 1`] = `"vȯzpitati"`;
+
+exports[`descientify vòzpominati 1`] = `"vȯzpominati"`;
+
+exports[`descientify vòzpomněnıje 1`] = `"vȯzpomněńje"`;
+
+exports[`descientify vòzpomněti 1`] = `"vȯzpomněti"`;
+
+exports[`descientify vòzprijętıje 1`] = `"vȯzprijętje"`;
+
+exports[`descientify vòzrastati 1`] = `"vȯzrastati"`;
+
+exports[`descientify vòzroditi 1`] = `"vȯzroditi"`;
+
+exports[`descientify vòzrođenıje 1`] = `"vȯzrođeńje"`;
+
+exports[`descientify vòzråst 1`] = `"vȯzråst"`;
+
+exports[`descientify vòzråsti 1`] = `"vȯzråsti"`;
+
+exports[`descientify vòzråstka 1`] = `"vȯzråstka"`;
+
+exports[`descientify vòzråstla 1`] = `"vȯzråstla"`;
+
+exports[`descientify vòzråstlosť 1`] = `"vȯzråstlosť"`;
+
+exports[`descientify vòzråstly 1`] = `"vȯzråstly"`;
+
+exports[`descientify vòzråstòk 1`] = `"vȯzråstȯk"`;
+
+exports[`descientify vòzsiliti 1`] = `"vȯzsiliti"`;
+
+exports[`descientify vòzsilovati 1`] = `"vȯzsilovati"`;
+
+exports[`descientify vòzsilovač 1`] = `"vȯzsilovač"`;
+
+exports[`descientify vòzskakati 1`] = `"vȯzskakati"`;
+
+exports[`descientify vòzskočiti 1`] = `"vȯzskočiti"`;
+
+exports[`descientify vòzstanıje 1`] = `"vȯzstańje"`;
+
+exports[`descientify vòztręsati 1`] = `"vȯztręsati"`;
+
+exports[`descientify vòztręsti 1`] = `"vȯztręsti"`;
+
+exports[`descientify vòzveličati 1`] = `"vȯzveličati"`;
+
+exports[`descientify vòzveličivati 1`] = `"vȯzveličivati"`;
+
+exports[`descientify vòzvesti 1`] = `"vȯzvesti"`;
+
+exports[`descientify vòzvod 1`] = `"vȯzvod"`;
+
+exports[`descientify vòzvoditi 1`] = `"vȯzvoditi"`;
+
+exports[`descientify vòzvraćati 1`] = `"vȯzvraćati"`;
+
+exports[`descientify vòzvråtiti 1`] = `"vȯzvråtiti"`;
+
+exports[`descientify vòzvråtny 1`] = `"vȯzvråtny"`;
+
+exports[`descientify vòzvråćenıje 1`] = `"vȯzvråćeńje"`;
+
+exports[`descientify vòzvysiti 1`] = `"vȯzvysiti"`;
+
+exports[`descientify vòzvyšati 1`] = `"vȯzvyšati"`;
+
+exports[`descientify vòzvyšenosť 1`] = `"vȯzvyšenosť"`;
+
+exports[`descientify vòzvyšeny 1`] = `"vȯzvyšeny"`;
+
+exports[`descientify vòzvyšenıje 1`] = `"vȯzvyšeńje"`;
+
+exports[`descientify vòzvŕšati 1`] = `"vȯzvŕšati"`;
+
+exports[`descientify vòzvŕšenıje 1`] = `"vȯzvŕšeńje"`;
+
+exports[`descientify vòzvŕšiti 1`] = `"vȯzvŕšiti"`;
+
+exports[`descientify vòzzvanıje 1`] = `"vȯzzvańje"`;
+
+exports[`descientify vòš 1`] = `"vȯš"`;
+
+exports[`descientify vędnenıje 1`] = `"vędneńje"`;
+
+exports[`descientify vęzaḓlo 1`] = `"vęzalo"`;
+
+exports[`descientify vęzenıje 1`] = `"vęzeńje"`;
+
+exports[`descientify věděnıje 1`] = `"věděńje"`;
+
+exports[`descientify vějaḓlo 1`] = `"vějalo"`;
+
+exports[`descientify věnèc 1`] = `"věnėc"`;
+
+exports[`descientify větriḓlo 1`] = `"větrilo"`;
+
+exports[`descientify větrèc 1`] = `"větrėc"`;
+
+exports[`descientify vŀga 1`] = `"vȯlga"`;
+
+exports[`descientify vŀgkosť 1`] = `"vȯlgkosť"`;
+
+exports[`descientify vŀgky 1`] = `"vȯlgky"`;
+
+exports[`descientify vŀgnųti 1`] = `"vȯlgnųti"`;
+
+exports[`descientify vŀgota 1`] = `"vȯlgota"`;
+
+exports[`descientify vŀk 1`] = `"vȯlk"`;
+
+exports[`descientify vŀkodav 1`] = `"vȯlkodav"`;
+
+exports[`descientify vŀkolak 1`] = `"vȯlkolak"`;
+
+exports[`descientify vŀna 1`] = `"vȯlna"`;
+
+exports[`descientify vŀnisty papugajek 1`] = `"vȯlnisty papugajek"`;
+
+exports[`descientify vŀčıje lyko 1`] = `"vȯlčje lyko"`;
+
+exports[`descientify vŕhovıje 1`] = `"vŕhovje"`;
+
+exports[`descientify vųgòl 1`] = `"vųgȯl"`;
+
+exports[`descientify vųgòlj 1`] = `"vųgȯlj"`;
+
+exports[`descientify vųgòljny 1`] = `"vųgȯljny"`;
+
+exports[`descientify vųgṙsky 1`] = `"vųgrsky"`;
+
+exports[`descientify vųzèl 1`] = `"vųzėl"`;
+
+exports[`descientify vṙčati 1`] = `"vrčati"`;
+
+exports[`descientify vṙštat 1`] = `"vrštat"`;
+
+exports[`descientify v’dol 1`] = `"vdol"`;
+
+exports[`descientify v’dyhati 1`] = `"vdyhati"`;
+
+exports[`descientify v’dòhnųti 1`] = `"vdȯhnųti"`;
+
+exports[`descientify v’dęčno 1`] = `"vdęčno"`;
+
+exports[`descientify v’dęčnosť 1`] = `"vdęčnosť"`;
+
+exports[`descientify v’dęčny 1`] = `"vdęčny"`;
+
+exports[`descientify v’děti niť v iglų 1`] = `"vděti niť v iglų"`;
+
+exports[`descientify v’děvati niť v iglų 1`] = `"vděvati niť v iglų"`;
+
+exports[`descientify v’ględati sę 1`] = `"vględati sę"`;
+
+exports[`descientify v’ględěti sę 1`] = `"vględěti sę"`;
+
+exports[`descientify v’gorų 1`] = `"vgorų"`;
+
+exports[`descientify v’hod 1`] = `"vhod"`;
+
+exports[`descientify v’hoditi 1`] = `"vhoditi"`;
+
+exports[`descientify v’hodna karta 1`] = `"vhodna karta"`;
+
+exports[`descientify v’hođenıje 1`] = `"vhođeńje"`;
+
+exports[`descientify v’jěhati 1`] = `"vjehati"`;
+
+exports[`descientify v’jěžđati 1`] = `"vježđati"`;
+
+exports[`descientify v’klad 1`] = `"vklad"`;
+
+exports[`descientify v’kladati 1`] = `"vkladati"`;
+
+exports[`descientify v’ključajųći 1`] = `"vključajųći"`;
+
+exports[`descientify v’ključati 1`] = `"vključati"`;
+
+exports[`descientify v’ključenıje 1`] = `"vključeńje"`;
+
+exports[`descientify v’ključiteljny 1`] = `"vključiteljny"`;
+
+exports[`descientify v’ključiti 1`] = `"vključiti"`;
+
+exports[`descientify v’ključno 1`] = `"vključno"`;
+
+exports[`descientify v’kupě 1`] = `"vkupě"`;
+
+exports[`descientify v’kųs 1`] = `"vkųs"`;
+
+exports[`descientify v’kųsiti 1`] = `"vkųsiti"`;
+
+exports[`descientify v’kųsny 1`] = `"vkųsny"`;
+
+exports[`descientify v’kųšati 1`] = `"vkųšati"`;
+
+exports[`descientify v’laganıje 1`] = `"vlagańje"`;
+
+exports[`descientify v’lagatelj 1`] = `"vlagatelj"`;
+
+exports[`descientify v’lagati 1`] = `"vlagati"`;
+
+exports[`descientify v’lamyvatelj 1`] = `"vlamyvatelj"`;
+
+exports[`descientify v’lamyvati sę 1`] = `"vlamyvati sę"`;
+
+exports[`descientify v’liv 1`] = `"vliv"`;
+
+exports[`descientify v’livati 1`] = `"vlivati"`;
+
+exports[`descientify v’livny 1`] = `"vlivny"`;
+
+exports[`descientify v’lomiti sę 1`] = `"vlomiti sę"`;
+
+exports[`descientify v’lomjenıje 1`] = `"vlomjeńje"`;
+
+exports[`descientify v’ložiti 1`] = `"vložiti"`;
+
+exports[`descientify v’lěvo 1`] = `"vlěvo"`;
+
+exports[`descientify v’lězti 1`] = `"vlězti"`;
+
+exports[`descientify v’měsati 1`] = `"vměsati"`;
+
+exports[`descientify v’měsivati 1`] = `"vměsivati"`;
+
+exports[`descientify v’městiti 1`] = `"vměstiti"`;
+
+exports[`descientify v’město 1`] = `"vměsto"`;
+
+exports[`descientify v’městu 1`] = `"vměstu"`;
+
+exports[`descientify v’měšanıje 1`] = `"vměšańje"`;
+
+exports[`descientify v’měšati sę 1`] = `"vměšati sę"`;
+
+exports[`descientify v’měšivati sę 1`] = `"vměšivati sę"`;
+
+exports[`descientify v’měšćati 1`] = `"vměšćati"`;
+
+exports[`descientify v’nesti 1`] = `"vnesti"`;
+
+exports[`descientify v’nikati 1`] = `"vnikati"`;
+
+exports[`descientify v’niknųti 1`] = `"vniknųti"`;
+
+exports[`descientify v’nimanıje 1`] = `"vnimańje"`;
+
+exports[`descientify v’niz 1`] = `"vniz"`;
+
+exports[`descientify v’nositi 1`] = `"vnositi"`;
+
+exports[`descientify v’okrųg 1`] = `"vokrųg"`;
+
+exports[`descientify v’pad 1`] = `"vpad"`;
+
+exports[`descientify v’padati 1`] = `"vpadati"`;
+
+exports[`descientify v’pasti 1`] = `"vpasti"`;
+
+exports[`descientify v’paḓly 1`] = `"vpaly"`;
+
+exports[`descientify v’pečętlivy 1`] = `"vpečętlivy"`;
+
+exports[`descientify v’pečętljenıje 1`] = `"vpečętljeńje"`;
+
+exports[`descientify v’pihati 1`] = `"vpihati"`;
+
+exports[`descientify v’pis 1`] = `"vpis"`;
+
+exports[`descientify v’pisati 1`] = `"vpisati"`;
+
+exports[`descientify v’pisyvati 1`] = `"vpisyvati"`;
+
+exports[`descientify v’piti 1`] = `"vpiti"`;
+
+exports[`descientify v’pivanıje 1`] = `"vpivańje"`;
+
+exports[`descientify v’pivati 1`] = `"vpivati"`;
+
+exports[`descientify v’plesti 1`] = `"vplesti"`;
+
+exports[`descientify v’pletati 1`] = `"vpletati"`;
+
+exports[`descientify v’plyv 1`] = `"vplyv"`;
+
+exports[`descientify v’plyvati 1`] = `"vplyvati"`;
+
+exports[`descientify v’plyvny 1`] = `"vplyvny"`;
+
+exports[`descientify v’plyvti 1`] = `"vplyvti"`;
+
+exports[`descientify v’pravo 1`] = `"vpravo"`;
+
+exports[`descientify v’prėd 1`] = `"vprěd"`;
+
+exports[`descientify v’pręgati 1`] = `"vpręgati"`;
+
+exports[`descientify v’pręgti 1`] = `"vpręgti"`;
+
+exports[`descientify v’pŀno 1`] = `"vpȯlno"`;
+
+exports[`descientify v’pŕvo 1`] = `"vpŕvo"`;
+
+exports[`descientify v’raženıje 1`] = `"vražeńje"`;
+
+exports[`descientify v’rođeny 1`] = `"vrođeny"`;
+
+exports[`descientify v’rųbati 1`] = `"vrųbati"`;
+
+exports[`descientify v’rųbyvati 1`] = `"vrųbyvati"`;
+
+exports[`descientify v’rųčati 1`] = `"vrųčati"`;
+
+exports[`descientify v’rųčiti 1`] = `"vrųčiti"`;
+
+exports[`descientify v’saditi 1`] = `"vsaditi"`;
+
+exports[`descientify v’sadòk 1`] = `"vsadȯk"`;
+
+exports[`descientify v’sađati 1`] = `"vsađati"`;
+
+exports[`descientify v’skočiti 1`] = `"vskočiti"`;
+
+exports[`descientify v’slěd 1`] = `"vslěd"`;
+
+exports[`descientify v’slědno 1`] = `"vslědno"`;
+
+exports[`descientify v’slědny 1`] = `"vslědny"`;
+
+exports[`descientify v’sosati 1`] = `"vsosati"`;
+
+exports[`descientify v’srėd 1`] = `"vsrěd"`;
+
+exports[`descientify v’stati 1`] = `"vstati"`;
+
+exports[`descientify v’stavati 1`] = `"vstavati"`;
+
+exports[`descientify v’staviti 1`] = `"vstaviti"`;
+
+exports[`descientify v’stavjati 1`] = `"vstavjati"`;
+
+exports[`descientify v’stavka 1`] = `"vstavka"`;
+
+exports[`descientify v’stųpati 1`] = `"vstųpati"`;
+
+exports[`descientify v’stųpiti 1`] = `"vstųpiti"`;
+
+exports[`descientify v’stųpjenıje 1`] = `"vstųpjeńje"`;
+
+exports[`descientify v’tiskati 1`] = `"vtiskati"`;
+
+exports[`descientify v’tisknųti 1`] = `"vtisknųti"`;
+
+exports[`descientify v’tičnica 1`] = `"vtičnica"`;
+
+exports[`descientify v’tògda, v’tògdy 1`] = `"vtȯgda, vtȯgdy"`;
+
+exports[`descientify v’tęgati 1`] = `"vtęgati"`;
+
+exports[`descientify v’tęgnųti 1`] = `"vtęgnųti"`;
+
+exports[`descientify v’těljenıje 1`] = `"vtěljeńje"`;
+
+exports[`descientify v’tṙgati 1`] = `"vtrgati"`;
+
+exports[`descientify v’tṙgnųti 1`] = `"vtrgnųti"`;
+
+exports[`descientify v’vedenıje 1`] = `"vvedeńje"`;
+
+exports[`descientify v’vesti 1`] = `"vvesti"`;
+
+exports[`descientify v’vezti 1`] = `"vvezti"`;
+
+exports[`descientify v’vod 1`] = `"vvod"`;
+
+exports[`descientify v’voditi 1`] = `"vvoditi"`;
+
+exports[`descientify v’vodny 1`] = `"vvodny"`;
+
+exports[`descientify v’voz 1`] = `"vvoz"`;
+
+exports[`descientify v’voziti 1`] = `"vvoziti"`;
+
+exports[`descientify v’vŕgati 1`] = `"vvŕgati"`;
+
+exports[`descientify v’vŕgnųti 1`] = `"vvŕgnųti"`;
+
+exports[`descientify v’vŕh 1`] = `"vvŕh"`;
+
+exports[`descientify v’zad 1`] = `"vzad"`;
+
+exports[`descientify v’zadny 1`] = `"vzadny"`;
+
+exports[`descientify v’zadny s’klon 1`] = `"vzadny sklon"`;
+
+exports[`descientify v’zadu 1`] = `"vzadu"`;
+
+exports[`descientify v’zor 1`] = `"vzor"`;
+
+exports[`descientify v’zorny 1`] = `"vzorny"`;
+
+exports[`descientify v’časno 1`] = `"včasno"`;
+
+exports[`descientify v’časnosť 1`] = `"včasnosť"`;
+
+exports[`descientify v’časny 1`] = `"včasny"`;
+
+exports[`descientify v’členiti 1`] = `"včleniti"`;
+
+exports[`descientify v’členjati 1`] = `"včlenjati"`;
+
+exports[`descientify v’žiti sę 1`] = `"vžiti sę"`;
+
+exports[`descientify v’živati sę 1`] = `"vživati sę"`;
+
+exports[`descientify ykanıje 1`] = `"ykańje"`;
+
+exports[`descientify zabavjenıje 1`] = `"zabavjeńje"`;
+
+exports[`descientify zabolevanıje 1`] = `"zabolevańje"`;
+
+exports[`descientify zadanıje 1`] = `"zadańje"`;
+
+exports[`descientify zagadòčny 1`] = `"zagadȯčny"`;
+
+exports[`descientify zaglåvıje 1`] = `"zaglåvje"`;
+
+exports[`descientify zagrobno žitıje 1`] = `"zagrobno žitje"`;
+
+exports[`descientify zahod sŀnca 1`] = `"zahod sȯlnca"`;
+
+exports[`descientify zajavjenıje 1`] = `"zajavjeńje"`;
+
+exports[`descientify zajèm 1`] = `"zajėm"`;
+
+exports[`descientify zajętıje 1`] = `"zajętje"`;
+
+exports[`descientify zajědlivosť 1`] = `"zajedlivosť"`;
+
+exports[`descientify zajězd 1`] = `"zajezd"`;
+
+exports[`descientify zaklinanıje 1`] = `"zaklinańje"`;
+
+exports[`descientify zaključenıje 1`] = `"zaključeńje"`;
+
+exports[`descientify zakončenıje 1`] = `"zakončeńje"`;
+
+exports[`descientify zakųtòk 1`] = `"zakųtȯk"`;
+
+exports[`descientify zakṙvavjeny 1`] = `"zakrvavjeny"`;
+
+exports[`descientify založenıje 1`] = `"založeńje"`;
+
+exports[`descientify zamrèti 1`] = `"zamrėti"`;
+
+exports[`descientify zamèdliti 1`] = `"zamėdliti"`;
+
+exports[`descientify zamèdljati 1`] = `"zamėdljati"`;
+
+exports[`descientify zamèdljenıje 1`] = `"zamėdljeńje"`;
+
+exports[`descientify zamòk 1`] = `"zamȯk"`;
+
+exports[`descientify zaměšanıje 1`] = `"zaměšańje"`;
+
+exports[`descientify zamŀknųti 1`] = `"zamȯlknųti"`;
+
+exports[`descientify zamṙzati 1`] = `"zamrzati"`;
+
+exports[`descientify zamṙznųti 1`] = `"zamrznųti"`;
+
+exports[`descientify zanečišćenıje 1`] = `"zanečišćeńje"`;
+
+exports[`descientify zanečišćenıje vòzduha 1`] = `"zanečišćeńje vȯzduha"`;
+
+exports[`descientify zapadnoeùropejsky 1`] = `"zapadnoevropejsky"`;
+
+exports[`descientify zapisanıje 1`] = `"zapisańje"`;
+
+exports[`descientify zaprėčiti 1`] = `"zaprěčiti"`;
+
+exports[`descientify zapytanıje 1`] = `"zapytańje"`;
+
+exports[`descientify zapęstıje 1`] = `"zapęstje"`;
+
+exports[`descientify zapŀniti 1`] = `"zapȯlniti"`;
+
+exports[`descientify zapŀnjati 1`] = `"zapȯlnjati"`;
+
+exports[`descientify zaraženıje 1`] = `"zaražeńje"`;
+
+exports[`descientify zarodòk 1`] = `"zarodȯk"`;
+
+exports[`descientify zarųčenıje 1`] = `"zarųčeńje"`;
+
+exports[`descientify zaspanèc 1`] = `"zaspanėc"`;
+
+exports[`descientify zastrašanıje 1`] = `"zastrašańje"`;
+
+exports[`descientify zasědanıje 1`] = `"zasědańje"`;
+
+exports[`descientify zatišıje 1`] = `"zatišje"`;
+
+exports[`descientify zatmjenıje 1`] = `"zatmjeńje"`;
+
+exports[`descientify zatopjenıje 1`] = `"zatopjeńje"`;
+
+exports[`descientify zatraćenèc 1`] = `"zatraćenėc"`;
+
+exports[`descientify zatylòk 1`] = `"zatylȯk"`;
+
+exports[`descientify zavedenıje 1`] = `"zavedeńje"`;
+
+exports[`descientify zavitòk 1`] = `"zavitȯk"`;
+
+exports[`descientify zavråćenıje 1`] = `"zavråćeńje"`;
+
+exports[`descientify zavěćanıje 1`] = `"zavěćańje"`;
+
+exports[`descientify začętòk 1`] = `"začętȯk"`;
+
+exports[`descientify začętıje 1`] = `"začętje"`;
+
+exports[`descientify zdråvoohrånjenıje 1`] = `"zdråvoohrånjeńje"`;
+
+exports[`descientify zdråvıje 1`] = `"zdråvje"`;
+
+exports[`descientify zemjedělèc 1`] = `"zemjedělėc"`;
+
+exports[`descientify zemjepisèc 1`] = `"zemjepisėc"`;
+
+exports[`descientify zemjetręsenıje 1`] = `"zemjetręseńje"`;
+
+exports[`descientify zimorodòk 1`] = `"zimorodȯk"`;
+
+exports[`descientify zimovy sŀncevråt 1`] = `"zimovy sȯlncevråt"`;
+
+exports[`descientify zloupotrėbiti 1`] = `"zloupotrěbiti"`;
+
+exports[`descientify zloupotrėbjati 1`] = `"zloupotrěbjati"`;
+
+exports[`descientify zločinèc 1`] = `"zločinėc"`;
+
+exports[`descientify zlåtaṙ 1`] = `"zlåtar"`;
+
+exports[`descientify znak citovanıja 1`] = `"znak citovańja"`;
+
+exports[`descientify znalèc 1`] = `"znalėc"`;
+
+exports[`descientify znamenıje 1`] = `"znameńje"`;
+
+exports[`descientify znanèc 1`] = `"znanėc"`;
+
+exports[`descientify znanıje 1`] = `"znańje"`;
+
+exports[`descientify značenıje 1`] = `"značeńje"`;
+
+exports[`descientify značèk 1`] = `"značėk"`;
+
+exports[`descientify zrěnıje 1`] = `"zrěńje"`;
+
+exports[`descientify zvanıje 1`] = `"zvańje"`;
+
+exports[`descientify zvonòk 1`] = `"zvonȯk"`;
+
+exports[`descientify zvězdoznavèc 1`] = `"zvězdoznavėc"`;
+
+exports[`descientify zòlva 1`] = `"zȯlva"`;
+
+exports[`descientify zòv 1`] = `"zȯv"`;
+
+exports[`descientify zŕcaḓlo 1`] = `"zŕcalo"`;
+
+exports[`descientify zųbèc 1`] = `"zųbėc"`;
+
+exports[`descientify ćuđezemèc 1`] = `"ćuđezemėc"`;
+
+exports[`descientify ćuđinèc 1`] = `"ćuđinėc"`;
+
+exports[`descientify Čilijèc 1`] = `"Čilijėc"`;
+
+exports[`descientify čajna lòžička 1`] = `"čajna lȯžička"`;
+
+exports[`descientify čajna vrėčka 1`] = `"čajna vrěčka"`;
+
+exports[`descientify časovanıje 1`] = `"časovańje"`;
+
+exports[`descientify čepèc 1`] = `"čepėc"`;
+
+exports[`descientify česaḓlo 1`] = `"česalo"`;
+
+exports[`descientify česnòk 1`] = `"česnȯk"`;
+
+exports[`descientify četvŕtòk 1`] = `"četvŕtȯk"`;
+
+exports[`descientify četyrivųgòľnik 1`] = `"četyrivųgȯľnik"`;
+
+exports[`descientify članòk 1`] = `"članȯk"`;
+
+exports[`descientify členòk 1`] = `"členȯk"`;
+
+exports[`descientify člověkolubıje 1`] = `"člověkolubje"`;
+
+exports[`descientify člověčıji 1`] = `"člověčji"`;
+
+exports[`descientify črėda 1`] = `"črěda"`;
+
+exports[`descientify črėmha 1`] = `"črěmha"`;
+
+exports[`descientify črėp 1`] = `"črěp"`;
+
+exports[`descientify črėvo 1`] = `"črěvo"`;
+
+exports[`descientify črėz 1`] = `"črěz"`;
+
+exports[`descientify črėzměrno 1`] = `"črězměrno"`;
+
+exports[`descientify črėzměrnosť 1`] = `"črězměrnosť"`;
+
+exports[`descientify črėzměrny 1`] = `"črězměrny"`;
+
+exports[`descientify čudotvorèc 1`] = `"čudotvorėc"`;
+
+exports[`descientify čutıje 1`] = `"čutje"`;
+
+exports[`descientify čuvanıje 1`] = `"čuvańje"`;
+
+exports[`descientify čęsti mŀvy 1`] = `"čęsti mȯlvy"`;
+
+exports[`descientify čęsť mŀvy 1`] = `"čęsť mȯlvy"`;
+
+exports[`descientify čěkanıje 1`] = `"čěkańje"`;
+
+exports[`descientify čŀn 1`] = `"čȯln"`;
+
+exports[`descientify čŀnòk 1`] = `"čȯlnȯk"`;
+
+exports[`descientify čŕniḓlo 1`] = `"čŕnilo"`;
+
+exports[`descientify čŕvenogṙḓlka 1`] = `"čŕvenogrlka"`;
+
+exports[`descientify čŕveny kṙvinòk 1`] = `"čŕveny krvinȯk"`;
+
+exports[`descientify čŕvenèc 1`] = `"čŕvenėc"`;
+
+exports[`descientify čŕvèc 1`] = `"čŕvėc"`;
+
+exports[`descientify čŕvènj 1`] = `"čŕvėnj"`;
+
+exports[`descientify đbanòk 1`] = `"đbanȯk"`;
+
+exports[`descientify Ščęstnogo dnja rođenıja! 1`] = `"Ščęstnogo dnja rođeńja!"`;
+
+exports[`descientify šestivųgòľnik 1`] = `"šestivųgȯľnik"`;
+
+exports[`descientify šesťsòt, šesťsto 1`] = `"šesťsȯt, šesťsto"`;
+
+exports[`descientify šifrovanıje 1`] = `"šifrovańje"`;
+
+exports[`descientify škripanıje 1`] = `"škripańje"`;
+
+exports[`descientify šljahètny 1`] = `"šljahėtny"`;
+
+exports[`descientify šlėm 1`] = `"šlěm"`;
+
+exports[`descientify šofersko dozvoljenıje 1`] = `"šofersko dozvoljeńje"`;
+
+exports[`descientify šèv 1`] = `"šėv"`;
+
+exports[`descientify ščigòl 1`] = `"ščigȯl"`;
+
+exports[`descientify ščitna žlėza 1`] = `"ščitna žlěza"`;
+
+exports[`descientify ščęstıje 1`] = `"ščęstje"`;
+
+exports[`descientify žadèn 1`] = `"žadėn"`;
+
+exports[`descientify žaljenıje 1`] = `"žaljeńje"`;
+
+exports[`descientify žalovanıje 1`] = `"žalovańje"`;
+
+exports[`descientify želanıje 1`] = `"želańje"`;
+
+exports[`descientify želųdòk 1`] = `"želųdȯk"`;
+
+exports[`descientify žitıje 1`] = `"žitje"`;
+
+exports[`descientify žitıjeopasny 1`] = `"žitjeopasny"`;
+
+exports[`descientify žitıjesposobny 1`] = `"žitjesposobny"`;
+
+exports[`descientify živo srėbro 1`] = `"živo srěbro"`;
+
+exports[`descientify živobytıje 1`] = `"živobytje"`;
+
+exports[`descientify živopisèc 1`] = `"živopisėc"`;
+
+exports[`descientify žlėb 1`] = `"žlěb"`;
+
+exports[`descientify žlėza 1`] = `"žlěza"`;
+
+exports[`descientify žrėbiti sę 1`] = `"žrěbiti sę"`;
+
+exports[`descientify žrėbèc 1`] = `"žrěbėc"`;
+
+exports[`descientify žrėbę 1`] = `"žrěbę"`;
+
+exports[`descientify žrėbętko 1`] = `"žrěbętko"`;
+
+exports[`descientify žrěnıje 1`] = `"žrěńje"`;
+
+exports[`descientify žęḓlo 1`] = `"žęlo"`;
+
+exports[`descientify žŀty 1`] = `"žȯlty"`;
+
+exports[`descientify žŀtěti 1`] = `"žȯltěti"`;
+
+exports[`descientify žŀv 1`] = `"žȯlv"`;
+
+exports[`descientify žŀč 1`] = `"žȯlč"`;
+
+exports[`descientify žŕtveny kozèl 1`] = `"žŕtveny kozėl"`;
+
+exports[`descientify žŕḓlo 1`] = `"žŕlo"`;

@@ -4,6 +4,7 @@
 
 export * from './adjective';
 export * from './constants';
+export * from './descientify';
 export * from './noun';
 export * from './numeral';
 export * from './partOfSpeech';

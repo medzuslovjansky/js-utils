@@ -703,6 +703,7 @@ function nmsifyLoose(iW: string) {
       .replace(/z[xs]/g, 'ž')
       .replace(/ż/g, 'ž')
       .replace(/ye/g, 'ě')
+      .replace(/e̊/g, 'ě')
       // ...
       .replace(/qu/g, 'kv')
       .replace(/ŀ/g, 'ȯl')
@@ -745,6 +746,7 @@ function nmsifyStrict(iW: string) {
     .replaceAll('á', 'a')
     .replaceAll('d́', 'ď')
     .replaceAll('é', 'e')
+    .replaceAll('e̊', 'ě')
     .replaceAll('ì', 'i')
     .replaceAll('í', 'i')
     .replaceAll('ĵ', 'j')
