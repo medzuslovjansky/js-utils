@@ -3,6 +3,7 @@
  */
 
 import { ALL_CONSONANTS, VOWELS } from '../substitutions';
+import { Adjective, parsePos, PartOfSpeech } from '../partOfSpeech';
 
 export function declensionAdjectiveFlat(
   adj: string,
@@ -68,6 +69,7 @@ export function declensionAdjective(
   postfix = '',
   partOfSpeech = 'adj.',
 ): SteenAdjectiveParadigm {
+  const pos = parsePos(partOfSpeech);
   const isCompound = adj.includes(' ');
   if (isCompound) {
     const words = adj.split(' ');
@@ -79,7 +81,7 @@ export function declensionAdjective(
   }
 
   const root = establish_root(adj);
-  const short = short_form(adj, root, partOfSpeech);
+  const short = short_form(adj, root, pos);
   const m_nom_sg = m_nominative_sg(adj, root);
   const m_acc_sg = m_accusative_sg(adj, root);
   const f_nom_sg = f_nominative_sg(root);
@@ -117,21 +119,31 @@ export function declensionAdjective(
       ins: applyRules([ins_pl], postfix),
     },
     short,
-    comparison: isCompound
-      ? { positive: [], comparative: [], superlative: [] }
-      : deriveComparison(root, adj, postfix, partOfSpeech),
+    comparison:
+      isComparable(pos) && !isCompound
+        ? deriveComparison(root, adj, postfix, pos)
+        : { positive: [], comparative: [], superlative: [] },
   };
+}
+
+function isComparable(pos: PartOfSpeech): pos is Adjective {
+  if (pos.name === 'adjective') {
+    return !pos.absolute;
+  }
+
+  return false;
 }
 
 function deriveComparison(
   root: string,
   adj: string,
   postfix: string,
-  partOfSpeech: string,
+  {
+    positive: isPositive,
+    comparative: isComparative,
+    superlative: isSuperlative,
+  }: Adjective,
 ): SteenAdjectiveParadigm['comparison'] {
-  const { isPositive, isComparative, isSuperlative } =
-    parseComparisionModifiers(partOfSpeech);
-
   const adv = adverb(root);
   const m_nom_sg = m_nominative_sg(adj, root);
   const comp_adj = isComparative ? m_nom_sg : comparative_adj(root);
@@ -143,17 +155,6 @@ function deriveComparison(
     positive: isPositive ? applyRules([m_nom_sg, adv], postfix) : [],
     comparative: isSuperlative ? [] : applyRules([comp_adj, comp_adv], postfix),
     superlative: applyRules([sup_adj, sup_adv], postfix),
-  };
-}
-
-function parseComparisionModifiers(partOfSpeech: string) {
-  const isComparative = partOfSpeech.endsWith('comp.');
-  const isSuperlative = partOfSpeech.endsWith('sup.');
-
-  return {
-    isPositive: !isComparative && !isSuperlative,
-    isComparative,
-    isSuperlative,
   };
 }
 
@@ -227,7 +228,7 @@ const CONSONANTS_ENDING = new RegExp(`[j${ALL_CONSONANTS}]*$`);
 function short_form(
   adj: string,
   root: string,
-  partOfSpeech: string,
+  pos: PartOfSpeech,
 ): string | undefined {
   if (!adj.endsWith('y') && !adj.endsWith('i')) {
     return;
@@ -247,8 +248,7 @@ function short_form(
   }
 
   if (MAYBE_COMPARATIVE.test(root)) {
-    const modifiers = parseComparisionModifiers(partOfSpeech);
-    return modifiers.isComparative || modifiers.isSuperlative
+    return pos.name !== 'adjective' || pos.comparative || pos.superlative
       ? undefined
       : simplestForm;
   }

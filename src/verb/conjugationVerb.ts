@@ -4,7 +4,9 @@
 
 import { compactArray } from '../utils';
 import { parsePos, Verb } from '../partOfSpeech';
+import { declensionAdjectiveFlat } from '../adjective';
 import { BIG_YUS, IOTATED_SMALL_YUS, SMALL_YUS } from '../substitutions';
+import transliterate from '../transliterate';
 
 const _SE = /. s[eę]$/;
 const SE_ = /s[eę] $/;
@@ -61,6 +63,15 @@ export function conjugationVerbFlat(
   return getConjugationVerbFlat(conjugationVerb(inf, rawPts, partOfSpeech));
 }
 
+function extractParticiple(formatted: string | undefined): string[] {
+  return formatted
+    ? formatted
+        .replace(/\([^)]+\)/g, '')
+        .split(',')
+        .map((word) => transliterate(word.trim(), 'isv-Latn-x-etymolog'))
+    : [];
+}
+
 function getConjugationVerbFlat(result: SteenVerbParadigm | null): string[] {
   if (!result) {
     return [];
@@ -74,12 +85,18 @@ function getConjugationVerbFlat(result: SteenVerbParadigm | null): string[] {
     ...result.imperative.replace(/ /g, '').split(','),
     ...result.imperfect,
     result.infinitive,
-    ...compactArray([
-      result.pfap,
-      result.pfpp,
-      result.prap,
-      result.prpp,
-    ]).flatMap((item) => item.replace(/[(),]/g, '').split(' ')),
+    ...extractParticiple(result.pfap).flatMap((s) =>
+      declensionAdjectiveFlat(s, '', 'ptcp.pres.act.'),
+    ),
+    ...extractParticiple(result.pfpp).flatMap((s) =>
+      declensionAdjectiveFlat(s, '', 'ptcp.pres.pass.'),
+    ),
+    ...extractParticiple(result.prap).flatMap((s) =>
+      declensionAdjectiveFlat(s, '', 'ptcp.past.act.'),
+    ),
+    ...extractParticiple(result.prpp).flatMap((s) =>
+      declensionAdjectiveFlat(s, '', 'ptcp.past.pass.'),
+    ),
     ...result.present.join(',').replace(/ /g, '').split(','),
   ]
     .filter(Boolean)

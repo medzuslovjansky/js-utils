@@ -5,8 +5,39 @@ type ParseTestTuple = [input: string, expected: Partial<PartOfSpeech>];
 
 describe('parsePos', () => {
   test.each([
-    ['adj.', { name: 'adjective' }],
-    ['adv.', { name: 'adverb' }],
+    [
+      'adj.',
+      {
+        name: 'adjective',
+        positive: true,
+      },
+    ],
+    [
+      'adj.abs.',
+      {
+        name: 'adjective',
+        absolute: true,
+        positive: true,
+      },
+    ],
+    [
+      'adj.sup.',
+      {
+        name: 'adjective',
+        superlative: true,
+      },
+    ],
+    [
+      'adj.comp.',
+      {
+        name: 'adjective',
+        comparative: true,
+      },
+    ],
+    ['adv.', { name: 'adverb', positive: true }],
+    ['adv.abs.', { name: 'adverb', absolute: true, positive: true }],
+    ['adv.comp.', { name: 'adverb', comparative: true }],
+    ['adv.sup.', { name: 'adverb', superlative: true }],
     ['conj.', { name: 'conjunction' }],
     ['f.', { name: 'noun', gender: 'feminine', feminine: true }],
     [

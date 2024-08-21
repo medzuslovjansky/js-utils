@@ -5,6 +5,7 @@ export type PartOfSpeech =
   | Interjection
   | Noun
   | Numeral
+  | Participle
   | Particle
   | Phrase
   | Preposition
@@ -15,16 +16,19 @@ export type PartOfSpeech =
 
 export type Adjective = {
   name: 'adjective';
-  // positive: boolean;
-  // comparative: boolean;
-  // superlative: boolean;
+  positive: boolean;
+  comparative: boolean;
+  superlative: boolean;
+  absolute: boolean;
+  possessive: boolean;
 };
 
 export type Adverb = {
   name: 'adverb';
-  // positive: boolean;
-  // comparative: boolean;
-  // superlative: boolean;
+  positive: boolean;
+  comparative: boolean;
+  superlative: boolean;
+  absolute: boolean;
 };
 
 export type Conjunction = {
@@ -66,6 +70,14 @@ export type Numeral = {
   multiplicative: boolean;
   ordinal: boolean;
   substantivized: boolean;
+};
+
+export type Participle = {
+  name: 'participle';
+  active: boolean;
+  passive: boolean;
+  present: boolean;
+  past: boolean;
 };
 
 export type Particle = {

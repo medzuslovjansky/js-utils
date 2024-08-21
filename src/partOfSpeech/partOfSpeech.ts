@@ -1,4 +1,13 @@
-import { Noun, Numeral, PartOfSpeech, Pronoun, Verb } from './types';
+import {
+  Adverb,
+  Adjective,
+  Noun,
+  Numeral,
+  PartOfSpeech,
+  Participle,
+  Pronoun,
+  Verb,
+} from './types';
 
 const PF = /\bpf\b/;
 const TR = /\btr\b/;
@@ -31,11 +40,15 @@ export function parsePos(rawAbbr: string): PartOfSpeech {
   }
 
   if (abbr.startsWith('adj')) {
-    return { name: 'adjective' };
+    return parseAdjective(abbr);
+  }
+
+  if (abbr.startsWith('ptcp')) {
+    return parseParticiple(abbr);
   }
 
   if (abbr.startsWith('adv')) {
-    return { name: 'adverb' };
+    return parseAdverb(abbr);
   }
 
   if (abbr.startsWith('conj')) {
@@ -108,6 +121,37 @@ function parsePronoun(abbr: string): Pronoun {
     reciprocal,
     reflexive,
     relative,
+  };
+}
+
+function parseAdjective(abbr: string): Adjective {
+  return {
+    name: 'adjective',
+    positive: !abbr.includes('comp') && !abbr.includes('sup'),
+    comparative: abbr.includes('comp'),
+    superlative: abbr.includes('sup'),
+    absolute: abbr.includes('abs'),
+    possessive: abbr.includes('poss'),
+  };
+}
+
+function parseAdverb(abbr: string): Adverb {
+  return {
+    name: 'adverb',
+    positive: !abbr.includes('comp') && !abbr.includes('sup'),
+    comparative: abbr.includes('comp'),
+    superlative: abbr.includes('sup'),
+    absolute: abbr.includes('abs'),
+  };
+}
+
+function parseParticiple(abbr: string): Participle {
+  return {
+    name: 'participle',
+    active: abbr.includes('act'),
+    passive: abbr.includes('pass'),
+    present: abbr.includes('pres'),
+    past: abbr.includes('past'),
   };
 }
 
