@@ -101590,67 +101590,67 @@ exports[`adjective 19674 1`] = `
 {
   "comparison": {
     "comparative": [
-      "detaljevanějši",
-      "detaljevaněje",
+      "detaljnějši",
+      "detaljněje",
     ],
     "positive": [
-      "detaljevany",
-      "detaljevano",
+      "detaljny",
+      "detaljno",
     ],
     "superlative": [
-      "najdetaljevanějši",
-      "najdetaljevaněje",
+      "najdetaljnějši",
+      "najdetaljněje",
     ],
   },
   "plural": {
     "acc": [
-      "detaljevanyh / detaljevane",
-      "detaljevane",
+      "detaljnyh / detaljne",
+      "detaljne",
     ],
     "dat": [
-      "detaljevanym",
+      "detaljnym",
     ],
     "gen": [
-      "detaljevanyh",
+      "detaljnyh",
     ],
     "ins": [
-      "detaljevanymi",
+      "detaljnymi",
     ],
     "loc": [
-      "detaljevanyh",
+      "detaljnyh",
     ],
     "nom": [
-      "detaljevani / detaljevane",
-      "detaljevane",
+      "detaljni / detaljne",
+      "detaljne",
     ],
   },
-  "short": "detaljevan",
+  "short": "detaljėn",
   "singular": {
     "acc": [
-      "detaljevanogo / detaljevany",
-      "detaljevano",
-      "detaljevanų",
+      "detaljnogo / detaljny",
+      "detaljno",
+      "detaljnų",
     ],
     "dat": [
-      "detaljevanomu",
-      "detaljevanoj",
+      "detaljnomu",
+      "detaljnoj",
     ],
     "gen": [
-      "detaljevanogo",
-      "detaljevanoj",
+      "detaljnogo",
+      "detaljnoj",
     ],
     "ins": [
-      "detaljevanym",
-      "detaljevanojų",
+      "detaljnym",
+      "detaljnojų",
     ],
     "loc": [
-      "detaljevanom",
-      "detaljevanoj",
+      "detaljnom",
+      "detaljnoj",
     ],
     "nom": [
-      "detaljevany",
-      "detaljevano",
-      "detaljevana",
+      "detaljny",
+      "detaljno",
+      "detaljna",
     ],
   },
 }
