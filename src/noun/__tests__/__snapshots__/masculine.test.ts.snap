@@ -30902,32 +30902,32 @@ exports[`noun masculine 17021 1`] = `null`;
 exports[`noun masculine 17023 1`] = `
 {
   "acc": [
-    "råzkaznik",
-    "råzkazniky",
+    "imperativ",
+    "imperativy",
   ],
   "dat": [
-    "råzkazniku",
-    "råzkaznikam",
+    "imperativu",
+    "imperativam",
   ],
   "gen": [
-    "råzkaznika",
-    "råzkaznikov",
+    "imperativa",
+    "imperativov",
   ],
   "ins": [
-    "råzkaznikom",
-    "råzkaznikami",
+    "imperativom",
+    "imperativami",
   ],
   "loc": [
-    "råzkazniku",
-    "råzkaznikah",
+    "imperativu",
+    "imperativah",
   ],
   "nom": [
-    "råzkaznik",
-    "råzkazniky",
+    "imperativ",
+    "imperativy",
   ],
   "voc": [
-    "råzkazniče",
-    "råzkazniky",
+    "imperative",
+    "imperativy",
   ],
 }
 `;
@@ -45351,6 +45351,39 @@ exports[`noun masculine 23403 1`] = `
   "voc": [
     "plěne",
     "plěny",
+  ],
+}
+`;
+
+exports[`noun masculine 23406 1`] = `
+{
+  "acc": [
+    "graběž",
+    "graběže",
+  ],
+  "dat": [
+    "graběžu",
+    "graběžam",
+  ],
+  "gen": [
+    "graběža",
+    "graběžev",
+  ],
+  "ins": [
+    "graběžem",
+    "graběžami",
+  ],
+  "loc": [
+    "graběžu",
+    "graběžah",
+  ],
+  "nom": [
+    "graběž",
+    "graběže",
+  ],
+  "voc": [
+    "graběžu",
+    "graběže",
   ],
 }
 `;

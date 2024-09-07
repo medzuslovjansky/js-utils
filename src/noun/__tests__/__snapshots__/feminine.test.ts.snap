@@ -59909,39 +59909,6 @@ exports[`noun feminine 23354 1`] = `
 }
 `;
 
-exports[`noun feminine 23406 1`] = `
-{
-  "acc": [
-    "graběž",
-    "graběži",
-  ],
-  "dat": [
-    "graběži",
-    "graběžam",
-  ],
-  "gen": [
-    "graběži",
-    "graběžij",
-  ],
-  "ins": [
-    "graběžjų",
-    "graběžami",
-  ],
-  "loc": [
-    "graběži",
-    "graběžah",
-  ],
-  "nom": [
-    "graběž",
-    "graběži",
-  ],
-  "voc": [
-    "graběži",
-    "graběži",
-  ],
-}
-`;
-
 exports[`noun feminine 23427 1`] = `
 {
   "acc": [
