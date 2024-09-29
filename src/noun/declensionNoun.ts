@@ -3,7 +3,7 @@
  */
 
 import { declensionAdjective } from '../adjective';
-import { inferFluentVowel, markFluentVowel } from '../common';
+import { inferFleetingVowel, markFleetingVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
 import { removeBrackets, replaceStringAt } from '../utils';
 import { establishGender } from './establishGender';
@@ -105,9 +105,9 @@ export function declensionNoun(
   }
 
   if (add && noun !== add) {
-    noun = markFluentVowel(noun, add);
+    noun = markFleetingVowel(noun, add);
   } else if (originGender === 'masculine') {
-    noun = inferFluentVowel(noun);
+    noun = inferFleetingVowel(noun);
   }
 
   const rawGender = prepareGender(originGender, animated);
@@ -117,12 +117,12 @@ export function declensionNoun(
   noun =
     noun.slice(0, -2) + noun.slice(-2).replace(/([cšžčćńľŕťďśźđj])/g, '$1ь');
 
-  const nounWithoutFluent = noun.replace(/\([oe]\)/, '');
+  const nounWithoutFleeting = noun.replace(/\([oe]\)/, '');
 
   noun = noun.replace('(e)', 'ė').replace('(o)', 'ȯ');
 
   const gender = establishGender(noun, rawGender);
-  const root = establish_root(nounWithoutFluent, gender);
+  const root = establish_root(nounWithoutFleeting, gender);
   const plroot = establish_plural_root(root);
   const plgen = establishPluralGender(root, plroot, gender, rawGender);
 
@@ -187,17 +187,19 @@ function establish_root(noun: string, gender: string) {
         result = 'dn';
     }*/
 
-  const fluentVowelIndex = Math.max(
+  const fleetingVowelIndex = Math.max(
     noun.lastIndexOf('ė'),
     noun.lastIndexOf('ȯ'),
   );
 
   const hasVowelEnding = AEEO$.test(noun);
 
-  if (noun == 'lėv' || noun == 'lev') {
+  if (noun === 'ľv') {
     result = 'ljv';
-  } else if (noun == 'Lėv' || noun == 'Lev') {
+  } else if (noun == 'Ľv') {
     result = 'Ljv';
+  } else if (noun == 'ľn') {
+    result = 'ljn';
   } else if (
     gender.charAt(0) == 'm' &&
     noun.match(/[eė]cь$/) &&
@@ -229,8 +231,8 @@ function establish_root(noun: string, gender: string) {
     result = noun;
   }
 
-  if (!hasVowelEnding && fluentVowelIndex > result.length - 3) {
-    result = replaceStringAt(result, fluentVowelIndex, '');
+  if (!hasVowelEnding && fleetingVowelIndex > result.length - 3) {
+    result = replaceStringAt(result, fleetingVowelIndex, '');
   }
 
   return result;
@@ -396,7 +398,7 @@ function locative_sg(root: string, gender: string) {
 function vocative_sg(nom_sg: string, root: string, gender: string) {
   let result = '';
   if (gender == 'm1' || gender == 'm2') {
-    if (nom_sg.lastIndexOf('ec') == nom_sg.length - 2) {
+    if (nom_sg.endsWith('ėc')) {
       result = root.substring(0, root.length - 2) + 'če';
     } else if (root.lastIndexOf('ь') == root.length - 1) {
       result = root + 'u';
@@ -563,6 +565,7 @@ function rules(word: string): string {
     .replace('ŕi', 'ri')
     .replace('jy', 'ji')
     .replace('cy', 'ci')
+    .replace('ľė', 'lė')
     .replace('ljj', 'ľj')
     .replace('njj', 'ńj');
 }
