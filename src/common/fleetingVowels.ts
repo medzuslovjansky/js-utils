@@ -67,15 +67,11 @@ function replaceFleetingVowel(word: string, j: number): string {
   const fleetingVowel = yerToFleetingVowel(word[j]);
   const before = word.slice(0, j - 1);
   const consonant =
-    isL(word[j - 1]) && fleetingVowel === '(e)'
+    isLN(word[j - 1]) && fleetingVowel === '(e)'
       ? soften(word[j - 1])
       : word[j - 1];
   const after = word.slice(j + 1);
   return `${before}${consonant}${fleetingVowel}${after}`;
-}
-
-function isL(char: string): boolean {
-  return char === 'l' || char === 'L';
 }
 
 function isLN(char: string): boolean {

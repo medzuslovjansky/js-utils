@@ -559,6 +559,7 @@ function rules(word: string): string {
     .replace('jy', 'ji')
     .replace('cy', 'ci')
     .replace('ľė', 'lė')
+    .replace('ńė', 'nė')
     .replace('ljj', 'ľj')
     .replace('njj', 'ńj');
 }
