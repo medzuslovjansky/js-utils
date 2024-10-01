@@ -97,7 +97,7 @@ exports[`renderers HTML noun declension renderDiff 1`] = `
       </tr>
       <tr>
         <th>Voc.</th>
-        <td><del>hlåpcu</del> <ins>děvčino</ins></td>
+        <td><del>hlåpče</del> <ins>děvčino</ins></td>
         <td><del>hlåpci</del> <ins>děvčiny</ins></td>
       </tr>
     </tbody>
