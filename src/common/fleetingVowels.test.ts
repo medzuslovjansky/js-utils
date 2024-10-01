@@ -30,6 +30,8 @@ describe('fleetingVowels', () => {
       expect(inferFleetingVowel('pėsȯk, kotȯk i orėl')).toBe(
         'pės(o)k, kot(o)k i or(e)l',
       );
+      expect(inferFleetingVowel('pės-afrikanec')).toBe('p(e)s-afrikan(e)c');
+      expect(inferFleetingVowel('afrikanec-pės')).toBe('afrikan(e)c-p(e)s');
     });
 
     it('does not infer incorrect fleeting vowels in the word', () => {

@@ -4,6 +4,7 @@ import {
   HARD_YER_LOOSE,
   SOFT_YER_LOOSE,
   YERS,
+  VOCALIZED,
 } from '../substitutions';
 import { soften } from './soften';
 
@@ -40,23 +41,23 @@ export function inferFleetingVowel(word: string): string {
   let result = word;
 
   while (i > 0) {
-    const char = word[i];
+    let char = word[i];
     if (!ALL_LETTERS.has(char)) {
       end = i;
       replaced = false;
     }
 
+    if (char === 'e' && i === end - 2 && word[i + 1] === 'c') {
+      char = 'ė';
+    }
+
     if (!replaced && YERS.has(char)) {
-      if (isLastSyllable(word, i, end)) {
+      if (isFleetingSyllable(word, i, end) && canOmitYer(word, i)) {
         result = replaceFleetingVowel(result, i);
       }
     }
 
     i--;
-  }
-
-  if (!replaced && word.endsWith('ec')) {
-    result = replaceFleetingVowel(result, word.length - 2);
   }
 
   return result;
@@ -77,6 +78,10 @@ function isL(char: string): boolean {
   return char === 'l' || char === 'L';
 }
 
+function isLN(char: string): boolean {
+  return char === 'l' || char === 'L' || char === 'n' || char === 'N';
+}
+
 function yerToFleetingVowel(maybeYer: string): string {
   if (SOFT_YER_LOOSE.has(maybeYer)) {
     return '(e)';
@@ -89,8 +94,18 @@ function yerToFleetingVowel(maybeYer: string): string {
   return maybeYer;
 }
 
-function isLastSyllable(word: string, i: number, end: number): boolean {
+function isFleetingSyllable(word: string, i: number, end: number): boolean {
   if (i === end - 2) return ALL_CONSONANTS.has(word[i + 1]);
   if (i === end - 3) return word[i + 1] === 'n' && word[i + 2] === 'j';
   return false;
+}
+
+function canOmitYer(word: string, i: number): boolean {
+  const p1 = word[i - 1];
+  const p2 = word[i - 2];
+  const p3 = word[i - 3];
+  const a = p1 === 'j' && isLN(p2) ? p3 : p2;
+  const b = p1 === 'j' && isLN(p2) ? p2 : p1;
+
+  return (!ALL_LETTERS.has(a) || VOCALIZED.has(a)) && b !== word[i + 1];
 }

@@ -19,6 +19,7 @@ export const ALL_VOWELS = new LetterSet(
 export const SOFT_CONSONANTS = new LetterSet('jcćčšžŕĺľťśď');
 
 export const VOWELS = new LetterSet('aåeęěėioȯuųy');
+export const VOCALIZED = new LetterSet('aåeęěèėioȯòrŕuųy');
 export const YERS = new LetterSet('èėȯò');
 export const SOFT_YER_LOOSE = new LetterSet('eèė');
 export const HARD_YER_LOOSE = new LetterSet('oȯò');

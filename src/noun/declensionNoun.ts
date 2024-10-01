@@ -200,13 +200,6 @@ function establish_root(noun: string, gender: string) {
     result = 'Ljv';
   } else if (noun == 'ľn') {
     result = 'ljn';
-  } else if (
-    gender.charAt(0) == 'm' &&
-    noun.match(/[eė]cь$/) &&
-    (noun.slice(-5, -4).match(/[aeiouyęųåėěȯrŕ]/) ||
-      noun.slice(-4, -3).match(/[jdtc]/))
-  ) {
-    result = noun.slice(0, -3) + 'cь';
   } else if (gender == 'm3') {
     result = noun + '%';
     result = result.replace('jь%', '%');

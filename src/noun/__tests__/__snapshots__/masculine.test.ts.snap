@@ -1626,31 +1626,31 @@ exports[`noun masculine 295 1`] = `
 exports[`noun masculine 306 1`] = `
 {
   "acc": [
-    "len",
+    "lėn",
     null,
   ],
   "dat": [
-    "lenu",
+    "ljnu",
     null,
   ],
   "gen": [
-    "lena",
+    "ljna",
     null,
   ],
   "ins": [
-    "lenom",
+    "ljnom",
     null,
   ],
   "loc": [
-    "lenu",
+    "ljnu",
     null,
   ],
   "nom": [
-    "len",
+    "lėn",
     null,
   ],
   "voc": [
-    "lene",
+    "ljne",
     null,
   ],
 }
@@ -2583,7 +2583,7 @@ exports[`noun masculine 523 1`] = `
 exports[`noun masculine 536 1`] = `
 {
   "acc": [
-    "konec",
+    "konėc",
     "konce",
   ],
   "dat": [
@@ -2603,7 +2603,7 @@ exports[`noun masculine 536 1`] = `
     "koncah",
   ],
   "nom": [
-    "konec",
+    "konėc",
     "konce",
   ],
   "voc": [
@@ -3315,7 +3315,7 @@ exports[`noun masculine 701 1`] = `
 exports[`noun masculine 704 1`] = `
 {
   "acc": [
-    "věnec",
+    "věnėc",
     "věnce",
   ],
   "dat": [
@@ -3335,7 +3335,7 @@ exports[`noun masculine 704 1`] = `
     "věncah",
   ],
   "nom": [
-    "věnec",
+    "věnėc",
     "věnce",
   ],
   "voc": [
@@ -11030,7 +11030,7 @@ exports[`noun masculine 2275 1`] = `
 exports[`noun masculine 2282 1`] = `
 {
   "acc": [
-    "grnec",
+    "grnėc",
     "grnce",
   ],
   "dat": [
@@ -11050,7 +11050,7 @@ exports[`noun masculine 2282 1`] = `
     "grncah",
   ],
   "nom": [
-    "grnec",
+    "grnėc",
     "grnce",
   ],
   "voc": [
@@ -14659,7 +14659,7 @@ exports[`noun masculine 3136 1`] = `
     "peprece",
   ],
   "voc": [
-    "pepreče",
+    "peprecu",
     "peprece",
   ],
 }
@@ -25110,7 +25110,7 @@ exports[`noun masculine 8722 1`] = `
 exports[`noun masculine 8776 1`] = `
 {
   "acc": [
-    "kurec",
+    "kurėc",
     "kurce",
   ],
   "dat": [
@@ -25130,7 +25130,7 @@ exports[`noun masculine 8776 1`] = `
     "kurcah",
   ],
   "nom": [
-    "kurec",
+    "kurėc",
     "kurce",
   ],
   "voc": [
@@ -25340,7 +25340,7 @@ exports[`noun masculine 8997 1`] = `
     "marce",
   ],
   "voc": [
-    "marcu",
+    "marče",
     "marce",
   ],
 }
@@ -28181,7 +28181,7 @@ exports[`noun masculine 14872 1`] = `
 exports[`noun masculine 14958 1`] = `
 {
   "acc": [
-    "ranec",
+    "ranėc",
     "rance",
   ],
   "dat": [
@@ -28201,7 +28201,7 @@ exports[`noun masculine 14958 1`] = `
     "rancah",
   ],
   "nom": [
-    "ranec",
+    "ranėc",
     "rance",
   ],
   "voc": [
@@ -32106,7 +32106,7 @@ exports[`noun masculine 17491 1`] = `
 exports[`noun masculine 17527 1`] = `
 {
   "acc": [
-    "izgnanec",
+    "izgnanėc",
     "izgnance",
   ],
   "dat": [
@@ -32126,7 +32126,7 @@ exports[`noun masculine 17527 1`] = `
     "izgnancah",
   ],
   "nom": [
-    "izgnanec",
+    "izgnanėc",
     "izgnance",
   ],
   "voc": [
@@ -32207,7 +32207,7 @@ exports[`noun masculine 17561 1`] = `
 exports[`noun masculine 17602 1`] = `
 {
   "acc": [
-    "jalovec",
+    "jalovėc",
     "jalovce",
   ],
   "dat": [
@@ -32227,7 +32227,7 @@ exports[`noun masculine 17602 1`] = `
     "jalovcah",
   ],
   "nom": [
-    "jalovec",
+    "jalovėc",
     "jalovce",
   ],
   "voc": [
@@ -32572,7 +32572,7 @@ exports[`noun masculine 17723 1`] = `
 exports[`noun masculine 17724 1`] = `
 {
   "acc": [
-    "lanec",
+    "lanėc",
     "lance",
   ],
   "dat": [
@@ -32592,7 +32592,7 @@ exports[`noun masculine 17724 1`] = `
     "lancah",
   ],
   "nom": [
-    "lanec",
+    "lanėc",
     "lance",
   ],
   "voc": [
@@ -32741,7 +32741,7 @@ exports[`noun masculine 18000 1`] = `
 exports[`noun masculine 18031 1`] = `
 {
   "acc": [
-    "obrazec",
+    "obrazėc",
     "obrazce",
   ],
   "dat": [
@@ -32761,7 +32761,7 @@ exports[`noun masculine 18031 1`] = `
     "obrazcah",
   ],
   "nom": [
-    "obrazec",
+    "obrazėc",
     "obrazce",
   ],
   "voc": [
@@ -37053,32 +37053,32 @@ exports[`noun masculine 20239 1`] = `
 exports[`noun masculine 20283 1`] = `
 {
   "acc": [
-    "valec",
-    "valce",
+    "valėc",
+    "vaľce",
   ],
   "dat": [
-    "valcu",
-    "valcam",
+    "vaľcu",
+    "vaľcam",
   ],
   "gen": [
-    "valca",
-    "valcev",
+    "vaľca",
+    "vaľcev",
   ],
   "ins": [
-    "valcem",
-    "valcami",
+    "vaľcem",
+    "vaľcami",
   ],
   "loc": [
-    "valcu",
-    "valcah",
+    "vaľcu",
+    "vaľcah",
   ],
   "nom": [
-    "valec",
-    "valce",
+    "valėc",
+    "vaľce",
   ],
   "voc": [
-    "valče",
-    "valce",
+    "vaľče",
+    "vaľce",
   ],
 }
 `;
@@ -37812,32 +37812,32 @@ exports[`noun masculine 20727 1`] = `
 exports[`noun masculine 20741 1`] = `
 {
   "acc": [
-    "smalec",
-    "smalce",
+    "smalėc",
+    "smaľce",
   ],
   "dat": [
-    "smalcu",
-    "smalcam",
+    "smaľcu",
+    "smaľcam",
   ],
   "gen": [
-    "smalca",
-    "smalcev",
+    "smaľca",
+    "smaľcev",
   ],
   "ins": [
-    "smalcem",
-    "smalcami",
+    "smaľcem",
+    "smaľcami",
   ],
   "loc": [
-    "smalcu",
-    "smalcah",
+    "smaľcu",
+    "smaľcah",
   ],
   "nom": [
-    "smalec",
-    "smalce",
+    "smalėc",
+    "smaľce",
   ],
   "voc": [
-    "smalče",
-    "smalce",
+    "smaľče",
+    "smaľce",
   ],
 }
 `;
@@ -42968,7 +42968,7 @@ exports[`noun masculine 22631 1`] = `
 exports[`noun masculine 22634 1`] = `
 {
   "acc": [
-    "svinec",
+    "svinėc",
     null,
   ],
   "dat": [
@@ -42988,7 +42988,7 @@ exports[`noun masculine 22634 1`] = `
     null,
   ],
   "nom": [
-    "svinec",
+    "svinėc",
     null,
   ],
   "voc": [
@@ -46335,7 +46335,7 @@ exports[`noun masculine 23525 1`] = `
 exports[`noun masculine 23531 1`] = `
 {
   "acc": [
-    "tanec",
+    "tanėc",
     "tance",
   ],
   "dat": [
@@ -46355,7 +46355,7 @@ exports[`noun masculine 23531 1`] = `
     "tancah",
   ],
   "nom": [
-    "tanec",
+    "tanėc",
     "tance",
   ],
   "voc": [
@@ -47962,7 +47962,7 @@ exports[`noun masculine 23882 1`] = `
 exports[`noun masculine 23890 1`] = `
 {
   "acc": [
-    "ruměnec",
+    "ruměnėc",
     "ruměnce",
   ],
   "dat": [
@@ -47982,7 +47982,7 @@ exports[`noun masculine 23890 1`] = `
     "ruměncah",
   ],
   "nom": [
-    "ruměnec",
+    "ruměnėc",
     "ruměnce",
   ],
   "voc": [
@@ -51002,7 +51002,7 @@ exports[`noun masculine 24701 1`] = `
 exports[`noun masculine 24727 1`] = `
 {
   "acc": [
-    "bodec",
+    "bodėc",
     "bodce",
   ],
   "dat": [
@@ -51022,7 +51022,7 @@ exports[`noun masculine 24727 1`] = `
     "bodcah",
   ],
   "nom": [
-    "bodec",
+    "bodėc",
     "bodce",
   ],
   "voc": [
@@ -51532,7 +51532,7 @@ exports[`noun masculine 24954 1`] = `
 exports[`noun masculine 24975 1`] = `
 {
   "acc": [
-    "čepec",
+    "čepėc",
     "čepce",
   ],
   "dat": [
@@ -51552,7 +51552,7 @@ exports[`noun masculine 24975 1`] = `
     "čepcah",
   ],
   "nom": [
-    "čepec",
+    "čepėc",
     "čepce",
   ],
   "voc": [
@@ -53149,7 +53149,7 @@ exports[`noun masculine 25735 1`] = `
 exports[`noun masculine 25752 1`] = `
 {
   "acc": [
-    "gostinec",
+    "gostinėc",
     "gostince",
   ],
   "dat": [
@@ -53169,7 +53169,7 @@ exports[`noun masculine 25752 1`] = `
     "gostincah",
   ],
   "nom": [
-    "gostinec",
+    "gostinėc",
     "gostince",
   ],
   "voc": [
@@ -53998,7 +53998,7 @@ exports[`noun masculine 26308 1`] = `
     "jasence",
   ],
   "voc": [
-    "jasencu",
+    "jasenče",
     "jasence",
   ],
 }
@@ -54304,7 +54304,7 @@ exports[`noun masculine 26462 1`] = `
 exports[`noun masculine 26520 1`] = `
 {
   "acc": [
-    "klådec",
+    "klådėc",
     "klådce",
   ],
   "dat": [
@@ -54324,7 +54324,7 @@ exports[`noun masculine 26520 1`] = `
     "klådcah",
   ],
   "nom": [
-    "klådec",
+    "klådėc",
     "klådce",
   ],
   "voc": [
@@ -55186,7 +55186,7 @@ exports[`noun masculine 27044 1`] = `
     "lanjce",
   ],
   "voc": [
-    "lanjcu",
+    "lanjče",
     "lanjce",
   ],
 }
@@ -61161,7 +61161,7 @@ exports[`noun masculine 31665 1`] = `
 exports[`noun masculine 31675 1`] = `
 {
   "acc": [
-    "zųbec",
+    "zųbėc",
     "zųbce",
   ],
   "dat": [
@@ -61181,7 +61181,7 @@ exports[`noun masculine 31675 1`] = `
     "zųbcah",
   ],
   "nom": [
-    "zųbec",
+    "zųbėc",
     "zųbce",
   ],
   "voc": [
@@ -62023,7 +62023,7 @@ exports[`noun masculine 32138 1`] = `
 exports[`noun masculine 32159 1`] = `
 {
   "acc": [
-    "ledovec",
+    "ledovėc",
     "ledovce",
   ],
   "dat": [
@@ -62043,7 +62043,7 @@ exports[`noun masculine 32159 1`] = `
     "ledovcah",
   ],
   "nom": [
-    "ledovec",
+    "ledovėc",
     "ledovce",
   ],
   "voc": [
@@ -63948,7 +63948,7 @@ exports[`noun masculine 33033 1`] = `
     "větrece",
   ],
   "voc": [
-    "větreče",
+    "větrecu",
     "větrece",
   ],
 }
@@ -65646,7 +65646,7 @@ exports[`noun masculine 34627 1`] = `
 exports[`noun masculine 34643 1`] = `
 {
   "acc": [
-    "trizųbec",
+    "trizųbėc",
     "trizųbce",
   ],
   "dat": [
@@ -65666,7 +65666,7 @@ exports[`noun masculine 34643 1`] = `
     "trizųbcah",
   ],
   "nom": [
-    "trizųbec",
+    "trizųbėc",
     "trizųbce",
   ],
   "voc": [
@@ -66277,7 +66277,7 @@ exports[`noun masculine 34921 1`] = `
 exports[`noun masculine 34922 1`] = `
 {
   "acc": [
-    "koverec",
+    "koverėc",
     "koverce",
   ],
   "dat": [
@@ -66297,7 +66297,7 @@ exports[`noun masculine 34922 1`] = `
     "kovercah",
   ],
   "nom": [
-    "koverec",
+    "koverėc",
     "koverce",
   ],
   "voc": [
@@ -69061,32 +69061,32 @@ exports[`noun masculine 35433 1`] = `
 exports[`noun masculine 35434 1`] = `
 {
   "acc": [
-    "palec",
-    "palce",
+    "palėc",
+    "paľce",
   ],
   "dat": [
-    "palcu",
-    "palcam",
+    "paľcu",
+    "paľcam",
   ],
   "gen": [
-    "palca",
-    "palcev",
+    "paľca",
+    "paľcev",
   ],
   "ins": [
-    "palcem",
-    "palcami",
+    "paľcem",
+    "paľcami",
   ],
   "loc": [
-    "palcu",
-    "palcah",
+    "paľcu",
+    "paľcah",
   ],
   "nom": [
-    "palec",
-    "palce",
+    "palėc",
+    "paľce",
   ],
   "voc": [
-    "palče",
-    "palce",
+    "paľče",
+    "paľce",
   ],
 }
 `;
@@ -72606,7 +72606,7 @@ exports[`noun masculine 36059 1`] = `
 exports[`noun masculine 36062 1`] = `
 {
   "acc": [
-    "drobjenec",
+    "drobjenėc",
     "drobjence",
   ],
   "dat": [
@@ -72626,7 +72626,7 @@ exports[`noun masculine 36062 1`] = `
     "drobjencah",
   ],
   "nom": [
-    "drobjenec",
+    "drobjenėc",
     "drobjence",
   ],
   "voc": [
@@ -73249,7 +73249,7 @@ exports[`noun masculine 36163 1`] = `
 exports[`noun masculine 36164 1`] = `
 {
   "acc": [
-    "krajec",
+    "krajėc",
     "krajce",
   ],
   "dat": [
@@ -73269,7 +73269,7 @@ exports[`noun masculine 36164 1`] = `
     "krajcah",
   ],
   "nom": [
-    "krajec",
+    "krajėc",
     "krajce",
   ],
   "voc": [
@@ -77493,7 +77493,7 @@ exports[`noun masculine 37057 1`] = `
     null,
   ],
   "voc": [
-    "Doncu",
+    "Donče",
     null,
   ],
 }
@@ -78463,7 +78463,7 @@ exports[`noun masculine 37151 1`] = `
 exports[`noun masculine 37166 1`] = `
 {
   "acc": [
-    "rozvěnec",
+    "rozvěnėc",
     "rozvěnce",
   ],
   "dat": [
@@ -78483,7 +78483,7 @@ exports[`noun masculine 37166 1`] = `
     "rozvěncah",
   ],
   "nom": [
-    "rozvěnec",
+    "rozvěnėc",
     "rozvěnce",
   ],
   "voc": [
@@ -80699,7 +80699,7 @@ exports[`noun masculine 37508 1`] = `
     "brȯnjenosce",
   ],
   "voc": [
-    "brȯnjenoscu",
+    "brȯnjenosče",
     "brȯnjenosce",
   ],
 }
