@@ -36781,6 +36781,75 @@ exports[`verb perfect 5817 1`] = `
 }
 `;
 
+exports[`verb perfect 5819 1`] = `
+{
+  "conditional": [
+    "byh poględal(a)",
+    "bys poględal(a)",
+    "by poględal",
+    "by poględala",
+    "by poględalo",
+    "byhmo poględali",
+    "byste poględali",
+    "by poględali",
+    "",
+  ],
+  "future": [
+    "bųdų poględatì",
+    "bųdeš poględatì",
+    "bųde poględatì",
+    "bųdemo poględatì",
+    "bųdete poględatì",
+    "bųdųt poględatì",
+  ],
+  "gerund": "poględańje",
+  "imperative": "poględaĵ, poględaĵmo, poględaĵte",
+  "imperfect": [
+    "poględah",
+    "poględaše",
+    "poględaše",
+    "poględahmo",
+    "poględaste",
+    "poględahų",
+  ],
+  "infinitive": "poględatì",
+  "perfect": [
+    "jesm poględal(a)",
+    "jesi poględal(a)",
+    "(je) poględal",
+    "(je) poględala",
+    "(je) poględalo",
+    "jesmo poględali",
+    "jeste poględali",
+    "(sųt) poględali",
+    "",
+  ],
+  "pfap": "poględavši (poględavšá, poględavšé)",
+  "pfpp": undefined,
+  "pluperfect": [
+    "běh poględal(a)",
+    "běše poględal(a)",
+    "běše poględal",
+    "běše poględala",
+    "běše poględalo",
+    "běhmo poględali",
+    "běste poględali",
+    "běhų poględali",
+    "",
+  ],
+  "prap": undefined,
+  "present": [
+    "poględajų, poględam",
+    "poględaješ, poględaš",
+    "poględaje, poględa",
+    "poględajemo, poględamo",
+    "poględajete, poględate",
+    "poględajųt",
+  ],
+  "prpp": undefined,
+}
+`;
+
 exports[`verb perfect 5821 1`] = `
 {
   "conditional": [
@@ -134754,6 +134823,76 @@ exports[`verb perfect 37307 1`] = `
     "namoknemo",
     "namoknete",
     "namoknųt",
+    "",
+  ],
+  "prpp": undefined,
+}
+`;
+
+exports[`verb perfect 37511 1`] = `
+{
+  "conditional": [
+    "byh poględnųl(a)",
+    "bys poględnųl(a)",
+    "by poględnųl",
+    "by poględnųla",
+    "by poględnųlo",
+    "byhmo poględnųli",
+    "byste poględnųli",
+    "by poględnųli",
+    "",
+  ],
+  "future": [
+    "bųdų poględnųtì",
+    "bųdeš poględnųtì",
+    "bųde poględnųtì",
+    "bųdemo poględnųtì",
+    "bųdete poględnųtì",
+    "bųdųt poględnųtì",
+  ],
+  "gerund": "poględnųťje",
+  "imperative": "poględni, poględnimo, poględnite",
+  "imperfect": [
+    "poględnųh",
+    "poględnųše",
+    "poględnųše",
+    "poględnųhmo",
+    "poględnųste",
+    "poględnųhų",
+  ],
+  "infinitive": "poględnųtì",
+  "perfect": [
+    "jesm poględnųl(a)",
+    "jesi poględnųl(a)",
+    "(je) poględnųl",
+    "(je) poględnųla",
+    "(je) poględnųlo",
+    "jesmo poględnųli",
+    "jeste poględnųli",
+    "(sųt) poględnųli",
+    "",
+  ],
+  "pfap": "poględnųvši (poględnųvšá, poględnųvšé)",
+  "pfpp": undefined,
+  "pluperfect": [
+    "běh poględnųl(a)",
+    "běše poględnųl(a)",
+    "běše poględnųl",
+    "běše poględnųla",
+    "běše poględnųlo",
+    "běhmo poględnųli",
+    "běste poględnųli",
+    "běhų poględnųli",
+    "",
+  ],
+  "prap": undefined,
+  "present": [
+    "poględnų, poględnem",
+    "poględneš",
+    "poględne",
+    "poględnemo",
+    "poględnete",
+    "poględnųt",
     "",
   ],
   "prpp": undefined,
