@@ -10,21 +10,21 @@ describe('pronoun', () => {
     });
 
     test.each([
-      ['ona', 'onoj'],
-      ['ono', 'onoj'],
-      ['ota', 'otoj'],
-      ['oto', 'otoj'],
+      ['ona', 'onȯj'],
+      ['ono', 'onȯj'],
+      ['ota', 'otȯj'],
+      ['oto', 'otȯj'],
       ['ova', 'ov'],
       ['ovo', 'ov'],
-      ['tamta', 'tamtoj'],
-      ['tamto', 'tamtoj'],
-      ['tuta', 'tutoj'],
-      ['tuto', 'tutoj'],
-      ['ta', 'toj'],
-      ['to', 'toj'],
-      ['te', 'toj'],
-      ['se', 'sej'],
-      ['sa', 'sej'],
+      ['tamta', 'tamtȯj'],
+      ['tamto', 'tamtȯj'],
+      ['tuta', 'tutȯj'],
+      ['tuto', 'tutȯj'],
+      ['ta', 'tȯj'],
+      ['to', 'tȯj'],
+      ['te', 'tȯj'],
+      ['se', 'sėj'],
+      ['sa', 'sėj'],
     ])('%s (pron.dem.) should decline as %s', (alternative, canonical) => {
       const actual = declensionPronounSimple(alternative, 'pron.dem.');
       const expected = declensionPronounSimple(canonical, 'pron.dem.');
