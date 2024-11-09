@@ -163,51 +163,32 @@ function applyRules(arr: string[], postfix: string) {
   });
 }
 
+const ROOT_ESTABLISHER_RULES: [RegExp, string][] = [
+  [/^(?:s[eė]j|sjej)$/, 's|^'],
+  [/^v[eė][sś]$/, 'vs|^'],
+  [/^(o[vn])(?:oj)?$/, '$1|'],
+  [/^(.*)jedin$/, '$1jedn|'],
+  [/^(.*)[ėȯ]j$/, '$1|'],
+  [/^(.*)[ėȯ](.|[ln]j)$/, '$1$2|'],
+  [/^(.*)en$/, '$1n|'],
+  [/^.*(?:rad|in|[oe]v)$/, '$&|'],
+  [/^(.*t)[oȯ]j$/, '$1|'],
+  [/^(?:naš|vaš|.*čij|.*oj)$/, '$&|^'],
+  [/^(.*)(?:ij?)$/, '$1^'],
+  [/^(.*)(?:yj?)$/, '$1'],
+];
+
+const KGH_CARET = /[kgh]\^/g;
+
 function establish_root(adj: string) {
-  let result = '';
-  if (adj == 'naš' || adj == 'vaš') {
-    result = adj + '|^';
-  } else if (adj == 'rad') {
-    result = adj + '|';
-  } else if (adj.slice(-3) == 'čij') {
-    result = adj + '|^';
-  } else if (adj == 'sej' || adj == 'sjej') {
-    result = adj.slice(0, -2) + '|^';
-  } else if (adj == 'veś' || adj == 'ves') {
-    result = 'vs|^';
-  } else if (adj == 'onoj') {
-    result = 'on|';
-  } else if (adj == 'ovoj' || adj == 'ov') {
-    result = 'ov|';
-  } else if (adj == 'jedin') {
-    result = 'jedn|';
-  } else if (adj == 'nijedin') {
-    result = 'nijedn|';
-  } else if (adj.slice(-2) == 'ov') {
-    result = adj + '|';
-  } else if (adj.slice(-2) == 'ev') {
-    result = adj + '|';
-  } else if (adj.slice(-2) == 'in') {
-    result = adj + '|';
-  } else if (adj.slice(-3) == 'toj') {
-    result = adj.slice(0, -2) + '|';
-  } else if (adj.slice(-2) == 'oj') {
-    result = adj + '|^';
-  } else if (adj.slice(-2) == 'en') {
-    result = adj.slice(0, -2) + 'n|';
-  } else if (adj.slice(-2) == 'yj') {
-    result = adj.slice(0, -2);
-  } else if (adj.slice(-2) == 'ij') {
-    result = adj.slice(0, -2) + '^';
-  } else if (adj.slice(-1) == 'y') {
-    result = adj.slice(0, -1);
-  } else if (adj.slice(-1) == 'i') {
-    result = adj.slice(0, -1) + '^';
-  } else {
-    result = '';
+  for (const [pattern, replacement] of ROOT_ESTABLISHER_RULES) {
+    if (pattern.test(adj)) {
+      const result = adj.replace(pattern, replacement);
+      return result.replace(KGH_CARET, (match) => match[0]);
+    }
   }
 
-  return result.replace('k^', 'k').replace('g^', 'g').replace('h^', 'h');
+  return '';
 }
 
 // TODO: should these words have PoS like "pron.indef." instead of just "adj."?
