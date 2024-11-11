@@ -22,7 +22,7 @@ export function declensionNounFlat(
   isSingular: boolean,
   isIndeclinable: boolean,
 ): string[] {
-  return getDeclensionNounFlat(
+  return _getDeclensionNounFlat(
     declensionNoun(
       rawNoun,
       rawAdd,
@@ -35,7 +35,8 @@ export function declensionNounFlat(
   );
 }
 
-function getDeclensionNounFlat(result: any): string[] {
+/** @internal */
+export function _getDeclensionNounFlat(result: any): string[] {
   if (!result) {
     return [];
   }

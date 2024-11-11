@@ -9,12 +9,13 @@ export function declensionAdjectiveFlat(
   postfix: string,
   partOfSpeech?: string,
 ): string[] {
-  return getDeclensionAdjectiveFlat(
+  return _getDeclensionAdjectiveFlat(
     declensionAdjective(adj, postfix, partOfSpeech),
   );
 }
 
-function getDeclensionAdjectiveFlat(result: any): string[] {
+/** @internal */
+export function _getDeclensionAdjectiveFlat(result: any): string[] {
   const forms = [];
 
   for (const key of Object.keys(result)) {

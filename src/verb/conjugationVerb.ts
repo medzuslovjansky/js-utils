@@ -58,10 +58,13 @@ export function conjugationVerbFlat(
   rawPts: string,
   partOfSpeech?: string,
 ): string[] {
-  return getConjugationVerbFlat(conjugationVerb(inf, rawPts, partOfSpeech));
+  return _getConjugationVerbFlat(conjugationVerb(inf, rawPts, partOfSpeech));
 }
 
-function getConjugationVerbFlat(result: SteenVerbParadigm | null): string[] {
+/** @internal */
+export function _getConjugationVerbFlat(
+  result: SteenVerbParadigm | null,
+): string[] {
   if (!result) {
     return [];
   }
