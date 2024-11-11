@@ -21,10 +21,13 @@ export interface SteenPronounParadigm {
 
 export function declensionPronounFlat(rawWord: string, pronounType: string) {
   const paradigm = declensionPronoun(rawWord, pronounType);
-  return paradigm ? getDeclensionPronounFlat(paradigm) : [];
+  return paradigm ? _getDeclensionPronounFlat(paradigm) : [];
 }
 
-function getDeclensionPronounFlat(result: SteenPronounParadigm): string[] {
+/** @internal */
+export function _getDeclensionPronounFlat(
+  result: SteenPronounParadigm,
+): string[] {
   if (!result) {
     return [];
   }

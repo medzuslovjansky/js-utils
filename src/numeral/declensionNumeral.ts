@@ -162,10 +162,13 @@ export function declensionNumeralFlat(
   numeralType: string,
 ): string[] {
   const paradigm = declensionNumeral(rawWord, numeralType);
-  return paradigm ? getDeclensionNumeralFlat(paradigm) : [];
+  return paradigm ? _getDeclensionNumeralFlat(paradigm) : [];
 }
 
-function getDeclensionNumeralFlat(result: SteenNumeralParadigm): string[] {
+/** @internal */
+export function _getDeclensionNumeralFlat(
+  result: SteenNumeralParadigm,
+): string[] {
   if (!result) {
     return [];
   }
