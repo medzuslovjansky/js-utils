@@ -17573,32 +17573,32 @@ exports[`noun feminine 3028 1`] = `
 exports[`noun feminine 3033 1`] = `
 {
   "acc": [
-    "česť",
-    "česti",
+    "čėsť",
+    "čėsti",
   ],
   "dat": [
-    "česti",
-    "česťam",
+    "čėsti",
+    "čėsťam",
   ],
   "gen": [
-    "česti",
-    "čestij",
+    "čėsti",
+    "čėstij",
   ],
   "ins": [
-    "česťjų",
-    "česťami",
+    "čėsťjų",
+    "čėsťami",
   ],
   "loc": [
-    "česti",
-    "česťah",
+    "čėsti",
+    "čėsťah",
   ],
   "nom": [
-    "česť",
-    "česti",
+    "čėsť",
+    "čėsti",
   ],
   "voc": [
-    "česti",
-    "česti",
+    "čėsti",
+    "čėsti",
   ],
 }
 `;
@@ -26235,32 +26235,32 @@ exports[`noun feminine 5108 1`] = `
 exports[`noun feminine 5116 1`] = `
 {
   "acc": [
-    "temnosť",
-    "temnosti",
+    "tėmnosť",
+    "tėmnosti",
   ],
   "dat": [
-    "temnosti",
-    "temnosťam",
+    "tėmnosti",
+    "tėmnosťam",
   ],
   "gen": [
-    "temnosti",
-    "temnostij",
+    "tėmnosti",
+    "tėmnostij",
   ],
   "ins": [
-    "temnosťjų",
-    "temnosťami",
+    "tėmnosťjų",
+    "tėmnosťami",
   ],
   "loc": [
-    "temnosti",
-    "temnosťah",
+    "tėmnosti",
+    "tėmnosťah",
   ],
   "nom": [
-    "temnosť",
-    "temnosti",
+    "tėmnosť",
+    "tėmnosti",
   ],
   "voc": [
-    "temnosti",
-    "temnosti",
+    "tėmnosti",
+    "tėmnosti",
   ],
 }
 `;
@@ -27095,32 +27095,32 @@ exports[`noun feminine 5269 1`] = `
 exports[`noun feminine 5271 1`] = `
 {
   "acc": [
-    "točkų",
-    "točky",
+    "tȯčkų",
+    "tȯčky",
   ],
   "dat": [
-    "točkě",
-    "točkam",
+    "tȯčkě",
+    "tȯčkam",
   ],
   "gen": [
-    "točky",
-    "toček",
+    "tȯčky",
+    "tȯček",
   ],
   "ins": [
-    "točkojų",
-    "točkami",
+    "tȯčkojų",
+    "tȯčkami",
   ],
   "loc": [
-    "točkě",
-    "točkah",
+    "tȯčkě",
+    "tȯčkah",
   ],
   "nom": [
-    "točka",
-    "točky",
+    "tȯčka",
+    "tȯčky",
   ],
   "voc": [
-    "točko",
-    "točky",
+    "tȯčko",
+    "tȯčky",
   ],
 }
 `;
@@ -30477,31 +30477,31 @@ exports[`noun feminine 6487 1`] = `null`;
 exports[`noun feminine 6519 1`] = `
 {
   "acc": [
-    "bezkonečnosť",
+    "bezkonėčnosť",
     null,
   ],
   "dat": [
-    "bezkonečnosti",
+    "bezkonėčnosti",
     null,
   ],
   "gen": [
-    "bezkonečnosti",
+    "bezkonėčnosti",
     null,
   ],
   "ins": [
-    "bezkonečnosťjų",
+    "bezkonėčnosťjų",
     null,
   ],
   "loc": [
-    "bezkonečnosti",
+    "bezkonėčnosti",
     null,
   ],
   "nom": [
-    "bezkonečnosť",
+    "bezkonėčnosť",
     null,
   ],
   "voc": [
-    "bezkonečnosti",
+    "bezkonėčnosti",
     null,
   ],
 }
@@ -36845,32 +36845,32 @@ exports[`noun feminine 12478 1`] = `null`;
 exports[`noun feminine 12554 1`] = `
 {
   "acc": [
-    "sŕdečnosť",
-    "sŕdečnosti",
+    "sŕdėčnosť",
+    "sŕdėčnosti",
   ],
   "dat": [
-    "sŕdečnosti",
-    "sŕdečnosťam",
+    "sŕdėčnosti",
+    "sŕdėčnosťam",
   ],
   "gen": [
-    "sŕdečnosti",
-    "sŕdečnostij",
+    "sŕdėčnosti",
+    "sŕdėčnostij",
   ],
   "ins": [
-    "sŕdečnosťjų",
-    "sŕdečnosťami",
+    "sŕdėčnosťjų",
+    "sŕdėčnosťami",
   ],
   "loc": [
-    "sŕdečnosti",
-    "sŕdečnosťah",
+    "sŕdėčnosti",
+    "sŕdėčnosťah",
   ],
   "nom": [
-    "sŕdečnosť",
-    "sŕdečnosti",
+    "sŕdėčnosť",
+    "sŕdėčnosti",
   ],
   "voc": [
-    "sŕdečnosti",
-    "sŕdečnosti",
+    "sŕdėčnosti",
+    "sŕdėčnosti",
   ],
 }
 `;
@@ -39855,32 +39855,32 @@ exports[`noun feminine 15073 1`] = `
 exports[`noun feminine 15075 1`] = `
 {
   "acc": [
-    "temnotų",
-    "temnoty",
+    "tėmnotų",
+    "tėmnoty",
   ],
   "dat": [
-    "temnotě",
-    "temnotam",
+    "tėmnotě",
+    "tėmnotam",
   ],
   "gen": [
-    "temnoty",
-    "temnot",
+    "tėmnoty",
+    "tėmnot",
   ],
   "ins": [
-    "temnotojų",
-    "temnotami",
+    "tėmnotojų",
+    "tėmnotami",
   ],
   "loc": [
-    "temnotě",
-    "temnotah",
+    "tėmnotě",
+    "tėmnotah",
   ],
   "nom": [
-    "temnota",
-    "temnoty",
+    "tėmnota",
+    "tėmnoty",
   ],
   "voc": [
-    "temnoto",
-    "temnoty",
+    "tėmnoto",
+    "tėmnoty",
   ],
 }
 `;
@@ -45844,32 +45844,32 @@ exports[`noun feminine 17663 1`] = `
 exports[`noun feminine 17676 1`] = `
 {
   "acc": [
-    "konečnosť",
-    "konečnosti",
+    "konėčnosť",
+    "konėčnosti",
   ],
   "dat": [
-    "konečnosti",
-    "konečnosťam",
+    "konėčnosti",
+    "konėčnosťam",
   ],
   "gen": [
-    "konečnosti",
-    "konečnostij",
+    "konėčnosti",
+    "konėčnostij",
   ],
   "ins": [
-    "konečnosťjų",
-    "konečnosťami",
+    "konėčnosťjų",
+    "konėčnosťami",
   ],
   "loc": [
-    "konečnosti",
-    "konečnosťah",
+    "konėčnosti",
+    "konėčnosťah",
   ],
   "nom": [
-    "konečnosť",
-    "konečnosti",
+    "konėčnosť",
+    "konėčnosti",
   ],
   "voc": [
-    "konečnosti",
-    "konečnosti",
+    "konėčnosti",
+    "konėčnosti",
   ],
 }
 `;
@@ -48881,32 +48881,32 @@ exports[`noun feminine 18971 1`] = `
 exports[`noun feminine 18975 1`] = `
 {
   "acc": [
-    "točnosť",
-    "točnosti",
+    "tȯčnosť",
+    "tȯčnosti",
   ],
   "dat": [
-    "točnosti",
-    "točnosťam",
+    "tȯčnosti",
+    "tȯčnosťam",
   ],
   "gen": [
-    "točnosti",
-    "točnostij",
+    "tȯčnosti",
+    "tȯčnostij",
   ],
   "ins": [
-    "točnosťjų",
-    "točnosťami",
+    "tȯčnosťjų",
+    "tȯčnosťami",
   ],
   "loc": [
-    "točnosti",
-    "točnosťah",
+    "tȯčnosti",
+    "tȯčnosťah",
   ],
   "nom": [
-    "točnosť",
-    "točnosti",
+    "tȯčnosť",
+    "tȯčnosti",
   ],
   "voc": [
-    "točnosti",
-    "točnosti",
+    "tȯčnosti",
+    "tȯčnosti",
   ],
 }
 `;
@@ -56627,32 +56627,32 @@ exports[`noun feminine 22093 1`] = `
 exports[`noun feminine 22118 1`] = `
 {
   "acc": [
-    "dvojtočkų",
-    "dvojtočky",
+    "dvojtȯčkų",
+    "dvojtȯčky",
   ],
   "dat": [
-    "dvojtočkě",
-    "dvojtočkam",
+    "dvojtȯčkě",
+    "dvojtȯčkam",
   ],
   "gen": [
-    "dvojtočky",
-    "dvojtoček",
+    "dvojtȯčky",
+    "dvojtȯček",
   ],
   "ins": [
-    "dvojtočkojų",
-    "dvojtočkami",
+    "dvojtȯčkojų",
+    "dvojtȯčkami",
   ],
   "loc": [
-    "dvojtočkě",
-    "dvojtočkah",
+    "dvojtȯčkě",
+    "dvojtȯčkah",
   ],
   "nom": [
-    "dvojtočka",
-    "dvojtočky",
+    "dvojtȯčka",
+    "dvojtȯčky",
   ],
   "voc": [
-    "dvojtočko",
-    "dvojtočky",
+    "dvojtȯčko",
+    "dvojtȯčky",
   ],
 }
 `;
@@ -58384,32 +58384,32 @@ exports[`noun feminine 22975 1`] = `
 exports[`noun feminine 22981 1`] = `
 {
   "acc": [
-    "čestnosť",
-    "čestnosti",
+    "čėstnosť",
+    "čėstnosti",
   ],
   "dat": [
-    "čestnosti",
-    "čestnosťam",
+    "čėstnosti",
+    "čėstnosťam",
   ],
   "gen": [
-    "čestnosti",
-    "čestnostij",
+    "čėstnosti",
+    "čėstnostij",
   ],
   "ins": [
-    "čestnosťjų",
-    "čestnosťami",
+    "čėstnosťjų",
+    "čėstnosťami",
   ],
   "loc": [
-    "čestnosti",
-    "čestnosťah",
+    "čėstnosti",
+    "čėstnosťah",
   ],
   "nom": [
-    "čestnosť",
-    "čestnosti",
+    "čėstnosť",
+    "čėstnosti",
   ],
   "voc": [
-    "čestnosti",
-    "čestnosti",
+    "čėstnosti",
+    "čėstnosti",
   ],
 }
 `;
@@ -70061,31 +70061,31 @@ exports[`noun feminine 26679 1`] = `
 {
   "acc": [
     "kopȯť",
-    "kopti",
+    "kopȯti",
   ],
   "dat": [
-    "kopti",
-    "kopťam",
+    "kopȯti",
+    "kopȯťam",
   ],
   "gen": [
-    "kopti",
-    "koptij",
+    "kopȯti",
+    "kopȯtij",
   ],
   "ins": [
-    "kopťjų",
-    "kopťami",
+    "kopȯťjų",
+    "kopȯťami",
   ],
   "loc": [
-    "kopti",
-    "kopťah",
+    "kopȯti",
+    "kopȯťah",
   ],
   "nom": [
     "kopȯť",
-    "kopti",
+    "kopȯti",
   ],
   "voc": [
-    "kopti",
-    "kopti",
+    "kopȯti",
+    "kopȯti",
   ],
 }
 `;
@@ -76375,32 +76375,32 @@ exports[`noun feminine 30858 1`] = `
 exports[`noun feminine 30879 1`] = `
 {
   "acc": [
-    "temnicų",
-    "temnice",
+    "tėmnicų",
+    "tėmnice",
   ],
   "dat": [
-    "temnici",
-    "temnicam",
+    "tėmnici",
+    "tėmnicam",
   ],
   "gen": [
-    "temnice",
-    "temnic",
+    "tėmnice",
+    "tėmnic",
   ],
   "ins": [
-    "temnicejų",
-    "temnicami",
+    "tėmnicejų",
+    "tėmnicami",
   ],
   "loc": [
-    "temnici",
-    "temnicah",
+    "tėmnici",
+    "tėmnicah",
   ],
   "nom": [
-    "temnica",
-    "temnice",
+    "tėmnica",
+    "tėmnice",
   ],
   "voc": [
-    "temnico",
-    "temnice",
+    "tėmnico",
+    "tėmnice",
   ],
 }
 `;
@@ -88806,32 +88806,32 @@ exports[`noun feminine 35440 1`] = `
 exports[`noun feminine 35443 1`] = `
 {
   "acc": [
-    "mečtų",
-    "mečty",
+    "mėčtų",
+    "mėčty",
   ],
   "dat": [
-    "mečtě",
-    "mečtam",
+    "mėčtě",
+    "mėčtam",
   ],
   "gen": [
-    "mečty",
-    "mečt",
+    "mėčty",
+    "mėčt",
   ],
   "ins": [
-    "mečtojų",
-    "mečtami",
+    "mėčtojų",
+    "mėčtami",
   ],
   "loc": [
-    "mečtě",
-    "mečtah",
+    "mėčtě",
+    "mėčtah",
   ],
   "nom": [
-    "mečta",
-    "mečty",
+    "mėčta",
+    "mėčty",
   ],
   "voc": [
-    "mečto",
-    "mečty",
+    "mėčto",
+    "mėčty",
   ],
 }
 `;
