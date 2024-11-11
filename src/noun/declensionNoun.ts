@@ -106,7 +106,7 @@ export function declensionNoun(
 
   if (add && noun !== add) {
     noun = markFluentVowel(noun, add);
-  } else if (originGender === 'masculine') {
+  } else {
     noun = inferFluentVowel(noun);
   }
 
@@ -393,12 +393,16 @@ function locative_sg(root: string, gender: string) {
   return result;
 }
 
+const EC_ENDING = /[eėè]c$/;
+
 function vocative_sg(nom_sg: string, root: string, gender: string) {
   let result = '';
   if (gender == 'm1' || gender == 'm2') {
-    if (nom_sg.lastIndexOf('ec') == nom_sg.length - 2) {
+    if (EC_ENDING.test(nom_sg)) {
       result = root.substring(0, root.length - 2) + 'če';
     } else if (root.lastIndexOf('ь') == root.length - 1) {
+      result = root + 'u';
+    } else if (root.lastIndexOf('čk') == root.length - 2) {
       result = root + 'u';
     } else if (root.lastIndexOf('k') == root.length - 1) {
       result = root.substring(0, root.length - 1) + 'če';
