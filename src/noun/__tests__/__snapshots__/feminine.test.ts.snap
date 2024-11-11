@@ -70061,31 +70061,31 @@ exports[`noun feminine 26679 1`] = `
 {
   "acc": [
     "kopȯť",
-    "kopȯti",
+    "kopti",
   ],
   "dat": [
-    "kopȯti",
-    "kopȯťam",
+    "kopti",
+    "kopťam",
   ],
   "gen": [
-    "kopȯti",
-    "kopȯtij",
+    "kopti",
+    "koptij",
   ],
   "ins": [
-    "kopȯťjų",
-    "kopȯťami",
+    "kopťjų",
+    "kopťami",
   ],
   "loc": [
-    "kopȯti",
-    "kopȯťah",
+    "kopti",
+    "kopťah",
   ],
   "nom": [
     "kopȯť",
-    "kopȯti",
+    "kopti",
   ],
   "voc": [
-    "kopȯti",
-    "kopȯti",
+    "kopti",
+    "kopti",
   ],
 }
 `;
