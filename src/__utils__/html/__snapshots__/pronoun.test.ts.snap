@@ -16,13 +16,13 @@ exports[`renderers HTML pronoun declension adjective type render 1`] = `
     <tbody>
       <tr>
         <th>Nom.</th>
-        <td>toj</td>
+        <td>tȯj</td>
         <td>to</td>
         <td>ta</td>
       </tr>
       <tr>
         <th>Acc.</th>
-        <td>togo / toj</td>
+        <td>togo / tȯj</td>
         <td>to</td>
         <td>tų</td>
       </tr>
@@ -105,13 +105,13 @@ exports[`renderers HTML pronoun declension adjective type renderDiff 1`] = `
     <tbody>
       <tr>
         <th>Nom.</th>
-        <td><del>toj</del> <ins>tamtoj</ins></td>
+        <td><del>tȯj</del> <ins>tamtȯj</ins></td>
         <td><del>to</del> <ins>tamto</ins></td>
         <td><del>ta</del> <ins>tamta</ins></td>
       </tr>
       <tr>
         <th>Acc.</th>
-        <td><del>togo / toj</del> <ins>tamtogo / tamtoj</ins></td>
+        <td><del>togo / tȯj</del> <ins>tamtogo / tamtȯj</ins></td>
         <td><del>to</del> <ins>tamto</ins></td>
         <td><del>tų</del> <ins>tamtų</ins></td>
       </tr>

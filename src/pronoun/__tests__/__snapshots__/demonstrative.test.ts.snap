@@ -26,7 +26,7 @@ exports[`pronoun demonstrative 1347 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "sego / sej",
+      "sego / sėj",
       "se",
       "śų",
     ],
@@ -47,7 +47,7 @@ exports[`pronoun demonstrative 1347 1`] = `
       "sej",
     ],
     "nom": [
-      "sej",
+      "sėj",
       "se",
       "śa",
     ],
@@ -82,7 +82,7 @@ exports[`pronoun demonstrative 1534 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "tutogo / tutoj",
+      "tutogo / tutȯj",
       "tuto",
       "tutų",
     ],
@@ -103,7 +103,7 @@ exports[`pronoun demonstrative 1534 1`] = `
       "tutoj",
     ],
     "nom": [
-      "tutoj",
+      "tutȯj",
       "tuto",
       "tuta",
     ],
@@ -138,7 +138,7 @@ exports[`pronoun demonstrative 2263 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "tamtogo / tamtoj",
+      "tamtogo / tamtȯj",
       "tamto",
       "tamtų",
     ],
@@ -159,7 +159,7 @@ exports[`pronoun demonstrative 2263 1`] = `
       "tamtoj",
     ],
     "nom": [
-      "tamtoj",
+      "tamtȯj",
       "tamto",
       "tamta",
     ],
@@ -194,7 +194,7 @@ exports[`pronoun demonstrative 2893 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "togo / toj",
+      "togo / tȯj",
       "to",
       "tų",
     ],
@@ -215,7 +215,7 @@ exports[`pronoun demonstrative 2893 1`] = `
       "toj",
     ],
     "nom": [
-      "toj",
+      "tȯj",
       "to",
       "ta",
     ],
@@ -250,7 +250,7 @@ exports[`pronoun demonstrative 5702 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "togo / toj",
+      "togo / tȯj",
       "to",
       "tų",
     ],
@@ -271,7 +271,7 @@ exports[`pronoun demonstrative 5702 1`] = `
       "toj",
     ],
     "nom": [
-      "toj",
+      "tȯj",
       "to",
       "ta",
     ],
@@ -362,7 +362,7 @@ exports[`pronoun demonstrative 19600 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "onogo / onoj",
+      "onogo / onȯj",
       "ono",
       "onų",
     ],
@@ -383,7 +383,7 @@ exports[`pronoun demonstrative 19600 1`] = `
       "onoj",
     ],
     "nom": [
-      "onoj",
+      "onȯj",
       "ono",
       "ona",
     ],
@@ -418,7 +418,7 @@ exports[`pronoun demonstrative 20212 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "togože / tojže",
+      "togože / tȯjže",
       "tože",
       "tųže",
     ],
@@ -439,7 +439,7 @@ exports[`pronoun demonstrative 20212 1`] = `
       "tojže",
     ],
     "nom": [
-      "tojže",
+      "tȯjže",
       "tože",
       "taže",
     ],
@@ -474,7 +474,7 @@ exports[`pronoun demonstrative 36995 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "togo / toj",
+      "togo / tȯj",
       "to",
       "tų",
     ],
@@ -495,7 +495,7 @@ exports[`pronoun demonstrative 36995 1`] = `
       "toj",
     ],
     "nom": [
-      "toj",
+      "tȯj",
       "to",
       "ta",
     ],
@@ -530,7 +530,7 @@ exports[`pronoun demonstrative 36996 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "tutogo / tutoj",
+      "tutogo / tutȯj",
       "tuto",
       "tutų",
     ],
@@ -551,7 +551,7 @@ exports[`pronoun demonstrative 36996 1`] = `
       "tutoj",
     ],
     "nom": [
-      "tutoj",
+      "tutȯj",
       "tuto",
       "tuta",
     ],
@@ -586,7 +586,7 @@ exports[`pronoun demonstrative 36997 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "tamtogo / tamtoj",
+      "tamtogo / tamtȯj",
       "tamto",
       "tamtų",
     ],
@@ -607,7 +607,7 @@ exports[`pronoun demonstrative 36997 1`] = `
       "tamtoj",
     ],
     "nom": [
-      "tamtoj",
+      "tamtȯj",
       "tamto",
       "tamta",
     ],
