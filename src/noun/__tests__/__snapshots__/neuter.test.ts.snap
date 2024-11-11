@@ -2488,32 +2488,32 @@ exports[`noun neuter 1530 1`] = `
 exports[`noun neuter 1537 1`] = `
 {
   "acc": [
-    "menšinstvo",
-    "menšinstva",
+    "mėnšinstvo",
+    "mėnšinstva",
   ],
   "dat": [
-    "menšinstvu",
-    "menšinstvam",
+    "mėnšinstvu",
+    "mėnšinstvam",
   ],
   "gen": [
-    "menšinstva",
-    "menšinstv",
+    "mėnšinstva",
+    "mėnšinstv",
   ],
   "ins": [
-    "menšinstvom",
-    "menšinstvami",
+    "mėnšinstvom",
+    "mėnšinstvami",
   ],
   "loc": [
-    "menšinstvu",
-    "menšinstvah",
+    "mėnšinstvu",
+    "mėnšinstvah",
   ],
   "nom": [
-    "menšinstvo",
-    "menšinstva",
+    "mėnšinstvo",
+    "mėnšinstva",
   ],
   "voc": [
-    "menšinstvo",
-    "menšinstva",
+    "mėnšinstvo",
+    "mėnšinstva",
   ],
 }
 `;
@@ -9535,32 +9535,32 @@ exports[`noun neuter 5630 1`] = `
 exports[`noun neuter 5634 1`] = `
 {
   "acc": [
-    "smenšeńje",
-    "smenšeńja",
+    "smėnšeńje",
+    "smėnšeńja",
   ],
   "dat": [
-    "smenšeńju",
-    "smenšeńjam",
+    "smėnšeńju",
+    "smėnšeńjam",
   ],
   "gen": [
-    "smenšeńja",
-    "smenšenij",
+    "smėnšeńja",
+    "smėnšenij",
   ],
   "ins": [
-    "smenšeńjem",
-    "smenšeńjami",
+    "smėnšeńjem",
+    "smėnšeńjami",
   ],
   "loc": [
-    "smenšeńju",
-    "smenšeńjah",
+    "smėnšeńju",
+    "smėnšeńjah",
   ],
   "nom": [
-    "smenšeńje",
-    "smenšeńja",
+    "smėnšeńje",
+    "smėnšeńja",
   ],
   "voc": [
-    "smenšeńje",
-    "smenšeńja",
+    "smėnšeńje",
+    "smėnšeńja",
   ],
 }
 `;
@@ -10958,31 +10958,31 @@ exports[`noun neuter 6387 1`] = `
 exports[`noun neuter 6517 1`] = `
 {
   "acc": [
-    "bezkonečje",
+    "bezkonėčje",
     null,
   ],
   "dat": [
-    "bezkonečju",
+    "bezkonėčju",
     null,
   ],
   "gen": [
-    "bezkonečja",
+    "bezkonėčja",
     null,
   ],
   "ins": [
-    "bezkonečjem",
+    "bezkonėčjem",
     null,
   ],
   "loc": [
-    "bezkonečju",
+    "bezkonėčju",
     null,
   ],
   "nom": [
-    "bezkonečje",
+    "bezkonėčje",
     null,
   ],
   "voc": [
-    "bezkonečje",
+    "bezkonėčje",
     null,
   ],
 }
@@ -12024,32 +12024,32 @@ exports[`noun neuter 8202 1`] = `null`;
 exports[`noun neuter 8214 1`] = `
 {
   "acc": [
-    "jaječko",
-    "jaječka",
+    "jajėčko",
+    "jajėčka",
   ],
   "dat": [
-    "jaječku",
-    "jaječkam",
+    "jajėčku",
+    "jajėčkam",
   ],
   "gen": [
-    "jaječka",
-    "jaječek",
+    "jajėčka",
+    "jajėček",
   ],
   "ins": [
-    "jaječkom",
-    "jaječkami",
+    "jajėčkom",
+    "jajėčkami",
   ],
   "loc": [
-    "jaječku",
-    "jaječkah",
+    "jajėčku",
+    "jajėčkah",
   ],
   "nom": [
-    "jaječko",
-    "jaječka",
+    "jajėčko",
+    "jajėčka",
   ],
   "voc": [
-    "jaječko",
-    "jaječka",
+    "jajėčko",
+    "jajėčka",
   ],
 }
 `;
@@ -37414,31 +37414,31 @@ exports[`noun neuter 35028 1`] = `
 exports[`noun neuter 35050 1`] = `
 {
   "acc": [
-    "sųperničstvo",
+    "sųpėrničstvo",
     null,
   ],
   "dat": [
-    "sųperničstvu",
+    "sųpėrničstvu",
     null,
   ],
   "gen": [
-    "sųperničstva",
+    "sųpėrničstva",
     null,
   ],
   "ins": [
-    "sųperničstvom",
+    "sųpėrničstvom",
     null,
   ],
   "loc": [
-    "sųperničstvu",
+    "sųpėrničstvu",
     null,
   ],
   "nom": [
-    "sųperničstvo",
+    "sųpėrničstvo",
     null,
   ],
   "voc": [
-    "sųperničstvo",
+    "sųpėrničstvo",
     null,
   ],
 }
@@ -38583,32 +38583,32 @@ exports[`noun neuter 35650 1`] = `
 exports[`noun neuter 35671 1`] = `
 {
   "acc": [
-    "utočnjeńje",
-    "utočnjeńja",
+    "utȯčnjeńje",
+    "utȯčnjeńja",
   ],
   "dat": [
-    "utočnjeńju",
-    "utočnjeńjam",
+    "utȯčnjeńju",
+    "utȯčnjeńjam",
   ],
   "gen": [
-    "utočnjeńja",
-    "utočnjenij",
+    "utȯčnjeńja",
+    "utȯčnjenij",
   ],
   "ins": [
-    "utočnjeńjem",
-    "utočnjeńjami",
+    "utȯčnjeńjem",
+    "utȯčnjeńjami",
   ],
   "loc": [
-    "utočnjeńju",
-    "utočnjeńjah",
+    "utȯčnjeńju",
+    "utȯčnjeńjah",
   ],
   "nom": [
-    "utočnjeńje",
-    "utočnjeńja",
+    "utȯčnjeńje",
+    "utȯčnjeńja",
   ],
   "voc": [
-    "utočnjeńje",
-    "utočnjeńja",
+    "utȯčnjeńje",
+    "utȯčnjeńja",
   ],
 }
 `;
