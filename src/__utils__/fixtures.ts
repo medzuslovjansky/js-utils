@@ -1,4 +1,5 @@
 type FixtureGetter = () => [string, string, string, string][];
+type StringsGetter = () => string[];
 
 export const adjectives: FixtureGetter = () =>
   jest.requireActual('../__fixtures__/adjectives.json');
@@ -36,3 +37,5 @@ export const pronouns_relative: FixtureGetter = () =>
   jest.requireActual('../__fixtures__/pronouns-relative.json');
 export const other: FixtureGetter = () =>
   jest.requireActual('../__fixtures__/other.json');
+export const word_forms: StringsGetter = () =>
+  jest.requireActual('../__fixtures__/word-forms.json');

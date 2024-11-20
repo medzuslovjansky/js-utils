@@ -55,16 +55,13 @@ describe('transliterate to', () => {
     },
   );
 
-  test.failing(
-    'double transliteration should work equally from Latin and Cyrillic scripts',
-    () => {
-      const latn2cyrl = transliterate(latin, 'isv-Cyrl');
-      const cyrl2latn = transliterate(cyrillic, 'isv-Latn');
+  test('double transliteration should work equally from Latin and Cyrillic scripts', () => {
+    const latn2cyrl = transliterate(latin, 'isv-Cyrl');
+    const cyrl2latn = transliterate(cyrillic, 'isv-Latn');
 
-      expect(transliterate(latn2cyrl, 'isv-Latn')).toEqual(cyrl2latn);
-      expect(transliterate(cyrl2latn, 'isv-Cyrl')).toEqual(latn2cyrl);
-    },
-  );
+    expect(transliterate(latn2cyrl, 'isv-Latn')).toEqual(cyrl2latn);
+    expect(transliterate(cyrl2latn, 'isv-Cyrl')).toEqual(latn2cyrl);
+  });
 
   test('unknown code', () => {
     expect(() => transliterate('', 'en' as any)).toThrowErrorMatchingSnapshot();
