@@ -1,5 +1,1822 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`noun feminine -37518 1`] = `
+{
+  "acc": [
+    "absolutizacijų",
+    "absolutizacije",
+  ],
+  "dat": [
+    "absolutizaciji",
+    "absolutizacijam",
+  ],
+  "gen": [
+    "absolutizacije",
+    "absolutizacij",
+  ],
+  "ins": [
+    "absolutizacijejų",
+    "absolutizacijami",
+  ],
+  "loc": [
+    "absolutizaciji",
+    "absolutizacijah",
+  ],
+  "nom": [
+    "absolutizacija",
+    "absolutizacije",
+  ],
+  "voc": [
+    "absolutizacijo",
+    "absolutizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37520 1`] = `
+{
+  "acc": [
+    "absolutnosť",
+    "absolutnosti",
+  ],
+  "dat": [
+    "absolutnosti",
+    "absolutnosťam",
+  ],
+  "gen": [
+    "absolutnosti",
+    "absolutnostij",
+  ],
+  "ins": [
+    "absolutnosťjų",
+    "absolutnosťami",
+  ],
+  "loc": [
+    "absolutnosti",
+    "absolutnosťah",
+  ],
+  "nom": [
+    "absolutnosť",
+    "absolutnosti",
+  ],
+  "voc": [
+    "absolutnosti",
+    "absolutnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37522 1`] = `
+{
+  "acc": [
+    "acetilacijų",
+    "acetilacije",
+  ],
+  "dat": [
+    "acetilaciji",
+    "acetilacijam",
+  ],
+  "gen": [
+    "acetilacije",
+    "acetilacij",
+  ],
+  "ins": [
+    "acetilacijejų",
+    "acetilacijami",
+  ],
+  "loc": [
+    "acetilaciji",
+    "acetilacijah",
+  ],
+  "nom": [
+    "acetilacija",
+    "acetilacije",
+  ],
+  "voc": [
+    "acetilacijo",
+    "acetilacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37526 1`] = `
+{
+  "acc": [
+    "adresacijų",
+    "adresacije",
+  ],
+  "dat": [
+    "adresaciji",
+    "adresacijam",
+  ],
+  "gen": [
+    "adresacije",
+    "adresacij",
+  ],
+  "ins": [
+    "adresacijejų",
+    "adresacijami",
+  ],
+  "loc": [
+    "adresaciji",
+    "adresacijah",
+  ],
+  "nom": [
+    "adresacija",
+    "adresacije",
+  ],
+  "voc": [
+    "adresacijo",
+    "adresacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37534 1`] = `
+{
+  "acc": [
+    "aksiomatikų",
+    "aksiomatiky",
+  ],
+  "dat": [
+    "aksiomatikě",
+    "aksiomatikam",
+  ],
+  "gen": [
+    "aksiomatiky",
+    "aksiomatik",
+  ],
+  "ins": [
+    "aksiomatikojų",
+    "aksiomatikami",
+  ],
+  "loc": [
+    "aksiomatikě",
+    "aksiomatikah",
+  ],
+  "nom": [
+    "aksiomatika",
+    "aksiomatiky",
+  ],
+  "voc": [
+    "aksiomatiko",
+    "aksiomatiky",
+  ],
+}
+`;
+
+exports[`noun feminine -37535 1`] = `
+{
+  "acc": [
+    "aktivizacijų",
+    "aktivizacije",
+  ],
+  "dat": [
+    "aktivizaciji",
+    "aktivizacijam",
+  ],
+  "gen": [
+    "aktivizacije",
+    "aktivizacij",
+  ],
+  "ins": [
+    "aktivizacijejų",
+    "aktivizacijami",
+  ],
+  "loc": [
+    "aktivizaciji",
+    "aktivizacijah",
+  ],
+  "nom": [
+    "aktivizacija",
+    "aktivizacije",
+  ],
+  "voc": [
+    "aktivizacijo",
+    "aktivizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37538 1`] = `
+{
+  "acc": [
+    "amaterkų",
+    "amaterky",
+  ],
+  "dat": [
+    "amaterkě",
+    "amaterkam",
+  ],
+  "gen": [
+    "amaterky",
+    "amaterȯk",
+  ],
+  "ins": [
+    "amaterkojų",
+    "amaterkami",
+  ],
+  "loc": [
+    "amaterkě",
+    "amaterkah",
+  ],
+  "nom": [
+    "amaterka",
+    "amaterky",
+  ],
+  "voc": [
+    "amaterko",
+    "amaterky",
+  ],
+}
+`;
+
+exports[`noun feminine -37539 1`] = `
+{
+  "acc": [
+    "Amazonijų",
+    "Amazonije",
+  ],
+  "dat": [
+    "Amazoniji",
+    "Amazonijam",
+  ],
+  "gen": [
+    "Amazonije",
+    "Amazonij",
+  ],
+  "ins": [
+    "Amazonijejų",
+    "Amazonijami",
+  ],
+  "loc": [
+    "Amazoniji",
+    "Amazonijah",
+  ],
+  "nom": [
+    "Amazonija",
+    "Amazonije",
+  ],
+  "voc": [
+    "Amazonijo",
+    "Amazonije",
+  ],
+}
+`;
+
+exports[`noun feminine -37555 1`] = `
+{
+  "acc": [
+    "antireklamų",
+    "antireklamy",
+  ],
+  "dat": [
+    "antireklamě",
+    "antireklamam",
+  ],
+  "gen": [
+    "antireklamy",
+    "antireklam",
+  ],
+  "ins": [
+    "antireklamojų",
+    "antireklamami",
+  ],
+  "loc": [
+    "antireklamě",
+    "antireklamah",
+  ],
+  "nom": [
+    "antireklama",
+    "antireklamy",
+  ],
+  "voc": [
+    "antireklamo",
+    "antireklamy",
+  ],
+}
+`;
+
+exports[`noun feminine -37561 1`] = `
+{
+  "acc": [
+    "arabizacijų",
+    "arabizacije",
+  ],
+  "dat": [
+    "arabizaciji",
+    "arabizacijam",
+  ],
+  "gen": [
+    "arabizacije",
+    "arabizacij",
+  ],
+  "ins": [
+    "arabizacijejų",
+    "arabizacijami",
+  ],
+  "loc": [
+    "arabizaciji",
+    "arabizacijah",
+  ],
+  "nom": [
+    "arabizacija",
+    "arabizacije",
+  ],
+  "voc": [
+    "arabizacijo",
+    "arabizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37565 1`] = `
+{
+  "acc": [
+    "arbų",
+    "arby",
+  ],
+  "dat": [
+    "arbě",
+    "arbam",
+  ],
+  "gen": [
+    "arby",
+    "arb",
+  ],
+  "ins": [
+    "arbojų",
+    "arbami",
+  ],
+  "loc": [
+    "arbě",
+    "arbah",
+  ],
+  "nom": [
+    "arba",
+    "arby",
+  ],
+  "voc": [
+    "arbo",
+    "arby",
+  ],
+}
+`;
+
+exports[`noun feminine -37566 1`] = `
+{
+  "acc": [
+    "arhaizacijų",
+    "arhaizacije",
+  ],
+  "dat": [
+    "arhaizaciji",
+    "arhaizacijam",
+  ],
+  "gen": [
+    "arhaizacije",
+    "arhaizacij",
+  ],
+  "ins": [
+    "arhaizacijejų",
+    "arhaizacijami",
+  ],
+  "loc": [
+    "arhaizaciji",
+    "arhaizacijah",
+  ],
+  "nom": [
+    "arhaizacija",
+    "arhaizacije",
+  ],
+  "voc": [
+    "arhaizacijo",
+    "arhaizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37567 1`] = `
+{
+  "acc": [
+    "arhaičnosť",
+    "arhaičnosti",
+  ],
+  "dat": [
+    "arhaičnosti",
+    "arhaičnosťam",
+  ],
+  "gen": [
+    "arhaičnosti",
+    "arhaičnostij",
+  ],
+  "ins": [
+    "arhaičnosťjų",
+    "arhaičnosťami",
+  ],
+  "loc": [
+    "arhaičnosti",
+    "arhaičnosťah",
+  ],
+  "nom": [
+    "arhaičnosť",
+    "arhaičnosti",
+  ],
+  "voc": [
+    "arhaičnosti",
+    "arhaičnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37568 1`] = `
+{
+  "acc": [
+    "arhejų",
+    "arheje",
+  ],
+  "dat": [
+    "arheji",
+    "arhejam",
+  ],
+  "gen": [
+    "arheje",
+    "arhej",
+  ],
+  "ins": [
+    "arhejejų",
+    "arhejami",
+  ],
+  "loc": [
+    "arheji",
+    "arhejah",
+  ],
+  "nom": [
+    "arheja",
+    "arheje",
+  ],
+  "voc": [
+    "arhejo",
+    "arheje",
+  ],
+}
+`;
+
+exports[`noun feminine -37569 1`] = `
+{
+  "acc": [
+    "arhivacijų",
+    "arhivacije",
+  ],
+  "dat": [
+    "arhivaciji",
+    "arhivacijam",
+  ],
+  "gen": [
+    "arhivacije",
+    "arhivacij",
+  ],
+  "ins": [
+    "arhivacijejų",
+    "arhivacijami",
+  ],
+  "loc": [
+    "arhivaciji",
+    "arhivacijah",
+  ],
+  "nom": [
+    "arhivacija",
+    "arhivacije",
+  ],
+  "voc": [
+    "arhivacijo",
+    "arhivacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37572 1`] = `
+{
+  "acc": [
+    "artrozų",
+    "artrozy",
+  ],
+  "dat": [
+    "artrozě",
+    "artrozam",
+  ],
+  "gen": [
+    "artrozy",
+    "artroz",
+  ],
+  "ins": [
+    "artrozojų",
+    "artrozami",
+  ],
+  "loc": [
+    "artrozě",
+    "artrozah",
+  ],
+  "nom": [
+    "artroza",
+    "artrozy",
+  ],
+  "voc": [
+    "artrozo",
+    "artrozy",
+  ],
+}
+`;
+
+exports[`noun feminine -37579 1`] = `
+{
+  "acc": [
+    "pravnųčkų",
+    "pravnųčky",
+  ],
+  "dat": [
+    "pravnųčkě",
+    "pravnųčkam",
+  ],
+  "gen": [
+    "pravnųčky",
+    "pravnųček",
+  ],
+  "ins": [
+    "pravnųčkojų",
+    "pravnųčkami",
+  ],
+  "loc": [
+    "pravnųčkě",
+    "pravnųčkah",
+  ],
+  "nom": [
+    "pravnųčka",
+    "pravnųčky",
+  ],
+  "voc": [
+    "pravnųčko",
+    "pravnųčky",
+  ],
+}
+`;
+
+exports[`noun feminine -37581 1`] = `
+{
+  "acc": [
+    "trězvosť",
+    "trězvosti",
+  ],
+  "dat": [
+    "trězvosti",
+    "trězvosťam",
+  ],
+  "gen": [
+    "trězvosti",
+    "trězvostij",
+  ],
+  "ins": [
+    "trězvosťjų",
+    "trězvosťami",
+  ],
+  "loc": [
+    "trězvosti",
+    "trězvosťah",
+  ],
+  "nom": [
+    "trězvosť",
+    "trězvosti",
+  ],
+  "voc": [
+    "trězvosti",
+    "trězvosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37588 1`] = `
+{
+  "acc": [
+    "gvardijų",
+    "gvardije",
+  ],
+  "dat": [
+    "gvardiji",
+    "gvardijam",
+  ],
+  "gen": [
+    "gvardije",
+    "gvardij",
+  ],
+  "ins": [
+    "gvardijejų",
+    "gvardijami",
+  ],
+  "loc": [
+    "gvardiji",
+    "gvardijah",
+  ],
+  "nom": [
+    "gvardija",
+    "gvardije",
+  ],
+  "voc": [
+    "gvardijo",
+    "gvardije",
+  ],
+}
+`;
+
+exports[`noun feminine -37589 1`] = `
+{
+  "acc": [
+    "gardų",
+    "gardy",
+  ],
+  "dat": [
+    "gardě",
+    "gardam",
+  ],
+  "gen": [
+    "gardy",
+    "gard",
+  ],
+  "ins": [
+    "gardojų",
+    "gardami",
+  ],
+  "loc": [
+    "gardě",
+    "gardah",
+  ],
+  "nom": [
+    "garda",
+    "gardy",
+  ],
+  "voc": [
+    "gardo",
+    "gardy",
+  ],
+}
+`;
+
+exports[`noun feminine -37598 1`] = `
+{
+  "acc": [
+    "asociativnosť",
+    "asociativnosti",
+  ],
+  "dat": [
+    "asociativnosti",
+    "asociativnosťam",
+  ],
+  "gen": [
+    "asociativnosti",
+    "asociativnostij",
+  ],
+  "ins": [
+    "asociativnosťjų",
+    "asociativnosťami",
+  ],
+  "loc": [
+    "asociativnosti",
+    "asociativnosťah",
+  ],
+  "nom": [
+    "asociativnosť",
+    "asociativnosti",
+  ],
+  "voc": [
+    "asociativnosti",
+    "asociativnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37613 1`] = `
+{
+  "acc": [
+    "Banovinų",
+    "Banoviny",
+  ],
+  "dat": [
+    "Banovině",
+    "Banovinam",
+  ],
+  "gen": [
+    "Banoviny",
+    "Banovin",
+  ],
+  "ins": [
+    "Banovinojų",
+    "Banovinami",
+  ],
+  "loc": [
+    "Banovině",
+    "Banovinah",
+  ],
+  "nom": [
+    "Banovina",
+    "Banoviny",
+  ],
+  "voc": [
+    "Banovino",
+    "Banoviny",
+  ],
+}
+`;
+
+exports[`noun feminine -37626 1`] = `
+{
+  "acc": [
+    "bioenergetikų",
+    "bioenergetiky",
+  ],
+  "dat": [
+    "bioenergetikě",
+    "bioenergetikam",
+  ],
+  "gen": [
+    "bioenergetiky",
+    "bioenergetik",
+  ],
+  "ins": [
+    "bioenergetikojų",
+    "bioenergetikami",
+  ],
+  "loc": [
+    "bioenergetikě",
+    "bioenergetikah",
+  ],
+  "nom": [
+    "bioenergetika",
+    "bioenergetiky",
+  ],
+  "voc": [
+    "bioenergetiko",
+    "bioenergetiky",
+  ],
+}
+`;
+
+exports[`noun feminine -37628 1`] = `
+{
+  "acc": [
+    "bjurokratizacijų",
+    "bjurokratizacije",
+  ],
+  "dat": [
+    "bjurokratizaciji",
+    "bjurokratizacijam",
+  ],
+  "gen": [
+    "bjurokratizacije",
+    "bjurokratizacij",
+  ],
+  "ins": [
+    "bjurokratizacijejų",
+    "bjurokratizacijami",
+  ],
+  "loc": [
+    "bjurokratizaciji",
+    "bjurokratizacijah",
+  ],
+  "nom": [
+    "bjurokratizacija",
+    "bjurokratizacije",
+  ],
+  "voc": [
+    "bjurokratizacijo",
+    "bjurokratizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37630 1`] = `
+{
+  "acc": [
+    "blogerkų",
+    "blogerky",
+  ],
+  "dat": [
+    "blogerkě",
+    "blogerkam",
+  ],
+  "gen": [
+    "blogerky",
+    "blogerȯk",
+  ],
+  "ins": [
+    "blogerkojų",
+    "blogerkami",
+  ],
+  "loc": [
+    "blogerkě",
+    "blogerkah",
+  ],
+  "nom": [
+    "blogerka",
+    "blogerky",
+  ],
+  "voc": [
+    "blogerko",
+    "blogerky",
+  ],
+}
+`;
+
+exports[`noun feminine -37635 1`] = `
+{
+  "acc": [
+    "bulimijų",
+    "bulimije",
+  ],
+  "dat": [
+    "bulimiji",
+    "bulimijam",
+  ],
+  "gen": [
+    "bulimije",
+    "bulimij",
+  ],
+  "ins": [
+    "bulimijejų",
+    "bulimijami",
+  ],
+  "loc": [
+    "bulimiji",
+    "bulimijah",
+  ],
+  "nom": [
+    "bulimija",
+    "bulimije",
+  ],
+  "voc": [
+    "bulimijo",
+    "bulimije",
+  ],
+}
+`;
+
+exports[`noun feminine -37639 1`] = `
+{
+  "acc": [
+    "defektoskopijų",
+    "defektoskopije",
+  ],
+  "dat": [
+    "defektoskopiji",
+    "defektoskopijam",
+  ],
+  "gen": [
+    "defektoskopije",
+    "defektoskopij",
+  ],
+  "ins": [
+    "defektoskopijejų",
+    "defektoskopijami",
+  ],
+  "loc": [
+    "defektoskopiji",
+    "defektoskopijah",
+  ],
+  "nom": [
+    "defektoskopija",
+    "defektoskopije",
+  ],
+  "voc": [
+    "defektoskopijo",
+    "defektoskopije",
+  ],
+}
+`;
+
+exports[`noun feminine -37640 1`] = `
+{
+  "acc": [
+    "degeneracijų",
+    "degeneracije",
+  ],
+  "dat": [
+    "degeneraciji",
+    "degeneracijam",
+  ],
+  "gen": [
+    "degeneracije",
+    "degeneracij",
+  ],
+  "ins": [
+    "degeneracijejų",
+    "degeneracijami",
+  ],
+  "loc": [
+    "degeneraciji",
+    "degeneracijah",
+  ],
+  "nom": [
+    "degeneracija",
+    "degeneracije",
+  ],
+  "voc": [
+    "degeneracijo",
+    "degeneracije",
+  ],
+}
+`;
+
+exports[`noun feminine -37643 1`] = `
+{
+  "acc": [
+    "dekompozicijų",
+    "dekompozicije",
+  ],
+  "dat": [
+    "dekompoziciji",
+    "dekompozicijam",
+  ],
+  "gen": [
+    "dekompozicije",
+    "dekompozicij",
+  ],
+  "ins": [
+    "dekompozicijejų",
+    "dekompozicijami",
+  ],
+  "loc": [
+    "dekompoziciji",
+    "dekompozicijah",
+  ],
+  "nom": [
+    "dekompozicija",
+    "dekompozicije",
+  ],
+  "voc": [
+    "dekompozicijo",
+    "dekompozicije",
+  ],
+}
+`;
+
+exports[`noun feminine -37645 1`] = `
+{
+  "acc": [
+    "demokratičnosť",
+    "demokratičnosti",
+  ],
+  "dat": [
+    "demokratičnosti",
+    "demokratičnosťam",
+  ],
+  "gen": [
+    "demokratičnosti",
+    "demokratičnostij",
+  ],
+  "ins": [
+    "demokratičnosťjų",
+    "demokratičnosťami",
+  ],
+  "loc": [
+    "demokratičnosti",
+    "demokratičnosťah",
+  ],
+  "nom": [
+    "demokratičnosť",
+    "demokratičnosti",
+  ],
+  "voc": [
+    "demokratičnosti",
+    "demokratičnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37650 1`] = `
+{
+  "acc": [
+    "deputacijų",
+    "deputacije",
+  ],
+  "dat": [
+    "deputaciji",
+    "deputacijam",
+  ],
+  "gen": [
+    "deputacije",
+    "deputacij",
+  ],
+  "ins": [
+    "deputacijejų",
+    "deputacijami",
+  ],
+  "loc": [
+    "deputaciji",
+    "deputacijah",
+  ],
+  "nom": [
+    "deputacija",
+    "deputacije",
+  ],
+  "voc": [
+    "deputacijo",
+    "deputacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37658 1`] = `
+{
+  "acc": [
+    "dobrovoljnosť",
+    "dobrovoljnosti",
+  ],
+  "dat": [
+    "dobrovoljnosti",
+    "dobrovoljnosťam",
+  ],
+  "gen": [
+    "dobrovoljnosti",
+    "dobrovoljnostij",
+  ],
+  "ins": [
+    "dobrovoljnosťjų",
+    "dobrovoljnosťami",
+  ],
+  "loc": [
+    "dobrovoljnosti",
+    "dobrovoljnosťah",
+  ],
+  "nom": [
+    "dobrovoljnosť",
+    "dobrovoljnosti",
+  ],
+  "voc": [
+    "dobrovoljnosti",
+    "dobrovoljnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37659 1`] = `
+{
+  "acc": [
+    "dokumentalistikų",
+    "dokumentalistiky",
+  ],
+  "dat": [
+    "dokumentalistikě",
+    "dokumentalistikam",
+  ],
+  "gen": [
+    "dokumentalistiky",
+    "dokumentalistik",
+  ],
+  "ins": [
+    "dokumentalistikojų",
+    "dokumentalistikami",
+  ],
+  "loc": [
+    "dokumentalistikě",
+    "dokumentalistikah",
+  ],
+  "nom": [
+    "dokumentalistika",
+    "dokumentalistiky",
+  ],
+  "voc": [
+    "dokumentalistiko",
+    "dokumentalistiky",
+  ],
+}
+`;
+
+exports[`noun feminine -37660 1`] = `
+{
+  "acc": [
+    "dokumentaĺnosť",
+    "dokumentaĺnosti",
+  ],
+  "dat": [
+    "dokumentaĺnosti",
+    "dokumentaĺnosťam",
+  ],
+  "gen": [
+    "dokumentaĺnosti",
+    "dokumentaĺnostij",
+  ],
+  "ins": [
+    "dokumentaĺnosťjų",
+    "dokumentaĺnosťami",
+  ],
+  "loc": [
+    "dokumentaĺnosti",
+    "dokumentaĺnosťah",
+  ],
+  "nom": [
+    "dokumentaĺnosť",
+    "dokumentaĺnosti",
+  ],
+  "voc": [
+    "dokumentaĺnosti",
+    "dokumentaĺnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37665 1`] = `null`;
+
+exports[`noun feminine -37666 1`] = `
+{
+  "acc": [
+    "dominantnosť",
+    "dominantnosti",
+  ],
+  "dat": [
+    "dominantnosti",
+    "dominantnosťam",
+  ],
+  "gen": [
+    "dominantnosti",
+    "dominantnostij",
+  ],
+  "ins": [
+    "dominantnosťjų",
+    "dominantnosťami",
+  ],
+  "loc": [
+    "dominantnosti",
+    "dominantnosťah",
+  ],
+  "nom": [
+    "dominantnosť",
+    "dominantnosti",
+  ],
+  "voc": [
+    "dominantnosti",
+    "dominantnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37671 1`] = `
+{
+  "acc": [
+    "dramatizacijų",
+    "dramatizacije",
+  ],
+  "dat": [
+    "dramatizaciji",
+    "dramatizacijam",
+  ],
+  "gen": [
+    "dramatizacije",
+    "dramatizacij",
+  ],
+  "ins": [
+    "dramatizacijejų",
+    "dramatizacijami",
+  ],
+  "loc": [
+    "dramatizaciji",
+    "dramatizacijah",
+  ],
+  "nom": [
+    "dramatizacija",
+    "dramatizacije",
+  ],
+  "voc": [
+    "dramatizacijo",
+    "dramatizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37679 1`] = `
+{
+  "acc": [
+    "egzaltacijų",
+    "egzaltacije",
+  ],
+  "dat": [
+    "egzaltaciji",
+    "egzaltacijam",
+  ],
+  "gen": [
+    "egzaltacije",
+    "egzaltacij",
+  ],
+  "ins": [
+    "egzaltacijejų",
+    "egzaltacijami",
+  ],
+  "loc": [
+    "egzaltaciji",
+    "egzaltacijah",
+  ],
+  "nom": [
+    "egzaltacija",
+    "egzaltacije",
+  ],
+  "voc": [
+    "egzaltacijo",
+    "egzaltacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37681 1`] = `
+{
+  "acc": [
+    "ekologizacijų",
+    "ekologizacije",
+  ],
+  "dat": [
+    "ekologizaciji",
+    "ekologizacijam",
+  ],
+  "gen": [
+    "ekologizacije",
+    "ekologizacij",
+  ],
+  "ins": [
+    "ekologizacijejų",
+    "ekologizacijami",
+  ],
+  "loc": [
+    "ekologizaciji",
+    "ekologizacijah",
+  ],
+  "nom": [
+    "ekologizacija",
+    "ekologizacije",
+  ],
+  "voc": [
+    "ekologizacijo",
+    "ekologizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37684 1`] = `
+{
+  "acc": [
+    "esejistikų",
+    "esejistiky",
+  ],
+  "dat": [
+    "esejistikě",
+    "esejistikam",
+  ],
+  "gen": [
+    "esejistiky",
+    "esejistik",
+  ],
+  "ins": [
+    "esejistikojų",
+    "esejistikami",
+  ],
+  "loc": [
+    "esejistikě",
+    "esejistikah",
+  ],
+  "nom": [
+    "esejistika",
+    "esejistiky",
+  ],
+  "voc": [
+    "esejistiko",
+    "esejistiky",
+  ],
+}
+`;
+
+exports[`noun feminine -37687 1`] = `
+{
+  "acc": [
+    "estetičnosť",
+    "estetičnosti",
+  ],
+  "dat": [
+    "estetičnosti",
+    "estetičnosťam",
+  ],
+  "gen": [
+    "estetičnosti",
+    "estetičnostij",
+  ],
+  "ins": [
+    "estetičnosťjų",
+    "estetičnosťami",
+  ],
+  "loc": [
+    "estetičnosti",
+    "estetičnosťah",
+  ],
+  "nom": [
+    "estetičnosť",
+    "estetičnosti",
+  ],
+  "voc": [
+    "estetičnosti",
+    "estetičnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37689 1`] = `
+{
+  "acc": [
+    "fantastičnosť",
+    "fantastičnosti",
+  ],
+  "dat": [
+    "fantastičnosti",
+    "fantastičnosťam",
+  ],
+  "gen": [
+    "fantastičnosti",
+    "fantastičnostij",
+  ],
+  "ins": [
+    "fantastičnosťjų",
+    "fantastičnosťami",
+  ],
+  "loc": [
+    "fantastičnosti",
+    "fantastičnosťah",
+  ],
+  "nom": [
+    "fantastičnosť",
+    "fantastičnosti",
+  ],
+  "voc": [
+    "fantastičnosti",
+    "fantastičnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37695 1`] = `
+{
+  "acc": [
+    "germanistkų",
+    "germanistky",
+  ],
+  "dat": [
+    "germanistkě",
+    "germanistkam",
+  ],
+  "gen": [
+    "germanistky",
+    "germanistȯk",
+  ],
+  "ins": [
+    "germanistkojų",
+    "germanistkami",
+  ],
+  "loc": [
+    "germanistkě",
+    "germanistkah",
+  ],
+  "nom": [
+    "germanistka",
+    "germanistky",
+  ],
+  "voc": [
+    "germanistko",
+    "germanistky",
+  ],
+}
+`;
+
+exports[`noun feminine -37696 1`] = `
+{
+  "acc": [
+    "getoizacijų",
+    "getoizacije",
+  ],
+  "dat": [
+    "getoizaciji",
+    "getoizacijam",
+  ],
+  "gen": [
+    "getoizacije",
+    "getoizacij",
+  ],
+  "ins": [
+    "getoizacijejų",
+    "getoizacijami",
+  ],
+  "loc": [
+    "getoizaciji",
+    "getoizacijah",
+  ],
+  "nom": [
+    "getoizacija",
+    "getoizacije",
+  ],
+  "voc": [
+    "getoizacijo",
+    "getoizacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37702 1`] = `
+{
+  "acc": [
+    "gradacijų",
+    "gradacije",
+  ],
+  "dat": [
+    "gradaciji",
+    "gradacijam",
+  ],
+  "gen": [
+    "gradacije",
+    "gradacij",
+  ],
+  "ins": [
+    "gradacijejų",
+    "gradacijami",
+  ],
+  "loc": [
+    "gradaciji",
+    "gradacijah",
+  ],
+  "nom": [
+    "gradacija",
+    "gradacije",
+  ],
+  "voc": [
+    "gradacijo",
+    "gradacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37703 1`] = `
+{
+  "acc": [
+    "měšćankų",
+    "měšćanky",
+  ],
+  "dat": [
+    "měšćankě",
+    "měšćankam",
+  ],
+  "gen": [
+    "měšćanky",
+    "měšćanȯk",
+  ],
+  "ins": [
+    "měšćankojų",
+    "měšćankami",
+  ],
+  "loc": [
+    "měšćankě",
+    "měšćankah",
+  ],
+  "nom": [
+    "měšćanka",
+    "měšćanky",
+  ],
+  "voc": [
+    "měšćanko",
+    "měšćanky",
+  ],
+}
+`;
+
+exports[`noun feminine -37704 1`] = `
+{
+  "acc": [
+    "grupkų",
+    "grupky",
+  ],
+  "dat": [
+    "grupkě",
+    "grupkam",
+  ],
+  "gen": [
+    "grupky",
+    "grupȯk",
+  ],
+  "ins": [
+    "grupkojų",
+    "grupkami",
+  ],
+  "loc": [
+    "grupkě",
+    "grupkah",
+  ],
+  "nom": [
+    "grupka",
+    "grupky",
+  ],
+  "voc": [
+    "grupko",
+    "grupky",
+  ],
+}
+`;
+
+exports[`noun feminine -37707 1`] = `
+{
+  "acc": [
+    "harmoničnosť",
+    "harmoničnosti",
+  ],
+  "dat": [
+    "harmoničnosti",
+    "harmoničnosťam",
+  ],
+  "gen": [
+    "harmoničnosti",
+    "harmoničnostij",
+  ],
+  "ins": [
+    "harmoničnosťjų",
+    "harmoničnosťami",
+  ],
+  "loc": [
+    "harmoničnosti",
+    "harmoničnosťah",
+  ],
+  "nom": [
+    "harmoničnosť",
+    "harmoničnosti",
+  ],
+  "voc": [
+    "harmoničnosti",
+    "harmoničnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37712 1`] = `
+{
+  "acc": [
+    "hidroterapijų",
+    "hidroterapije",
+  ],
+  "dat": [
+    "hidroterapiji",
+    "hidroterapijam",
+  ],
+  "gen": [
+    "hidroterapije",
+    "hidroterapij",
+  ],
+  "ins": [
+    "hidroterapijejų",
+    "hidroterapijami",
+  ],
+  "loc": [
+    "hidroterapiji",
+    "hidroterapijah",
+  ],
+  "nom": [
+    "hidroterapija",
+    "hidroterapije",
+  ],
+  "voc": [
+    "hidroterapijo",
+    "hidroterapije",
+  ],
+}
+`;
+
+exports[`noun feminine -37714 1`] = `
+{
+  "acc": [
+    "historičnosť",
+    "historičnosti",
+  ],
+  "dat": [
+    "historičnosti",
+    "historičnosťam",
+  ],
+  "gen": [
+    "historičnosti",
+    "historičnostij",
+  ],
+  "ins": [
+    "historičnosťjų",
+    "historičnosťami",
+  ],
+  "loc": [
+    "historičnosti",
+    "historičnosťah",
+  ],
+  "nom": [
+    "historičnosť",
+    "historičnosti",
+  ],
+  "voc": [
+    "historičnosti",
+    "historičnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37724 1`] = `
+{
+  "acc": [
+    "idealistkų",
+    "idealistky",
+  ],
+  "dat": [
+    "idealistkě",
+    "idealistkam",
+  ],
+  "gen": [
+    "idealistky",
+    "idealistȯk",
+  ],
+  "ins": [
+    "idealistkojų",
+    "idealistkami",
+  ],
+  "loc": [
+    "idealistkě",
+    "idealistkah",
+  ],
+  "nom": [
+    "idealistka",
+    "idealistky",
+  ],
+  "voc": [
+    "idealistko",
+    "idealistky",
+  ],
+}
+`;
+
+exports[`noun feminine -37725 1`] = `
+{
+  "acc": [
+    "ideaĺnosť",
+    "ideaĺnosti",
+  ],
+  "dat": [
+    "ideaĺnosti",
+    "ideaĺnosťam",
+  ],
+  "gen": [
+    "ideaĺnosti",
+    "ideaĺnostij",
+  ],
+  "ins": [
+    "ideaĺnosťjų",
+    "ideaĺnosťami",
+  ],
+  "loc": [
+    "ideaĺnosti",
+    "ideaĺnosťah",
+  ],
+  "nom": [
+    "ideaĺnosť",
+    "ideaĺnosti",
+  ],
+  "voc": [
+    "ideaĺnosti",
+    "ideaĺnosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37729 1`] = `
+{
+  "acc": [
+    "informovanosť",
+    "informovanosti",
+  ],
+  "dat": [
+    "informovanosti",
+    "informovanosťam",
+  ],
+  "gen": [
+    "informovanosti",
+    "informovanostij",
+  ],
+  "ins": [
+    "informovanosťjų",
+    "informovanosťami",
+  ],
+  "loc": [
+    "informovanosti",
+    "informovanosťah",
+  ],
+  "nom": [
+    "informovanosť",
+    "informovanosti",
+  ],
+  "voc": [
+    "informovanosti",
+    "informovanosti",
+  ],
+}
+`;
+
+exports[`noun feminine -37730 1`] = `
+{
+  "acc": [
+    "inhalacijų",
+    "inhalacije",
+  ],
+  "dat": [
+    "inhalaciji",
+    "inhalacijam",
+  ],
+  "gen": [
+    "inhalacije",
+    "inhalacij",
+  ],
+  "ins": [
+    "inhalacijejų",
+    "inhalacijami",
+  ],
+  "loc": [
+    "inhalaciji",
+    "inhalacijah",
+  ],
+  "nom": [
+    "inhalacija",
+    "inhalacije",
+  ],
+  "voc": [
+    "inhalacijo",
+    "inhalacije",
+  ],
+}
+`;
+
+exports[`noun feminine -37732 1`] = `
+{
+  "acc": [
+    "inkvizicijų",
+    "inkvizicije",
+  ],
+  "dat": [
+    "inkviziciji",
+    "inkvizicijam",
+  ],
+  "gen": [
+    "inkvizicije",
+    "inkvizicij",
+  ],
+  "ins": [
+    "inkvizicijejų",
+    "inkvizicijami",
+  ],
+  "loc": [
+    "inkviziciji",
+    "inkvizicijah",
+  ],
+  "nom": [
+    "inkvizicija",
+    "inkvizicije",
+  ],
+  "voc": [
+    "inkvizicijo",
+    "inkvizicije",
+  ],
+}
+`;
+
+exports[`noun feminine -37734 1`] = `
+{
+  "acc": [
+    "inspektorkų",
+    "inspektorky",
+  ],
+  "dat": [
+    "inspektorkě",
+    "inspektorkam",
+  ],
+  "gen": [
+    "inspektorky",
+    "inspektorȯk",
+  ],
+  "ins": [
+    "inspektorkojų",
+    "inspektorkami",
+  ],
+  "loc": [
+    "inspektorkě",
+    "inspektorkah",
+  ],
+  "nom": [
+    "inspektorka",
+    "inspektorky",
+  ],
+  "voc": [
+    "inspektorko",
+    "inspektorky",
+  ],
+}
+`;
+
 exports[`noun feminine 3 1`] = `
 {
   "acc": [
@@ -36334,32 +38151,32 @@ exports[`noun feminine 12090 1`] = `
 exports[`noun feminine 12135 1`] = `
 {
   "acc": [
-    "sejčasnosť",
-    "sejčasnosti",
+    "sėjčasnosť",
+    "sėjčasnosti",
   ],
   "dat": [
-    "sejčasnosti",
-    "sejčasnosťam",
+    "sėjčasnosti",
+    "sėjčasnosťam",
   ],
   "gen": [
-    "sejčasnosti",
-    "sejčasnostij",
+    "sėjčasnosti",
+    "sėjčasnostij",
   ],
   "ins": [
-    "sejčasnosťjų",
-    "sejčasnosťami",
+    "sėjčasnosťjų",
+    "sėjčasnosťami",
   ],
   "loc": [
-    "sejčasnosti",
-    "sejčasnosťah",
+    "sėjčasnosti",
+    "sėjčasnosťah",
   ],
   "nom": [
-    "sejčasnosť",
-    "sejčasnosti",
+    "sėjčasnosť",
+    "sėjčasnosti",
   ],
   "voc": [
-    "sejčasnosti",
-    "sejčasnosti",
+    "sėjčasnosti",
+    "sėjčasnosti",
   ],
 }
 `;
@@ -44060,32 +45877,32 @@ exports[`noun feminine 17210 1`] = `
 exports[`noun feminine 17219 1`] = `
 {
   "acc": [
-    "črnicų",
-    "črnice",
+    "!črnicų",
+    "!črnice",
   ],
   "dat": [
-    "črnici",
-    "črnicam",
+    "!črnici",
+    "!črnicam",
   ],
   "gen": [
-    "črnice",
-    "črnic",
+    "!črnice",
+    "!črnic",
   ],
   "ins": [
-    "črnicejų",
-    "črnicami",
+    "!črnicejų",
+    "!črnicami",
   ],
   "loc": [
-    "črnici",
-    "črnicah",
+    "!črnici",
+    "!črnicah",
   ],
   "nom": [
-    "črnica",
-    "črnice",
+    "!črnica",
+    "!črnice",
   ],
   "voc": [
-    "črnico",
-    "črnice",
+    "!črnico",
+    "!črnice",
   ],
 }
 `;
@@ -52257,32 +54074,32 @@ exports[`noun feminine 20135 1`] = `
 exports[`noun feminine 20191 1`] = `
 {
   "acc": [
-    "stvarnosť",
-    "stvarnosti",
+    "stvaŕnosť",
+    "stvaŕnosti",
   ],
   "dat": [
-    "stvarnosti",
-    "stvarnosťam",
+    "stvaŕnosti",
+    "stvaŕnosťam",
   ],
   "gen": [
-    "stvarnosti",
-    "stvarnostij",
+    "stvaŕnosti",
+    "stvaŕnostij",
   ],
   "ins": [
-    "stvarnosťjų",
-    "stvarnosťami",
+    "stvaŕnosťjų",
+    "stvaŕnosťami",
   ],
   "loc": [
-    "stvarnosti",
-    "stvarnosťah",
+    "stvaŕnosti",
+    "stvaŕnosťah",
   ],
   "nom": [
-    "stvarnosť",
-    "stvarnosti",
+    "stvaŕnosť",
+    "stvaŕnosti",
   ],
   "voc": [
-    "stvarnosti",
-    "stvarnosti",
+    "stvaŕnosti",
+    "stvaŕnosti",
   ],
 }
 `;
@@ -63056,32 +64873,32 @@ exports[`noun feminine 24000 1`] = `
 exports[`noun feminine 24004 1`] = `
 {
   "acc": [
-    "tešćų",
-    "tešće",
+    "tėšćų",
+    "tėšće",
   ],
   "dat": [
-    "tešći",
-    "tešćam",
+    "tėšći",
+    "tėšćam",
   ],
   "gen": [
-    "tešće",
-    "tešć",
+    "tėšće",
+    "tėšć",
   ],
   "ins": [
-    "tešćejų",
-    "tešćami",
+    "tėšćejų",
+    "tėšćami",
   ],
   "loc": [
-    "tešći",
-    "tešćah",
+    "tėšći",
+    "tėšćah",
   ],
   "nom": [
-    "tešća",
-    "tešće",
+    "tėšća",
+    "tėšće",
   ],
   "voc": [
-    "tešćo",
-    "tešće",
+    "tėšćo",
+    "tėšće",
   ],
 }
 `;
@@ -65825,6 +67642,39 @@ exports[`noun feminine 25040 1`] = `
   "voc": [
     "črěmho",
     "črěmhy",
+  ],
+}
+`;
+
+exports[`noun feminine 25049 1`] = `
+{
+  "acc": [
+    "črnicų",
+    "črnice",
+  ],
+  "dat": [
+    "črnici",
+    "črnicam",
+  ],
+  "gen": [
+    "črnice",
+    "črnic",
+  ],
+  "ins": [
+    "črnicejų",
+    "črnicami",
+  ],
+  "loc": [
+    "črnici",
+    "črnicah",
+  ],
+  "nom": [
+    "črnica",
+    "črnice",
+  ],
+  "voc": [
+    "črnico",
+    "črnice",
   ],
 }
 `;

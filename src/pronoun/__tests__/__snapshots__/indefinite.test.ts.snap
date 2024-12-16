@@ -706,7 +706,7 @@ exports[`pronoun indefinite 14327 1`] = `
   },
   "casesSingular": {
     "acc": [
-      "žadnogo / žaden",
+      "žadnogo / žadėn",
       "žadno",
       "žadnų",
     ],
@@ -727,7 +727,7 @@ exports[`pronoun indefinite 14327 1`] = `
       "žadnoj",
     ],
     "nom": [
-      "žaden",
+      "žadėn",
       "žadno",
       "žadna",
     ],

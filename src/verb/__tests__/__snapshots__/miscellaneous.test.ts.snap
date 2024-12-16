@@ -1,5 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`verb miscellaneous -37580 1`] = `
+{
+  "conditional": [
+    "byh regeneroval(a)",
+    "bys regeneroval(a)",
+    "by regeneroval",
+    "by regenerovala",
+    "by regenerovalo",
+    "byhmo regenerovali",
+    "byste regenerovali",
+    "by regenerovali",
+    "",
+  ],
+  "future": [
+    "bųdų regenerovatì",
+    "bųdeš regenerovatì",
+    "bųde regenerovatì",
+    "bųdemo regenerovatì",
+    "bųdete regenerovatì",
+    "bųdųt regenerovatì",
+  ],
+  "gerund": "regenerovańje",
+  "imperative": "regeneruj, regenerujmo, regenerujte",
+  "imperfect": [
+    "regenerovah",
+    "regenerovaše",
+    "regenerovaše",
+    "regenerovahmo",
+    "regenerovaste",
+    "regenerovahų",
+  ],
+  "infinitive": "regenerovatì",
+  "perfect": [
+    "jesm regeneroval(a)",
+    "jesi regeneroval(a)",
+    "(je) regeneroval",
+    "(je) regenerovala",
+    "(je) regenerovalo",
+    "jesmo regenerovali",
+    "jeste regenerovali",
+    "(sųt) regenerovali",
+    "",
+  ],
+  "pfap": "regenerovavši (regenerovavšá, regenerovavšé)",
+  "pfpp": "regenerovaný (regenerovaná, regenerovanó)",
+  "pluperfect": [
+    "běh regeneroval(a)",
+    "běše regeneroval(a)",
+    "běše regeneroval",
+    "běše regenerovala",
+    "běše regenerovalo",
+    "běhmo regenerovali",
+    "běste regenerovali",
+    "běhų regenerovali",
+    "",
+  ],
+  "prap": "regenerujųćí (regenerujųćá, regenerujųćé)",
+  "present": [
+    "regenerujų, regenerujem",
+    "regeneruješ",
+    "regeneruje",
+    "regenerujemo",
+    "regenerujete",
+    "regenerujųt",
+    "",
+  ],
+  "prpp": "regenerujemý (regenerujemá, regenerujemœ)",
+}
+`;
+
 exports[`verb miscellaneous 11 1`] = `
 {
   "conditional": [
