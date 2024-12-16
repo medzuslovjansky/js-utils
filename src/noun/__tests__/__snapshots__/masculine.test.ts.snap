@@ -1,5 +1,665 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`noun masculine -37517 1`] = `
+{
+  "acc": [
+    "absolut",
+    "absoluty",
+  ],
+  "dat": [
+    "absolutu",
+    "absolutam",
+  ],
+  "gen": [
+    "absoluta",
+    "absolutov",
+  ],
+  "ins": [
+    "absolutom",
+    "absolutami",
+  ],
+  "loc": [
+    "absolutu",
+    "absolutah",
+  ],
+  "nom": [
+    "absolut",
+    "absoluty",
+  ],
+  "voc": [
+    "absolute",
+    "absoluty",
+  ],
+}
+`;
+
+exports[`noun masculine -37531 1`] = `
+{
+  "acc": [
+    "agorizm",
+    "agorizmy",
+  ],
+  "dat": [
+    "agorizmu",
+    "agorizmam",
+  ],
+  "gen": [
+    "agorizma",
+    "agorizmov",
+  ],
+  "ins": [
+    "agorizmom",
+    "agorizmami",
+  ],
+  "loc": [
+    "agorizmu",
+    "agorizmah",
+  ],
+  "nom": [
+    "agorizm",
+    "agorizmy",
+  ],
+  "voc": [
+    "agorizme",
+    "agorizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37536 1`] = `
+{
+  "acc": [
+    "albumin",
+    "albuminy",
+  ],
+  "dat": [
+    "albuminu",
+    "albuminam",
+  ],
+  "gen": [
+    "albumina",
+    "albuminov",
+  ],
+  "ins": [
+    "albuminom",
+    "albuminami",
+  ],
+  "loc": [
+    "albuminu",
+    "albuminah",
+  ],
+  "nom": [
+    "albumin",
+    "albuminy",
+  ],
+  "voc": [
+    "albumine",
+    "albuminy",
+  ],
+}
+`;
+
+exports[`noun masculine -37552 1`] = `
+{
+  "acc": [
+    "antioksidant",
+    "antioksidanty",
+  ],
+  "dat": [
+    "antioksidantu",
+    "antioksidantam",
+  ],
+  "gen": [
+    "antioksidanta",
+    "antioksidantov",
+  ],
+  "ins": [
+    "antioksidantom",
+    "antioksidantami",
+  ],
+  "loc": [
+    "antioksidantu",
+    "antioksidantah",
+  ],
+  "nom": [
+    "antioksidant",
+    "antioksidanty",
+  ],
+  "voc": [
+    "antioksidante",
+    "antioksidanty",
+  ],
+}
+`;
+
+exports[`noun masculine -37554 1`] = `
+{
+  "acc": [
+    "antiradar",
+    "antiradary",
+  ],
+  "dat": [
+    "antiradaru",
+    "antiradaram",
+  ],
+  "gen": [
+    "antiradara",
+    "antiradarov",
+  ],
+  "ins": [
+    "antiradarom",
+    "antiradarami",
+  ],
+  "loc": [
+    "antiradaru",
+    "antiradarah",
+  ],
+  "nom": [
+    "antiradar",
+    "antiradary",
+  ],
+  "voc": [
+    "antiradare",
+    "antiradary",
+  ],
+}
+`;
+
+exports[`noun masculine -37590 1`] = `
+{
+  "acc": [
+    "akril",
+    "akrily",
+  ],
+  "dat": [
+    "akrilu",
+    "akrilam",
+  ],
+  "gen": [
+    "akrila",
+    "akrilov",
+  ],
+  "ins": [
+    "akrilom",
+    "akrilami",
+  ],
+  "loc": [
+    "akrilu",
+    "akrilah",
+  ],
+  "nom": [
+    "akril",
+    "akrily",
+  ],
+  "voc": [
+    "akrile",
+    "akrily",
+  ],
+}
+`;
+
+exports[`noun masculine -37592 1`] = `
+{
+  "acc": [
+    "aristokratizm",
+    "aristokratizmy",
+  ],
+  "dat": [
+    "aristokratizmu",
+    "aristokratizmam",
+  ],
+  "gen": [
+    "aristokratizma",
+    "aristokratizmov",
+  ],
+  "ins": [
+    "aristokratizmom",
+    "aristokratizmami",
+  ],
+  "loc": [
+    "aristokratizmu",
+    "aristokratizmah",
+  ],
+  "nom": [
+    "aristokratizm",
+    "aristokratizmy",
+  ],
+  "voc": [
+    "aristokratizme",
+    "aristokratizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37605 1`] = `
+{
+  "acc": [
+    "avangardizm",
+    "avangardizmy",
+  ],
+  "dat": [
+    "avangardizmu",
+    "avangardizmam",
+  ],
+  "gen": [
+    "avangardizma",
+    "avangardizmov",
+  ],
+  "ins": [
+    "avangardizmom",
+    "avangardizmami",
+  ],
+  "loc": [
+    "avangardizmu",
+    "avangardizmah",
+  ],
+  "nom": [
+    "avangardizm",
+    "avangardizmy",
+  ],
+  "voc": [
+    "avangardizme",
+    "avangardizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37629 1`] = `
+{
+  "acc": [
+    "bjurokratizm",
+    "bjurokratizmy",
+  ],
+  "dat": [
+    "bjurokratizmu",
+    "bjurokratizmam",
+  ],
+  "gen": [
+    "bjurokratizma",
+    "bjurokratizmov",
+  ],
+  "ins": [
+    "bjurokratizmom",
+    "bjurokratizmami",
+  ],
+  "loc": [
+    "bjurokratizmu",
+    "bjurokratizmah",
+  ],
+  "nom": [
+    "bjurokratizm",
+    "bjurokratizmy",
+  ],
+  "voc": [
+    "bjurokratizme",
+    "bjurokratizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37636 1`] = `
+{
+  "acc": [
+    "Cejlon",
+    "Cejlony",
+  ],
+  "dat": [
+    "Cejlonu",
+    "Cejlonam",
+  ],
+  "gen": [
+    "Cejlona",
+    "Cejlonov",
+  ],
+  "ins": [
+    "Cejlonom",
+    "Cejlonami",
+  ],
+  "loc": [
+    "Cejlonu",
+    "Cejlonah",
+  ],
+  "nom": [
+    "Cejlon",
+    "Cejlony",
+  ],
+  "voc": [
+    "Cejlone",
+    "Cejlony",
+  ],
+}
+`;
+
+exports[`noun masculine -37646 1`] = `
+{
+  "acc": [
+    "demokratizm",
+    "demokratizmy",
+  ],
+  "dat": [
+    "demokratizmu",
+    "demokratizmam",
+  ],
+  "gen": [
+    "demokratizma",
+    "demokratizmov",
+  ],
+  "ins": [
+    "demokratizmom",
+    "demokratizmami",
+  ],
+  "loc": [
+    "demokratizmu",
+    "demokratizmah",
+  ],
+  "nom": [
+    "demokratizm",
+    "demokratizmy",
+  ],
+  "voc": [
+    "demokratizme",
+    "demokratizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37647 1`] = `
+{
+  "acc": [
+    "demonizm",
+    "demonizmy",
+  ],
+  "dat": [
+    "demonizmu",
+    "demonizmam",
+  ],
+  "gen": [
+    "demonizma",
+    "demonizmov",
+  ],
+  "ins": [
+    "demonizmom",
+    "demonizmami",
+  ],
+  "loc": [
+    "demonizmu",
+    "demonizmah",
+  ],
+  "nom": [
+    "demonizm",
+    "demonizmy",
+  ],
+  "voc": [
+    "demonizme",
+    "demonizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37652 1`] = `
+{
+  "acc": [
+    "difosfat",
+    "difosfaty",
+  ],
+  "dat": [
+    "difosfatu",
+    "difosfatam",
+  ],
+  "gen": [
+    "difosfata",
+    "difosfatov",
+  ],
+  "ins": [
+    "difosfatom",
+    "difosfatami",
+  ],
+  "loc": [
+    "difosfatu",
+    "difosfatah",
+  ],
+  "nom": [
+    "difosfat",
+    "difosfaty",
+  ],
+  "voc": [
+    "difosfate",
+    "difosfaty",
+  ],
+}
+`;
+
+exports[`noun masculine -37654 1`] = `
+{
+  "acc": [
+    "difuzor",
+    "difuzory",
+  ],
+  "dat": [
+    "difuzoru",
+    "difuzoram",
+  ],
+  "gen": [
+    "difuzora",
+    "difuzorov",
+  ],
+  "ins": [
+    "difuzorom",
+    "difuzorami",
+  ],
+  "loc": [
+    "difuzoru",
+    "difuzorah",
+  ],
+  "nom": [
+    "difuzor",
+    "difuzory",
+  ],
+  "voc": [
+    "difuzore",
+    "difuzory",
+  ],
+}
+`;
+
+exports[`noun masculine -37655 1`] = `
+{
+  "acc": [
+    "diktat",
+    "diktaty",
+  ],
+  "dat": [
+    "diktatu",
+    "diktatam",
+  ],
+  "gen": [
+    "diktata",
+    "diktatov",
+  ],
+  "ins": [
+    "diktatom",
+    "diktatami",
+  ],
+  "loc": [
+    "diktatu",
+    "diktatah",
+  ],
+  "nom": [
+    "diktat",
+    "diktaty",
+  ],
+  "voc": [
+    "diktate",
+    "diktaty",
+  ],
+}
+`;
+
+exports[`noun masculine -37656 1`] = `
+{
+  "acc": [
+    "dinamizm",
+    "dinamizmy",
+  ],
+  "dat": [
+    "dinamizmu",
+    "dinamizmam",
+  ],
+  "gen": [
+    "dinamizma",
+    "dinamizmov",
+  ],
+  "ins": [
+    "dinamizmom",
+    "dinamizmami",
+  ],
+  "loc": [
+    "dinamizmu",
+    "dinamizmah",
+  ],
+  "nom": [
+    "dinamizm",
+    "dinamizmy",
+  ],
+  "voc": [
+    "dinamizme",
+    "dinamizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37693 1`] = `
+{
+  "acc": [
+    "geopark",
+    "geoparky",
+  ],
+  "dat": [
+    "geoparku",
+    "geoparkam",
+  ],
+  "gen": [
+    "geoparka",
+    "geoparkov",
+  ],
+  "ins": [
+    "geoparkom",
+    "geoparkami",
+  ],
+  "loc": [
+    "geoparku",
+    "geoparkah",
+  ],
+  "nom": [
+    "geopark",
+    "geoparky",
+  ],
+  "voc": [
+    "geoparče",
+    "geoparky",
+  ],
+}
+`;
+
+exports[`noun masculine -37711 1`] = `
+{
+  "acc": [
+    "hidromasaž",
+    "hidromasaže",
+  ],
+  "dat": [
+    "hidromasažu",
+    "hidromasažam",
+  ],
+  "gen": [
+    "hidromasaža",
+    "hidromasažev",
+  ],
+  "ins": [
+    "hidromasažem",
+    "hidromasažami",
+  ],
+  "loc": [
+    "hidromasažu",
+    "hidromasažah",
+  ],
+  "nom": [
+    "hidromasaž",
+    "hidromasaže",
+  ],
+  "voc": [
+    "hidromasažu",
+    "hidromasaže",
+  ],
+}
+`;
+
+exports[`noun masculine -37716 1`] = `
+{
+  "acc": [
+    "hitlerizm",
+    "hitlerizmy",
+  ],
+  "dat": [
+    "hitlerizmu",
+    "hitlerizmam",
+  ],
+  "gen": [
+    "hitlerizma",
+    "hitlerizmov",
+  ],
+  "ins": [
+    "hitlerizmom",
+    "hitlerizmami",
+  ],
+  "loc": [
+    "hitlerizmu",
+    "hitlerizmah",
+  ],
+  "nom": [
+    "hitlerizm",
+    "hitlerizmy",
+  ],
+  "voc": [
+    "hitlerizme",
+    "hitlerizmy",
+  ],
+}
+`;
+
+exports[`noun masculine -37722 1`] = `
+{
+  "acc": [
+    "hromatin",
+    "hromatiny",
+  ],
+  "dat": [
+    "hromatinu",
+    "hromatinam",
+  ],
+  "gen": [
+    "hromatina",
+    "hromatinov",
+  ],
+  "ins": [
+    "hromatinom",
+    "hromatinami",
+  ],
+  "loc": [
+    "hromatinu",
+    "hromatinah",
+  ],
+  "nom": [
+    "hromatin",
+    "hromatiny",
+  ],
+  "voc": [
+    "hromatine",
+    "hromatiny",
+  ],
+}
+`;
+
 exports[`noun masculine 16 1`] = `
 {
   "acc": [

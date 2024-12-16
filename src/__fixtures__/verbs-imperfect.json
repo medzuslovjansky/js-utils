@@ -88,7 +88,7 @@
 ["24860","v.intr. ipf.","buhati",""],
 ["6732","v.refl. ipf.","buntovati sę",""],
 ["1801","v.tr. ipf.","buriti",""],
-["35085","v.aux. ipf.","byti dȯlžen",""],
+["35085","v.aux. ipf.","byti dȯlžėn",""],
 ["10343","v.ipf.","byti ostråžny",""],
 ["17182","v.ipf.","byti podobny",""],
 ["23728","v.ipf.","byti prěhlåđeny",""],
@@ -1112,6 +1112,7 @@
 ["36666","v.intr. ipf.","odsųtstvovati",""],
 ["20940","v.tr. ipf.","odsuvati",""],
 ["34375","v.intr. ipf.","odsyhati",""],
+["29271","v.tr. ipf.","odsylati",""],
 ["29265","v.tr. ipf.","odščepjati",""],
 ["5552","v.tr. ipf.","odšlupyvati",""],
 ["29275","v.tr. ipf.","odtęgati",""],
@@ -2529,4 +2530,8 @@
 ["91-1","v.tr. ipf.","žrěti","(žre)"],
 ["1490","v.tr. ipf.","žrtvovati",""],
 ["2627","v.intr. ipf.","žuvati","(žuje)"],
-["19473","v.intr. ipf.","žužati",""]]
+["19473","v.intr. ipf.","žužati",""],
+["-37519","v.tr. ipf.","absolutizovati",""],
+["-37578","v.intr. ipf.","panikovati",""],
+["-37583","v.tr. ipf.","dokupovati",""],
+["-37670","v.tr. ipf.","dozovati",""]]

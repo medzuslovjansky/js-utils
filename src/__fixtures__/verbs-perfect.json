@@ -635,7 +635,6 @@
 ["4628","v.intr. pf.","odstųpiti",""],
 ["21945","v.tr. pf.","odstųpiti",""],
 ["20938","v.tr. pf.","odsunųti",""],
-["29271","v.tr. pf.","odsylati",""],
 ["29264","v.tr. pf.","odščepiti",""],
 ["4304","v.tr. pf.","odšlupati",""],
 ["29274","v.tr. pf.","odtajati",""],
@@ -1941,4 +1940,10 @@
 ["32639","v.tr. pf.","zažegti","(zažže)"],
 ["23718","v.intr. pf.","zěvnųti",""],
 ["22901","v.intr. pf.","zirknųti",""],
-["1495","v.tr. pf.","zloupotrěbiti",""]]
+["1495","v.tr. pf.","zloupotrěbiti",""],
+["-37574","v.intr. pf.","doletěti",""],
+["-37577","v.tr. pf.","odkupiti",""],
+["-37584","v.tr. pf.","dokupiti",""],
+["-37649","v.tr. pf.","demoralizovati",""],
+["-37667","v.tr. pf.","dopisati",""],
+["-37669","v.tr. pf.","doplatiti",""]]

@@ -1,5 +1,203 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`noun neuter -37593 1`] = `
+{
+  "acc": [
+    "asfaltovańje",
+    "asfaltovańja",
+  ],
+  "dat": [
+    "asfaltovańju",
+    "asfaltovańjam",
+  ],
+  "gen": [
+    "asfaltovańja",
+    "asfaltovanij",
+  ],
+  "ins": [
+    "asfaltovańjem",
+    "asfaltovańjami",
+  ],
+  "loc": [
+    "asfaltovańju",
+    "asfaltovańjah",
+  ],
+  "nom": [
+    "asfaltovańje",
+    "asfaltovańja",
+  ],
+  "voc": [
+    "asfaltovańje",
+    "asfaltovańja",
+  ],
+}
+`;
+
+exports[`noun neuter -37625 1`] = `
+{
+  "acc": [
+    "bičevańje",
+    "bičevańja",
+  ],
+  "dat": [
+    "bičevańju",
+    "bičevańjam",
+  ],
+  "gen": [
+    "bičevańja",
+    "bičevanij",
+  ],
+  "ins": [
+    "bičevańjem",
+    "bičevańjami",
+  ],
+  "loc": [
+    "bičevańju",
+    "bičevańjah",
+  ],
+  "nom": [
+    "bičevańje",
+    "bičevańja",
+  ],
+  "voc": [
+    "bičevańje",
+    "bičevańja",
+  ],
+}
+`;
+
+exports[`noun neuter -37642 1`] = `
+{
+  "acc": [
+    "deklarovańje",
+    "deklarovańja",
+  ],
+  "dat": [
+    "deklarovańju",
+    "deklarovańjam",
+  ],
+  "gen": [
+    "deklarovańja",
+    "deklarovanij",
+  ],
+  "ins": [
+    "deklarovańjem",
+    "deklarovańjami",
+  ],
+  "loc": [
+    "deklarovańju",
+    "deklarovańjah",
+  ],
+  "nom": [
+    "deklarovańje",
+    "deklarovańja",
+  ],
+  "voc": [
+    "deklarovańje",
+    "deklarovańja",
+  ],
+}
+`;
+
+exports[`noun neuter -37644 1`] = `
+{
+  "acc": [
+    "dekorovańje",
+    "dekorovańja",
+  ],
+  "dat": [
+    "dekorovańju",
+    "dekorovańjam",
+  ],
+  "gen": [
+    "dekorovańja",
+    "dekorovanij",
+  ],
+  "ins": [
+    "dekorovańjem",
+    "dekorovańjami",
+  ],
+  "loc": [
+    "dekorovańju",
+    "dekorovańjah",
+  ],
+  "nom": [
+    "dekorovańje",
+    "dekorovańja",
+  ],
+  "voc": [
+    "dekorovańje",
+    "dekorovańja",
+  ],
+}
+`;
+
+exports[`noun neuter -37661 1`] = `
+{
+  "acc": [
+    "dokumentovańje",
+    "dokumentovańja",
+  ],
+  "dat": [
+    "dokumentovańju",
+    "dokumentovańjam",
+  ],
+  "gen": [
+    "dokumentovańja",
+    "dokumentovanij",
+  ],
+  "ins": [
+    "dokumentovańjem",
+    "dokumentovańjami",
+  ],
+  "loc": [
+    "dokumentovańju",
+    "dokumentovańjah",
+  ],
+  "nom": [
+    "dokumentovańje",
+    "dokumentovańja",
+  ],
+  "voc": [
+    "dokumentovańje",
+    "dokumentovańja",
+  ],
+}
+`;
+
+exports[`noun neuter -37705 1`] = `
+{
+  "acc": [
+    "gubernatorstvo",
+    "gubernatorstva",
+  ],
+  "dat": [
+    "gubernatorstvu",
+    "gubernatorstvam",
+  ],
+  "gen": [
+    "gubernatorstva",
+    "gubernatorstv",
+  ],
+  "ins": [
+    "gubernatorstvom",
+    "gubernatorstvami",
+  ],
+  "loc": [
+    "gubernatorstvu",
+    "gubernatorstvah",
+  ],
+  "nom": [
+    "gubernatorstvo",
+    "gubernatorstva",
+  ],
+  "voc": [
+    "gubernatorstvo",
+    "gubernatorstva",
+  ],
+}
+`;
+
 exports[`noun neuter 1 1`] = `
 {
   "acc": [
@@ -20165,32 +20363,32 @@ exports[`noun neuter 17223 1`] = `
 exports[`noun neuter 17264 1`] = `
 {
   "acc": [
-    "denonočje",
-    "denonočja",
+    "dėnonočje",
+    "dėnonočja",
   ],
   "dat": [
-    "denonočju",
-    "denonočjam",
+    "dėnonočju",
+    "dėnonočjam",
   ],
   "gen": [
-    "denonočja",
-    "denonočij",
+    "dėnonočja",
+    "dėnonočij",
   ],
   "ins": [
-    "denonočjem",
-    "denonočjami",
+    "dėnonočjem",
+    "dėnonočjami",
   ],
   "loc": [
-    "denonočju",
-    "denonočjah",
+    "dėnonočju",
+    "dėnonočjah",
   ],
   "nom": [
-    "denonočje",
-    "denonočja",
+    "dėnonočje",
+    "dėnonočja",
   ],
   "voc": [
-    "denonočje",
-    "denonočja",
+    "dėnonočje",
+    "dėnonočja",
   ],
 }
 `;
@@ -32215,32 +32413,32 @@ exports[`noun neuter 27105 1`] = `
 exports[`noun neuter 27114 1`] = `
 {
   "acc": [
-    "lenišče",
-    "lenišča",
+    "lėnišče",
+    "lėnišča",
   ],
   "dat": [
-    "lenišču",
-    "leniščam",
+    "lėnišču",
+    "lėniščam",
   ],
   "gen": [
-    "lenišča",
-    "lenišč",
+    "lėnišča",
+    "lėnišč",
   ],
   "ins": [
-    "leniščem",
-    "leniščami",
+    "lėniščem",
+    "lėniščami",
   ],
   "loc": [
-    "lenišču",
-    "leniščah",
+    "lėnišču",
+    "lėniščah",
   ],
   "nom": [
-    "lenišče",
-    "lenišča",
+    "lėnišče",
+    "lėnišča",
   ],
   "voc": [
-    "lenišče",
-    "lenišča",
+    "lėnišče",
+    "lėnišča",
   ],
 }
 `;
