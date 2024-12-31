@@ -268,31 +268,31 @@ exports[`noun miscellaneous 3749 (as feminine): feminine 1`] = `
 {
   "acc": [
     "uråvėnj",
-    "uråvnji",
+    "uråvėnji",
   ],
   "dat": [
-    "uråvnji",
-    "uråvnjam",
+    "uråvėnji",
+    "uråvėnjam",
   ],
   "gen": [
-    "uråvnji",
-    "uråvnjij",
+    "uråvėnji",
+    "uråvėnjij",
   ],
   "ins": [
-    "uråvńjų",
-    "uråvnjami",
+    "uråvėńjų",
+    "uråvėnjami",
   ],
   "loc": [
-    "uråvnji",
-    "uråvnjah",
+    "uråvėnji",
+    "uråvėnjah",
   ],
   "nom": [
     "uråvėnj",
-    "uråvnji",
+    "uråvėnji",
   ],
   "voc": [
-    "uråvnji",
-    "uråvnji",
+    "uråvėnji",
+    "uråvėnji",
   ],
 }
 `;

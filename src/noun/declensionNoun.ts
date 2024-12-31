@@ -107,7 +107,7 @@ export function declensionNoun(
 
   if (add && noun !== add) {
     noun = markFleetingVowel(noun, add);
-  } else {
+  } else if (originGender === 'masculine') {
     noun = inferFleetingVowel(noun);
   }
 
@@ -195,17 +195,12 @@ function establish_root(noun: string, gender: string) {
 
   const hasVowelEnding = AEEO$.test(noun);
 
-  if (noun == 'lėv' || noun == 'lev') {
+  if (noun === 'ľv') {
     result = 'ljv';
-  } else if (noun == 'Lėv' || noun == 'Lev') {
+  } else if (noun == 'Ľv') {
     result = 'Ljv';
-  } else if (
-    gender.charAt(0) == 'm' &&
-    noun.match(/[eė]cь$/) &&
-    (noun.slice(-5, -4).match(/[aeiouyęųåėěȯrŕ]/) ||
-      noun.slice(-4, -3).match(/[jdtc]/))
-  ) {
-    result = noun.slice(0, -3) + 'cь';
+  } else if (noun == 'ľn') {
+    result = 'ljn';
   } else if (gender == 'm3') {
     result = noun + '%';
     result = result.replace('jь%', '%');
@@ -568,6 +563,8 @@ function rules(word: string): string {
     .replace('ŕi', 'ri')
     .replace('jy', 'ji')
     .replace('cy', 'ci')
+    .replace('ľė', 'lė')
+    .replace('ńė', 'nė')
     .replace('ljj', 'ľj')
     .replace('njj', 'ńj');
 }
