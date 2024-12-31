@@ -1092,32 +1092,32 @@ exports[`noun masculine (animate) 98 1`] = `
 exports[`noun masculine (animate) 124 1`] = `
 {
   "acc": [
-    "zločinca",
-    "zločincev",
+    "zločińca",
+    "zločińcev",
   ],
   "dat": [
-    "zločincu",
-    "zločincam",
+    "zločińcu",
+    "zločińcam",
   ],
   "gen": [
-    "zločinca",
-    "zločincev",
+    "zločińca",
+    "zločińcev",
   ],
   "ins": [
-    "zločincem",
-    "zločincami",
+    "zločińcem",
+    "zločińcami",
   ],
   "loc": [
-    "zločincu",
-    "zločincah",
+    "zločińcu",
+    "zločińcah",
   ],
   "nom": [
     "zločinėc",
-    "zločinci",
+    "zločińci",
   ],
   "voc": [
-    "zločinče",
-    "zločinci",
+    "zločińče",
+    "zločińci",
   ],
 }
 `;
@@ -1125,32 +1125,32 @@ exports[`noun masculine (animate) 124 1`] = `
 exports[`noun masculine (animate) 133 1`] = `
 {
   "acc": [
-    "Albanca",
-    "Albancev",
+    "Albańca",
+    "Albańcev",
   ],
   "dat": [
-    "Albancu",
-    "Albancam",
+    "Albańcu",
+    "Albańcam",
   ],
   "gen": [
-    "Albanca",
-    "Albancev",
+    "Albańca",
+    "Albańcev",
   ],
   "ins": [
-    "Albancem",
-    "Albancami",
+    "Albańcem",
+    "Albańcami",
   ],
   "loc": [
-    "Albancu",
-    "Albancah",
+    "Albańcu",
+    "Albańcah",
   ],
   "nom": [
     "Albanėc",
-    "Albanci",
+    "Albańci",
   ],
   "voc": [
-    "Albanče",
-    "Albanci",
+    "Albańče",
+    "Albańci",
   ],
 }
 `;
@@ -1158,32 +1158,32 @@ exports[`noun masculine (animate) 133 1`] = `
 exports[`noun masculine (animate) 136 1`] = `
 {
   "acc": [
-    "Amerikanca",
-    "Amerikancev",
+    "Amerikańca",
+    "Amerikańcev",
   ],
   "dat": [
-    "Amerikancu",
-    "Amerikancam",
+    "Amerikańcu",
+    "Amerikańcam",
   ],
   "gen": [
-    "Amerikanca",
-    "Amerikancev",
+    "Amerikańca",
+    "Amerikańcev",
   ],
   "ins": [
-    "Amerikancem",
-    "Amerikancami",
+    "Amerikańcem",
+    "Amerikańcami",
   ],
   "loc": [
-    "Amerikancu",
-    "Amerikancah",
+    "Amerikańcu",
+    "Amerikańcah",
   ],
   "nom": [
     "Amerikanėc",
-    "Amerikanci",
+    "Amerikańci",
   ],
   "voc": [
-    "Amerikanče",
-    "Amerikanci",
+    "Amerikańče",
+    "Amerikańci",
   ],
 }
 `;
@@ -1224,32 +1224,32 @@ exports[`noun masculine (animate) 167 1`] = `
 exports[`noun masculine (animate) 179 1`] = `
 {
   "acc": [
-    "běženca",
-    "běžencev",
+    "běžeńca",
+    "běžeńcev",
   ],
   "dat": [
-    "běžencu",
-    "běžencam",
+    "běžeńcu",
+    "běžeńcam",
   ],
   "gen": [
-    "běženca",
-    "běžencev",
+    "běžeńca",
+    "běžeńcev",
   ],
   "ins": [
-    "běžencem",
-    "běžencami",
+    "běžeńcem",
+    "běžeńcami",
   ],
   "loc": [
-    "běžencu",
-    "běžencah",
+    "běžeńcu",
+    "běžeńcah",
   ],
   "nom": [
     "běženėc",
-    "běženci",
+    "běžeńci",
   ],
   "voc": [
-    "běženče",
-    "běženci",
+    "běžeńče",
+    "běžeńci",
   ],
 }
 `;
@@ -2511,32 +2511,32 @@ exports[`noun masculine (animate) 592 1`] = `
 exports[`noun masculine (animate) 596 1`] = `
 {
   "acc": [
-    "Ukrajinca",
-    "Ukrajincev",
+    "Ukrajińca",
+    "Ukrajińcev",
   ],
   "dat": [
-    "Ukrajincu",
-    "Ukrajincam",
+    "Ukrajińcu",
+    "Ukrajińcam",
   ],
   "gen": [
-    "Ukrajinca",
-    "Ukrajincev",
+    "Ukrajińca",
+    "Ukrajińcev",
   ],
   "ins": [
-    "Ukrajincem",
-    "Ukrajincami",
+    "Ukrajińcem",
+    "Ukrajińcami",
   ],
   "loc": [
-    "Ukrajincu",
-    "Ukrajincah",
+    "Ukrajińcu",
+    "Ukrajińcah",
   ],
   "nom": [
     "Ukrajinėc",
-    "Ukrajinci",
+    "Ukrajińci",
   ],
   "voc": [
-    "Ukrajinče",
-    "Ukrajinci",
+    "Ukrajińče",
+    "Ukrajińci",
   ],
 }
 `;
@@ -3699,32 +3699,32 @@ exports[`noun masculine (animate) 1160 1`] = `
 exports[`noun masculine (animate) 1182 1`] = `
 {
   "acc": [
-    "ćuđinca",
-    "ćuđincev",
+    "ćuđińca",
+    "ćuđińcev",
   ],
   "dat": [
-    "ćuđincu",
-    "ćuđincam",
+    "ćuđińcu",
+    "ćuđińcam",
   ],
   "gen": [
-    "ćuđinca",
-    "ćuđincev",
+    "ćuđińca",
+    "ćuđińcev",
   ],
   "ins": [
-    "ćuđincem",
-    "ćuđincami",
+    "ćuđińcem",
+    "ćuđińcami",
   ],
   "loc": [
-    "ćuđincu",
-    "ćuđincah",
+    "ćuđińcu",
+    "ćuđińcah",
   ],
   "nom": [
     "ćuđinėc",
-    "ćuđinci",
+    "ćuđińci",
   ],
   "voc": [
-    "ćuđinče",
-    "ćuđinci",
+    "ćuđińče",
+    "ćuđińci",
   ],
 }
 `;
@@ -5813,32 +5813,32 @@ exports[`noun masculine (animate) 2103 1`] = `
 exports[`noun masculine (animate) 2126 1`] = `
 {
   "acc": [
-    "znanca",
-    "znancev",
+    "znańca",
+    "znańcev",
   ],
   "dat": [
-    "znancu",
-    "znancam",
+    "znańcu",
+    "znańcam",
   ],
   "gen": [
-    "znanca",
-    "znancev",
+    "znańca",
+    "znańcev",
   ],
   "ins": [
-    "znancem",
-    "znancami",
+    "znańcem",
+    "znańcami",
   ],
   "loc": [
-    "znancu",
-    "znancah",
+    "znańcu",
+    "znańcah",
   ],
   "nom": [
     "znanėc",
-    "znanci",
+    "znańci",
   ],
   "voc": [
-    "znanče",
-    "znanci",
+    "znańče",
+    "znańci",
   ],
 }
 `;
@@ -6506,32 +6506,32 @@ exports[`noun masculine (animate) 2436 1`] = `
 exports[`noun masculine (animate) 2444 1`] = `
 {
   "acc": [
-    "bedrenca",
-    "bedrencev",
+    "bedreńca",
+    "bedreńcev",
   ],
   "dat": [
-    "bedrencu",
-    "bedrencam",
+    "bedreńcu",
+    "bedreńcam",
   ],
   "gen": [
-    "bedrenca",
-    "bedrencev",
+    "bedreńca",
+    "bedreńcev",
   ],
   "ins": [
-    "bedrencem",
-    "bedrencami",
+    "bedreńcem",
+    "bedreńcami",
   ],
   "loc": [
-    "bedrencu",
-    "bedrencah",
+    "bedreńcu",
+    "bedreńcah",
   ],
   "nom": [
     "bedrenėc",
-    "bedrenci",
+    "bedreńci",
   ],
   "voc": [
-    "bedrenče",
-    "bedrenci",
+    "bedreńče",
+    "bedreńci",
   ],
 }
 `;
@@ -6968,32 +6968,32 @@ exports[`noun masculine (animate) 2625 1`] = `
 exports[`noun masculine (animate) 2646 1`] = `
 {
   "acc": [
-    "Kubanca",
-    "Kubancev",
+    "Kubańca",
+    "Kubańcev",
   ],
   "dat": [
-    "Kubancu",
-    "Kubancam",
+    "Kubańcu",
+    "Kubańcam",
   ],
   "gen": [
-    "Kubanca",
-    "Kubancev",
+    "Kubańca",
+    "Kubańcev",
   ],
   "ins": [
-    "Kubancem",
-    "Kubancami",
+    "Kubańcem",
+    "Kubańcami",
   ],
   "loc": [
-    "Kubancu",
-    "Kubancah",
+    "Kubańcu",
+    "Kubańcah",
   ],
   "nom": [
     "Kubanėc",
-    "Kubanci",
+    "Kubańci",
   ],
   "voc": [
-    "Kubanče",
-    "Kubanci",
+    "Kubańče",
+    "Kubańci",
   ],
 }
 `;
@@ -7054,7 +7054,7 @@ exports[`noun masculine (animate) 2656 1`] = `
     "ljvah",
   ],
   "nom": [
-    "lev",
+    "lėv",
     "ljvi",
   ],
   "voc": [
@@ -8222,32 +8222,32 @@ exports[`noun masculine (animate) 3233 1`] = `
 exports[`noun masculine (animate) 3256 1`] = `
 {
   "acc": [
-    "Makedonca",
-    "Makedoncev",
+    "Makedońca",
+    "Makedońcev",
   ],
   "dat": [
-    "Makedoncu",
-    "Makedoncam",
+    "Makedońcu",
+    "Makedońcam",
   ],
   "gen": [
-    "Makedonca",
-    "Makedoncev",
+    "Makedońca",
+    "Makedońcev",
   ],
   "ins": [
-    "Makedoncem",
-    "Makedoncami",
+    "Makedońcem",
+    "Makedońcami",
   ],
   "loc": [
-    "Makedoncu",
-    "Makedoncah",
+    "Makedońcu",
+    "Makedońcah",
   ],
   "nom": [
     "Makedonėc",
-    "Makedonci",
+    "Makedońci",
   ],
   "voc": [
-    "Makedonče",
-    "Makedonci",
+    "Makedońče",
+    "Makedońci",
   ],
 }
 `;
@@ -10074,32 +10074,32 @@ exports[`noun masculine (animate) 4570 1`] = `
 exports[`noun masculine (animate) 4691 1`] = `
 {
   "acc": [
-    "zemjedělca",
-    "zemjedělcev",
+    "zemjeděľca",
+    "zemjeděľcev",
   ],
   "dat": [
-    "zemjedělcu",
-    "zemjedělcam",
+    "zemjeděľcu",
+    "zemjeděľcam",
   ],
   "gen": [
-    "zemjedělca",
-    "zemjedělcev",
+    "zemjeděľca",
+    "zemjeděľcev",
   ],
   "ins": [
-    "zemjedělcem",
-    "zemjedělcami",
+    "zemjeděľcem",
+    "zemjeděľcami",
   ],
   "loc": [
-    "zemjedělcu",
-    "zemjedělcah",
+    "zemjeděľcu",
+    "zemjeděľcah",
   ],
   "nom": [
     "zemjedělėc",
-    "zemjedělci",
+    "zemjeděľci",
   ],
   "voc": [
-    "zemjedělče",
-    "zemjedělci",
+    "zemjeděľče",
+    "zemjeděľci",
   ],
 }
 `;
@@ -10107,32 +10107,32 @@ exports[`noun masculine (animate) 4691 1`] = `
 exports[`noun masculine (animate) 4720 1`] = `
 {
   "acc": [
-    "Litvanca",
-    "Litvancev",
+    "Litvańca",
+    "Litvańcev",
   ],
   "dat": [
-    "Litvancu",
-    "Litvancam",
+    "Litvańcu",
+    "Litvańcam",
   ],
   "gen": [
-    "Litvanca",
-    "Litvancev",
+    "Litvańca",
+    "Litvańcev",
   ],
   "ins": [
-    "Litvancem",
-    "Litvancami",
+    "Litvańcem",
+    "Litvańcami",
   ],
   "loc": [
-    "Litvancu",
-    "Litvancah",
+    "Litvańcu",
+    "Litvańcah",
   ],
   "nom": [
     "Litvanėc",
-    "Litvanci",
+    "Litvańci",
   ],
   "voc": [
-    "Litvanče",
-    "Litvanci",
+    "Litvańče",
+    "Litvańci",
   ],
 }
 `;
@@ -12483,32 +12483,32 @@ exports[`noun masculine (animate) 6906 1`] = `
 exports[`noun masculine (animate) 6915 1`] = `
 {
   "acc": [
-    "črvenca",
-    "črvencev",
+    "črveńca",
+    "črveńcev",
   ],
   "dat": [
-    "črvencu",
-    "črvencam",
+    "črveńcu",
+    "črveńcam",
   ],
   "gen": [
-    "črvenca",
-    "črvencev",
+    "črveńca",
+    "črveńcev",
   ],
   "ins": [
-    "črvencem",
-    "črvencami",
+    "črveńcem",
+    "črveńcami",
   ],
   "loc": [
-    "črvencu",
-    "črvencah",
+    "črveńcu",
+    "črveńcah",
   ],
   "nom": [
     "črvenėc",
-    "črvenci",
+    "črveńci",
   ],
   "voc": [
-    "črvenče",
-    "črvenci",
+    "črveńče",
+    "črveńci",
   ],
 }
 `;
@@ -13283,32 +13283,32 @@ exports[`noun masculine (animate) 8638 1`] = `
 exports[`noun masculine (animate) 8647 1`] = `
 {
   "acc": [
-    "krajnca",
-    "krajncev",
+    "krajnėca",
+    "krajnėcev",
   ],
   "dat": [
-    "krajncu",
-    "krajncam",
+    "krajnėcu",
+    "krajnėcam",
   ],
   "gen": [
-    "krajnca",
-    "krajncev",
+    "krajnėca",
+    "krajnėcev",
   ],
   "ins": [
-    "krajncem",
-    "krajncami",
+    "krajnėcem",
+    "krajnėcami",
   ],
   "loc": [
-    "krajncu",
-    "krajncah",
+    "krajnėcu",
+    "krajnėcah",
   ],
   "nom": [
     "krajnėc",
-    "krajnci",
+    "krajnėci",
   ],
   "voc": [
-    "krajnče",
-    "krajnci",
+    "krajnėče",
+    "krajnėci",
   ],
 }
 `;
@@ -13949,32 +13949,32 @@ exports[`noun masculine (animate) 10315 1`] = `
 exports[`noun masculine (animate) 10499 1`] = `
 {
   "acc": [
-    "Peruanca",
-    "Peruancev",
+    "Peruańca",
+    "Peruańcev",
   ],
   "dat": [
-    "Peruancu",
-    "Peruancam",
+    "Peruańcu",
+    "Peruańcam",
   ],
   "gen": [
-    "Peruanca",
-    "Peruancev",
+    "Peruańca",
+    "Peruańcev",
   ],
   "ins": [
-    "Peruancem",
-    "Peruancami",
+    "Peruańcem",
+    "Peruańcami",
   ],
   "loc": [
-    "Peruancu",
-    "Peruancah",
+    "Peruańcu",
+    "Peruańcah",
   ],
   "nom": [
     "Peruanėc",
-    "Peruanci",
+    "Peruańci",
   ],
   "voc": [
-    "Peruanče",
-    "Peruanci",
+    "Peruańče",
+    "Peruańci",
   ],
 }
 `;
@@ -14347,32 +14347,32 @@ exports[`noun masculine (animate) 10798 1`] = `null`;
 exports[`noun masculine (animate) 10808 1`] = `
 {
   "acc": [
-    "pohyćenca",
-    "pohyćencev",
+    "pohyćeńca",
+    "pohyćeńcev",
   ],
   "dat": [
-    "pohyćencu",
-    "pohyćencam",
+    "pohyćeńcu",
+    "pohyćeńcam",
   ],
   "gen": [
-    "pohyćenca",
-    "pohyćencev",
+    "pohyćeńca",
+    "pohyćeńcev",
   ],
   "ins": [
-    "pohyćencem",
-    "pohyćencami",
+    "pohyćeńcem",
+    "pohyćeńcami",
   ],
   "loc": [
-    "pohyćencu",
-    "pohyćencah",
+    "pohyćeńcu",
+    "pohyćeńcah",
   ],
   "nom": [
     "pohyćenėc",
-    "pohyćenci",
+    "pohyćeńci",
   ],
   "voc": [
-    "pohyćenče",
-    "pohyćenci",
+    "pohyćeńče",
+    "pohyćeńci",
   ],
 }
 `;
@@ -14380,32 +14380,32 @@ exports[`noun masculine (animate) 10808 1`] = `
 exports[`noun masculine (animate) 10960 1`] = `
 {
   "acc": [
-    "porųčenca",
-    "porųčencev",
+    "porųčeńca",
+    "porųčeńcev",
   ],
   "dat": [
-    "porųčencu",
-    "porųčencam",
+    "porųčeńcu",
+    "porųčeńcam",
   ],
   "gen": [
-    "porųčenca",
-    "porųčencev",
+    "porųčeńca",
+    "porųčeńcev",
   ],
   "ins": [
-    "porųčencem",
-    "porųčencami",
+    "porųčeńcem",
+    "porųčeńcami",
   ],
   "loc": [
-    "porųčencu",
-    "porųčencah",
+    "porųčeńcu",
+    "porųčeńcah",
   ],
   "nom": [
     "porųčenėc",
-    "porųčenci",
+    "porųčeńci",
   ],
   "voc": [
-    "porųčenče",
-    "porųčenci",
+    "porųčeńče",
+    "porųčeńci",
   ],
 }
 `;
@@ -14479,32 +14479,32 @@ exports[`noun masculine (animate) 11062 1`] = `
 exports[`noun masculine (animate) 11087 1`] = `
 {
   "acc": [
-    "povstanca",
-    "povstancev",
+    "povstańca",
+    "povstańcev",
   ],
   "dat": [
-    "povstancu",
-    "povstancam",
+    "povstańcu",
+    "povstańcam",
   ],
   "gen": [
-    "povstanca",
-    "povstancev",
+    "povstańca",
+    "povstańcev",
   ],
   "ins": [
-    "povstancem",
-    "povstancami",
+    "povstańcem",
+    "povstańcami",
   ],
   "loc": [
-    "povstancu",
-    "povstancah",
+    "povstańcu",
+    "povstańcah",
   ],
   "nom": [
     "povstanėc",
-    "povstanci",
+    "povstańci",
   ],
   "voc": [
-    "povstanče",
-    "povstanci",
+    "povstańče",
+    "povstańci",
   ],
 }
 `;
@@ -14611,32 +14611,32 @@ exports[`noun masculine (animate) 11167 1`] = `
 exports[`noun masculine (animate) 11349 1`] = `
 {
   "acc": [
-    "prěseljenca",
-    "prěseljencev",
+    "prěseljeńca",
+    "prěseljeńcev",
   ],
   "dat": [
-    "prěseljencu",
-    "prěseljencam",
+    "prěseljeńcu",
+    "prěseljeńcam",
   ],
   "gen": [
-    "prěseljenca",
-    "prěseljencev",
+    "prěseljeńca",
+    "prěseljeńcev",
   ],
   "ins": [
-    "prěseljencem",
-    "prěseljencami",
+    "prěseljeńcem",
+    "prěseljeńcami",
   ],
   "loc": [
-    "prěseljencu",
-    "prěseljencah",
+    "prěseljeńcu",
+    "prěseljeńcah",
   ],
   "nom": [
     "prěseljenėc",
-    "prěseljenci",
+    "prěseljeńci",
   ],
   "voc": [
-    "prěseljenče",
-    "prěseljenci",
+    "prěseljeńče",
+    "prěseljeńci",
   ],
 }
 `;
@@ -14945,32 +14945,32 @@ exports[`noun masculine (animate) 12305 1`] = `
 exports[`noun masculine (animate) 12320 1`] = `
 {
   "acc": [
-    "Slovenca",
-    "Slovencev",
+    "Sloveńca",
+    "Sloveńcev",
   ],
   "dat": [
-    "Slovencu",
-    "Slovencam",
+    "Sloveńcu",
+    "Sloveńcam",
   ],
   "gen": [
-    "Slovenca",
-    "Slovencev",
+    "Sloveńca",
+    "Sloveńcev",
   ],
   "ins": [
-    "Slovencem",
-    "Slovencami",
+    "Sloveńcem",
+    "Sloveńcami",
   ],
   "loc": [
-    "Slovencu",
-    "Slovencah",
+    "Sloveńcu",
+    "Sloveńcah",
   ],
   "nom": [
     "Slovenėc",
-    "Slovenci",
+    "Sloveńci",
   ],
   "voc": [
-    "Slovenče",
-    "Slovenci",
+    "Sloveńče",
+    "Sloveńci",
   ],
 }
 `;
@@ -16440,32 +16440,32 @@ exports[`noun masculine (animate) 14770 1`] = `
 exports[`noun masculine (animate) 14841 1`] = `
 {
   "acc": [
-    "plemenca",
-    "plemencev",
+    "plemeńca",
+    "plemeńcev",
   ],
   "dat": [
-    "plemencu",
-    "plemencam",
+    "plemeńcu",
+    "plemeńcam",
   ],
   "gen": [
-    "plemenca",
-    "plemencev",
+    "plemeńca",
+    "plemeńcev",
   ],
   "ins": [
-    "plemencem",
-    "plemencami",
+    "plemeńcem",
+    "plemeńcami",
   ],
   "loc": [
-    "plemencu",
-    "plemencah",
+    "plemeńcu",
+    "plemeńcah",
   ],
   "nom": [
     "plemenėc",
-    "plemenci",
+    "plemeńci",
   ],
   "voc": [
-    "plemenče",
-    "plemenci",
+    "plemeńče",
+    "plemeńci",
   ],
 }
 `;
@@ -16972,32 +16972,32 @@ exports[`noun masculine (animate) 15477 1`] = `null`;
 exports[`noun masculine (animate) 15480 1`] = `
 {
   "acc": [
-    "poznanca",
-    "poznancev",
+    "poznańca",
+    "poznańcev",
   ],
   "dat": [
-    "poznancu",
-    "poznancam",
+    "poznańcu",
+    "poznańcam",
   ],
   "gen": [
-    "poznanca",
-    "poznancev",
+    "poznańca",
+    "poznańcev",
   ],
   "ins": [
-    "poznancem",
-    "poznancami",
+    "poznańcem",
+    "poznańcami",
   ],
   "loc": [
-    "poznancu",
-    "poznancah",
+    "poznańcu",
+    "poznańcah",
   ],
   "nom": [
     "poznanėc",
-    "poznanci",
+    "poznańci",
   ],
   "voc": [
-    "poznanče",
-    "poznanci",
+    "poznańče",
+    "poznańci",
   ],
 }
 `;
@@ -17830,32 +17830,32 @@ exports[`noun masculine (animate) 16423 1`] = `
 exports[`noun masculine (animate) 16424 1`] = `
 {
   "acc": [
-    "Portugalca",
-    "Portugalcev",
+    "Portugaľca",
+    "Portugaľcev",
   ],
   "dat": [
-    "Portugalcu",
-    "Portugalcam",
+    "Portugaľcu",
+    "Portugaľcam",
   ],
   "gen": [
-    "Portugalca",
-    "Portugalcev",
+    "Portugaľca",
+    "Portugaľcev",
   ],
   "ins": [
-    "Portugalcem",
-    "Portugalcami",
+    "Portugaľcem",
+    "Portugaľcami",
   ],
   "loc": [
-    "Portugalcu",
-    "Portugalcah",
+    "Portugaľcu",
+    "Portugaľcah",
   ],
   "nom": [
     "Portugalėc",
-    "Portugalci",
+    "Portugaľci",
   ],
   "voc": [
-    "Portugalče",
-    "Portugalci",
+    "Portugaľče",
+    "Portugaľci",
   ],
 }
 `;
@@ -18721,32 +18721,32 @@ exports[`noun masculine (animate) 17394 1`] = `
 exports[`noun masculine (animate) 17419 1`] = `
 {
   "acc": [
-    "gonca",
-    "goncev",
+    "gońca",
+    "gońcev",
   ],
   "dat": [
-    "goncu",
-    "goncam",
+    "gońcu",
+    "gońcam",
   ],
   "gen": [
-    "gonca",
-    "goncev",
+    "gońca",
+    "gońcev",
   ],
   "ins": [
-    "goncem",
-    "goncami",
+    "gońcem",
+    "gońcami",
   ],
   "loc": [
-    "goncu",
-    "goncah",
+    "gońcu",
+    "gońcah",
   ],
   "nom": [
     "gonėc",
-    "gonci",
+    "gońci",
   ],
   "voc": [
-    "gonče",
-    "gonci",
+    "gońče",
+    "gońci",
   ],
 }
 `;
@@ -18855,32 +18855,32 @@ exports[`noun masculine (animate) 17451 1`] = `
 exports[`noun masculine (animate) 17464 1`] = `
 {
   "acc": [
-    "hrånjenca",
-    "hrånjencev",
+    "hrånjeńca",
+    "hrånjeńcev",
   ],
   "dat": [
-    "hrånjencu",
-    "hrånjencam",
+    "hrånjeńcu",
+    "hrånjeńcam",
   ],
   "gen": [
-    "hrånjenca",
-    "hrånjencev",
+    "hrånjeńca",
+    "hrånjeńcev",
   ],
   "ins": [
-    "hrånjencem",
-    "hrånjencami",
+    "hrånjeńcem",
+    "hrånjeńcami",
   ],
   "loc": [
-    "hrånjencu",
-    "hrånjencah",
+    "hrånjeńcu",
+    "hrånjeńcah",
   ],
   "nom": [
     "hrånjenėc",
-    "hrånjenci",
+    "hrånjeńci",
   ],
   "voc": [
-    "hrånjenče",
-    "hrånjenci",
+    "hrånjeńče",
+    "hrånjeńci",
   ],
 }
 `;
@@ -18987,32 +18987,32 @@ exports[`noun masculine (animate) 17492 1`] = `
 exports[`noun masculine (animate) 17589 1`] = `
 {
   "acc": [
-    "izseljenca",
-    "izseljencev",
+    "izseljeńca",
+    "izseljeńcev",
   ],
   "dat": [
-    "izseljencu",
-    "izseljencam",
+    "izseljeńcu",
+    "izseljeńcam",
   ],
   "gen": [
-    "izseljenca",
-    "izseljencev",
+    "izseljeńca",
+    "izseljeńcev",
   ],
   "ins": [
-    "izseljencem",
-    "izseljencami",
+    "izseljeńcem",
+    "izseljeńcami",
   ],
   "loc": [
-    "izseljencu",
-    "izseljencah",
+    "izseljeńcu",
+    "izseljeńcah",
   ],
   "nom": [
     "izseljenėc",
-    "izseljenci",
+    "izseljeńci",
   ],
   "voc": [
-    "izseljenče",
-    "izseljenci",
+    "izseljeńče",
+    "izseljeńci",
   ],
 }
 `;
@@ -19053,32 +19053,32 @@ exports[`noun masculine (animate) 17596 1`] = `
 exports[`noun masculine (animate) 17629 1`] = `
 {
   "acc": [
-    "jezdca",
-    "jezdcev",
+    "jezdėca",
+    "jezdėcev",
   ],
   "dat": [
-    "jezdcu",
-    "jezdcam",
+    "jezdėcu",
+    "jezdėcam",
   ],
   "gen": [
-    "jezdca",
-    "jezdcev",
+    "jezdėca",
+    "jezdėcev",
   ],
   "ins": [
-    "jezdcem",
-    "jezdcami",
+    "jezdėcem",
+    "jezdėcami",
   ],
   "loc": [
-    "jezdcu",
-    "jezdcah",
+    "jezdėcu",
+    "jezdėcah",
   ],
   "nom": [
     "jezdėc",
-    "jezdci",
+    "jezdėci",
   ],
   "voc": [
-    "jezdče",
-    "jezdci",
+    "jezdėče",
+    "jezdėci",
   ],
 }
 `;
@@ -20839,32 +20839,32 @@ exports[`noun masculine (animate) 19384 1`] = `
 exports[`noun masculine (animate) 19413 1`] = `
 {
   "acc": [
-    "zaspanca",
-    "zaspancev",
+    "zaspańca",
+    "zaspańcev",
   ],
   "dat": [
-    "zaspancu",
-    "zaspancam",
+    "zaspańcu",
+    "zaspańcam",
   ],
   "gen": [
-    "zaspanca",
-    "zaspancev",
+    "zaspańca",
+    "zaspańcev",
   ],
   "ins": [
-    "zaspancem",
-    "zaspancami",
+    "zaspańcem",
+    "zaspańcami",
   ],
   "loc": [
-    "zaspancu",
-    "zaspancah",
+    "zaspańcu",
+    "zaspańcah",
   ],
   "nom": [
     "zaspanėc",
-    "zaspanci",
+    "zaspańci",
   ],
   "voc": [
-    "zaspanče",
-    "zaspanci",
+    "zaspańče",
+    "zaspańci",
   ],
 }
 `;
@@ -21004,32 +21004,32 @@ exports[`noun masculine (animate) 19724 1`] = `
 exports[`noun masculine (animate) 19756 1`] = `
 {
   "acc": [
-    "Japonca",
-    "Japoncev",
+    "Japońca",
+    "Japońcev",
   ],
   "dat": [
-    "Japoncu",
-    "Japoncam",
+    "Japońcu",
+    "Japońcam",
   ],
   "gen": [
-    "Japonca",
-    "Japoncev",
+    "Japońca",
+    "Japońcev",
   ],
   "ins": [
-    "Japoncem",
-    "Japoncami",
+    "Japońcem",
+    "Japońcami",
   ],
   "loc": [
-    "Japoncu",
-    "Japoncah",
+    "Japońcu",
+    "Japońcah",
   ],
   "nom": [
     "Japonėc",
-    "Japonci",
+    "Japońci",
   ],
   "voc": [
-    "Japonče",
-    "Japonci",
+    "Japońče",
+    "Japońci",
   ],
 }
 `;
@@ -22225,32 +22225,32 @@ exports[`noun masculine (animate) 20432 1`] = `
 exports[`noun masculine (animate) 20470 1`] = `
 {
   "acc": [
-    "měšanca",
-    "měšancev",
+    "měšańca",
+    "měšańcev",
   ],
   "dat": [
-    "měšancu",
-    "měšancam",
+    "měšańcu",
+    "měšańcam",
   ],
   "gen": [
-    "měšanca",
-    "měšancev",
+    "měšańca",
+    "měšańcev",
   ],
   "ins": [
-    "měšancem",
-    "měšancami",
+    "měšańcem",
+    "měšańcami",
   ],
   "loc": [
-    "měšancu",
-    "měšancah",
+    "měšańcu",
+    "měšańcah",
   ],
   "nom": [
     "měšanėc",
-    "měšanci",
+    "měšańci",
   ],
   "voc": [
-    "měšanče",
-    "měšanci",
+    "měšańče",
+    "měšańci",
   ],
 }
 `;
@@ -22759,32 +22759,32 @@ exports[`noun masculine (animate) 20765 1`] = `
 exports[`noun masculine (animate) 20770 1`] = `
 {
   "acc": [
-    "tunca",
-    "tuncev",
+    "tuńca",
+    "tuńcev",
   ],
   "dat": [
-    "tuncu",
-    "tuncam",
+    "tuńcu",
+    "tuńcam",
   ],
   "gen": [
-    "tunca",
-    "tuncev",
+    "tuńca",
+    "tuńcev",
   ],
   "ins": [
-    "tuncem",
-    "tuncami",
+    "tuńcem",
+    "tuńcami",
   ],
   "loc": [
-    "tuncu",
-    "tuncah",
+    "tuńcu",
+    "tuńcah",
   ],
   "nom": [
     "tunėc",
-    "tunci",
+    "tuńci",
   ],
   "voc": [
-    "tunče",
-    "tunci",
+    "tuńče",
+    "tuńci",
   ],
 }
 `;
@@ -23784,32 +23784,32 @@ exports[`noun masculine (animate) 21270 1`] = `
 exports[`noun masculine (animate) 21317 1`] = `
 {
   "acc": [
-    "korabokrušenca",
-    "korabokrušencev",
+    "korabokrušeńca",
+    "korabokrušeńcev",
   ],
   "dat": [
-    "korabokrušencu",
-    "korabokrušencam",
+    "korabokrušeńcu",
+    "korabokrušeńcam",
   ],
   "gen": [
-    "korabokrušenca",
-    "korabokrušencev",
+    "korabokrušeńca",
+    "korabokrušeńcev",
   ],
   "ins": [
-    "korabokrušencem",
-    "korabokrušencami",
+    "korabokrušeńcem",
+    "korabokrušeńcami",
   ],
   "loc": [
-    "korabokrušencu",
-    "korabokrušencah",
+    "korabokrušeńcu",
+    "korabokrušeńcah",
   ],
   "nom": [
     "korabokrušenėc",
-    "korabokrušenci",
+    "korabokrušeńci",
   ],
   "voc": [
-    "korabokrušenče",
-    "korabokrušenci",
+    "korabokrušeńče",
+    "korabokrušeńci",
   ],
 }
 `;
@@ -23916,32 +23916,32 @@ exports[`noun masculine (animate) 21361 1`] = `
 exports[`noun masculine (animate) 21375 1`] = `
 {
   "acc": [
-    "obȯrvanca",
-    "obȯrvancev",
+    "obȯrvańca",
+    "obȯrvańcev",
   ],
   "dat": [
-    "obȯrvancu",
-    "obȯrvancam",
+    "obȯrvańcu",
+    "obȯrvańcam",
   ],
   "gen": [
-    "obȯrvanca",
-    "obȯrvancev",
+    "obȯrvańca",
+    "obȯrvańcev",
   ],
   "ins": [
-    "obȯrvancem",
-    "obȯrvancami",
+    "obȯrvańcem",
+    "obȯrvańcami",
   ],
   "loc": [
-    "obȯrvancu",
-    "obȯrvancah",
+    "obȯrvańcu",
+    "obȯrvańcah",
   ],
   "nom": [
     "obȯrvanėc",
-    "obȯrvanci",
+    "obȯrvańci",
   ],
   "voc": [
-    "obȯrvanče",
-    "obȯrvanci",
+    "obȯrvańče",
+    "obȯrvańci",
   ],
 }
 `;
@@ -23982,32 +23982,32 @@ exports[`noun masculine (animate) 21436 1`] = `
 exports[`noun masculine (animate) 21443 1`] = `
 {
   "acc": [
-    "poslanca",
-    "poslancev",
+    "poslańca",
+    "poslańcev",
   ],
   "dat": [
-    "poslancu",
-    "poslancam",
+    "poslańcu",
+    "poslańcam",
   ],
   "gen": [
-    "poslanca",
-    "poslancev",
+    "poslańca",
+    "poslańcev",
   ],
   "ins": [
-    "poslancem",
-    "poslancami",
+    "poslańcem",
+    "poslańcami",
   ],
   "loc": [
-    "poslancu",
-    "poslancah",
+    "poslańcu",
+    "poslańcah",
   ],
   "nom": [
     "poslanėc",
-    "poslanci",
+    "poslańci",
   ],
   "voc": [
-    "poslanče",
-    "poslanci",
+    "poslańče",
+    "poslańci",
   ],
 }
 `;
@@ -24015,32 +24015,32 @@ exports[`noun masculine (animate) 21443 1`] = `
 exports[`noun masculine (animate) 21558 1`] = `
 {
   "acc": [
-    "samozvanca",
-    "samozvancev",
+    "samozvańca",
+    "samozvańcev",
   ],
   "dat": [
-    "samozvancu",
-    "samozvancam",
+    "samozvańcu",
+    "samozvańcam",
   ],
   "gen": [
-    "samozvanca",
-    "samozvancev",
+    "samozvańca",
+    "samozvańcev",
   ],
   "ins": [
-    "samozvancem",
-    "samozvancami",
+    "samozvańcem",
+    "samozvańcami",
   ],
   "loc": [
-    "samozvancu",
-    "samozvancah",
+    "samozvańcu",
+    "samozvańcah",
   ],
   "nom": [
     "samozvanėc",
-    "samozvanci",
+    "samozvańci",
   ],
   "voc": [
-    "samozvanče",
-    "samozvanci",
+    "samozvańče",
+    "samozvańci",
   ],
 }
 `;
@@ -24180,32 +24180,32 @@ exports[`noun masculine (animate) 21725 1`] = `
 exports[`noun masculine (animate) 21873 1`] = `
 {
   "acc": [
-    "inostrånca",
-    "inostråncev",
+    "inostråńca",
+    "inostråńcev",
   ],
   "dat": [
-    "inostråncu",
-    "inostråncam",
+    "inostråńcu",
+    "inostråńcam",
   ],
   "gen": [
-    "inostrånca",
-    "inostråncev",
+    "inostråńca",
+    "inostråńcev",
   ],
   "ins": [
-    "inostråncem",
-    "inostråncami",
+    "inostråńcem",
+    "inostråńcami",
   ],
   "loc": [
-    "inostråncu",
-    "inostråncah",
+    "inostråńcu",
+    "inostråńcah",
   ],
   "nom": [
     "inostrånėc",
-    "inostrånci",
+    "inostråńci",
   ],
   "voc": [
-    "inostrånče",
-    "inostrånci",
+    "inostråńče",
+    "inostråńci",
   ],
 }
 `;
@@ -24378,32 +24378,32 @@ exports[`noun masculine (animate) 22063 1`] = `
 exports[`noun masculine (animate) 22128 1`] = `
 {
   "acc": [
-    "zatraćenca",
-    "zatraćencev",
+    "zatraćeńca",
+    "zatraćeńcev",
   ],
   "dat": [
-    "zatraćencu",
-    "zatraćencam",
+    "zatraćeńcu",
+    "zatraćeńcam",
   ],
   "gen": [
-    "zatraćenca",
-    "zatraćencev",
+    "zatraćeńca",
+    "zatraćeńcev",
   ],
   "ins": [
-    "zatraćencem",
-    "zatraćencami",
+    "zatraćeńcem",
+    "zatraćeńcami",
   ],
   "loc": [
-    "zatraćencu",
-    "zatraćencah",
+    "zatraćeńcu",
+    "zatraćeńcah",
   ],
   "nom": [
     "zatraćenėc",
-    "zatraćenci",
+    "zatraćeńci",
   ],
   "voc": [
-    "zatraćenče",
-    "zatraćenci",
+    "zatraćeńče",
+    "zatraćeńci",
   ],
 }
 `;
@@ -24774,32 +24774,32 @@ exports[`noun masculine (animate) 22473 1`] = `
 exports[`noun masculine (animate) 22588 1`] = `
 {
   "acc": [
-    "privŕženca",
-    "privŕžencev",
+    "privŕžeńca",
+    "privŕžeńcev",
   ],
   "dat": [
-    "privŕžencu",
-    "privŕžencam",
+    "privŕžeńcu",
+    "privŕžeńcam",
   ],
   "gen": [
-    "privŕženca",
-    "privŕžencev",
+    "privŕžeńca",
+    "privŕžeńcev",
   ],
   "ins": [
-    "privŕžencem",
-    "privŕžencami",
+    "privŕžeńcem",
+    "privŕžeńcami",
   ],
   "loc": [
-    "privŕžencu",
-    "privŕžencah",
+    "privŕžeńcu",
+    "privŕžeńcah",
   ],
   "nom": [
     "privŕženėc",
-    "privŕženci",
+    "privŕžeńci",
   ],
   "voc": [
-    "privŕženče",
-    "privŕženci",
+    "privŕžeńče",
+    "privŕžeńci",
   ],
 }
 `;
@@ -25203,32 +25203,32 @@ exports[`noun masculine (animate) 22835 1`] = `
 exports[`noun masculine (animate) 22836 1`] = `
 {
   "acc": [
-    "znalca",
-    "znalcev",
+    "znaľca",
+    "znaľcev",
   ],
   "dat": [
-    "znalcu",
-    "znalcam",
+    "znaľcu",
+    "znaľcam",
   ],
   "gen": [
-    "znalca",
-    "znalcev",
+    "znaľca",
+    "znaľcev",
   ],
   "ins": [
-    "znalcem",
-    "znalcami",
+    "znaľcem",
+    "znaľcami",
   ],
   "loc": [
-    "znalcu",
-    "znalcah",
+    "znaľcu",
+    "znaľcah",
   ],
   "nom": [
     "znalėc",
-    "znalci",
+    "znaľci",
   ],
   "voc": [
-    "znalče",
-    "znalci",
+    "znaľče",
+    "znaľci",
   ],
 }
 `;
@@ -26197,32 +26197,32 @@ exports[`noun masculine (animate) 23323 1`] = `
 exports[`noun masculine (animate) 23361 1`] = `
 {
   "acc": [
-    "proigranca",
-    "proigrancev",
+    "proigrańca",
+    "proigrańcev",
   ],
   "dat": [
-    "proigrancu",
-    "proigrancam",
+    "proigrańcu",
+    "proigrańcam",
   ],
   "gen": [
-    "proigranca",
-    "proigrancev",
+    "proigrańca",
+    "proigrańcev",
   ],
   "ins": [
-    "proigrancem",
-    "proigrancami",
+    "proigrańcem",
+    "proigrańcami",
   ],
   "loc": [
-    "proigrancu",
-    "proigrancah",
+    "proigrańcu",
+    "proigrańcah",
   ],
   "nom": [
     "proigranėc",
-    "proigranci",
+    "proigrańci",
   ],
   "voc": [
-    "proigranče",
-    "proigranci",
+    "proigrańče",
+    "proigrańci",
   ],
 }
 `;
@@ -27420,32 +27420,32 @@ exports[`noun masculine (animate) 24093 1`] = `
 exports[`noun masculine (animate) 24102 1`] = `
 {
   "acc": [
-    "Afroamerikanca",
-    "Afroamerikancev",
+    "Afroamerikańca",
+    "Afroamerikańcev",
   ],
   "dat": [
-    "Afroamerikancu",
-    "Afroamerikancam",
+    "Afroamerikańcu",
+    "Afroamerikańcam",
   ],
   "gen": [
-    "Afroamerikanca",
-    "Afroamerikancev",
+    "Afroamerikańca",
+    "Afroamerikańcev",
   ],
   "ins": [
-    "Afroamerikancem",
-    "Afroamerikancami",
+    "Afroamerikańcem",
+    "Afroamerikańcami",
   ],
   "loc": [
-    "Afroamerikancu",
-    "Afroamerikancah",
+    "Afroamerikańcu",
+    "Afroamerikańcah",
   ],
   "nom": [
     "Afroamerikanėc",
-    "Afroamerikanci",
+    "Afroamerikańci",
   ],
   "voc": [
-    "Afroamerikanče",
-    "Afroamerikanci",
+    "Afroamerikańče",
+    "Afroamerikańci",
   ],
 }
 `;
@@ -29171,32 +29171,32 @@ exports[`noun masculine (animate) 25424 1`] = `
 exports[`noun masculine (animate) 25457 1`] = `
 {
   "acc": [
-    "dvuženca",
-    "dvužencev",
+    "dvužeńca",
+    "dvužeńcev",
   ],
   "dat": [
-    "dvužencu",
-    "dvužencam",
+    "dvužeńcu",
+    "dvužeńcam",
   ],
   "gen": [
-    "dvuženca",
-    "dvužencev",
+    "dvužeńca",
+    "dvužeńcev",
   ],
   "ins": [
-    "dvužencem",
-    "dvužencami",
+    "dvužeńcem",
+    "dvužeńcami",
   ],
   "loc": [
-    "dvužencu",
-    "dvužencah",
+    "dvužeńcu",
+    "dvužeńcah",
   ],
   "nom": [
     "dvuženėc",
-    "dvuženci",
+    "dvužeńci",
   ],
   "voc": [
-    "dvuženče",
-    "dvuženci",
+    "dvužeńče",
+    "dvužeńci",
   ],
 }
 `;
@@ -29965,32 +29965,32 @@ exports[`noun masculine (animate) 26156 1`] = `
 exports[`noun masculine (animate) 26239 1`] = `
 {
   "acc": [
-    "Izraelca",
-    "Izraelcev",
+    "Izraeľca",
+    "Izraeľcev",
   ],
   "dat": [
-    "Izraelcu",
-    "Izraelcam",
+    "Izraeľcu",
+    "Izraeľcam",
   ],
   "gen": [
-    "Izraelca",
-    "Izraelcev",
+    "Izraeľca",
+    "Izraeľcev",
   ],
   "ins": [
-    "Izraelcem",
-    "Izraelcami",
+    "Izraeľcem",
+    "Izraeľcami",
   ],
   "loc": [
-    "Izraelcu",
-    "Izraelcah",
+    "Izraeľcu",
+    "Izraeľcah",
   ],
   "nom": [
     "Izraelėc",
-    "Izraelci",
+    "Izraeľci",
   ],
   "voc": [
-    "Izraelče",
-    "Izraelci",
+    "Izraeľče",
+    "Izraeľci",
   ],
 }
 `;
@@ -30064,32 +30064,32 @@ exports[`noun masculine (animate) 26340 1`] = `
 exports[`noun masculine (animate) 26345 1`] = `
 {
   "acc": [
-    "jedinca",
-    "jedincev",
+    "jedińca",
+    "jedińcev",
   ],
   "dat": [
-    "jedincu",
-    "jedincam",
+    "jedińcu",
+    "jedińcam",
   ],
   "gen": [
-    "jedinca",
-    "jedincev",
+    "jedińca",
+    "jedińcev",
   ],
   "ins": [
-    "jedincem",
-    "jedincami",
+    "jedińcem",
+    "jedińcami",
   ],
   "loc": [
-    "jedincu",
-    "jedincah",
+    "jedińcu",
+    "jedińcah",
   ],
   "nom": [
     "jedinėc",
-    "jedinci",
+    "jedińci",
   ],
   "voc": [
-    "jedinče",
-    "jedinci",
+    "jedińče",
+    "jedińci",
   ],
 }
 `;
@@ -30097,32 +30097,32 @@ exports[`noun masculine (animate) 26345 1`] = `
 exports[`noun masculine (animate) 26365 1`] = `
 {
   "acc": [
-    "jelca",
-    "jelcev",
+    "jeľca",
+    "jeľcev",
   ],
   "dat": [
-    "jelcu",
-    "jelcam",
+    "jeľcu",
+    "jeľcam",
   ],
   "gen": [
-    "jelca",
-    "jelcev",
+    "jeľca",
+    "jeľcev",
   ],
   "ins": [
-    "jelcem",
-    "jelcami",
+    "jeľcem",
+    "jeľcami",
   ],
   "loc": [
-    "jelcu",
-    "jelcah",
+    "jeľcu",
+    "jeľcah",
   ],
   "nom": [
     "jelėc",
-    "jelci",
+    "jeľci",
   ],
   "voc": [
-    "jelče",
-    "jelci",
+    "jeľče",
+    "jeľci",
   ],
 }
 `;
@@ -30229,32 +30229,32 @@ exports[`noun masculine (animate) 26403 1`] = `
 exports[`noun masculine (animate) 26405 1`] = `
 {
   "acc": [
-    "junca",
-    "juncev",
+    "juńca",
+    "juńcev",
   ],
   "dat": [
-    "juncu",
-    "juncam",
+    "juńcu",
+    "juńcam",
   ],
   "gen": [
-    "junca",
-    "juncev",
+    "juńca",
+    "juńcev",
   ],
   "ins": [
-    "juncem",
-    "juncami",
+    "juńcem",
+    "juńcami",
   ],
   "loc": [
-    "juncu",
-    "juncah",
+    "juńcu",
+    "juńcah",
   ],
   "nom": [
     "junėc",
-    "junci",
+    "juńci",
   ],
   "voc": [
-    "junče",
-    "junci",
+    "juńče",
+    "juńci",
   ],
 }
 `;
@@ -31107,7 +31107,7 @@ exports[`noun masculine (animate) 27163 1`] = `
     "Ljvah",
   ],
   "nom": [
-    "Lev",
+    "Ľėv",
     "Ljvi",
   ],
   "voc": [
@@ -31516,32 +31516,32 @@ exports[`noun masculine (animate) 27553 1`] = `
 exports[`noun masculine (animate) 27636 1`] = `
 {
   "acc": [
-    "mlådenca",
-    "mlådencev",
+    "mlådeńca",
+    "mlådeńcev",
   ],
   "dat": [
-    "mlådencu",
-    "mlådencam",
+    "mlådeńcu",
+    "mlådeńcam",
   ],
   "gen": [
-    "mlådenca",
-    "mlådencev",
+    "mlådeńca",
+    "mlådeńcev",
   ],
   "ins": [
-    "mlådencem",
-    "mlådencami",
+    "mlådeńcem",
+    "mlådeńcami",
   ],
   "loc": [
-    "mlådencu",
-    "mlådencah",
+    "mlådeńcu",
+    "mlådeńcah",
   ],
   "nom": [
     "mlådenėc",
-    "mlådenci",
+    "mlådeńci",
   ],
   "voc": [
-    "mlådenče",
-    "mlådenci",
+    "mlådeńče",
+    "mlådeńci",
   ],
 }
 `;
@@ -32704,32 +32704,32 @@ exports[`noun masculine (animate) 30705 1`] = `
 exports[`noun masculine (animate) 30809 1`] = `
 {
   "acc": [
-    "Strělca",
-    "Strělcev",
+    "Strěľca",
+    "Strěľcev",
   ],
   "dat": [
-    "Strělcu",
-    "Strělcam",
+    "Strěľcu",
+    "Strěľcam",
   ],
   "gen": [
-    "Strělca",
-    "Strělcev",
+    "Strěľca",
+    "Strěľcev",
   ],
   "ins": [
-    "Strělcem",
-    "Strělcami",
+    "Strěľcem",
+    "Strěľcami",
   ],
   "loc": [
-    "Strělcu",
-    "Strělcah",
+    "Strěľcu",
+    "Strěľcah",
   ],
   "nom": [
     "Strělėc",
-    "Strělci",
+    "Strěľci",
   ],
   "voc": [
-    "Strělče",
-    "Strělci",
+    "Strěľče",
+    "Strěľci",
   ],
 }
 `;
@@ -32968,32 +32968,32 @@ exports[`noun masculine (animate) 31028 1`] = `
 exports[`noun masculine (animate) 31064 1`] = `
 {
   "acc": [
-    "vegetarianca",
-    "vegetariancev",
+    "vegetariańca",
+    "vegetariańcev",
   ],
   "dat": [
-    "vegetariancu",
-    "vegetariancam",
+    "vegetariańcu",
+    "vegetariańcam",
   ],
   "gen": [
-    "vegetarianca",
-    "vegetariancev",
+    "vegetariańca",
+    "vegetariańcev",
   ],
   "ins": [
-    "vegetariancem",
-    "vegetariancami",
+    "vegetariańcem",
+    "vegetariańcami",
   ],
   "loc": [
-    "vegetariancu",
-    "vegetariancah",
+    "vegetariańcu",
+    "vegetariańcah",
   ],
   "nom": [
     "vegetarianėc",
-    "vegetarianci",
+    "vegetariańci",
   ],
   "voc": [
-    "vegetarianče",
-    "vegetarianci",
+    "vegetariańče",
+    "vegetariańci",
   ],
 }
 `;
@@ -35824,32 +35824,32 @@ exports[`noun masculine (animate) 34428 1`] = `
 exports[`noun masculine (animate) 34429 1`] = `
 {
   "acc": [
-    "neandertalca",
-    "neandertalcev",
+    "neandertaľca",
+    "neandertaľcev",
   ],
   "dat": [
-    "neandertalcu",
-    "neandertalcam",
+    "neandertaľcu",
+    "neandertaľcam",
   ],
   "gen": [
-    "neandertalca",
-    "neandertalcev",
+    "neandertaľca",
+    "neandertaľcev",
   ],
   "ins": [
-    "neandertalcem",
-    "neandertalcami",
+    "neandertaľcem",
+    "neandertaľcami",
   ],
   "loc": [
-    "neandertalcu",
-    "neandertalcah",
+    "neandertaľcu",
+    "neandertaľcah",
   ],
   "nom": [
     "neandertalėc",
-    "neandertalci",
+    "neandertaľci",
   ],
   "voc": [
-    "neandertalče",
-    "neandertalci",
+    "neandertaľče",
+    "neandertaľci",
   ],
 }
 `;
@@ -36420,32 +36420,32 @@ exports[`noun masculine (animate) 34933 1`] = `
 exports[`noun masculine (animate) 34942 1`] = `
 {
   "acc": [
-    "strělca",
-    "strělcev",
+    "strěľca",
+    "strěľcev",
   ],
   "dat": [
-    "strělcu",
-    "strělcam",
+    "strěľcu",
+    "strěľcam",
   ],
   "gen": [
-    "strělca",
-    "strělcev",
+    "strěľca",
+    "strěľcev",
   ],
   "ins": [
-    "strělcem",
-    "strělcami",
+    "strěľcem",
+    "strěľcami",
   ],
   "loc": [
-    "strělcu",
-    "strělcah",
+    "strěľcu",
+    "strěľcah",
   ],
   "nom": [
     "strělėc",
-    "strělci",
+    "strěľci",
   ],
   "voc": [
-    "strělče",
-    "strělci",
+    "strěľče",
+    "strěľci",
   ],
 }
 `;
@@ -37680,32 +37680,32 @@ exports[`noun masculine (animate) 35472 1`] = `
 exports[`noun masculine (animate) 35485 1`] = `
 {
   "acc": [
-    "novorođenca",
-    "novorođencev",
+    "novorođeńca",
+    "novorođeńcev",
   ],
   "dat": [
-    "novorođencu",
-    "novorođencam",
+    "novorođeńcu",
+    "novorođeńcam",
   ],
   "gen": [
-    "novorođenca",
-    "novorođencev",
+    "novorođeńca",
+    "novorođeńcev",
   ],
   "ins": [
-    "novorođencem",
-    "novorođencami",
+    "novorođeńcem",
+    "novorođeńcami",
   ],
   "loc": [
-    "novorođencu",
-    "novorođencah",
+    "novorođeńcu",
+    "novorođeńcah",
   ],
   "nom": [
     "novorođenėc",
-    "novorođenci",
+    "novorođeńci",
   ],
   "voc": [
-    "novorođenče",
-    "novorođenci",
+    "novorođeńče",
+    "novorođeńci",
   ],
 }
 `;
@@ -37779,32 +37779,32 @@ exports[`noun masculine (animate) 35508 1`] = `
 exports[`noun masculine (animate) 35519 1`] = `
 {
   "acc": [
-    "republikanca",
-    "republikancev",
+    "republikańca",
+    "republikańcev",
   ],
   "dat": [
-    "republikancu",
-    "republikancam",
+    "republikańcu",
+    "republikańcam",
   ],
   "gen": [
-    "republikanca",
-    "republikancev",
+    "republikańca",
+    "republikańcev",
   ],
   "ins": [
-    "republikancem",
-    "republikancami",
+    "republikańcem",
+    "republikańcami",
   ],
   "loc": [
-    "republikancu",
-    "republikancah",
+    "republikańcu",
+    "republikańcah",
   ],
   "nom": [
     "republikanėc",
-    "republikanci",
+    "republikańci",
   ],
   "voc": [
-    "republikanče",
-    "republikanci",
+    "republikańče",
+    "republikańci",
   ],
 }
 `;
@@ -38241,32 +38241,32 @@ exports[`noun masculine (animate) 35608 1`] = `
 exports[`noun masculine (animate) 35616 1`] = `
 {
   "acc": [
-    "novoprišėlca",
-    "novoprišėlcev",
+    "novoprišėľca",
+    "novoprišėľcev",
   ],
   "dat": [
-    "novoprišėlcu",
-    "novoprišėlcam",
+    "novoprišėľcu",
+    "novoprišėľcam",
   ],
   "gen": [
-    "novoprišėlca",
-    "novoprišėlcev",
+    "novoprišėľca",
+    "novoprišėľcev",
   ],
   "ins": [
-    "novoprišėlcem",
-    "novoprišėlcami",
+    "novoprišėľcem",
+    "novoprišėľcami",
   ],
   "loc": [
-    "novoprišėlcu",
-    "novoprišėlcah",
+    "novoprišėľcu",
+    "novoprišėľcah",
   ],
   "nom": [
     "novoprišėlėc",
-    "novoprišėlci",
+    "novoprišėľci",
   ],
   "voc": [
-    "novoprišėlče",
-    "novoprišėlci",
+    "novoprišėľče",
+    "novoprišėľci",
   ],
 }
 `;
@@ -39693,32 +39693,32 @@ exports[`noun masculine (animate) 36136 1`] = `
 exports[`noun masculine (animate) 36162 1`] = `
 {
   "acc": [
-    "neženjenca",
-    "neženjencev",
+    "neženjeńca",
+    "neženjeńcev",
   ],
   "dat": [
-    "neženjencu",
-    "neženjencam",
+    "neženjeńcu",
+    "neženjeńcam",
   ],
   "gen": [
-    "neženjenca",
-    "neženjencev",
+    "neženjeńca",
+    "neženjeńcev",
   ],
   "ins": [
-    "neženjencem",
-    "neženjencami",
+    "neženjeńcem",
+    "neženjeńcami",
   ],
   "loc": [
-    "neženjencu",
-    "neženjencah",
+    "neženjeńcu",
+    "neženjeńcah",
   ],
   "nom": [
     "neženjenėc",
-    "neženjenci",
+    "neženjeńci",
   ],
   "voc": [
-    "neženjenče",
-    "neženjenci",
+    "neženjeńče",
+    "neženjeńci",
   ],
 }
 `;
@@ -40485,32 +40485,32 @@ exports[`noun masculine (animate) 36494 1`] = `
 exports[`noun masculine (animate) 36495 1`] = `
 {
   "acc": [
-    "oseljenca",
-    "oseljencev",
+    "oseljeńca",
+    "oseljeńcev",
   ],
   "dat": [
-    "oseljencu",
-    "oseljencam",
+    "oseljeńcu",
+    "oseljeńcam",
   ],
   "gen": [
-    "oseljenca",
-    "oseljencev",
+    "oseljeńca",
+    "oseljeńcev",
   ],
   "ins": [
-    "oseljencem",
-    "oseljencami",
+    "oseljeńcem",
+    "oseljeńcami",
   ],
   "loc": [
-    "oseljencu",
-    "oseljencah",
+    "oseljeńcu",
+    "oseljeńcah",
   ],
   "nom": [
     "oseljenėc",
-    "oseljenci",
+    "oseljeńci",
   ],
   "voc": [
-    "oseljenče",
-    "oseljenci",
+    "oseljeńče",
+    "oseljeńci",
   ],
 }
 `;
@@ -40617,32 +40617,32 @@ exports[`noun masculine (animate) 36605 1`] = `
 exports[`noun masculine (animate) 36646 1`] = `
 {
   "acc": [
-    "lųkostrělca",
-    "lųkostrělcev",
+    "lųkostrěľca",
+    "lųkostrěľcev",
   ],
   "dat": [
-    "lųkostrělcu",
-    "lųkostrělcam",
+    "lųkostrěľcu",
+    "lųkostrěľcam",
   ],
   "gen": [
-    "lųkostrělca",
-    "lųkostrělcev",
+    "lųkostrěľca",
+    "lųkostrěľcev",
   ],
   "ins": [
-    "lųkostrělcem",
-    "lųkostrělcami",
+    "lųkostrěľcem",
+    "lųkostrěľcami",
   ],
   "loc": [
-    "lųkostrělcu",
-    "lųkostrělcah",
+    "lųkostrěľcu",
+    "lųkostrěľcah",
   ],
   "nom": [
     "lųkostrělėc",
-    "lųkostrělci",
+    "lųkostrěľci",
   ],
   "voc": [
-    "lųkostrělče",
-    "lųkostrělci",
+    "lųkostrěľče",
+    "lųkostrěľci",
   ],
 }
 `;
@@ -40749,32 +40749,32 @@ exports[`noun masculine (animate) 36707 1`] = `
 exports[`noun masculine (animate) 36719 1`] = `
 {
   "acc": [
-    "Afrikanca",
-    "Afrikancev",
+    "Afrikańca",
+    "Afrikańcev",
   ],
   "dat": [
-    "Afrikancu",
-    "Afrikancam",
+    "Afrikańcu",
+    "Afrikańcam",
   ],
   "gen": [
-    "Afrikanca",
-    "Afrikancev",
+    "Afrikańca",
+    "Afrikańcev",
   ],
   "ins": [
-    "Afrikancem",
-    "Afrikancami",
+    "Afrikańcem",
+    "Afrikańcami",
   ],
   "loc": [
-    "Afrikancu",
-    "Afrikancah",
+    "Afrikańcu",
+    "Afrikańcah",
   ],
   "nom": [
     "Afrikanėc",
-    "Afrikanci",
+    "Afrikańci",
   ],
   "voc": [
-    "Afrikanče",
-    "Afrikanci",
+    "Afrikańče",
+    "Afrikańci",
   ],
 }
 `;
@@ -42929,32 +42929,32 @@ exports[`noun masculine (animate) 37369 1`] = `
 exports[`noun masculine (animate) 37377 1`] = `
 {
   "acc": [
-    "Palestinca",
-    "Palestincev",
+    "Palestińca",
+    "Palestińcev",
   ],
   "dat": [
-    "Palestincu",
-    "Palestincam",
+    "Palestińcu",
+    "Palestińcam",
   ],
   "gen": [
-    "Palestinca",
-    "Palestincev",
+    "Palestińca",
+    "Palestińcev",
   ],
   "ins": [
-    "Palestincem",
-    "Palestincami",
+    "Palestińcem",
+    "Palestińcami",
   ],
   "loc": [
-    "Palestincu",
-    "Palestincah",
+    "Palestińcu",
+    "Palestińcah",
   ],
   "nom": [
-    "Palestinec",
-    "Palestinci",
+    "Palestinėc",
+    "Palestińci",
   ],
   "voc": [
-    "Palestinče",
-    "Palestinci",
+    "Palestińče",
+    "Palestińci",
   ],
 }
 `;
