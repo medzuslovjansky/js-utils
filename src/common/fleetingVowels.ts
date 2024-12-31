@@ -1,6 +1,6 @@
 import { ALL_LETTERS, ALL_CONSONANTS } from '../substitutions';
 
-export function markFluentVowel(word: string, add: string): string {
+export function markFleetingVowel(word: string, add: string): string {
   let i = 0;
 
   const L = Math.min(word.length - 1, add.length);
@@ -9,13 +9,13 @@ export function markFluentVowel(word: string, add: string): string {
   }
 
   if (word[i] !== add[i] && word[i + 1] === add[i]) {
-    return replaceFluentVowel(word, i);
+    return replaceFleetingVowel(word, i);
   }
 
   return word;
 }
 
-export function inferFluentVowel(word: string): string {
+export function inferFleetingVowel(word: string): string {
   let i = word.length - 1;
   let end = word.length;
   let replaced = false;
@@ -30,7 +30,7 @@ export function inferFluentVowel(word: string): string {
 
     if (!replaced && isFleetingVowel(char)) {
       if (isLastSyllable(word, i, end)) {
-        result = replaceFluentVowel(result, i);
+        result = replaceFleetingVowel(result, i);
       }
     }
 
@@ -44,9 +44,9 @@ function isFleetingVowel(char: string): boolean {
   return char === 'è' || char === 'ė' || char === 'ȯ' || char === 'ò';
 }
 
-function replaceFluentVowel(word: string, j: number): string {
-  const fluentVowel = word[j].normalize('NFD')[0];
-  return `${word.slice(0, j)}(${fluentVowel})${word.slice(j + 1)}`;
+function replaceFleetingVowel(word: string, j: number): string {
+  const fleetingVowel = word[j].normalize('NFD')[0];
+  return `${word.slice(0, j)}(${fleetingVowel})${word.slice(j + 1)}`;
 }
 
 function isLastSyllable(word: string, i: number, end: number): boolean {
