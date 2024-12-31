@@ -3,7 +3,7 @@
  */
 
 import { declensionAdjective } from '../adjective';
-import { inferFluentVowel, markFluentVowel } from '../common';
+import { inferFleetingVowel, markFleetingVowel } from '../common';
 import type { Noun } from '../partOfSpeech';
 import { removeBrackets, replaceStringAt } from '../utils';
 import { establishGender } from './establishGender';
@@ -106,9 +106,9 @@ export function declensionNoun(
   }
 
   if (add && noun !== add) {
-    noun = markFluentVowel(noun, add);
+    noun = markFleetingVowel(noun, add);
   } else {
-    noun = inferFluentVowel(noun);
+    noun = inferFleetingVowel(noun);
   }
 
   const rawGender = prepareGender(originGender, animated);
@@ -118,12 +118,12 @@ export function declensionNoun(
   noun =
     noun.slice(0, -2) + noun.slice(-2).replace(/([cšžčćńľŕťďśźđj])/g, '$1ь');
 
-  const nounWithoutFluent = noun.replace(/\([oe]\)/, '');
+  const nounWithoutFleeting = noun.replace(/\([oe]\)/, '');
 
   noun = noun.replace('(e)', 'ė').replace('(o)', 'ȯ');
 
   const gender = establishGender(noun, rawGender);
-  const root = establish_root(nounWithoutFluent, gender);
+  const root = establish_root(nounWithoutFleeting, gender);
   const plroot = establish_plural_root(root);
   const plgen = establishPluralGender(root, plroot, gender, rawGender);
 
@@ -188,7 +188,7 @@ function establish_root(noun: string, gender: string) {
         result = 'dn';
     }*/
 
-  const fluentVowelIndex = Math.max(
+  const fleetingVowelIndex = Math.max(
     noun.lastIndexOf('ė'),
     noun.lastIndexOf('ȯ'),
   );
@@ -230,8 +230,8 @@ function establish_root(noun: string, gender: string) {
     result = noun;
   }
 
-  if (!hasVowelEnding && fluentVowelIndex > result.length - 3) {
-    result = replaceStringAt(result, fluentVowelIndex, '');
+  if (!hasVowelEnding && fleetingVowelIndex > result.length - 3) {
+    result = replaceStringAt(result, fleetingVowelIndex, '');
   }
 
   return result;
