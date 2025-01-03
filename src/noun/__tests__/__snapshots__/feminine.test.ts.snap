@@ -45874,39 +45874,6 @@ exports[`noun feminine 17210 1`] = `
 }
 `;
 
-exports[`noun feminine 17219 1`] = `
-{
-  "acc": [
-    "!črnicų",
-    "!črnice",
-  ],
-  "dat": [
-    "!črnici",
-    "!črnicam",
-  ],
-  "gen": [
-    "!črnice",
-    "!črnic",
-  ],
-  "ins": [
-    "!črnicejų",
-    "!črnicami",
-  ],
-  "loc": [
-    "!črnici",
-    "!črnicah",
-  ],
-  "nom": [
-    "!črnica",
-    "!črnice",
-  ],
-  "voc": [
-    "!črnico",
-    "!črnice",
-  ],
-}
-`;
-
 exports[`noun feminine 17237 1`] = `
 {
   "acc": [

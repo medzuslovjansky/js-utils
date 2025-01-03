@@ -12450,32 +12450,32 @@ exports[`noun masculine (animate) 6894 1`] = `
 exports[`noun masculine (animate) 6906 1`] = `
 {
   "acc": [
-    "!črnika",
-    "!črnikov",
+    "črnika",
+    "črnikov",
   ],
   "dat": [
-    "!črniku",
-    "!črnikam",
+    "črniku",
+    "črnikam",
   ],
   "gen": [
-    "!črnika",
-    "!črnikov",
+    "črnika",
+    "črnikov",
   ],
   "ins": [
-    "!črnikom",
-    "!črnikami",
+    "črnikom",
+    "črnikami",
   ],
   "loc": [
-    "!črniku",
-    "!črnikah",
+    "črniku",
+    "črnikah",
   ],
   "nom": [
-    "!črnik",
-    "!črniki",
+    "črnik",
+    "črniki",
   ],
   "voc": [
-    "!črniče",
-    "!črniki",
+    "črniče",
+    "črniki",
   ],
 }
 `;

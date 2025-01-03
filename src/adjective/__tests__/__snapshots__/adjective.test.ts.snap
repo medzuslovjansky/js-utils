@@ -70,76 +70,6 @@ exports[`adjective -37513 1`] = `
 }
 `;
 
-exports[`adjective -37514 1`] = `
-{
-  "comparison": {
-    "comparative": [
-      "dužejši",
-      "dužeje",
-    ],
-    "positive": [
-      "duži",
-      "duže",
-    ],
-    "superlative": [
-      "najdužejši",
-      "najdužeje",
-    ],
-  },
-  "plural": {
-    "acc": [
-      "dužih / duže",
-      "duže",
-    ],
-    "dat": [
-      "dužim",
-    ],
-    "gen": [
-      "dužih",
-    ],
-    "ins": [
-      "dužimi",
-    ],
-    "loc": [
-      "dužih",
-    ],
-    "nom": [
-      "duži / duže",
-      "duže",
-    ],
-  },
-  "short": "duž",
-  "singular": {
-    "acc": [
-      "dužego / duži",
-      "duže",
-      "dužų",
-    ],
-    "dat": [
-      "dužemu",
-      "dužej",
-    ],
-    "gen": [
-      "dužego",
-      "dužej",
-    ],
-    "ins": [
-      "dužim",
-      "dužejų",
-    ],
-    "loc": [
-      "dužem",
-      "dužej",
-    ],
-    "nom": [
-      "duži",
-      "duže",
-      "duža",
-    ],
-  },
-}
-`;
-
 exports[`adjective -37515 1`] = `
 {
   "comparison": {
@@ -46576,67 +46506,67 @@ exports[`adjective 4459 1`] = `
 {
   "comparison": {
     "comparative": [
-      "!dužejši",
-      "!dužeje",
+      "dužejši",
+      "dužeje",
     ],
     "positive": [
-      "!duži",
-      "!duže",
+      "duži",
+      "duže",
     ],
     "superlative": [
-      "naj!dužejši",
-      "naj!dužeje",
+      "najdužejši",
+      "najdužeje",
     ],
   },
   "plural": {
     "acc": [
-      "!dužih / !duže",
-      "!duže",
+      "dužih / duže",
+      "duže",
     ],
     "dat": [
-      "!dužim",
+      "dužim",
     ],
     "gen": [
-      "!dužih",
+      "dužih",
     ],
     "ins": [
-      "!dužimi",
+      "dužimi",
     ],
     "loc": [
-      "!dužih",
+      "dužih",
     ],
     "nom": [
-      "!duži / !duže",
-      "!duže",
+      "duži / duže",
+      "duže",
     ],
   },
-  "short": "!duž",
+  "short": "duž",
   "singular": {
     "acc": [
-      "!dužego / !duži",
-      "!duže",
-      "!dužų",
+      "dužego / duži",
+      "duže",
+      "dužų",
     ],
     "dat": [
-      "!dužemu",
-      "!dužej",
+      "dužemu",
+      "dužej",
     ],
     "gen": [
-      "!dužego",
-      "!dužej",
+      "dužego",
+      "dužej",
     ],
     "ins": [
-      "!dužim",
-      "!dužejų",
+      "dužim",
+      "dužejų",
     ],
     "loc": [
-      "!dužem",
-      "!dužej",
+      "dužem",
+      "dužej",
     ],
     "nom": [
-      "!duži",
-      "!duže",
-      "!duža",
+      "duži",
+      "duže",
+      "duža",
     ],
   },
 }
