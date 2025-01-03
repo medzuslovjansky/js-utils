@@ -188,7 +188,8 @@ async function splitToFixtures() {
       continue;
     }
 
-    const isv = stripSquareBrackets(stripHash(record.isv));
+    const isv = stripSquareBrackets(stripExclamation(stripHash(record.isv)));
+
     const lemmas = isv.split(/\s*,\s*/);
     for (const lemma of lemmas) {
       const extra = stripHash(record.addition);
@@ -238,6 +239,10 @@ main().catch((error) => {
 
 function stripHash(str) {
   return str.replace(/#/g, '');
+}
+
+function stripExclamation(str) {
+  return str.replace(/^!/, '');
 }
 
 function stripSquareBrackets(str) {
