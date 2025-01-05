@@ -15,7 +15,7 @@
   "scripts": {
     "clean": "rimraf dist",
     "import": "node scripts/import.js",
-    "build": "tsc && bash scripts/browserify.sh",
+    "build": "tsc",
     "docs": "typedoc",
     "lint": "eslint src/**/*.ts",
     "test": "jest",
@@ -63,6 +63,7 @@
     "@typescript-eslint/eslint-plugin": "^5.59.8",
     "@typescript-eslint/parser": "^5.59.8",
     "allure-commandline": "2.29.0",
+    "benchmark": "^2.1.4",
     "cross-env": "^7.0.3",
     "csv-parse": "^5.5.3",
     "cz-conventional-changelog": "^3.3.0",
