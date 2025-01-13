@@ -133,12 +133,12 @@ export function declensionPronoun(
       return {
         type: 'adjective',
         casesSingular: {
-          nom: ['sam', 'sama', 'samo'],
-          acc: ['samogo / sam', 'samų', 'samogo / samo'],
-          gen: ['samogo', 'samoj', 'samogo'],
-          loc: ['samom', 'samoj', 'samom'],
-          dat: ['samomu', 'samoj', 'samomu'],
-          ins: ['samym', 'samojų', 'samym'],
+          nom: ['sam', 'samo', 'sama'],
+          acc: ['samogo / sam', 'samogo / samo', 'samų'],
+          gen: ['samogo', 'samogo', 'samoj'],
+          loc: ['samom', 'samom', 'samoj'],
+          dat: ['samomu', 'samomu', 'samoj'],
+          ins: ['samym', 'samym', 'samojų'],
         },
         casesPlural: {
           nom: ['sami / same', 'same'],

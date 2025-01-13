@@ -631,33 +631,33 @@ exports[`pronoun personal 2219 1`] = `
   "casesSingular": {
     "acc": [
       "samogo / sam",
-      "samų",
       "samogo / samo",
+      "samų",
     ],
     "dat": [
       "samomu",
-      "samoj",
       "samomu",
+      "samoj",
     ],
     "gen": [
       "samogo",
-      "samoj",
       "samogo",
+      "samoj",
     ],
     "ins": [
       "samym",
-      "samojų",
       "samym",
+      "samojų",
     ],
     "loc": [
       "samom",
-      "samoj",
       "samom",
+      "samoj",
     ],
     "nom": [
       "sam",
-      "sama",
       "samo",
+      "sama",
     ],
   },
   "type": "adjective",
