@@ -40,10 +40,14 @@ export function inferFleetingVowel(word: string): string {
       continue;
     }
 
-    if (YERS.has(char) || isEC(word, i, end)) {
-      if (isLastSyllable(word, i, end) && canOmitYer(word, i)) {
-        result = replaceFleetingVowel(result, i);
-      }
+    if (isEC(word, i, end)) {
+      result = canOmitYerInEc(word, i)
+        ? replaceFleetingVowel(result, i)
+        : result;
+    } else if (YERS.has(char) && isLastSyllable(word, i, end)) {
+      result = canOmitYerInLastSyllable(word, i)
+        ? replaceFleetingVowel(result, i)
+        : result;
     }
   }
 
@@ -83,18 +87,31 @@ function isLastSyllable(word: string, i: number, end: number): boolean {
 }
 
 /**
- * Checks if the yer can be omitted in the word.
+ * Checks if the yer can be omitted in the word with -ec.
  *
  * @param word - The word to check.
  * @param i - The index of the yer.
  * @returns True if the yer can be omitted.
  */
-function canOmitYer(word: string, i: number): boolean {
+function canOmitYerInEc(word: string, i: number): boolean {
   const [c2, c1] = isLJNJ(word, i - 2)
     ? [word[i - 3], word[i - 2]]
     : [word[i - 2], word[i - 1]];
 
   return (isNonLetter(c2) || VOCALIZED.has(c2)) && c1 !== word[i + 1];
+}
+
+/**
+ * Checks if the yer can be omitted in the last syllable.
+ *
+ * @param word - The word to check.
+ * @param i - The index of the yer.
+ * @returns True if the yer can be omitted.
+ */
+function canOmitYerInLastSyllable(word: string, i: number): boolean {
+  const c1 = isLJNJ(word, i - 2) ? word[i - 2] : word[i - 1];
+
+  return c1 !== word[i + 1];
 }
 
 function isNonLetter(char: string): boolean {
@@ -111,5 +128,7 @@ function isLN(word: string, i: number): boolean {
 }
 
 function isEC(word: string, i: number, end: number): boolean {
-  return i > 0 && word[i] === 'e' && word[i + 1] === 'c' && i === end - 2;
+  return (
+    i > 0 && SOFT_YER_LOOSE.has(word[i]) && word[i + 1] === 'c' && i === end - 2
+  );
 }
