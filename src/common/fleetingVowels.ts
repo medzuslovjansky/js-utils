@@ -98,7 +98,10 @@ function canOmitYerInEc(word: string, i: number): boolean {
     ? [word[i - 3], word[i - 2]]
     : [word[i - 2], word[i - 1]];
 
-  return (isNonLetter(c2) || VOCALIZED.has(c2)) && c1 !== word[i + 1];
+  return (
+    (isNonLetter(c2) || VOCALIZED.has(c1) || VOCALIZED.has(c2)) &&
+    c1 !== word[i + 1]
+  );
 }
 
 /**
