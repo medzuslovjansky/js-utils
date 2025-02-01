@@ -26494,31 +26494,31 @@ exports[`noun masculine 10850 1`] = `
 {
   "acc": [
     "poldėnj",
-    "poldėnje",
+    "poldnje",
   ],
   "dat": [
-    "poldėnju",
-    "poldėnjam",
+    "poldnju",
+    "poldnjam",
   ],
   "gen": [
-    "poldėnja",
-    "poldėnjev",
+    "poldnja",
+    "poldnjev",
   ],
   "ins": [
-    "poldėnjem",
-    "poldėnjami",
+    "poldnjem",
+    "poldnjami",
   ],
   "loc": [
-    "poldėnju",
-    "poldėnjah",
+    "poldnju",
+    "poldnjah",
   ],
   "nom": [
     "poldėnj",
-    "poldėnje",
+    "poldnje",
   ],
   "voc": [
-    "poldėnju",
-    "poldėnje",
+    "poldnju",
+    "poldnje",
   ],
 }
 `;
@@ -26560,31 +26560,31 @@ exports[`noun masculine 10918 1`] = `
 {
   "acc": [
     "popoldėnj",
-    "popoldėnje",
+    "popoldnje",
   ],
   "dat": [
-    "popoldėnju",
-    "popoldėnjam",
+    "popoldnju",
+    "popoldnjam",
   ],
   "gen": [
-    "popoldėnja",
-    "popoldėnjev",
+    "popoldnja",
+    "popoldnjev",
   ],
   "ins": [
-    "popoldėnjem",
-    "popoldėnjami",
+    "popoldnjem",
+    "popoldnjami",
   ],
   "loc": [
-    "popoldėnju",
-    "popoldėnjah",
+    "popoldnju",
+    "popoldnjah",
   ],
   "nom": [
     "popoldėnj",
-    "popoldėnje",
+    "popoldnje",
   ],
   "voc": [
-    "popoldėnju",
-    "popoldėnje",
+    "popoldnju",
+    "popoldnje",
   ],
 }
 `;
@@ -30083,31 +30083,31 @@ exports[`noun masculine 16373 1`] = `
 {
   "acc": [
     "Velikdėnj",
-    "Velikdėnje",
+    "Velikdnje",
   ],
   "dat": [
-    "Velikdėnju",
-    "Velikdėnjam",
+    "Velikdnju",
+    "Velikdnjam",
   ],
   "gen": [
-    "Velikdėnja",
-    "Velikdėnjev",
+    "Velikdnja",
+    "Velikdnjev",
   ],
   "ins": [
-    "Velikdėnjem",
-    "Velikdėnjami",
+    "Velikdnjem",
+    "Velikdnjami",
   ],
   "loc": [
-    "Velikdėnju",
-    "Velikdėnjah",
+    "Velikdnju",
+    "Velikdnjah",
   ],
   "nom": [
     "Velikdėnj",
-    "Velikdėnje",
+    "Velikdnje",
   ],
   "voc": [
-    "Velikdėnju",
-    "Velikdėnje",
+    "Velikdnju",
+    "Velikdnje",
   ],
 }
 `;
