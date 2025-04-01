@@ -107,7 +107,7 @@ export function declensionNoun(
 
   if (add && noun !== add) {
     noun = markFleetingVowel(noun, add);
-  } else if (originGender === 'masculine') {
+  } else if (originGender !== 'neuter') {
     noun = inferFleetingVowel(noun);
   }
 
