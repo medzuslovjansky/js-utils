@@ -60,7 +60,7 @@ function replaceFleetingVowel(word: string, j: number): string {
 }
 
 function shouldSoftenPreceedingConsonant(word: string, i: number): boolean {
-  return isLN(word, i - 1) && SOFT_YER_LOOSE.has(word[i]);
+  return isL(word, i - 1) && SOFT_YER_LOOSE.has(word[i]);
 }
 
 function toBracketNotation(maybeYer: string): string {
@@ -122,8 +122,15 @@ function isLJNJ(word: string, i: number): boolean {
 }
 
 function isLN(word: string, i: number): boolean {
-  const c = word[i];
-  return c === 'l' || c === 'n' || c === 'L' || c === 'N';
+  return isL(word, i) || isN(word, i);
+}
+
+function isL(word: string, i: number): boolean {
+  return word[i] === 'l' || word[i] === 'L';
+}
+
+function isN(word: string, i: number): boolean {
+  return word[i] === 'n' || word[i] === 'N';
 }
 
 function isEC(word: string, i: number, end: number): boolean {
