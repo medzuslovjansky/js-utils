@@ -829,6 +829,8 @@ function build_pfpp(pref: string, is: string, psi: string): string {
     } else {
       ppps = pref + psi + 'en';
     }
+  } else if (is.charAt(i) == 'r' || is.charAt(i) == 'ŕ') {
+    ppps = pref + is + 't';
   } else {
     ppps = pref + is + 'en';
   }
