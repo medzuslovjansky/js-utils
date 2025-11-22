@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - pronouns (reflexive) 337 1`] = `
+"sebę	sebe	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebe	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebe	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebe	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebe	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebe	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebe	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (reflexive) 4025 1`] = `
+"sebę	sebe	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebe	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebe	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebe	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebe	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebe	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebe	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (reflexive) 4811 1`] = `
+"sebę	si	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sebe	si	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	si	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	si	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+sobojų	si	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (reflexive) 4812 1`] = `
+"sebę	sebe	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebe	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebe	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebe	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebe	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebe	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebe	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;

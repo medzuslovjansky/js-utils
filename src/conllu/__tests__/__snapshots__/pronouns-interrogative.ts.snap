@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - pronouns (interrogative) 143 1`] = `
+"kto	kogo	PRON	pron.int.	Case=Nom|PronType=Int
+kogo	kogo	PRON	pron.int.	Case=Acc|PronType=Int
+kogo	kogo	PRON	pron.int.	Case=Gen|PronType=Int
+kom	kogo	PRON	pron.int.	Case=Loc|PronType=Int
+komu	kogo	PRON	pron.int.	Case=Dat|PronType=Int
+kym	kogo	PRON	pron.int.	Case=Ins|PronType=Int"
+`;
+
+exports[`conllufy - pronouns (interrogative) 3019 1`] = `
+"kto	kto	PRON	pron.int.	Animacy=Anim|Case=Nom|PronType=Int
+kogo	kto	PRON	pron.int.	Animacy=Anim|Case=Acc|PronType=Int
+kogo	kto	PRON	pron.int.	Animacy=Anim|Case=Gen|PronType=Int
+kom	kto	PRON	pron.int.	Animacy=Anim|Case=Loc|PronType=Int
+komu	kto	PRON	pron.int.	Animacy=Anim|Case=Dat|PronType=Int
+kym	kto	PRON	pron.int.	Animacy=Anim|Case=Ins|PronType=Int"
+`;
+
+exports[`conllufy - pronouns (interrogative) 4189 1`] = `
+"ktory	ktory	PRON	pron.int.	Case=Nom|Gender=Masc|Number=Sing|PronType=Int
+ktoro	ktory	PRON	pron.int.	Case=Nom|Gender=Neut|Number=Sing|PronType=Int
+ktora	ktory	PRON	pron.int.	Case=Nom|Gender=Fem|Number=Sing|PronType=Int
+ktorogo	ktory	PRON	pron.int.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int
+ktory	ktory	PRON	pron.int.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int
+ktoro	ktory	PRON	pron.int.	Case=Acc|Gender=Neut|Number=Sing|PronType=Int
+ktorų	ktory	PRON	pron.int.	Case=Acc|Gender=Fem|Number=Sing|PronType=Int
+ktorogo	ktory	PRON	pron.int.	Case=Gen|Gender=Masc|Number=Sing|PronType=Int
+ktorogo	ktory	PRON	pron.int.	Case=Gen|Gender=Neut|Number=Sing|PronType=Int
+ktoroj	ktory	PRON	pron.int.	Case=Gen|Gender=Fem|Number=Sing|PronType=Int
+ktorom	ktory	PRON	pron.int.	Case=Loc|Gender=Masc|Number=Sing|PronType=Int
+ktorom	ktory	PRON	pron.int.	Case=Loc|Gender=Neut|Number=Sing|PronType=Int
+ktoroj	ktory	PRON	pron.int.	Case=Loc|Gender=Fem|Number=Sing|PronType=Int
+ktoromu	ktory	PRON	pron.int.	Case=Dat|Gender=Masc|Number=Sing|PronType=Int
+ktoromu	ktory	PRON	pron.int.	Case=Dat|Gender=Neut|Number=Sing|PronType=Int
+ktoroj	ktory	PRON	pron.int.	Case=Dat|Gender=Fem|Number=Sing|PronType=Int
+ktorym	ktory	PRON	pron.int.	Case=Ins|Gender=Masc|Number=Sing|PronType=Int
+ktorym	ktory	PRON	pron.int.	Case=Ins|Gender=Neut|Number=Sing|PronType=Int
+ktorojų	ktory	PRON	pron.int.	Case=Ins|Gender=Fem|Number=Sing|PronType=Int
+ktori	ktory	PRON	pron.int.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int
+ktore	ktory	PRON	pron.int.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int
+ktore	ktory	PRON	pron.int.	Case=Nom|Gender=Neut|Number=Plur|PronType=Int
+ktore	ktory	PRON	pron.int.	Case=Nom|Gender=Fem|Number=Plur|PronType=Int
+ktoryh	ktory	PRON	pron.int.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Int
+ktore	ktory	PRON	pron.int.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Int
+ktore	ktory	PRON	pron.int.	Case=Acc|Gender=Neut|Number=Plur|PronType=Int
+ktore	ktory	PRON	pron.int.	Case=Acc|Gender=Fem|Number=Plur|PronType=Int
+ktoryh	ktory	PRON	pron.int.	Case=Gen|Number=Plur|PronType=Int
+ktoryh	ktory	PRON	pron.int.	Case=Loc|Number=Plur|PronType=Int
+ktorym	ktory	PRON	pron.int.	Case=Dat|Number=Plur|PronType=Int
+ktorymi	ktory	PRON	pron.int.	Case=Ins|Number=Plur|PronType=Int"
+`;
+
+exports[`conllufy - pronouns (interrogative) 5693 1`] = `
+"koj	koj	PRON	pron.int.	Case=Nom|Gender=Masc|Number=Sing|PronType=Int
+koje	koj	PRON	pron.int.	Case=Nom|Gender=Neut|Number=Sing|PronType=Int
+koja	koj	PRON	pron.int.	Case=Nom|Gender=Fem|Number=Sing|PronType=Int
+kojego	koj	PRON	pron.int.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Int
+koj	koj	PRON	pron.int.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Int
+koje	koj	PRON	pron.int.	Case=Acc|Gender=Neut|Number=Sing|PronType=Int
+kojų	koj	PRON	pron.int.	Case=Acc|Gender=Fem|Number=Sing|PronType=Int
+kojego	koj	PRON	pron.int.	Case=Gen|Gender=Masc|Number=Sing|PronType=Int
+kojego	koj	PRON	pron.int.	Case=Gen|Gender=Neut|Number=Sing|PronType=Int
+kojej	koj	PRON	pron.int.	Case=Gen|Gender=Fem|Number=Sing|PronType=Int
+kojem	koj	PRON	pron.int.	Case=Loc|Gender=Masc|Number=Sing|PronType=Int
+kojem	koj	PRON	pron.int.	Case=Loc|Gender=Neut|Number=Sing|PronType=Int
+kojej	koj	PRON	pron.int.	Case=Loc|Gender=Fem|Number=Sing|PronType=Int
+kojemu	koj	PRON	pron.int.	Case=Dat|Gender=Masc|Number=Sing|PronType=Int
+kojemu	koj	PRON	pron.int.	Case=Dat|Gender=Neut|Number=Sing|PronType=Int
+kojej	koj	PRON	pron.int.	Case=Dat|Gender=Fem|Number=Sing|PronType=Int
+kojim	koj	PRON	pron.int.	Case=Ins|Gender=Masc|Number=Sing|PronType=Int
+kojim	koj	PRON	pron.int.	Case=Ins|Gender=Neut|Number=Sing|PronType=Int
+kojejų	koj	PRON	pron.int.	Case=Ins|Gender=Fem|Number=Sing|PronType=Int
+koji	koj	PRON	pron.int.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Int
+koje	koj	PRON	pron.int.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Int
+koje	koj	PRON	pron.int.	Case=Nom|Gender=Neut|Number=Plur|PronType=Int
+koje	koj	PRON	pron.int.	Case=Nom|Gender=Fem|Number=Plur|PronType=Int
+kojih	koj	PRON	pron.int.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Int
+koje	koj	PRON	pron.int.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Int
+koje	koj	PRON	pron.int.	Case=Acc|Gender=Neut|Number=Plur|PronType=Int
+koje	koj	PRON	pron.int.	Case=Acc|Gender=Fem|Number=Plur|PronType=Int
+kojih	koj	PRON	pron.int.	Case=Gen|Number=Plur|PronType=Int
+kojih	koj	PRON	pron.int.	Case=Loc|Number=Plur|PronType=Int
+kojim	koj	PRON	pron.int.	Case=Dat|Number=Plur|PronType=Int
+kojimi	koj	PRON	pron.int.	Case=Ins|Number=Plur|PronType=Int"
+`;
+
+exports[`conllufy - pronouns (interrogative) 19670 1`] = `
+"čto	čto	PRON	pron.int.	Animacy=Inan|Case=Nom|PronType=Int
+čto	čto	PRON	pron.int.	Animacy=Inan|Case=Acc|PronType=Int
+čego	čto	PRON	pron.int.	Animacy=Inan|Case=Gen|PronType=Int
+čem	čto	PRON	pron.int.	Animacy=Inan|Case=Loc|PronType=Int
+čemu	čto	PRON	pron.int.	Animacy=Inan|Case=Dat|PronType=Int
+čim	čto	PRON	pron.int.	Animacy=Inan|Case=Ins|PronType=Int"
+`;

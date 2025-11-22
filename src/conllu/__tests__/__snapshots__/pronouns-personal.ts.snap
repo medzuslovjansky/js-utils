@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - pronouns (personal) 73 1`] = `
+"oni	oni	PRON	pron.pers.	Animacy=Anim|Case=Nom|Gender=Masc|Person=3|PronType=Prs
+jih	oni	PRON	pron.pers.	Animacy=Anim|Case=Acc|Gender=Masc|Person=3|PronType=Prs
+njih	oni	PRON	pron.pers.	Animacy=Anim|Case=Acc|Gender=Masc|Person=3|PronType=Prs|Variant=Bound
+jih	oni	PRON	pron.pers.	Animacy=Anim|Case=Gen|Gender=Masc|Person=3|PronType=Prs
+njih	oni	PRON	pron.pers.	Animacy=Anim|Case=Gen|Gender=Masc|Person=3|PronType=Prs|Variant=Bound
+jih	oni	PRON	pron.pers.	Animacy=Anim|Case=Loc|Gender=Masc|Person=3|PronType=Prs
+njih	oni	PRON	pron.pers.	Animacy=Anim|Case=Loc|Gender=Masc|Person=3|PronType=Prs|Variant=Bound
+jim	oni	PRON	pron.pers.	Animacy=Anim|Case=Dat|Gender=Masc|Person=3|PronType=Prs
+njim	oni	PRON	pron.pers.	Animacy=Anim|Case=Dat|Gender=Masc|Person=3|PronType=Prs|Variant=Bound
+jimi	oni	PRON	pron.pers.	Animacy=Anim|Case=Ins|Gender=Masc|Person=3|PronType=Prs
+njimi	oni	PRON	pron.pers.	Animacy=Anim|Case=Ins|Gender=Masc|Person=3|PronType=Prs|Variant=Bound"
+`;
+
+exports[`conllufy - pronouns (personal) 675 1`] = `
+"ty	ty	PRON	pron.pers.	Case=Nom|Number=Sing|Person=2|PronType=Prs
+tebe	ty	PRON	pron.pers.	Case=Acc|Number=Sing|Person=2|PronType=Prs
+tę	ty	PRON	pron.pers.	Case=Acc|Number=Sing|Person=2|PronType=Prs|Variant=Short
+tebe	ty	PRON	pron.pers.	Case=Gen|Number=Sing|Person=2|PronType=Prs
+tobě	ty	PRON	pron.pers.	Case=Loc|Number=Sing|Person=2|PronType=Prs
+tobě	ty	PRON	pron.pers.	Case=Dat|Number=Sing|Person=2|PronType=Prs
+ti	ty	PRON	pron.pers.	Case=Dat|Number=Sing|Person=2|PronType=Prs|Variant=Short
+tobojų	ty	PRON	pron.pers.	Case=Ins|Number=Sing|Person=2|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (personal) 792 1`] = `
+"ona	ona	PRON	pron.pers.	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+jų	ona	PRON	pron.pers.	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+njų	ona	PRON	pron.pers.	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jej	ona	PRON	pron.pers.	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+njej	ona	PRON	pron.pers.	Case=Gen|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jej	ona	PRON	pron.pers.	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+njej	ona	PRON	pron.pers.	Case=Loc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jej	ona	PRON	pron.pers.	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+njej	ona	PRON	pron.pers.	Case=Dat|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jejų	ona	PRON	pron.pers.	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs
+njejų	ona	PRON	pron.pers.	Case=Ins|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Variant=Bound"
+`;
+
+exports[`conllufy - pronouns (personal) 1602 1`] = `
+"ja	ja	PRON	pron.pers.	Case=Nom|Number=Sing|Person=1|PronType=Prs
+mene	ja	PRON	pron.pers.	Case=Acc|Number=Sing|Person=1|PronType=Prs
+mę	ja	PRON	pron.pers.	Case=Acc|Number=Sing|Person=1|PronType=Prs|Variant=Short
+mene	ja	PRON	pron.pers.	Case=Gen|Number=Sing|Person=1|PronType=Prs
+mně	ja	PRON	pron.pers.	Case=Loc|Number=Sing|Person=1|PronType=Prs
+mně	ja	PRON	pron.pers.	Case=Dat|Number=Sing|Person=1|PronType=Prs
+mi	ja	PRON	pron.pers.	Case=Dat|Number=Sing|Person=1|PronType=Prs|Variant=Short
+mnojų	ja	PRON	pron.pers.	Case=Ins|Number=Sing|Person=1|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (personal) 1629 1`] = `
+"vy	vy	PRON	pron.pers.	Case=Nom|Number=Plur|Person=2|PronType=Prs
+vas	vy	PRON	pron.pers.	Case=Acc|Number=Plur|Person=2|PronType=Prs
+vas	vy	PRON	pron.pers.	Case=Gen|Number=Plur|Person=2|PronType=Prs
+vas	vy	PRON	pron.pers.	Case=Loc|Number=Plur|Person=2|PronType=Prs
+vam	vy	PRON	pron.pers.	Case=Dat|Number=Plur|Person=2|PronType=Prs
+vami	vy	PRON	pron.pers.	Case=Ins|Number=Plur|Person=2|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (personal) 2150 1`] = `
+"on	on	PRON	pron.pers.	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+jego	on	PRON	pron.pers.	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+njego	on	PRON	pron.pers.	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+go	on	PRON	pron.pers.	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short
+jego	on	PRON	pron.pers.	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+njego	on	PRON	pron.pers.	Case=Gen|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+njem	on	PRON	pron.pers.	Case=Loc|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+jemu	on	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+njemu	on	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+mu	on	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short
+jim	on	PRON	pron.pers.	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+njim	on	PRON	pron.pers.	Case=Ins|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Bound"
+`;
+
+exports[`conllufy - pronouns (personal) 2722 1`] = `
+"my	my	PRON	pron.pers.	Case=Nom|Number=Plur|Person=1|PronType=Prs
+nas	my	PRON	pron.pers.	Case=Acc|Number=Plur|Person=1|PronType=Prs
+nas	my	PRON	pron.pers.	Case=Gen|Number=Plur|Person=1|PronType=Prs
+nas	my	PRON	pron.pers.	Case=Loc|Number=Plur|Person=1|PronType=Prs
+nam	my	PRON	pron.pers.	Case=Dat|Number=Plur|Person=1|PronType=Prs
+nami	my	PRON	pron.pers.	Case=Ins|Number=Plur|Person=1|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (personal) 2821 1`] = `
+"ono	ono	PRON	pron.pers.	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+jego	ono	PRON	pron.pers.	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+njego	ono	PRON	pron.pers.	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+go	ono	PRON	pron.pers.	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Short
+jej	ono	PRON	pron.pers.	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+njej	ono	PRON	pron.pers.	Case=Gen|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jej	ono	PRON	pron.pers.	Case=Loc|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+njej	ono	PRON	pron.pers.	Case=Loc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jej	ono	PRON	pron.pers.	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+njej	ono	PRON	pron.pers.	Case=Dat|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Bound
+jejų	ono	PRON	pron.pers.	Case=Ins|Gender=Neut|Number=Sing|Person=3|PronType=Prs
+njejų	ono	PRON	pron.pers.	Case=Ins|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Variant=Bound"
+`;
+
+exports[`conllufy - pronouns (personal) 35621 1`] = `
+"one	one	PRON	pron.pers.	Case=Nom|Number=Plur|Person=3|PronType=Prs
+je	one	PRON	pron.pers.	Case=Acc|Number=Plur|Person=3|PronType=Prs
+nje	one	PRON	pron.pers.	Case=Acc|Number=Plur|Person=3|PronType=Prs|Variant=Bound
+jih	one	PRON	pron.pers.	Case=Gen|Number=Plur|Person=3|PronType=Prs
+njih	one	PRON	pron.pers.	Case=Gen|Number=Plur|Person=3|PronType=Prs|Variant=Bound
+jih	one	PRON	pron.pers.	Case=Loc|Number=Plur|Person=3|PronType=Prs
+njih	one	PRON	pron.pers.	Case=Loc|Number=Plur|Person=3|PronType=Prs|Variant=Bound
+jim	one	PRON	pron.pers.	Case=Dat|Number=Plur|Person=3|PronType=Prs
+njim	one	PRON	pron.pers.	Case=Dat|Number=Plur|Person=3|PronType=Prs|Variant=Bound
+jimi	one	PRON	pron.pers.	Case=Ins|Number=Plur|Person=3|PronType=Prs
+njimi	one	PRON	pron.pers.	Case=Ins|Number=Plur|Person=3|PronType=Prs|Variant=Bound"
+`;

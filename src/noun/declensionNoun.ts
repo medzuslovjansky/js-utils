@@ -168,7 +168,7 @@ export function declensionNoun(
   };
 }
 
-function prepareGender(gender: string, animated: boolean): string {
+export function prepareGender(gender: string, animated: boolean): string {
   if (gender === 'feminine') {
     return 'f';
   }

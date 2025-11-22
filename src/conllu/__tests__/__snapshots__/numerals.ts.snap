@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - numerals 1 1`] = `
+"četveraky	četveraky	ADJ	num.diff.	Case=Nom|Gender=Masc|NumType=Dist|Number=Sing
+četverako	četveraky	ADJ	num.diff.	Case=Nom|Gender=Neut|NumType=Dist|Number=Sing
+četveraka	četveraky	ADJ	num.diff.	Case=Nom|Gender=Fem|NumType=Dist|Number=Sing
+četverakogo	četveraky	ADJ	num.diff.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Dist|Number=Sing
+četveraky	četveraky	ADJ	num.diff.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Dist|Number=Sing
+četverako	četveraky	ADJ	num.diff.	Case=Acc|Gender=Neut|NumType=Dist|Number=Sing
+četverakų	četveraky	ADJ	num.diff.	Case=Acc|Gender=Fem|NumType=Dist|Number=Sing
+četverakogo	četveraky	ADJ	num.diff.	Case=Gen|Gender=Masc|NumType=Dist|Number=Sing
+četverakoj	četveraky	ADJ	num.diff.	Case=Gen|Gender=Neut|NumType=Dist|Number=Sing
+četverakom	četveraky	ADJ	num.diff.	Case=Loc|Gender=Masc|NumType=Dist|Number=Sing
+četverakoj	četveraky	ADJ	num.diff.	Case=Loc|Gender=Neut|NumType=Dist|Number=Sing
+četverakomu	četveraky	ADJ	num.diff.	Case=Dat|Gender=Masc|NumType=Dist|Number=Sing
+četverakoj	četveraky	ADJ	num.diff.	Case=Dat|Gender=Neut|NumType=Dist|Number=Sing
+četverakym	četveraky	ADJ	num.diff.	Case=Ins|Gender=Masc|NumType=Dist|Number=Sing
+četverakojų	četveraky	ADJ	num.diff.	Case=Ins|Gender=Neut|NumType=Dist|Number=Sing
+četveraki	četveraky	ADJ	num.diff.	Animacy=Anim|Case=Nom|Gender=Masc|NumType=Dist|Number=Plur
+četverake	četveraky	ADJ	num.diff.	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Dist|Number=Plur
+četverake	četveraky	ADJ	num.diff.	Case=Nom|Gender=Neut|NumType=Dist|Number=Plur
+četverake	četveraky	ADJ	num.diff.	Case=Nom|Gender=Fem|NumType=Dist|Number=Plur
+četverakyh	četveraky	ADJ	num.diff.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Dist|Number=Plur
+četverake	četveraky	ADJ	num.diff.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Dist|Number=Plur
+četverake	četveraky	ADJ	num.diff.	Case=Acc|Gender=Neut|NumType=Dist|Number=Plur
+četverake	četveraky	ADJ	num.diff.	Case=Acc|Gender=Fem|NumType=Dist|Number=Plur
+četverakyh	četveraky	ADJ	num.diff.	Case=Gen|Gender=Masc|NumType=Dist|Number=Plur
+četverakyh	četveraky	ADJ	num.diff.	Case=Loc|Gender=Masc|NumType=Dist|Number=Plur
+četverakym	četveraky	ADJ	num.diff.	Case=Dat|Gender=Masc|NumType=Dist|Number=Plur
+četverakymi	četveraky	ADJ	num.diff.	Case=Ins|Gender=Masc|NumType=Dist|Number=Plur"
+`;
+
+exports[`conllufy - numerals 2 1`] = `
+"četvŕtina	četvŕtina	NOUN	num.fract.	Case=Nom|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtiny	četvŕtina	NOUN	num.fract.	Case=Nom|Gender=Fem|NumType=Frac|Number=Plur
+četvŕtinų	četvŕtina	NOUN	num.fract.	Case=Acc|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtiny	četvŕtina	NOUN	num.fract.	Case=Acc|Gender=Fem|NumType=Frac|Number=Plur
+četvŕtiny	četvŕtina	NOUN	num.fract.	Case=Gen|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtin	četvŕtina	NOUN	num.fract.	Case=Gen|Gender=Fem|NumType=Frac|Number=Plur
+četvŕtině	četvŕtina	NOUN	num.fract.	Case=Loc|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtinah	četvŕtina	NOUN	num.fract.	Case=Loc|Gender=Fem|NumType=Frac|Number=Plur
+četvŕtině	četvŕtina	NOUN	num.fract.	Case=Dat|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtinam	četvŕtina	NOUN	num.fract.	Case=Dat|Gender=Fem|NumType=Frac|Number=Plur
+četvŕtinojų	četvŕtina	NOUN	num.fract.	Case=Ins|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtinami	četvŕtina	NOUN	num.fract.	Case=Ins|Gender=Fem|NumType=Frac|Number=Plur"
+`;
+
+exports[`conllufy - numerals 3 1`] = `
+"četverny	četverny	ADJ	num.mult.	Case=Nom|Gender=Masc|NumType=Mult|Number=Sing
+četverno	četverny	ADJ	num.mult.	Case=Nom|Gender=Neut|NumType=Mult|Number=Sing
+četverna	četverny	ADJ	num.mult.	Case=Nom|Gender=Fem|NumType=Mult|Number=Sing
+četvernogo	četverny	ADJ	num.mult.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Mult|Number=Sing
+četverny	četverny	ADJ	num.mult.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Mult|Number=Sing
+četverno	četverny	ADJ	num.mult.	Case=Acc|Gender=Neut|NumType=Mult|Number=Sing
+četvernų	četverny	ADJ	num.mult.	Case=Acc|Gender=Fem|NumType=Mult|Number=Sing
+četvernogo	četverny	ADJ	num.mult.	Case=Gen|Gender=Masc|NumType=Mult|Number=Sing
+četvernoj	četverny	ADJ	num.mult.	Case=Gen|Gender=Neut|NumType=Mult|Number=Sing
+četvernom	četverny	ADJ	num.mult.	Case=Loc|Gender=Masc|NumType=Mult|Number=Sing
+četvernoj	četverny	ADJ	num.mult.	Case=Loc|Gender=Neut|NumType=Mult|Number=Sing
+četvernomu	četverny	ADJ	num.mult.	Case=Dat|Gender=Masc|NumType=Mult|Number=Sing
+četvernoj	četverny	ADJ	num.mult.	Case=Dat|Gender=Neut|NumType=Mult|Number=Sing
+četvernym	četverny	ADJ	num.mult.	Case=Ins|Gender=Masc|NumType=Mult|Number=Sing
+četvernojų	četverny	ADJ	num.mult.	Case=Ins|Gender=Neut|NumType=Mult|Number=Sing
+četverni	četverny	ADJ	num.mult.	Animacy=Anim|Case=Nom|Gender=Masc|NumType=Mult|Number=Plur
+četverne	četverny	ADJ	num.mult.	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Mult|Number=Plur
+četverne	četverny	ADJ	num.mult.	Case=Nom|Gender=Neut|NumType=Mult|Number=Plur
+četverne	četverny	ADJ	num.mult.	Case=Nom|Gender=Fem|NumType=Mult|Number=Plur
+četvernyh	četverny	ADJ	num.mult.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Mult|Number=Plur
+četverne	četverny	ADJ	num.mult.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Mult|Number=Plur
+četverne	četverny	ADJ	num.mult.	Case=Acc|Gender=Neut|NumType=Mult|Number=Plur
+četverne	četverny	ADJ	num.mult.	Case=Acc|Gender=Fem|NumType=Mult|Number=Plur
+četvernyh	četverny	ADJ	num.mult.	Case=Gen|Gender=Masc|NumType=Mult|Number=Plur
+četvernyh	četverny	ADJ	num.mult.	Case=Loc|Gender=Masc|NumType=Mult|Number=Plur
+četvernym	četverny	ADJ	num.mult.	Case=Dat|Gender=Masc|NumType=Mult|Number=Plur
+četvernymi	četverny	ADJ	num.mult.	Case=Ins|Gender=Masc|NumType=Mult|Number=Plur"
+`;
+
+exports[`conllufy - numerals 4 1`] = `
+"četverka	četverka	NOUN	num.subst.	Case=Nom|Gender=Fem|Number=Sing
+četverky	četverka	NOUN	num.subst.	Case=Nom|Gender=Fem|Number=Plur
+četverkų	četverka	NOUN	num.subst.	Case=Acc|Gender=Fem|Number=Sing
+četverky	četverka	NOUN	num.subst.	Case=Acc|Gender=Fem|Number=Plur
+četverky	četverka	NOUN	num.subst.	Case=Gen|Gender=Fem|Number=Sing
+četverȯk	četverka	NOUN	num.subst.	Case=Gen|Gender=Fem|Number=Plur
+četverkě	četverka	NOUN	num.subst.	Case=Loc|Gender=Fem|Number=Sing
+četverkah	četverka	NOUN	num.subst.	Case=Loc|Gender=Fem|Number=Plur
+četverkě	četverka	NOUN	num.subst.	Case=Dat|Gender=Fem|Number=Sing
+četverkam	četverka	NOUN	num.subst.	Case=Dat|Gender=Fem|Number=Plur
+četverkojų	četverka	NOUN	num.subst.	Case=Ins|Gender=Fem|Number=Sing
+četverkami	četverka	NOUN	num.subst.	Case=Ins|Gender=Fem|Number=Plur"
+`;
+
+exports[`conllufy - numerals 6 1`] = `
+"šesť	šesť	NUM	num.card.	Case=Nom|Gender=Fem|NumType=Card|Number=Sing
+šesť	šesť	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
+šesti	šesť	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
+šesti	šesť	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
+šesti	šesť	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
+šesťjų	šesť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
+`;
+
+exports[`conllufy - numerals 7 1`] = `
+"sedm	sedm	NUM	num.card.	Case=Nom|Gender=Fem|NumType=Card|Number=Sing
+sedm	sedm	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
+sedmi	sedm	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
+sedmi	sedm	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
+sedmi	sedm	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
+sedmjų	sedm	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
+`;
+
+exports[`conllufy - numerals 8 1`] = `
+"osm	osm	NUM	num.card.	Case=Nom|Gender=Fem|NumType=Card|Number=Sing
+osm	osm	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
+osmi	osm	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
+osmi	osm	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
+osmi	osm	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
+osmjų	osm	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
+`;
+
+exports[`conllufy - numerals 9 1`] = `
+"devęť	devęť	NUM	num.card.	Case=Nom|Gender=Fem|NumType=Card|Number=Sing
+devęť	devęť	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
+devęti	devęť	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
+devęti	devęť	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
+devęti	devęť	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
+devęťjų	devęť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
+`;
+
+exports[`conllufy - numerals 10 1`] = `
+"desęť	desęť	NUM	num.card.	Case=Nom|Gender=Fem|NumType=Card|Number=Sing
+desęť	desęť	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
+desęti	desęť	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
+desęti	desęť	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
+desęti	desęť	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
+desęťjų	desęť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
+`;
+
+exports[`conllufy - numerals 636 1`] = `
+"četvŕty	četvŕty	ADJ	num.ord.	Case=Nom|Gender=Masc|NumType=Ord|Number=Sing
+četvŕto	četvŕty	ADJ	num.ord.	Case=Nom|Gender=Neut|NumType=Ord|Number=Sing
+četvŕta	četvŕty	ADJ	num.ord.	Case=Nom|Gender=Fem|NumType=Ord|Number=Sing
+četvŕtogo	četvŕty	ADJ	num.ord.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Ord|Number=Sing
+četvŕty	četvŕty	ADJ	num.ord.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Ord|Number=Sing
+četvŕto	četvŕty	ADJ	num.ord.	Case=Acc|Gender=Neut|NumType=Ord|Number=Sing
+četvŕtų	četvŕty	ADJ	num.ord.	Case=Acc|Gender=Fem|NumType=Ord|Number=Sing
+četvŕtogo	četvŕty	ADJ	num.ord.	Case=Gen|Gender=Masc|NumType=Ord|Number=Sing
+četvŕtoj	četvŕty	ADJ	num.ord.	Case=Gen|Gender=Neut|NumType=Ord|Number=Sing
+četvŕtom	četvŕty	ADJ	num.ord.	Case=Loc|Gender=Masc|NumType=Ord|Number=Sing
+četvŕtoj	četvŕty	ADJ	num.ord.	Case=Loc|Gender=Neut|NumType=Ord|Number=Sing
+četvŕtomu	četvŕty	ADJ	num.ord.	Case=Dat|Gender=Masc|NumType=Ord|Number=Sing
+četvŕtoj	četvŕty	ADJ	num.ord.	Case=Dat|Gender=Neut|NumType=Ord|Number=Sing
+četvŕtym	četvŕty	ADJ	num.ord.	Case=Ins|Gender=Masc|NumType=Ord|Number=Sing
+četvŕtojų	četvŕty	ADJ	num.ord.	Case=Ins|Gender=Neut|NumType=Ord|Number=Sing
+četvŕti	četvŕty	ADJ	num.ord.	Animacy=Anim|Case=Nom|Gender=Masc|NumType=Ord|Number=Plur
+četvŕte	četvŕty	ADJ	num.ord.	Animacy=Inan|Case=Nom|Gender=Masc|NumType=Ord|Number=Plur
+četvŕte	četvŕty	ADJ	num.ord.	Case=Nom|Gender=Neut|NumType=Ord|Number=Plur
+četvŕte	četvŕty	ADJ	num.ord.	Case=Nom|Gender=Fem|NumType=Ord|Number=Plur
+četvŕtyh	četvŕty	ADJ	num.ord.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Ord|Number=Plur
+četvŕte	četvŕty	ADJ	num.ord.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Ord|Number=Plur
+četvŕte	četvŕty	ADJ	num.ord.	Case=Acc|Gender=Neut|NumType=Ord|Number=Plur
+četvŕte	četvŕty	ADJ	num.ord.	Case=Acc|Gender=Fem|NumType=Ord|Number=Plur
+četvŕtyh	četvŕty	ADJ	num.ord.	Case=Gen|Gender=Masc|NumType=Ord|Number=Plur
+četvŕtyh	četvŕty	ADJ	num.ord.	Case=Loc|Gender=Masc|NumType=Ord|Number=Plur
+četvŕtym	četvŕty	ADJ	num.ord.	Case=Dat|Gender=Masc|NumType=Ord|Number=Plur
+četvŕtymi	četvŕty	ADJ	num.ord.	Case=Ins|Gender=Masc|NumType=Ord|Number=Plur"
+`;
+
+exports[`conllufy - numerals 2856 1`] = `
+"četyri	četyri	NUM	num.card.	Case=Nom|NumType=Card|Number=Plur
+četyrěh	četyri	NUM	num.card.	Animacy=Anim|Case=Acc|NumType=Card|Number=Plur
+četyri	četyri	NUM	num.card.	Animacy=Inan|Case=Acc|NumType=Card|Number=Plur
+četyrěh	četyri	NUM	num.card.	Case=Gen|NumType=Card|Number=Plur
+četyrěm	četyri	NUM	num.card.	Case=Dat|NumType=Card|Number=Plur
+četyrěmi	četyri	NUM	num.card.	Case=Ins|NumType=Card|Number=Plur
+četyrěh	četyri	NUM	num.card.	Case=Loc|NumType=Card|Number=Plur"
+`;
+
+exports[`conllufy - numerals 16431 1`] = `
+"četvero	četvero	NUM	num.coll.	Case=Nom|Number=Plur
+četveryh	četvero	NUM	num.coll.	Case=Acc|Number=Plur
+četvero	četvero	NUM	num.coll.	Case=Acc|Number=Plur
+četveryh	četvero	NUM	num.coll.	Case=Gen|Number=Plur
+četveryh	četvero	NUM	num.coll.	Case=Loc|Number=Plur
+četverym	četvero	NUM	num.coll.	Case=Dat|Number=Plur
+četverymi	četvero	NUM	num.coll.	Case=Ins|Number=Plur"
+`;

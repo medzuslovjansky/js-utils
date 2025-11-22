@@ -3,6 +3,7 @@
  */
 
 export * from './adjective';
+export { conllufy } from './conllu';
 export * from './constants';
 export * from './noun';
 export * from './numeral';
