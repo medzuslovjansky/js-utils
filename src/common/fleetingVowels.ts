@@ -3,7 +3,6 @@ import {
   ALL_LETTERS,
   HARD_YER_LOOSE,
   SOFT_YER_LOOSE,
-  VOCALIZED,
   YERS,
 } from '../substitutions';
 import { soften } from './soften';
@@ -61,7 +60,7 @@ function replaceFleetingVowel(word: string, j: number): string {
 }
 
 function shouldSoftenPreceedingConsonant(word: string, i: number): boolean {
-  return isLN(word, i - 1) && SOFT_YER_LOOSE.has(word[i]);
+  return isL(word, i - 1) && SOFT_YER_LOOSE.has(word[i]);
 }
 
 function toBracketNotation(maybeYer: string): string {
@@ -90,11 +89,28 @@ function isLastSyllable(word: string, i: number, end: number): boolean {
  * @returns True if the yer can be omitted.
  */
 function canOmitYer(word: string, i: number): boolean {
-  const [c2, c1] = isLJNJ(word, i - 2)
-    ? [word[i - 3], word[i - 2]]
-    : [word[i - 2], word[i - 1]];
+  const preview = isLJNJ(word, i - 2)
+    ? (word[i - 3] || ' ') + soften(word[i - 2]) + word.slice(i + 1)
+    : (word[i - 2] || ' ') + word[i - 1] + word.slice(i + 1);
 
-  return (isNonLetter(c2) || VOCALIZED.has(c2)) && c1 !== word[i + 1];
+  // c1 === word[i + 1]
+  if (preview[1] === preview[2]) {
+    return false;
+  }
+
+  if (/[ -aåeęěèėijoȯòrŕuųy]/.test(preview[0])) {
+    return true;
+  }
+
+  if (/[rŕ]/.test(preview[1])) {
+    return true;
+  }
+
+  if (/.[dt][cn]/.test(preview)) {
+    return true;
+  }
+
+  return false;
 }
 
 function isNonLetter(char: string): boolean {
@@ -106,8 +122,15 @@ function isLJNJ(word: string, i: number): boolean {
 }
 
 function isLN(word: string, i: number): boolean {
-  const c = word[i];
-  return c === 'l' || c === 'n' || c === 'L' || c === 'N';
+  return isL(word, i) || isN(word, i);
+}
+
+function isL(word: string, i: number): boolean {
+  return word[i] === 'l' || word[i] === 'L';
+}
+
+function isN(word: string, i: number): boolean {
+  return word[i] === 'n' || word[i] === 'N';
 }
 
 function isEC(word: string, i: number, end: number): boolean {
