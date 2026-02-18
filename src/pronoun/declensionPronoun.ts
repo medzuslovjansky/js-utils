@@ -163,6 +163,26 @@ export function declensionPronoun(
         ins: [rawWord],
       },
     };
+  } else if (pronounType === 'possessive' && (word === 'jejin' || word === 'jeji')) {
+    return {
+      type: 'adjective',
+      casesSingular: {
+        nom: ['jejin', 'jejna', 'jejno'],
+        acc: ['jejnogo / jejin', 'jejnu', 'jejnogo / jejno'],
+        gen: ['jejnogo', 'jejnoj'],
+        loc: ['jejnom', 'jejnoj'],
+        dat: ['jejnomu', 'jejnoj'],
+        ins: ['jejnym', 'jejnoju'],
+      },
+      casesPlural: {
+        nom: ['jejni / jejne', 'jejne'],
+        acc: ['jejnyh / jejne', 'jejne'],
+        gen: ['jejnyh'],
+        loc: ['jejnyh'],
+        dat: ['jejnym'],
+        ins: ['jejnymi'],
+      },
+    };
   } else if (
     ['indefinite', 'interrogative', 'negative', 'relative'].includes(
       pronounType,
@@ -239,28 +259,6 @@ export function declensionPronoun(
         loc: ['(n)jihže'],
         dat: ['(n)jimže'],
         ins: ['(n)jimiže'],
-      },
-    };
-     } else if (pronounType === 'possessive' && (word === 'jejin' || word === 'jeji')) {
-    // Specialna deklinacija za prisvojitelny zaimennik "jejin"
-    // Korenj izměnjaje se iz "jejin-" do "jej-" v večinstvu form
-    return {
-      type: 'adjective',
-      casesSingular: {
-        nom: ['jejin', 'jejna', 'jejno'],
-        acc: ['jejnogo / jejin', 'jejnu', 'jejnogo / jejno'],
-        gen: ['jejnogo', 'jejnoj'],
-        loc: ['jejnom', 'jejnoj'],
-        dat: ['jejnomu', 'jejnoj'],
-        ins: ['jejnym', 'jejnoju'],
-      },
-      casesPlural: {
-        nom: ['jejni / jejne', 'jejne'],
-        acc: ['jejnyh / jejne', 'jejne'],
-        gen: ['jejnyh'],
-        loc: ['jejnyh'],
-        dat: ['jejnym'],
-        ins: ['jejnymi'],
       },
     };
   } else if (
