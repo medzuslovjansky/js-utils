@@ -1,0 +1,32 @@
+export declare const InterslavicBCP47: {
+    readonly Generic: "isv";
+    readonly Latin: "isv-Latn";
+    readonly Cyrillic: "isv-Cyrl";
+    readonly Glagolitic: "isv-Glag";
+    readonly IPA: "isv-x-fonipa";
+};
+export type InterslavicBCP47Code = (typeof InterslavicBCP47)[keyof typeof InterslavicBCP47];
+export declare const FlavorisationBCP47: {
+    readonly ASCII: "isv-Latn-x-ascii";
+    readonly LatinEtymological: "isv-Latn-x-etymolog";
+    readonly LatinNorthern: "isv-Latn-x-northern";
+    readonly LatinSlovianto: "isv-Latn-x-sloviant";
+    readonly LatinSouthern: "isv-Latn-x-southern";
+    readonly Polish: "isv-Latn-PL";
+    readonly GlagoliticEtymological: "isv-Glag-x-etymolog";
+    readonly GlagoliticNorthern: "isv-Glag-x-northern";
+    readonly GlagoliticSlovianto: "isv-Glag-x-sloviant";
+    readonly GlagoliticSouthern: "isv-Glag-x-southern";
+    readonly CyrillicEtymological: "isv-Cyrl-x-etymolog";
+    readonly CyrillicIotated: "isv-Cyrl-x-iotated";
+    readonly CyrillicIotatedExtended: "isv-Cyrl-x-iotated-ext";
+    readonly CyrillicNorthern: "isv-Cyrl-x-northern";
+    readonly CyrillicSlovianto: "isv-Cyrl-x-sloviant";
+    readonly CyrillicSouthern: "isv-Cyrl-x-southern";
+    readonly Generic: "isv";
+    readonly Latin: "isv-Latn";
+    readonly Cyrillic: "isv-Cyrl";
+    readonly Glagolitic: "isv-Glag";
+    readonly IPA: "isv-x-fonipa";
+};
+export type FlavorisationBCP47Code = (typeof FlavorisationBCP47)[keyof typeof FlavorisationBCP47];

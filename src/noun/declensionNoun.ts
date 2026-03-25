@@ -151,7 +151,10 @@ export function declensionNoun(
 
   //plural forms
   const nom_pl = nominative_pl(plroot, plgen);
-  const gen_pl = genitive_pl(plroot, plgen);
+  let gen_pl = genitive_pl(plroot, plgen);
+  if (noun === 'video') {
+    gen_pl = 'videa / videj';
+  }
   const dat_pl = dative_pl(plroot, gender);
   const acc_pl = accusative_pl(nom_pl, gen_pl, plgen);
   const ins_pl = instrumental_pl(plroot, gender);
