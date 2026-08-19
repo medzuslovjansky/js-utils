@@ -11,7 +11,7 @@
     "test": "yarn workspaces foreach -A --topological-dev run test",
     "test:coverage": "yarn workspaces foreach -A --topological-dev run test:coverage",
     "lint": "yarn workspaces foreach -A --topological-dev run lint",
-    "release": "yarn workspaces foreach -A --topological --no-private npm publish --tolerate-republish",
+    "release": "scripts/release.sh",
     "prepare": "husky"
   },
   "devDependencies": {
