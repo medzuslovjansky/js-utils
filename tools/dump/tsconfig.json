@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    // Resolve sibling workspaces to their sources, like `dump` itself does
+    // (`node --conditions=interslavic-source`).
+    "customConditions": ["interslavic-source"]
+  },
+  "exclude": ["out"]
+}

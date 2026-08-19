@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - pronouns (reflexive) 337 1`] = `
+"sebę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebę	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebę	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (reflexive) 4025 1`] = `
+"sebę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebę	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebę	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (reflexive) 4811 1`] = `
+"sebę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebę	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebę	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (reflexive) 4812 1`] = `
+"sebę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes
+sę	sebę	PRON	pron.refl.	Case=Acc|PronType=Prs|Reflex=Yes|Variant=Short
+sebe	sebę	PRON	pron.refl.	Case=Gen|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Loc|PronType=Prs|Reflex=Yes
+sobě	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes
+si	sebę	PRON	pron.refl.	Case=Dat|PronType=Prs|Reflex=Yes|Variant=Short
+sobojų	sebę	PRON	pron.refl.	Case=Ins|PronType=Prs|Reflex=Yes"
+`;

@@ -1,0 +1,52 @@
+name: Lexicon dump
+
+# The dump is a release artifact, not a file in git: it is fully derived from
+# the lexicon fixtures plus inflect(), so the tag it was built from is the only
+# thing worth recording. Attaching it per tag gives a regression net across
+# versions, the raw material for packages/paradigms, and a public dataset.
+on:
+  push:
+    tags: ['v*']
+
+  workflow_dispatch:
+
+jobs:
+  dump:
+    name: Build and attach
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Set up Node
+        uses: actions/setup-node@v7
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install
+        run: |
+          corepack enable
+          yarn install --immutable
+
+      - name: Dump
+        run: yarn workspace @interslavic/dev-dump dump
+
+      - name: Compress
+        working-directory: tools/dump/out
+        run: |
+          gzip --best --keep interslavic-forms.tsv
+          gzip --best --keep interslavic.conllu
+
+      - name: Upload as a build artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: lexicon-dump
+          path: tools/dump/out/*.gz
+
+      - name: Attach to the release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v3
+        with:
+          files: tools/dump/out/*.gz

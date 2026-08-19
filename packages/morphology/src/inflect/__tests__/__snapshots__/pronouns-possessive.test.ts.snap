@@ -1,0 +1,313 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - pronouns (possessive) 190 1`] = `
+"čij-nebųď	čij-nebųď	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs
+čija-nebųď	čij-nebųď	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs
+čijego-nebųď	čij-nebųď	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čij-nebųď	čij-nebųď	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs
+čijų-nebųď	čij-nebųď	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs
+čijego-nebųď	čij-nebųď	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čijego-nebųď	čij-nebųď	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs
+čijej-nebųď	čij-nebųď	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs
+čijem-nebųď	čij-nebųď	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čijem-nebųď	čij-nebųď	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs
+čijej-nebųď	čij-nebųď	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs
+čijemu-nebųď	čij-nebųď	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čijemu-nebųď	čij-nebųď	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs
+čijej-nebųď	čij-nebųď	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs
+čijim-nebųď	čij-nebųď	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs
+čijim-nebųď	čij-nebųď	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs
+čijejų-nebųď	čij-nebųď	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs
+čiji-nebųď	čij-nebųď	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs
+čijih-nebųď	čij-nebųď	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs
+čije-nebųď	čij-nebųď	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs
+čijih-nebųď	čij-nebųď	DET	pron.poss.	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs
+čijih-nebųď	čij-nebųď	DET	pron.poss.	Case=Loc|Number=Plur|Poss=Yes|PronType=Prs
+čijim-nebųď	čij-nebųď	DET	pron.poss.	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs
+čijimi-nebųď	čij-nebųď	DET	pron.poss.	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (possessive) 512 1`] = `"jego	jego	DET	pron.poss.	Gender[psor]=Masc,Neut|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes"`;
+
+exports[`conllufy - pronouns (possessive) 920 1`] = `
+"moj	moj	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moja	moj	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojego	moj	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moj	moj	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojų	moj	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojego	moj	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojego	moj	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojej	moj	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojem	moj	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojem	moj	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojej	moj	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojemu	moj	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojemu	moj	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojej	moj	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojim	moj	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojim	moj	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojejų	moj	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moji	moj	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojih	moj	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+moje	moj	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojih	moj	DET	pron.poss.	Case=Gen|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojih	moj	DET	pron.poss.	Case=Loc|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojim	moj	DET	pron.poss.	Case=Dat|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs
+mojimi	moj	DET	pron.poss.	Case=Ins|Number=Plur|Number[psor]=Sing|Person=1|Poss=Yes|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (possessive) 1099 1`] = `
+"svoj	svoj	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svoja	svoj	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojego	svoj	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svoj	svoj	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojų	svoj	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojego	svoj	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojego	svoj	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojej	svoj	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojem	svoj	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojem	svoj	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojej	svoj	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojemu	svoj	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojemu	svoj	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojej	svoj	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojim	svoj	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojim	svoj	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svojejų	svoj	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs|Reflex=Yes
+svoji	svoj	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svojih	svoj	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svoje	svoj	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svojih	svoj	DET	pron.poss.	Case=Gen|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svojih	svoj	DET	pron.poss.	Case=Loc|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svojim	svoj	DET	pron.poss.	Case=Dat|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes
+svojimi	svoj	DET	pron.poss.	Case=Ins|Number=Plur|Poss=Yes|PronType=Prs|Reflex=Yes"
+`;
+
+exports[`conllufy - pronouns (possessive) 1631 1`] = `
+"vaš	vaš	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaša	vaš	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašego	vaš	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaš	vaš	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašų	vaš	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašego	vaš	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašego	vaš	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašej	vaš	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašem	vaš	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašem	vaš	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašej	vaš	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašemu	vaš	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašemu	vaš	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašej	vaš	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašim	vaš	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašim	vaš	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašejų	vaš	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaši	vaš	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaših	vaš	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaše	vaš	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaših	vaš	DET	pron.poss.	Case=Gen|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vaših	vaš	DET	pron.poss.	Case=Loc|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašim	vaš	DET	pron.poss.	Case=Dat|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs
+vašimi	vaš	DET	pron.poss.	Case=Ins|Number=Plur|Number[psor]=Plur|Person=2|Poss=Yes|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (possessive) 1993 1`] = `
+"naš	naš	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naša	naš	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našego	naš	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naš	naš	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našų	naš	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našego	naš	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našego	naš	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našej	naš	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našem	naš	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našem	naš	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našej	naš	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našemu	naš	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našemu	naš	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našej	naš	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našim	naš	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našim	naš	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našejų	naš	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naši	naš	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naših	naš	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naše	naš	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naših	naš	DET	pron.poss.	Case=Gen|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+naših	naš	DET	pron.poss.	Case=Loc|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našim	naš	DET	pron.poss.	Case=Dat|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs
+našimi	naš	DET	pron.poss.	Case=Ins|Number=Plur|Number[psor]=Plur|Person=1|Poss=Yes|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (possessive) 2195 1`] = `"jej	jej	DET	pron.poss.	Gender[psor]=Fem|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes"`;
+
+exports[`conllufy - pronouns (possessive) 2231 1`] = `
+"tvoj	tvoj	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoja	tvoj	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojego	tvoj	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoj	tvoj	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojų	tvoj	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojego	tvoj	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojego	tvoj	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojej	tvoj	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojem	tvoj	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojem	tvoj	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojej	tvoj	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojemu	tvoj	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojemu	tvoj	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojej	tvoj	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojim	tvoj	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojim	tvoj	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojejų	tvoj	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoji	tvoj	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojih	tvoj	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvoje	tvoj	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojih	tvoj	DET	pron.poss.	Case=Gen|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojih	tvoj	DET	pron.poss.	Case=Loc|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojim	tvoj	DET	pron.poss.	Case=Dat|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs
+tvojimi	tvoj	DET	pron.poss.	Case=Ins|Number=Plur|Number[psor]=Sing|Person=2|Poss=Yes|PronType=Prs"
+`;
+
+exports[`conllufy - pronouns (possessive) 2601 1`] = `"jih	jih	DET	pron.poss.	Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Uninflect=Yes"`;
+
+exports[`conllufy - pronouns (possessive) 6256 1`] = `
+"jegov	jegov	DET	pron.poss.	Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovo	jegov	DET	pron.poss.	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegova	jegov	DET	pron.poss.	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovogo	jegov	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegov	jegov	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovo	jegov	DET	pron.poss.	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovų	jegov	DET	pron.poss.	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovogo	jegov	DET	pron.poss.	Case=Gen|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovogo	jegov	DET	pron.poss.	Case=Gen|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovoj	jegov	DET	pron.poss.	Case=Gen|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovom	jegov	DET	pron.poss.	Case=Loc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovom	jegov	DET	pron.poss.	Case=Loc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovoj	jegov	DET	pron.poss.	Case=Loc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovomu	jegov	DET	pron.poss.	Case=Dat|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovomu	jegov	DET	pron.poss.	Case=Dat|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovoj	jegov	DET	pron.poss.	Case=Dat|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovym	jegov	DET	pron.poss.	Case=Ins|Gender=Masc|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovym	jegov	DET	pron.poss.	Case=Ins|Gender=Neut|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovojų	jegov	DET	pron.poss.	Case=Ins|Gender=Fem|Gender[psor]=Masc,Neut|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovi	jegov	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegove	jegov	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegove	jegov	DET	pron.poss.	Case=Nom|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegove	jegov	DET	pron.poss.	Case=Nom|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovyh	jegov	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegove	jegov	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegove	jegov	DET	pron.poss.	Case=Acc|Gender=Neut|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegove	jegov	DET	pron.poss.	Case=Acc|Gender=Fem|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovyh	jegov	DET	pron.poss.	Case=Gen|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovyh	jegov	DET	pron.poss.	Case=Loc|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovym	jegov	DET	pron.poss.	Case=Dat|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jegovymi	jegov	DET	pron.poss.	Case=Ins|Gender[psor]=Masc,Neut|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long"
+`;
+
+exports[`conllufy - pronouns (possessive) 6257 1`] = `
+"jejin	jejin	DET	pron.poss.	Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejino	jejin	DET	pron.poss.	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejina	jejin	DET	pron.poss.	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinogo	jejin	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejin	jejin	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejino	jejin	DET	pron.poss.	Case=Acc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinų	jejin	DET	pron.poss.	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinogo	jejin	DET	pron.poss.	Case=Gen|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinogo	jejin	DET	pron.poss.	Case=Gen|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinoj	jejin	DET	pron.poss.	Case=Gen|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinom	jejin	DET	pron.poss.	Case=Loc|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinom	jejin	DET	pron.poss.	Case=Loc|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinoj	jejin	DET	pron.poss.	Case=Loc|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinomu	jejin	DET	pron.poss.	Case=Dat|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinomu	jejin	DET	pron.poss.	Case=Dat|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinoj	jejin	DET	pron.poss.	Case=Dat|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinym	jejin	DET	pron.poss.	Case=Ins|Gender=Masc|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinym	jejin	DET	pron.poss.	Case=Ins|Gender=Neut|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinojų	jejin	DET	pron.poss.	Case=Ins|Gender=Fem|Gender[psor]=Fem|Number=Sing|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejini	jejin	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejine	jejin	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejine	jejin	DET	pron.poss.	Case=Nom|Gender=Neut|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejine	jejin	DET	pron.poss.	Case=Nom|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinyh	jejin	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejine	jejin	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejine	jejin	DET	pron.poss.	Case=Acc|Gender=Neut|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejine	jejin	DET	pron.poss.	Case=Acc|Gender=Fem|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinyh	jejin	DET	pron.poss.	Case=Gen|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinyh	jejin	DET	pron.poss.	Case=Loc|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinym	jejin	DET	pron.poss.	Case=Dat|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jejinymi	jejin	DET	pron.poss.	Case=Ins|Gender[psor]=Fem|Number=Plur|Number[psor]=Sing|Person=3|Poss=Yes|PronType=Prs|Variant=Long"
+`;
+
+exports[`conllufy - pronouns (possessive) 6258 1`] = `
+"jihny	jihny	DET	pron.poss.	Case=Nom|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihno	jihny	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihna	jihny	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnogo	jihny	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihny	jihny	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihno	jihny	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnų	jihny	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnogo	jihny	DET	pron.poss.	Case=Gen|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnogo	jihny	DET	pron.poss.	Case=Gen|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnoj	jihny	DET	pron.poss.	Case=Gen|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnom	jihny	DET	pron.poss.	Case=Loc|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnom	jihny	DET	pron.poss.	Case=Loc|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnoj	jihny	DET	pron.poss.	Case=Loc|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnomu	jihny	DET	pron.poss.	Case=Dat|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnomu	jihny	DET	pron.poss.	Case=Dat|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnoj	jihny	DET	pron.poss.	Case=Dat|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnym	jihny	DET	pron.poss.	Case=Ins|Gender=Masc|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnym	jihny	DET	pron.poss.	Case=Ins|Gender=Neut|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnojų	jihny	DET	pron.poss.	Case=Ins|Gender=Fem|Number=Sing|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihni	jihny	DET	pron.poss.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihne	jihny	DET	pron.poss.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihne	jihny	DET	pron.poss.	Case=Nom|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihne	jihny	DET	pron.poss.	Case=Nom|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnyh	jihny	DET	pron.poss.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihne	jihny	DET	pron.poss.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihne	jihny	DET	pron.poss.	Case=Acc|Gender=Neut|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihne	jihny	DET	pron.poss.	Case=Acc|Gender=Fem|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnyh	jihny	DET	pron.poss.	Case=Gen|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnyh	jihny	DET	pron.poss.	Case=Loc|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnym	jihny	DET	pron.poss.	Case=Dat|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long
+jihnymi	jihny	DET	pron.poss.	Case=Ins|Number=Plur|Number[psor]=Plur|Person=3|Poss=Yes|PronType=Prs|Variant=Long"
+`;

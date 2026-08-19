@@ -1,0 +1,744 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`derive deriveFromAdjective directly stary adj. -> all forms 1`] = `
+[
+  {
+    "derivationType": "adjcmp",
+    "isv": "starějši",
+    "xpos": "adj.comp.",
+  },
+  {
+    "derivationType": "adjsup",
+    "isv": "najstarějši",
+    "xpos": "adj.sup.",
+  },
+  {
+    "derivationType": "adjsupn",
+    "isv": "najstary",
+    "xpos": "adj.sup.",
+  },
+  {
+    "derivationType": "advpos",
+    "isv": "staro",
+    "xpos": "adv.",
+  },
+]
+`;
+
+exports[`derive deriveFromAdverb directly zlo adv. -> all forms 1`] = `
+[
+  {
+    "derivationType": "advcmp",
+    "isv": "gorje",
+    "xpos": "adv.comp.",
+  },
+  {
+    "derivationType": "advsup",
+    "isv": "najgorje",
+    "xpos": "adv.sup.",
+  },
+  {
+    "derivationType": "advsupn",
+    "isv": "najzlo",
+    "xpos": "adv.sup.",
+  },
+]
+`;
+
+exports[`derive deriveFromVerb directly dělati v.tr. ipf. -> all participles + vnoun 1`] = `
+[
+  {
+    "derivationType": "prap",
+    "isv": "dělaĵųćí",
+    "xpos": "v.prap.",
+  },
+  {
+    "derivationType": "prpp",
+    "isv": "dělajemý",
+    "xpos": "v.prpp.",
+  },
+  {
+    "derivationType": "prpp",
+    "isv": "dělamý",
+    "xpos": "v.prpp.",
+  },
+  {
+    "derivationType": "pfap",
+    "isv": "dělavši",
+    "xpos": "v.pfap.",
+  },
+  {
+    "derivationType": "pfpp",
+    "isv": "dělaný",
+    "xpos": "v.pfpp.",
+  },
+  {
+    "derivationType": "vnoun",
+    "isv": "dělańje",
+    "xpos": "n.",
+  },
+]
+`;
+
+exports[`derive from adjectives Ivanov adj.poss. -> no derivations (possessive) 1`] = `[]`;
+
+exports[`derive from adjectives amerikansky adj. -> derivations (analytical superlative) 1`] = `
+[
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najamerikansky",
+    "lemma": "najamerikansky",
+    "misc": {
+      "Derivation": "adj_sup_a",
+      "LID": "104",
+      "SID": "104-adjsupn",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Pos",
+    },
+    "form": "amerikansko",
+    "lemma": "amerikansko",
+    "misc": {
+      "Derivation": "adj_adv",
+      "LID": "104",
+      "SID": "104-advpos",
+    },
+    "upos": "ADV",
+    "xpos": "adv.",
+  },
+]
+`;
+
+exports[`derive from adjectives dobry adj. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Degree": "Cmp",
+    },
+    "form": "lěpši",
+    "lemma": "lěpši",
+    "misc": {
+      "Derivation": "adj_cmp",
+      "LID": "101",
+      "SID": "101-adjcmp",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.comp.",
+  },
+  {
+    "feats": {
+      "Degree": "Cmp",
+    },
+    "form": "lučši",
+    "lemma": "lučši",
+    "misc": {
+      "Derivation": "adj_cmp",
+      "LID": "101",
+      "SID": "101-adjcmp",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.comp.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najlěpši",
+    "lemma": "najlěpši",
+    "misc": {
+      "Derivation": "adj_sup",
+      "LID": "101",
+      "SID": "101-adjsup",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najlučši",
+    "lemma": "najlučši",
+    "misc": {
+      "Derivation": "adj_sup",
+      "LID": "101",
+      "SID": "101-adjsup",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najdobry",
+    "lemma": "najdobry",
+    "misc": {
+      "Derivation": "adj_sup_a",
+      "LID": "101",
+      "SID": "101-adjsupn",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Pos",
+    },
+    "form": "dobro",
+    "lemma": "dobro",
+    "misc": {
+      "Derivation": "adj_adv",
+      "LID": "101",
+      "SID": "101-advpos",
+    },
+    "upos": "ADV",
+    "xpos": "adv.",
+  },
+]
+`;
+
+exports[`derive from adjectives lěpši adj.comp. -> derivations (only superlative) 1`] = `
+[
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najlěpši",
+    "lemma": "najlěpši",
+    "misc": {
+      "Derivation": "adj_sup",
+      "LID": "102",
+      "SID": "102-adjsup",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+]
+`;
+
+exports[`derive from adjectives najdobry adj.sup. -> no derivations 1`] = `[]`;
+
+exports[`derive from adjectives rad adj. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Degree": "Cmp",
+    },
+    "form": "radějši",
+    "lemma": "radějši",
+    "misc": {
+      "Derivation": "adj_cmp",
+      "LID": "100",
+      "SID": "100-adjcmp",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.comp.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najradějši",
+    "lemma": "najradějši",
+    "misc": {
+      "Derivation": "adj_sup",
+      "LID": "100",
+      "SID": "100-adjsup",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+      "Variant": "Short",
+    },
+    "form": "najrad",
+    "lemma": "najrad",
+    "misc": {
+      "Derivation": "adj_sup_a",
+      "LID": "100",
+      "SID": "100-adjsupn",
+    },
+    "upos": "ADJ",
+    "xpos": "adj.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Pos",
+    },
+    "form": "rado",
+    "lemma": "rado",
+    "misc": {
+      "Derivation": "adj_adv",
+      "LID": "100",
+      "SID": "100-advpos",
+    },
+    "upos": "ADV",
+    "xpos": "adv.",
+  },
+]
+`;
+
+exports[`derive from adverbs bolje adv.comp. -> derivations (only superlative) 1`] = `
+[
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najbolje",
+    "lemma": "najbolje",
+    "misc": {
+      "Derivation": "adv_sup",
+      "LID": "301",
+      "SID": "301-advsup",
+    },
+    "upos": "ADV",
+    "xpos": "adv.sup.",
+  },
+]
+`;
+
+exports[`derive from adverbs dobro adv. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Degree": "Cmp",
+    },
+    "form": "lěpje",
+    "lemma": "lěpje",
+    "misc": {
+      "Derivation": "adv_cmp",
+      "LID": "300",
+      "SID": "300-advcmp",
+    },
+    "upos": "ADV",
+    "xpos": "adv.comp.",
+  },
+  {
+    "feats": {
+      "Degree": "Cmp",
+    },
+    "form": "lučše",
+    "lemma": "lučše",
+    "misc": {
+      "Derivation": "adv_cmp",
+      "LID": "300",
+      "SID": "300-advcmp",
+    },
+    "upos": "ADV",
+    "xpos": "adv.comp.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najlěpje",
+    "lemma": "najlěpje",
+    "misc": {
+      "Derivation": "adv_sup",
+      "LID": "300",
+      "SID": "300-advsup",
+    },
+    "upos": "ADV",
+    "xpos": "adv.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najlučše",
+    "lemma": "najlučše",
+    "misc": {
+      "Derivation": "adv_sup",
+      "LID": "300",
+      "SID": "300-advsup",
+    },
+    "upos": "ADV",
+    "xpos": "adv.sup.",
+  },
+  {
+    "feats": {
+      "Degree": "Sup",
+    },
+    "form": "najdobro",
+    "lemma": "najdobro",
+    "misc": {
+      "Derivation": "adv_sup_a",
+      "LID": "300",
+      "SID": "300-advsupn",
+    },
+    "upos": "ADV",
+    "xpos": "adv.sup.",
+  },
+]
+`;
+
+exports[`derive from adverbs najbolje adv.sup. -> no derivations 1`] = `[]`;
+
+exports[`derive from verbs abdikovati v.intr. ipf./pf. (ipf aspect) -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Tense": "Pres",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "abdikujųći",
+    "lemma": "abdikujųći",
+    "misc": {
+      "Derivation": "v_prap",
+      "LID": "201",
+      "SID": "201-prap",
+    },
+    "upos": "VERB",
+    "xpos": "v.prap.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "abdikovavši",
+    "lemma": "abdikovavši",
+    "misc": {
+      "Derivation": "v_pfap",
+      "LID": "201",
+      "SID": "201-pfap",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfap.",
+  },
+  {
+    "feats": {
+      "Gender": "Neut",
+      "VerbForm": "Vnoun",
+    },
+    "form": "abdikovańje",
+    "lemma": "abdikovańje",
+    "misc": {
+      "Derivation": "v_noun",
+      "LID": "201",
+      "SID": "201-vnoun",
+    },
+    "upos": "NOUN",
+    "xpos": "n.",
+  },
+]
+`;
+
+exports[`derive from verbs byti v.aux. ipf. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Tense": "Pres",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "sųći",
+    "lemma": "sųći",
+    "misc": {
+      "Derivation": "v_prap",
+      "LID": "200",
+      "SID": "200-prap",
+    },
+    "upos": "VERB",
+    "xpos": "v.prap.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "byvši",
+    "lemma": "byvši",
+    "misc": {
+      "Derivation": "v_pfap",
+      "LID": "200",
+      "SID": "200-pfap",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfap.",
+  },
+  {
+    "feats": {
+      "Gender": "Neut",
+      "VerbForm": "Vnoun",
+    },
+    "form": "byťje",
+    "lemma": "byťje",
+    "misc": {
+      "Derivation": "v_noun",
+      "LID": "200",
+      "SID": "200-vnoun",
+    },
+    "upos": "NOUN",
+    "xpos": "n.",
+  },
+]
+`;
+
+exports[`derive from verbs hotěti (hoće) v.tr. pf. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "hotěvši",
+    "lemma": "hotěvši",
+    "misc": {
+      "Derivation": "v_pfap",
+      "LID": "203",
+      "SID": "203-pfap",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfap.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Pass",
+    },
+    "form": "hotěny",
+    "lemma": "hotěny",
+    "misc": {
+      "Derivation": "v_pfpp",
+      "LID": "203",
+      "SID": "203-pfpp",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfpp.",
+  },
+  {
+    "feats": {
+      "Gender": "Neut",
+      "VerbForm": "Vnoun",
+    },
+    "form": "hotěńje",
+    "lemma": "hotěńje",
+    "misc": {
+      "Derivation": "v_noun",
+      "LID": "203",
+      "SID": "203-vnoun",
+    },
+    "upos": "NOUN",
+    "xpos": "n.",
+  },
+]
+`;
+
+exports[`derive from verbs uviděti sę v.refl. ipf. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Tense": "Pres",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "uvidějųći",
+    "lemma": "uvidějųći",
+    "misc": {
+      "Derivation": "v_prap",
+      "LID": "205",
+      "SID": "205-prap",
+    },
+    "upos": "VERB",
+    "xpos": "v.prap.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "uviděvši",
+    "lemma": "uviděvši",
+    "misc": {
+      "Derivation": "v_pfap",
+      "LID": "205",
+      "SID": "205-pfap",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfap.",
+  },
+  {
+    "feats": {
+      "Gender": "Neut",
+      "VerbForm": "Vnoun",
+    },
+    "form": "uviděńje",
+    "lemma": "uviděńje",
+    "misc": {
+      "Derivation": "v_noun",
+      "LID": "205",
+      "SID": "205-vnoun",
+    },
+    "upos": "NOUN",
+    "xpos": "n.",
+  },
+]
+`;
+
+exports[`derive from verbs viděti v.tr. ipf. -> derivations (all participles) 1`] = `
+[
+  {
+    "feats": {
+      "Tense": "Pres",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "vidějųći",
+    "lemma": "vidějųći",
+    "misc": {
+      "Derivation": "v_prap",
+      "LID": "202",
+      "SID": "202-prap",
+    },
+    "upos": "VERB",
+    "xpos": "v.prap.",
+  },
+  {
+    "feats": {
+      "Tense": "Pres",
+      "VerbForm": "Part",
+      "Voice": "Pass",
+    },
+    "form": "vidějemy",
+    "lemma": "vidějemy",
+    "misc": {
+      "Derivation": "v_prpp",
+      "LID": "202",
+      "SID": "202-prpp",
+    },
+    "upos": "VERB",
+    "xpos": "v.prpp.",
+  },
+  {
+    "feats": {
+      "Tense": "Pres",
+      "VerbForm": "Part",
+      "Voice": "Pass",
+    },
+    "form": "viděmy",
+    "lemma": "viděmy",
+    "misc": {
+      "Derivation": "v_prpp",
+      "LID": "202",
+      "SID": "202-prpp",
+    },
+    "upos": "VERB",
+    "xpos": "v.prpp.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "viděvši",
+    "lemma": "viděvši",
+    "misc": {
+      "Derivation": "v_pfap",
+      "LID": "202",
+      "SID": "202-pfap",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfap.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Pass",
+    },
+    "form": "viděny",
+    "lemma": "viděny",
+    "misc": {
+      "Derivation": "v_pfpp",
+      "LID": "202",
+      "SID": "202-pfpp",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfpp.",
+  },
+  {
+    "feats": {
+      "Gender": "Neut",
+      "VerbForm": "Vnoun",
+    },
+    "form": "viděńje",
+    "lemma": "viděńje",
+    "misc": {
+      "Derivation": "v_noun",
+      "LID": "202",
+      "SID": "202-vnoun",
+    },
+    "upos": "NOUN",
+    "xpos": "n.",
+  },
+]
+`;
+
+exports[`derive from verbs zahtěti (zahće) v.tr. pf. -> derivations 1`] = `
+[
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Act",
+    },
+    "form": "zahtěvši",
+    "lemma": "zahtěvši",
+    "misc": {
+      "Derivation": "v_pfap",
+      "LID": "204",
+      "SID": "204-pfap",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfap.",
+  },
+  {
+    "feats": {
+      "Tense": "Past",
+      "VerbForm": "Part",
+      "Voice": "Pass",
+    },
+    "form": "zahtěny",
+    "lemma": "zahtěny",
+    "misc": {
+      "Derivation": "v_pfpp",
+      "LID": "204",
+      "SID": "204-pfpp",
+    },
+    "upos": "VERB",
+    "xpos": "v.pfpp.",
+  },
+  {
+    "feats": {
+      "Gender": "Neut",
+      "VerbForm": "Vnoun",
+    },
+    "form": "zahtěńje",
+    "lemma": "zahtěńje",
+    "misc": {
+      "Derivation": "v_noun",
+      "LID": "204",
+      "SID": "204-vnoun",
+    },
+    "upos": "NOUN",
+    "xpos": "n.",
+  },
+]
+`;

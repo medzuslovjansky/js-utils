@@ -1,0 +1,31 @@
+{
+  "name": "@interslavic/dev-stembench",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scores the lunr stemmer against every paradigm inflect can generate",
+  "scripts": {
+    "bench": "node --conditions=interslavic-source index.ts",
+    "learn": "node --conditions=interslavic-source learn.ts",
+    "stopwords": "node --conditions=interslavic-source stopwords.ts",
+    "lint": "eslint '*.ts' && tsc -p tsconfig.json",
+    "test": "node --conditions=interslavic-source --test '*.test.ts'"
+  },
+  "dependencies": {
+    "@interslavic/conllu": "workspace:^",
+    "@interslavic/morphology": "workspace:^",
+    "@interslavic/stemmer": "workspace:^"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "prettier": "^3.9.6",
+    "typescript": "npm:@typescript/typescript6@~6.0.2",
+    "typescript-eslint": "^8.67.0",
+    "typescript-native": "npm:typescript@~7.0.2"
+  },
+  "license": "MIT"
+}

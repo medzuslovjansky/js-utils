@@ -1,97 +1,29 @@
 {
-  "name": "@interslavic/utils",
-  "version": "0.0.0",
-  "description": "Utilities for declension, conjugation, transliteration, etc.",
-  "type": "commonjs",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist",
-    "src",
-    "!**/__*__",
-    "!**/*.json",
-    "!**/*.test.*"
+  "name": "@interslavic/monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "tools/*",
+    "website"
   ],
   "scripts": {
-    "clean": "rimraf dist",
-    "import": "node scripts/import.js",
-    "build": "tsc && bash scripts/browserify.sh",
-    "docs": "typedoc",
-    "lint": "eslint src/**/*.ts",
-    "test": "jest",
-    "test:update": "jest -u",
-    "allure": "cross-env ALLURE_NO_ANALYTICS=true allure serve",
-    "allure:generate": "allure generate --clean --lang isv",
-    "prepare": "husky install",
-    "precommit": "lint-staged",
-    "prepush": "bash scripts/prepush.sh"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/medzuslovjansky/js-utils.git"
-  },
-  "keywords": [
-    "interslavic",
-    "steenbergen"
-  ],
-  "authors": [
-    "Jan van Steenbergen",
-    "Sergey Cherebedov",
-    "Denis Shabalin",
-    "Rafail Gasparyan",
-    "Yaroslav Serhieiev <noomorph@gmail.com>"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/medzuslovjansky/js-utils/issues"
-  },
-  "homepage": "https://github.com/medzuslovjansky/js-utils#readme",
-  "engines": {
-    "node": ">=14"
+    "build": "yarn workspaces foreach -A --topological-dev run build",
+    "test": "yarn workspaces foreach -A --topological-dev run test",
+    "test:coverage": "yarn workspaces foreach -A --topological-dev run test:coverage",
+    "lint": "yarn workspaces foreach -A --topological-dev run lint",
+    "release": "yarn workspaces foreach -A --topological --no-private npm publish --tolerate-republish",
+    "prepare": "husky"
   },
   "devDependencies": {
-    "@commitlint/cli": "^18.6.1",
-    "@commitlint/config-conventional": "^11.0.0",
-    "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.5",
-    "@types/jest": "^29.0.0",
-    "@types/js-yaml": "^4.0.5",
-    "@types/lodash": "^4.14.168",
-    "@types/node": "^20.11.19",
-    "@types/stream-json": "^1.7.7",
-    "@typescript-eslint/eslint-plugin": "^5.59.8",
-    "@typescript-eslint/parser": "^5.59.8",
-    "allure-commandline": "2.29.0",
-    "cross-env": "^7.0.3",
-    "csv-parse": "^5.5.3",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^8.42.0",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-ecmascript-compat": "^3.0.0",
-    "eslint-plugin-jsdoc": "^46.2.2",
-    "eslint-plugin-prefer-arrow": "^1.2.3",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^8.0.3",
-    "jest": "^29.5.0",
-    "jest-allure2-reporter": "^2.2.8",
-    "js-yaml": "^4.1.0",
-    "lint-staged": "^13.2.2",
-    "lodash": "^4.17.21",
-    "node-fetch": "^2.7.0",
-    "prettier": "^2.8.8",
-    "rimraf": "^3.0.2",
-    "rollup": "^4.9.0",
-    "semantic-release": "^21.0.3",
-    "ts-jest": "^29.1.0",
-    "typedoc": "^0.24.7",
-    "typescript": "^4.9.5"
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0"
   },
-  "dependencies": {
-    "tslib": "^2.2.0"
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
   },
-  "browserslist": [
-    "node 18",
-    "iOS >= 14.5"
-  ]
+  "packageManager": "yarn@4.18.0"
 }

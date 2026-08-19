@@ -112,3 +112,24 @@ dist
 # Allure Reports
 allure-results/
 allure-report/
+
+# Yarn
+.yarn/*
+!.yarn/patches
+.pnp.*
+
+# Test report from tools/reporter
+test-report.html
+
+# Lexicon dump from tools/dump — a release artifact, never a file in git (§2.4)
+tools/dump/out/
+
+# agent worktrees
+.claude/worktrees/
+
+# translit-bench scratch — bundles with the corpora inlined, rebuilt per run
+tools/translit-bench/out*/
+
+# hunspell build output
+tools/hunspell/out/
+

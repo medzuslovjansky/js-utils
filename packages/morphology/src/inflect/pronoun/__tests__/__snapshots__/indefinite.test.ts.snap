@@ -1,0 +1,3599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun indefinite 4 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "nikogo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "nikomu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "nikogo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "nikym",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "nikom",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "nikto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 155 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "inokogo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "inokomu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "inokogo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "inokym",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "inokom",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "inokto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 307 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "inočto",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "inočemu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "inočego",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "inočim",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "inočem",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "inočto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 322 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "kogo-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "komu-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kogo-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kym-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kom-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kto-nebųď",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 1454 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kake",
+        },
+      ],
+      [
+        {
+          "form": "kake",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kaki",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kake",
+        },
+      ],
+      [
+        {
+          "form": "kake",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kaky",
+        },
+      ],
+      [
+        {
+          "form": "kako",
+        },
+      ],
+      [
+        {
+          "form": "kakų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakomu",
+        },
+      ],
+      [
+        {
+          "form": "kakoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakogo",
+        },
+      ],
+      [
+        {
+          "form": "kakoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakym",
+        },
+      ],
+      [
+        {
+          "form": "kakojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakom",
+        },
+      ],
+      [
+        {
+          "form": "kakoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kaky",
+        },
+      ],
+      [
+        {
+          "form": "kako",
+        },
+      ],
+      [
+        {
+          "form": "kaka",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 1675 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "vsečto",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsečemu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsečego",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsečim",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsečem",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "vsečto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 1676 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsi",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vėś",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vśų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsemu",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsego",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsim",
+        },
+      ],
+      [
+        {
+          "form": "vsejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsem",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "vėś",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vśa",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 1786 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "čto-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čemu-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čego-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čim-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čem-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čto-nebųď",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 1823 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "vsekogo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsekomu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsekogo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsekym",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsekom",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "vsekto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 2711 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakyh-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kake-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kake-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakym-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakyh-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakymi-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakyh-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kaki-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kake-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kake-nebųď",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakogo-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kaky-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kako-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kakų-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakomu-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kakoj-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakogo-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kakoj-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakym-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kakojų-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakom-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kakoj-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kaky-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kako-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kaka-nebųď",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 2954 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktoryh-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktore-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktorym-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktoryh-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorymi-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktoryh-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktori-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktore-nebųď",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktorogo-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktory-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktoro-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktorų-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktoromu-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktorogo-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorym-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktorojų-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktorom-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ktory-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktoro-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "ktora-nebųď",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 3098 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsi",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "veś",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vśų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsemu",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsego",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsim",
+        },
+      ],
+      [
+        {
+          "form": "vsejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsem",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "veś",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vśa",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 3344 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "nijednyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "nijedne",
+        },
+      ],
+      [
+        {
+          "form": "nijedne",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "nijednym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "nijednyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "nijednymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "nijednyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "nijedni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "nijedne",
+        },
+      ],
+      [
+        {
+          "form": "nijedne",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "nijednogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "nijedin",
+        },
+      ],
+      [
+        {
+          "form": "nijedno",
+        },
+      ],
+      [
+        {
+          "form": "nijednų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "nijednomu",
+        },
+      ],
+      [
+        {
+          "form": "nijednoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "nijednogo",
+        },
+      ],
+      [
+        {
+          "form": "nijednoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "nijednym",
+        },
+      ],
+      [
+        {
+          "form": "nijednojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "nijednom",
+        },
+      ],
+      [
+        {
+          "form": "nijednoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "nijedin",
+        },
+      ],
+      [
+        {
+          "form": "nijedno",
+        },
+      ],
+      [
+        {
+          "form": "nijedna",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 4082 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "někogo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "někomu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "někogo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "někym",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "někom",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "někto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 5695 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojih-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koje-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "koje-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojim-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojih-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojimi-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojih-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "koji-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koje-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "koje-nebųď",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojego-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koj-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "koje-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kojų-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojemu-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kojej-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojego-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kojej-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojim-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kojejų-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojem-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "kojej-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "koj-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "koje-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "koja-nebųď",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 5696 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "někojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "někoje",
+        },
+      ],
+      [
+        {
+          "form": "někoje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "někojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "někojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "někojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "někojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "někoji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "někoje",
+        },
+      ],
+      [
+        {
+          "form": "někoje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "někojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "někoj",
+        },
+      ],
+      [
+        {
+          "form": "někoje",
+        },
+      ],
+      [
+        {
+          "form": "někojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "někojemu",
+        },
+      ],
+      [
+        {
+          "form": "někojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "někojego",
+        },
+      ],
+      [
+        {
+          "form": "někojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "někojim",
+        },
+      ],
+      [
+        {
+          "form": "někojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "někojem",
+        },
+      ],
+      [
+        {
+          "form": "někojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "někoj",
+        },
+      ],
+      [
+        {
+          "form": "někoje",
+        },
+      ],
+      [
+        {
+          "form": "někoja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 14327 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "žadnyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "žadne",
+        },
+      ],
+      [
+        {
+          "form": "žadne",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "žadnym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "žadnyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "žadnymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "žadnyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "žadni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "žadne",
+        },
+      ],
+      [
+        {
+          "form": "žadne",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "žadnogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "žadėn",
+        },
+      ],
+      [
+        {
+          "form": "žadno",
+        },
+      ],
+      [
+        {
+          "form": "žadnų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "žadnomu",
+        },
+      ],
+      [
+        {
+          "form": "žadnoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "žadnogo",
+        },
+      ],
+      [
+        {
+          "form": "žadnoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "žadnym",
+        },
+      ],
+      [
+        {
+          "form": "žadnojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "žadnom",
+        },
+      ],
+      [
+        {
+          "form": "žadnoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "žadėn",
+        },
+      ],
+      [
+        {
+          "form": "žadno",
+        },
+      ],
+      [
+        {
+          "form": "žadna",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 14502 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "čto-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čemu-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čego-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čim-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čem-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čto-libo",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 14631 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakyh-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kake-libo",
+        },
+      ],
+      [
+        {
+          "form": "kake-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakym-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakyh-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakymi-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakyh-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kaki-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kake-libo",
+        },
+      ],
+      [
+        {
+          "form": "kake-libo",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakogo-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kaky-libo",
+        },
+      ],
+      [
+        {
+          "form": "kako-libo",
+        },
+      ],
+      [
+        {
+          "form": "kakų-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakomu-libo",
+        },
+      ],
+      [
+        {
+          "form": "kakoj-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakogo-libo",
+        },
+      ],
+      [
+        {
+          "form": "kakoj-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakym-libo",
+        },
+      ],
+      [
+        {
+          "form": "kakojų-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakom-libo",
+        },
+      ],
+      [
+        {
+          "form": "kakoj-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kaky-libo",
+        },
+      ],
+      [
+        {
+          "form": "kako-libo",
+        },
+      ],
+      [
+        {
+          "form": "kaka-libo",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 14670 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktoryh-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktore-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktorym-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktoryh-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorymi-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktoryh-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktori-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktore-libo",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktorogo-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktory-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktoro-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktorų-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktoromu-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktorogo-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorym-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktorojų-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktorom-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ktory-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktoro-libo",
+        },
+      ],
+      [
+        {
+          "form": "ktora-libo",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 19602 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "čtokoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čemukoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čegokoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čimkoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čemkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čtokoli",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 19605 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakyhkoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kakekoli",
+        },
+      ],
+      [
+        {
+          "form": "kakekoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakymkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakyhkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakymikoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakyhkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakikoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kakekoli",
+        },
+      ],
+      [
+        {
+          "form": "kakekoli",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kakogokoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kakykoli",
+        },
+      ],
+      [
+        {
+          "form": "kakokoli",
+        },
+      ],
+      [
+        {
+          "form": "kakųkoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kakomukoli",
+        },
+      ],
+      [
+        {
+          "form": "kakojkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kakogokoli",
+        },
+      ],
+      [
+        {
+          "form": "kakojkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kakymkoli",
+        },
+      ],
+      [
+        {
+          "form": "kakojųkoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kakomkoli",
+        },
+      ],
+      [
+        {
+          "form": "kakojkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kakykoli",
+        },
+      ],
+      [
+        {
+          "form": "kakokoli",
+        },
+      ],
+      [
+        {
+          "form": "kakakoli",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 19614 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktoryhkoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktorekoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorekoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktorymkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktoryhkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorymikoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktoryhkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktorikoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktorekoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorekoli",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktorogokoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktorykoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorokoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorųkoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktoromukoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorojkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktorogokoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorojkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorymkoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorojųkoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktoromkoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorojkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ktorykoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorokoli",
+        },
+      ],
+      [
+        {
+          "form": "ktorakoli",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 19882 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "něčto",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "něčemu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "něčego",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "něčim",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "něčem",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "něčto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 19913 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "ničto",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ničemu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ničego",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ničim",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ničem",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ničto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 21315 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojihkoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kojekoli",
+        },
+      ],
+      [
+        {
+          "form": "kojekoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojimkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojihkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojimikoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojihkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojikoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kojekoli",
+        },
+      ],
+      [
+        {
+          "form": "kojekoli",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojegokoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "kojkoli",
+        },
+      ],
+      [
+        {
+          "form": "kojekoli",
+        },
+      ],
+      [
+        {
+          "form": "kojųkoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojemukoli",
+        },
+      ],
+      [
+        {
+          "form": "kojejkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojegokoli",
+        },
+      ],
+      [
+        {
+          "form": "kojejkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojimkoli",
+        },
+      ],
+      [
+        {
+          "form": "kojejųkoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojemkoli",
+        },
+      ],
+      [
+        {
+          "form": "kojejkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kojkoli",
+        },
+      ],
+      [
+        {
+          "form": "kojekoli",
+        },
+      ],
+      [
+        {
+          "form": "kojakoli",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 21322 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "kogokoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "komukoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kogokoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kymkoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "komkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ktokoli",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun indefinite 23790 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsi",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vsego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "veś",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vśų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vsemu",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vsego",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vsim",
+        },
+      ],
+      [
+        {
+          "form": "vsejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vsem",
+        },
+      ],
+      [
+        {
+          "form": "vsej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "veś",
+        },
+      ],
+      [
+        {
+          "form": "vse",
+        },
+      ],
+      [
+        {
+          "form": "vśa",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 35112 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "poněktoryh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "poněktore",
+        },
+      ],
+      [
+        {
+          "form": "poněktore",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "poněktorym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "poněktoryh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "poněktorymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "poněktoryh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "poněktori",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "poněktore",
+        },
+      ],
+      [
+        {
+          "form": "poněktore",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "poněktorogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "poněktory",
+        },
+      ],
+      [
+        {
+          "form": "poněktoro",
+        },
+      ],
+      [
+        {
+          "form": "poněktorų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "poněktoromu",
+        },
+      ],
+      [
+        {
+          "form": "poněktoroj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "poněktorogo",
+        },
+      ],
+      [
+        {
+          "form": "poněktoroj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "poněktorym",
+        },
+      ],
+      [
+        {
+          "form": "poněktorojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "poněktorom",
+        },
+      ],
+      [
+        {
+          "form": "poněktoroj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "poněktory",
+        },
+      ],
+      [
+        {
+          "form": "poněktoro",
+        },
+      ],
+      [
+        {
+          "form": "poněktora",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 35113 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "poněkojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "poněkoje",
+        },
+      ],
+      [
+        {
+          "form": "poněkoje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "poněkojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "poněkojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "poněkojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "poněkojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "poněkoji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "poněkoje",
+        },
+      ],
+      [
+        {
+          "form": "poněkoje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "poněkojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "poněkoj",
+        },
+      ],
+      [
+        {
+          "form": "poněkoje",
+        },
+      ],
+      [
+        {
+          "form": "poněkojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "poněkojemu",
+        },
+      ],
+      [
+        {
+          "form": "poněkojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "poněkojego",
+        },
+      ],
+      [
+        {
+          "form": "poněkojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "poněkojim",
+        },
+      ],
+      [
+        {
+          "form": "poněkojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "poněkojem",
+        },
+      ],
+      [
+        {
+          "form": "poněkojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "poněkoj",
+        },
+      ],
+      [
+        {
+          "form": "poněkoje",
+        },
+      ],
+      [
+        {
+          "form": "poněkoja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun indefinite 36989 1`] = `null`;

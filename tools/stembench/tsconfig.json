@@ -1,0 +1,8 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    // Resolve sibling workspaces to their sources, like the bench itself does.
+    "customConditions": ["interslavic-source"]
+  }
+}

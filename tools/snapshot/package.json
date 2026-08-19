@@ -1,0 +1,19 @@
+{
+  "name": "@interslavic/dev-snapshot",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.mjs"
+    }
+  },
+  "license": "MIT",
+  "dependencies": {
+    "natural-compare": "^1.4.0",
+    "pretty-format": "^30.4.1"
+  }
+}

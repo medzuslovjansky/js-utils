@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - nouns 1 1`] = `
+"oko	oko	NOUN	n.	Case=Nom|Gender=Neut|Number=Sing
+oči	oko	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur
+očesa	oko	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur|Variant=Athematic
+oko	oko	NOUN	n.	Case=Acc|Gender=Neut|Number=Sing
+oči	oko	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur
+očesa	oko	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur|Variant=Athematic
+oka	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing
+očese	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing|Variant=Athematic
+očij	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur
+očes	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur|Variant=Athematic
+oku	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing
+očesi	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing|Variant=Athematic
+očah	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur
+očesah	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur|Variant=Athematic
+oku	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing
+očesi	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing|Variant=Athematic
+očam	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur
+očesam	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur|Variant=Athematic
+okom	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing
+očesem	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing|Variant=Athematic
+očami	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur
+očesami	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur|Variant=Athematic
+oko	oko	NOUN	n.	Case=Voc|Gender=Neut|Number=Sing
+oči	oko	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur
+očesa	oko	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur|Variant=Athematic"
+`;
+
+exports[`conllufy - nouns 1313 1`] = `
+"kamen	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Sing|Variant=Athematic
+kamenj	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Sing
+kameni	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Plur|Variant=Athematic
+kamenje	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Plur
+kamen	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Sing|Variant=Athematic
+kamenj	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Sing
+kameni	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Plur|Variant=Athematic
+kamenje	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Plur
+kamene	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Sing|Variant=Athematic
+kamenja	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Sing
+kamenev	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjev	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Plur
+kameni	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Sing|Variant=Athematic
+kamenju	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Sing
+kamenah	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjah	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Plur
+kameni	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Sing|Variant=Athematic
+kamenju	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Sing
+kamenam	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjam	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Plur
+kamenem	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Sing|Variant=Athematic
+kamenjem	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Sing
+kamenami	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjami	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Plur
+kamen	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Sing|Variant=Athematic
+kamenju	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Sing
+kameni	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Plur|Variant=Athematic
+kamenje	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Plur"
+`;
+
+exports[`conllufy - nouns 2155 1`] = `
+"pųť	pųť	NOUN	m./f.	Case=Nom|Gender=Masc|Number=Sing
+pųťe	pųť	NOUN	m./f.	Case=Nom|Gender=Masc|Number=Plur
+pųť	pųť	NOUN	m./f.	Case=Acc|Gender=Masc|Number=Sing
+pųťe	pųť	NOUN	m./f.	Case=Acc|Gender=Masc|Number=Plur
+pųťa	pųť	NOUN	m./f.	Case=Gen|Gender=Masc|Number=Sing
+pųťev	pųť	NOUN	m./f.	Case=Gen|Gender=Masc|Number=Plur
+pųťu	pųť	NOUN	m./f.	Case=Loc|Gender=Masc|Number=Sing
+pųťah	pųť	NOUN	m./f.	Case=Loc|Gender=Masc|Number=Plur
+pųťu	pųť	NOUN	m./f.	Case=Dat|Gender=Masc|Number=Sing
+pųťam	pųť	NOUN	m./f.	Case=Dat|Gender=Masc|Number=Plur
+pųťem	pųť	NOUN	m./f.	Case=Ins|Gender=Masc|Number=Sing
+pųťami	pųť	NOUN	m./f.	Case=Ins|Gender=Masc|Number=Plur
+pųťu	pųť	NOUN	m./f.	Case=Voc|Gender=Masc|Number=Sing
+pųťe	pųť	NOUN	m./f.	Case=Voc|Gender=Masc|Number=Plur
+pųť	pųť	NOUN	m./f.	Case=Nom|Gender=Fem|Number=Sing
+pųti	pųť	NOUN	m./f.	Case=Nom|Gender=Fem|Number=Plur
+pųť	pųť	NOUN	m./f.	Case=Acc|Gender=Fem|Number=Sing
+pųti	pųť	NOUN	m./f.	Case=Acc|Gender=Fem|Number=Plur
+pųti	pųť	NOUN	m./f.	Case=Gen|Gender=Fem|Number=Sing
+pųtij	pųť	NOUN	m./f.	Case=Gen|Gender=Fem|Number=Plur
+pųti	pųť	NOUN	m./f.	Case=Loc|Gender=Fem|Number=Sing
+pųťah	pųť	NOUN	m./f.	Case=Loc|Gender=Fem|Number=Plur
+pųti	pųť	NOUN	m./f.	Case=Dat|Gender=Fem|Number=Sing
+pųťam	pųť	NOUN	m./f.	Case=Dat|Gender=Fem|Number=Plur
+pųťjų	pųť	NOUN	m./f.	Case=Ins|Gender=Fem|Number=Sing
+pųťami	pųť	NOUN	m./f.	Case=Ins|Gender=Fem|Number=Plur
+pųti	pųť	NOUN	m./f.	Case=Voc|Gender=Fem|Number=Sing
+pųti	pųť	NOUN	m./f.	Case=Voc|Gender=Fem|Number=Plur"
+`;
+
+exports[`conllufy - nouns 2792 1`] = `
+"nebo	nebo	NOUN	n.	Case=Nom|Gender=Neut|Number=Sing
+neba	nebo	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur
+nebesa	nebo	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur|Variant=Athematic
+nebo	nebo	NOUN	n.	Case=Acc|Gender=Neut|Number=Sing
+neba	nebo	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur
+nebesa	nebo	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur|Variant=Athematic
+neba	nebo	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing
+nebese	nebo	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing|Variant=Athematic
+neb	nebo	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur
+nebes	nebo	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur|Variant=Athematic
+nebu	nebo	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing
+nebesi	nebo	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing|Variant=Athematic
+nebah	nebo	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur
+nebesah	nebo	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur|Variant=Athematic
+nebu	nebo	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing
+nebesi	nebo	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing|Variant=Athematic
+nebam	nebo	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur
+nebesam	nebo	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur|Variant=Athematic
+nebom	nebo	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing
+nebesem	nebo	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing|Variant=Athematic
+nebami	nebo	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur
+nebesami	nebo	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur|Variant=Athematic
+nebo	nebo	NOUN	n.	Case=Voc|Gender=Neut|Number=Sing
+neba	nebo	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur
+nebesa	nebo	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur|Variant=Athematic"
+`;
+
+exports[`conllufy - nouns 7404 1`] = `
+"bliznečky	bliznečky	NOUN	f.pl.	Case=Nom|Gender=Fem|Number=Ptan
+bliznečky	bliznečky	NOUN	f.pl.	Case=Acc|Gender=Fem|Number=Ptan
+blizneček	bliznečky	NOUN	f.pl.	Case=Gen|Gender=Fem|Number=Ptan
+bliznečkah	bliznečky	NOUN	f.pl.	Case=Loc|Gender=Fem|Number=Ptan
+bliznečkam	bliznečky	NOUN	f.pl.	Case=Dat|Gender=Fem|Number=Ptan
+bliznečkami	bliznečky	NOUN	f.pl.	Case=Ins|Gender=Fem|Number=Ptan
+bliznečky	bliznečky	NOUN	f.pl.	Case=Voc|Gender=Fem|Number=Ptan"
+`;
+
+exports[`conllufy - nouns 15074 1`] = `
+"telę	telę	NOUN	n.	Case=Nom|Gender=Neut|Number=Sing
+telęta	telę	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur
+telę	telę	NOUN	n.	Case=Acc|Gender=Neut|Number=Sing
+telęta	telę	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur
+telęte	telę	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing|Variant=Athematic
+telęta	telę	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing
+telęt	telę	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur
+telęti	telę	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing|Variant=Athematic
+telętu	telę	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing
+telętah	telę	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur
+telęti	telę	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing|Variant=Athematic
+telętu	telę	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing
+telętam	telę	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur
+telętem	telę	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing|Variant=Athematic
+telętom	telę	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing
+telętami	telę	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur
+telę	telę	NOUN	n.	Case=Voc|Gender=Neut|Number=Sing
+telęta	telę	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur"
+`;
+
+exports[`conllufy - nouns 16928 1`] = `
+"cŕkȯv	cŕkȯv	NOUN	f.	Case=Nom|Gender=Fem|Number=Sing
+cŕkvi	cŕkȯv	NOUN	f.	Case=Nom|Gender=Fem|Number=Plur
+cŕkȯv	cŕkȯv	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
+cŕkvi	cŕkȯv	NOUN	f.	Case=Acc|Gender=Fem|Number=Plur
+cŕkve	cŕkȯv	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing|Variant=Athematic
+cŕkvi	cŕkȯv	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing
+cŕkvij	cŕkȯv	NOUN	f.	Case=Gen|Gender=Fem|Number=Plur
+cŕkvi	cŕkȯv	NOUN	f.	Case=Loc|Gender=Fem|Number=Sing
+cŕkvah	cŕkȯv	NOUN	f.	Case=Loc|Gender=Fem|Number=Plur
+cŕkvi	cŕkȯv	NOUN	f.	Case=Dat|Gender=Fem|Number=Sing
+cŕkvam	cŕkȯv	NOUN	f.	Case=Dat|Gender=Fem|Number=Plur
+cŕkȯvjų	cŕkȯv	NOUN	f.	Case=Ins|Gender=Fem|Number=Sing
+cŕkvami	cŕkȯv	NOUN	f.	Case=Ins|Gender=Fem|Number=Plur
+cŕkȯv	cŕkȯv	NOUN	f.	Case=Voc|Gender=Fem|Number=Sing
+cŕkvi	cŕkȯv	NOUN	f.	Case=Voc|Gender=Fem|Number=Plur"
+`;
+
+exports[`conllufy - nouns 17770 1`] = `
+"mati	mati	NOUN	f.	Case=Nom|Gender=Fem|Number=Sing
+materi	mati	NOUN	f.	Case=Nom|Gender=Fem|Number=Plur
+mati	mati	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
+materi	mati	NOUN	f.	Case=Acc|Gender=Fem|Number=Plur
+matere	mati	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing|Variant=Athematic
+materi	mati	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing
+materij	mati	NOUN	f.	Case=Gen|Gender=Fem|Number=Plur
+materi	mati	NOUN	f.	Case=Loc|Gender=Fem|Number=Sing
+materah	mati	NOUN	f.	Case=Loc|Gender=Fem|Number=Plur
+materi	mati	NOUN	f.	Case=Dat|Gender=Fem|Number=Sing
+materam	mati	NOUN	f.	Case=Dat|Gender=Fem|Number=Plur
+materjų	mati	NOUN	f.	Case=Ins|Gender=Fem|Number=Sing
+materami	mati	NOUN	f.	Case=Ins|Gender=Fem|Number=Plur
+mati	mati	NOUN	f.	Case=Voc|Gender=Fem|Number=Sing
+materi	mati	NOUN	f.	Case=Voc|Gender=Fem|Number=Plur"
+`;
+
+exports[`conllufy - nouns 20837 1`] = `
+"žȯlv	žȯlv	NOUN	f.	Case=Nom|Gender=Fem|Number=Sing
+žȯlvi	žȯlv	NOUN	f.	Case=Nom|Gender=Fem|Number=Plur
+žȯlv	žȯlv	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
+žȯlvi	žȯlv	NOUN	f.	Case=Acc|Gender=Fem|Number=Plur
+žȯlve	žȯlv	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing|Variant=Athematic
+žȯlvi	žȯlv	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing
+žȯlvij	žȯlv	NOUN	f.	Case=Gen|Gender=Fem|Number=Plur
+žȯlvi	žȯlv	NOUN	f.	Case=Loc|Gender=Fem|Number=Sing
+žȯlvah	žȯlv	NOUN	f.	Case=Loc|Gender=Fem|Number=Plur
+žȯlvi	žȯlv	NOUN	f.	Case=Dat|Gender=Fem|Number=Sing
+žȯlvam	žȯlv	NOUN	f.	Case=Dat|Gender=Fem|Number=Plur
+žȯlvjų	žȯlv	NOUN	f.	Case=Ins|Gender=Fem|Number=Sing
+žȯlvami	žȯlv	NOUN	f.	Case=Ins|Gender=Fem|Number=Plur
+žȯlv	žȯlv	NOUN	f.	Case=Voc|Gender=Fem|Number=Sing
+žȯlvi	žȯlv	NOUN	f.	Case=Voc|Gender=Fem|Number=Plur"
+`;
+
+exports[`conllufy - nouns 22830 1`] = `
+"znajema	znajema	NOUN	f.	Case=Nom|Gender=Fem|Number=Sing
+znajeme	znajema	NOUN	f.	Case=Nom|Gender=Fem|Number=Plur
+znajemo	znajema	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
+znajeme	znajema	NOUN	f.	Case=Acc|Gender=Fem|Number=Plur
+znajemoj	znajema	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing
+znajemyh	znajema	NOUN	f.	Case=Gen|Gender=Fem|Number=Plur
+znajemoj	znajema	NOUN	f.	Case=Loc|Gender=Fem|Number=Sing
+znajemyh	znajema	NOUN	f.	Case=Loc|Gender=Fem|Number=Plur
+znajemoj	znajema	NOUN	f.	Case=Dat|Gender=Fem|Number=Sing
+znajemym	znajema	NOUN	f.	Case=Dat|Gender=Fem|Number=Plur
+znajemojų	znajema	NOUN	f.	Case=Ins|Gender=Fem|Number=Sing
+znajemymi	znajema	NOUN	f.	Case=Ins|Gender=Fem|Number=Plur
+znajema	znajema	NOUN	f.	Case=Voc|Gender=Fem|Number=Sing
+znajeme	znajema	NOUN	f.	Case=Voc|Gender=Fem|Number=Plur"
+`;
+
+exports[`conllufy - nouns 24047 1`] = `
+"absint	absint	NOUN	m.sg.	Case=Nom|Gender=Masc|Number=Sing
+absint	absint	NOUN	m.sg.	Case=Acc|Gender=Masc|Number=Sing
+absinta	absint	NOUN	m.sg.	Case=Gen|Gender=Masc|Number=Sing
+absintu	absint	NOUN	m.sg.	Case=Loc|Gender=Masc|Number=Sing
+absintu	absint	NOUN	m.sg.	Case=Dat|Gender=Masc|Number=Sing
+absintom	absint	NOUN	m.sg.	Case=Ins|Gender=Masc|Number=Sing
+absinte	absint	NOUN	m.sg.	Case=Voc|Gender=Masc|Number=Sing"
+`;
+
+exports[`conllufy - nouns 37082 1`] = `
+"Vltava	Vltava	PROPN	f.sg.	Case=Nom|Gender=Fem|Number=Sing
+Vltavų	Vltava	PROPN	f.sg.	Case=Acc|Gender=Fem|Number=Sing
+Vltavy	Vltava	PROPN	f.sg.	Case=Gen|Gender=Fem|Number=Sing
+Vltavě	Vltava	PROPN	f.sg.	Case=Loc|Gender=Fem|Number=Sing
+Vltavě	Vltava	PROPN	f.sg.	Case=Dat|Gender=Fem|Number=Sing
+Vltavojų	Vltava	PROPN	f.sg.	Case=Ins|Gender=Fem|Number=Sing
+Vltavo	Vltava	PROPN	f.sg.	Case=Voc|Gender=Fem|Number=Sing"
+`;

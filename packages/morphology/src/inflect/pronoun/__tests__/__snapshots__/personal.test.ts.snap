@@ -1,0 +1,5923 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun personal 73 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 675 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 716 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 792 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 982 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1183 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1507 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1553 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1602 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1629 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1816 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 1871 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 1935 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 2150 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2219 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "samyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "same",
+        },
+      ],
+      [
+        {
+          "form": "same",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "samym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "samyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "samymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "samyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "sami",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "same",
+        },
+      ],
+      [
+        {
+          "form": "same",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "samogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "sam",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "samogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "samo",
+        },
+      ],
+      [
+        {
+          "form": "samų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "samomu",
+        },
+      ],
+      [
+        {
+          "form": "samomu",
+        },
+      ],
+      [
+        {
+          "form": "samoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "samogo",
+        },
+      ],
+      [
+        {
+          "form": "samogo",
+        },
+      ],
+      [
+        {
+          "form": "samoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "samym",
+        },
+      ],
+      [
+        {
+          "form": "samym",
+        },
+      ],
+      [
+        {
+          "form": "samojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "samom",
+        },
+      ],
+      [
+        {
+          "form": "samom",
+        },
+      ],
+      [
+        {
+          "form": "samoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "sam",
+        },
+      ],
+      [
+        {
+          "form": "samo",
+        },
+      ],
+      [
+        {
+          "form": "sama",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2413 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 2603 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2722 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 2771 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2821 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 2925 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 3015 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 4803 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4804 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "mene",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mę",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mně",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mi",
+        },
+      ],
+      [
+        {
+          "form": "nam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mene",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mnojų",
+        },
+      ],
+      [
+        {
+          "form": "nami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mně",
+        },
+      ],
+      [
+        {
+          "form": "nas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ja",
+        },
+      ],
+      [
+        {
+          "form": "my",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4805 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4809 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "tebe",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "tę",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tobě",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "ti",
+        },
+      ],
+      [
+        {
+          "form": "vam",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tebe",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tobojų",
+        },
+      ],
+      [
+        {
+          "form": "vami",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tobě",
+        },
+      ],
+      [
+        {
+          "form": "vas",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ty",
+        },
+      ],
+      [
+        {
+          "form": "vy",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "singular",
+    "plural",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun personal 4815 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 14576 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 14717 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun personal 35621 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "je",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jih",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimi",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "go",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemu",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemu",
+        },
+        {
+          "feats": {
+            "Variant": "Short",
+          },
+          "form": "mu",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jego",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njego",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jej",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jim",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njim",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejų",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njem",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "on",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - adverbs 120 1`] = `"kȯgda-nebųď	kȯgda-nebųď	ADV	adv.	Degree=Pos"`;
+
+exports[`conllufy - adverbs 6123 1`] = `"absolutno	absolutno	ADV	adv.	Degree=Pos"`;
+
+exports[`conllufy - adverbs 6123 2`] = `"lěpje	lěpje	ADV	adv.comp.	Degree=Cmp"`;
+
+exports[`conllufy - adverbs 6123 3`] = `"najlěpje	najlěpje	ADV	adv.sup.	Degree=Sup"`;
+
+exports[`conllufy - adverbs 16921 1`] = `"aktivno	aktivno	ADV	adv.	Degree=Pos"`;
+
+exports[`conllufy - adverbs 19603 1`] = `"kdekoli	kdekoli	ADV	adv.	Degree=Pos"`;

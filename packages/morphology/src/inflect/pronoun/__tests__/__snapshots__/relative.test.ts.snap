@@ -1,0 +1,638 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun relative 2643 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktoryh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore",
+        },
+      ],
+      [
+        {
+          "form": "ktore",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktorym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktoryh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktoryh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktori",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore",
+        },
+      ],
+      [
+        {
+          "form": "ktore",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktorogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktory",
+        },
+      ],
+      [
+        {
+          "form": "ktoro",
+        },
+      ],
+      [
+        {
+          "form": "ktorų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktoromu",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktorogo",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorym",
+        },
+      ],
+      [
+        {
+          "form": "ktorojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktorom",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ktory",
+        },
+      ],
+      [
+        {
+          "form": "ktoro",
+        },
+      ],
+      [
+        {
+          "form": "ktora",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun relative 5694 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "koji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koj",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "kojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojemu",
+        },
+      ],
+      [
+        {
+          "form": "kojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojego",
+        },
+      ],
+      [
+        {
+          "form": "kojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojim",
+        },
+      ],
+      [
+        {
+          "form": "kojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojem",
+        },
+      ],
+      [
+        {
+          "form": "kojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "koj",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "koja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun relative 8172 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Npr",
+          },
+          "form": "jihže",
+        },
+        {
+          "feats": {
+            "Animacy": "Anim",
+            "PrepCase": "Pre",
+          },
+          "form": "njihže",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Npr",
+          },
+          "form": "ježe",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+            "PrepCase": "Pre",
+          },
+          "form": "nježe",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "ježe",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "nježe",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimže",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jihže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njihže",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimiže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimiže",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njihže",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "iže",
+        },
+      ],
+      [
+        {
+          "form": "iže",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jegože",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njegože",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jegože",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njegože",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jųže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njųže",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jemuže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemuže",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejže",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jegože",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njegože",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejže",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jimže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njimže",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Npr",
+          },
+          "form": "jejųže",
+        },
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejųže",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njemže",
+        },
+      ],
+      [
+        {
+          "feats": {
+            "PrepCase": "Pre",
+          },
+          "form": "njejže",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "iže",
+        },
+      ],
+      [
+        {
+          "form": "iže",
+        },
+      ],
+      [
+        {
+          "form": "iže",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;

@@ -1,0 +1,502 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun interrogative 143 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "kogo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "komu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kogo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kym",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kom",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun interrogative 3019 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "kogo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "komu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kogo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kym",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kom",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "kto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun interrogative 4189 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktoryh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore",
+        },
+      ],
+      [
+        {
+          "form": "ktore",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktorym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktoryh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktoryh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktori",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktore",
+        },
+      ],
+      [
+        {
+          "form": "ktore",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ktorogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ktory",
+        },
+      ],
+      [
+        {
+          "form": "ktoro",
+        },
+      ],
+      [
+        {
+          "form": "ktorų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ktoromu",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ktorogo",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ktorym",
+        },
+      ],
+      [
+        {
+          "form": "ktorojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ktorom",
+        },
+      ],
+      [
+        {
+          "form": "ktoroj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ktory",
+        },
+      ],
+      [
+        {
+          "form": "ktoro",
+        },
+      ],
+      [
+        {
+          "form": "ktora",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun interrogative 5693 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "koji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "kojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "koj",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "kojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "kojemu",
+        },
+      ],
+      [
+        {
+          "form": "kojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "kojego",
+        },
+      ],
+      [
+        {
+          "form": "kojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "kojim",
+        },
+      ],
+      [
+        {
+          "form": "kojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "kojem",
+        },
+      ],
+      [
+        {
+          "form": "kojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "koj",
+        },
+      ],
+      [
+        {
+          "form": "koje",
+        },
+      ],
+      [
+        {
+          "form": "koja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun interrogative 19670 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "čto",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čemu",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čego",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čim",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čem",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čto",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "Word Form",
+  ],
+  "type": "noun",
+}
+`;

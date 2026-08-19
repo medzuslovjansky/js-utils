@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    // Resolves @interslavic/translit to its sources, like the tests do.
+    "customConditions": ["interslavic-source"],
+    // Unicode property escapes in the trimmer and the separator.
+    "lib": ["es2021", "dom"]
+  },
+  "exclude": ["dist", "**/*.test.ts"]
+}

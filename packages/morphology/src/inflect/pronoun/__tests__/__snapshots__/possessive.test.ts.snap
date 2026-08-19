@@ -1,0 +1,2725 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun possessive 190 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijih-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čije-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čije-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijim-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijih-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijimi-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijih-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čiji-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čije-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čije-nebųď",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijego-nebųď",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čij-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čije-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čijų-nebųď",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijemu-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čijej-nebųď",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijego-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čijej-nebųď",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijim-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čijejų-nebųď",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijem-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čijej-nebųď",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čij-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čije-nebųď",
+        },
+      ],
+      [
+        {
+          "form": "čija-nebųď",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 512 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "jego",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jego",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jego",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jego",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jego",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "jego",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun possessive 920 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "mojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "moje",
+        },
+      ],
+      [
+        {
+          "form": "moje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "moji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "moje",
+        },
+      ],
+      [
+        {
+          "form": "moje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "mojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "moj",
+        },
+      ],
+      [
+        {
+          "form": "moje",
+        },
+      ],
+      [
+        {
+          "form": "mojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "mojemu",
+        },
+      ],
+      [
+        {
+          "form": "mojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "mojego",
+        },
+      ],
+      [
+        {
+          "form": "mojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "mojim",
+        },
+      ],
+      [
+        {
+          "form": "mojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "mojem",
+        },
+      ],
+      [
+        {
+          "form": "mojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "moj",
+        },
+      ],
+      [
+        {
+          "form": "moje",
+        },
+      ],
+      [
+        {
+          "form": "moja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 993 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ničijih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ničije",
+        },
+      ],
+      [
+        {
+          "form": "ničije",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ničijim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ničijih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ničijimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ničijih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ničiji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ničije",
+        },
+      ],
+      [
+        {
+          "form": "ničije",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ničijego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ničij",
+        },
+      ],
+      [
+        {
+          "form": "ničije",
+        },
+      ],
+      [
+        {
+          "form": "ničijų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ničijemu",
+        },
+      ],
+      [
+        {
+          "form": "ničijej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ničijego",
+        },
+      ],
+      [
+        {
+          "form": "ničijej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ničijim",
+        },
+      ],
+      [
+        {
+          "form": "ničijejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ničijem",
+        },
+      ],
+      [
+        {
+          "form": "ničijej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ničij",
+        },
+      ],
+      [
+        {
+          "form": "ničije",
+        },
+      ],
+      [
+        {
+          "form": "ničija",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1099 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "svojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "svoje",
+        },
+      ],
+      [
+        {
+          "form": "svoje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "svojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "svojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "svojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "svojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "svoji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "svoje",
+        },
+      ],
+      [
+        {
+          "form": "svoje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "svojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "svoj",
+        },
+      ],
+      [
+        {
+          "form": "svoje",
+        },
+      ],
+      [
+        {
+          "form": "svojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "svojemu",
+        },
+      ],
+      [
+        {
+          "form": "svojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "svojego",
+        },
+      ],
+      [
+        {
+          "form": "svojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "svojim",
+        },
+      ],
+      [
+        {
+          "form": "svojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "svojem",
+        },
+      ],
+      [
+        {
+          "form": "svojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "svoj",
+        },
+      ],
+      [
+        {
+          "form": "svoje",
+        },
+      ],
+      [
+        {
+          "form": "svoja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1179 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čije",
+        },
+      ],
+      [
+        {
+          "form": "čije",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čiji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čije",
+        },
+      ],
+      [
+        {
+          "form": "čije",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čij",
+        },
+      ],
+      [
+        {
+          "form": "čije",
+        },
+      ],
+      [
+        {
+          "form": "čijų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijemu",
+        },
+      ],
+      [
+        {
+          "form": "čijej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijego",
+        },
+      ],
+      [
+        {
+          "form": "čijej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijim",
+        },
+      ],
+      [
+        {
+          "form": "čijejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijem",
+        },
+      ],
+      [
+        {
+          "form": "čijej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čij",
+        },
+      ],
+      [
+        {
+          "form": "čije",
+        },
+      ],
+      [
+        {
+          "form": "čija",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1319 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "inočijih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "inočije",
+        },
+      ],
+      [
+        {
+          "form": "inočije",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "inočijim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "inočijih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "inočijimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "inočijih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "inočiji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "inočije",
+        },
+      ],
+      [
+        {
+          "form": "inočije",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "inočijego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "inočij",
+        },
+      ],
+      [
+        {
+          "form": "inočije",
+        },
+      ],
+      [
+        {
+          "form": "inočijų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "inočijemu",
+        },
+      ],
+      [
+        {
+          "form": "inočijej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "inočijego",
+        },
+      ],
+      [
+        {
+          "form": "inočijej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "inočijim",
+        },
+      ],
+      [
+        {
+          "form": "inočijejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "inočijem",
+        },
+      ],
+      [
+        {
+          "form": "inočijej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "inočij",
+        },
+      ],
+      [
+        {
+          "form": "inočije",
+        },
+      ],
+      [
+        {
+          "form": "inočija",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1631 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vaših",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vaše",
+        },
+      ],
+      [
+        {
+          "form": "vaše",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vašim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vaših",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vašimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vaših",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vaši",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vaše",
+        },
+      ],
+      [
+        {
+          "form": "vaše",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "vašego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "vaš",
+        },
+      ],
+      [
+        {
+          "form": "vaše",
+        },
+      ],
+      [
+        {
+          "form": "vašų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "vašemu",
+        },
+      ],
+      [
+        {
+          "form": "vašej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "vašego",
+        },
+      ],
+      [
+        {
+          "form": "vašej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "vašim",
+        },
+      ],
+      [
+        {
+          "form": "vašejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "vašem",
+        },
+      ],
+      [
+        {
+          "form": "vašej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "vaš",
+        },
+      ],
+      [
+        {
+          "form": "vaše",
+        },
+      ],
+      [
+        {
+          "form": "vaša",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 1993 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "naših",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "naše",
+        },
+      ],
+      [
+        {
+          "form": "naše",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "našim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "naših",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "našimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "naših",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "naši",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "naše",
+        },
+      ],
+      [
+        {
+          "form": "naše",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "našego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "naš",
+        },
+      ],
+      [
+        {
+          "form": "naše",
+        },
+      ],
+      [
+        {
+          "form": "našų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "našemu",
+        },
+      ],
+      [
+        {
+          "form": "našej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "našego",
+        },
+      ],
+      [
+        {
+          "form": "našej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "našim",
+        },
+      ],
+      [
+        {
+          "form": "našejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "našem",
+        },
+      ],
+      [
+        {
+          "form": "našej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "naš",
+        },
+      ],
+      [
+        {
+          "form": "naše",
+        },
+      ],
+      [
+        {
+          "form": "naša",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 2195 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "jej",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jej",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "jej",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun possessive 2231 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tvojih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tvoje",
+        },
+      ],
+      [
+        {
+          "form": "tvoje",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tvojim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tvojih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tvojimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tvojih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tvoji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tvoje",
+        },
+      ],
+      [
+        {
+          "form": "tvoje",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tvojego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tvoj",
+        },
+      ],
+      [
+        {
+          "form": "tvoje",
+        },
+      ],
+      [
+        {
+          "form": "tvojų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tvojemu",
+        },
+      ],
+      [
+        {
+          "form": "tvojej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tvojego",
+        },
+      ],
+      [
+        {
+          "form": "tvojej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tvojim",
+        },
+      ],
+      [
+        {
+          "form": "tvojejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tvojem",
+        },
+      ],
+      [
+        {
+          "form": "tvojej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tvoj",
+        },
+      ],
+      [
+        {
+          "form": "tvoje",
+        },
+      ],
+      [
+        {
+          "form": "tvoja",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 2601 1`] = `
+{
+  "cases": {
+    "acc": [
+      [
+        {
+          "form": "jih",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jih",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jih",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "jih",
+        },
+      ],
+    ],
+  },
+  "columns": [
+    "wordForm",
+  ],
+  "type": "noun",
+}
+`;
+
+exports[`pronoun possessive 2772 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "něčijih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "něčije",
+        },
+      ],
+      [
+        {
+          "form": "něčije",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "něčijim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "něčijih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "něčijimi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "něčijih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "něčiji",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "něčije",
+        },
+      ],
+      [
+        {
+          "form": "něčije",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "něčijego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "něčij",
+        },
+      ],
+      [
+        {
+          "form": "něčije",
+        },
+      ],
+      [
+        {
+          "form": "něčijų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "něčijemu",
+        },
+      ],
+      [
+        {
+          "form": "něčijej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "něčijego",
+        },
+      ],
+      [
+        {
+          "form": "něčijej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "něčijim",
+        },
+      ],
+      [
+        {
+          "form": "něčijejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "něčijem",
+        },
+      ],
+      [
+        {
+          "form": "něčijej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "něčij",
+        },
+      ],
+      [
+        {
+          "form": "něčije",
+        },
+      ],
+      [
+        {
+          "form": "něčija",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 6256 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jegovyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jegove",
+        },
+      ],
+      [
+        {
+          "form": "jegove",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jegovym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jegovyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jegovymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jegovyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jegovi",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jegove",
+        },
+      ],
+      [
+        {
+          "form": "jegove",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jegovogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jegov",
+        },
+      ],
+      [
+        {
+          "form": "jegovo",
+        },
+      ],
+      [
+        {
+          "form": "jegovų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jegovomu",
+        },
+      ],
+      [
+        {
+          "form": "jegovoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jegovogo",
+        },
+      ],
+      [
+        {
+          "form": "jegovoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jegovym",
+        },
+      ],
+      [
+        {
+          "form": "jegovojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jegovom",
+        },
+      ],
+      [
+        {
+          "form": "jegovoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "jegov",
+        },
+      ],
+      [
+        {
+          "form": "jegovo",
+        },
+      ],
+      [
+        {
+          "form": "jegova",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 6257 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jejinyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jejine",
+        },
+      ],
+      [
+        {
+          "form": "jejine",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jejinym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jejinyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jejinymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jejinyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jejini",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jejine",
+        },
+      ],
+      [
+        {
+          "form": "jejine",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jejinogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jejin",
+        },
+      ],
+      [
+        {
+          "form": "jejino",
+        },
+      ],
+      [
+        {
+          "form": "jejinų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jejinomu",
+        },
+      ],
+      [
+        {
+          "form": "jejinoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jejinogo",
+        },
+      ],
+      [
+        {
+          "form": "jejinoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jejinym",
+        },
+      ],
+      [
+        {
+          "form": "jejinojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jejinom",
+        },
+      ],
+      [
+        {
+          "form": "jejinoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "jejin",
+        },
+      ],
+      [
+        {
+          "form": "jejino",
+        },
+      ],
+      [
+        {
+          "form": "jejina",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 6258 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jihnyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jihne",
+        },
+      ],
+      [
+        {
+          "form": "jihne",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jihnym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jihnyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jihnymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jihnyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jihni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jihne",
+        },
+      ],
+      [
+        {
+          "form": "jihne",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "jihnogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "jihny",
+        },
+      ],
+      [
+        {
+          "form": "jihno",
+        },
+      ],
+      [
+        {
+          "form": "jihnų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "jihnomu",
+        },
+      ],
+      [
+        {
+          "form": "jihnoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "jihnogo",
+        },
+      ],
+      [
+        {
+          "form": "jihnoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "jihnym",
+        },
+      ],
+      [
+        {
+          "form": "jihnojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "jihnom",
+        },
+      ],
+      [
+        {
+          "form": "jihnoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "jihny",
+        },
+      ],
+      [
+        {
+          "form": "jihno",
+        },
+      ],
+      [
+        {
+          "form": "jihna",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 14496 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijih-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čije-libo",
+        },
+      ],
+      [
+        {
+          "form": "čije-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijim-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijih-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijimi-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijih-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čiji-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čije-libo",
+        },
+      ],
+      [
+        {
+          "form": "čije-libo",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijego-libo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čij-libo",
+        },
+      ],
+      [
+        {
+          "form": "čije-libo",
+        },
+      ],
+      [
+        {
+          "form": "čijų-libo",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijemu-libo",
+        },
+      ],
+      [
+        {
+          "form": "čijej-libo",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijego-libo",
+        },
+      ],
+      [
+        {
+          "form": "čijej-libo",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijim-libo",
+        },
+      ],
+      [
+        {
+          "form": "čijejų-libo",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijem-libo",
+        },
+      ],
+      [
+        {
+          "form": "čijej-libo",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čij-libo",
+        },
+      ],
+      [
+        {
+          "form": "čije-libo",
+        },
+      ],
+      [
+        {
+          "form": "čija-libo",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun possessive 19601 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijihkoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čijekoli",
+        },
+      ],
+      [
+        {
+          "form": "čijekoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijimkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijihkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijimikoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijihkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijikoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čijekoli",
+        },
+      ],
+      [
+        {
+          "form": "čijekoli",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "čijegokoli",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "čijkoli",
+        },
+      ],
+      [
+        {
+          "form": "čijekoli",
+        },
+      ],
+      [
+        {
+          "form": "čijųkoli",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "čijemukoli",
+        },
+      ],
+      [
+        {
+          "form": "čijejkoli",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "čijegokoli",
+        },
+      ],
+      [
+        {
+          "form": "čijejkoli",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "čijimkoli",
+        },
+      ],
+      [
+        {
+          "form": "čijejųkoli",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "čijemkoli",
+        },
+      ],
+      [
+        {
+          "form": "čijejkoli",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "čijkoli",
+        },
+      ],
+      [
+        {
+          "form": "čijekoli",
+        },
+      ],
+      [
+        {
+          "form": "čijakoli",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;

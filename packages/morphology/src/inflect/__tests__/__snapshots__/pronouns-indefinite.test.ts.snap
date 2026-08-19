@@ -1,0 +1,696 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - pronouns (indefinite) 4 1`] = `
+"nikto	nikto	PRON	pron.indef.	Case=Nom|PronType=Neg
+nikogo	nikto	PRON	pron.indef.	Case=Acc|PronType=Neg
+nikogo	nikto	PRON	pron.indef.	Case=Gen|PronType=Neg
+nikom	nikto	PRON	pron.indef.	Case=Loc|PronType=Neg
+nikomu	nikto	PRON	pron.indef.	Case=Dat|PronType=Neg
+nikym	nikto	PRON	pron.indef.	Case=Ins|PronType=Neg"
+`;
+
+exports[`conllufy - pronouns (indefinite) 155 1`] = `
+"inokto	inokto	PRON	pron.indef.	Case=Nom|PronType=Ind
+inokogo	inokto	PRON	pron.indef.	Case=Acc|PronType=Ind
+inokogo	inokto	PRON	pron.indef.	Case=Gen|PronType=Ind
+inokom	inokto	PRON	pron.indef.	Case=Loc|PronType=Ind
+inokomu	inokto	PRON	pron.indef.	Case=Dat|PronType=Ind
+inokym	inokto	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 307 1`] = `
+"inočto	inočto	PRON	pron.indef.	Case=Nom|PronType=Ind
+inočto	inočto	PRON	pron.indef.	Case=Acc|PronType=Ind
+inočego	inočto	PRON	pron.indef.	Case=Gen|PronType=Ind
+inočem	inočto	PRON	pron.indef.	Case=Loc|PronType=Ind
+inočemu	inočto	PRON	pron.indef.	Case=Dat|PronType=Ind
+inočim	inočto	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 322 1`] = `
+"kto-nebųď	kto-nebųď	PRON	pron.indef.	Case=Nom|PronType=Ind
+kogo-nebųď	kto-nebųď	PRON	pron.indef.	Case=Acc|PronType=Ind
+kogo-nebųď	kto-nebųď	PRON	pron.indef.	Case=Gen|PronType=Ind
+kom-nebųď	kto-nebųď	PRON	pron.indef.	Case=Loc|PronType=Ind
+komu-nebųď	kto-nebųď	PRON	pron.indef.	Case=Dat|PronType=Ind
+kym-nebųď	kto-nebųď	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 1454 1`] = `
+"kaky	kaky	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+kako	kaky	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+kaka	kaky	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+kakogo	kaky	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kaky	kaky	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kako	kaky	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+kakų	kaky	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+kakogo	kaky	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+kakogo	kaky	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+kakoj	kaky	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+kakom	kaky	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+kakom	kaky	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+kakoj	kaky	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+kakomu	kaky	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+kakomu	kaky	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+kakoj	kaky	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+kakym	kaky	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+kakym	kaky	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+kakojų	kaky	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+kaki	kaky	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kake	kaky	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kake	kaky	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+kake	kaky	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+kakyh	kaky	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kake	kaky	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kake	kaky	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+kake	kaky	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+kakyh	kaky	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+kakyh	kaky	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+kakym	kaky	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+kakymi	kaky	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 1675 1`] = `
+"vsečto	vsečto	PRON	pron.indef.	Case=Nom|PronType=Ind
+vsečto	vsečto	PRON	pron.indef.	Case=Acc|PronType=Ind
+vsečego	vsečto	PRON	pron.indef.	Case=Gen|PronType=Ind
+vsečem	vsečto	PRON	pron.indef.	Case=Loc|PronType=Ind
+vsečemu	vsečto	PRON	pron.indef.	Case=Dat|PronType=Ind
+vsečim	vsečto	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 1676 1`] = `
+"vėś	vėś	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+vśa	vėś	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+vsego	vėś	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+vėś	vėś	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+vśų	vėś	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+vsego	vėś	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+vsego	vėś	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+vsej	vėś	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+vsem	vėś	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+vsem	vėś	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+vsej	vėś	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+vsemu	vėś	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+vsemu	vėś	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+vsej	vėś	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+vsim	vėś	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+vsim	vėś	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+vsejų	vėś	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+vsi	vėś	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+vsih	vėś	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+vsih	vėś	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+vsih	vėś	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+vsim	vėś	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+vsimi	vėś	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 1786 1`] = `
+"čto-nebųď	čto-nebųď	PRON	pron.indef.	Case=Nom|PronType=Ind
+čto-nebųď	čto-nebųď	PRON	pron.indef.	Case=Acc|PronType=Ind
+čego-nebųď	čto-nebųď	PRON	pron.indef.	Case=Gen|PronType=Ind
+čem-nebųď	čto-nebųď	PRON	pron.indef.	Case=Loc|PronType=Ind
+čemu-nebųď	čto-nebųď	PRON	pron.indef.	Case=Dat|PronType=Ind
+čim-nebųď	čto-nebųď	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 1823 1`] = `
+"vsekto	vsekto	PRON	pron.indef.	Case=Nom|PronType=Ind
+vsekogo	vsekto	PRON	pron.indef.	Case=Acc|PronType=Ind
+vsekogo	vsekto	PRON	pron.indef.	Case=Gen|PronType=Ind
+vsekom	vsekto	PRON	pron.indef.	Case=Loc|PronType=Ind
+vsekomu	vsekto	PRON	pron.indef.	Case=Dat|PronType=Ind
+vsekym	vsekto	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 2711 1`] = `
+"kaky-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+kako-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+kaka-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+kakogo-nebųď	kaky-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kaky-nebųď	kaky-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kako-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+kakų-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+kakogo-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+kakogo-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+kakoj-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+kakom-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+kakom-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+kakoj-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+kakomu-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+kakomu-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+kakoj-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+kakym-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+kakym-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+kakojų-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+kaki-nebųď	kaky-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kake-nebųď	kaky-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kake-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+kake-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+kakyh-nebųď	kaky-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kake-nebųď	kaky-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kake-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+kake-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+kakyh-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+kakyh-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+kakym-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+kakymi-nebųď	kaky-nebųď	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 2954 1`] = `
+"ktory-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+ktoro-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+ktora-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+ktorogo-nebųď	ktory-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+ktory-nebųď	ktory-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+ktoro-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+ktorų-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+ktorogo-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+ktorogo-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+ktoroj-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+ktorom-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+ktorom-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+ktoroj-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+ktoromu-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+ktoromu-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+ktoroj-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+ktorym-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+ktorym-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+ktorojų-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+ktori-nebųď	ktory-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+ktore-nebųď	ktory-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+ktore-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+ktore-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+ktoryh-nebųď	ktory-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+ktore-nebųď	ktory-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+ktore-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+ktore-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+ktoryh-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+ktoryh-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+ktorym-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+ktorymi-nebųď	ktory-nebųď	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 3098 1`] = `
+"vėś	vėś	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+vśa	vėś	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+vsego	vėś	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+vėś	vėś	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+vśų	vėś	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+vsego	vėś	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+vsego	vėś	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+vsej	vėś	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+vsem	vėś	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+vsem	vėś	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+vsej	vėś	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+vsemu	vėś	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+vsemu	vėś	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+vsej	vėś	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+vsim	vėś	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+vsim	vėś	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+vsejų	vėś	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+vsi	vėś	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+vsih	vėś	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+vse	vėś	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+vsih	vėś	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+vsih	vėś	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+vsim	vėś	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+vsimi	vėś	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 3344 1`] = `
+"nijedin	nijedin	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg
+nijedno	nijedin	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg
+nijedna	nijedin	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg
+nijednogo	nijedin	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg
+nijedin	nijedin	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg
+nijedno	nijedin	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg
+nijednų	nijedin	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg
+nijednogo	nijedin	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Neg
+nijednogo	nijedin	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg
+nijednoj	nijedin	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Neg
+nijednom	nijedin	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Neg
+nijednom	nijedin	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Neg
+nijednoj	nijedin	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Neg
+nijednomu	nijedin	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Neg
+nijednomu	nijedin	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Neg
+nijednoj	nijedin	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Neg
+nijednym	nijedin	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Neg
+nijednym	nijedin	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Neg
+nijednojų	nijedin	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Neg
+nijedni	nijedin	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Neg
+nijedne	nijedin	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Neg
+nijedne	nijedin	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Neg
+nijedne	nijedin	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg
+nijednyh	nijedin	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Neg
+nijedne	nijedin	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Neg
+nijedne	nijedin	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Neg
+nijedne	nijedin	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg
+nijednyh	nijedin	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Neg
+nijednyh	nijedin	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Neg
+nijednym	nijedin	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Neg
+nijednymi	nijedin	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Neg"
+`;
+
+exports[`conllufy - pronouns (indefinite) 4082 1`] = `
+"někto	někto	PRON	pron.indef.	Case=Nom|PronType=Ind
+někogo	někto	PRON	pron.indef.	Case=Acc|PronType=Ind
+někogo	někto	PRON	pron.indef.	Case=Gen|PronType=Ind
+někom	někto	PRON	pron.indef.	Case=Loc|PronType=Ind
+někomu	někto	PRON	pron.indef.	Case=Dat|PronType=Ind
+někym	někto	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 5695 1`] = `
+"koj-nebųď	koj-nebųď	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+koja-nebųď	koj-nebųď	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+kojego-nebųď	koj-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+koj-nebųď	koj-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+kojų-nebųď	koj-nebųď	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+kojego-nebųď	koj-nebųď	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+kojego-nebųď	koj-nebųď	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+kojej-nebųď	koj-nebųď	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+kojem-nebųď	koj-nebųď	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+kojem-nebųď	koj-nebųď	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+kojej-nebųď	koj-nebųď	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+kojemu-nebųď	koj-nebųď	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+kojemu-nebųď	koj-nebųď	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+kojej-nebųď	koj-nebųď	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+kojim-nebųď	koj-nebųď	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+kojim-nebųď	koj-nebųď	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+kojejų-nebųď	koj-nebųď	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+koji-nebųď	koj-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+kojih-nebųď	koj-nebųď	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+koje-nebųď	koj-nebųď	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+kojih-nebųď	koj-nebųď	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+kojih-nebųď	koj-nebųď	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+kojim-nebųď	koj-nebųď	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+kojimi-nebųď	koj-nebųď	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 5696 1`] = `
+"někoj	někoj	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+někoja	někoj	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+někojego	někoj	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+někoj	někoj	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+někojų	někoj	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+někojego	někoj	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+někojego	někoj	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+někojej	někoj	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+někojem	někoj	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+někojem	někoj	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+někojej	někoj	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+někojemu	někoj	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+někojemu	někoj	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+někojej	někoj	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+někojim	někoj	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+někojim	někoj	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+někojejų	někoj	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+někoji	někoj	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+někojih	někoj	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+někoje	někoj	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+někojih	někoj	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+někojih	někoj	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+někojim	někoj	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+někojimi	někoj	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 14327 1`] = `
+"žadėn	žadėn	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Neg
+žadno	žadėn	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Neg
+žadna	žadėn	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg
+žadnogo	žadėn	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg
+žadėn	žadėn	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Neg
+žadno	žadėn	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg
+žadnų	žadėn	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg
+žadnogo	žadėn	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Neg
+žadnogo	žadėn	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Neg
+žadnoj	žadėn	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Neg
+žadnom	žadėn	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Neg
+žadnom	žadėn	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Neg
+žadnoj	žadėn	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Neg
+žadnomu	žadėn	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Neg
+žadnomu	žadėn	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Neg
+žadnoj	žadėn	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Neg
+žadnym	žadėn	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Neg
+žadnym	žadėn	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Neg
+žadnojų	žadėn	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Neg
+žadni	žadėn	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Neg
+žadne	žadėn	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Neg
+žadne	žadėn	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Neg
+žadne	žadėn	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Neg
+žadnyh	žadėn	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Neg
+žadne	žadėn	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Neg
+žadne	žadėn	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Neg
+žadne	žadėn	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Neg
+žadnyh	žadėn	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Neg
+žadnyh	žadėn	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Neg
+žadnym	žadėn	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Neg
+žadnymi	žadėn	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Neg"
+`;
+
+exports[`conllufy - pronouns (indefinite) 14502 1`] = `
+"čto-libo	čto-libo	PRON	pron.indef.	Case=Nom|PronType=Ind
+čto-libo	čto-libo	PRON	pron.indef.	Case=Acc|PronType=Ind
+čego-libo	čto-libo	PRON	pron.indef.	Case=Gen|PronType=Ind
+čem-libo	čto-libo	PRON	pron.indef.	Case=Loc|PronType=Ind
+čemu-libo	čto-libo	PRON	pron.indef.	Case=Dat|PronType=Ind
+čim-libo	čto-libo	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 14631 1`] = `
+"kaky-libo	kaky-libo	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+kako-libo	kaky-libo	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+kaka-libo	kaky-libo	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+kakogo-libo	kaky-libo	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kaky-libo	kaky-libo	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kako-libo	kaky-libo	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+kakų-libo	kaky-libo	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+kakogo-libo	kaky-libo	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+kakogo-libo	kaky-libo	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+kakoj-libo	kaky-libo	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+kakom-libo	kaky-libo	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+kakom-libo	kaky-libo	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+kakoj-libo	kaky-libo	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+kakomu-libo	kaky-libo	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+kakomu-libo	kaky-libo	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+kakoj-libo	kaky-libo	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+kakym-libo	kaky-libo	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+kakym-libo	kaky-libo	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+kakojų-libo	kaky-libo	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+kaki-libo	kaky-libo	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kake-libo	kaky-libo	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kake-libo	kaky-libo	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+kake-libo	kaky-libo	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+kakyh-libo	kaky-libo	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kake-libo	kaky-libo	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kake-libo	kaky-libo	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+kake-libo	kaky-libo	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+kakyh-libo	kaky-libo	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+kakyh-libo	kaky-libo	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+kakym-libo	kaky-libo	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+kakymi-libo	kaky-libo	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 14670 1`] = `
+"ktory-libo	ktory-libo	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+ktoro-libo	ktory-libo	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+ktora-libo	ktory-libo	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+ktorogo-libo	ktory-libo	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+ktory-libo	ktory-libo	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+ktoro-libo	ktory-libo	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+ktorų-libo	ktory-libo	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+ktorogo-libo	ktory-libo	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+ktorogo-libo	ktory-libo	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+ktoroj-libo	ktory-libo	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+ktorom-libo	ktory-libo	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+ktorom-libo	ktory-libo	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+ktoroj-libo	ktory-libo	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+ktoromu-libo	ktory-libo	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+ktoromu-libo	ktory-libo	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+ktoroj-libo	ktory-libo	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+ktorym-libo	ktory-libo	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+ktorym-libo	ktory-libo	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+ktorojų-libo	ktory-libo	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+ktori-libo	ktory-libo	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+ktore-libo	ktory-libo	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+ktore-libo	ktory-libo	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+ktore-libo	ktory-libo	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+ktoryh-libo	ktory-libo	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+ktore-libo	ktory-libo	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+ktore-libo	ktory-libo	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+ktore-libo	ktory-libo	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+ktoryh-libo	ktory-libo	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+ktoryh-libo	ktory-libo	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+ktorym-libo	ktory-libo	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+ktorymi-libo	ktory-libo	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 19602 1`] = `
+"čtokoli	čtokoli	PRON	pron.indef.	Case=Nom|PronType=Ind
+čtokoli	čtokoli	PRON	pron.indef.	Case=Acc|PronType=Ind
+čegokoli	čtokoli	PRON	pron.indef.	Case=Gen|PronType=Ind
+čemkoli	čtokoli	PRON	pron.indef.	Case=Loc|PronType=Ind
+čemukoli	čtokoli	PRON	pron.indef.	Case=Dat|PronType=Ind
+čimkoli	čtokoli	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 19605 1`] = `
+"kakykoli	kakykoli	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+kakokoli	kakykoli	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+kakakoli	kakykoli	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+kakogokoli	kakykoli	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kakykoli	kakykoli	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kakokoli	kakykoli	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+kakųkoli	kakykoli	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+kakogokoli	kakykoli	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+kakogokoli	kakykoli	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+kakojkoli	kakykoli	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+kakomkoli	kakykoli	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+kakomkoli	kakykoli	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+kakojkoli	kakykoli	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+kakomukoli	kakykoli	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+kakomukoli	kakykoli	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+kakojkoli	kakykoli	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+kakymkoli	kakykoli	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+kakymkoli	kakykoli	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+kakojųkoli	kakykoli	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+kakikoli	kakykoli	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kakekoli	kakykoli	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kakekoli	kakykoli	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+kakekoli	kakykoli	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+kakyhkoli	kakykoli	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kakekoli	kakykoli	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kakekoli	kakykoli	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+kakekoli	kakykoli	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+kakyhkoli	kakykoli	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+kakyhkoli	kakykoli	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+kakymkoli	kakykoli	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+kakymikoli	kakykoli	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 19614 1`] = `
+"ktorykoli	ktorykoli	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+ktorokoli	ktorykoli	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+ktorakoli	ktorykoli	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+ktorogokoli	ktorykoli	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+ktorykoli	ktorykoli	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+ktorokoli	ktorykoli	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+ktorųkoli	ktorykoli	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+ktorogokoli	ktorykoli	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+ktorogokoli	ktorykoli	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+ktorojkoli	ktorykoli	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+ktoromkoli	ktorykoli	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+ktoromkoli	ktorykoli	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+ktorojkoli	ktorykoli	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+ktoromukoli	ktorykoli	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+ktoromukoli	ktorykoli	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+ktorojkoli	ktorykoli	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+ktorymkoli	ktorykoli	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+ktorymkoli	ktorykoli	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+ktorojųkoli	ktorykoli	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+ktorikoli	ktorykoli	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+ktorekoli	ktorykoli	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+ktorekoli	ktorykoli	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+ktorekoli	ktorykoli	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+ktoryhkoli	ktorykoli	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+ktorekoli	ktorykoli	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+ktorekoli	ktorykoli	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+ktorekoli	ktorykoli	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+ktoryhkoli	ktorykoli	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+ktoryhkoli	ktorykoli	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+ktorymkoli	ktorykoli	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+ktorymikoli	ktorykoli	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 19882 1`] = `
+"něčto	něčto	PRON	pron.indef.	Case=Nom|PronType=Ind
+něčto	něčto	PRON	pron.indef.	Case=Acc|PronType=Ind
+něčego	něčto	PRON	pron.indef.	Case=Gen|PronType=Ind
+něčem	něčto	PRON	pron.indef.	Case=Loc|PronType=Ind
+něčemu	něčto	PRON	pron.indef.	Case=Dat|PronType=Ind
+něčim	něčto	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 19913 1`] = `
+"ničto	ničto	PRON	pron.indef.	Case=Nom|PronType=Neg
+ničto	ničto	PRON	pron.indef.	Case=Acc|PronType=Neg
+ničego	ničto	PRON	pron.indef.	Case=Gen|PronType=Neg
+ničem	ničto	PRON	pron.indef.	Case=Loc|PronType=Neg
+ničemu	ničto	PRON	pron.indef.	Case=Dat|PronType=Neg
+ničim	ničto	PRON	pron.indef.	Case=Ins|PronType=Neg"
+`;
+
+exports[`conllufy - pronouns (indefinite) 21315 1`] = `
+"kojkoli	kojkoli	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+kojakoli	kojkoli	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+kojegokoli	kojkoli	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kojkoli	kojkoli	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+kojųkoli	kojkoli	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+kojegokoli	kojkoli	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+kojegokoli	kojkoli	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+kojejkoli	kojkoli	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+kojemkoli	kojkoli	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+kojemkoli	kojkoli	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+kojejkoli	kojkoli	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+kojemukoli	kojkoli	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+kojemukoli	kojkoli	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+kojejkoli	kojkoli	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+kojimkoli	kojkoli	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+kojimkoli	kojkoli	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+kojejųkoli	kojkoli	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+kojikoli	kojkoli	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+kojihkoli	kojkoli	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+kojekoli	kojkoli	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+kojihkoli	kojkoli	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+kojihkoli	kojkoli	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+kojimkoli	kojkoli	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+kojimikoli	kojkoli	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 21322 1`] = `
+"ktokoli	ktokoli	PRON	pron.indef.	Case=Nom|PronType=Ind
+kogokoli	ktokoli	PRON	pron.indef.	Case=Acc|PronType=Ind
+kogokoli	ktokoli	PRON	pron.indef.	Case=Gen|PronType=Ind
+komkoli	ktokoli	PRON	pron.indef.	Case=Loc|PronType=Ind
+komukoli	ktokoli	PRON	pron.indef.	Case=Dat|PronType=Ind
+kymkoli	ktokoli	PRON	pron.indef.	Case=Ins|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 23790 1`] = `
+"veś	vsi	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Tot
+vse	vsi	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Tot
+vśa	vsi	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Tot
+vsego	vsi	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot
+veś	vsi	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Tot
+vse	vsi	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Tot
+vśų	vsi	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Tot
+vsego	vsi	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Tot
+vsego	vsi	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Tot
+vsej	vsi	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Tot
+vsem	vsi	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Tot
+vsem	vsi	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Tot
+vsej	vsi	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Tot
+vsemu	vsi	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Tot
+vsemu	vsi	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Tot
+vsej	vsi	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Tot
+vsim	vsi	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Tot
+vsim	vsi	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Tot
+vsejų	vsi	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Tot
+vsi	vsi	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot
+vse	vsi	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Tot
+vse	vsi	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Tot
+vse	vsi	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Tot
+vsih	vsi	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Tot
+vse	vsi	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Tot
+vse	vsi	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Tot
+vse	vsi	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Tot
+vsih	vsi	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Tot
+vsih	vsi	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Tot
+vsim	vsi	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Tot
+vsimi	vsi	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Tot"
+`;
+
+exports[`conllufy - pronouns (indefinite) 35112 1`] = `
+"poněktory	poněktory	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+poněktoro	poněktory	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+poněktora	poněktory	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+poněktorogo	poněktory	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+poněktory	poněktory	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+poněktoro	poněktory	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+poněktorų	poněktory	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+poněktorogo	poněktory	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+poněktorogo	poněktory	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+poněktoroj	poněktory	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+poněktorom	poněktory	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+poněktorom	poněktory	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+poněktoroj	poněktory	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+poněktoromu	poněktory	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+poněktoromu	poněktory	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+poněktoroj	poněktory	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+poněktorym	poněktory	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+poněktorym	poněktory	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+poněktorojų	poněktory	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+poněktori	poněktory	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+poněktore	poněktory	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+poněktore	poněktory	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+poněktore	poněktory	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+poněktoryh	poněktory	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+poněktore	poněktory	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+poněktore	poněktory	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+poněktore	poněktory	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+poněktoryh	poněktory	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+poněktoryh	poněktory	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+poněktorym	poněktory	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+poněktorymi	poněktory	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;
+
+exports[`conllufy - pronouns (indefinite) 35113 1`] = `
+"poněkoj	poněkoj	PRON	pron.indef.	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind
+poněkoja	poněkoj	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind
+poněkojego	poněkoj	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+poněkoj	poněkoj	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind
+poněkojų	poněkoj	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind
+poněkojego	poněkoj	PRON	pron.indef.	Case=Gen|Gender=Masc|Number=Sing|PronType=Ind
+poněkojego	poněkoj	PRON	pron.indef.	Case=Gen|Gender=Neut|Number=Sing|PronType=Ind
+poněkojej	poněkoj	PRON	pron.indef.	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind
+poněkojem	poněkoj	PRON	pron.indef.	Case=Loc|Gender=Masc|Number=Sing|PronType=Ind
+poněkojem	poněkoj	PRON	pron.indef.	Case=Loc|Gender=Neut|Number=Sing|PronType=Ind
+poněkojej	poněkoj	PRON	pron.indef.	Case=Loc|Gender=Fem|Number=Sing|PronType=Ind
+poněkojemu	poněkoj	PRON	pron.indef.	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind
+poněkojemu	poněkoj	PRON	pron.indef.	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind
+poněkojej	poněkoj	PRON	pron.indef.	Case=Dat|Gender=Fem|Number=Sing|PronType=Ind
+poněkojim	poněkoj	PRON	pron.indef.	Case=Ins|Gender=Masc|Number=Sing|PronType=Ind
+poněkojim	poněkoj	PRON	pron.indef.	Case=Ins|Gender=Neut|Number=Sing|PronType=Ind
+poněkojejų	poněkoj	PRON	pron.indef.	Case=Ins|Gender=Fem|Number=Sing|PronType=Ind
+poněkoji	poněkoj	PRON	pron.indef.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind
+poněkojih	poněkoj	PRON	pron.indef.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind
+poněkoje	poněkoj	PRON	pron.indef.	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind
+poněkojih	poněkoj	PRON	pron.indef.	Case=Gen|Number=Plur|PronType=Ind
+poněkojih	poněkoj	PRON	pron.indef.	Case=Loc|Number=Plur|PronType=Ind
+poněkojim	poněkoj	PRON	pron.indef.	Case=Dat|Number=Plur|PronType=Ind
+poněkojimi	poněkoj	PRON	pron.indef.	Case=Ins|Number=Plur|PronType=Ind"
+`;

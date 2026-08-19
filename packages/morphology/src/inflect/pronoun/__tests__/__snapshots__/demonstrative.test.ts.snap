@@ -1,0 +1,1882 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pronoun demonstrative 1347 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "sih",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "se",
+        },
+      ],
+      [
+        {
+          "form": "se",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "sim",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "sih",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "simi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "sih",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "si",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "se",
+        },
+      ],
+      [
+        {
+          "form": "se",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "sego",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "sėj",
+        },
+      ],
+      [
+        {
+          "form": "se",
+        },
+      ],
+      [
+        {
+          "form": "śų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "semu",
+        },
+      ],
+      [
+        {
+          "form": "sej",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "sego",
+        },
+      ],
+      [
+        {
+          "form": "sej",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "sim",
+        },
+      ],
+      [
+        {
+          "form": "sejų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "sem",
+        },
+      ],
+      [
+        {
+          "form": "sej",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "sėj",
+        },
+      ],
+      [
+        {
+          "form": "se",
+        },
+      ],
+      [
+        {
+          "form": "śa",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 1534 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tutyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tute",
+        },
+      ],
+      [
+        {
+          "form": "tute",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tutym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tutyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tutymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tutyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tuti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tute",
+        },
+      ],
+      [
+        {
+          "form": "tute",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tutogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tutȯj",
+        },
+      ],
+      [
+        {
+          "form": "tuto",
+        },
+      ],
+      [
+        {
+          "form": "tutų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tutomu",
+        },
+      ],
+      [
+        {
+          "form": "tutoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tutogo",
+        },
+      ],
+      [
+        {
+          "form": "tutoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tutym",
+        },
+      ],
+      [
+        {
+          "form": "tutojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tutom",
+        },
+      ],
+      [
+        {
+          "form": "tutoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tutȯj",
+        },
+      ],
+      [
+        {
+          "form": "tuto",
+        },
+      ],
+      [
+        {
+          "form": "tuta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 2263 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tamtyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tamte",
+        },
+      ],
+      [
+        {
+          "form": "tamte",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tamtym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tamtyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tamtymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tamtyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tamti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tamte",
+        },
+      ],
+      [
+        {
+          "form": "tamte",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tamtogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tamtȯj",
+        },
+      ],
+      [
+        {
+          "form": "tamto",
+        },
+      ],
+      [
+        {
+          "form": "tamtų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tamtomu",
+        },
+      ],
+      [
+        {
+          "form": "tamtoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tamtogo",
+        },
+      ],
+      [
+        {
+          "form": "tamtoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tamtym",
+        },
+      ],
+      [
+        {
+          "form": "tamtojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tamtom",
+        },
+      ],
+      [
+        {
+          "form": "tamtoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tamtȯj",
+        },
+      ],
+      [
+        {
+          "form": "tamto",
+        },
+      ],
+      [
+        {
+          "form": "tamta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 2893 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "te",
+        },
+      ],
+      [
+        {
+          "form": "te",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "te",
+        },
+      ],
+      [
+        {
+          "form": "te",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "togo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tȯj",
+        },
+      ],
+      [
+        {
+          "form": "to",
+        },
+      ],
+      [
+        {
+          "form": "tų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tomu",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "togo",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tym",
+        },
+      ],
+      [
+        {
+          "form": "tojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tom",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tȯj",
+        },
+      ],
+      [
+        {
+          "form": "to",
+        },
+      ],
+      [
+        {
+          "form": "ta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 5702 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "te",
+        },
+      ],
+      [
+        {
+          "form": "te",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "te",
+        },
+      ],
+      [
+        {
+          "form": "te",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "togo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tȯj",
+        },
+      ],
+      [
+        {
+          "form": "to",
+        },
+      ],
+      [
+        {
+          "form": "tų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tomu",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "togo",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tym",
+        },
+      ],
+      [
+        {
+          "form": "tojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tom",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tȯj",
+        },
+      ],
+      [
+        {
+          "form": "to",
+        },
+      ],
+      [
+        {
+          "form": "ta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 10387 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ovyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ove",
+        },
+      ],
+      [
+        {
+          "form": "ove",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ovym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ovyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ovymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ovyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ovi",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ove",
+        },
+      ],
+      [
+        {
+          "form": "ove",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ovogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "ov",
+        },
+      ],
+      [
+        {
+          "form": "ovo",
+        },
+      ],
+      [
+        {
+          "form": "ovų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "ovomu",
+        },
+      ],
+      [
+        {
+          "form": "ovoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "ovogo",
+        },
+      ],
+      [
+        {
+          "form": "ovoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "ovym",
+        },
+      ],
+      [
+        {
+          "form": "ovojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "ovom",
+        },
+      ],
+      [
+        {
+          "form": "ovoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "ov",
+        },
+      ],
+      [
+        {
+          "form": "ovo",
+        },
+      ],
+      [
+        {
+          "form": "ova",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 19600 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "onyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "onym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "onyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "onymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "onyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "oni",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "one",
+        },
+      ],
+      [
+        {
+          "form": "one",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "onogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "onȯj",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "onų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "onomu",
+        },
+      ],
+      [
+        {
+          "form": "onoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "onogo",
+        },
+      ],
+      [
+        {
+          "form": "onoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "onym",
+        },
+      ],
+      [
+        {
+          "form": "onojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "onom",
+        },
+      ],
+      [
+        {
+          "form": "onoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "onȯj",
+        },
+      ],
+      [
+        {
+          "form": "ono",
+        },
+      ],
+      [
+        {
+          "form": "ona",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 20212 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tyhže",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "teže",
+        },
+      ],
+      [
+        {
+          "form": "teže",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tymže",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tyhže",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tymiže",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tyhže",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tiže",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "teže",
+        },
+      ],
+      [
+        {
+          "form": "teže",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "togože",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tȯjže",
+        },
+      ],
+      [
+        {
+          "form": "tože",
+        },
+      ],
+      [
+        {
+          "form": "tųže",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tomuže",
+        },
+      ],
+      [
+        {
+          "form": "tojže",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "togože",
+        },
+      ],
+      [
+        {
+          "form": "tojže",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tymže",
+        },
+      ],
+      [
+        {
+          "form": "tojųže",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tomže",
+        },
+      ],
+      [
+        {
+          "form": "tojže",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tȯjže",
+        },
+      ],
+      [
+        {
+          "form": "tože",
+        },
+      ],
+      [
+        {
+          "form": "taže",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 36995 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "te",
+        },
+      ],
+      [
+        {
+          "form": "te",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "ti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "te",
+        },
+      ],
+      [
+        {
+          "form": "te",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "togo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tȯj",
+        },
+      ],
+      [
+        {
+          "form": "to",
+        },
+      ],
+      [
+        {
+          "form": "tų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tomu",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "togo",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tym",
+        },
+      ],
+      [
+        {
+          "form": "tojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tom",
+        },
+      ],
+      [
+        {
+          "form": "toj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tȯj",
+        },
+      ],
+      [
+        {
+          "form": "to",
+        },
+      ],
+      [
+        {
+          "form": "ta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 36996 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tutyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tute",
+        },
+      ],
+      [
+        {
+          "form": "tute",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tutym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tutyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tutymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tutyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tuti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tute",
+        },
+      ],
+      [
+        {
+          "form": "tute",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tutogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tutȯj",
+        },
+      ],
+      [
+        {
+          "form": "tuto",
+        },
+      ],
+      [
+        {
+          "form": "tutų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tutomu",
+        },
+      ],
+      [
+        {
+          "form": "tutoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tutogo",
+        },
+      ],
+      [
+        {
+          "form": "tutoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tutym",
+        },
+      ],
+      [
+        {
+          "form": "tutojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tutom",
+        },
+      ],
+      [
+        {
+          "form": "tutoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tutȯj",
+        },
+      ],
+      [
+        {
+          "form": "tuto",
+        },
+      ],
+      [
+        {
+          "form": "tuta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;
+
+exports[`pronoun demonstrative 36997 1`] = `
+{
+  "casesPlural": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tamtyh",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tamte",
+        },
+      ],
+      [
+        {
+          "form": "tamte",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tamtym",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tamtyh",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tamtymi",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tamtyh",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tamti",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tamte",
+        },
+      ],
+      [
+        {
+          "form": "tamte",
+        },
+      ],
+    ],
+  },
+  "casesSingular": {
+    "acc": [
+      [
+        {
+          "feats": {
+            "Animacy": "Anim",
+          },
+          "form": "tamtogo",
+        },
+        {
+          "feats": {
+            "Animacy": "Inan",
+          },
+          "form": "tamtȯj",
+        },
+      ],
+      [
+        {
+          "form": "tamto",
+        },
+      ],
+      [
+        {
+          "form": "tamtų",
+        },
+      ],
+    ],
+    "dat": [
+      [
+        {
+          "form": "tamtomu",
+        },
+      ],
+      [
+        {
+          "form": "tamtoj",
+        },
+      ],
+    ],
+    "gen": [
+      [
+        {
+          "form": "tamtogo",
+        },
+      ],
+      [
+        {
+          "form": "tamtoj",
+        },
+      ],
+    ],
+    "ins": [
+      [
+        {
+          "form": "tamtym",
+        },
+      ],
+      [
+        {
+          "form": "tamtojų",
+        },
+      ],
+    ],
+    "loc": [
+      [
+        {
+          "form": "tamtom",
+        },
+      ],
+      [
+        {
+          "form": "tamtoj",
+        },
+      ],
+    ],
+    "nom": [
+      [
+        {
+          "form": "tamtȯj",
+        },
+      ],
+      [
+        {
+          "form": "tamto",
+        },
+      ],
+      [
+        {
+          "form": "tamta",
+        },
+      ],
+    ],
+  },
+  "type": "adjective",
+}
+`;

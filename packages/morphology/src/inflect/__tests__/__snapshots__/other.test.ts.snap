@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - other 182 1`] = `""`;
+
+exports[`conllufy - other 934 1`] = `""`;
+
+exports[`conllufy - other 1434 1`] = `"bez	bez	ADP	prep.	_"`;
+
+exports[`conllufy - other 1821 1`] = `"by	by	PART	particle	_"`;
+
+exports[`conllufy - other 1855 1`] = `"a	a	CCONJ	conj.	_"`;
+
+exports[`conllufy - other 2134 1`] = `"do	do	ADP	prep.	_"`;
+
+exports[`conllufy - other 4886 1`] = `"ahoj	ahoj	INTJ	intj.	_"`;
+
+exports[`conllufy - other 5101 1`] = `""`;
+
+exports[`conllufy - other 6375 1`] = `"abo	abo	CCONJ	conj.	_"`;
+
+exports[`conllufy - other 7953 1`] = `"iz-	iz-	X	prefix	_"`;
+
+exports[`conllufy - other 8668 1`] = `"-kråtno	-kråtno	X	suffix	_"`;
+
+exports[`conllufy - other 16368 1`] = `"anti-	anti-	X	prefix	_"`;
+
+exports[`conllufy - other 17112 1`] = `""`;
+
+exports[`conllufy - other 28004 1`] = `"naj-	naj-	X	prefix	_"`;
+
+exports[`conllufy - other 33986 1`] = `""`;

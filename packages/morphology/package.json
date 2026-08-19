@@ -1,0 +1,72 @@
+{
+  "name": "@interslavic/morphology",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Morphological engine for Interslavic: inflection paradigms and word derivation as CoNLL-U tokens",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "interslavic-source": "./src/index.ts",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!**/__*__",
+    "!**/*.json",
+    "!**/*.test.*"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts && tsc -p tsconfig.lint.json",
+    "test": "node --conditions=interslavic-source --test --test-reporter=./test-reporter.mjs --test-reporter-destination=stdout 'src/**/*.test.ts'",
+    "test:update": "UPDATE_SNAPSHOT=1 yarn test",
+    "test:coverage": "node --conditions=interslavic-source --test --experimental-test-coverage --test-coverage-lines=99 --test-coverage-branches=98 --test-coverage-functions=99 --test-coverage-include='src/**' --test-reporter=./test-reporter.mjs --test-reporter-destination=stdout 'src/**/*.test.ts'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medzuslovjansky/js-utils.git"
+  },
+  "keywords": [
+    "interslavic",
+    "morphology",
+    "inflection",
+    "declension",
+    "conjugation",
+    "conllu"
+  ],
+  "author": "Yaroslav Serhieiev <noomorph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medzuslovjansky/js-utils/issues"
+  },
+  "homepage": "https://github.com/medzuslovjansky/js-utils#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@interslavic/dev-reporter": "workspace:*",
+    "@interslavic/dev-snapshot": "workspace:*",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "prettier": "^3.9.6",
+    "typescript": "npm:@typescript/typescript6@~6.0.2",
+    "typescript-eslint": "^8.67.0",
+    "typescript-native": "npm:typescript@~7.0.2"
+  },
+  "dependencies": {
+    "@interslavic/conllu": "workspace:^",
+    "@interslavic/translit": "workspace:^"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

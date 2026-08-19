@@ -1,0 +1,1781 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`noun miscellaneous 339 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "luč",
+      },
+    ],
+    [
+      {
+        "form": "luči",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "luči",
+      },
+    ],
+    [
+      {
+        "form": "lučam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "luči",
+      },
+    ],
+    [
+      {
+        "form": "lučij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "lučjų",
+      },
+    ],
+    [
+      {
+        "form": "lučami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "luči",
+      },
+    ],
+    [
+      {
+        "form": "lučah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "luč",
+      },
+    ],
+    [
+      {
+        "form": "luči",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "luči",
+      },
+    ],
+    [
+      {
+        "form": "luči",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 339 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "luč",
+      },
+    ],
+    [
+      {
+        "form": "luče",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "luču",
+      },
+    ],
+    [
+      {
+        "form": "lučam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "luča",
+      },
+    ],
+    [
+      {
+        "form": "lučev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "lučem",
+      },
+    ],
+    [
+      {
+        "form": "lučami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "luču",
+      },
+    ],
+    [
+      {
+        "form": "lučah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "luč",
+      },
+    ],
+    [
+      {
+        "form": "luče",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "luču",
+      },
+    ],
+    [
+      {
+        "form": "luče",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 498 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "kųdeŕ",
+      },
+    ],
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+    [
+      {
+        "form": "kųderij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "kųdeŕjų",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "kųdeŕ",
+      },
+    ],
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+    [
+      {
+        "form": "kųderi",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 498 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "kųdeŕ",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕe",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "kųdeŕu",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "kųdeŕa",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "kųdeŕem",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "kųdeŕu",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "kųdeŕ",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕe",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "kųdeŕu",
+      },
+    ],
+    [
+      {
+        "form": "kųdeŕe",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 2155 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "pųť",
+      },
+    ],
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+    [
+      {
+        "form": "pųťam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+    [
+      {
+        "form": "pųtij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "pųťjų",
+      },
+    ],
+    [
+      {
+        "form": "pųťami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+    [
+      {
+        "form": "pųťah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "pųť",
+      },
+    ],
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+    [
+      {
+        "form": "pųti",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 2155 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "pųť",
+      },
+    ],
+    [
+      {
+        "form": "pųťe",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "pųťu",
+      },
+    ],
+    [
+      {
+        "form": "pųťam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "pųťa",
+      },
+    ],
+    [
+      {
+        "form": "pųťev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "pųťem",
+      },
+    ],
+    [
+      {
+        "form": "pųťami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "pųťu",
+      },
+    ],
+    [
+      {
+        "form": "pųťah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "pųť",
+      },
+    ],
+    [
+      {
+        "form": "pųťe",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "pųťu",
+      },
+    ],
+    [
+      {
+        "form": "pųťe",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 2715 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "měď",
+      },
+    ],
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+    [
+      {
+        "form": "měďam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+    [
+      {
+        "form": "mědij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "měďjų",
+      },
+    ],
+    [
+      {
+        "form": "měďami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+    [
+      {
+        "form": "měďah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "měď",
+      },
+    ],
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+    [
+      {
+        "form": "mědi",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 2715 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "měď",
+      },
+    ],
+    [
+      {
+        "form": "měďe",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "měďu",
+      },
+    ],
+    [
+      {
+        "form": "měďam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "měďa",
+      },
+    ],
+    [
+      {
+        "form": "měďev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "měďem",
+      },
+    ],
+    [
+      {
+        "form": "měďami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "měďu",
+      },
+    ],
+    [
+      {
+        "form": "měďah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "měď",
+      },
+    ],
+    [
+      {
+        "form": "měďe",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "měďu",
+      },
+    ],
+    [
+      {
+        "form": "měďe",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 3749 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "uråvėnj",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnjam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnjij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "uråvėńjų",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnjami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnjah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "uråvėnj",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+    [
+      {
+        "form": "uråvėnji",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 3749 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "uråvėnj",
+      },
+    ],
+    [
+      {
+        "form": "uråvnje",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "uråvnju",
+      },
+    ],
+    [
+      {
+        "form": "uråvnjam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "uråvnja",
+      },
+    ],
+    [
+      {
+        "form": "uråvnjev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "uråvnjem",
+      },
+    ],
+    [
+      {
+        "form": "uråvnjami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "uråvnju",
+      },
+    ],
+    [
+      {
+        "form": "uråvnjah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "uråvėnj",
+      },
+    ],
+    [
+      {
+        "form": "uråvnje",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "uråvnju",
+      },
+    ],
+    [
+      {
+        "form": "uråvnje",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 6181 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "križ",
+      },
+    ],
+    [
+      {
+        "form": "križi",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "križi",
+      },
+    ],
+    [
+      {
+        "form": "križam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "križi",
+      },
+    ],
+    [
+      {
+        "form": "križij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "križjų",
+      },
+    ],
+    [
+      {
+        "form": "križami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "križi",
+      },
+    ],
+    [
+      {
+        "form": "križah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "križ",
+      },
+    ],
+    [
+      {
+        "form": "križi",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "križi",
+      },
+    ],
+    [
+      {
+        "form": "križi",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 6181 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "križ",
+      },
+    ],
+    [
+      {
+        "form": "križe",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "križu",
+      },
+    ],
+    [
+      {
+        "form": "križam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "križa",
+      },
+    ],
+    [
+      {
+        "form": "križev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "križem",
+      },
+    ],
+    [
+      {
+        "form": "križami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "križu",
+      },
+    ],
+    [
+      {
+        "form": "križah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "križ",
+      },
+    ],
+    [
+      {
+        "form": "križe",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "križu",
+      },
+    ],
+    [
+      {
+        "form": "križe",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 15058 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "svęź",
+      },
+    ],
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+    [
+      {
+        "form": "svęźam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+    [
+      {
+        "form": "svęzij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "svęźjų",
+      },
+    ],
+    [
+      {
+        "form": "svęźami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+    [
+      {
+        "form": "svęźah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "svęź",
+      },
+    ],
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+    [
+      {
+        "form": "svęzi",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 15058 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "svęź",
+      },
+    ],
+    [
+      {
+        "form": "svęźe",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "svęźu",
+      },
+    ],
+    [
+      {
+        "form": "svęźam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "svęźa",
+      },
+    ],
+    [
+      {
+        "form": "svęźev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "svęźem",
+      },
+    ],
+    [
+      {
+        "form": "svęźami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "svęźu",
+      },
+    ],
+    [
+      {
+        "form": "svęźah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "svęź",
+      },
+    ],
+    [
+      {
+        "form": "svęźe",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "svęźu",
+      },
+    ],
+    [
+      {
+        "form": "svęźe",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 18959 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "těnj",
+      },
+    ],
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+    [
+      {
+        "form": "těnjam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+    [
+      {
+        "form": "těnjij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "těńjų",
+      },
+    ],
+    [
+      {
+        "form": "těnjami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+    [
+      {
+        "form": "těnjah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "těnj",
+      },
+    ],
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+    [
+      {
+        "form": "těnji",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 18959 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "těnj",
+      },
+    ],
+    [
+      {
+        "form": "těnje",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "těnju",
+      },
+    ],
+    [
+      {
+        "form": "těnjam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "těnja",
+      },
+    ],
+    [
+      {
+        "form": "těnjev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "těnjem",
+      },
+    ],
+    [
+      {
+        "form": "těnjami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "těnju",
+      },
+    ],
+    [
+      {
+        "form": "těnjah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "těnj",
+      },
+    ],
+    [
+      {
+        "form": "těnje",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "těnju",
+      },
+    ],
+    [
+      {
+        "form": "těnje",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 23278 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "pijanicų",
+      },
+    ],
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "pijanici",
+      },
+    ],
+    [
+      {
+        "form": "pijanicam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+    [
+      {
+        "form": "pijanic",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "pijanicejų",
+      },
+    ],
+    [
+      {
+        "form": "pijanicami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "pijanici",
+      },
+    ],
+    [
+      {
+        "form": "pijanicah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "pijanica",
+      },
+    ],
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "pijanico",
+      },
+    ],
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 23278 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "pijanicų",
+      },
+    ],
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "pijanici",
+      },
+    ],
+    [
+      {
+        "form": "pijanicam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+    [
+      {
+        "form": "pijanic",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "pijanicejų",
+      },
+    ],
+    [
+      {
+        "form": "pijanicami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "pijanici",
+      },
+    ],
+    [
+      {
+        "form": "pijanicah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "pijanica",
+      },
+    ],
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "pijanico",
+      },
+    ],
+    [
+      {
+        "form": "pijanice",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 31883 (as feminine): feminine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "sliź",
+      },
+    ],
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+    [
+      {
+        "form": "sliźam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+    [
+      {
+        "form": "slizij",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "sliźjų",
+      },
+    ],
+    [
+      {
+        "form": "sliźami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+    [
+      {
+        "form": "sliźah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "sliź",
+      },
+    ],
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+    [
+      {
+        "form": "slizi",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun miscellaneous 31883 (as masculine): masculine 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "sliź",
+      },
+    ],
+    [
+      {
+        "form": "sliźe",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "sliźu",
+      },
+    ],
+    [
+      {
+        "form": "sliźam",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "sliźa",
+      },
+    ],
+    [
+      {
+        "form": "sliźev",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "sliźem",
+      },
+    ],
+    [
+      {
+        "form": "sliźami",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "sliźu",
+      },
+    ],
+    [
+      {
+        "form": "sliźah",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "sliź",
+      },
+    ],
+    [
+      {
+        "form": "sliźe",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "sliźu",
+      },
+    ],
+    [
+      {
+        "form": "sliźe",
+      },
+    ],
+  ],
+}
+`;

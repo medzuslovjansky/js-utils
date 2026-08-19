@@ -1,0 +1,25 @@
+{
+  "name": "@interslavic/website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@interslavic/conllu": "workspace:^",
+    "@interslavic/levenshtein": "workspace:^",
+    "@interslavic/morphology": "workspace:^",
+    "@interslavic/slovosbor-serif": "^1.0.0",
+    "@interslavic/stemmer": "workspace:^",
+    "@interslavic/translit": "workspace:^",
+    "lunr": "^2.3.9"
+  },
+  "devDependencies": {
+    "@types/lunr": "^2.3.7",
+    "typescript": "npm:@typescript/typescript6@~6.0.2",
+    "vite": "^6.2.0"
+  }
+}

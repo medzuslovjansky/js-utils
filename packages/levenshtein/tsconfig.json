@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "dist",
+    // The sources were written under these two; keeping them is free and the
+    // index-access checks are load-bearing in the Levenshtein matrix.
+    "noUncheckedIndexedAccess": true,
+    // `Object.hasOwn` guards the public `normalize()` entry point. Node-only
+    // package, so es2022 costs nothing here (unlike translit, which ships to iOS 14.5).
+    "target": "es2022"
+  },
+  "exclude": ["dist", "**/*.test.ts", "src/fixtures"]
+}

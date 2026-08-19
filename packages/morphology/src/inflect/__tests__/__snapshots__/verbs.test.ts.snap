@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`conllufy - verbs 11 1`] = `
+"abdikovati	abdikovati	VERB	v.intr. ipf./pf.	VerbForm=Inf
+abdikujų	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+abdikujem	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+abdikuješ	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+abdikuje	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+abdikujemo	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+abdikujete	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+abdikujųt	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+abdikovah	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+abdikovaše	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+abdikovaše	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+abdikovahmo	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+abdikovaste	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+abdikovahų	abdikovati	VERB	v.intr. ipf./pf.	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+abdikuj	abdikovati	VERB	v.intr. ipf./pf.	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+abdikujmo	abdikovati	VERB	v.intr. ipf./pf.	Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+abdikujte	abdikovati	VERB	v.intr. ipf./pf.	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+abdikoval	abdikovati	VERB	v.intr. ipf./pf.	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+abdikovala	abdikovati	VERB	v.intr. ipf./pf.	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+abdikovalo	abdikovati	VERB	v.intr. ipf./pf.	Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+abdikovali	abdikovati	VERB	v.intr. ipf./pf.	Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 389 1`] = `
+"uměti	uměti	VERB	v.tr. ipf.	Aspect=Imp|VerbForm=Inf
+umějų	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+uměm	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+uměješ	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+uměš	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+uměje	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+umě	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+umějemo	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+uměmo	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+umějete	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+uměte	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+umějųt	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+uměh	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+uměše	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+uměše	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+uměhmo	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+uměste	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+uměhų	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+uměj	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+umějmo	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+umějte	uměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+uměl	uměti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+uměla	uměti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+umělo	uměti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+uměli	uměti	VERB	v.tr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 417 1`] = `
+"iměti	iměti	VERB	v.tr. ipf.	Aspect=Imp|VerbForm=Inf
+imajų	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+imam	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+imaješ	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+imaš	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+imaje	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+ima	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+imajemo	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+imamo	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+imajete	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+imate	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+imajųt	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+iměh	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+iměše	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+iměše	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+iměhmo	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+iměste	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+iměhų	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+imaj	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+imajmo	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+imajte	iměti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+iměl	iměti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+iměla	iměti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+imělo	iměti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+iměli	iměti	VERB	v.tr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 417.5 1`] = `
+"imati	imati	VERB	v.tr. ipf.	Aspect=Imp|VerbForm=Inf
+imajų	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+imam	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+imaješ	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+imaš	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+imaje	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+ima	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+imajemo	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+imamo	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+imajete	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+imate	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+imajųt	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+imah	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+imaše	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+imaše	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+imahmo	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+imaste	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+imahų	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+imaj	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+imajmo	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+imajte	imati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+imal	imati	VERB	v.tr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+imala	imati	VERB	v.tr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+imalo	imati	VERB	v.tr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+imali	imati	VERB	v.tr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 593 1`] = `
+"byti	byti	AUX	v.aux. ipf.	Aspect=Imp|VerbForm=Inf
+jesm	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+sȯm	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Style=Vrnc|Tense=Pres|Variant=Short|VerbForm=Fin
+jesi	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+si	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Style=Vrnc|Tense=Pres|Variant=Short|VerbForm=Fin
+jest	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+je	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+jesmo	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+jeste	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+sųt	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+sų	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Style=Vrnc|Tense=Pres|Variant=Short|VerbForm=Fin
+bųdų	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin
+bųdeš	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin
+bųde	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin
+bųdemo	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin
+bųdete	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin
+bųdųt	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin
+běh	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Style=Arch|Tense=Past|VerbForm=Fin
+běše	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Style=Arch|Tense=Past|VerbForm=Fin
+běše	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Style=Arch|Tense=Past|VerbForm=Fin
+běhmo	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Style=Arch|Tense=Past|VerbForm=Fin
+běste	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Style=Arch|Tense=Past|VerbForm=Fin
+běhų	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Style=Arch|Tense=Past|VerbForm=Fin
+bųď	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+bųďmo	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+bųďte	byti	AUX	v.aux. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+byl	byti	AUX	v.aux. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+byla	byti	AUX	v.aux. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+bylo	byti	AUX	v.aux. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+byli	byti	AUX	v.aux. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 910 1`] = `
+"mogti	mogti	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+mogų	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+možem	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+možeš	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+može	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+možemo	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+možete	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+mogųt	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+možeh	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+možeše	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+možeše	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+možehmo	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+možeste	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+možehų	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+moži	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+možimo	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+možite	mogti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+mogl	mogti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+mogla	mogti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+moglo	mogti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+mogli	mogti	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 1810 1`] = `
+"stavati	stavati	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+stavajų	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+stavam	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+stavaješ	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+stavaš	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+stavaje	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+stava	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+stavajemo	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+stavamo	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+stavajete	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+stavate	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+stavajųt	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+stavah	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+stavaše	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+stavaše	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+stavahmo	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+stavaste	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+stavahų	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+stavaj	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+stavajmo	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+stavajte	stavati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+staval	stavati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+stavala	stavati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+stavalo	stavati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+stavali	stavati	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 1942 1`] = `
+"trěbovati	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+trěbujų	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+trěbujem	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+trěbuješ	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+trěbuje	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+trěbujemo	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+trěbujete	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+trěbujųt	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+trěbovah	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+trěbovaše	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+trěbovaše	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+trěbovahmo	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+trěbovaste	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+trěbovahų	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+trěbuj	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+trěbujmo	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+trěbujte	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+trěboval	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+trěbovala	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+trěbovalo	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+trěbovali	trěbovati	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 2035 1`] = `
+"blěskati	blěskati	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+blěskajų	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+blěskam	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+blěskaješ	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+blěskaš	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+blěskaje	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+blěska	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+blěskajemo	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+blěskamo	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+blěskajete	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+blěskate	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+blěskajųt	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+blěskah	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+blěskaše	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+blěskaše	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+blěskahmo	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+blěskaste	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+blěskahų	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+blěskaj	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+blěskajmo	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+blěskajte	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+blěskal	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+blěskala	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+blěskalo	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+blěskali	blěskati	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 2952 1`] = `
+"stati	stati	VERB	v.intr. pf.	Aspect=Perf|VerbForm=Inf
+stanų	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+stanem	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+staneš	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+stane	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+stanemo	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+stanete	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+stanųt	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+stah	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+staše	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+staše	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+stahmo	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+staste	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+stahų	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+stani	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+stanimo	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+stanite	stati	VERB	v.intr. pf.	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+stal	stati	VERB	v.intr. pf.	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+stala	stati	VERB	v.intr. pf.	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+stalo	stati	VERB	v.intr. pf.	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+stali	stati	VERB	v.intr. pf.	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 2971 1`] = `
+"hotěti	hotěti	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+hoćų	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+hoćem	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+hoćeš	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+hoće	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+hoćemo	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+hoćete	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+hoćųt	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+hotěh	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+hotěše	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+hotěše	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+hotěhmo	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+hotěste	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+hotěhų	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+hoći	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+hoćimo	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+hoćite	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+hotěl	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+hotěla	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+hotělo	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+hotěli	hotěti	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 5573 1`] = `
+"blågosloviti	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|VerbForm=Inf
+blågoslovjų	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+blågoslovim	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+blågosloviš	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+blågoslovi	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+blågoslovimo	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+blågoslovite	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+blågoslovęt	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+blågoslovih	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+blågosloviše	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+blågosloviše	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+blågoslovihmo	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+blågosloviste	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+blågoslovihų	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+blågoslovi	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+blågoslovimo	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+blågoslovite	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+blågoslovil	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+blågoslovila	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+blågoslovilo	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+blågoslovili	blågosloviti	VERB	v.tr. pf.	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 6973 1`] = `""`;
+
+exports[`conllufy - verbs 7739 1`] = `
+"htěti	htěti	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+hćų	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+hćem	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+hćeš	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+hće	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+hćemo	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+hćete	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+hćųt	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+htěh	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+htěše	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+htěše	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+htěhmo	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+htěste	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+htěhų	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+hći	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+hćimo	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+hćite	htěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+htěl	htěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+htěla	htěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+htělo	htěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+htěli	htěti	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 14711 1`] = `
+"morati	morati	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+morajų	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+moram	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+moraješ	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+moraš	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+moraje	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+mora	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+morajemo	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+moramo	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+morajete	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+morate	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+morajųt	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+morah	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+moraše	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+moraše	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+morahmo	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+moraste	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+morahų	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+moraj	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+morajmo	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+morajte	morati	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+moral	morati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+morala	morati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+moralo	morati	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+morali	morati	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 14719 1`] = `
+"musěti	musěti	VERB	v.intr. ipf.	Aspect=Imp|VerbForm=Inf
+mušų	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+musim	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+musiš	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+musi	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+musimo	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+musite	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+musęt	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+musěh	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+musěše	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+musěše	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+musěhmo	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+musěste	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+musěhų	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+musi	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+musimo	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+musite	musěti	VERB	v.intr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+musěl	musěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+musěla	musěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+musělo	musěti	VERB	v.intr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+musěli	musěti	VERB	v.intr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 30731 1`] = `
+"smogti	smogti	VERB	v.intr. pf.	Aspect=Perf|VerbForm=Inf
+smogų	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+smožem	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+smožeš	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+smože	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+smožemo	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+smožete	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+smogųt	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+smožeh	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+smožeše	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+smožeše	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+smožehmo	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+smožeste	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+smožehų	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+smoži	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+smožimo	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+smožite	smogti	VERB	v.intr. pf.	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+smogl	smogti	VERB	v.intr. pf.	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+smogla	smogti	VERB	v.intr. pf.	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+smoglo	smogti	VERB	v.intr. pf.	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+smogli	smogti	VERB	v.intr. pf.	Aspect=Perf|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act"
+`;
+
+exports[`conllufy - verbs 35371 1`] = `""`;
+
+exports[`conllufy - verbs 36422 1`] = `""`;

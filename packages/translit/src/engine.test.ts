@@ -1,0 +1,107 @@
+import { describe, test } from 'node:test';
+import assert from 'node:assert';
+import { snapshots } from '@interslavic/dev-snapshot';
+
+import { transliterate } from './transliterate.ts';
+
+const snap = snapshots(import.meta.filename);
+
+const latin = `\
+Na vȯzvyšenosti ovca, ktora ne iměla vȯlnų, uviděla konjev. Pŕvy tęgal tęžky voz, vtory nosil veliko brěmę, tretji brzo vozil mųža.
+Ovca rěkla konjam: «Boli mně sŕdce, kȯgda viđų, kako člověk vladaje konjami.»
+Konji rěkli: «Slušaj, ovco, nam boli sŕdce, kȯgda vidimo ovo: mųž, gospodaŕ, bere tvojų vȯlnų, da by iměl dlja sebe teplo paĺto. A ovca jest bez vȯlny.»
+Uslyšavši to, ovca izběgla v råvninų. | Odjezd. T́ma, i korenje revenja počęli råsteńje, a slugi pověděli krålju o veseĺju.`;
+
+const cyrillic = `\
+На возвышености овца, ктора не имѣла вълнѫ, увидѣла коњев. Прьвы тѧгал тѧжкы воз, вторы носил велико брємѧ, третји брзо возил мѫжа.
+Овца рѣкла коням: «Боли мнє срьдце, къгда виџу, како чловѣк владаје коньами.»
+Конји рѣкли: «Слушай, овцо, нам боли срьдце, къгда видимо ово: мѫж, господарь, бере твоѭ вълнѫ, да бы имѣл дља себе тепло пальто. А овца ѥсть без вълны.»
+Услышавши то, овца избѣгла в рӑвнинѹ. | Одјезд. Тьма, и корење ревења почѧли рӑстеньје, а слуги повєдѣли крӑљу о весельју.`;
+
+describe('transliterate to', () => {
+  for (const bcp47 of [
+    'isv-Cyrl',
+    'isv-Cyrl-x-etymolog',
+    'isv-Cyrl-x-iotated',
+    'isv-Cyrl-x-iotated-ext',
+    'isv-Cyrl-x-northern',
+    'isv-Cyrl-x-sloviant',
+    'isv-Cyrl-x-southern',
+    'isv-Glag',
+    'isv-Glag-x-etymolog',
+    'isv-Glag-x-sloviant',
+    'isv-Glag-x-southern',
+    'isv-Glag-x-northern',
+    'isv-Latn',
+    'isv-Latn-PL',
+    'isv-Latn-x-ascii',
+    'isv-Latn-x-etymolog',
+    'isv-Latn-x-northern',
+    'isv-Latn-x-sloviant',
+    'isv-Latn-x-southern',
+    'isv-x-fonipa',
+    'isv',
+  ] as const) {
+    // jest formatted the describe title with %j, hence the quotes in the key.
+    const suite = `transliterate to ${JSON.stringify(bcp47)}`;
+
+    describe(JSON.stringify(bcp47), () => {
+      test('a latin text', (t) => {
+        snap.match(t, `${suite} a latin text`, transliterate(latin, bcp47));
+      });
+
+      test('a cyrillic text', (t) => {
+        snap.match(
+          t,
+          `${suite} a cyrillic text`,
+          transliterate(cyrillic, bcp47),
+        );
+      });
+    });
+  }
+
+  for (const bcp47 of ['isv-Latn', 'isv-Cyrl', 'isv-Glag'] as const) {
+    test(`should work equally from Latin and Cyrillic scripts to ${JSON.stringify(
+      bcp47,
+    )}`, () => {
+      const latn = transliterate(latin, bcp47);
+      const cyrl = transliterate(cyrillic, bcp47);
+
+      assert.strictEqual(latn, cyrl);
+    });
+  }
+
+  test('double transliteration should work equally from Latin and Cyrillic scripts', () => {
+    const latn2cyrl = transliterate(latin, 'isv-Cyrl');
+    const cyrl2latn = transliterate(cyrillic, 'isv-Latn');
+
+    // Known-failing (was jest's `test.failing`). Kept as a tripwire: this test
+    // starts failing the day round-tripping is fixed.
+    assert.throws(() => {
+      assert.strictEqual(transliterate(latn2cyrl, 'isv-Latn'), cyrl2latn);
+      assert.strictEqual(transliterate(cyrl2latn, 'isv-Cyrl'), latn2cyrl);
+    }, assert.AssertionError);
+  });
+
+  test('preprocessed input skips the forgiving normalizer', () => {
+    // The forgiving normalizer folds ASCII fallbacks and Cyrillic into the
+    // etymological alphabet; `preprocessed` input is already there, so the
+    // strict rule set leaves both alone.
+    assert.strictEqual(transliterate('czas', 'isv-Latn'), 'čas');
+    assert.strictEqual(transliterate('czas', 'isv-Latn', true), 'czas');
+
+    assert.strictEqual(transliterate('вода', 'isv-Latn'), 'voda');
+    assert.strictEqual(transliterate('вода', 'isv-Latn', true), 'вода');
+  });
+
+  test('unknown code', (t) => {
+    let message: string | undefined;
+    try {
+      transliterate('', 'en' as any);
+    } catch (error: any) {
+      message = error.message;
+    }
+
+    snap.match(t, 'transliterate to unknown code', message);
+  });
+});

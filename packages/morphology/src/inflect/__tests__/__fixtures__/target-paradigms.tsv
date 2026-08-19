@@ -1,0 +1,351 @@
+# Target paradigms: what `inflect` should return for the cases where the
+# printed tables pack two distinctions into one cell. Hand-checked, and the
+# authority — where this file and the engine disagree, the engine is wrong.
+#
+# Columns: FORM, LEMMA, UPOS, XPOS, FEATS. Blocks are separated by a blank line
+# and headed by the dictionary row they come from. FEATS is alphabetical, `_`
+# means none.
+#
+# Lines marked `# fix:` are where this file already differs from what the engine
+# returns today.
+
+# sid = 1
+# lemma = oko
+# xpos = n.
+# addition = (oka/očese; pl. oči)
+oko	oko	NOUN	n.	Case=Nom|Gender=Neut|Number=Sing
+oči	oko	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur
+očesa	oko	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur|Variant=Athematic
+oko	oko	NOUN	n.	Case=Acc|Gender=Neut|Number=Sing
+oči	oko	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur
+očesa	oko	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur|Variant=Athematic
+oka	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing
+očese	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing|Variant=Athematic
+očij	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur
+očes	oko	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur|Variant=Athematic
+oku	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing
+očesi	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing|Variant=Athematic
+očah	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur
+očesah	oko	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur|Variant=Athematic
+oku	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing
+očesi	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing|Variant=Athematic
+očam	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur
+očesam	oko	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur|Variant=Athematic
+okom	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing
+očesem	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing|Variant=Athematic
+očami	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur
+očesami	oko	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur|Variant=Athematic
+oko	oko	NOUN	n.	Case=Voc|Gender=Neut|Number=Sing
+oči	oko	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur
+očesa	oko	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur|Variant=Athematic
+
+# sid = 15074
+# lemma = telę
+# xpos = n.
+# addition = _
+telę	telę	NOUN	n.	Case=Nom|Gender=Neut|Number=Sing
+telęta	telę	NOUN	n.	Case=Nom|Gender=Neut|Number=Plur
+telę	telę	NOUN	n.	Case=Acc|Gender=Neut|Number=Sing
+telęta	telę	NOUN	n.	Case=Acc|Gender=Neut|Number=Plur
+# fix: four cells hold two forms, and they are not free variants: `telęte` is
+# fix: the athematic declension the grammar keeps as an option, `telęta` the
+# fix: ordinary neuter one, declined as if the nominative were `teleto`.
+# fix: Same stem, different endings — so the feature goes on the ending's
+# fix: origin, not on the stem.
+telęte	telę	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing|Variant=Athematic
+telęta	telę	NOUN	n.	Case=Gen|Gender=Neut|Number=Sing
+telęt	telę	NOUN	n.	Case=Gen|Gender=Neut|Number=Plur
+telęti	telę	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing|Variant=Athematic
+telętu	telę	NOUN	n.	Case=Loc|Gender=Neut|Number=Sing
+telętah	telę	NOUN	n.	Case=Loc|Gender=Neut|Number=Plur
+telęti	telę	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing|Variant=Athematic
+telętu	telę	NOUN	n.	Case=Dat|Gender=Neut|Number=Sing
+telętam	telę	NOUN	n.	Case=Dat|Gender=Neut|Number=Plur
+telętem	telę	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing|Variant=Athematic
+telętom	telę	NOUN	n.	Case=Ins|Gender=Neut|Number=Sing
+telętami	telę	NOUN	n.	Case=Ins|Gender=Neut|Number=Plur
+telę	telę	NOUN	n.	Case=Voc|Gender=Neut|Number=Sing
+telęta	telę	NOUN	n.	Case=Voc|Gender=Neut|Number=Plur
+
+# sid = 17770
+# lemma = mati
+# xpos = f.
+# addition = (matere)
+mati	mati	NOUN	f.	Case=Nom|Gender=Fem|Number=Sing
+materi	mati	NOUN	f.	Case=Nom|Gender=Fem|Number=Plur
+mati	mati	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
+materi	mati	NOUN	f.	Case=Acc|Gender=Fem|Number=Plur
+# fix: same as `telę`: `matere` is the athematic genitive, `materi` the one
+# fix: `mati` gets when it is declined like `kost`, which the grammar names as
+# fix: the alternative.
+matere	mati	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing|Variant=Athematic
+materi	mati	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing
+materij	mati	NOUN	f.	Case=Gen|Gender=Fem|Number=Plur
+materi	mati	NOUN	f.	Case=Loc|Gender=Fem|Number=Sing
+materah	mati	NOUN	f.	Case=Loc|Gender=Fem|Number=Plur
+materi	mati	NOUN	f.	Case=Dat|Gender=Fem|Number=Sing
+materam	mati	NOUN	f.	Case=Dat|Gender=Fem|Number=Plur
+materjų	mati	NOUN	f.	Case=Ins|Gender=Fem|Number=Sing
+materami	mati	NOUN	f.	Case=Ins|Gender=Fem|Number=Plur
+mati	mati	NOUN	f.	Case=Voc|Gender=Fem|Number=Sing
+materi	mati	NOUN	f.	Case=Voc|Gender=Fem|Number=Plur
+
+# sid = 1313
+# lemma = kamenj
+# xpos = m.
+# fix: fourteen cells, every one of them a pair — and it is the same pair as
+# fix: `telę`, spread over the whole word instead of four oblique cells. The
+# fix: grammar says it outright: `kamen` is the athematic masculine, and
+# fix: `kamenj` is what you get by declining it like an ordinary one (gen.
+# fix: `kamenja`, dat. `kamenju`). So the hard column carries Athematic and the
+# fix: soft one carries nothing, citation form included.
+# fix:
+# fix: The lemma stays `kamenj` for both. A second dictionary entry would not
+# fix: help: the table builds both columns from either spelling, so `kamen` and
+# fix: `kamenj` return the identical paradigm.
+kamen	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Sing|Variant=Athematic
+kamenj	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Sing
+kameni	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Plur|Variant=Athematic
+kamenje	kamenj	NOUN	m.	Case=Nom|Gender=Masc|Number=Plur
+kamen	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Sing|Variant=Athematic
+kamenj	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Sing
+kameni	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Plur|Variant=Athematic
+kamenje	kamenj	NOUN	m.	Case=Acc|Gender=Masc|Number=Plur
+kamene	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Sing|Variant=Athematic
+kamenja	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Sing
+kamenev	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjev	kamenj	NOUN	m.	Case=Gen|Gender=Masc|Number=Plur
+kameni	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Sing|Variant=Athematic
+kamenju	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Sing
+kamenah	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjah	kamenj	NOUN	m.	Case=Loc|Gender=Masc|Number=Plur
+kameni	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Sing|Variant=Athematic
+kamenju	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Sing
+kamenam	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjam	kamenj	NOUN	m.	Case=Dat|Gender=Masc|Number=Plur
+kamenem	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Sing|Variant=Athematic
+kamenjem	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Sing
+kamenami	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Plur|Variant=Athematic
+kamenjami	kamenj	NOUN	m.	Case=Ins|Gender=Masc|Number=Plur
+kamen	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Sing|Variant=Athematic
+kamenju	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Sing
+kameni	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Plur|Variant=Athematic
+kamenje	kamenj	NOUN	m.	Case=Voc|Gender=Masc|Number=Plur
+
+# sid = 211
+# lemma = dělati
+# xpos = v.tr. ipf.
+# addition = _
+dělati	dělati	VERB	v.tr. ipf.	Aspect=Imp|VerbForm=Inf
+# fix: Variant=Long/Short kept for the contraction, which is real and runs
+# fix: through four cells — 2sg, 3sg, 1pl, 2pl. The 3pl `dělajųt` has no
+# fix: contracted counterpart and stays unmarked, which is the same rule as
+# fix: everywhere else: mark a contrast, not its absence.
+# fix:
+# fix: The first person singular is a different alternation and now says so.
+# fix: `dělam` is not the short half of a pair with `dělajem` — that form does
+# fix: not exist — it is the 3sg plus the `-m` of `jesm`, exactly like `barvim`
+# fix: and `nesem`. One length test used to stand in for both distinctions;
+# fix: contraction is 1550 verbs × 4 cells, the `-m` ending is every verb, 3847.
+dělajų	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+dělam	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+dělaješ	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+dělaš	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+dělaje	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Long|VerbForm=Fin
+děla	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Variant=Short|VerbForm=Fin
+dělajemo	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Long|VerbForm=Fin
+dělamo	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Variant=Short|VerbForm=Fin
+dělajete	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Long|VerbForm=Fin
+dělate	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|Variant=Short|VerbForm=Fin
+dělajųt	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+dělah	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+dělaše	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+dělaše	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+dělahmo	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+dělaste	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+dělahų	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+dělaj	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+dělajmo	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+dělajte	dělati	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+dělal	dělati	VERB	v.tr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+dělala	dělati	VERB	v.tr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+dělalo	dělati	VERB	v.tr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+dělali	dělati	VERB	v.tr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act
+
+# sid = 5873
+# lemma = barviti
+# xpos = v.tr. ipf.
+# addition = _
+barviti	barviti	VERB	v.tr. ipf.	Aspect=Imp|VerbForm=Inf
+# fix: the doublet is 1sg only — `barviš`, `barvi`, `barvimo`, `barvite`,
+# fix: `barvęt` have no second form — so it is not a class dividing the
+# fix: paradigm, it is one ending beside another in one cell. `-m` comes from
+# fix: the athematic `jesm`, `dam`, `jem`, `věm`, so that is what it is called.
+# fix:
+# fix: Measured across the whole list: the doublet exists in 3847 cells, and in
+# fix: every one of them the second member is the 3sg plus `m` — no exceptions,
+# fix: no verb with a third reading. Finding it is positional and total.
+barvjų	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+barvim	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+barviš	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+barvi	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+barvimo	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+barvite	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+barvęt	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+barvih	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+barviše	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+barviše	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+barvihmo	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+barviste	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+barvihų	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+barvi	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+barvimo	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+barvite	barviti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+barvil	barviti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+barvila	barviti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+barvilo	barviti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+barvili	barviti	VERB	v.tr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act
+
+# sid = 1161
+# lemma = nesti
+# xpos = v.tr. ipf.
+# addition = _
+nesti	nesti	VERB	v.tr. ipf.	Aspect=Imp|VerbForm=Inf
+# fix: Variant=Long/Short dropped, the order swapped, Athematic added. Length
+# fix: had picked the wrong winner here — `nesem` is longer than `nesų`, so it
+# fix: came out as the long form of a contraction this verb does not have.
+# fix: Same shape as `barvjų / barvim`, annotated the same way.
+nesų	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin
+nesem	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|Variant=Athematic|VerbForm=Fin
+neseš	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin
+nese	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin
+nesemo	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin
+nesete	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin
+nesųt	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin
+neseh	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin
+neseše	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin
+neseše	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin
+nesehmo	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin
+neseste	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Past|VerbForm=Fin
+nesehų	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin
+nesi	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin
+nesimo	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=1|VerbForm=Fin
+nesite	nesti	VERB	v.tr. ipf.	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin
+nesl	nesti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+nesla	nesti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+neslo	nesti	VERB	v.tr. ipf.	Aspect=Imp|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act
+nesli	nesti	VERB	v.tr. ipf.	Aspect=Imp|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act
+
+# sid = 2219
+# lemma = sam
+# xpos = pron.pers.
+# addition = _
+sam	sam	PRON	pron.pers.	Case=Nom|Gender=Masc|Number=Sing|PronType=Prs
+samo	sam	PRON	pron.pers.	Case=Nom|Gender=Neut|Number=Sing|PronType=Prs
+sama	sam	PRON	pron.pers.	Case=Nom|Gender=Fem|Number=Sing|PronType=Prs
+samogo	sam	PRON	pron.pers.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs
+sam	sam	PRON	pron.pers.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing|PronType=Prs
+# fix: Animacy added. The masculine accusative right above splits animate from
+# fix: inanimate; the neuter cell holds the same two forms and the same split
+# fix: (neuter animates exist — `telę`, `ditę`), but the channel is only wired
+# fix: for masculine, so the pair came out indistinguishable.
+samogo	sam	PRON	pron.pers.	Animacy=Anim|Case=Acc|Gender=Neut|Number=Sing|PronType=Prs
+samo	sam	PRON	pron.pers.	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing|PronType=Prs
+samų	sam	PRON	pron.pers.	Case=Acc|Gender=Fem|Number=Sing|PronType=Prs
+samogo	sam	PRON	pron.pers.	Case=Gen|Gender=Masc|Number=Sing|PronType=Prs
+samogo	sam	PRON	pron.pers.	Case=Gen|Gender=Neut|Number=Sing|PronType=Prs
+samoj	sam	PRON	pron.pers.	Case=Gen|Gender=Fem|Number=Sing|PronType=Prs
+samom	sam	PRON	pron.pers.	Case=Loc|Gender=Masc|Number=Sing|PronType=Prs
+samom	sam	PRON	pron.pers.	Case=Loc|Gender=Neut|Number=Sing|PronType=Prs
+samoj	sam	PRON	pron.pers.	Case=Loc|Gender=Fem|Number=Sing|PronType=Prs
+samomu	sam	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|PronType=Prs
+samomu	sam	PRON	pron.pers.	Case=Dat|Gender=Neut|Number=Sing|PronType=Prs
+samoj	sam	PRON	pron.pers.	Case=Dat|Gender=Fem|Number=Sing|PronType=Prs
+samym	sam	PRON	pron.pers.	Case=Ins|Gender=Masc|Number=Sing|PronType=Prs
+samym	sam	PRON	pron.pers.	Case=Ins|Gender=Neut|Number=Sing|PronType=Prs
+samojų	sam	PRON	pron.pers.	Case=Ins|Gender=Fem|Number=Sing|PronType=Prs
+sami	sam	PRON	pron.pers.	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur|PronType=Prs
+same	sam	PRON	pron.pers.	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur|PronType=Prs
+same	sam	PRON	pron.pers.	Case=Nom|Gender=Neut|Number=Plur|PronType=Prs
+same	sam	PRON	pron.pers.	Case=Nom|Gender=Fem|Number=Plur|PronType=Prs
+samyh	sam	PRON	pron.pers.	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur|PronType=Prs
+same	sam	PRON	pron.pers.	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur|PronType=Prs
+same	sam	PRON	pron.pers.	Case=Acc|Gender=Neut|Number=Plur|PronType=Prs
+same	sam	PRON	pron.pers.	Case=Acc|Gender=Fem|Number=Plur|PronType=Prs
+samyh	sam	PRON	pron.pers.	Case=Gen|Number=Plur|PronType=Prs
+samyh	sam	PRON	pron.pers.	Case=Loc|Number=Plur|PronType=Prs
+samym	sam	PRON	pron.pers.	Case=Dat|Number=Plur|PronType=Prs
+samymi	sam	PRON	pron.pers.	Case=Ins|Number=Plur|PronType=Prs
+
+# sid = 2150
+# lemma = on
+# xpos = pron.pers.
+# addition = _
+# fix: PrepCase replaces the Variant=Bound this file used to carry. `jego` and
+# fix: `njego` are the same word in two environments and neither works in the
+# fix: other's — you cannot say `do jego` and you cannot say `njego vidim` — so
+# fix: both members get a value, which is what UD's PrepCase is for.
+# fix:
+# fix: The clitic is a different axis and keeps Variant=Short: `go` is the
+# fix: unstressable form, and it has no `n-` counterpart at all.
+# fix:
+# fix: LEMMA and FORM answer different questions. Every third-person entry —
+# fix: `ona`, `ono`, `oni`, `one` and the oblique `jego`, `jemu`, `mu`, `go`,
+# fix: `jej`, `jų`, `jih`, `jim` — declines by its own column and is called
+# fix: `on`, which is the lemma every Slavic treebank gives these forms. The
+# fix: entry keeps its ten or twelve forms; it does not swell to the whole
+# fix: paradigm just because the name is shared.
+on	on	PRON	pron.pers.	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs
+jego	on	PRON	pron.pers.	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs
+njego	on	PRON	pron.pers.	Case=Acc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs
+go	on	PRON	pron.pers.	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short
+jego	on	PRON	pron.pers.	Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs
+njego	on	PRON	pron.pers.	Case=Gen|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs
+# fix: the locative has no bare form. The grammar says it outright: the locative
+# fix: is always governed by a preposition, so `jem` never occurs and only
+# fix: `njem` is a word. Same for `njej` and `njih`, and for `iže`.
+njem	on	PRON	pron.pers.	Case=Loc|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs
+jemu	on	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs
+njemu	on	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs
+mu	on	PRON	pron.pers.	Case=Dat|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Variant=Short
+jim	on	PRON	pron.pers.	Case=Ins|Gender=Masc|Number=Sing|Person=3|PrepCase=Npr|PronType=Prs
+njim	on	PRON	pron.pers.	Case=Ins|Gender=Masc|Number=Sing|Person=3|PrepCase=Pre|PronType=Prs
+
+# sid = 457
+# lemma = dva
+# xpos = num.card.
+# addition = (dvě)
+# No Number, on purpose. Number here is agreement morphology — which number's
+# endings a form carries — not the quantity a word names. `pęť` gets Number=Sing
+# because it declines as a feminine singular, `četvero` Plur because its endings
+# are plural ones; `dva` has gender columns and no number contrast at all, so
+# there is nothing to record. Dual would be a claim that `dva` contrasts with a
+# non-dual form of itself, which it does not: the two-ness is in the lemma.
+dva	dva	NUM	num.card.	Case=Nom|Gender=Masc|NumType=Card
+dvě	dva	NUM	num.card.	Case=Nom|Gender=Fem|NumType=Card
+dva	dva	NUM	num.card.	Case=Nom|Gender=Neut|NumType=Card
+dvoh	dva	NUM	num.card.	Animacy=Anim|Case=Acc|Gender=Masc|NumType=Card
+dva	dva	NUM	num.card.	Animacy=Inan|Case=Acc|Gender=Masc|NumType=Card
+dva	dva	NUM	num.card.	Case=Acc|Gender=Neut|NumType=Card
+dvě	dva	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card
+dvoh	dva	NUM	num.card.	Case=Gen|NumType=Card
+dvom	dva	NUM	num.card.	Case=Dat|NumType=Card
+dvoma	dva	NUM	num.card.	Case=Ins|NumType=Card
+dvoh	dva	NUM	num.card.	Case=Loc|NumType=Card
+
+# sid = 16431
+# lemma = četvero
+# xpos = num.coll.
+# addition = _
+# fix: NumType=Sets added on every row. `dva` above carries NumType=Card, the
+# fix: collective numerals carry nothing at all, and a numeral with no NumType
+# fix: is indistinguishable from a noun that happens to be tagged NUM.
+četvero	četvero	NUM	num.coll.	Case=Nom|NumType=Sets|Number=Plur
+# fix: Animacy added, same missed channel as `sam` — `četveryh` is the animate
+# fix: accusative, `četvero` the inanimate one, and they came out identical.
+četveryh	četvero	NUM	num.coll.	Animacy=Anim|Case=Acc|NumType=Sets|Number=Plur
+četvero	četvero	NUM	num.coll.	Animacy=Inan|Case=Acc|NumType=Sets|Number=Plur
+četveryh	četvero	NUM	num.coll.	Case=Gen|NumType=Sets|Number=Plur
+četveryh	četvero	NUM	num.coll.	Case=Loc|NumType=Sets|Number=Plur
+četverym	četvero	NUM	num.coll.	Case=Dat|NumType=Sets|Number=Plur
+četverymi	četvero	NUM	num.coll.	Case=Ins|NumType=Sets|Number=Plur

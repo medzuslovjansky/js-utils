@@ -1,0 +1,8 @@
+{
+  // Type-checks what the build skips: tests, fixtures and other test-side code.
+  "extends": "./tsconfig.json",
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

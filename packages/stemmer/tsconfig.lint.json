@@ -1,0 +1,8 @@
+{
+  // Type-checks what the build skips: the tests.
+  "extends": "./tsconfig.json",
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "noEmit": true
+  }
+}

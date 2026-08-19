@@ -1,0 +1,12 @@
+{
+  // Type-checks what the build skips: tests, fixtures and other test-side code.
+  "extends": "./tsconfig.json",
+  "exclude": ["dist"],
+  "compilerOptions": {
+    "noEmit": true,
+    // Resolve sibling workspaces to their sources, the same way the tests do
+    // (`node --conditions=interslavic-source`), so linting a fresh clone does
+    // not depend on `dist` being built first.
+    "customConditions": ["interslavic-source"]
+  }
+}

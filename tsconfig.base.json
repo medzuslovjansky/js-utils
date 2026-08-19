@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "sourceMap": true,
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    // Both guard Node's strip-only type stripping, which is how the tests run
+    // the sources directly: type-only imports must say so, and no enums or
+    // parameter properties. They used to live in tsconfig.lint.json only,
+    // because verbatimModuleSyntax rejects every `export` while emitting
+    // CommonJS — moot since the ESM-only switch.
+    "verbatimModuleSyntax": true,
+    "erasableSyntaxOnly": true,
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    // TypeScript 7 no longer pulls in every @types/* package it can find.
+    "types": ["node"],
+    "resolveJsonModule": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}

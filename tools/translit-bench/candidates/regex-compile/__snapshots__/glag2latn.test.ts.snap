@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Glag → Latn sanity check 1`] = `
+"Na vȯzvyšenosti ovca, ktora ne iměla vȯlnų, uviděla końev. Pŕvy tęgal tęžky voz, vtory nosil veliko brěmę, tretji brzo vozil mųža.
+Ovca rěkla końam: "Boli mně sėrdce, kȯgda viđų, kako člověk vladaje końami."
+Końi rěkli: "Slušaj, ovco, nam boli sėrdce, kȯgda vidimo ovo: mųž, gospodaŕ, bere tvojų vȯlnų, da by iměl dľa sebe teplo paľto. A ovca jest bez vȯlny."
+Uslyšavši to, ovca izběgla v råvninų. | Oficialny noćny odjezd do Kyjeva. Ťma, i koreńe reveńa počęli råsteńje, a slugi pověděli kråľu o veseľju.."
+`;

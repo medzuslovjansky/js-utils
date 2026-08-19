@@ -1,0 +1,14 @@
+{
+  "name": "@interslavic/dev-translit-bench",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Measures transliteration throughput across runtimes, and refuses to rank anything that is not byte-identical to the shipped engine",
+  "scripts": {
+    "bench": "node --conditions=interslavic-source run.mjs"
+  },
+  "dependencies": {
+    "@interslavic/translit": "workspace:^"
+  },
+  "license": "MIT"
+}

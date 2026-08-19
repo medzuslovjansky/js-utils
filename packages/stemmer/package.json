@@ -1,0 +1,78 @@
+{
+  "name": "@interslavic/stemmer",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interslavic stemmer and language support for lunr: a script-agnostic tokenizer, trimmer and stemmer for full-text search",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "interslavic-source": "./src/index.ts",
+      "default": "./dist/index.js"
+    },
+    "./lunr": {
+      "types": "./dist/lunr.d.ts",
+      "interslavic-source": "./src/lunr.ts",
+      "default": "./dist/lunr.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!**/__*__",
+    "!**/*.test.*"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts && tsc -p tsconfig.lint.json",
+    "test": "node --conditions=interslavic-source --test 'src/**/*.test.ts'",
+    "test:coverage": "node --conditions=interslavic-source --test --experimental-test-coverage --test-coverage-lines=100 --test-coverage-branches=100 --test-coverage-functions=100 --test-coverage-exclude='../**' --test-coverage-exclude='../../tools/**' 'src/**/*.test.ts'",
+    "test:watch": "yarn test --watch"
+  },
+  "dependencies": {
+    "@interslavic/translit": "workspace:^"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/medzuslovjansky/js-utils.git"
+  },
+  "keywords": [
+    "interslavic",
+    "lunr",
+    "stemmer",
+    "search",
+    "docusaurus"
+  ],
+  "author": "Yaroslav Serhieiev <noomorph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/medzuslovjansky/js-utils/issues"
+  },
+  "homepage": "https://github.com/medzuslovjansky/js-utils#readme",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/lunr": "^2.3.7",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "lunr": "^2.3.9",
+    "prettier": "^3.9.6",
+    "typescript": "npm:@typescript/typescript6@~6.0.2",
+    "typescript-eslint": "^8.67.0",
+    "typescript-native": "npm:typescript@~7.0.2"
+  },
+  "browserslist": [
+    "node 18",
+    "iOS >= 14.5"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
