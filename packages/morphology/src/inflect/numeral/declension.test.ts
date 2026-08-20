@@ -55,6 +55,25 @@ describe('inflectNumeral', () => {
     }
   });
 
+  test('gives a substantivized and a fractional numeral their vocative', () => {
+    // Both decline as feminine nouns, and a noun has a vocative.
+    const vocatives = (word: string, xpos: string) =>
+      inflectNumeral(word, xpos)
+        .filter(
+          (result) => (result.feats as Record<string, string>).Case === 'Voc',
+        )
+        .map((result) => result.form);
+
+    assert.deepStrictEqual(vocatives('četverka', 'num.subst.'), [
+      'četverko',
+      'četverky',
+    ]);
+    assert.deepStrictEqual(vocatives('četvŕtina', 'num.fract.'), [
+      'četvŕtino',
+      'četvŕtiny',
+    ]);
+  });
+
   test('says nothing about a word tagged as something other than a numeral', () => {
     assert.deepStrictEqual(inflectNumeral('dom', 'm.'), []);
     assert.deepStrictEqual(inflectNumeral('dobro', 'adv.'), []);

@@ -1,24 +1,7 @@
-/**
- * Short canonical derivation identifiers for CoNLL-U misc.Derivation.
- */
-export type DerivationCode =
-  // Verb derivations
-  | 'v_prap' // Present active participle (dělajųći)
-  | 'v_prpp' // Present passive participle (dělajemy)
-  | 'v_pfap' // Past active participle (sdělavši)
-  | 'v_pfpp' // Past passive participle (dělany)
-  | 'v_noun' // Verbal noun (dělanje)
-  // Adjective derivations
-  | 'adj_cmp' // Comparative adjective, synthetic (dobrějši)
-  | 'adj_sup' // Superlative adjective, synthetic (najdobrějši)
-  | 'adj_sup_a' // Superlative adjective, analytical (najdobry)
-  | 'adj_adv' // Adverb positive (dobro)
-  // Adverb derivations
-  | 'adv_cmp' // Comparative adverb, synthetic (bolje)
-  | 'adv_sup' // Superlative adverb, synthetic (najbolje)
-  | 'adv_sup_a' // Superlative adverb, analytical (najdobro)
-  // General word formation
-  | string;
+import type { DerivationCode } from '@interslavic/conllu';
+
+// The codes themselves are declared beside the MISC key they fill.
+export type { DerivationCode };
 
 export type DerivationType =
   | 'prap'

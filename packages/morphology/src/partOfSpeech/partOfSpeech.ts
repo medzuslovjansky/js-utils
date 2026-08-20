@@ -145,6 +145,7 @@ function parseNoun(abbr: string): Noun {
     indeclinable: abbr.includes('indecl.'),
     singular: abbr.includes('sg.'),
     plural: abbr.includes('pl.'),
+    substantivized: abbr.includes('subst.'),
   };
 }
 

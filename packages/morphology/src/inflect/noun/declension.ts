@@ -8,7 +8,7 @@ import type {
   TokenFeatures,
   XPOS,
 } from '@interslavic/conllu';
-import { VOWELS } from '@interslavic/translit/phonology';
+import { SOFT_CONSONANTS, VOWELS } from '@interslavic/translit/phonology';
 
 import { declineAdjective } from '../adjective/index.ts';
 import {
@@ -33,6 +33,17 @@ const XV$ = /(?:[^aåeęěėioȯuųyl]|[^oȯ]l)v$/;
  * forms.
  */
 export type NounCell = Array<{ form: string; feats?: TokenFeatures }>;
+
+/** The cases a noun paradigm holds, in the order the tables below build them. */
+export const CASES = {
+  nom: 'Nom',
+  acc: 'Acc',
+  gen: 'Gen',
+  loc: 'Loc',
+  dat: 'Dat',
+  ins: 'Ins',
+  voc: 'Voc',
+} as const satisfies Record<string, Features.Case>;
 
 export type NounParadigm = {
   nom: [NounCell | null, NounCell | null];
@@ -96,18 +107,9 @@ export function declineNoun(
     return declensionPluralNoun(noun, add, originGender);
   }
   //substantivized adjectives
-  if (
-    add &&
-    ['-ogo', '-ego', '-oj', '-ej'].indexOf(
-      add.replace(noun.slice(0, -1), '-'),
-    ) !== -1
-  ) {
-    return declensionSubstAdj(
-      noun,
-      add.replace(noun.slice(0, -1), '-'),
-      originGender,
-      animated,
-    );
+  const adjectival = adjectivalGenitive(noun, add, false);
+  if (adjectival) {
+    return declensionSubstAdj(noun, adjectival, originGender, animated);
   }
 
   if (add && noun !== add) {
@@ -768,7 +770,11 @@ function declensionSubstAdj(
     return {
       nom: [cell([word]), column(adjectiveParadigm.plural.nom[0])],
       acc: [
-        column(adjectiveParadigm.singular.acc[0]),
+        // A neuter accusative repeats the nominative, and the nominative of a
+        // substantivized adjective is the lemma itself.
+        gender === 'neuter'
+          ? cell([word])
+          : column(adjectiveParadigm.singular.acc[0]),
         column(adjectiveParadigm.plural.acc[0]),
       ],
       gen: [adjectiveParadigm.singular.gen[0], adjectiveParadigm.plural.gen[0]],
@@ -785,7 +791,10 @@ function declensionSubstAdj(
 
     return {
       nom: [cell([word]), adjectiveParadigm.plural.nom[1]],
-      acc: [adjectiveParadigm.singular.acc[1], adjectiveParadigm.plural.acc[1]],
+      // The singular accusative keeps masculine, neuter and feminine in three
+      // columns, where every other case merges masculine with neuter and
+      // leaves the feminine second.
+      acc: [adjectiveParadigm.singular.acc[2], adjectiveParadigm.plural.acc[1]],
       gen: [adjectiveParadigm.singular.gen[1], adjectiveParadigm.plural.gen[0]],
       loc: [adjectiveParadigm.singular.loc[1], adjectiveParadigm.plural.loc[0]],
       dat: [adjectiveParadigm.singular.dat[1], adjectiveParadigm.plural.dat[0]],
@@ -833,13 +842,82 @@ function nounArgs(
 
   return [
     lemma,
-    extra,
+    extra ||
+      (pos.substantivized ? genitiveHint(lemma, gender, pos.plural) : ''),
     gender,
     pos.animate,
     pos.plural,
     pos.singular,
     pos.indeclinable,
   ] as const;
+}
+
+/** The genitive endings that mark an adjective used as a noun. */
+const ADJECTIVAL_GENITIVE = {
+  singular: new Set(['-ogo', '-ego', '-oj', '-ej']),
+  plural: new Set(['-yh', '-ih']),
+};
+
+/**
+ * The ending the addition boils down to when it marks an adjective used as a
+ * noun (`učeny (-ogo)` and `učeny (učenogo)` both come out `-ogo`), and `''`
+ * when it says something else.
+ *
+ * `declineNoun` routes on the answer, `inflectNoun` reports it as
+ * `Declension=Adj`, and both ask it of the same two strings, so it is computed
+ * twice rather than carried in the paradigm, whose keys are cases and nothing
+ * else.
+ */
+function adjectivalGenitive(
+  rawNoun: string,
+  rawAdd: string,
+  isPlural: boolean,
+): string {
+  const noun = removeBrackets(rawNoun, '[', ']');
+  const ending = rawAdd.replace(/[()]/g, '').replace(noun.slice(0, -1), '-');
+  const known = isPlural
+    ? ADJECTIVAL_GENITIVE.plural
+    : ADJECTIVAL_GENITIVE.singular;
+
+  return known.has(ending) ? ending : '';
+}
+
+/** The vowel a substantivized adjective ends in, once the tag names a gender. */
+const ADJECTIVAL_LEMMA: Partial<Record<Noun['gender'], RegExp>> = {
+  masculine: /[yi]$/,
+  neuter: /[oe]$/,
+  feminine: /a$/,
+};
+
+/**
+ * A `*.subst.` tag says the word is an adjective used as a noun but not which
+ * of the two adjective declensions it takes; the dictionary says that with a
+ * bracketed genitive, `dežurny (-ogo)`. Where the tag comes without one, the
+ * genitive is worked out from the lemma. Masculine and neuter endings carry
+ * the softness themselves (`pųtujųći` and `srědnje` against `dežurny` and
+ * `dobro`); the feminine `-a` and both plurals (`dobre` beside `srědnje`) do
+ * not, so for those it is read off the last consonant of the stem.
+ *
+ * A lemma that does not end as an adjective ends gets no hint, whatever the
+ * tag claims: `dom` tagged `m.subst.` would otherwise decline as `*doogo`.
+ */
+function genitiveHint(
+  lemma: string,
+  gender: Noun['gender'],
+  isPlural: boolean,
+): string {
+  const stem = lemma.slice(0, -1);
+  const softStem = SOFT_CONSONANTS.has(stem.slice(-1));
+
+  if (isPlural) {
+    return /[ie]$/.test(lemma) ? stem + (softStem ? 'ih' : 'yh') : '';
+  }
+
+  if (!ADJECTIVAL_LEMMA[gender]?.test(lemma)) return '';
+
+  return gender === 'feminine'
+    ? stem + (softStem ? 'ej' : 'oj')
+    : stem + (/[ie]$/.test(lemma) ? 'ego' : 'ogo');
 }
 
 export function declineNounSimple(
@@ -873,12 +951,8 @@ export function inflectNoun(
           ? ('masculine' as const)
           : undefined;
 
-    const paradigm = declineNounSimple(
-      word,
-      xpos,
-      irregular || '',
-      genderOverride,
-    );
+    const args = nounArgs(word, xpos, irregular || '', genderOverride);
+    const paradigm = declineNoun(...args);
 
     if (!paradigm) {
       results.push({
@@ -889,18 +963,15 @@ export function inflectNoun(
       continue;
     }
 
-    const caseMap: Record<string, Features.Case> = {
-      nom: 'Nom',
-      acc: 'Acc',
-      gen: 'Gen',
-      dat: 'Dat',
-      ins: 'Ins',
-      loc: 'Loc',
-      voc: 'Voc',
-    };
+    // An adjective used as a noun leaves no trace in UPOS or FEATS, which both
+    // say `NOUN` as the lexicon means them to, so MISC records which tables
+    // the forms came from.
+    const [noun, addition, , , tagIsPlural, , isIndeclinable] = args;
+    const substantivized =
+      !isIndeclinable && !!adjectivalGenitive(noun, addition, tagIsPlural);
 
-    for (const [caseName, [singular, plural]] of Object.entries(paradigm)) {
-      const conlluCase = caseMap[caseName];
+    for (const [caseName, conlluCase] of Object.entries(CASES)) {
+      const [singular, plural] = paradigm[caseName as keyof typeof CASES];
 
       if (singular && !isPlural) {
         for (const { form, feats } of singular) {
@@ -913,6 +984,7 @@ export function inflectNoun(
               Case: conlluCase,
               Number: 'Sing' as Features.Number,
             },
+            ...(substantivized && { misc: { Declension: 'Adj' as const } }),
           });
         }
       }
@@ -930,6 +1002,7 @@ export function inflectNoun(
                 ? 'Ptan'
                 : 'Plur') as Features.Number,
             },
+            ...(substantivized && { misc: { Declension: 'Adj' as const } }),
           });
         }
       }

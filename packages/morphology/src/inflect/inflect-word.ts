@@ -1,5 +1,5 @@
 import { parsePos } from '../partOfSpeech/index.ts';
-import type { AdapterResult, Token, XPOS } from '@interslavic/conllu';
+import type { AdapterResult, Misc, Token, XPOS } from '@interslavic/conllu';
 import { etymologify } from '../etymologify.ts';
 import { parseXPos } from '../steen/index.ts';
 import {
@@ -15,7 +15,7 @@ function composeTokens(
   results: AdapterResult,
   lemma: string,
   xpos: XPOS,
-  misc?: Record<string, string>,
+  misc?: Misc,
 ): Token[] {
   return results.map((result) => ({
     form: etymologify(result.form),
@@ -24,8 +24,9 @@ function composeTokens(
     xpos,
     feats: result.feats,
     // A copy per token: one shared object would let a consumer annotating one
-    // form of the paradigm annotate all the others behind its back.
-    misc: misc && { ...misc },
+    // form of the paradigm annotate all the others behind its back. What the
+    // adapter has to say comes first, so a caller can override it.
+    misc: misc || result.misc ? { ...result.misc, ...misc } : undefined,
   }));
 }
 
@@ -34,7 +35,7 @@ export function inflectWord(
   xpos: XPOS,
   lemma: string,
   irregular?: string,
-  misc?: Record<string, string>,
+  misc?: Misc,
 ): Token[] {
   if (!word || typeof word !== 'string' || word.includes(' ')) {
     return [];

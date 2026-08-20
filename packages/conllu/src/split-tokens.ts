@@ -1,4 +1,5 @@
 import type { Token } from './schema.ts';
+import type { Misc } from './misc.ts';
 
 type TokenClass = 'word' | 'punct' | 'space' | 'number' | 'dash';
 
@@ -113,7 +114,9 @@ export function splitTokens(str: string): Token[] {
 
   return rawTokens.map((raw, index) => {
     const id = index + 1;
-    const misc = raw.hasSpaceAfter ? undefined : { SpaceAfter: 'No' };
+    const misc: Misc | undefined = raw.hasSpaceAfter
+      ? undefined
+      : { SpaceAfter: 'No' };
 
     if (raw.class === 'punct') {
       return {

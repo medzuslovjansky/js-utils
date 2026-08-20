@@ -46,7 +46,9 @@ exports[`conllufy - numerals 2 1`] = `
 četvŕtině	četvŕtina	NOUN	num.fract.	Case=Dat|Gender=Fem|NumType=Frac|Number=Sing
 četvŕtinam	četvŕtina	NOUN	num.fract.	Case=Dat|Gender=Fem|NumType=Frac|Number=Plur
 četvŕtinojų	četvŕtina	NOUN	num.fract.	Case=Ins|Gender=Fem|NumType=Frac|Number=Sing
-četvŕtinami	četvŕtina	NOUN	num.fract.	Case=Ins|Gender=Fem|NumType=Frac|Number=Plur"
+četvŕtinami	četvŕtina	NOUN	num.fract.	Case=Ins|Gender=Fem|NumType=Frac|Number=Plur
+četvŕtino	četvŕtina	NOUN	num.fract.	Case=Voc|Gender=Fem|NumType=Frac|Number=Sing
+četvŕtiny	četvŕtina	NOUN	num.fract.	Case=Voc|Gender=Fem|NumType=Frac|Number=Plur"
 `;
 
 exports[`conllufy - numerals 3 1`] = `
@@ -95,7 +97,9 @@ exports[`conllufy - numerals 4 1`] = `
 četverkě	četverka	NOUN	num.subst.	Case=Dat|Gender=Fem|Number=Sing
 četverkam	četverka	NOUN	num.subst.	Case=Dat|Gender=Fem|Number=Plur
 četverkojų	četverka	NOUN	num.subst.	Case=Ins|Gender=Fem|Number=Sing
-četverkami	četverka	NOUN	num.subst.	Case=Ins|Gender=Fem|Number=Plur"
+četverkami	četverka	NOUN	num.subst.	Case=Ins|Gender=Fem|Number=Plur
+četverko	četverka	NOUN	num.subst.	Case=Voc|Gender=Fem|Number=Sing
+četverky	četverka	NOUN	num.subst.	Case=Voc|Gender=Fem|Number=Plur"
 `;
 
 exports[`conllufy - numerals 6 1`] = `

@@ -7,7 +7,7 @@ import type {
 import { parseXPos } from '../../steen/index.ts';
 import { declineAdjective, type AdjectiveCell } from '../adjective/index.ts';
 import { stripDiacritics } from '../../orthography/index.ts';
-import { declineNoun } from '../noun/index.ts';
+import { CASES, declineNoun } from '../noun/index.ts';
 import { type Noun, parsePos } from '../../partOfSpeech/index.ts';
 import { transliterate } from '@interslavic/translit';
 
@@ -319,6 +319,9 @@ export function declineNumeral(
     declensionType = 'adjective';
   }
 
+  const substantival =
+    numeralType === 'fractional' || numeralType === 'substantivized';
+
   if (declensionType === 'noun') {
     // `details` is one of the four tags set above, and none of them is plural.
     const { gender, singular } = parsePos(details) as Noun;
@@ -332,6 +335,9 @@ export function declineNumeral(
       false,
     )!;
 
+    // Only a cardinal is declined in the singular alone (`pęť`, `šesť`), and a
+    // cardinal is the one kind that gets no vocative, so this table has six
+    // cases where the one below has seven.
     if (singular) {
       return {
         type: 'noun',
@@ -356,6 +362,13 @@ export function declineNumeral(
           loc: [nounParadigm.loc[0]!, nounParadigm.loc[1]!],
           dat: [nounParadigm.dat[0]!, nounParadigm.dat[1]!],
           ins: [nounParadigm.ins[0]!, nounParadigm.ins[1]!],
+          // A vocative belongs to the numerals that are nouns and can be
+          // addressed: `četverko`, `četvŕtino`. A cardinal declines like the
+          // i-stem `kosť` in the oblique cases but stays a quantifier, so it
+          // gets none.
+          ...(substantival
+            ? { voc: [nounParadigm.voc[0]!, nounParadigm.voc[1]!] }
+            : {}),
         },
       };
     }
@@ -375,15 +388,6 @@ function getLatin(word: string): string {
   const latin = transliterate(word, 'isv-Latn');
   return stripDiacritics(latin);
 }
-
-const CASES: Record<string, Features.Case> = {
-  nom: 'Nom',
-  acc: 'Acc',
-  gen: 'Gen',
-  dat: 'Dat',
-  ins: 'Ins',
-  loc: 'Loc',
-};
 
 /**
  * The gender of a cardinal is not in its paradigm — `pęť` is declined as a
@@ -444,10 +448,10 @@ export function inflectNumeral(
             : undefined;
       const genderFeat = gender ? { Gender: gender } : {};
 
-      // Every noun table above names its six cases and its columns, so both
+      // Every noun table above names its cases and its columns, so both
       // lookups answer.
       for (const [caseName, cells] of Object.entries(paradigm.cases)) {
-        const Case = CASES[caseName];
+        const Case = CASES[caseName as keyof typeof CASES];
 
         if (hasBoth) {
           push(cells[0], { Case, Number: 'Sing', ...genderFeat });
@@ -471,7 +475,7 @@ export function inflectNumeral(
       for (const [caseName, slots] of Object.entries(
         paradigm.casesSingular ?? {},
       )) {
-        const Case = CASES[caseName];
+        const Case = CASES[caseName as keyof typeof CASES];
         if (!Case) continue;
 
         const merged = caseName !== 'nom' && caseName !== 'acc';
@@ -491,7 +495,7 @@ export function inflectNumeral(
       for (const [caseName, slots] of Object.entries(
         paradigm.casesPlural ?? {},
       )) {
-        const Case = CASES[caseName];
+        const Case = CASES[caseName as keyof typeof CASES];
         if (!Case) continue;
 
         if (caseName === 'nom' || caseName === 'acc') {

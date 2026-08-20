@@ -56,7 +56,21 @@ describe('parsePos', () => {
       'm.sg.',
       { name: 'noun', gender: 'masculine', masculine: true, singular: true },
     ],
+    [
+      'm.anim.subst.',
+      {
+        name: 'noun',
+        gender: 'masculine',
+        masculine: true,
+        animate: true,
+        substantivized: true,
+      },
+    ],
     ['n.', { name: 'noun', gender: 'neuter', neuter: true }],
+    [
+      'n.subst.',
+      { name: 'noun', gender: 'neuter', neuter: true, substantivized: true },
+    ],
     [
       'n.indecl.',
       { name: 'noun', gender: 'neuter', neuter: true, indeclinable: true },

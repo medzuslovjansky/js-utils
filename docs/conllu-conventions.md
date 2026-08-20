@@ -137,9 +137,19 @@ Participle tags (`v.prap.`, `v.prpp.`, `v.pfap.`, `v.pfpp.`) map to `VerbForm=Pa
  
 ## MISC
  
+The column is typed key by key in `@interslavic/conllu` (`Misc`): an
+attribute not listed there is a type error, not a new string in the column.
+
 | Key | Meaning | Set by |
 |---|---|---|
-| `SID` | Steenbergen id from source row | `inflect()`, passed from caller |
+| `SID` | Identity of the entry: the Steenbergen id of the source row, or `<id>-<suffix>` for a lexeme `derive()` produced | `inflect()`, passed from caller; `derive()` |
+| `LID` | Steenbergen id of the row a derived lexeme descends from | `derive()`, when given a `lid` |
+| `Derivation` | Which rule produced a derived lexeme, as a `DerivationCode` (`v_prap`, `adj_adv`) | `derive()` |
+| `Declension` | `Adj` on a noun that is an adjective used as one (`učeny`, `prěměnna`). UPOS says `NOUN`, so nothing else records which tables the forms came from | `inflect()` |
+| `SpaceAfter` | `No` where the original text had no space | `splitTokens()` |
+
+The golden dump carries sid, lemma, form and FEATS, not MISC, so a change to
+an attribute above moves snapshots and nothing else.
  
 ## Normalization
  
