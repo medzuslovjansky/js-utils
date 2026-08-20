@@ -34,7 +34,24 @@ const XV$ = /(?:[^aåeęěėioȯuųyl]|[^oȯ]l)v$/;
  */
 export type NounCell = Array<{ form: string; feats?: TokenFeatures }>;
 
+/** The cases a noun paradigm holds, in the order the tables below build them. */
+const CASES = {
+  nom: 'Nom',
+  acc: 'Acc',
+  gen: 'Gen',
+  loc: 'Loc',
+  dat: 'Dat',
+  ins: 'Ins',
+  voc: 'Voc',
+} as const satisfies Record<string, Features.Case>;
+
 export type NounParadigm = {
+  /**
+   * Set when the lemma is an adjective used as a noun and the forms come from
+   * `declineAdjective`. UPOS says `NOUN`, which is what the lexicon means, so
+   * this is the only place the adjectival declension is still visible.
+   */
+  substantivized?: true;
   nom: [NounCell | null, NounCell | null];
   acc: [NounCell | null, NounCell | null];
   gen: [NounCell | null, NounCell | null];
@@ -766,6 +783,7 @@ function declensionSubstAdj(
     const column = (slot: NounCell) => [{ form: slot[animatedCol].form }];
 
     return {
+      substantivized: true,
       nom: [cell([word]), column(adjectiveParadigm.plural.nom[0])],
       acc: [
         // A neuter accusative repeats the nominative, and the nominative of a
@@ -788,6 +806,7 @@ function declensionSubstAdj(
     );
 
     return {
+      substantivized: true,
       nom: [cell([word]), adjectiveParadigm.plural.nom[1]],
       // The singular accusative keeps the three genders apart — masculine,
       // neuter, feminine — where every other case merges masculine with neuter
@@ -917,18 +936,10 @@ export function inflectNoun(
       continue;
     }
 
-    const caseMap: Record<string, Features.Case> = {
-      nom: 'Nom',
-      acc: 'Acc',
-      gen: 'Gen',
-      dat: 'Dat',
-      ins: 'Ins',
-      loc: 'Loc',
-      voc: 'Voc',
-    };
+    const misc = paradigm.substantivized ? { Derivation: 'Adj' } : undefined;
 
-    for (const [caseName, [singular, plural]] of Object.entries(paradigm)) {
-      const conlluCase = caseMap[caseName];
+    for (const [caseName, conlluCase] of Object.entries(CASES)) {
+      const [singular, plural] = paradigm[caseName as keyof typeof CASES];
 
       if (singular && !isPlural) {
         for (const { form, feats } of singular) {
@@ -941,6 +952,7 @@ export function inflectNoun(
               Case: conlluCase,
               Number: 'Sing' as Features.Number,
             },
+            ...(misc && { misc }),
           });
         }
       }
@@ -958,6 +970,7 @@ export function inflectNoun(
                 ? 'Ptan'
                 : 'Plur') as Features.Number,
             },
+            ...(misc && { misc }),
           });
         }
       }

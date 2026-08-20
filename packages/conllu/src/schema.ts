@@ -54,4 +54,6 @@ export type AdapterResult<POS extends UPOS = UPOS> = Array<{
   form: string;
   upos: POS;
   feats: POSFeatures[POS];
+  /** Annotation with no home in FEATS, merged into the token's MISC column. */
+  misc?: Record<string, string>;
 }>;

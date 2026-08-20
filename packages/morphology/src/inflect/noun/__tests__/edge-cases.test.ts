@@ -66,3 +66,19 @@ test('a subst. tag declines as an adjective without a bracketed genitive', () =>
     );
   }
 });
+
+test('a substantivized adjective says so in MISC, an ordinary noun does not', () => {
+  // UPOS is NOUN, which is what the lexicon means by the entry, so MISC is the
+  // only place left to record that the forms come from the adjective tables.
+  const misc = (results: ReturnType<typeof inflectNoun>) => [
+    ...new Set(results.map((result) => JSON.stringify(result.misc))),
+  ];
+
+  assert.deepStrictEqual(misc(inflectNoun('učeny', 'm.anim.', 'učenogo')), [
+    '{"Derivation":"Adj"}',
+  ]);
+  assert.deepStrictEqual(misc(inflectNoun('prěměnna', 'f.subst.')), [
+    '{"Derivation":"Adj"}',
+  ]);
+  assert.deepStrictEqual(misc(inflectNoun('dom', 'm.')), [undefined]);
+});

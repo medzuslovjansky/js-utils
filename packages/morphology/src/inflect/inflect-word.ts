@@ -24,8 +24,9 @@ function composeTokens(
     xpos,
     feats: result.feats,
     // A copy per token: one shared object would let a consumer annotating one
-    // form of the paradigm annotate all the others behind its back.
-    misc: misc && { ...misc },
+    // form of the paradigm annotate all the others behind its back. What the
+    // adapter has to say comes first, so a caller can override it.
+    misc: misc || result.misc ? { ...result.misc, ...misc } : undefined,
   }));
 }
 
