@@ -1,3 +1,4 @@
+import type { Misc } from './misc.ts';
 import type * as FeaturesPOS from './features-pos.ts';
 import type { UPOS } from './upos.ts';
 
@@ -41,7 +42,7 @@ export interface Token<POS extends UPOS = UPOS> {
   head?: number;
   deprel?: string;
   deps?: Array<{ head: number; deprel: string }>;
-  misc?: Record<string, string>;
+  misc?: Misc;
 }
 
 export type TokenFeatures = FeaturesPOS.Any;
@@ -55,5 +56,5 @@ export type AdapterResult<POS extends UPOS = UPOS> = Array<{
   upos: POS;
   feats: POSFeatures[POS];
   /** Annotation with no home in FEATS, merged into the token's MISC column. */
-  misc?: Record<string, string>;
+  misc?: Misc;
 }>;

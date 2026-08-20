@@ -1,5 +1,5 @@
 import { parsePos } from '../partOfSpeech/index.ts';
-import type { AdapterResult, Token, XPOS } from '@interslavic/conllu';
+import type { AdapterResult, Misc, Token, XPOS } from '@interslavic/conllu';
 import { etymologify } from '../etymologify.ts';
 import { parseXPos } from '../steen/index.ts';
 import {
@@ -15,7 +15,7 @@ function composeTokens(
   results: AdapterResult,
   lemma: string,
   xpos: XPOS,
-  misc?: Record<string, string>,
+  misc?: Misc,
 ): Token[] {
   return results.map((result) => ({
     form: etymologify(result.form),
@@ -35,7 +35,7 @@ export function inflectWord(
   xpos: XPOS,
   lemma: string,
   irregular?: string,
-  misc?: Record<string, string>,
+  misc?: Misc,
 ): Token[] {
   if (!word || typeof word !== 'string' || word.includes(' ')) {
     return [];

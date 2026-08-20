@@ -75,10 +75,10 @@ test('a substantivized adjective says so in MISC, an ordinary noun does not', ()
   ];
 
   assert.deepStrictEqual(misc(inflectNoun('učeny', 'm.anim.', 'učenogo')), [
-    '{"Derivation":"Adj"}',
+    '{"Declension":"Adj"}',
   ]);
   assert.deepStrictEqual(misc(inflectNoun('prěměnna', 'f.subst.')), [
-    '{"Derivation":"Adj"}',
+    '{"Declension":"Adj"}',
   ]);
   assert.deepStrictEqual(misc(inflectNoun('dom', 'm.')), [undefined]);
 });

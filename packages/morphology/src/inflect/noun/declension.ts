@@ -5,6 +5,7 @@
 import type {
   AdapterResult,
   Features,
+  Misc,
   TokenFeatures,
   XPOS,
 } from '@interslavic/conllu';
@@ -48,8 +49,8 @@ const CASES = {
 export type NounParadigm = {
   /**
    * Set when the lemma is an adjective used as a noun and the forms come from
-   * `declineAdjective`. UPOS says `NOUN`, which is what the lexicon means, so
-   * this is the only place the adjectival declension is still visible.
+   * `declineAdjective`. Surfaces on the tokens as `Declension=Adj` in MISC,
+   * which is the only place it is still visible once UPOS says `NOUN`.
    */
   substantivized?: true;
   nom: [NounCell | null, NounCell | null];
@@ -936,7 +937,9 @@ export function inflectNoun(
       continue;
     }
 
-    const misc = paradigm.substantivized ? { Derivation: 'Adj' } : undefined;
+    const misc: Misc | undefined = paradigm.substantivized
+      ? { Declension: 'Adj' }
+      : undefined;
 
     for (const [caseName, conlluCase] of Object.entries(CASES)) {
       const [singular, plural] = paradigm[caseName as keyof typeof CASES];

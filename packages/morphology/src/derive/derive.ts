@@ -1,4 +1,4 @@
-import type { Token } from '@interslavic/conllu';
+import type { Misc, Token } from '@interslavic/conllu';
 import type { Lemma } from '../schema.ts';
 import type { KnownForm } from '../inflect/inflect.ts';
 import { normalize, type SteenInput } from '../normalize.ts';
@@ -155,7 +155,7 @@ export function derive(
           feats.Gender = 'Neut';
         }
 
-        const misc: Record<string, string> = {
+        const misc: Misc = {
           Derivation: mapping.code,
         };
 

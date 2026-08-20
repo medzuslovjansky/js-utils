@@ -1,4 +1,10 @@
-import type { Token, TokenFeatures, UPOS, XPOS } from '@interslavic/conllu';
+import type {
+  Misc,
+  Token,
+  TokenFeatures,
+  UPOS,
+  XPOS,
+} from '@interslavic/conllu';
 
 /**
  * Word represents a single word in a lemma.
@@ -16,7 +22,7 @@ export interface Word {
   /** Inflected forms. forms[0] is the citation form with full features. */
   inflections?: Token[];
   /** Miscellaneous info (SID, SpaceAfter, etc.) */
-  misc?: Record<string, string>;
+  misc?: Misc;
 }
 
 export interface Lemma {
@@ -25,5 +31,5 @@ export interface Lemma {
   /** Words in this lemma. Each can have inflections. */
   words: Word[];
   annotation?: string;
-  misc?: Record<string, string>;
+  misc?: Misc;
 }

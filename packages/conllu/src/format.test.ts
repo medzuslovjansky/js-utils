@@ -129,6 +129,11 @@ describe('formatTokenAsConllu', () => {
       );
     });
 
+    test('drops an attribute that arrived as an explicit undefined', () => {
+      const token: Token = { form: 'a', misc: { SID: '1', Gloss: undefined } };
+      assert.equal(columns(formatTokenAsConllu(token))[9], 'SID=1');
+    });
+
     // `Key=` is not a legal MISC entry, so an empty value drops out entirely.
     test('empty values are dropped', () => {
       const token: Token = { form: 'a', misc: { SID: '1', Gloss: '' } };
