@@ -343,6 +343,7 @@ export function declineNumeral(
           loc: [nounParadigm.loc[0]!],
           dat: [nounParadigm.dat[0]!],
           ins: [nounParadigm.ins[0]!],
+          voc: [nounParadigm.voc[0]!],
         },
       };
     } else {
@@ -356,6 +357,7 @@ export function declineNumeral(
           loc: [nounParadigm.loc[0]!, nounParadigm.loc[1]!],
           dat: [nounParadigm.dat[0]!, nounParadigm.dat[1]!],
           ins: [nounParadigm.ins[0]!, nounParadigm.ins[1]!],
+          voc: [nounParadigm.voc[0]!, nounParadigm.voc[1]!],
         },
       };
     }
@@ -383,6 +385,7 @@ const CASES: Record<string, Features.Case> = {
   dat: 'Dat',
   ins: 'Ins',
   loc: 'Loc',
+  voc: 'Voc',
 };
 
 /**

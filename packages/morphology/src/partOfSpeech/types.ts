@@ -40,6 +40,8 @@ export type Noun = {
   singular: boolean;
   plural: boolean;
   indeclinable: boolean;
+  /** An adjective used as a noun — `dežurny`, `prěměnna` — which declines as one. */
+  substantivized: boolean;
 };
 
 export type Numeral = {

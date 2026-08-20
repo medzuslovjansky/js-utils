@@ -8,7 +8,7 @@ import type {
   TokenFeatures,
   XPOS,
 } from '@interslavic/conllu';
-import { VOWELS } from '@interslavic/translit/phonology';
+import { SOFT_CONSONANTS, VOWELS } from '@interslavic/translit/phonology';
 
 import { declineAdjective } from '../adjective/index.ts';
 import {
@@ -768,7 +768,11 @@ function declensionSubstAdj(
     return {
       nom: [cell([word]), column(adjectiveParadigm.plural.nom[0])],
       acc: [
-        column(adjectiveParadigm.singular.acc[0]),
+        // A neuter accusative repeats the nominative, and the nominative of a
+        // substantivized adjective is the lemma itself.
+        gender === 'neuter'
+          ? cell([word])
+          : column(adjectiveParadigm.singular.acc[0]),
         column(adjectiveParadigm.plural.acc[0]),
       ],
       gen: [adjectiveParadigm.singular.gen[0], adjectiveParadigm.plural.gen[0]],
@@ -785,7 +789,10 @@ function declensionSubstAdj(
 
     return {
       nom: [cell([word]), adjectiveParadigm.plural.nom[1]],
-      acc: [adjectiveParadigm.singular.acc[1], adjectiveParadigm.plural.acc[1]],
+      // The singular accusative keeps the three genders apart — masculine,
+      // neuter, feminine — where every other case merges masculine with neuter
+      // and leaves the feminine second.
+      acc: [adjectiveParadigm.singular.acc[2], adjectiveParadigm.plural.acc[1]],
       gen: [adjectiveParadigm.singular.gen[1], adjectiveParadigm.plural.gen[0]],
       loc: [adjectiveParadigm.singular.loc[1], adjectiveParadigm.plural.loc[0]],
       dat: [adjectiveParadigm.singular.dat[1], adjectiveParadigm.plural.dat[0]],
@@ -833,13 +840,34 @@ function nounArgs(
 
   return [
     lemma,
-    extra,
+    extra || (pos.substantivized ? genitiveHint(lemma, gender) : ''),
     gender,
     pos.animate,
     pos.plural,
     pos.singular,
     pos.indeclinable,
   ] as const;
+}
+
+/**
+ * A `*.subst.` tag says the word is an adjective used as a noun but not which
+ * of the two adjective declensions it takes; the dictionary says that with a
+ * bracketed genitive, `dežurny (-ogo)`. Where the tag comes without one, the
+ * genitive is spelled out from the lemma: the masculine and the neuter wear
+ * their softness in the ending, `pųtujųći` and `srědnje` against `dežurny` and
+ * `dobro`, and the feminine, whose `-a` is the same either way, wears it on the
+ * last consonant of the stem.
+ */
+function genitiveHint(lemma: string, gender: Noun['gender']): string {
+  const stem = lemma.slice(0, -1);
+  const soft =
+    gender === 'feminine'
+      ? SOFT_CONSONANTS.has(stem.slice(-1))
+      : /[ie]$/.test(lemma);
+
+  return gender === 'feminine'
+    ? stem + (soft ? 'ej' : 'oj')
+    : stem + (soft ? 'ego' : 'ogo');
 }
 
 export function declineNounSimple(

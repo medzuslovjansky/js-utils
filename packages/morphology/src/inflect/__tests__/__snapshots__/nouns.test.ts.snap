@@ -206,7 +206,7 @@ exports[`conllufy - nouns 20837 1`] = `
 exports[`conllufy - nouns 22830 1`] = `
 "znajema	znajema	NOUN	f.	Case=Nom|Gender=Fem|Number=Sing
 znajeme	znajema	NOUN	f.	Case=Nom|Gender=Fem|Number=Plur
-znajemo	znajema	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
+znajemų	znajema	NOUN	f.	Case=Acc|Gender=Fem|Number=Sing
 znajeme	znajema	NOUN	f.	Case=Acc|Gender=Fem|Number=Plur
 znajemoj	znajema	NOUN	f.	Case=Gen|Gender=Fem|Number=Sing
 znajemyh	znajema	NOUN	f.	Case=Gen|Gender=Fem|Number=Plur
