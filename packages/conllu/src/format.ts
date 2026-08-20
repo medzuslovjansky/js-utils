@@ -1,10 +1,9 @@
 import type { Token } from './schema.ts';
 import type { Misc } from './misc.ts';
 
-// An empty value would print a bare `Key=`, which is not a legal MISC entry,
-// and an optional property spread from another bundle can arrive as an
-// explicit `undefined`, which is an absent attribute rather than one with no
-// value.
+// An empty value would print a bare `Key=`, which is not a legal MISC entry.
+// An optional property spread from another bundle can also arrive as an
+// explicit `undefined`; that is an absent attribute, not an empty one.
 function formatMisc(misc?: Misc): string {
   const pairs = Object.entries(misc ?? {})
     .filter(([, value]) => value != null && value !== '')
