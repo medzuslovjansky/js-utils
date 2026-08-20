@@ -24,21 +24,7 @@ export function nounForms(
   genderOverride?: 'masculine' | 'feminine',
 ): string[] {
   const paradigm = declineNounSimple(lemma, morphology, extra, genderOverride);
-  if (!paradigm) return [];
-
-  // Named rather than swept up with `Object.values`: the paradigm also carries
-  // a note about itself, which is not a case and holds no forms.
-  return forms(
-    [
-      paradigm.nom,
-      paradigm.acc,
-      paradigm.gen,
-      paradigm.loc,
-      paradigm.dat,
-      paradigm.ins,
-      paradigm.voc,
-    ].flat(),
-  );
+  return paradigm ? forms(Object.values(paradigm).flat()) : [];
 }
 
 export function adjectiveForms(

@@ -30,8 +30,8 @@ test('a substantivized adjective keeps its own gender in the accusative', () => 
     paradigm?.acc[0]?.map(({ form }) => form);
 
   // Three genders, three accusatives: the feminine takes the yus, the neuter
-  // repeats the nominative, and the masculine follows animacy — the genitive
-  // for an animate, the nominative for an inanimate.
+  // repeats the nominative, and the masculine follows animacy (the genitive
+  // for an animate, the nominative for an inanimate).
   assert.deepStrictEqual(form(declineNounSimple('prěměnna', 'f.', '(-oj)')), [
     'prěměnnų',
   ]);
@@ -48,8 +48,8 @@ test('a substantivized adjective keeps its own gender in the accusative', () => 
 });
 
 test('a subst. tag declines as an adjective without a bracketed genitive', () => {
-  // The tag says only that the word is an adjective; where the dictionary spells
-  // the declension out in brackets, the lemma alone has to say the same thing.
+  // The tag says only that the word is an adjective, so where the dictionary
+  // would spell the declension out in brackets, the lemma alone has to yield it.
   for (const [lemma, tag, gender, bracketed] of [
     ['učeny', 'm.anim.subst.', 'm.anim.', '(-ogo)'],
     ['pųtujųći', 'm.anim.subst.', 'm.anim.', '(-ego)'],
@@ -58,6 +58,8 @@ test('a subst. tag declines as an adjective without a bracketed genitive', () =>
     ['srědnja', 'f.subst.', 'f.', '(-ej)'],
     ['srědnje', 'n.subst.', 'n.', '(-ego)'],
     ['dobro', 'n.subst.', 'n.', '(-ogo)'],
+    ['drobne', 'm.pl.subst.', 'm.pl.', '(-yh)'],
+    ['srědnji', 'm.anim.pl.subst.', 'm.anim.pl.', '(-ih)'],
   ] as const) {
     assert.deepStrictEqual(
       declineNounSimple(lemma, tag),
@@ -68,8 +70,8 @@ test('a subst. tag declines as an adjective without a bracketed genitive', () =>
 });
 
 test('a substantivized adjective says so in MISC, an ordinary noun does not', () => {
-  // UPOS is NOUN, which is what the lexicon means by the entry, so MISC is the
-  // only place left to record that the forms come from the adjective tables.
+  // UPOS is NOUN, as the lexicon means the entry to be, so MISC is the only
+  // place left to record that the forms come from the adjective tables.
   const misc = (results: ReturnType<typeof inflectNoun>) => [
     ...new Set(results.map((result) => JSON.stringify(result.misc))),
   ];
@@ -81,4 +83,31 @@ test('a substantivized adjective says so in MISC, an ordinary noun does not', ()
     '{"Declension":"Adj"}',
   ]);
   assert.deepStrictEqual(misc(inflectNoun('dom', 'm.')), [undefined]);
+  // The bracketed plural says the same thing the singular one does.
+  assert.deepStrictEqual(misc(inflectNoun('drobne', 'm.pl.', '(-yh)')), [
+    '{"Declension":"Adj"}',
+  ]);
+});
+
+test('a subst. tag on a word that cannot be an adjective is ignored', () => {
+  // A lemma ending in a consonant, or in a vowel no adjective ends in, is no
+  // adjective whatever the tag says. Guessing a genitive from it would give
+  // `*doogo`, so the rest of the tag is honoured and the `subst.` is dropped.
+  for (const [lemma, tag, gender] of [
+    ['dom', 'm.subst.', 'm.'],
+    ['gospodar', 'm.anim.subst.', 'm.anim.'],
+    ['noć', 'f.subst.', 'f.'],
+    ['usta', 'n.pl.subst.', 'n.pl.'],
+  ] as const) {
+    assert.deepStrictEqual(
+      declineNounSimple(lemma, tag),
+      declineNounSimple(lemma, gender),
+      `${lemma} ${tag}`,
+    );
+    assert.deepStrictEqual(
+      [...new Set(inflectNoun(lemma, tag).map((result) => result.misc))],
+      [undefined],
+      `${lemma} ${tag}`,
+    );
+  }
 });

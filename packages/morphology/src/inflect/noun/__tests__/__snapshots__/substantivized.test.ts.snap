@@ -1,0 +1,835 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`noun substantivized dobro n.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "dobro",
+      },
+    ],
+    [
+      {
+        "form": "dobre",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "dobromu",
+      },
+    ],
+    [
+      {
+        "form": "dobrym",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "dobrogo",
+      },
+    ],
+    [
+      {
+        "form": "dobryh",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "dobrym",
+      },
+    ],
+    [
+      {
+        "form": "dobrymi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "dobrom",
+      },
+    ],
+    [
+      {
+        "form": "dobryh",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "dobro",
+      },
+    ],
+    [
+      {
+        "form": "dobre",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "dobro",
+      },
+    ],
+    [
+      {
+        "form": "dobre",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized drobne m.pl.subst. 1`] = `
+{
+  "acc": [
+    null,
+    [
+      {
+        "form": "drobne",
+      },
+    ],
+  ],
+  "dat": [
+    null,
+    [
+      {
+        "form": "drobnym",
+      },
+    ],
+  ],
+  "gen": [
+    null,
+    [
+      {
+        "form": "drobnyh",
+      },
+    ],
+  ],
+  "ins": [
+    null,
+    [
+      {
+        "form": "drobnymi",
+      },
+    ],
+  ],
+  "loc": [
+    null,
+    [
+      {
+        "form": "drobnyh",
+      },
+    ],
+  ],
+  "nom": [
+    null,
+    [
+      {
+        "form": "drobne",
+      },
+    ],
+  ],
+  "voc": [
+    null,
+    [
+      {
+        "form": "drobne",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized prěměnna f.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "prěměnnų",
+      },
+    ],
+    [
+      {
+        "form": "prěměnne",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "prěměnnoj",
+      },
+    ],
+    [
+      {
+        "form": "prěměnnym",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "prěměnnoj",
+      },
+    ],
+    [
+      {
+        "form": "prěměnnyh",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "prěměnnojų",
+      },
+    ],
+    [
+      {
+        "form": "prěměnnymi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "prěměnnoj",
+      },
+    ],
+    [
+      {
+        "form": "prěměnnyh",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "prěměnna",
+      },
+    ],
+    [
+      {
+        "form": "prěměnne",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "prěměnna",
+      },
+    ],
+    [
+      {
+        "form": "prěměnne",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized pųtujųći m.anim.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "pųtujųćego",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųćih",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "pųtujųćemu",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųćim",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "pųtujųćego",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųćih",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "pųtujųćim",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųćimi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "pųtujųćem",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųćih",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "pųtujųći",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųći",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "pųtujųći",
+      },
+    ],
+    [
+      {
+        "form": "pųtujųći",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized srědnja f.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "srědnjų",
+      },
+    ],
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "srědnjej",
+      },
+    ],
+    [
+      {
+        "form": "srědnjim",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "srědnjej",
+      },
+    ],
+    [
+      {
+        "form": "srědnjih",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "srědnjejų",
+      },
+    ],
+    [
+      {
+        "form": "srědnjimi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "srědnjej",
+      },
+    ],
+    [
+      {
+        "form": "srědnjih",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "srědnja",
+      },
+    ],
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "srědnja",
+      },
+    ],
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized srědnje n.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "srědnjemu",
+      },
+    ],
+    [
+      {
+        "form": "srědnjim",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "srědnjego",
+      },
+    ],
+    [
+      {
+        "form": "srědnjih",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "srědnjim",
+      },
+    ],
+    [
+      {
+        "form": "srědnjimi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "srědnjem",
+      },
+    ],
+    [
+      {
+        "form": "srědnjih",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+    [
+      {
+        "form": "srědnje",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized srědnji m.anim.pl.subst. 1`] = `
+{
+  "acc": [
+    null,
+    [
+      {
+        "form": "srědnji",
+      },
+    ],
+  ],
+  "dat": [
+    null,
+    [
+      {
+        "form": "srědnjim",
+      },
+    ],
+  ],
+  "gen": [
+    null,
+    [
+      {
+        "form": "srědnjih",
+      },
+    ],
+  ],
+  "ins": [
+    null,
+    [
+      {
+        "form": "srědnjimi",
+      },
+    ],
+  ],
+  "loc": [
+    null,
+    [
+      {
+        "form": "srědnjih",
+      },
+    ],
+  ],
+  "nom": [
+    null,
+    [
+      {
+        "form": "srědnji",
+      },
+    ],
+  ],
+  "voc": [
+    null,
+    [
+      {
+        "form": "srědnji",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized učeny m.anim.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "učenogo",
+      },
+    ],
+    [
+      {
+        "form": "učenyh",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "učenomu",
+      },
+    ],
+    [
+      {
+        "form": "učenym",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "učenogo",
+      },
+    ],
+    [
+      {
+        "form": "učenyh",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "učenym",
+      },
+    ],
+    [
+      {
+        "form": "učenymi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "učenom",
+      },
+    ],
+    [
+      {
+        "form": "učenyh",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "učeny",
+      },
+    ],
+    [
+      {
+        "form": "učeni",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "učeny",
+      },
+    ],
+    [
+      {
+        "form": "učeni",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized veliki m.anim.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "velikogo",
+      },
+    ],
+    [
+      {
+        "form": "velikyh",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "velikomu",
+      },
+    ],
+    [
+      {
+        "form": "velikym",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "velikogo",
+      },
+    ],
+    [
+      {
+        "form": "velikyh",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "velikym",
+      },
+    ],
+    [
+      {
+        "form": "velikymi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "velikom",
+      },
+    ],
+    [
+      {
+        "form": "velikyh",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "veliki",
+      },
+    ],
+    [
+      {
+        "form": "veliki",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "veliki",
+      },
+    ],
+    [
+      {
+        "form": "veliki",
+      },
+    ],
+  ],
+}
+`;
+
+exports[`noun substantivized zloty m.subst. 1`] = `
+{
+  "acc": [
+    [
+      {
+        "form": "zloty",
+      },
+    ],
+    [
+      {
+        "form": "zlote",
+      },
+    ],
+  ],
+  "dat": [
+    [
+      {
+        "form": "zlotomu",
+      },
+    ],
+    [
+      {
+        "form": "zlotym",
+      },
+    ],
+  ],
+  "gen": [
+    [
+      {
+        "form": "zlotogo",
+      },
+    ],
+    [
+      {
+        "form": "zlotyh",
+      },
+    ],
+  ],
+  "ins": [
+    [
+      {
+        "form": "zlotym",
+      },
+    ],
+    [
+      {
+        "form": "zlotymi",
+      },
+    ],
+  ],
+  "loc": [
+    [
+      {
+        "form": "zlotom",
+      },
+    ],
+    [
+      {
+        "form": "zlotyh",
+      },
+    ],
+  ],
+  "nom": [
+    [
+      {
+        "form": "zloty",
+      },
+    ],
+    [
+      {
+        "form": "zlote",
+      },
+    ],
+  ],
+  "voc": [
+    [
+      {
+        "form": "zloty",
+      },
+    ],
+    [
+      {
+        "form": "zlote",
+      },
+    ],
+  ],
+}
+`;
