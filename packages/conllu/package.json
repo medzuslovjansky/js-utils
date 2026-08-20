@@ -1,6 +1,6 @@
 {
   "name": "@interslavic/conllu",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "CoNLL-U token schema, UD feature types and formatting for Interslavic",
   "main": "dist/index.js",
