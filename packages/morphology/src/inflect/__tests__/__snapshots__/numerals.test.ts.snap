@@ -108,8 +108,7 @@ exports[`conllufy - numerals 6 1`] = `
 šesti	šesť	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
 šesti	šesť	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
 šesti	šesť	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
-šesťjų	šesť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing
-šesti	šesť	NUM	num.card.	Case=Voc|Gender=Fem|NumType=Card|Number=Sing"
+šesťjų	šesť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
 `;
 
 exports[`conllufy - numerals 7 1`] = `
@@ -118,8 +117,7 @@ sedm	sedm	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
 sedmi	sedm	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
 sedmi	sedm	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
 sedmi	sedm	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
-sedmjų	sedm	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing
-sedmi	sedm	NUM	num.card.	Case=Voc|Gender=Fem|NumType=Card|Number=Sing"
+sedmjų	sedm	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
 `;
 
 exports[`conllufy - numerals 8 1`] = `
@@ -128,8 +126,7 @@ osm	osm	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
 osmi	osm	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
 osmi	osm	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
 osmi	osm	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
-osmjų	osm	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing
-osmi	osm	NUM	num.card.	Case=Voc|Gender=Fem|NumType=Card|Number=Sing"
+osmjų	osm	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
 `;
 
 exports[`conllufy - numerals 9 1`] = `
@@ -138,8 +135,7 @@ devęť	devęť	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
 devęti	devęť	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
 devęti	devęť	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
 devęti	devęť	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
-devęťjų	devęť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing
-devęti	devęť	NUM	num.card.	Case=Voc|Gender=Fem|NumType=Card|Number=Sing"
+devęťjų	devęť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
 `;
 
 exports[`conllufy - numerals 10 1`] = `
@@ -148,8 +144,7 @@ desęť	desęť	NUM	num.card.	Case=Acc|Gender=Fem|NumType=Card|Number=Sing
 desęti	desęť	NUM	num.card.	Case=Gen|Gender=Fem|NumType=Card|Number=Sing
 desęti	desęť	NUM	num.card.	Case=Loc|Gender=Fem|NumType=Card|Number=Sing
 desęti	desęť	NUM	num.card.	Case=Dat|Gender=Fem|NumType=Card|Number=Sing
-desęťjų	desęť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing
-desęti	desęť	NUM	num.card.	Case=Voc|Gender=Fem|NumType=Card|Number=Sing"
+desęťjų	desęť	NUM	num.card.	Case=Ins|Gender=Fem|NumType=Card|Number=Sing"
 `;
 
 exports[`conllufy - numerals 636 1`] = `

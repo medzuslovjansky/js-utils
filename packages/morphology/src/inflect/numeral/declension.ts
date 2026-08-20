@@ -319,6 +319,9 @@ export function declineNumeral(
     declensionType = 'adjective';
   }
 
+  const substantival =
+    numeralType === 'fractional' || numeralType === 'substantivized';
+
   if (declensionType === 'noun') {
     // `details` is one of the four tags set above, and none of them is plural.
     const { gender, singular } = parsePos(details) as Noun;
@@ -343,7 +346,6 @@ export function declineNumeral(
           loc: [nounParadigm.loc[0]!],
           dat: [nounParadigm.dat[0]!],
           ins: [nounParadigm.ins[0]!],
-          voc: [nounParadigm.voc[0]!],
         },
       };
     } else {
@@ -357,7 +359,13 @@ export function declineNumeral(
           loc: [nounParadigm.loc[0]!, nounParadigm.loc[1]!],
           dat: [nounParadigm.dat[0]!, nounParadigm.dat[1]!],
           ins: [nounParadigm.ins[0]!, nounParadigm.ins[1]!],
-          voc: [nounParadigm.voc[0]!, nounParadigm.voc[1]!],
+          // A vocative belongs to the numerals that are nouns and can be
+          // addressed, `četverko`, `četvŕtino`. A cardinal declines like the
+          // i-stem `kosť` in the oblique cases but is a quantifier, and nobody
+          // addresses a `šesť`.
+          ...(substantival
+            ? { voc: [nounParadigm.voc[0]!, nounParadigm.voc[1]!] }
+            : {}),
         },
       };
     }
