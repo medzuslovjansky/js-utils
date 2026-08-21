@@ -33,6 +33,12 @@ const testCases: Array<[string, string, string]> = [
   ['m.', 'NOUN', 'Gender=Masc'],
   ['m./f.', 'NOUN', 'Gender=Masc'], // Variant 1
   ['m./f.', 'NOUN', 'Gender=Fem'], // Variant 2
+  ['m.anim./f.', 'NOUN', 'Animacy=Anim|Gender=Masc'], // Variant 1
+  ['m.anim./f.', 'NOUN', 'Gender=Fem'], // Variant 2
+  ['m.propn.', 'PROPN', 'Gender=Masc'],
+  ['f.propn.', 'PROPN', 'Gender=Fem'],
+  ['n.propn.', 'PROPN', 'Gender=Neut'],
+  ['m.anim.propn.', 'PROPN', 'Animacy=Anim|Gender=Masc'],
   ['m.anim.', 'NOUN', 'Animacy=Anim|Gender=Masc'],
   ['m.anim.subst.', 'NOUN', 'Animacy=Anim|Gender=Masc'],
   ['m.indecl.', 'NOUN', 'Gender=Masc|Uninflect=Yes'],
@@ -87,9 +93,14 @@ for (const [xpos, expectedUpos, expectedFeats] of testCases) {
   });
 }
 
-test('parseXPos("Test", "m.") gives PROPN', () => {
-  const result = parseXPos('Test', 'm.');
-  assert.deepStrictEqual(result, [['PROPN', { Gender: 'Masc' }]]);
+test('a capital letter alone does not make a proper noun', () => {
+  // `Albanec` is capitalized and is the name of a people, not of a person.
+  assert.deepStrictEqual(parseXPos('Albanec', 'm.anim.'), [
+    ['NOUN', { Gender: 'Masc', Animacy: 'Anim' }],
+  ]);
+  assert.deepStrictEqual(parseXPos('Praga', 'f.sg.propn.'), [
+    ['PROPN', { Gender: 'Fem', Number: 'Sing' }],
+  ]);
 });
 
 test('parseXPos("rad", "adj.") gives ADJ with Variant=Short', () => {

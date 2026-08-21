@@ -40,6 +40,10 @@ describe('parsePos', () => {
       { name: 'noun', gender: 'masculine', masculine: true, animate: true },
     ],
     [
+      'm.anim.propn.',
+      { name: 'noun', gender: 'masculine', masculine: true, animate: true },
+    ],
+    [
       'm.indecl.',
       {
         name: 'noun',

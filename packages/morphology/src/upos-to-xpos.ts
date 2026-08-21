@@ -18,7 +18,7 @@ export function uposFeatsToXpos(
       else if (g === 'Neut') base = 'n.';
 
       if (feats?.Number === 'Ptan') base = base.replace('.', '.pl.');
-      return base;
+      return upos === 'PROPN' ? `${base}propn.` : base;
     }
     case 'ADJ': {
       let base = 'adj.';

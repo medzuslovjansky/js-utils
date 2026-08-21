@@ -17,25 +17,27 @@ export type XPosParseResult = [UPOS, TokenFeatures];
  *
  * @example
  * parseXPos('test', 'm.') // => [['NOUN', { Gender: "Masc" }]]
- * parseXPos('Test', 'm.') // => [['PROPN', { Gender: "Masc" }]]
+ * parseXPos('Test', 'm.propn.') // => [['PROPN', { Gender: "Masc" }]]
  * parseXPos('kųdėŕ', 'm./f.') // => [['NOUN', { Gender: "Masc" }], ['NOUN', { Gender: "Fem" }]]
+ * parseXPos('pijanica', 'm.anim./f.') // => [['NOUN', { Animacy: "Anim", Gender: "Masc" }], ['NOUN', { Gender: "Fem" }]]
  * parseXPos('testovati', 'v.tr. ipf./pf.') // => [['VERB', { Aspect: "Imp", VerbForm: "Inf" }], ['VERB', { Aspect: "Perf", VerbForm: "Inf" }]]
  */
 export function parseXPos(lemma: string, xpos: string): XPosParseResult[] {
   const clean = xpos.replace(/^#/, '').trim();
 
   if (/^[mfn]\./.test(clean)) {
-    if (clean.startsWith('m./f.')) {
-      const results: XPosParseResult[] = [];
-      const baseFeatures = parseNounModifiers(clean);
+    // Animacy applies only to the masculine reading in dual-gender tags.
+    const dualGender = /^m\.(anim\.)?\/f\./.exec(clean);
+    if (dualGender) {
+      const shared = parseNounModifiers(clean.replace('anim.', ''));
+      const masc: TokenFeatures = { ...shared, Gender: 'Masc' };
+      if (dualGender[1]) masc.Animacy = 'Anim';
 
-      const mascFeatures: TokenFeatures = { ...baseFeatures, Gender: 'Masc' };
-      results.push(['NOUN', mascFeatures]);
-
-      const femFeatures: TokenFeatures = { ...baseFeatures, Gender: 'Fem' };
-      results.push(['NOUN', femFeatures]);
-
-      return results;
+      const upos = nounUpos(clean);
+      return [
+        [upos, masc],
+        [upos, { ...shared, Gender: 'Fem' }],
+      ];
     }
 
     const features: TokenFeatures = {};
@@ -51,8 +53,7 @@ export function parseXPos(lemma: string, xpos: string): XPosParseResult[] {
     const modifiers = parseNounModifiers(clean);
     Object.assign(features, modifiers);
 
-    const upos = startsWithUppercase(lemma) ? 'PROPN' : 'NOUN';
-    return [[upos, features]];
+    return [[nounUpos(clean), features]];
   }
 
   if (/^v\./.test(clean)) {
@@ -290,6 +291,9 @@ function parseNounModifiers(xpos: string): TokenFeatures {
   return features;
 }
 
-function startsWithUppercase(str: string): boolean {
-  return str[0] === str[0].toUpperCase() && str[1] === str[1].toLowerCase();
+/**
+ * Maps noun XPOS tags to UPOS. Requires an explicit `propn.` tag to emit `PROPN`.
+ */
+function nounUpos(xpos: string): 'NOUN' | 'PROPN' {
+  return xpos.includes('propn.') ? 'PROPN' : 'NOUN';
 }

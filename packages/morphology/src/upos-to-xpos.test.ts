@@ -14,7 +14,7 @@ const testCases: Array<[string | undefined, string, string]> = [
   ['NOUN', '_', 'm.'],
   ['NOUN', 'Gender=Fem|Number=Ptan', 'f.pl.'],
   ['NOUN', 'Gender=Neut|Number=Sing', 'n.'],
-  ['PROPN', 'Gender=Fem', 'f.'],
+  ['PROPN', 'Gender=Fem', 'f.propn.'],
   ['ADJ', 'Degree=Pos', 'adj.'],
   ['ADJ', 'Degree=Cmp', 'adj.comp.'],
   ['ADJ', 'Degree=Sup', 'adj.sup.'],
