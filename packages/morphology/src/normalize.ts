@@ -70,66 +70,25 @@ export function normalize(input: SteenInput): Lemma[] {
   // Check if this is an affix
   const affixType = isAffix(xpos);
 
-  return parseXPos(isv, xpos).flatMap(([upos, feats]) => {
-    return splitSteenLemmas(isv).flatMap(({ value, annotation }) => {
-      // Handle prefix/suffix specially
-      if (affixType) {
-        const form = normalizeAffixForm(value, affixType);
-        // Affixes are bound morphemes - use X upos, no inflection
-        const words: Word[] = [
-          {
-            form,
-            lemma: form,
-            upos: 'X',
-          },
-        ];
+  // Dual-gender tags (e.g. m./f.) represent a single dictionary entry.
+  // Strip Gender so downstream inflection handles both variants without duplicating lemmas.
+  const variants = parseXPos(isv, xpos);
+  const [upos, tagFeats] = variants[0]!;
+  const feats = { ...tagFeats };
+  if (variants.length > 1) delete feats.Gender;
 
-        return {
-          xpos,
-          paradigms,
-          annotation,
-          words,
-        };
-      }
-
-      const tokens = splitTokens(value);
-
-      // Convert tokens to words
-      // For single non-punct token, apply upos/feats from xpos
-      const nonPunct = tokens.filter((t) => t.upos !== 'PUNCT');
-      const isSingleWord = nonPunct.length === 1;
-
-      const words: Word[] = tokens.map((token) => {
-        if (token.upos === 'PUNCT') {
-          return {
-            form: token.form,
-            lemma: token.form, // PUNCT lemma is itself
-            upos: token.upos,
-            misc: token.misc,
-          };
-        }
-
-        if (isSingleWord) {
-          // Single word - lemma = form (it's the citation form), upos/feats
-          // from xpos. A headword that is one column of a larger lexeme keeps
-          // its own form — that is what it declines by — and takes the
-          // lexeme's name.
-          return {
-            form: token.form,
-            lemma: LEXEMES[token.form] ?? token.form,
-            upos,
-            feats,
-            misc: token.misc,
-          };
-        }
-
-        // Multi-word - unresolved (no upos, no lemma)
-        return {
-          form: token.form,
-          misc: token.misc,
-          // lemma and upos left undefined - will be resolved later
-        };
-      });
+  return splitSteenLemmas(isv).flatMap(({ value, annotation }) => {
+    // Handle prefix/suffix specially
+    if (affixType) {
+      const form = normalizeAffixForm(value, affixType);
+      // Affixes are bound morphemes - use X upos, no inflection
+      const words: Word[] = [
+        {
+          form,
+          lemma: form,
+          upos: 'X',
+        },
+      ];
 
       return {
         xpos,
@@ -137,6 +96,50 @@ export function normalize(input: SteenInput): Lemma[] {
         annotation,
         words,
       };
+    }
+
+    const tokens = splitTokens(value);
+
+    // Convert tokens to words
+    // For single non-punct token, apply upos/feats from xpos
+    const nonPunct = tokens.filter((t) => t.upos !== 'PUNCT');
+    const isSingleWord = nonPunct.length === 1;
+
+    const words: Word[] = tokens.map((token) => {
+      if (token.upos === 'PUNCT') {
+        return {
+          form: token.form,
+          lemma: token.form, // PUNCT lemma is itself
+          upos: token.upos,
+          misc: token.misc,
+        };
+      }
+
+      if (isSingleWord) {
+        // Single word: use citation form, with UPOS/features from XPOS.
+        // Map lemma if the form belongs to a multi-column lexeme.
+        return {
+          form: token.form,
+          lemma: LEXEMES[token.form] ?? token.form,
+          upos,
+          feats,
+          misc: token.misc,
+        };
+      }
+
+      // Multi-word - unresolved (no upos, no lemma)
+      return {
+        form: token.form,
+        misc: token.misc,
+        // lemma and upos left undefined - will be resolved later
+      };
     });
+
+    return {
+      xpos,
+      paradigms,
+      annotation,
+      words,
+    };
   });
 }

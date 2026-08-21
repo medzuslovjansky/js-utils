@@ -124,9 +124,11 @@ function parseVerb(abbr: string): Verb {
 }
 
 function parseNoun(abbr: string): Noun {
-  const masculine = abbr.includes('m.');
-  const feminine = abbr.includes('f.');
-  const neuter = abbr.includes('n.');
+  // Strip propn. to avoid false neuter match on trailing 'n.'
+  const genders = abbr.replace('propn.', '');
+  const masculine = genders.includes('m.');
+  const feminine = genders.includes('f.');
+  const neuter = genders.includes('n.');
 
   return {
     name: 'noun',

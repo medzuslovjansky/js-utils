@@ -231,11 +231,11 @@ absinte	absint	NOUN	m.sg.	Case=Voc|Gender=Masc|Number=Sing"
 `;
 
 exports[`conllufy - nouns 37082 1`] = `
-"Vltava	Vltava	PROPN	f.sg.	Case=Nom|Gender=Fem|Number=Sing
-Vltavų	Vltava	PROPN	f.sg.	Case=Acc|Gender=Fem|Number=Sing
-Vltavy	Vltava	PROPN	f.sg.	Case=Gen|Gender=Fem|Number=Sing
-Vltavě	Vltava	PROPN	f.sg.	Case=Loc|Gender=Fem|Number=Sing
-Vltavě	Vltava	PROPN	f.sg.	Case=Dat|Gender=Fem|Number=Sing
-Vltavojų	Vltava	PROPN	f.sg.	Case=Ins|Gender=Fem|Number=Sing
-Vltavo	Vltava	PROPN	f.sg.	Case=Voc|Gender=Fem|Number=Sing"
+"Vltava	Vltava	NOUN	f.sg.	Case=Nom|Gender=Fem|Number=Sing
+Vltavų	Vltava	NOUN	f.sg.	Case=Acc|Gender=Fem|Number=Sing
+Vltavy	Vltava	NOUN	f.sg.	Case=Gen|Gender=Fem|Number=Sing
+Vltavě	Vltava	NOUN	f.sg.	Case=Loc|Gender=Fem|Number=Sing
+Vltavě	Vltava	NOUN	f.sg.	Case=Dat|Gender=Fem|Number=Sing
+Vltavojų	Vltava	NOUN	f.sg.	Case=Ins|Gender=Fem|Number=Sing
+Vltavo	Vltava	NOUN	f.sg.	Case=Voc|Gender=Fem|Number=Sing"
 `;

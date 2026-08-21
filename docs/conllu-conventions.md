@@ -46,12 +46,14 @@ XPOS is preserved verbatim from the source as provenance. The `#` prefix is stri
 
 ## UPOS mapping
 
-`parseXPos(lemma, xpos)` returns an array of `[UPOS, features]` to support multi-lemma tags. It accepts the lemma to evaluate capitalization rules (see PROPN below).
+`parseXPos(lemma, xpos)` returns an array of `[UPOS, features]` to support multi-lemma tags. It accepts the lemma for the adjective short-form rule.
 
 | Steenbergen tag | UPOS | Notes |
 |---|---|---|
-| `m.` `f.` `n.` | NOUN, or PROPN | PROPN when the lemma is capitalized |
+| `m.` `f.` `n.` | NOUN | |
 | `m./f.` | NOUN ×2 | two results, `Gender=Masc` and `Gender=Fem` |
+| `m.anim./f.` | NOUN ×2 | two results (`Gender=Masc|Animacy=Anim` and `Gender=Fem`) |
+| `…propn.` | PROPN | on any noun tag (`m.propn.`, `m.anim.propn.`, `f.pl.propn.`) |
 | `v.` … | VERB | AUX when the tag contains `aux`; participles (`v.prap.`, `v.prpp.`, `v.pfap.`, `v.pfpp.`, `v.part.`) are `VerbForm=Part` |
 | `adj.` | ADJ | |
 | `adv.` | ADV | |
@@ -73,7 +75,7 @@ Three UPOS decisions diverge from raw dictionary tags:
 - Participles (`v.prap.`, `v.prpp.`, `v.pfap.`, `v.pfpp.`) are non-finite verb forms with `UPOS=VERB` and `VerbForm=Part` (with `Voice=Act`/`Pass` and `Tense=Pres`/`Past`).
 - Verbal nouns (masdars / gerunds) derived from verbs are neuter nouns with `UPOS=NOUN`, `Gender=Neut`, and `VerbForm=Vnoun`.
 
-**Capitalized lemma → PROPN.** `Vltava`, `Praga`, `Ivan` are tagged `m.` or `f.` in source data; mapping assigns `PROPN` when the first letter is uppercase and the second lowercase (3 728 forms).
+**`propn.` → PROPN.** Maps to `PROPN` when the explicit `propn.` modifier is present in the noun XPOS tag (e.g. `m.propn.`, `f.sg.propn.`). Capitalization is not used as a heuristic for proper nouns.
 
 **`pron.poss.`/`dem.`/`tot.` → DET.** UD classifies pronominal modifiers of nouns as determiners (809 forms).
 
