@@ -1,6 +1,6 @@
 {
   "name": "@interslavic/morphology",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "type": "module",
   "description": "Morphological engine for Interslavic: inflection paradigms and word derivation as CoNLL-U tokens",
   "main": "dist/index.js",
