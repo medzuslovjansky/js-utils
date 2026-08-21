@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interslavic JS Utilities Playground</title>
+    <script type="module" crossorigin src="./assets/index-q6ft1pZO.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D4Sqde37.css">
+  </head>
+  <body>
+    <div class="app-layout">
+      <header class="app-header">
+        <div class="header-content">
+          <h1>Interslavic JS Utilities</h1>
+          <p class="subtitle">
+            Interactive playground & browser demonstrations for
+            <code>@interslavic/*</code>
+          </p>
+        </div>
+        <div class="header-badges">
+          <a
+            href="https://github.com/medzuslovjansky/js-utils"
+            target="_blank"
+            rel="noopener"
+            class="gh-link"
+            >GitHub</a
+          >
+        </div>
+      </header>
+
+      <nav class="tabs-nav" role="tablist">
+        <button
+          class="tab-btn active"
+          role="tab"
+          aria-selected="true"
+          data-tab="translit"
+        >
+          Transliteration
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          data-tab="inflect"
+        >
+          Inflection & CoNLL-U
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          data-tab="levenshtein"
+        >
+          Intelligibility (Levenshtein)
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          data-tab="lunr"
+        >
+          Full-Text Search (Lunr)
+        </button>
+        <button
+          class="tab-btn"
+          role="tab"
+          aria-selected="false"
+          data-tab="quickstart"
+        >
+          Direct ESM Quickstart
+        </button>
+      </nav>
+
+      <main class="playground-body">
+        <!-- TRANSLITERATION PANEL -->
+        <section id="panel-translit" class="tab-panel active" role="tabpanel">
+          <div class="panel-intro">
+            <h2>@interslavic/translit</h2>
+            <p>
+              Transliterates Interslavic between scripts (Latin, Cyrillic,
+              Glagolitic, IPA) and regional flavorisations addressed by BCP 47
+              codes.
+            </p>
+          </div>
+          <div class="widget-grid">
+            <div class="card">
+              <label for="translit-input" class="label"
+                >Input text (any script / flavorisation):</label
+              >
+              <textarea
+                id="translit-input"
+                rows="4"
+                class="input-area"
+                placeholder="Enter Interslavic text..."
+              >
+Ćuđi děvėc už nese dȯžď i gręź. Či bųde li vśako zlo, smŕťny sȯn, i fataĺno pohlådańje?</textarea>
+              <div class="field-row">
+                <label for="translit-target" class="label"
+                  >Target BCP 47 Script:</label
+                >
+                <select id="translit-target" class="select-box"></select>
+              </div>
+            </div>
+            <div class="card result-card">
+              <div class="result-header">
+                <span class="label">Transliterated Output:</span>
+                <button id="copy-translit" class="btn-sm">Copy</button>
+              </div>
+              <pre id="translit-output" class="code-output"></pre>
+            </div>
+          </div>
+        </section>
+
+        <!-- INFLECT PANEL -->
+        <section id="panel-inflect" class="tab-panel" role="tabpanel">
+          <div class="panel-intro">
+            <h2>@interslavic/morphology & @interslavic/conllu</h2>
+            <p>
+              Fills an Interslavic paradigm, derives related lexemes, and
+              formats morphological tokens into Universal Dependencies CoNLL-U
+              format.
+            </p>
+          </div>
+          <div class="card">
+            <div class="field-row">
+              <div class="field-col">
+                <label for="inflect-word" class="label">Word / Lemma:</label>
+                <input
+                  type="text"
+                  id="inflect-word"
+                  class="text-input"
+                  value="dělati"
+                  placeholder="e.g. žena, pisati, dobry..."
+                />
+              </div>
+              <div class="field-col">
+                <label for="inflect-xpos" class="label"
+                  >Part of speech (XPOS hint, optional):</label
+                >
+                <select id="inflect-xpos" class="select-box">
+                  <option value="" selected>Auto-detect</option>
+                  <optgroup label="Nouns">
+                    <option value="f.">f. (feminine)</option>
+                    <option value="m.">m. (masculine inanimate)</option>
+                    <option value="m.anim.">m.anim. (masculine animate)</option>
+                    <option value="n.">n. (neuter)</option>
+                  </optgroup>
+                  <optgroup label="Adjectives">
+                    <option value="adj.">adj. (qualitative adjective)</option>
+                    <option value="adj.rel.">
+                      adj.rel. (relational / non-gradable)
+                    </option>
+                    <option value="adj.abs.">
+                      adj.abs. (absolute / non-gradable)
+                    </option>
+                    <option value="adj.comp.">adj.comp. (comparative)</option>
+                    <option value="adj.sup.">adj.sup. (superlative)</option>
+                  </optgroup>
+                  <optgroup label="Participles">
+                    <option value="v.prap.">v.prap. (present active)</option>
+                    <option value="v.prpp.">v.prpp. (present passive)</option>
+                    <option value="v.pfap.">v.pfap. (past active)</option>
+                    <option value="v.pfpp.">v.pfpp. (past passive)</option>
+                  </optgroup>
+                  <optgroup label="Adverbs">
+                    <option value="adv.">adv. (adverb)</option>
+                    <option value="adv.comp.">adv.comp. (comparative)</option>
+                    <option value="adv.sup.">adv.sup. (superlative)</option>
+                  </optgroup>
+                  <optgroup label="Verbs">
+                    <option value="v.ipf.">v.ipf. (imperfective)</option>
+                    <option value="v.pf.">v.pf. (perfective)</option>
+                    <option value="v.tr. ipf.">
+                      v.tr. ipf. (transitive imperfective)
+                    </option>
+                    <option value="v.tr. pf.">
+                      v.tr. pf. (transitive perfective)
+                    </option>
+                    <option value="v.intr. ipf.">
+                      v.intr. ipf. (intransitive imperfective)
+                    </option>
+                    <option value="v.intr. pf.">
+                      v.intr. pf. (intransitive perfective)
+                    </option>
+                  </optgroup>
+                  <optgroup label="Pronouns">
+                    <option value="pron.pers.">pron.pers. (personal)</option>
+                    <option value="pron.poss.">pron.poss. (possessive)</option>
+                    <option value="pron.dem.">pron.dem. (demonstrative)</option>
+                    <option value="pron.int.">pron.int. (interrogative)</option>
+                    <option value="pron.rel.">pron.rel. (relative)</option>
+                    <option value="pron.indef.">
+                      pron.indef. (indefinite)
+                    </option>
+                    <option value="pron.neg.">pron.neg. (negative)</option>
+                    <option value="pron.tot.">
+                      pron.tot. (total / universal)
+                    </option>
+                  </optgroup>
+                  <optgroup label="Numerals">
+                    <option value="num.card.">num.card. (cardinal)</option>
+                    <option value="num.ord.">num.ord. (ordinal)</option>
+                    <option value="num.coll.">num.coll. (collective)</option>
+                  </optgroup>
+                </select>
+              </div>
+            </div>
+            <div id="autodetect-hint" class="autodetect-hint"></div>
+            <div class="quick-examples">
+              <span class="muted">Examples:</span>
+              <button class="chip" data-word="dělati" data-xpos="v.tr. ipf.">
+                dělati (v.tr. ipf.)
+              </button>
+              <button class="chip" data-word="dobry" data-xpos="adj.">
+                dobry (adj.)
+              </button>
+              <button class="chip" data-word="žena" data-xpos="f.">
+                žena (f.)
+              </button>
+              <button class="chip" data-word="sudja" data-xpos="m.anim.">
+                sudja (m.anim.)
+              </button>
+            </div>
+            <div id="derived-section" class="derived-section">
+              <span class="label">Derived lexemes (click to inflect):</span>
+              <div id="derived-chips" class="quick-examples"></div>
+            </div>
+          </div>
+          <div class="card result-card">
+            <div class="result-header">
+              <div>
+                <span class="label">CoNLL-U Output:</span>
+                <span id="inflect-count" class="badge"></span>
+              </div>
+              <button id="copy-inflect" class="btn-sm">Copy</button>
+            </div>
+            <pre id="inflect-output" class="code-output scrollable"></pre>
+          </div>
+        </section>
+
+        <!-- LEVENSHTEIN PANEL -->
+        <section id="panel-levenshtein" class="tab-panel" role="tabpanel">
+          <div class="panel-intro">
+            <h2>@interslavic/levenshtein</h2>
+            <p>
+              Measures how recognizable an Interslavic word is to a speaker of a
+              given Slavic language (normalized phonetically weighted distance).
+            </p>
+          </div>
+          <div class="widget-grid">
+            <div class="card">
+              <div class="field-row">
+                <div class="field-col">
+                  <label for="lev-isv" class="label">Interslavic word:</label>
+                  <input
+                    type="text"
+                    id="lev-isv"
+                    class="text-input"
+                    value="rěka"
+                  />
+                </div>
+                <div class="field-col">
+                  <label for="lev-lang" class="label">Language:</label>
+                  <select id="lev-lang" class="select-box">
+                    <option value="ru">Russian (ru)</option>
+                    <option value="uk">Ukrainian (uk)</option>
+                    <option value="be">Belarusian (be)</option>
+                    <option value="pl">Polish (pl)</option>
+                    <option value="cs">Czech (cs)</option>
+                    <option value="sk">Slovak (sk)</option>
+                    <option value="hr" selected>Croatian (hr)</option>
+                    <option value="sr">Serbian (sr)</option>
+                    <option value="sl">Slovenian (sl)</option>
+                    <option value="bg">Bulgarian (bg)</option>
+                    <option value="mk">Macedonian (mk)</option>
+                  </select>
+                </div>
+                <div class="field-col">
+                  <label for="lev-target" class="label">National word:</label>
+                  <input
+                    type="text"
+                    id="lev-target"
+                    class="text-input"
+                    value="rijeka"
+                  />
+                </div>
+              </div>
+              <div class="quick-examples">
+                <span class="muted">Test pairs:</span>
+                <button
+                  class="chip-lev"
+                  data-isv="rěka"
+                  data-other="rijeka"
+                  data-lang="hr"
+                >
+                  rěka ↔ rijeka (hr)
+                </button>
+                <button
+                  class="chip-lev"
+                  data-isv="voda"
+                  data-other="вода"
+                  data-lang="ru"
+                >
+                  voda ↔ вода (ru)
+                </button>
+                <button
+                  class="chip-lev"
+                  data-isv="město"
+                  data-other="miasto"
+                  data-lang="pl"
+                >
+                  město ↔ miasto (pl)
+                </button>
+                <button
+                  class="chip-lev"
+                  data-isv="pes"
+                  data-other="кошка"
+                  data-lang="ru"
+                >
+                  pes ↔ кошка (ru)
+                </button>
+              </div>
+            </div>
+            <div class="card result-card">
+              <div class="metric-display">
+                <div class="metric-score" id="lev-score">0.00</div>
+                <div class="metric-details">
+                  <div id="lev-similarity-bar" class="progress-bar">
+                    <div class="fill" style="width: 100%"></div>
+                  </div>
+                  <div id="lev-verdict" class="metric-verdict">
+                    Cognate (Exact match)
+                  </div>
+                  <div class="muted-small">
+                    Distance: <span id="lev-distance">0.00</span> (0 =
+                    identical, ~1.0+ = unrelated)
+                  </div>
+                </div>
+              </div>
+              <div id="lev-alignment-container" class="alignment-container">
+                <div class="label" style="margin-bottom: 6px">
+                  Phonetic Alignment Traceback:
+                </div>
+                <div id="lev-alignment-table" class="alignment-table"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- LUNR PANEL -->
+        <section id="panel-lunr" class="tab-panel" role="tabpanel">
+          <div class="panel-intro">
+            <h2>@interslavic/stemmer</h2>
+            <p>
+              Full-text search: script-agnostic tokenizer, folding and stemmer
+              for Lunr.js.
+            </p>
+          </div>
+          <div class="card">
+            <label for="lunr-query" class="label"
+              >Search Query (try Latin, Cyrillic, or inflected forms like
+              <code>ženami</code>, <code>razum</code>,
+              <code>medzuslovjansky</code>):</label
+            >
+            <input
+              type="text"
+              id="lunr-query"
+              class="text-input"
+              value="fasolja"
+              placeholder="Type query..."
+            />
+            <div class="quick-examples">
+              <span class="muted">Try queries:</span>
+              <button class="chip-lunr" data-q="fasolja">fasolja</button>
+              <button class="chip-lunr" data-q="ослу">ослу</button>
+              <button class="chip-lunr" data-q="krčma">krčma</button>
+              <button class="chip-lunr" data-q="сељанин">сељанин</button>
+            </div>
+            <div class="results-box">
+              <div class="result-header">
+                <span class="label">Search Hits in Sample Corpus:</span>
+                <span id="lunr-count" class="badge">0</span>
+              </div>
+              <div id="lunr-results" class="results-list"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- QUICKSTART PANEL -->
+        <section id="panel-quickstart" class="tab-panel" role="tabpanel">
+          <div class="panel-intro">
+            <h2>Direct Browser ESM Quickstart</h2>
+            <p>
+              You can import these packages directly in any browser with
+              <code>&lt;script type="module"&gt;</code> without any bundler or
+              build step:
+            </p>
+          </div>
+          <div class="card">
+            <pre
+              class="code-output html-code"
+            ><code>&lt;script type="module"&gt;
+  import { transliterate, FlavorisationBCP47 } from 'https://esm.sh/@interslavic/translit';
+  import { inflect } from 'https://esm.sh/@interslavic/morphology';
+  import { formatTokens } from 'https://esm.sh/@interslavic/conllu';
+  import { distance } from 'https://esm.sh/@interslavic/levenshtein';
+
+  // 1. Transliterate to Cyrillic
+  console.log(transliterate('Dobry den!', 'isv-Cyrl')); // Добры ден!
+
+  // 2. Inflect paradigm to CoNLL-U
+  const tokens = inflect('žena');
+  console.log(formatTokens(tokens));
+
+  // 3. Measure cognate distance
+  const dist = distance('rijeka', 'hr', 'rěka');
+  console.log('Similarity score:', Math.max(0, 1 - dist));
+&lt;/script&gt;</code></pre>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
