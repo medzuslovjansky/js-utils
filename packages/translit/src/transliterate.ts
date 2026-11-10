@@ -1,5 +1,10 @@
 import type { FlavorisationBCP47Code } from './constants/index.ts';
 import { flavorize, type Flavour } from './flavorize.ts';
+import {
+  glagToLatnMarks,
+  hasGlagolitic,
+  latnToGlagMarks,
+} from './glagolitic-punctuation.ts';
 import { latn2cyrl } from './latn2cyrl.ts';
 import { latn2glag } from './latn2glag.ts';
 import { latn2ipa } from './latn2ipa.ts';
@@ -102,7 +107,10 @@ export function transliterate(
 
   const { script, flavour } = target;
 
-  return text.normalize('NFC').replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
+  const source = text.normalize('NFC');
+  const marked = hasGlagolitic(source) ? glagToLatnMarks(source) : source;
+
+  const result = marked.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
     // `%` marks both ends of the word; rules anchor on it, and the original
     // spelling is kept alongside so the case can be put back at the end
     const original = `%${word}%`;
@@ -115,4 +123,6 @@ export function transliterate(
       script.kind === 'ipa',
     );
   });
+
+  return script.kind === 'glagolitic' ? latnToGlagMarks(result) : result;
 }
