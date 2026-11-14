@@ -99,6 +99,34 @@
                 >
                 <select id="translit-target" class="select-box"></select>
               </div>
+              <div class="field-row">
+                <label for="translit-input-mode" class="label">Input:</label>
+                <select id="translit-input-mode" class="select-box">
+                  <option value="auto" selected>Any spelling (auto)</option>
+                  <option value="isv-x-etymolog">
+                    Already etymological (isv-x-etymolog)
+                  </option>
+                  <option value="isv-x-nms">
+                    Naučny Medžuslovjanski (isv-x-nms)
+                  </option>
+                </select>
+              </div>
+              <div class="field-row">
+                <label for="translit-final-yer" class="label">Final yer:</label>
+                <select id="translit-final-yer" class="select-box">
+                  <option value="auto" selected>
+                    Silent after a vowel (auto)
+                  </option>
+                  <option value="drop">Always silent (drop)</option>
+                  <option value="keep">Always ȯ (keep)</option>
+                </select>
+              </div>
+              <div class="field-row">
+                <label for="translit-numerals" class="label"
+                  >Glagolitic numerals:</label
+                >
+                <input id="translit-numerals" type="checkbox" />
+              </div>
             </div>
             <div class="card result-card">
               <div class="result-header">

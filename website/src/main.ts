@@ -38,6 +38,15 @@ const translitTarget = document.getElementById(
 const translitOutput = document.getElementById(
   'translit-output',
 ) as HTMLElement;
+const translitInputMode = document.getElementById(
+  'translit-input-mode',
+) as HTMLSelectElement;
+const translitFinalYer = document.getElementById(
+  'translit-final-yer',
+) as HTMLSelectElement;
+const translitNumerals = document.getElementById(
+  'translit-numerals',
+) as HTMLInputElement;
 const copyTranslitBtn = document.getElementById(
   'copy-translit',
 ) as HTMLButtonElement;
@@ -104,7 +113,11 @@ function updateTranslit() {
     return;
   }
   try {
-    const result = transliterate(text, target);
+    const result = transliterate(text, target, {
+      input: translitInputMode.value as 'auto' | 'isv-x-etymolog' | 'isv-x-nms',
+      finalYer: translitFinalYer.value as 'auto' | 'drop' | 'keep',
+      alphabeticalNumerals: translitNumerals.checked,
+    });
     translitOutput.textContent = result;
     if (target.includes('Glag')) {
       translitOutput.className = 'code-output font-glagolitic';
@@ -119,6 +132,9 @@ function updateTranslit() {
 
 translitInput.addEventListener('input', updateTranslit);
 translitTarget.addEventListener('change', updateTranslit);
+for (const el of [translitInputMode, translitFinalYer, translitNumerals]) {
+  el.addEventListener('change', updateTranslit);
+}
 
 copyTranslitBtn.addEventListener('click', () => {
   if (translitOutput.textContent) {
