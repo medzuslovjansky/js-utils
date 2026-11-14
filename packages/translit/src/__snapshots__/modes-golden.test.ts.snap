@@ -1,0 +1,799 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`modes golden forgiving isv 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → jy ćy đy šy žy čy jj mojý
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дуб во со ко сон пес дењ мјод бык трг о  зј а работа Гора ГОРА коњ конига шчит єзда језык јуже југ јаблоко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб во со ко сон објавити коњ дењ пјат о  моја љубов кнез рука језык њива джак шчит Дуб ДУБ подјезд мєсто језык твоју јаблоко људи чуд дзвєзда джем ганок ето єст зима миро и отц тома ухо уста рыба ков псалом ксенија град з р семја
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дуб дуб авотоматичјну во коњ дјњ сон
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ влк велми плны  знанје бј молити плел једин квнез отец сон ден волк трг море кон втора око добры нитј трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ууу еее ооо ллл ннн ден тма поле бє жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широкы шум сзаду безсилны разсудити возсксествие обезсилити разсудити возстати изсксел час час жена жена є вєра квадрат  аква хата вода ксерокс вифи Вифи конјугација конјунктив инјекција рож мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји чи джи ши жи чи ј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl-x-etymolog 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дѫб въ съ къ сън пес дењ мјод бык трг ъ  зј а работа Гора ГОРА коњ кънига шћит ѣзда јѧзык јѫже југ јаблъко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб въ съ къ сън објавити коњ дењ пјать ъ  моја љубов кнѧзь рѫка језык њива ђак шчит Дуб ДУБ подјезд мѣсто јѧзык твојѫ јаблоко људьи ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грӑд зь рь семја
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дѫб дѫб авътоматичјнѫ въ коњ дјњ сън
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ вльк вельми пльны  знаньје бј молити плел једин квнѧз отец сън ден вълк трг морье конь втора око добры нитј трава лес мир грӑд
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ѫѫѫ еее оъъ лльль ньньнь дьен тьма поле бѣ жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широкы шум сзаду безсилны разсудити возсксествие обезсилити рӑзсудити възстати изсксел час час жена жена ѣ вѣра квадрат  аква хата вода ксерокс вифи Вифи конјугација конјунктив инјекција рож мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји ћи ђи ши жи чи ј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl-x-iotated 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дуб во со ко сон пес день мйод бык трг о  з’й а работа Гора ГОРА конь конига шчит езда езык юже юг яблоко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб во со ко сон об’явити конь день пят о  моя любов кнез рука езык ньива джак шчит Дуб ДУБ под’езд место езык твою яблоко люди чуд дзвезда джем ганок это ест зима миро и отц тома ухо уста рыба ков псалом ксения град з р семя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дуб дуб авотоматичйну во конь д’йнь сон
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх день влк велми плны  знанье бй молити плел един квнез отец сон ден волк трг море кон втора око добры нитй трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ууу эеэ ооо ллл ннн ден тма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широкы шум с’заду без’силны раз’судити воз’сксествиэ обез’силити раз’судити воз’стати из’сксел час час жена жена е вера квадрат ’ аква хата вода ксерокс вифи Вифи кон’югация кон’юнктив ин’екция рож маз’ск из’сток
+soft y: jy ćy đy šy žy čy jj mojý
+  → и чи джи ши жи чи й мои
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl-x-iotated-ext 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дѫб въ съ къ сън пьс дьнь мйод бык търг ъ  з’й а работа Гора ГОРА конь кънига щит ѣзда ѩзык ѭже юг яблъко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб въ съ къ сън об’явити конь день пять ъ  моя любов кнѧзь рѫка ѥзык нӥва ђак щит Дуб ДУБ под’ѥзд мѣсто ѩзык твоѭ яблоко людӥ ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба коў псалом ксения грӑд зь рь семя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дѫб дѫб авътоматичйнѫ въ конь д’йнь сън
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → вьрх дьнь вльк вельми пльны  знаньѥ бй модлити плетл ѥдин кўнѧз отьц сън дьн вълк търг морѥ конь ўтора око добры нитй трава лес мир грӑд
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ѫѫѫ еь оъъ лльль ньньнь дѥн тьма поле бѣ жѣна
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широкы шум с’заду без’силны раз’судити воз’сксествие обез’силити рӑз’судити въз’стати из’сксел час час жена жена ѣ вѣра квадрат ъ аква хата вода ксерокс вифи Вифи кон’югация кон’юнктив ин’ѥкция рож маз’ск из’сток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ӥ ћи ђи ши жи чи й моӥ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl-x-northern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дуб во со ко сон пес дењ мјод бык торг о  зј а работа Гора ГОРА коњ конига шчит єзда јазык јуже југ јаблоко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб во со ко сон објавити коњ дењ пјать о  моја љубов књазь рука језык њива джак шчит Дуб ДУБ подјезд мєсто јазык твоју јаблоко људьи чуд дзвєзда джем ганок ето єсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грод зь рь семја
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дуб дуб авотоматичјну во коњ дјњ сон
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ вльк вельми пльны  знаньје бј модлити плетл једин квњаз отец сон ден волк торг морье конь втора око добры нитј трава лес мир грод
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ууу еее ооо лльль ньньнь дьен тьма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широки шум сзаду безсилны разсудити возсксествие обезсилити розсудити возстати изсксел час час жена жена є вєра квадрат  аква хата вода ксерокс вифи Вифи конјугација конјунктив инјекција рож мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји чи джи ши жи чи ј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl-x-sloviant 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дуб во со ко сон пес дењ мјод бик трг о  зј а работа Гора ГОРА коњ конига шчит езда језик јуже југ јаблоко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб во со ко сон објавити коњ дењ пјат о  моја љубов кнез рука језик њива джак шчит Дуб ДУБ подјезд место језик твоју јаблоко људи чуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дуб дуб авотоматичјну во коњ дјњ сон
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ влк велми плни  знанје бј молити плел једин квнез отец сон ден волк трг море кон втора око добри нитј трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ууу еее ооо ллл ннн ден тма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широки шум сзаду безсилни разсудити возсксествие обезсилити разсудити возстати изсксел час час жена жена е вера квадрат  аква хата вода ксерокс вифи Вифи конјугација конјунктив инјекција рож мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји чи джи ши жи чи ј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Cyrl-x-southern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → гора стол дуб въ съ къ сън пес дењ мјод бик трг ъ  зј а работа Гора ГОРА коњ кънига шћит езда језик јуже југ јаблъко
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дуб въ съ къ сън објавити коњ дењ пјат ъ  моја љубов кнез рука језик њива ђак штит Дуб ДУБ подјезд место језик твоју јаблоко људи ћуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дуб дуб авътоматичјну въ коњ дјњ сън
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ влк велми плни  знање бј молити плел једин квнез отец сън ден вълк трг море кон втора око добри нитј трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ааа иии уууу ууу еее оъъ ллл ннн ден тма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → широки шум сзаду безсилни разсудити возсксествие обезсилити разсудити възстати изсксел час час жена жена е вера квадрат  аква хата вода ксерокс вифи Вифи коњугација коњунктив ињекција рож мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји ћи ђи ши жи чи ј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden forgiving isv-Glag 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱏⱃⰳ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀⱐ ⰴⰹⱀⱐ ⱄⱁⱀ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵⰸ ⱁⱅⰵⱌ ⱄⱁⱀ ⰴⰵⱀ ⰲⱁⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁⱀ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ⰰⰰⰰ ⰻⰻⰻ ⱆⱆⱆⱆ ⱆⱆⱆ ⰵⰵⰵ ⱁⱁⱁ ⰾⰾⰾ ⱀⱀⱀ ⰴⰵⱀ ⱅⰿⰰ ⱂⱁⰾⰵ ⰱⱑ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱎⰻⱃⱁⰽⱏⰹ ⱎⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⱏⰹ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱍⰰⱄ ⱍⰰⱄ ⰶⰵⱀⰰ ⰶⰵⱀⰰ ⱑ ⰲⱑⱃⰰ ⰽⰲⰰⰴⱃⰰⱅ  ⰰⰽⰲⰰ ⱈⰰⱅⰰ ⰲⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁⰶ ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden forgiving isv-Glag-x-etymolog 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱘⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱂⱐⱄ ⰴⱐⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱏⱃⰳ ⱏ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽ ⱙⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱔⰸⱐ ⱃⱘⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⱗⰸⱏⰹⰽ ⱅⰲⱁⱙ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱉⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱘⰱ ⰴⱘⰱ ⰰⰲⱏⱅⱁⰿⰰⱅⰻⱍⰹⱀⱘ ⰲⱏ ⰽⱁⱀⱐ ⰴⰹⱀⱐ ⱄⱏⱀ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⱐⱃⱈ ⰴⱐⱀⱐ ⰲⰾⱐⰽ ⰲⰵⰾⱐⰿⰻ ⱂⰾⱐⱀⱏⰹ  ⰸⱀⰰⱀⱐⰺⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⱔⰸ ⱁⱅⱐⱌ ⱄⱏⱀ ⰴⱐⱀ ⰲⱏⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⱐⰵ ⰽⱁⱀⱐ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⱉⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ⰰⰰⰰ ⰻⰻⰻ ⱆⱆⱆⱆ ⱘⱘⱘ ⰵⱐⱐ ⱁⱏⱏ ⰾⰾⱐⰾⱐ ⱀⱐⱀⱐⱀⱐ ⰴⱐⰵⱀ ⱅⱐⰿⰰ ⱂⱁⰾⰵ ⰱⱑ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱎⰻⱃⱁⰽⱏⰹ ⱎⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⱏⰹ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⱉⰸⱄⱆⰴⰻⱅⰻ ⰲⱏⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱍⰰⱄ ⱍⰰⱄ ⰶⰵⱀⰰ ⰶⰵⱀⰰ ⱑ ⰲⱑⱃⰰ ⰽⰲⰰⰴⱃⰰⱅ  ⰰⰽⰲⰰ ⱈⰰⱅⰰ ⰲⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁⰶ ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱋⰻ ⰼⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden forgiving isv-Glag-x-northern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱁⱃⰳ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰰⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱐⰰⰸⱐ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰰⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱁⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀⱐ ⰴⰹⱀⱐ ⱄⱁⱀ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⱐⰽ ⰲⰵⰾⱐⰿⰻ ⱂⰾⱐⱀⱏⰹ  ⰸⱀⰰⱀⱐⰺⰵ ⰱⰹ ⰿⱁⰴⰾⰻⱅⰻ ⱂⰾⰵⱅⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⱐⰰⰸ ⱁⱅⰵⱌ ⱄⱁⱀ ⰴⰵⱀ ⰲⱁⰾⰽ ⱅⱁⱃⰳ ⰿⱁⱃⱐⰵ ⰽⱁⱀⱐ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⱁⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ⰰⰰⰰ ⰻⰻⰻ ⱆⱆⱆⱆ ⱆⱆⱆ ⰵⰵⰵ ⱁⱁⱁ ⰾⰾⱐⰾⱐ ⱀⱐⱀⱐⱀⱐ ⰴⱐⰵⱀ ⱅⱐⰿⰰ ⱂⱁⰾⰵ ⰱⰵ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱎⰻⱃⱁⰽⰻ ⱎⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⱏⰹ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⱁⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱍⰰⱄ ⱍⰰⱄ ⰶⰵⱀⰰ ⰶⰵⱀⰰ ⱑ ⰲⱑⱃⰰ ⰽⰲⰰⰴⱃⰰⱅ  ⰰⰽⰲⰰ ⱈⰰⱅⰰ ⰲⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁⰶ ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden forgiving isv-Glag-x-sloviant 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⰻⰽ ⱅⱏⱃⰳ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⰵⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⰵⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⰵⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⰵⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀⱐ ⰴⰹⱀⱐ ⱄⱁⱀ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⰻ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵⰸ ⱁⱅⰵⱌ ⱄⱁⱀ ⰴⰵⱀ ⰲⱁⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁⱀ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⰻ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ⰰⰰⰰ ⰻⰻⰻ ⱆⱆⱆⱆ ⱆⱆⱆ ⰵⰵⰵ ⱁⱁⱁ ⰾⰾⰾ ⱀⱀⱀ ⰴⰵⱀ ⱅⰿⰰ ⱂⱁⰾⰵ ⰱⰵ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱎⰻⱃⱁⰽⰻ ⱎⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱍⰰⱄ ⱍⰰⱄ ⰶⰵⱀⰰ ⰶⰵⱀⰰ ⰵ ⰲⰵⱃⰰ ⰽⰲⰰⰴⱃⰰⱅ  ⰰⰽⰲⰰ ⱈⰰⱅⰰ ⰲⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁⰶ ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden forgiving isv-Glag-x-southern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⰻⰽ ⱅⱏⱃⰳ ⱏ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱅⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱏⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱏ ⰽⱁⱀⱐ ⰴⰹⱀⱐ ⱄⱏⱀ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⰻ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵⰸ ⱁⱅⰵⱌ ⱄⱏⱀ ⰴⰵⱀ ⰲⱏⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁⱀ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⰻ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → ⰰⰰⰰ ⰻⰻⰻ ⱆⱆⱆⱆ ⱆⱆⱆ ⰵⰵⰵ ⱁⱏⱏ ⰾⰾⰾ ⱀⱀⱀ ⰴⰵⱀ ⱅⰿⰰ ⱂⱁⰾⰵ ⰱⱑ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱎⰻⱃⱁⰽⰻ ⱎⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱏⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱍⰰⱄ ⱍⰰⱄ ⰶⰵⱀⰰ ⰶⰵⱀⰰ ⱑ ⰲⱑⱃⰰ ⰽⰲⰰⰴⱃⰰⱅ  ⰰⰽⰲⰰ ⱈⰰⱅⰰ ⰲⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁⰶ ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱋⰻ ⰼⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden forgiving isv-Latn 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stol dub vo so ko son pes denj mjod byk trg o  zj a rabota Gora GORA konj koniga ščit ězda jezyk juže jug jabloko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub vo so ko son objaviti konj denj pjat o  moja ljubov knez ruka jezyk njiva džak ščit Dub DUB podjezd město jezyk tvoju jabloko ljudi čud dzvězda džem ganok eto ěst zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dub dub avotomatičjnu vo konj djnj son
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plny  znanje bj moliti plel jedin kvnez otec son den volk trg more kon vtora oko dobry nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu uuu eee ooo lll nnn den tma pole bě žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → široky šum szadu bezsilny razsuditi vozsksestvie obezsiliti razsuditi vozstati izsksel čas čas žena žena ě věra kvadrat  akva hata voda kseroks vifi Vifi konjugacija konjunktiv injekcija rož mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji či dži ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Latn-PL 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stoł dąb wo so ko son pes deń miod byk torg o  zj a rabota Gora GORA koń koniga szcit iezda język jąże jug jabłoko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub wo so ko son objawiti koń deń piať o  moja lubow knęź rąka jezyk niwa dziak szczit Dub DUB podjezd miesto język twoją jabłoko ludi ciud dzwiezda dżem ganok eto iesť zima miro i oťc toma ucho usta ryba kow psałom ksenija grad ź ŕ semia
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dąb dąb awotomaticźną wo koń djń son
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → werch deń wlk welmi plny  znańie bj moliti płeł jedin kwnęz otec son den wołk torg morie koń wtora oko dobry niť trawa łes mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa ii uuuu ąąą eee ooo łll ńńń dien ťma połe bie żena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sziroki szum szadu bezsiłny razsuditi wozsksestwie obezsiliti razsuditi wozstati izskseł czas czas żena żena ie wiera kwadrat  akwa chata woda kseroks wifi Wifi konjugacija konjunktiw injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → i ci dzi szi żi czi j moi
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Latn-x-ascii 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stol dub vo so ko son pes denj mjod byk trg o  zj a rabota Gora GORA konj koniga szczit jezda jezyk juzse jug jabloko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub vo so ko son objaviti konj denj pjat o  moja ljubov knez ruka jezyk njiva dzsak szczit Dub DUB podjezd mjesto jezyk tvoju jabloko ljudi czud dzvjezda dzsem ganok eto jest zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dub dub avotomaticzjnu vo konj djnj son
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plny  znanje bj moliti plel jedin kvnez otec son den volk trg more kon vtora oko dobry nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu uuu eee ooo lll nnn den tma pole bje zsena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sziroky szum szadu bezsilny razsuditi vozsksestvie obezsiliti razsuditi vozstati izsksel czas czas zsena zsena je vjera kvadrat  akva hata voda kseroks vifi Vifi konjugacija konjunktiv injekcija rozs mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji czi dzsi szi zsi czi j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Latn-x-etymolog 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stol dųb vȯ sȯ kȯ sȯn pės dėnj mjod byk trg ȯ  zj a rabota Gora GORA konj kȯniga šćit ězda język jųže jug jablȯko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub vȯ sȯ kȯ sȯn objaviti konj denj pjat́ ȯ  moja ljubov knęź rųka jezyk njiva đak ščit Dub DUB podjezd město język tvojų jabloko ljud́i ćud dzvězda džem ganok eto ěst́ zima miro i ot́c toma uho usta ryba kov psalom ksenija gråd ź ŕ semja
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dųb dųb avȯtomatičjnų vȯ konj djnj sȯn
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → vėrh dėnj vĺk veĺmi pĺny  znańje bj moliti plel jedin kvnęz otėc sȯn dėn vȯlk trg moŕe koń vtora oko dobry nitj trava les mir gråd
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu ųųų eėė oȯȯ lĺĺ ńńń d́en t́ma pole bě žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → široky šum szadu bezsilny razsuditi vozsksestvie obezsiliti råzsuditi vȯzstati izsksel čas čas žena žena ě věra kvadrat  akva hata voda kseroks vifi Vifi konjugacija konjunktiv injekcija rož mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji ći đi ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Latn-x-northern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stol dub vo so ko son pes deń miod byk torg o  zj a rabota Gora GORA koń koniga ščit iezda jazyk juže jug jabloko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub vo so ko son objaviti koń deń piať o  moja liubov kniaź ruka jezyk niiva džak ščit Dub DUB podjezd miesto jazyk tvoju jabloko liudii čud dzviezda džem ganok eto iesť zima miro i oťc toma ucho usta ryba kov psalom ksenija grod ź ŕ semia
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dub dub avotomatičjnu vo koń djń son
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verch deń vľk veľmi pľny  znanie bj modliti pletl jedin kvniaz otec son den volk torg morie koń vtora oko dobry niť trava les mir grod
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu uuu eee ooo lľľ ńńń dien ťma pole be žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → široki šum szadu bezsilny razsuditi vozsksestvie obezsiliti rozsuditi vozstati izsksel čas čas žena žena ie viera kvadrat  akva chata voda kseroks vifi Vifi konjugacija konjunktiv injekcija rož mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji či dži ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Latn-x-sloviant 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stol dub vo so ko son pes denj mjod bik trg o  zj a rabota Gora GORA konj koniga ščit ezda jezik juže jug jabloko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub vo so ko son objaviti konj denj pjat o  moja ljubov knez ruka jezik njiva džak ščit Dub DUB podjezd mesto jezik tvoju jabloko ljudi čud dzvezda džem ganok eto est zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dub dub avotomatičjnu vo konj djnj son
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plni  znanje bj moliti plel jedin kvnez otec son den volk trg more kon vtora oko dobri nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu uuu eee ooo lll nnn den tma pole be žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → široki šum szadu bezsilni razsuditi vozsksestvie obezsiliti razsuditi vozstati izsksel čas čas žena žena e vera kvadrat  akva hata voda kseroks vifi Vifi konjugacija konjunktiv injekcija rož mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji či dži ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-Latn-x-southern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gora stol dub vă să kă săn pes denj mjod bik trg ă  zj a rabota Gora GORA konj kăniga šćit ězda jezik juže jug jablăko
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub vă să kă săn objaviti konj denj pjat ă  moja ljubov knez ruka jezik njiva đak štit Dub DUB podjezd město jezik tvoju jabloko ljudi ćud dzvězda džem ganok eto ěst zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dub dub avătomatičjnu vă konj djnj săn
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plni  znanje bj moliti plel jedin kvnez otec săn den vălk trg more kon vtora oko dobri nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu uuu eee oăă lll nnn den tma pole bě žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → široki šum szadu bezsilni razsuditi vozsksestvie obezsiliti razsuditi văzstati izsksel čas čas žena žena ě věra kvadrat  akva hata voda kseroks vifi Vifi konjugacija konjunktiv injekcija rož mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji ći đi ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden forgiving isv-x-fonipa 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → gɔra stɔɫ dʊb və sə kə sən pɜs dɜɲ mjɔd bɪk tərg ə  zj a rabɔta gɔra gɔra kɔɲ kəniga ɕt͡ɕit jɛzda jæzɪk jʊʒɛ jug jabɫəkɔ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → dub və sə kə sən ɔbjaviti kɔɲ dɛɲ pjatʲ ə  mɔja ʎubɔv kɲæzʲ rʊka jɛzɪk ɲiva d͡ʑak ʃt͡ʃit dub dub pɔdjɛzd mjɛstɔ jæzɪk tvɔjʊ jabɫɔkɔ ʎudʲi t͡ɕud d͡zvjɛzda d͡ʒɛm ganɔk ɛtɔ jɛsʲtʲ zima mirɔ i ɔtʲt͡s tɔma uxɔ usta rɪba kɔv psaɫɔm ksɛnija grɒd zʲ rʲ sɛmja
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dʊb dʊb avətɔmatit͡ʃjnʊ və kɔɲ djɲ sən
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → vɜrx dɜɲ vʎk vɛʎmi pʎnɪ  znaɲi̯ɛ bj mɔliti pɫɛɫ jɛdin kvɲæz ɔtɜt͡s sən dɜn vəɫk tərg mɔrʲɛ kɔɲ vtɔra ɔkɔ dɔbrɪ nitj trava ɫɛs mir grɒd
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → aaa iii uuuu ʊʊʊ ɛɜɜ ɔəə ɫʎʎ ɲɲɲ dʲɛn tʲma pɔɫɛ bjɛ ʒɛna
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ʃirɔkɪ ʃum szadu bɛzsiɫnɪ razsuditi vɔzsksɛstviɛ ɔbɛzsiliti rɒzsuditi vəzstati izsksɛɫ t͡ʃas t͡ʃas ʒɛna ʒɛna jɛ vjɛra kvadrat  akva xata vɔda ksɛrɔks vifi vifi kɔnjugat͡sija kɔnjunktiv injɛkt͡sija rɔʒ mazsk izstɔk
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji t͡ɕi d͡ʑi ʃi ʒi t͡ʃi j mɔji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → gɔd 2026, 19 knig; 7. a1 «da» — nɛ!"
+`;
+
+exports[`modes golden strict isv 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → jy ćy đy šy žy čy jj mojý
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Cyrl 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дубъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ влк велми плны  знанје бј молити плел једин квнеʒ отеç сòн дèн вŀк трг море коň ùтора око добры нитј трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ден тма поле бє жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксирокы сзум сзаду безсилны разсудити возсксествие обезсилити разсудити возстати изсксел цксас цзас зксена зсена ые выера qуадрат q аqуа цхата wода ксерокс вифи Вифи конјугација конјунктив инјекција роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → јы чы джы шы жы чы јј мојы
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Cyrl-x-etymolog 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это ѣсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дѫбъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ вльк вельми пльны  знанје бј молити плел једин квнѧʒ отеç сòн дèн вŀк трг морье коň ùтора око добры нитј трава лес мир грӑд
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ дьен тьма поле бѣ жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксирокы сзум сзаду безсилны разсудити возсксествие обезсилити рӑзсудити възстати изсксел цксас цзас зксена зсена ые выера qуадрат q аqуа цхата wода ксерокс вифи Вифи конјугација конјунктив инјекција роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → јы ћы ђы шы жы чы јј мојы
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Cyrl-x-iotated 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык ньива ђак щит Дубъ ДУБЪ подъѥзд место ѩзык твоѭ ꙗблоко людьи ћуд ѕвезда џем ґанок это есть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дубъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх день влк велми плны  знанье бй молити плел един квнеʒ отеç сòн дèн вŀк трг море коň ùтора око добры нитй трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ден тма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксирокы сзум сзаду безсилны разсудити возсксествиэ обезсилити разсудити возстати изсксел цксас цзас зксена зсена ыэ выэра qуадрат q аqуа цхата wода ксерокс вифи Вифи кон’югация кон’юнктив ин’екция роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → йы чы джы шы жы чы йй мойы
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Cyrl-x-iotated-ext 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык нӥва ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людӥ ћуд ѕвѣзда џем ґанок это ѣсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дѫбъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → вьрх дьнь вльк вельми пльны  знанѥ бй модлити плетл ѥдин кўнѧʒ отьç сòн дèн вŀк търг морѥ коň ùтора око добры нитй трава лес мир грӑд
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ дѥн тьма поле бѣ жѣна
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксирокы сзум сзаду безсилны разсудити возсксествие обезсилити рӑзсудити възстати изсксел цксас цзас зксена зсена ые выера qуадрат q аqуа цхата wода ксерокс вифи Вифи кон’югация кон’юнктив ин’ѥкция роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → йы ћы ђы шы жы чы йй мойы
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Cyrl-x-northern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дубъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ вльк вельми пльны  знанје бј модлити плетл једин квњаʒ отеç сòн дèн вŀк торг морье коň ùтора око добры нитј трава лес мир грод
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ дьен тьма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксироки сзум сзаду безсилны разсудити возсксествие обезсилити розсудити возстати изсксел цксас цзас зксена зсена ые выера qуадрат q аqуа цхата wода ксерокс вифи Вифи конјугација конјунктив инјекција роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → јы чы джы шы жы чы јј мојы
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Cyrl-x-sloviant 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дубъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ влк велми плни  знанје бј молити плел једин квнеʒ отеç сòн дèн вŀк трг море коň ùтора око добри нитј трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ден тма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксироки сзум сзаду безсилни разсудити возсксествие обезсилити разсудити возстати изсксел цксас цзас зксена зсена ие виера qуадрат q аqуа цхата wода ксерокс вифи Вифи конјугација конјунктив инјекција роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји чи джи ши жи чи јј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Cyrl-x-southern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это есть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → дубъ дǫбъ авътоматичьнǫ въ конь дьнь сънъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → верх дењ влк велми плни  знање бј молити плел једин квнеʒ отеç сòн дèн вŀк трг море коň ùтора око добри нитј трава лес мир град
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ден тма поле бе жена
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → сксироки сзум сзаду безсилни разсудити возсксествие обезсилити разсудити възстати изсксел цксас цзас зксена зсена ие виера qуадрат q аqуа цхата wода ксерокс вифи Вифи коњугација коњунктив ињекција роż мазск изсток
+soft y: jy ćy đy šy žy čy jj mojý
+  → ји ћи ђи ши жи чи јј моји
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Год 2026, 19 книг; 7. А1 «да» — не!"
+`;
+
+exports[`modes golden strict isv-Glag 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰺⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конⱐ денⱐ пятⱐ ъ ⱐ моя любов кнѧзⱐ рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людⱐи ћуд ⰷвѣзда џем ґанок это єстⱐ ꙁима мѵро ѷ ѡтⱐц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зⱐ рⱐ семⱐя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱъ ⰴǫⰱъ ⰰⰲъⱅⱁⰿⰰⱅⰻⱍⱐⱀǫ ⰲъ ⰽⱁⱀⱐ ⰴⱐⱀⱐ ⱄъⱀъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵʒ ⱁⱅⰵç ⱄⱏⱀ ⰴⱐⱀ ⰲŀⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁň ⱛⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ⰴⰵⱀ ⱅⰿⰰ ⱂⱁⰾⰵ ⰱⱑ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱄⰽⱄⰻⱃⱁⰽⱏⰹ ⱄⰸⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⱏⰹ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱌⰽⱄⰰⱄ ⱌⰸⰰⱄ ⰸⰽⱄⰵⱀⰰ ⰸⱄⰵⱀⰰ ⱏⰹⰵ ⰲⱏⰹⰵⱃⰰ qⱆⰰⰴⱃⰰⱅ q ⰰqⱆⰰ ⱌⱈⰰⱅⰰ wⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁż ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⱏⰹ ⱍⱏⰹ ⰴⰶⱏⰹ ⱎⱏⰹ ⰶⱏⰹ ⱍⱏⰹ ⰹⰺ ⰿⱁⰹⱏⰹ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden strict isv-Glag-x-etymolog 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰺⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конⱐ денⱐ пятⱐ ъ ⱐ моя любов кнѧзⱐ рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людⱐи ћуд ⰷвѣзда џем ґанок это єстⱐ ꙁима мѵро ѷ ѡтⱐц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зⱐ рⱐ семⱐя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱘⰱъ ⰴǫⰱъ ⰰⰲъⱅⱁⰿⰰⱅⰻⱍⱐⱀǫ ⰲъ ⰽⱁⱀⱐ ⰴⱐⱀⱐ ⱄъⱀъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⱐⱃⱈ ⰴⱐⱀⱐ ⰲⰾⱐⰽ ⰲⰵⰾⱐⰿⰻ ⱂⰾⱐⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⱔʒ ⱁⱅⱐç ⱄⱏⱀ ⰴⱐⱀ ⰲŀⰽ ⱅⱏⱃⰳ ⰿⱁⱃⱐⰵ ⰽⱁň ⱛⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⱉⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ⰴⱐⰵⱀ ⱅⱐⰿⰰ ⱂⱁⰾⰵ ⰱⱑ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱄⰽⱄⰻⱃⱁⰽⱏⰹ ⱄⰸⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⱏⰹ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⱉⰸⱄⱆⰴⰻⱅⰻ ⰲⱏⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱌⰽⱄⰰⱄ ⱌⰸⰰⱄ ⰸⰽⱄⰵⱀⰰ ⰸⱄⰵⱀⰰ ⱏⰹⰵ ⰲⱏⰹⰵⱃⰰ qⱆⰰⰴⱃⰰⱅ q ⰰqⱆⰰ ⱌⱈⰰⱅⰰ wⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁż ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⱏⰹ ⱋⱏⰹ ⰼⱏⰹ ⱎⱏⰹ ⰶⱏⰹ ⱍⱏⰹ ⰹⰺ ⰿⱁⰹⱏⰹ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden strict isv-Glag-x-northern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰺⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конⱐ денⱐ пятⱐ ъ ⱐ моя любов кнѧзⱐ рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людⱐи ћуд ⰷвѣзда џем ґанок это єстⱐ ꙁима мѵро ѷ ѡтⱐц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зⱐ рⱐ семⱐя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱъ ⰴǫⰱъ ⰰⰲъⱅⱁⰿⰰⱅⰻⱍⱐⱀǫ ⰲъ ⰽⱁⱀⱐ ⰴⱐⱀⱐ ⱄъⱀъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⱐⰽ ⰲⰵⰾⱐⰿⰻ ⱂⰾⱐⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰴⰾⰻⱅⰻ ⱂⰾⰵⱅⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⱐⰰʒ ⱁⱅⰵç ⱄⱏⱀ ⰴⱐⱀ ⰲŀⰽ ⱅⱁⱃⰳ ⰿⱁⱃⱐⰵ ⰽⱁň ⱛⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⱁⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ⰴⱐⰵⱀ ⱅⱐⰿⰰ ⱂⱁⰾⰵ ⰱⰵ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱄⰽⱄⰻⱃⱁⰽⰻ ⱄⰸⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⱏⰹ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⱁⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱌⰽⱄⰰⱄ ⱌⰸⰰⱄ ⰸⰽⱄⰵⱀⰰ ⰸⱄⰵⱀⰰ ⱏⰹⰵ ⰲⱏⰹⰵⱃⰰ qⱆⰰⰴⱃⰰⱅ q ⰰqⱆⰰ ⱌⱈⰰⱅⰰ wⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁż ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⱏⰹ ⱍⱏⰹ ⰴⰶⱏⰹ ⱎⱏⰹ ⰶⱏⰹ ⱍⱏⰹ ⰹⰺ ⰿⱁⰹⱏⰹ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden strict isv-Glag-x-sloviant 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰺⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конⱐ денⱐ пятⱐ ъ ⱐ моя любов кнѧзⱐ рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людⱐи ћуд ⰷвѣзда џем ґанок это єстⱐ ꙁима мѵро ѷ ѡтⱐц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зⱐ рⱐ семⱐя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱъ ⰴǫⰱъ ⰰⰲъⱅⱁⰿⰰⱅⰻⱍⱐⱀǫ ⰲъ ⰽⱁⱀⱐ ⰴⱐⱀⱐ ⱄъⱀъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⰻ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵʒ ⱁⱅⰵç ⱄⱏⱀ ⰴⱐⱀ ⰲŀⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁň ⱛⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⰻ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ⰴⰵⱀ ⱅⰿⰰ ⱂⱁⰾⰵ ⰱⰵ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱄⰽⱄⰻⱃⱁⰽⰻ ⱄⰸⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱌⰽⱄⰰⱄ ⱌⰸⰰⱄ ⰸⰽⱄⰵⱀⰰ ⰸⱄⰵⱀⰰ ⰻⰵ ⰲⰻⰵⱃⰰ qⱆⰰⰴⱃⰰⱅ q ⰰqⱆⰰ ⱌⱈⰰⱅⰰ wⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁż ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹⰺ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden strict isv-Glag-x-southern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰺⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конⱐ денⱐ пятⱐ ъ ⱐ моя любов кнѧзⱐ рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людⱐи ћуд ⰷвѣзда џем ґанок это єстⱐ ꙁима мѵро ѷ ѡтⱐц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зⱐ рⱐ семⱐя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → ⰴⱆⰱъ ⰴǫⰱъ ⰰⰲъⱅⱁⰿⰰⱅⰻⱍⱐⱀǫ ⰲъ ⰽⱁⱀⱐ ⰴⱐⱀⱐ ⱄъⱀъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⰻ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵʒ ⱁⱅⰵç ⱄⱏⱀ ⰴⱐⱀ ⰲŀⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁň ⱛⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⰻ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ ⰴⰵⱀ ⱅⰿⰰ ⱂⱁⰾⰵ ⰱⱑ ⰶⰵⱀⰰ
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → ⱄⰽⱄⰻⱃⱁⰽⰻ ⱄⰸⱆⰿ ⱄⰸⰰⰴⱆ ⰱⰵⰸⱄⰻⰾⱀⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱁⰸⱄⰽⱄⰵⱄⱅⰲⰻⰵ ⱁⰱⰵⰸⱄⰻⰾⰻⱅⰻ ⱃⰰⰸⱄⱆⰴⰻⱅⰻ ⰲⱏⰸⱄⱅⰰⱅⰻ ⰻⰸⱄⰽⱄⰵⰾ ⱌⰽⱄⰰⱄ ⱌⰸⰰⱄ ⰸⰽⱄⰵⱀⰰ ⰸⱄⰵⱀⰰ ⰻⰵ ⰲⰻⰵⱃⰰ qⱆⰰⰴⱃⰰⱅ q ⰰqⱆⰰ ⱌⱈⰰⱅⰰ wⱁⰴⰰ ⰽⱄⰵⱃⱁⰽⱄ ⰲⰻⱇⰻ Ⰲⰻⱇⰻ ⰽⱁⱀⱐⱆⰳⰰⱌⰻⰹⰰ ⰽⱁⱀⱐⱆⱀⰽⱅⰻⰲ ⰻⱀⱐⰵⰽⱌⰻⰹⰰ ⱃⱁż ⰿⰰⰸⱄⰽ ⰻⰸⱄⱅⱁⰽ
+soft y: jy ćy đy šy žy čy jj mojý
+  → ⰹⰻ ⱋⰻ ⰼⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹⰺ ⰿⱁⰹⰻ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
+`;
+
+exports[`modes golden strict isv-Latn 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dubъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plny  znanje bj moliti plel jedin kvneʒ oteç sòn dèn vŀk trg more koň ùtora oko dobry nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ den tma pole bě žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroky szum szadu bezsilny razsuditi vozsksestvie obezsiliti razsuditi vozstati izsksel cksas czas zksena zsena ye vyera quadrat q aqua chata woda kseroks vifi Vifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → jy čy džy šy žy čy j mojy
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Latn-PL 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конi денi пятi ъ i моя любов кнѧзi рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людiи ћуд ѕвѣзда џем ґанок это єстi ꙁима мѵро ѷ ѡтiц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зi рi семiя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dąbъ dǫbъ awъtomaticzinǫ wъ koni dini sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → werch deń wlk welmi plny  znanie bj moliti płeł jedin kwnęʒ oteç sòn dèn wŀk torg morie koň ùtora oko dobry niť trawa łes mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ dien ťma połe bie żena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroki szum szadu bezsiłny razsuditi wozsksestwie obezsiliti razsuditi wozstati izskseł cksas czas zksena zsena ye wyera quadrat q aqua cchata woda kseroks wifi Wifi konjugacija konjunktiw injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → i ci dzi szy ży czy j moi
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Latn-x-ascii 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dubъ dǫbъ avъtomaticzьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plny  znanje bj moliti plel jedin kvneʒ oteç sòn dèn vŀk trg more koň ùtora oko dobry nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ den tma pole bje zsena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroky szum szadu bezsilny razsuditi vozsksestvie obezsiliti razsuditi vozstati izsksel cksas czas zksena zsena ye vyera quadrat q aqua chata woda kseroks vifi Vifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → jy czy dzsy szy zsy czy j mojy
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Latn-x-etymolog 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → vėrh dėnj vĺk veĺmi pĺny  znanje bj moliti plel jedin kvnęʒ otėç sòn dèn vŀk trg moŕe koň ùtora oko dobry nitj trava les mir gråd
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma pole bě žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroky szum szadu bezsilny razsuditi vozsksestvie obezsiliti råzsuditi vȯzstati izsksel cksas czas zksena zsena ye vyera quadrat q aqua chata woda kseroks vifi Vifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → jy ćy đy šy žy čy j mojy
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Latn-x-northern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конi денi пятi ъ i моя любов кнѧзi рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людiи ћуд ѕвѣзда џем ґанок это єстi ꙁима мѵро ѷ ѡтiц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зi рi семiя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dubъ dǫbъ avъtomatičinǫ vъ koni dini sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verch deń vľk veľmi pľny  znanie bj modliti pletl jedin kvniaʒ oteç sòn dèn vŀk torg morie koň ùtora oko dobry niť trava les mir grod
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ dien ťma pole be žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroki szum szadu bezsilny razsuditi vozsksestvie obezsiliti rozsuditi vozstati izsksel cksas czas zksena zsena ye vyera quadrat q aqua cchata woda kseroks vifi Vifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → jy čy džy šy žy čy j mojy
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Latn-x-sloviant 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dubъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plni  znanje bj moliti plel jedin kvneʒ oteç sòn dèn vŀk trg more koň ùtora oko dobri nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ den tma pole be žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroki szum szadu bezsilni razsuditi vozsksestvie obezsiliti razsuditi vozstati izsksel cksas czas zksena zsena ie viera quadrat q aqua chata woda kseroks vifi Vifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji či dži ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-Latn-x-southern 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dubъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → verh denj vlk velmi plni  znanje bj moliti plel jedin kvneʒ oteç sòn dèn vŀk trg more koň ùtora oko dobri nitj trava les mir grad
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ den tma pole bě žena
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksiroki szum szadu bezsilni razsuditi vozsksestvie obezsiliti razsuditi văzstati izsksel cksas czas zksena zsena ie viera quadrat q aqua chata woda kseroks vifi Vifi konjugacija konjunktiv injekcija roż mazsk izstok
+soft y: jy ćy đy šy žy čy jj mojý
+  → ji ći đi ši ži či j moji
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → God 2026, 19 knig; 7. A1 «da» — ne!"
+`;
+
+exports[`modes golden strict isv-x-fonipa 1`] = `
+"glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ ⰳⱁⱃⰰ ⰳⱁⱃⰰ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
+cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
+  → дубъ въ съ къ сънъ объявити конj денj пятj ъ j моя любов кнѧзj рѫка ѥзык њива ђак щит дубъ дубъ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людjи ћуд ѕвѣзда џем ґанок это єстj ꙁима мѵро ѷ ѡтjц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зj рj семjя
+latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
+  → dʊbъ dǫbъ avъtɔmatit͡ʃnǫ vъ kɔɲ dʲɲ sъnъ
+NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
+  → vɜrx dɜɲ vʎk vɛʎmi pʎnɪ  znanjɛ bj mɔliti pɫɛɫ jɛdin kvɲæʒ ɔtɜç sòn dèn vŀk tərg mɔrʲɛ kɔň ùtɔra ɔkɔ dɔbrɪ nitj trava ɫɛs mir grɒd
+other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
+  → àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ dʲɛn tʲma pɔɫɛ bjɛ ʒɛna
+ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti råzsuditi vȯzstati izsxel cxas czas zxena zsena ye vyera quadrat q aqua chata woda xerox wifi Wifi konjugacija konjunktiv injekcija roż mazsk izstok
+  → sksirɔkɪ szum szadu bɛzsiɫnɪ razsuditi vɔzsksɛstviɛ ɔbɛzsiliti rɒzsuditi vəzstati izsksɛɫ t͡sksas t͡szas zksɛna zsɛna ɪɛ vɪɛra quadrat q aqua t͡sxata wɔda ksɛrɔks vifi vifi kɔnjugat͡sija kɔnjunktiv injɛkt͡sija rɔż mazsk izstɔk
+soft y: jy ćy đy šy žy čy jj mojý
+  → jɪ t͡ɕɪ d͡ʑɪ ʃɪ ʒɪ t͡ʃɪ j mɔjɪ
+digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
+  → gɔd 2026, 19 knig; 7. a1 «da» — nɛ!"
+`;

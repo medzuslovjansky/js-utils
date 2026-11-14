@@ -83,15 +83,33 @@ describe('transliterate to', () => {
     }, assert.AssertionError);
   });
 
-  test('preprocessed input skips the forgiving normalizer', () => {
+  test("input: 'isv-x-etymolog' skips the forgiving normalizer", () => {
     // The forgiving normalizer folds ASCII fallbacks and Cyrillic into the
-    // etymological alphabet; `preprocessed` input is already there, so the
-    // strict rule set leaves both alone.
+    // etymological alphabet; such input is already there, so the strict rule
+    // set leaves both alone.
+    const etymolog = { input: 'isv-x-etymolog' } as const;
+
     assert.strictEqual(transliterate('czas', 'isv-Latn'), 'čas');
-    assert.strictEqual(transliterate('czas', 'isv-Latn', true), 'czas');
+    assert.strictEqual(transliterate('czas', 'isv-Latn', etymolog), 'czas');
 
     assert.strictEqual(transliterate('вода', 'isv-Latn'), 'voda');
-    assert.strictEqual(transliterate('вода', 'isv-Latn', true), 'вода');
+    assert.strictEqual(transliterate('вода', 'isv-Latn', etymolog), 'вода');
+  });
+
+  test('the old boolean third argument is refused, not ignored', () => {
+    for (const legacy of [true, false, null]) {
+      assert.throws(
+        () => transliterate('czas', 'isv-Latn', legacy as any),
+        TypeError,
+      );
+    }
+  });
+
+  test('unknown input', () => {
+    assert.throws(
+      () => transliterate('czas', 'isv-Latn', { input: 'isv' as any }),
+      /Unsupported input: isv/,
+    );
   });
 
   test('unknown code', (t) => {

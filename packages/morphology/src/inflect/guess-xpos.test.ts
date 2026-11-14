@@ -52,8 +52,8 @@ describe('guessXpos', () => {
     });
 
     it('should correctly guess POS for Glagolitic forms', () => {
-      // ⰴⱑⰾⰰⱅⰹ = dělati
-      assert.strictEqual(guessXpos('ⰴⱑⰾⰰⱅⰹ'), 'v.tr. ipf.');
+      // ⰴⱑⰾⰰⱅⰻ = dělati
+      assert.strictEqual(guessXpos('ⰴⱑⰾⰰⱅⰻ'), 'v.tr. ipf.');
       // ⱃⰰⰴⱁⱄⱅⱐ = radost
       assert.strictEqual(guessXpos('ⱃⰰⰴⱁⱄⱅⱐ'), 'f.');
       // ⰴⱁⰱⱃⱏⰹ = dobry

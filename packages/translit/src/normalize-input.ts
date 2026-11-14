@@ -1,4 +1,7 @@
 import { createReplacer } from './createReplacer.ts';
+import { hasGlagolitic } from './glagolitic-punctuation.ts';
+import { readHavlik } from './havlik.ts';
+import { dropFinalYer, readGlagoliticYers, separateYer } from './yers.ts';
 
 /**
  * Ports v1's `nmsifyLoose` / `nmsifyStrict` (see
@@ -44,8 +47,8 @@ const GLAGOLITIC_LETTERS: Record<string, string> = {
   ⰶ: 'ž',
   ⰷ: 'dz',
   ⰸ: 'z',
-  ⰹ: 'i',
-  ⰺ: 'i',
+  ⰹ: 'j',
+  ⰺ: 'j',
   ⰻ: 'i',
   ⰼ: 'đ',
   ⰽ: 'k',
@@ -82,8 +85,12 @@ const GLAGOLITIC_LETTERS: Record<string, string> = {
   ⱜ: '',
   ⱝ: 'ja',
   ⱞ: 'm',
+  '\u0483': '', // titlo: abbreviation mark, no Latin counterpart
 };
-const pass0 = createReplacer(GLAGOLITIC_LETTERS);
+
+const glagoliticLetters = createReplacer(GLAGOLITIC_LETTERS);
+const pass0 = (word: string): string =>
+  glagoliticLetters(readGlagoliticYers(word));
 
 // Pass 1 — iotated/nasalized Cyrillic vowels, softened with a `#` marker so
 // the palatalization survives until pass 2 can decide what to do with it.
@@ -126,6 +133,17 @@ const SOFT_CONSONANTS: Record<string, string> = {
   зь: 'ź',
   'з#': 'ź',
   'ь%': '%',
+  // at the end of a word n and l are `nj`, `lj` (konь, кралъ), as in Glagolitic
+  'нь%': 'nj%',
+  'ль%': 'lj%',
+  // a Latin word ending in a Cyrillic soft sign (konь) is read the same way
+  'nь%': 'nj%',
+  'lь%': 'lj%',
+  'rь%': 'ŕ%',
+  'tь%': 'ť%',
+  'dь%': 'ď%',
+  'sь%': 'ś%',
+  'zь%': 'ź%',
 };
 const pass2 = createReplacer(SOFT_CONSONANTS);
 
@@ -183,7 +201,7 @@ const CYRILLIC_LETTERS: Record<string, string> = {
   щ: 'šč',
   ы: 'y',
   ꙑ: 'y',
-  ъ: 'ȯ', // Fixed by Denis Šabalin
+  ъ: 'ȯ', // Fixed by Denis Šabalin; a word-final one, see FINAL_YER
   ў: 'ŭ',
   ѧ: 'ę',
   ѫ: 'ų',
@@ -263,7 +281,16 @@ const ACCENTED_LATIN: Record<string, string> = {
   î: 'i',
   ī: 'i',
   ĭ: 'i',
-  ı: 'i',
+  // NMS's tense yer next to j (znanıje) softens the consonant before it, as a
+  // soft sign does (znańje); after any other consonant it is silent (bıj)
+  nı: 'ń',
+  lı: 'ľ',
+  rı: 'ŕ',
+  tı: 'ť',
+  dı: 'ď',
+  sı: 'ś',
+  zı: 'ź',
+  ı: '',
   ú: 'u',
   û: 'u',
   ů: 'u',
@@ -310,6 +337,33 @@ const pass6 = createReplacer(TRAILING_SOFT_Y);
 const looseReplacer = (word: string): string =>
   pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
 
+// Reading by Havlík's law: the same passes, except that the yers pass through
+// them as they are (the tables that turn ь into a soft consonant or a j are
+// left out) and the law reads them last, on the Latin word.
+const SOFT_NOT_BY_YER = Object.fromEntries(
+  Object.entries(SOFT_CONSONANTS).filter(([key]) => !key.includes('ь')),
+);
+const havlik2 = createReplacer(SOFT_NOT_BY_YER);
+const havlik3 = createReplacer({ ...CYRILLIC_LETTERS, ъ: 'ъ', ь: 'ь' });
+const havlikReplacer = (word: string): string =>
+  `%${readHavlik(
+    pass6(pass5(pass4(havlik3(havlik2(pass1(pass0(word))))))).slice(1, -1),
+  )}%`;
+
+// Naučny Medžuslovjanski spells two things with letters that mean something
+// else here: its `ė` is the e of *er/*el (`ě` here, where `ė` is a strong
+// front yer), and its `ĺ` between consonants is a syllabic l (`ȯl` here, where `ĺ` is a soft l).
+// Only the Latin letters themselves: `ĺ` read from Cyrillic `ль` or from a
+// Glagolitic ⰾⱐ is made later and is the soft l it always was.
+const NMS_CONSONANT = 'bcčćdđfghjklľmnńprŕsšśtťvzžź';
+const nmsLetters = (word: string): string =>
+  word
+    .replace(/ė/g, 'ě')
+    .replace(
+      new RegExp(`(?<=[${NMS_CONSONANT}])ĺ(?=[${NMS_CONSONANT}])`, 'g'),
+      'ȯl',
+    );
+
 // nmsifyStrict is applied to input that is already close to canonical
 // (see v1's `preprocessed` flag): just the prefix-boundary cluster rule,
 // one hardcoded Wi-Fi exception, and single-character accent stripping —
@@ -323,6 +377,72 @@ const STRICT_TABLE: Record<string, string> = {
 };
 const strictReplacer = createReplacer(STRICT_TABLE);
 
+/** How `transliterate` and `normalize` read their input. */
+export interface NormalizeOptions {
+  /**
+   * What the input is written in.
+   *
+   * - `'auto'` reads anything: ASCII fallbacks, Cyrillic, Glagolitic, the
+   *   accents of other orthographies. It does not guess; every spelling has
+   *   one reading.
+   * - `'isv-x-etymolog'` is for input already in the etymological alphabet.
+   *   Nothing is respelled: `czas` stays `czas`, Cyrillic is not read.
+   *
+   * - `'isv-x-nms'` is `'auto'` for a text in Naučny Medžuslovjanski: the
+   *   Latin letters `ė` and `ĺ` are read as `ě` and `ȯl`. Nothing else
+   *   changes; Cyrillic and Glagolitic are read as before.
+   *
+   * @default 'auto'
+   */
+  input?: 'auto' | 'isv-x-etymolog' | 'isv-x-nms';
+
+  /**
+   * What a word-final hard yer is: Glagolitic `ⱏ`, Cyrillic `ъ`, or `ъ` at the
+   * end of a Latin word (`dųbъ`). Yers inside a word are not touched, and
+   * neither is a Latin `ȯ`. Has no effect with `input: 'isv-x-etymolog'`,
+   * which reads no yers at all.
+   *
+   * - `'auto'`: silent after a vowel (`ⰽⰰⱀⰰⰾⱏ` is `kanal`), `ȯ` in a word that
+   *   has no vowel before it (`ⰲⱏ` is `vȯ`).
+   * - `'drop'`: always silent (`ⰲⱏ` is `v`), unless it is the whole word.
+   * - `'keep'`: always `ȯ` (`ⰽⰰⱀⰰⰾⱏ` is `kanalȯ`).
+   *
+   * @default 'auto'
+   */
+  finalYer?: 'auto' | 'drop' | 'keep';
+
+  /**
+   * Whether Glagolitic letters stand for numbers. A number is a Glagolitic word
+   * with a titlo (U+0483) at its end: `ⰸⰺ҃` is 19. Only 1 to 999; anything else
+   * stays as it is written.
+   *
+   * - `false`: the titlo is dropped and the letters are read as a word; digits
+   *   are never touched.
+   * - `true`: such a word is read as its number, and a Glagolitic target gets
+   *   its numbers from 1 to 999 written in letters. `input: 'isv-x-etymolog'`
+   *   reads no Glagolitic, numbers included.
+   *
+   * @default false
+   */
+  alphabeticalNumerals?: boolean;
+
+  /**
+   * How the yers of a Cyrillic or Latin word are read.
+   *
+   * - `'auto'`: by the neighbours and `finalYer` (see there); a soft sign is a
+   *   `j` or softens the consonant before it.
+   * - `'havlik'`: by Havlík's law, as a word written with yers is meant:
+   *   `крьвь` is `krȯv`, `конь` is `konj`, `дьржати` is `dŕžati`. `finalYer`
+   *   has no effect. A word without yers is read as in `'auto'`.
+   *
+   * Glagolitic is read by its neighbours in both. Has no effect with
+   * `input: 'isv-x-etymolog'`, which reads no yers at all.
+   *
+   * @default 'auto'
+   */
+  yers?: 'auto' | 'havlik';
+}
+
 /**
  * Normalizes arbitrary input spellings (ASCII fallbacks, accented Latin,
  * Cyrillic, older iotated Cyrillic) down to the canonical etymological
@@ -330,10 +450,18 @@ const strictReplacer = createReplacer(STRICT_TABLE);
  *
  * `word` must already be lowercased and wrapped in `%` boundary markers,
  * exactly as v1's `nmsifyLoose`/`nmsifyStrict` expect (see module doc).
- *
- * @param strict use the smaller rule set for already-preprocessed input
- *   (v1's `nmsifyStrict`); defaults to the full rule set (`nmsifyLoose`).
+ * `input: 'isv-x-etymolog'` is v1's `nmsifyStrict`, the default its
+ * `nmsifyLoose`; `'isv-x-nms'` is the default with two letters re-read first.
  */
-export function normalizeInput(word: string, strict = false): string {
-  return strict ? strictReplacer(word) : looseReplacer(word);
+export function normalizeInput(
+  word: string,
+  options: NormalizeOptions = {},
+): string {
+  if (options.input === 'isv-x-etymolog') return strictReplacer(word);
+
+  const { finalYer = 'auto', yers = 'auto' } = options;
+  const read = options.input === 'isv-x-nms' ? nmsLetters(word) : word;
+  if (yers === 'havlik' && !hasGlagolitic(read)) return havlikReplacer(read);
+
+  return looseReplacer(separateYer(dropFinalYer(read, finalYer)));
 }

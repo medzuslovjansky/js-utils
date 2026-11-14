@@ -1,10 +1,19 @@
 import type { FlavorisationBCP47Code } from './constants/index.ts';
 import { flavorize, type Flavour } from './flavorize.ts';
+import {
+  fromGlagoliticNumerals,
+  toGlagoliticNumerals,
+} from './glagolitic-numerals.ts';
+import {
+  glagToLatnMarks,
+  hasGlagolitic,
+  latnToGlagMarks,
+} from './glagolitic-punctuation.ts';
 import { latn2cyrl } from './latn2cyrl.ts';
 import { latn2glag } from './latn2glag.ts';
 import { latn2ipa } from './latn2ipa.ts';
 import { latn2latn } from './latn2latn.ts';
-import { normalizeInput } from './normalize-input.ts';
+import { normalizeInput, type NormalizeOptions } from './normalize-input.ts';
 import { resolveLiquids } from './resolve-liquids.ts';
 import { restoreCase } from './restore-case.ts';
 
@@ -86,15 +95,41 @@ function toScript(word: string, script: Script, flavour: Flavour): string {
   }
 }
 
+const INPUTS = ['auto', 'isv-x-etymolog', 'isv-x-nms'];
+const FINAL_YERS = ['auto', 'drop', 'keep'];
+const YERS = ['auto', 'havlik'];
+
+function checkOptions(options: NormalizeOptions): void {
+  // The third argument used to be the boolean `preprocessed`. A JavaScript
+  // caller still passing `true` would otherwise silently get the default.
+  if (typeof options !== 'object' || options === null) {
+    throw new TypeError(
+      'Options must be an object: { input: "isv-x-etymolog" } is what `true` was',
+    );
+  }
+
+  const { input = 'auto', finalYer = 'auto', yers = 'auto' } = options;
+  if (!INPUTS.includes(input)) {
+    throw new TypeError(`Unsupported input: ${input}`);
+  }
+  if (!FINAL_YERS.includes(finalYer)) {
+    throw new TypeError(`Unsupported finalYer: ${finalYer}`);
+  }
+  if (!YERS.includes(yers)) {
+    throw new TypeError(`Unsupported yers: ${yers}`);
+  }
+}
+
 /**
- * @param preprocessed whether the input is already in the etymological
- *   alphabet, and so needs the strict normalizer rather than the forgiving one
+ * @param options how to read the input, see {@link NormalizeOptions}
  */
 export function transliterate(
   text: string,
   lang: FlavorisationBCP47Code,
-  preprocessed = false,
+  options: NormalizeOptions = {},
 ): string {
+  checkOptions(options);
+
   if (lang === 'isv') return text;
 
   const target = TARGETS[lang];
@@ -102,11 +137,21 @@ export function transliterate(
 
   const { script, flavour } = target;
 
-  return text.normalize('NFC').replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
+  // Numbers are read and written around the words, not among them: a number
+  // read here is digits from now on, which no later phase touches.
+  const numerals = options.alphabeticalNumerals === true;
+  const readsGlagolitic = options.input !== 'isv-x-etymolog';
+  const source =
+    numerals && readsGlagolitic
+      ? fromGlagoliticNumerals(text.normalize('NFC'))
+      : text.normalize('NFC');
+  const marked = hasGlagolitic(source) ? glagToLatnMarks(source) : source;
+
+  const result = marked.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
     // `%` marks both ends of the word; rules anchor on it, and the original
     // spelling is kept alongside so the case can be put back at the end
     const original = `%${word}%`;
-    const normalized = normalizeInput(original.toLowerCase(), preprocessed);
+    const normalized = normalizeInput(original.toLowerCase(), options);
     const flavoured = flavorize(resolveLiquids(normalized), flavour);
 
     return restoreCase(
@@ -115,4 +160,8 @@ export function transliterate(
       script.kind === 'ipa',
     );
   });
+
+  if (script.kind !== 'glagolitic') return result;
+
+  return latnToGlagMarks(numerals ? toGlagoliticNumerals(result) : result);
 }
