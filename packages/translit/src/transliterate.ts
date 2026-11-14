@@ -86,7 +86,7 @@ function toScript(word: string, script: Script, flavour: Flavour): string {
   }
 }
 
-const INPUTS = ['auto', 'isv-x-etymolog'];
+const INPUTS = ['auto', 'isv-x-etymolog', 'isv-x-nms'];
 
 function checkOptions(options: NormalizeOptions): void {
   // The third argument used to be the boolean `preprocessed`. A JavaScript
