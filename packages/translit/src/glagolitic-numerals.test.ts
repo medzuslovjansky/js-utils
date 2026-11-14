@@ -145,8 +145,8 @@ describe('alphabeticalNumerals', () => {
     [
       'V 2026 godu, 7 knig',
       'isv-Glag',
-      'Ⰲ 2026 ⰳⱁⰴⱆ, 7 ⰽⱀⰻⰳ',
-      'Ⰲ 2026 ⰳⱁⰴⱆ, ⰶ҃ ⰽⱀⰻⰳ',
+      'Ⰲ 2026 ⰳⱁⰴⱆ· 7 ⰽⱀⰻⰳ',
+      'Ⰲ 2026 ⰳⱁⰴⱆ· ⰶ҃ ⰽⱀⰻⰳ',
     ],
     // a Glagolitic number is read as one only with the option; without
     // it the titlo is dropped and the letters are a word
