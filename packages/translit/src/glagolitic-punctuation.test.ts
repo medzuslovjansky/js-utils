@@ -38,4 +38,35 @@ describe('Glagolitic punctuation', () => {
       'слово, слово.',
     );
   });
+
+  test('`;` is a question mark only after a Glagolitic word', () => {
+    assert.strictEqual(transliterate('ⱄⰾⱁⰲⱁ;', 'isv-Latn'), 'slovo?');
+    assert.strictEqual(
+      transliterate('ⱄⰾⱁⰲⱁ ; ⱄⰾⱁⰲⱁ', 'isv-Latn'),
+      'slovo ? slovo',
+    );
+    assert.strictEqual(transliterate('ⱄⰾⱁⰲⱁ 1; 2;', 'isv-Latn'), 'slovo 1; 2;');
+  });
+
+  test('a decimal point or comma inside a number stays', () => {
+    assert.strictEqual(
+      transliterate('Pi 3.14, 2,5. Da.', 'isv-Glag-x-etymolog'),
+      'Ⱂⰻ 3.14· 2,5։ Ⰴⰰ։',
+    );
+  });
+
+  test("| is the Glagolitic ⁞, but not Discord's ||", () => {
+    assert.strictEqual(
+      transliterate('slovo | slovo', 'isv-Glag-x-etymolog'),
+      'ⱄⰾⱁⰲⱁ ⁞ ⱄⰾⱁⰲⱁ',
+    );
+    assert.strictEqual(
+      transliterate('ⱄⰾⱁⰲⱁ ⁞ ⱄⰾⱁⰲⱁ', 'isv-Latn'),
+      'slovo | slovo',
+    );
+    assert.strictEqual(
+      transliterate('||slovo||', 'isv-Glag-x-etymolog'),
+      '||ⱄⰾⱁⰲⱁ||',
+    );
+  });
 });
