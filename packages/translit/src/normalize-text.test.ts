@@ -31,9 +31,13 @@ describe('normalize', () => {
   }
 
   test('is transliterate to the Latin alphabet, options included', () => {
-    const text = 'Czlovek, рѫка, ⱃⱘⰽⰰ, sȯmysl';
+    const text = 'Czlovek, рѫка, ⱃⱘⰽⰰ, sȯmysl, vėrh, vĺk';
 
-    for (const options of [undefined, { input: 'isv-x-etymolog' }] as const) {
+    for (const options of [
+      undefined,
+      { input: 'isv-x-etymolog' },
+      { input: 'isv-x-nms' },
+    ] as const) {
       assert.strictEqual(
         normalize(text, 'etymolog', options),
         transliterate(text, 'isv-Latn-x-etymolog', options),

@@ -314,7 +314,8 @@ const ACCENTED_LATIN: Record<string, string> = {
   î: 'i',
   ī: 'i',
   ĭ: 'i',
-  ı: 'i',
+  // NMS's tense yer next to j (znanıje): silent, not an i
+  ı: '',
   ú: 'u',
   û: 'u',
   ů: 'u',
@@ -361,6 +362,13 @@ const pass6 = createReplacer(TRAILING_SOFT_Y);
 const looseReplacer = (word: string): string =>
   pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
 
+// Naučny Medžuslovjanski spells two things with letters that mean something
+// else here: its `ė` is the e of *er/*el (`ě` here, where `ė` is a strong
+// front yer), and its `ĺ` is a syllabic l (`ȯl` here, where `ĺ` is a soft l).
+// Only the Latin letters themselves: `ĺ` read from Cyrillic `ль` or from a
+// Glagolitic ⰾⱐ is made later and is the soft l it always was.
+const nmsLetters = createReplacer({ ė: 'ě', ĺ: 'ȯl' });
+
 // nmsifyStrict is applied to input that is already close to canonical
 // (see v1's `preprocessed` flag): just the prefix-boundary cluster rule,
 // one hardcoded Wi-Fi exception, and single-character accent stripping —
@@ -385,9 +393,13 @@ export interface NormalizeOptions {
    * - `'isv-x-etymolog'` is for input already in the etymological alphabet.
    *   Nothing is respelled: `czas` stays `czas`, Cyrillic is not read.
    *
+   * - `'isv-x-nms'` is `'auto'` for a text in Naučny Medžuslovjanski: the
+   *   Latin letters `ė` and `ĺ` are read as `ě` and `ȯl`. Nothing else
+   *   changes; Cyrillic and Glagolitic are read as before.
+   *
    * @default 'auto'
    */
-  input?: 'auto' | 'isv-x-etymolog';
+  input?: 'auto' | 'isv-x-etymolog' | 'isv-x-nms';
 }
 
 /**
@@ -398,13 +410,13 @@ export interface NormalizeOptions {
  * `word` must already be lowercased and wrapped in `%` boundary markers,
  * exactly as v1's `nmsifyLoose`/`nmsifyStrict` expect (see module doc).
  * `input: 'isv-x-etymolog'` is v1's `nmsifyStrict`, the default its
- * `nmsifyLoose`.
+ * `nmsifyLoose`; `'isv-x-nms'` is the default with two letters re-read first.
  */
 export function normalizeInput(
   word: string,
   options: NormalizeOptions = {},
 ): string {
-  return options.input === 'isv-x-etymolog'
-    ? strictReplacer(word)
-    : looseReplacer(word);
+  if (options.input === 'isv-x-etymolog') return strictReplacer(word);
+
+  return looseReplacer(options.input === 'isv-x-nms' ? nmsLetters(word) : word);
 }
