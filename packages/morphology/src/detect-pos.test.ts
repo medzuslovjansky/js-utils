@@ -128,8 +128,8 @@ describe('detectPos script invariance (Cyrillic, Glagolitic, ASCII)', () => {
   });
 
   test('detects Glagolitic script forms', () => {
-    // ⰴⱑⰾⰰⱅⰹ = dělati
-    assert.deepEqual(detectPos('ⰴⱑⰾⰰⱅⰹ'), {
+    // ⰴⱑⰾⰰⱅⰻ = dělati
+    assert.deepEqual(detectPos('ⰴⱑⰾⰰⱅⰻ'), {
       xpos: 'v.tr. ipf.',
       upos: 'VERB',
       label: 'Verb (imperfective)',
