@@ -82,6 +82,7 @@ const GLAGOLITIC_LETTERS: Record<string, string> = {
   ⱜ: '',
   ⱝ: 'ja',
   ⱞ: 'm',
+  '\u0483': '', // titlo: abbreviation mark, no Latin counterpart
 };
 
 // Pass 0 also reads the two yers, which a flat table cannot: what ⱐ and ⱏ
@@ -122,10 +123,15 @@ function readYeri(m: string, prev: string, next: string, end?: string) {
   return hard && CONSONANT.test(next) ? `${prev}ė` : m;
 }
 
+// A word-final ⱏ is silent after a vowel (kanalⱏ is `kanal`, sⱏmⱏⰹslⱏ is
+// `smysl`); a one-syllable word keeps it (vⱏ, sⱏ, kⱏ are `vȯ`, `sȯ`, `kȯ`).
+const FINAL_YER = /(?<=(?:[ⰰⰵⰻⱁⱆⱉⱑⱓⱔⱕⱗⱘⱙⱛⱝ]|ⱏⰹ)[^%]*)ⱏ(?=%)/g;
+
 const glagoliticLetters = createReplacer(GLAGOLITIC_LETTERS);
 const pass0 = (word: string): string =>
   glagoliticLetters(
     word
+      .replace(FINAL_YER, '')
       .replace(SYLLABIC_R, (_, yer: string) => (yer === 'ⱐ' ? 'ŕ' : 'r'))
       .replace(YERI, readYeri),
   );
