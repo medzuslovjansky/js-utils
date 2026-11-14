@@ -43,8 +43,9 @@ const LATN_MARKS = /\.\.\.|[?.,()"«»!:;…|]/g;
 export const hasGlagolitic = (text: string): boolean => /[Ⰰ-ⱟ]/.test(text);
 
 const isGlagLetter = (c: string | undefined): boolean => !!c && /[Ⰰ-ⱟ]/.test(c);
+// the last character before `at`, not counting spaces or other `;`
 const lastLetter = (text: string, at: number): string => {
-  const before = text.slice(0, at).trimEnd();
+  const before = text.slice(0, at).replace(/[;\s]+$/, '');
   return before[before.length - 1];
 };
 const isDigit = (c: string | undefined): boolean => !!c && /\d/.test(c);

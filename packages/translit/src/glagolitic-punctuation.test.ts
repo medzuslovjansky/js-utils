@@ -46,12 +46,16 @@ describe('Glagolitic punctuation', () => {
       'slovo ? slovo',
     );
     assert.strictEqual(transliterate('ⱄⰾⱁⰲⱁ 1; 2;', 'isv-Latn'), 'slovo 1; 2;');
+    assert.strictEqual(
+      transliterate('ⱄⰾⱁⰲⱁ;; ⱄⰾⱁⰲⱁ ;', 'isv-Latn'),
+      'slovo?? slovo ?',
+    );
   });
 
   test('a decimal point or comma inside a number stays', () => {
     assert.strictEqual(
-      transliterate('Pi 3.14, 2,5. Da.', 'isv-Glag-x-etymolog'),
-      'Ⱂⰻ 3.14· 2,5։ Ⰴⰰ։',
+      transliterate('Pi 3.14, 2,5. 2, 5. Da.', 'isv-Glag-x-etymolog'),
+      'Ⱂⰻ 3.14· 2,5։ 2· 5։ Ⰴⰰ։',
     );
   });
 
