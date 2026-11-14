@@ -38,6 +38,13 @@ transliterate('въ каналъ', 'isv-Latn-x-etymolog', { finalYer: 'drop' });
 transliterate('въ каналъ', 'isv-Latn-x-etymolog', { finalYer: 'keep' });    // vȯ kanalȯ
 ```
 
+Glagolitic writes numbers from 1 to 999 in letters under a titlo. This is off unless asked for:
+
+```ts
+transliterate('19 knig', 'isv-Glag', { alphabeticalNumerals: true });  // ⰸⰺ҃ ⰽⱀⰻⰳ
+transliterate('ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', { alphabeticalNumerals: true });  // 19 knig
+```
+
 `normalize` is the same reading with a Latin result, etymological or standard:
 
 ```ts

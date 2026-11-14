@@ -431,6 +431,21 @@ export interface NormalizeOptions {
    * @default 'auto'
    */
   finalYer?: 'auto' | 'drop' | 'keep';
+
+  /**
+   * Whether Glagolitic letters stand for numbers. A number is a Glagolitic word
+   * with a titlo (U+0483) at its end: `ⰸⰺ҃` is 19. Only 1 to 999; anything else
+   * stays as it is written.
+   *
+   * - `false`: the titlo is dropped and the letters are read as a word; digits
+   *   are never touched.
+   * - `true`: such a word is read as its number, and a Glagolitic target gets
+   *   its numbers from 1 to 999 written in letters. `input: 'isv-x-etymolog'`
+   *   reads no Glagolitic, numbers included.
+   *
+   * @default false
+   */
+  alphabeticalNumerals?: boolean;
 }
 
 /**

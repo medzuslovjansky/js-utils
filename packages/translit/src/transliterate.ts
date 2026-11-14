@@ -1,5 +1,9 @@
 import type { FlavorisationBCP47Code } from './constants/index.ts';
 import { flavorize, type Flavour } from './flavorize.ts';
+import {
+  fromGlagoliticNumerals,
+  toGlagoliticNumerals,
+} from './glagolitic-numerals.ts';
 import { latn2cyrl } from './latn2cyrl.ts';
 import { latn2glag } from './latn2glag.ts';
 import { latn2ipa } from './latn2ipa.ts';
@@ -124,7 +128,16 @@ export function transliterate(
 
   const { script, flavour } = target;
 
-  return text.normalize('NFC').replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
+  // Numbers are read and written around the words, not among them: a number
+  // read here is digits from now on, which no later phase touches.
+  const numerals = options.alphabeticalNumerals === true;
+  const readsGlagolitic = options.input !== 'isv-x-etymolog';
+  const source =
+    numerals && readsGlagolitic
+      ? fromGlagoliticNumerals(text.normalize('NFC'))
+      : text.normalize('NFC');
+
+  const result = source.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
     // `%` marks both ends of the word; rules anchor on it, and the original
     // spelling is kept alongside so the case can be put back at the end
     const original = `%${word}%`;
@@ -137,4 +150,8 @@ export function transliterate(
       script.kind === 'ipa',
     );
   });
+
+  return numerals && script.kind === 'glagolitic'
+    ? toGlagoliticNumerals(result)
+    : result;
 }
