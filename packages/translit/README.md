@@ -26,6 +26,18 @@ transliterate('czas', 'isv-Latn');                               // čas
 transliterate('czas', 'isv-Latn', { input: 'isv-x-etymolog' });  // czas
 ```
 
+Two more things can be said about the input:
+
+```ts
+// Naučny Medžuslovjanski: its ė is ě and its ĺ is a syllabic l
+transliterate('vėrh, vĺk', 'isv-Latn-x-etymolog', { input: 'isv-x-nms' });  // věrh, vȯlk
+
+// a word-final hard yer (ⱏ, ъ) is silent after a vowel and kept in vȯ, sȯ, kȯ
+transliterate('въ каналъ', 'isv-Latn-x-etymolog');                          // vȯ kanal
+transliterate('въ каналъ', 'isv-Latn-x-etymolog', { finalYer: 'drop' });    // v kanal
+transliterate('въ каналъ', 'isv-Latn-x-etymolog', { finalYer: 'keep' });    // vȯ kanalȯ
+```
+
 `normalize` is the same reading with a Latin result, etymological or standard:
 
 ```ts
