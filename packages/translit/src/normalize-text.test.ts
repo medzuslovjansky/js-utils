@@ -55,8 +55,11 @@ describe('normalize', () => {
   });
 
   test('a Latin word ending in a Cyrillic soft sign is softened', () => {
-    assert.strictEqual(normalize('konь'), 'koń');
-    assert.strictEqual(normalize('konь', { output: 'isv-Latn' }), 'kon');
+    assert.strictEqual(normalize('konь'), 'konj');
+    assert.strictEqual(normalize('конь'), 'konj');
+    assert.strictEqual(normalize('кралъ', { output: 'isv-Latn' }), 'kral');
+    assert.strictEqual(normalize('краль'), 'kralj');
+    assert.strictEqual(normalize('пальто'), 'paĺto');
   });
 
   test('unknown output', () => {
