@@ -100,6 +100,7 @@ function buildGlagolitizer({
       n: Glagolitic.Nashi, // ⱀ
       o: Glagolitic.Onu, // ⱁ
       ȯ: Glagolitic.Yeru, // ⱏ
+      ȯj: Glagolitic.Yeru + Glagolitic.Initial_Izhe, // ⱏⰺ, not ⱏⰹ (= y)
       p: Glagolitic.Pokoji, // ⱂ
       pj: Glagolitic.Pokoji + Glagolitic.Initial_Izhe, // ⱂⰺ
       r: Glagolitic.Ritsi, // ⱃ
