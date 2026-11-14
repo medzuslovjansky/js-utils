@@ -168,7 +168,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden forgiving isv-Glag-x-etymolog 1`] = `
@@ -187,7 +187,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱋⰻ ⰼⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden forgiving isv-Glag-x-northern 1`] = `
@@ -206,7 +206,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden forgiving isv-Glag-x-sloviant 1`] = `
@@ -225,7 +225,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden forgiving isv-Glag-x-southern 1`] = `
@@ -244,7 +244,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱋⰻ ⰼⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden forgiving isv-Latn 1`] = `
@@ -567,7 +567,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⱏⰹ ⱍⱏⰹ ⰴⰶⱏⰹ ⱎⱏⰹ ⰶⱏⰹ ⱍⱏⰹ ⰹⰺ ⰿⱁⰹⱏⰹ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden strict isv-Glag-x-etymolog 1`] = `
@@ -586,7 +586,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⱏⰹ ⱋⱏⰹ ⰼⱏⰹ ⱎⱏⰹ ⰶⱏⰹ ⱍⱏⰹ ⰹⰺ ⰿⱁⰹⱏⰹ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden strict isv-Glag-x-northern 1`] = `
@@ -605,7 +605,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⱏⰹ ⱍⱏⰹ ⰴⰶⱏⰹ ⱎⱏⰹ ⰶⱏⰹ ⱍⱏⰹ ⰹⰺ ⰿⱁⰹⱏⰹ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden strict isv-Glag-x-sloviant 1`] = `
@@ -624,7 +624,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱍⰻ ⰴⰶⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹⰺ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden strict isv-Glag-x-southern 1`] = `
@@ -643,7 +643,7 @@ ASCII digraphs: sxiroky szum szadu bezsilny razsuditi vozsxestvie obezsiliti rå
 soft y: jy ćy đy šy žy čy jj mojý
   → ⰹⰻ ⱋⰻ ⰼⰻ ⱎⰻ ⰶⰻ ⱍⰻ ⰹⰺ ⰿⱁⰹⰻ
 digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
-  → Ⰳⱁⰴ 2026, 19 ⰽⱀⰻⰳ; 7. Ⰰ1 «ⰴⰰ» — ⱀⰵ!"
+  → Ⰳⱁⰴ 2026· 19 ⰽⱀⰻⰳ⁘ 7։ Ⰰ1 ⸪ⰴⰰ⸪ — ⱀⰵ··"
 `;
 
 exports[`modes golden strict isv-Latn 1`] = `
