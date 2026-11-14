@@ -21,6 +21,11 @@
       "interslavic-source": "./src/alphabet.ts",
       "default": "./dist/alphabet.js"
     },
+    "./normalize": {
+      "types": "./dist/normalize-text.d.ts",
+      "interslavic-source": "./src/normalize-text.ts",
+      "default": "./dist/normalize-text.js"
+    },
     "./index.browser.min.js": "./dist/index.browser.min.js",
     "./package.json": "./package.json"
   },

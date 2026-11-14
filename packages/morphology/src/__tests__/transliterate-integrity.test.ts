@@ -29,8 +29,10 @@ describe('transliteration integrity', () => {
     test(id, () => {
       const value = lemma + ' ' + additional;
       const script = 'isv-Cyrl-x-etymolog';
-      const withPreprocessing = transliterate(value, script, false);
-      const withoutPreprocessing = transliterate(value, script, true);
+      const withPreprocessing = transliterate(value, script);
+      const withoutPreprocessing = transliterate(value, script, {
+        input: 'isv-x-etymolog',
+      });
       assert.strictEqual(withPreprocessing, withoutPreprocessing);
     });
   }
