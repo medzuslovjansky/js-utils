@@ -374,6 +374,22 @@ const STRICT_TABLE: Record<string, string> = {
 };
 const strictReplacer = createReplacer(STRICT_TABLE);
 
+/** How `transliterate` and `normalize` read their input. */
+export interface NormalizeOptions {
+  /**
+   * What the input is written in.
+   *
+   * - `'auto'` reads anything: ASCII fallbacks, Cyrillic, Glagolitic, the
+   *   accents of other orthographies. It does not guess; every spelling has
+   *   one reading.
+   * - `'isv-x-etymolog'` is for input already in the etymological alphabet.
+   *   Nothing is respelled: `czas` stays `czas`, Cyrillic is not read.
+   *
+   * @default 'auto'
+   */
+  input?: 'auto' | 'isv-x-etymolog';
+}
+
 /**
  * Normalizes arbitrary input spellings (ASCII fallbacks, accented Latin,
  * Cyrillic, older iotated Cyrillic) down to the canonical etymological
@@ -381,10 +397,14 @@ const strictReplacer = createReplacer(STRICT_TABLE);
  *
  * `word` must already be lowercased and wrapped in `%` boundary markers,
  * exactly as v1's `nmsifyLoose`/`nmsifyStrict` expect (see module doc).
- *
- * @param strict use the smaller rule set for already-preprocessed input
- *   (v1's `nmsifyStrict`); defaults to the full rule set (`nmsifyLoose`).
+ * `input: 'isv-x-etymolog'` is v1's `nmsifyStrict`, the default its
+ * `nmsifyLoose`.
  */
-export function normalizeInput(word: string, strict = false): string {
-  return strict ? strictReplacer(word) : looseReplacer(word);
+export function normalizeInput(
+  word: string,
+  options: NormalizeOptions = {},
+): string {
+  return options.input === 'isv-x-etymolog'
+    ? strictReplacer(word)
+    : looseReplacer(word);
 }

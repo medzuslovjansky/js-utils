@@ -21,7 +21,10 @@ import { diff, read as readParadigms } from './golden.ts';
  */
 
 /** The third argument of `transliterate`, by the name the fixtures use. */
-const MODES = { forgiving: false, strict: true } as const;
+const MODES = {
+  forgiving: undefined,
+  strict: { input: 'isv-x-etymolog' },
+} as const;
 type Mode = keyof typeof MODES;
 
 const ALL_CODES = [...new Set(Object.values(FlavorisationBCP47))].sort();

@@ -38,7 +38,10 @@ const SAMPLE: Record<string, string> = {
 };
 
 /** The third argument of `transliterate`, by the name the snapshot uses. */
-const MODES = { forgiving: false, strict: true } as const;
+const MODES = {
+  forgiving: undefined,
+  strict: { input: 'isv-x-etymolog' },
+} as const;
 
 describe('transliterate, both input modes, every target', () => {
   for (const [mode, third] of Object.entries(MODES)) {
