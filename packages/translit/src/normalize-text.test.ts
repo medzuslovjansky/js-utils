@@ -25,8 +25,8 @@ const cases: [string, string, string][] = [
 describe('normalize', () => {
   for (const [input, etymolog, standard] of cases) {
     test(`${input} → ${etymolog} / ${standard}`, () => {
-      assert.strictEqual(normalize(input, 'etymolog'), etymolog);
-      assert.strictEqual(normalize(input, 'standard'), standard);
+      assert.strictEqual(normalize(input), etymolog);
+      assert.strictEqual(normalize(input, { output: 'isv-Latn' }), standard);
     });
   }
 
@@ -39,25 +39,30 @@ describe('normalize', () => {
       { input: 'isv-x-nms' },
     ] as const) {
       assert.strictEqual(
-        normalize(text, 'etymolog', options),
+        normalize(text, options),
         transliterate(text, 'isv-Latn-x-etymolog', options),
       );
       assert.strictEqual(
-        normalize(text, 'standard', options),
+        normalize(text, { ...options, output: 'isv-Latn' }),
         transliterate(text, 'isv-Latn', options),
       );
     }
 
     assert.strictEqual(
-      normalize('czas', 'standard', { input: 'isv-x-etymolog' }),
+      normalize('czas', { input: 'isv-x-etymolog', output: 'isv-Latn' }),
       'czas',
     );
   });
 
-  test('unknown target', () => {
+  test('a Latin word ending in a Cyrillic soft sign is softened', () => {
+    assert.strictEqual(normalize('konь'), 'koń');
+    assert.strictEqual(normalize('konь', { output: 'isv-Latn' }), 'kon');
+  });
+
+  test('unknown output', () => {
     assert.throws(
-      () => normalize('smysl', 'isv-Latn' as any),
-      /Unsupported normalization target: isv-Latn/,
+      () => normalize('smysl', { output: 'isv-Cyrl' as any }),
+      /Unsupported normalization output: isv-Cyrl/,
     );
   });
 });

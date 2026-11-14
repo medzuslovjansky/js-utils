@@ -24,8 +24,8 @@ const groups: Record<string, Case[]> = {
   'ĺ is ȯl only as NMS': [
     ['vĺk', 'vĺk', 'vlk', 'vȯlk', 'volk'],
     ['pĺny', 'pĺny', 'plny', 'pȯlny', 'polny'],
-    ['veĺmi', 'veĺmi', 'velmi', 'veȯlmi', 'veolmi'],
-    ['paĺto', 'paĺto', 'palto', 'paȯlto', 'paolto'],
+    ['veĺmi', 'veĺmi', 'velmi', 'veĺmi', 'velmi'],
+    ['paĺto', 'paĺto', 'palto', 'paĺto', 'palto'],
   ],
   // only the Latin letters: a soft l that comes from Cyrillic or Glagolitic
   // is not NMS's ĺ, and the grave-accented è is not NMS's ė
@@ -39,10 +39,10 @@ const groups: Record<string, Case[]> = {
     ['vŀk', 'vȯlk', 'volk', 'vȯlk', 'volk'],
     ['czas', 'čas', 'čas', 'čas', 'čas'],
   ],
-  // NMS letters that read the same either way: ı is silent, ṱ and ḓ are the
+  // NMS letters that read the same either way: ı softens before j, ṱ and ḓ are the
   // consonants lost from tl, dl
-  'silent NMS letters, flag or no flag': [
-    ['znanıje', 'znanje', 'znanje', 'znanje', 'znanje'],
+  'NMS letters that read the same, flag or no flag': [
+    ['znanıje', 'znańje', 'znanje', 'znańje', 'znanje'],
     ['bıj', 'bj', 'bj', 'bj', 'bj'],
     ['moḓliti', 'moliti', 'moliti', 'moliti', 'moliti'],
     ['pleṱl', 'plel', 'plel', 'plel', 'plel'],
