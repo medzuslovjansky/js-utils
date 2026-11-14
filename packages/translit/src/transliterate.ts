@@ -4,6 +4,11 @@ import {
   fromGlagoliticNumerals,
   toGlagoliticNumerals,
 } from './glagolitic-numerals.ts';
+import {
+  glagToLatnMarks,
+  hasGlagolitic,
+  latnToGlagMarks,
+} from './glagolitic-punctuation.ts';
 import { latn2cyrl } from './latn2cyrl.ts';
 import { latn2glag } from './latn2glag.ts';
 import { latn2ipa } from './latn2ipa.ts';
@@ -136,8 +141,9 @@ export function transliterate(
     numerals && readsGlagolitic
       ? fromGlagoliticNumerals(text.normalize('NFC'))
       : text.normalize('NFC');
+  const marked = hasGlagolitic(source) ? glagToLatnMarks(source) : source;
 
-  const result = source.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
+  const result = marked.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
     // `%` marks both ends of the word; rules anchor on it, and the original
     // spelling is kept alongside so the case can be put back at the end
     const original = `%${word}%`;
@@ -151,7 +157,7 @@ export function transliterate(
     );
   });
 
-  return numerals && script.kind === 'glagolitic'
-    ? toGlagoliticNumerals(result)
-    : result;
+  if (script.kind !== 'glagolitic') return result;
+
+  return latnToGlagMarks(numerals ? toGlagoliticNumerals(result) : result);
 }
