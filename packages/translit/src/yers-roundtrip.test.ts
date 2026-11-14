@@ -26,9 +26,6 @@ function roundTrip(word: string, script: Script): string {
   return transliterate(there, 'isv-Latn-x-etymolog');
 }
 
-const ok = (word: string, script: Script): boolean =>
-  fold(roundTrip(word, script)) === fold(word);
-
 // words that come back in both scripts
 const BOTH = [
   ...'kanal sȯn kralj konj vȯlk pȯlny krȯv krȯvny dųb rųka město jazyk sȯmysl'.split(
@@ -54,6 +51,10 @@ describe('yers: round trip, built-in words', () => {
     });
   }
 });
+
+/* node:coverage disable */
+const ok = (word: string, script: Script): boolean =>
+  fold(roundTrip(word, script)) === fold(word);
 
 // Floors for the dictionary, in per cent, a little under what is measured.
 const FLOOR: Record<Script, number> = { Glag: 98.3, Cyrl: 95.6 };
@@ -112,3 +113,4 @@ describe('yers: round trip, the dictionary', { skip: !corpusPath }, () => {
     });
   }
 });
+/* node:coverage enable */

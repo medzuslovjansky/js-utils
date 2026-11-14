@@ -1,4 +1,6 @@
 import { createReplacer } from './createReplacer.ts';
+import { hasGlagolitic } from './glagolitic-punctuation.ts';
+import { readHavlik } from './havlik.ts';
 import { dropFinalYer, readGlagoliticYers, separateYer } from './yers.ts';
 
 /**
@@ -335,6 +337,19 @@ const pass6 = createReplacer(TRAILING_SOFT_Y);
 const looseReplacer = (word: string): string =>
   pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
 
+// Reading by Havlík's law: the same passes, except that the yers pass through
+// them as they are (the tables that turn ь into a soft consonant or a j are
+// left out) and the law reads them last, on the Latin word.
+const SOFT_NOT_BY_YER = Object.fromEntries(
+  Object.entries(SOFT_CONSONANTS).filter(([key]) => !key.includes('ь')),
+);
+const havlik2 = createReplacer(SOFT_NOT_BY_YER);
+const havlik3 = createReplacer({ ...CYRILLIC_LETTERS, ъ: 'ъ', ь: 'ь' });
+const havlikReplacer = (word: string): string =>
+  `%${readHavlik(
+    pass6(pass5(pass4(havlik3(havlik2(pass1(pass0(word))))))).slice(1, -1),
+  )}%`;
+
 // Naučny Medžuslovjanski spells two things with letters that mean something
 // else here: its `ė` is the e of *er/*el (`ě` here, where `ė` is a strong
 // front yer), and its `ĺ` between consonants is a syllabic l (`ȯl` here, where `ĺ` is a soft l).
@@ -410,6 +425,22 @@ export interface NormalizeOptions {
    * @default false
    */
   alphabeticalNumerals?: boolean;
+
+  /**
+   * How the yers of a Cyrillic or Latin word are read.
+   *
+   * - `'auto'`: by the neighbours and `finalYer` (see there); a soft sign is a
+   *   `j` or softens the consonant before it.
+   * - `'havlik'`: by Havlík's law, as a word written with yers is meant:
+   *   `крьвь` is `krȯv`, `конь` is `konj`, `дьржати` is `dŕžati`. `finalYer`
+   *   has no effect. A word without yers is read as in `'auto'`.
+   *
+   * Glagolitic is read by its neighbours in both. Has no effect with
+   * `input: 'isv-x-etymolog'`, which reads no yers at all.
+   *
+   * @default 'auto'
+   */
+  yers?: 'auto' | 'havlik';
 }
 
 /**
@@ -428,8 +459,9 @@ export function normalizeInput(
 ): string {
   if (options.input === 'isv-x-etymolog') return strictReplacer(word);
 
-  const { finalYer = 'auto' } = options;
+  const { finalYer = 'auto', yers = 'auto' } = options;
   const read = options.input === 'isv-x-nms' ? nmsLetters(word) : word;
+  if (yers === 'havlik' && !hasGlagolitic(read)) return havlikReplacer(read);
 
   return looseReplacer(separateYer(dropFinalYer(read, finalYer)));
 }

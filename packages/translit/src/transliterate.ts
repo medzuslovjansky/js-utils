@@ -97,6 +97,7 @@ function toScript(word: string, script: Script, flavour: Flavour): string {
 
 const INPUTS = ['auto', 'isv-x-etymolog', 'isv-x-nms'];
 const FINAL_YERS = ['auto', 'drop', 'keep'];
+const YERS = ['auto', 'havlik'];
 
 function checkOptions(options: NormalizeOptions): void {
   // The third argument used to be the boolean `preprocessed`. A JavaScript
@@ -107,12 +108,15 @@ function checkOptions(options: NormalizeOptions): void {
     );
   }
 
-  const { input = 'auto', finalYer = 'auto' } = options;
+  const { input = 'auto', finalYer = 'auto', yers = 'auto' } = options;
   if (!INPUTS.includes(input)) {
     throw new TypeError(`Unsupported input: ${input}`);
   }
   if (!FINAL_YERS.includes(finalYer)) {
     throw new TypeError(`Unsupported finalYer: ${finalYer}`);
+  }
+  if (!YERS.includes(yers)) {
+    throw new TypeError(`Unsupported yers: ${yers}`);
   }
 }
 

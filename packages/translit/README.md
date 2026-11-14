@@ -38,6 +38,17 @@ transliterate('въ каналъ', 'isv-Latn-x-etymolog', { finalYer: 'drop' });
 transliterate('въ каналъ', 'isv-Latn-x-etymolog', { finalYer: 'keep' }); // vȯ kanalȯ
 ```
 
+A Cyrillic or Latin word written with yers can be read by Havlík's law instead
+(counting yers from the end: the last is weak, the one before it strong, and so
+on). A strong yer is vocalized, a weak ъ is gone, a weak ь softens. Glagolitic
+is read by the neighbours either way:
+
+```ts
+transliterate('кръвь', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // krȯv
+transliterate('dьržati', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // dŕžati
+transliterate('konь', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // konj
+```
+
 Glagolitic writes numbers from 1 to 999 in letters under a titlo. This is off unless asked for:
 
 ```ts
