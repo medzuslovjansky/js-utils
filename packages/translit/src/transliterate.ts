@@ -1,6 +1,10 @@
 import type { FlavorisationBCP47Code } from './constants/index.ts';
 import { flavorize, type Flavour } from './flavorize.ts';
 import {
+  fromGlagoliticNumerals,
+  toGlagoliticNumerals,
+} from './glagolitic-numerals.ts';
+import {
   glagToLatnMarks,
   hasGlagolitic,
   latnToGlagMarks,
@@ -129,10 +133,20 @@ export function transliterate(
 
   const { script, flavour } = target;
 
-  const source = text.normalize('NFC');
-  const marked = hasGlagolitic(source) ? glagToLatnMarks(source) : source;
+  // Numbers are read and written around the words, not among them: a number
+  // read here is digits from now on, which no later phase touches.
+  const numerals = options.alphabeticalNumerals === true;
+  const readsGlagolitic = options.input !== 'isv-x-etymolog';
+  const normalized = text.normalize('NFC');
+  const withNumbers =
+    numerals && readsGlagolitic
+      ? fromGlagoliticNumerals(normalized)
+      : normalized;
+  const source = hasGlagolitic(withNumbers)
+    ? glagToLatnMarks(withNumbers)
+    : withNumbers;
 
-  const result = marked.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
+  const result = source.replace(/[\p{Letter}\p{Mark}]+/gu, (word) => {
     // `%` marks both ends of the word; rules anchor on it, and the original
     // spelling is kept alongside so the case can be put back at the end
     const original = `%${word}%`;
@@ -146,5 +160,7 @@ export function transliterate(
     );
   });
 
-  return script.kind === 'glagolitic' ? latnToGlagMarks(result) : result;
+  if (script.kind !== 'glagolitic') return result;
+
+  return latnToGlagMarks(numerals ? toGlagoliticNumerals(result) : result);
 }
