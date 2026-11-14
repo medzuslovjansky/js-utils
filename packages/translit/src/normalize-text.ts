@@ -3,13 +3,13 @@ import { transliterate } from './transliterate.ts';
 
 export type { NormalizeOptions } from './normalize-input.ts';
 
-/** The two Latin alphabets a text can be normalized to. */
-export type NormalizeTarget = 'etymolog' | 'standard';
-
-const TARGETS = {
-  etymolog: 'isv-Latn-x-etymolog',
-  standard: 'isv-Latn',
-} as const;
+export interface NormalizeTextOptions extends NormalizeOptions {
+  /**
+   * The Latin alphabet to write: the etymological one or the standard one.
+   * @default 'isv-Latn-x-etymolog'
+   */
+  output?: 'isv-Latn' | 'isv-Latn-x-etymolog';
+}
 
 /**
  * Reads a text in any supported spelling — ASCII fallbacks, Cyrillic,
@@ -23,11 +23,11 @@ const TARGETS = {
  */
 export function normalize(
   text: string,
-  target: NormalizeTarget,
-  options?: NormalizeOptions,
+  { output = 'isv-Latn-x-etymolog', ...options }: NormalizeTextOptions = {},
 ): string {
-  const lang = TARGETS[target];
-  if (!lang) throw new TypeError(`Unsupported normalization target: ${target}`);
+  if (output !== 'isv-Latn' && output !== 'isv-Latn-x-etymolog') {
+    throw new TypeError(`Unsupported normalization output: ${output}`);
+  }
 
-  return transliterate(text, lang, options);
+  return transliterate(text, output, options);
 }

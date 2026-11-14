@@ -180,7 +180,13 @@ describe('alphabeticalNumerals', () => {
   });
 
   test('normalize reads Glagolitic numbers', () => {
-    assert.strictEqual(normalize('ⰸⰺ҃ ⰽⱀⰻⰳ', 'standard', on), '19 knig');
-    assert.strictEqual(normalize('ⰸⰺ҃ ⰽⱀⰻⰳ', 'standard'), 'zj knig');
+    assert.strictEqual(
+      normalize('ⰸⰺ҃ ⰽⱀⰻⰳ', { ...on, output: 'isv-Latn' }),
+      '19 knig',
+    );
+    assert.strictEqual(
+      normalize('ⰸⰺ҃ ⰽⱀⰻⰳ', { output: 'isv-Latn' }),
+      'zj knig',
+    );
   });
 });

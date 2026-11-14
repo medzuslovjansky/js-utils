@@ -172,6 +172,14 @@ const SOFT_CONSONANTS: Record<string, string> = {
   зь: 'ź',
   'з#': 'ź',
   'ь%': '%',
+  // a Latin word ending in a Cyrillic soft sign (konь) softens just the same
+  'nь%': 'ń%',
+  'lь%': 'ľ%',
+  'rь%': 'ŕ%',
+  'tь%': 'ť%',
+  'dь%': 'ď%',
+  'sь%': 'ś%',
+  'zь%': 'ź%',
 };
 const pass2 = createReplacer(SOFT_CONSONANTS);
 
@@ -309,7 +317,15 @@ const ACCENTED_LATIN: Record<string, string> = {
   î: 'i',
   ī: 'i',
   ĭ: 'i',
-  // NMS's tense yer next to j (znanıje): silent, not an i
+  // NMS's tense yer next to j (znanıje) softens the consonant before it, as a
+  // soft sign does (znańje); after any other consonant it is silent (bıj)
+  nı: 'ń',
+  lı: 'ľ',
+  rı: 'ŕ',
+  tı: 'ť',
+  dı: 'ď',
+  sı: 'ś',
+  zı: 'ź',
   ı: '',
   ú: 'u',
   û: 'u',
@@ -359,14 +375,11 @@ const pass6 = createReplacer(TRAILING_SOFT_Y);
 // sⱏmⱏⰹslⱏ is `sȯmysl`. A word with no vowel before it keeps it, because
 // vⱏ, sⱏ, kⱏ are the words `vȯ`, `sȯ`, `kȯ`.
 //
-// A vowel is a letter the tables below read as one. A yer inside the word is
-// not: whether it is strong is not decided here, so sⱏnⱏ stays `sȯnȯ`.
-// ponytail: the Glagolitic list is the one this rule was first written with
-// and lacks ⱖ (jo) and ⱐⰹ (y); add them once the Glagolitic maintainer says
-// whether mⱖdⱏ and bⱐⰹkⱏ should lose the yer too.
-const GLAGOLITIC_VOWELS = 'ⰰⰵⰻⱁⱆⱉⱑⱓⱔⱕⱗⱘⱙⱛⱝ';
-const CYRILLIC_VOWELS = 'аеєѣиіїоѡуѹȣыꙑэюяёѥѧѩѫѭѵѷꙗӑ';
-const LATIN_VOWELS = 'aeiouyåěęėȯųêáéìíóœýàâāîīĭúûůūąǫũēĕëèôŏöò';
+// A vowel here is a letter the tables below read as one, or a yer or soft sign
+// (which are the vowel of sⱏnⱏ `sȯn`, pⱐsⱏ `pės`, ⱅⱏⱃⰳⱏ `trg`).
+const GLAGOLITIC_VOWELS = 'ⰰⰵⰻⱁⱆⱉⱑⱓⱔⱕⱖⱗⱘⱙⱛⱝⱏⱐ';
+const CYRILLIC_VOWELS = 'аеєѣиіїоѡуѹȣыꙑэюяёѥѧѩѫѭѵѷꙗӑъь';
+const LATIN_VOWELS = 'aeiouyåěęėȯųêáéìíóœýàâāîīĭúûůūąǫũēĕëèôŏöòъь';
 const FINAL_YER = {
   auto: new RegExp(
     `(?<=(?:[${GLAGOLITIC_VOWELS}${CYRILLIC_VOWELS}${LATIN_VOWELS}]|ⱏⰹ)[^%]*)[ⱏъ](?=%)`,
@@ -375,15 +388,32 @@ const FINAL_YER = {
   drop: /(?<=[^%])[ⱏъ](?=%)/,
 };
 
+// A hard yer before j or an iotated vowel is only a separator when a vowel
+// precedes it, and it is a `j` (which keeps подъѥздъ from becoming `pod́ezd`):
+// объявити is `objaviti`, подъѥздъ is `podjezd`. Not before `jd`
+// (izъjdti is `izȯjdti`, as in the dictionary), and not in a word with no
+// vowel before it (tъj is `tȯj`).
+const SEPARATOR_YER = new RegExp(
+  `(?<=[${CYRILLIC_VOWELS}${LATIN_VOWELS}][^%]*)ъ(?=[яюѥꙗё]|j(?!d))`,
+  'g',
+);
+
 const looseReplacer = (word: string): string =>
   pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
 
 // Naučny Medžuslovjanski spells two things with letters that mean something
 // else here: its `ė` is the e of *er/*el (`ě` here, where `ė` is a strong
-// front yer), and its `ĺ` is a syllabic l (`ȯl` here, where `ĺ` is a soft l).
+// front yer), and its `ĺ` between consonants is a syllabic l (`ȯl` here, where `ĺ` is a soft l).
 // Only the Latin letters themselves: `ĺ` read from Cyrillic `ль` or from a
 // Glagolitic ⰾⱐ is made later and is the soft l it always was.
-const nmsLetters = createReplacer({ ė: 'ě', ĺ: 'ȯl' });
+const NMS_CONSONANT = 'bcčćdđfghjklľmnńprŕsšśtťvzžź';
+const nmsLetters = (word: string): string =>
+  word
+    .replace(/ė/g, 'ě')
+    .replace(
+      new RegExp(`(?<=[${NMS_CONSONANT}])ĺ(?=[${NMS_CONSONANT}])`, 'g'),
+      'ȯl',
+    );
 
 // nmsifyStrict is applied to input that is already close to canonical
 // (see v1's `preprocessed` flag): just the prefix-boundary cluster rule,
@@ -466,8 +496,8 @@ export function normalizeInput(
 
   const { finalYer = 'auto' } = options;
   const read = options.input === 'isv-x-nms' ? nmsLetters(word) : word;
+  const dropped =
+    finalYer === 'keep' ? read : read.replace(FINAL_YER[finalYer], '');
 
-  return looseReplacer(
-    finalYer === 'keep' ? read : read.replace(FINAL_YER[finalYer], ''),
-  );
+  return looseReplacer(dropped.replace(SEPARATOR_YER, 'j'));
 }

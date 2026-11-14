@@ -37,26 +37,42 @@ const groups: Record<string, Case[]> = {
     ['къ', 'kȯ / ko', 'k / k', 'kȯ / ko'],
     ['Въ', 'Vȯ / Vo', 'V / V', 'Vȯ / Vo'],
   ],
-  // a yer inside the word is not a vowel for this rule and is never dropped:
-  // which of the two yers of sⱏnⱏ is strong is not decided here
-  'only yers before it': [
-    ['ⱄⱏⱀⱏ', 'sȯnȯ / sono', 'sȯn / son', 'sȯnȯ / sono'],
-    ['сънъ', 'sȯnȯ / sono', 'sȯn / son', 'sȯnȯ / sono'],
-    ['sъnъ', 'sȯnȯ / sono', 'sȯn / son', 'sȯnȯ / sono'],
+  // a yer or soft sign before it is a vowel too, and so are jo and y
+  'a yer or soft sign before it': [
+    ['ⱄⱏⱀⱏ', 'sȯn / son', 'sȯn / son', 'sȯnȯ / sono'],
+    ['сънъ', 'sȯn / son', 'sȯn / son', 'sȯnȯ / sono'],
+    ['sъnъ', 'sȯn / son', 'sȯn / son', 'sȯnȯ / sono'],
+    ['ⱂⱐⱄⱏ', 'pės / pes', 'pės / pes', 'pėsȯ / peso'],
+    ['ⰾⱐⰲⱏ', 'lėv / lev', 'lėv / lev', 'ĺvȯ / lvo'],
+    ['ⱅⱏⱃⰳⱏ', 'trg / trg', 'trg / trg', 'trgȯ / trgo'],
+    ['ⰱⱐⰹⰽⱏ', 'byk / byk', 'byk / byk', 'bykȯ / byko'],
+    ['ⰿⱖⰴⱏ', 'mjod / mjod', 'mjod / mjod', 'mjodȯ / mjodo'],
   ],
   // the whole word is never dropped
   'a lone yer': [
     ['ⱏ', 'ȯ / o', 'ȯ / o', 'ȯ / o'],
     ['ъ', 'ȯ / o', 'ȯ / o', 'ȯ / o'],
   ],
-  // not this rule's business, whatever the option
-  'left alone': [
+  // a yer before j or an iotated vowel only separates, after a vowel; not
+  // before jd (izȯjdti) and not in a word with no vowel (tȯj)
+  'a separating yer': [
     [
       'объявити',
-      'obȯjaviti / obojaviti',
-      'obȯjaviti / obojaviti',
-      'obȯjaviti / obojaviti',
+      'objaviti / objaviti',
+      'objaviti / objaviti',
+      'objaviti / objaviti',
     ],
+    [
+      'подъѥздъ',
+      'podjezd / podjezd',
+      'podjezd / podjezd',
+      'podjezdȯ / podjezdo',
+    ],
+    ['изъйти', 'izȯjti / izojti', 'izȯjti / izojti', 'izȯjti / izojti'],
+    ['тъй', 'tȯj / toj', 'tȯj / toj', 'tȯj / toj'],
+  ],
+  // not this rule's business, whatever the option
+  'left alone': [
     ['ⰴⱁⰱⱃⱏⰹ', 'dobry / dobry', 'dobry / dobry', 'dobry / dobry'],
     ['vȯ', 'vȯ / vo', 'vȯ / vo', 'vȯ / vo'],
     ['kako', 'kako / kako', 'kako / kako', 'kako / kako'],
