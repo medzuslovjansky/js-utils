@@ -83,7 +83,52 @@ const GLAGOLITIC_LETTERS: Record<string, string> = {
   ⱝ: 'ja',
   ⱞ: 'm',
 };
-const pass0 = createReplacer(GLAGOLITIC_LETTERS);
+
+// Pass 0 also reads the two yers, which a flat table cannot: what ⱐ and ⱏ
+// stand for depends on their neighbours, so they are resolved here, on the
+// Glagolitic letters, before the table runs. Latin and Cyrillic never match.
+const CONSONANT = /[ⰱⰲⰳⰴⰶⰷⰸⰼⰽⰾⰿⱀⱂⱃⱄⱅⱇⱈⱊⱋⱌⱍⱎⱒⱚⱞ]/;
+const SOFTENED: Record<string, string> = {
+  ⰴ: 'ď',
+  ⰾ: 'ľ',
+  ⱀ: 'ń',
+  ⱃ: 'ŕ',
+  ⱄ: 'ś',
+  ⱅ: 'ť',
+  ⰸ: 'ź',
+};
+
+// A yer between consonants before ⱃ marks a syllabic r: ⰱⱏⱃⰸ is `brz`,
+// ⱌⱐⱃⰽⱏⰲ is `cŕkȯv`. The orthography writes no vowel there.
+const SYLLABIC_R = new RegExp(
+  `(?<=${CONSONANT.source})([ⱏⱐ])ⱃ(?=${CONSONANT.source})`,
+  'g',
+);
+
+// ⱐ (not ⱐⰹ, which is `y`) after a consonant:
+// - before a single word-final consonant it is `ė` (absolutėn, pės, dėnj);
+// - after d l n r s t z it softens it (paĺto, ťma, gospodaŕ, råsteńje),
+//   except that ľ and ń before a vowel or at the end stay `lj`, `nj`;
+// - after any other consonant, or j, and before a consonant, it is `ė`.
+// Anything else is left to the tables (ⱍⱐ is `ć`, ⱐ before a vowel is `j`).
+const YERI = /(.?)ⱐ(?!ⰹ)(?=(.?)(ⱐ?%)?)/g;
+const LJ_NJ = /^[ⰰⰵⰻⱁⱆⱉⱑⱔⱕⱘⱛ%]?$/;
+
+function readYeri(m: string, prev: string, next: string, end?: string) {
+  if (end && CONSONANT.test(next)) return `${prev}ė`;
+  const soft = SOFTENED[prev];
+  if (soft) return /[ⰾⱀ]/.test(prev) && LJ_NJ.test(next) ? `${prev}ⰹ` : soft;
+  const hard = /[ⰹⰺ]/.test(prev) || (prev !== 'ⱍ' && CONSONANT.test(prev));
+  return hard && CONSONANT.test(next) ? `${prev}ė` : m;
+}
+
+const glagoliticLetters = createReplacer(GLAGOLITIC_LETTERS);
+const pass0 = (word: string): string =>
+  glagoliticLetters(
+    word
+      .replace(SYLLABIC_R, (_, yer: string) => (yer === 'ⱐ' ? 'ŕ' : 'r'))
+      .replace(YERI, readYeri),
+  );
 
 // Pass 1 — iotated/nasalized Cyrillic vowels, softened with a `#` marker so
 // the palatalization survives until pass 2 can decide what to do with it.
