@@ -541,7 +541,7 @@ describe('derive script invariance (Cyrillic, Glagolitic, ASCII)', () => {
 
   test('Glagolitic verb derives identically to Latin', () => {
     const latinTokens = derive('dělati');
-    const glagoliticTokens = derive('ⰴⱑⰾⰰⱅⰹ');
+    const glagoliticTokens = derive('ⰴⱑⰾⰰⱅⰻ');
 
     assert.ok(glagoliticTokens.length > 0);
     assert.strictEqual(glagoliticTokens.length, latinTokens.length);
@@ -594,7 +594,7 @@ describe('derive script invariance (Cyrillic, Glagolitic, ASCII)', () => {
 
   test('canDerive works across scripts', () => {
     assert.strictEqual(canDerive('дѣлати'), true);
-    assert.strictEqual(canDerive('ⰴⱑⰾⰰⱅⰹ'), true);
+    assert.strictEqual(canDerive('ⰴⱑⰾⰰⱅⰻ'), true);
     assert.strictEqual(canDerive('добры'), true);
     assert.strictEqual(canDerive({ form: 'добро', xpos: 'adv.' }), true);
     assert.strictEqual(canDerive('дом'), false);
