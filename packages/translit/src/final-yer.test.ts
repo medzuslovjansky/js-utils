@@ -77,7 +77,7 @@ const groups: Record<string, Case[]> = {
     ['vȯ', 'vȯ / vo', 'vȯ / vo', 'vȯ / vo'],
     ['kako', 'kako / kako', 'kako / kako', 'kako / kako'],
     ['ⰽⱁⱀⱐ', 'konj / konj', 'konj / konj', 'konj / konj'],
-    ['конь', 'koń / kon', 'koń / kon', 'koń / kon'],
+    ['конь', 'konj / konj', 'konj / konj', 'konj / konj'],
   ],
 };
 

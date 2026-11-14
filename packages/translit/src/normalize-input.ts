@@ -172,9 +172,12 @@ const SOFT_CONSONANTS: Record<string, string> = {
   зь: 'ź',
   'з#': 'ź',
   'ь%': '%',
-  // a Latin word ending in a Cyrillic soft sign (konь) softens just the same
-  'nь%': 'ń%',
-  'lь%': 'ľ%',
+  // at the end of a word n and l are `nj`, `lj` (konь, кралъ), as in Glagolitic
+  'нь%': 'nj%',
+  'ль%': 'lj%',
+  // a Latin word ending in a Cyrillic soft sign (konь) is read the same way
+  'nь%': 'nj%',
+  'lь%': 'lj%',
   'rь%': 'ŕ%',
   'tь%': 'ť%',
   'dь%': 'ď%',
