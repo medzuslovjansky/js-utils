@@ -26,6 +26,8 @@ transliterate('czas', 'isv-Latn'); // čas
 transliterate('czas', 'isv-Latn', { input: 'isv-x-etymolog' }); // czas
 ```
 
+A boolean third argument still works as before (`true` is `{ input: 'isv-x-etymolog' }`).
+
 Two more things can be said about the input:
 
 ```ts

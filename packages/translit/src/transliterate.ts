@@ -98,15 +98,18 @@ function toScript(word: string, script: Script, flavour: Flavour): string {
 const INPUTS = ['auto', 'isv-x-etymolog', 'isv-x-nms'];
 const FINAL_YERS = ['auto', 'drop', 'keep'];
 
-function checkOptions(options: NormalizeOptions): void {
-  // The third argument used to be the boolean `preprocessed`. A JavaScript
-  // caller still passing `true` would otherwise silently get the default.
-  if (typeof options !== 'object' || options === null) {
-    throw new TypeError(
-      'Options must be an object: { input: "isv-x-etymolog" } is what `true` was',
-    );
+// The third argument used to be the boolean `preprocessed`; it still works.
+function toOptions(
+  options: NormalizeOptions | boolean | null,
+): NormalizeOptions {
+  if (typeof options === 'boolean') {
+    return options ? { input: 'isv-x-etymolog' } : {};
   }
 
+  return options ?? {};
+}
+
+function checkOptions(options: NormalizeOptions): void {
   const { input = 'auto', finalYer = 'auto' } = options;
   if (!INPUTS.includes(input)) {
     throw new TypeError(`Unsupported input: ${input}`);
@@ -117,13 +120,15 @@ function checkOptions(options: NormalizeOptions): void {
 }
 
 /**
- * @param options how to read the input, see {@link NormalizeOptions}
+ * @param options how to read the input, see {@link NormalizeOptions}. A
+ * boolean is the old `preprocessed` flag: `true` is `{ input: 'isv-x-etymolog' }`.
  */
 export function transliterate(
   text: string,
   lang: FlavorisationBCP47Code,
-  options: NormalizeOptions = {},
+  rawOptions: NormalizeOptions | boolean | null = {},
 ): string {
+  const options = toOptions(rawOptions);
   checkOptions(options);
 
   if (lang === 'isv') return text;

@@ -96,13 +96,10 @@ describe('transliterate to', () => {
     assert.strictEqual(transliterate('вода', 'isv-Latn', etymolog), 'вода');
   });
 
-  test('the old boolean third argument is refused, not ignored', () => {
-    for (const legacy of [true, false, null]) {
-      assert.throws(
-        () => transliterate('czas', 'isv-Latn', legacy as any),
-        TypeError,
-      );
-    }
+  test('the old boolean third argument still works', () => {
+    assert.strictEqual(transliterate('czas', 'isv-Latn', true), 'czas');
+    assert.strictEqual(transliterate('czas', 'isv-Latn', false), 'čas');
+    assert.strictEqual(transliterate('czas', 'isv-Latn', null), 'čas');
   });
 
   test('unknown input', () => {
