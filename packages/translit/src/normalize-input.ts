@@ -123,15 +123,10 @@ function readYeri(m: string, prev: string, next: string, end?: string) {
   return hard && CONSONANT.test(next) ? `${prev}ė` : m;
 }
 
-// A word-final ⱏ is silent after a vowel (kanalⱏ is `kanal`, sⱏmⱏⰹslⱏ is
-// `smysl`); a one-syllable word keeps it (vⱏ, sⱏ, kⱏ are `vȯ`, `sȯ`, `kȯ`).
-const FINAL_YER = /(?<=(?:[ⰰⰵⰻⱁⱆⱉⱑⱓⱔⱕⱗⱘⱙⱛⱝ]|ⱏⰹ)[^%]*)ⱏ(?=%)/g;
-
 const glagoliticLetters = createReplacer(GLAGOLITIC_LETTERS);
 const pass0 = (word: string): string =>
   glagoliticLetters(
     word
-      .replace(FINAL_YER, '')
       .replace(SYLLABIC_R, (_, yer: string) => (yer === 'ⱐ' ? 'ŕ' : 'r'))
       .replace(YERI, readYeri),
   );
@@ -234,7 +229,7 @@ const CYRILLIC_LETTERS: Record<string, string> = {
   щ: 'šč',
   ы: 'y',
   ꙑ: 'y',
-  ъ: 'ȯ', // Fixed by Denis Šabalin
+  ъ: 'ȯ', // Fixed by Denis Šabalin; a word-final one, see FINAL_YER
   ў: 'ŭ',
   ѧ: 'ę',
   ѫ: 'ų',
@@ -359,6 +354,27 @@ const TRAILING_SOFT_Y: Record<string, string> = {
 };
 const pass6 = createReplacer(TRAILING_SOFT_Y);
 
+// A word-final hard yer — Glagolitic ⱏ or Cyrillic ъ, the latter also at the
+// end of a Latin word (dųbъ) — is silent after a vowel: kanalⱏ is `kanal`,
+// sⱏmⱏⰹslⱏ is `sȯmysl`. A word with no vowel before it keeps it, because
+// vⱏ, sⱏ, kⱏ are the words `vȯ`, `sȯ`, `kȯ`.
+//
+// A vowel is a letter the tables below read as one. A yer inside the word is
+// not: whether it is strong is not decided here, so sⱏnⱏ stays `sȯnȯ`.
+// ponytail: the Glagolitic list is the one this rule was first written with
+// and lacks ⱖ (jo) and ⱐⰹ (y); add them once the Glagolitic maintainer says
+// whether mⱖdⱏ and bⱐⰹkⱏ should lose the yer too.
+const GLAGOLITIC_VOWELS = 'ⰰⰵⰻⱁⱆⱉⱑⱓⱔⱕⱗⱘⱙⱛⱝ';
+const CYRILLIC_VOWELS = 'аеєѣиіїоѡуѹȣыꙑэюяёѥѧѩѫѭѵѷꙗӑ';
+const LATIN_VOWELS = 'aeiouyåěęėȯųêáéìíóœýàâāîīĭúûůūąǫũēĕëèôŏöò';
+const FINAL_YER = {
+  auto: new RegExp(
+    `(?<=(?:[${GLAGOLITIC_VOWELS}${CYRILLIC_VOWELS}${LATIN_VOWELS}]|ⱏⰹ)[^%]*)[ⱏъ](?=%)`,
+  ),
+  // everywhere, but never the whole word: a lone yer is not an empty string
+  drop: /(?<=[^%])[ⱏъ](?=%)/,
+};
+
 const looseReplacer = (word: string): string =>
   pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
 
@@ -400,6 +416,21 @@ export interface NormalizeOptions {
    * @default 'auto'
    */
   input?: 'auto' | 'isv-x-etymolog' | 'isv-x-nms';
+
+  /**
+   * What a word-final hard yer is: Glagolitic `ⱏ`, Cyrillic `ъ`, or `ъ` at the
+   * end of a Latin word (`dųbъ`). Yers inside a word are not touched, and
+   * neither is a Latin `ȯ`. Has no effect with `input: 'isv-x-etymolog'`,
+   * which reads no yers at all.
+   *
+   * - `'auto'`: silent after a vowel (`ⰽⰰⱀⰰⰾⱏ` is `kanal`), `ȯ` in a word that
+   *   has no vowel before it (`ⰲⱏ` is `vȯ`).
+   * - `'drop'`: always silent (`ⰲⱏ` is `v`), unless it is the whole word.
+   * - `'keep'`: always `ȯ` (`ⰽⰰⱀⰰⰾⱏ` is `kanalȯ`).
+   *
+   * @default 'auto'
+   */
+  finalYer?: 'auto' | 'drop' | 'keep';
 }
 
 /**
@@ -418,5 +449,10 @@ export function normalizeInput(
 ): string {
   if (options.input === 'isv-x-etymolog') return strictReplacer(word);
 
-  return looseReplacer(options.input === 'isv-x-nms' ? nmsLetters(word) : word);
+  const { finalYer = 'auto' } = options;
+  const read = options.input === 'isv-x-nms' ? nmsLetters(word) : word;
+
+  return looseReplacer(
+    finalYer === 'keep' ? read : read.replace(FINAL_YER[finalYer], ''),
+  );
 }

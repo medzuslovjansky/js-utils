@@ -23,9 +23,9 @@ exports[`modes golden forgiving isv-Cyrl 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дуб во со ко соно песо дењ мјодо быко трго о  зј а работа Гора ГОРА коњ конига шчит єзда језык јуже југ јаблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубо во со ко соно обојавити кон ден пјат о  моја љубов кнез рука језык њива джак шчит Дубо ДУБО подојезд мєсто језык твоју јаблоко људи чуд дзвєзда джем ганок ето єст зима миро и отц тома ухо уста рыба ков псалом ксенија град з р семја
+  → дуб во со ко соно обојавити кон ден пјат о  моја љубов кнез рука језык њива джак шчит Дуб ДУБ подојезд мєсто језык твоју јаблоко људи чуд дзвєзда джем ганок ето єст зима миро и отц тома ухо уста рыба ков псалом ксенија град з р семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дубо дубо авотоматичјну во кон дјн соно
+  → дуб дуб авотоматичјну во кон дјн соно
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → верх дењ влк велми плны  знање бј молити плел једин квнез отец сон ден волк трг море кон втора око добры нитј трава лес мир град
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -42,9 +42,9 @@ exports[`modes golden forgiving isv-Cyrl-x-etymolog 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дѫб въ съ къ сънъ песъ дењ мјодъ быкъ тргъ ъ  зј а работа Гора ГОРА коњ кънига шћит ѣзда јѧзык јѫже југ јаблъко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубъ въ съ къ сънъ объјавити конь день пјать ъ  моја љубов кнѧзь рѫка језык њива ђак шчит Дубъ ДУБЪ подъјезд мѣсто јѧзык твојѫ јаблоко људьи ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грӑд зь рь семја
+  → дуб въ съ къ сънъ объјавити конь день пјать ъ  моја љубов кнѧзь рѫка језык њива ђак шчит Дуб ДУБ подъјезд мѣсто јѧзык твојѫ јаблоко људьи ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грӑд зь рь семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дѫбъ дѫбъ авътоматичјнѫ въ кон дјн сънъ
+  → дѫб дѫб авътоматичјнѫ въ кон дјн сънъ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → верх дењ вльк вельми пльны  знање бј молити плел једин квнѧз отец сън ден вълк трг морье конь втора око добры нитј трава лес мир грӑд
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -61,9 +61,9 @@ exports[`modes golden forgiving isv-Cyrl-x-iotated 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дуб во со ко соно песо день мйодо быко трго о  з’й а работа Гора ГОРА конь конига шчит езда езык юже юг яблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубо во со ко соно обоявити кон ден пят о  моя любов кнез рука езык ньива джак шчит Дубо ДУБО подоезд место езык твою яблоко люди чуд дзвезда джем ганок это ест зима миро и отц тома ухо уста рыба ков псалом ксения град з р семя
+  → дуб во со ко соно обоявити кон ден пят о  моя любов кнез рука езык ньива джак шчит Дуб ДУБ подоезд место езык твою яблоко люди чуд дзвезда джем ганок это ест зима миро и отц тома ухо уста рыба ков псалом ксения град з р семя
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дубо дубо авотоматичйну во кон д’йн соно
+  → дуб дуб авотоматичйну во кон д’йн соно
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → верх день влк велми плны  знанье бй молити плел един квнез отец сон ден волк трг море кон втора око добры нитй трава лес мир град
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -80,9 +80,9 @@ exports[`modes golden forgiving isv-Cyrl-x-iotated-ext 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дѫб въ съ къ сънъ пьсъ дьнь мйодъ быкъ търгъ ъ  з’й а работа Гора ГОРА конь кънига щит ѣзда ѩзык ѭже юг яблъко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубъ въ съ къ сънъ объявити конь день пять ъ  моя любов кнѧзь рѫка ѥзык нӥва ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ яблоко людӥ ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба коў псалом ксения грӑд зь рь семя
+  → дуб въ съ къ сънъ объявити конь день пять ъ  моя любов кнѧзь рѫка ѥзык нӥва ђак щит Дуб ДУБ подъѥзд мѣсто ѩзык твоѭ яблоко людӥ ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба коў псалом ксения грӑд зь рь семя
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дѫбъ дѫбъ авътоматичйнѫ въ кон д’йн сънъ
+  → дѫб дѫб авътоматичйнѫ въ кон д’йн сънъ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → вьрх дьнь вльк вельми пльны  знанѥ бй модлити плетл ѥдин кўнѧз отьц сън дьн вълк търг морѥ конь ўтора око добры нитй трава лес мир грӑд
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -99,9 +99,9 @@ exports[`modes golden forgiving isv-Cyrl-x-northern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дуб во со ко соно песо дењ мјодо быко торго о  зј а работа Гора ГОРА коњ конига шчит єзда јазык јуже југ јаблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубо во со ко соно обојавити конь день пјать о  моја љубов књазь рука језык њива джак шчит Дубо ДУБО подојезд мєсто јазык твоју јаблоко људьи чуд дзвєзда джем ганок ето єсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грод зь рь семја
+  → дуб во со ко соно обојавити конь день пјать о  моја љубов књазь рука језык њива джак шчит Дуб ДУБ подојезд мєсто јазык твоју јаблоко људьи чуд дзвєзда джем ганок ето єсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грод зь рь семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дубо дубо авотоматичјну во кон дјн соно
+  → дуб дуб авотоматичјну во кон дјн соно
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → верх дењ вльк вельми пльны  знање бј модлити плетл једин квњаз отец сон ден волк торг морье конь втора око добры нитј трава лес мир грод
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -118,9 +118,9 @@ exports[`modes golden forgiving isv-Cyrl-x-sloviant 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дуб во со ко соно песо дењ мјодо бико трго о  зј а работа Гора ГОРА коњ конига шчит езда језик јуже југ јаблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубо во со ко соно обојавити кон ден пјат о  моја љубов кнез рука језик њива джак шчит Дубо ДУБО подојезд место језик твоју јаблоко људи чуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
+  → дуб во со ко соно обојавити кон ден пјат о  моја љубов кнез рука језик њива джак шчит Дуб ДУБ подојезд место језик твоју јаблоко људи чуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дубо дубо авотоматичјну во кон дјн соно
+  → дуб дуб авотоматичјну во кон дјн соно
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → верх дењ влк велми плни  знање бј молити плел једин квнез отец сон ден волк трг море кон втора око добри нитј трава лес мир град
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -137,9 +137,9 @@ exports[`modes golden forgiving isv-Cyrl-x-southern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → гора стол дуб въ съ къ сънъ песъ дењ мјодъ бикъ тргъ ъ  зј а работа Гора ГОРА коњ кънига шћит езда језик јуже југ јаблъко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → дубъ въ съ къ сънъ объјавити кон ден пјат ъ  моја љубов кнез рука језик њива ђак штит Дубъ ДУБЪ подъјезд место језик твоју јаблоко људи ћуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
+  → дуб въ съ къ сънъ объјавити кон ден пјат ъ  моја љубов кнез рука језик њива ђак штит Дуб ДУБ подъјезд место језик твоју јаблоко људи ћуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → дубъ дубъ авътоматичјну въ кон дјн сънъ
+  → дуб дуб авътоматичјну въ кон дјн сънъ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → верх дењ влк велми плни  знање бј молити плел једин квнез отец сън ден вълк трг море кон втора око добри нитј трава лес мир град
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -156,9 +156,9 @@ exports[`modes golden forgiving isv-Glag 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱂⰵⱄⱁ ⰴⰵⱀⱐ ⰿⰺⱁⰴⱁ ⰱⱏⰹⰽⱁ ⱅⱏⱃⰳⱁ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → ⰴⱆⰱⱁ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱁⰱⱁⰹⰰⰲⰻⱅⰻ ⰽⱁⱀ ⰴⰵⱀ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱⱁ ⰄⰖⰁⰑ ⱂⱁⰴⱁⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
+  → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱁⰱⱁⰹⰰⰲⰻⱅⰻ ⰽⱁⱀ ⰴⰵⱀ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⱁⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → ⰴⱆⰱⱁ ⰴⱆⰱⱁ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀ ⰴⰹⱀ ⱄⱁⱀⱁ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀ ⰴⰹⱀ ⱄⱁⱀⱁ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵⰸ ⱁⱅⰵⱌ ⱄⱁⱀ ⰴⰵⱀ ⰲⱁⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁⱀ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -175,9 +175,9 @@ exports[`modes golden forgiving isv-Glag-x-etymolog 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱘⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⰺⱁⰴⱏ ⰱⱏⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽ ⱙⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → ⰴⱆⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱁⰱⱏⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱔⰸⱐ ⱃⱘⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱⱏ ⰄⰖⰁⰟ ⱂⱁⰴⱏⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⱗⰸⱏⰹⰽ ⱅⰲⱁⱙ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱉⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
+  → ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱁⰱⱏⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱔⰸⱐ ⱃⱘⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⱏⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⱗⰸⱏⰹⰽ ⱅⰲⱁⱙ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱉⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → ⰴⱘⰱⱏ ⰴⱘⰱⱏ ⰰⰲⱏⱅⱁⰿⰰⱅⰻⱍⰹⱀⱘ ⰲⱏ ⰽⱁⱀ ⰴⰹⱀ ⱄⱏⱀⱏ
+  → ⰴⱘⰱ ⰴⱘⰱ ⰰⰲⱏⱅⱁⰿⰰⱅⰻⱍⰹⱀⱘ ⰲⱏ ⰽⱁⱀ ⰴⰹⱀ ⱄⱏⱀⱏ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → ⰲⱐⱃⱈ ⰴⱐⱀⱐ ⰲⰾⱐⰽ ⰲⰵⰾⱐⰿⰻ ⱂⰾⱐⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⱔⰸ ⱁⱅⱐⱌ ⱄⱏⱀ ⰴⱐⱀ ⰲⱏⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⱐⰵ ⰽⱁⱀⱐ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⱉⰴ
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -194,9 +194,9 @@ exports[`modes golden forgiving isv-Glag-x-northern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱂⰵⱄⱁ ⰴⰵⱀⱐ ⰿⰺⱁⰴⱁ ⰱⱏⰹⰽⱁ ⱅⱁⱃⰳⱁ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰰⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → ⰴⱆⰱⱁ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱁⰱⱁⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱐⰰⰸⱐ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱⱁ ⰄⰖⰁⰑ ⱂⱁⰴⱁⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰰⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱁⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
+  → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱁⰱⱁⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱐⰰⰸⱐ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⱁⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰰⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱁⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → ⰴⱆⰱⱁ ⰴⱆⰱⱁ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀ ⰴⰹⱀ ⱄⱁⱀⱁ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀ ⰴⰹⱀ ⱄⱁⱀⱁ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⱐⰽ ⰲⰵⰾⱐⰿⰻ ⱂⰾⱐⱀⱏⰹ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰴⰾⰻⱅⰻ ⱂⰾⰵⱅⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⱐⰰⰸ ⱁⱅⰵⱌ ⱄⱁⱀ ⰴⰵⱀ ⰲⱁⰾⰽ ⱅⱁⱃⰳ ⰿⱁⱃⱐⰵ ⰽⱁⱀⱐ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⱏⰹ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⱁⰴ
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -213,9 +213,9 @@ exports[`modes golden forgiving isv-Glag-x-sloviant 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱂⰵⱄⱁ ⰴⰵⱀⱐ ⰿⰺⱁⰴⱁ ⰱⰻⰽⱁ ⱅⱏⱃⰳⱁ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⰵⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → ⰴⱆⰱⱁ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱁⰱⱁⰹⰰⰲⰻⱅⰻ ⰽⱁⱀ ⰴⰵⱀ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱⱁ ⰄⰖⰁⰑ ⱂⱁⰴⱁⰹⰵⰸⰴ ⰿⰵⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⰵⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⰵⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
+  → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀⱁ ⱁⰱⱁⰹⰰⰲⰻⱅⰻ ⰽⱁⱀ ⰴⰵⱀ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⱁⰹⰵⰸⰴ ⰿⰵⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⰵⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⰵⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → ⰴⱆⰱⱁ ⰴⱆⰱⱁ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀ ⰴⰹⱀ ⱄⱁⱀⱁ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱁⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱁ ⰽⱁⱀ ⰴⰹⱀ ⱄⱁⱀⱁ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⰻ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵⰸ ⱁⱅⰵⱌ ⱄⱁⱀ ⰴⰵⱀ ⰲⱁⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁⱀ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⰻ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -232,9 +232,9 @@ exports[`modes golden forgiving isv-Glag-x-southern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⰵⱄⱏ ⰴⰵⱀⱐ ⰿⰺⱁⰴⱏ ⰱⰻⰽⱏ ⱅⱏⱃⰳⱏ ⱏ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → ⰴⱆⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱁⰱⱏⰹⰰⰲⰻⱅⰻ ⰽⱁⱀ ⰴⰵⱀ ⱂⰺⰰⱅ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱅⰻⱅ Ⰴⱆⰱⱏ ⰄⰖⰁⰟ ⱂⱁⰴⱏⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
+  → ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱁⰱⱏⰹⰰⰲⰻⱅⰻ ⰽⱁⱀ ⰴⰵⱀ ⱂⰺⰰⱅ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱅⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⱏⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → ⰴⱆⰱⱏ ⰴⱆⰱⱏ ⰰⰲⱏⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱏ ⰽⱁⱀ ⰴⰹⱀ ⱄⱏⱀⱏ
+  → ⰴⱆⰱ ⰴⱆⰱ ⰰⰲⱏⱅⱁⰿⰰⱅⰻⱍⰹⱀⱆ ⰲⱏ ⰽⱁⱀ ⰴⰹⱀ ⱄⱏⱀⱏ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → ⰲⰵⱃⱈ ⰴⰵⱀⱐ ⰲⰾⰽ ⰲⰵⰾⰿⰻ ⱂⰾⱀⰻ  ⰸⱀⰰⱀⱐⰵ ⰱⰹ ⰿⱁⰾⰻⱅⰻ ⱂⰾⰵⰾ ⰹⰵⰴⰻⱀ ⰽⰲⱀⰵⰸ ⱁⱅⰵⱌ ⱄⱏⱀ ⰴⰵⱀ ⰲⱏⰾⰽ ⱅⱏⱃⰳ ⰿⱁⱃⰵ ⰽⱁⱀ ⰲⱅⱁⱃⰰ ⱁⰽⱁ ⰴⱁⰱⱃⰻ ⱀⰻⱅⰺ ⱅⱃⰰⰲⰰ ⰾⰵⱄ ⰿⰻⱃ ⰳⱃⰰⰴ
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -251,9 +251,9 @@ exports[`modes golden forgiving isv-Latn 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stol dub vo so ko sono peso denj mjodo byko trgo o  zj a rabota Gora GORA konj koniga ščit ězda jezyk juže jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubo vo so ko sono obojaviti kon den pjat o  moja ljubov knez ruka jezyk njiva džak ščit Dubo DUBO podojezd město jezyk tvoju jabloko ljudi čud dzvězda džem ganok eto ěst zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
+  → dub vo so ko sono obojaviti kon den pjat o  moja ljubov knez ruka jezyk njiva džak ščit Dub DUB podojezd město jezyk tvoju jabloko ljudi čud dzvězda džem ganok eto ěst zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dubo dubo avotomatičjnu vo kon djn sono
+  → dub dub avotomatičjnu vo kon djn sono
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → verh denj vlk velmi plny  znanje bj moliti plel jedin kvnez otec son den volk trg more kon vtora oko dobry nitj trava les mir grad
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -270,9 +270,9 @@ exports[`modes golden forgiving isv-Latn-PL 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stoł dąb wo so ko sono peso deń miodo byko torgo o  zj a rabota Gora GORA koń koniga szcit iezda język jąże jug jabłoko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubo wo so ko sono obojawiti koń deń piať o  moja lubow knęź rąka jezyk niwa dziak szczit Dubo DUBO podojezd miesto język twoją jabłoko ludi ciud dzwiezda dżem ganok eto iesť zima miro i oťc toma ucho usta ryba kow psałom ksenija grad ź ŕ semia
+  → dub wo so ko sono obojawiti koń deń piať o  moja lubow knęź rąka jezyk niwa dziak szczit Dub DUB podojezd miesto język twoją jabłoko ludi ciud dzwiezda dżem ganok eto iesť zima miro i oťc toma ucho usta ryba kow psałom ksenija grad ź ŕ semia
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dąbo dąbo awotomaticźną wo kon djn sono
+  → dąb dąb awotomaticźną wo kon djn sono
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → werch deń wlk welmi plny  znanie bj moliti płeł jedin kwnęz otec son den wołk torg morie koń wtora oko dobry niť trawa łes mir grad
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -289,9 +289,9 @@ exports[`modes golden forgiving isv-Latn-x-ascii 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stol dub vo so ko sono peso denj mjodo byko trgo o  zj a rabota Gora GORA konj koniga szczit jezda jezyk juzse jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubo vo so ko sono obojaviti kon den pjat o  moja ljubov knez ruka jezyk njiva dzsak szczit Dubo DUBO podojezd mjesto jezyk tvoju jabloko ljudi czud dzvjezda dzsem ganok eto jest zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
+  → dub vo so ko sono obojaviti kon den pjat o  moja ljubov knez ruka jezyk njiva dzsak szczit Dub DUB podojezd mjesto jezyk tvoju jabloko ljudi czud dzvjezda dzsem ganok eto jest zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dubo dubo avotomaticzjnu vo kon djn sono
+  → dub dub avotomaticzjnu vo kon djn sono
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → verh denj vlk velmi plny  znanje bj moliti plel jedin kvnez otec son den volk trg more kon vtora oko dobry nitj trava les mir grad
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -308,9 +308,9 @@ exports[`modes golden forgiving isv-Latn-x-etymolog 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stol dųb vȯ sȯ kȯ sȯnȯ pėsȯ dėnj mjodȯ bykȯ trgȯ ȯ  zj a rabota Gora GORA konj kȯniga šćit ězda język jųže jug jablȯko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubȯ vȯ sȯ kȯ sȯnȯ obȯjaviti koń deń pjat́ ȯ  moja ljubov knęź rųka jezyk njiva đak ščit Dubȯ DUBȮ podȯjezd město język tvojų jabloko ljud́i ćud dzvězda džem ganok eto ěst́ zima miro i ot́c toma uho usta ryba kov psalom ksenija gråd ź ŕ semja
+  → dub vȯ sȯ kȯ sȯnȯ obȯjaviti koń deń pjat́ ȯ  moja ljubov knęź rųka jezyk njiva đak ščit Dub DUB podȯjezd město język tvojų jabloko ljud́i ćud dzvězda džem ganok eto ěst́ zima miro i ot́c toma uho usta ryba kov psalom ksenija gråd ź ŕ semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dųbȯ dųbȯ avȯtomatičjnų vȯ kon djn sȯnȯ
+  → dųb dųb avȯtomatičjnų vȯ kon djn sȯnȯ
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → vėrh dėnj vĺk veĺmi pĺny  znanje bj moliti plel jedin kvnęz otėc sȯn dėn vȯlk trg moŕe koń vtora oko dobry nitj trava les mir gråd
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -327,9 +327,9 @@ exports[`modes golden forgiving isv-Latn-x-northern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stol dub vo so ko sono peso deń miodo byko torgo o  zj a rabota Gora GORA koń koniga ščit iezda jazyk juže jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubo vo so ko sono obojaviti koń deń piať o  moja liubov kniaź ruka jezyk niiva džak ščit Dubo DUBO podojezd miesto jazyk tvoju jabloko liudii čud dzviezda džem ganok eto iesť zima miro i oťc toma ucho usta ryba kov psalom ksenija grod ź ŕ semia
+  → dub vo so ko sono obojaviti koń deń piať o  moja liubov kniaź ruka jezyk niiva džak ščit Dub DUB podojezd miesto jazyk tvoju jabloko liudii čud dzviezda džem ganok eto iesť zima miro i oťc toma ucho usta ryba kov psalom ksenija grod ź ŕ semia
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dubo dubo avotomatičjnu vo kon djn sono
+  → dub dub avotomatičjnu vo kon djn sono
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → verch deń vľk veľmi pľny  znanie bj modliti pletl jedin kvniaz otec son den volk torg morie koń vtora oko dobry niť trava les mir grod
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -346,9 +346,9 @@ exports[`modes golden forgiving isv-Latn-x-sloviant 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stol dub vo so ko sono peso denj mjodo biko trgo o  zj a rabota Gora GORA konj koniga ščit ezda jezik juže jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubo vo so ko sono obojaviti kon den pjat o  moja ljubov knez ruka jezik njiva džak ščit Dubo DUBO podojezd mesto jezik tvoju jabloko ljudi čud dzvezda džem ganok eto est zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
+  → dub vo so ko sono obojaviti kon den pjat o  moja ljubov knez ruka jezik njiva džak ščit Dub DUB podojezd mesto jezik tvoju jabloko ljudi čud dzvezda džem ganok eto est zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dubo dubo avotomatičjnu vo kon djn sono
+  → dub dub avotomatičjnu vo kon djn sono
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → verh denj vlk velmi plni  znanje bj moliti plel jedin kvnez otec son den volk trg more kon vtora oko dobri nitj trava les mir grad
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -365,9 +365,9 @@ exports[`modes golden forgiving isv-Latn-x-southern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gora stol dub vă să kă sănă pesă denj mjodă bikă trgă ă  zj a rabota Gora GORA konj kăniga šćit ězda jezik juže jug jablăko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubă vă să kă sănă obăjaviti kon den pjat ă  moja ljubov knez ruka jezik njiva đak štit Dubă DUBĂ podăjezd město jezik tvoju jabloko ljudi ćud dzvězda džem ganok eto ěst zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
+  → dub vă să kă sănă obăjaviti kon den pjat ă  moja ljubov knez ruka jezik njiva đak štit Dub DUB podăjezd město jezik tvoju jabloko ljudi ćud dzvězda džem ganok eto ěst zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dubă dubă avătomatičjnu vă kon djn sănă
+  → dub dub avătomatičjnu vă kon djn sănă
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → verh denj vlk velmi plni  znanje bj moliti plel jedin kvnez otec săn den vălk trg more kon vtora oko dobri nitj trava les mir grad
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
@@ -384,9 +384,9 @@ exports[`modes golden forgiving isv-x-fonipa 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
   → gɔra stɔɫ dʊb və sə kə sənə pɜsə dɜɲ mjɔdə bɪkə tərgə ə  zj a rabɔta gɔra gɔra kɔɲ kəniga ɕt͡ɕit jɛzda jæzɪk jʊʒɛ jug jabɫəkɔ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
-  → dubə və sə kə sənə ɔbəjaviti kɔɲ dɛɲ pjatʲ ə  mɔja ʎubɔv kɲæzʲ rʊka jɛzɪk ɲiva d͡ʑak ʃt͡ʃit dubə dubə pɔdəjɛzd mjɛstɔ jæzɪk tvɔjʊ jabɫɔkɔ ʎudʲi t͡ɕud d͡zvjɛzda d͡ʒɛm ganɔk ɛtɔ jɛsʲtʲ zima mirɔ i ɔtʲt͡s tɔma uxɔ usta rɪba kɔv psaɫɔm ksɛnija grɒd zʲ rʲ sɛmja
+  → dub və sə kə sənə ɔbəjaviti kɔɲ dɛɲ pjatʲ ə  mɔja ʎubɔv kɲæzʲ rʊka jɛzɪk ɲiva d͡ʑak ʃt͡ʃit dub dub pɔdəjɛzd mjɛstɔ jæzɪk tvɔjʊ jabɫɔkɔ ʎudʲi t͡ɕud d͡zvjɛzda d͡ʒɛm ganɔk ɛtɔ jɛsʲtʲ zima mirɔ i ɔtʲt͡s tɔma uxɔ usta rɪba kɔv psaɫɔm ksɛnija grɒd zʲ rʲ sɛmja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
-  → dʊbə dʊbə avətɔmatit͡ʃjnʊ və kɔn djn sənə
+  → dʊb dʊb avətɔmatit͡ʃjnʊ və kɔn djn sənə
 NMS letters: vėrh dėnj vĺk veĺmi pĺny ı znanıje bıj moḓliti pleṱl ĵedin kŭnęʒ otėç sòn dèn vŀk tṙg moře koň ùtora œko dobrý nítj trává lés mìr gråd
   → vɜrx dɜɲ vʎk vɛʎmi pʎnɪ  znaɲɛ bj mɔliti pɫɛɫ jɛdin kvɲæz ɔtɜt͡s sən dɜn vəɫk tərg mɔrʲɛ kɔɲ vtɔra ɔkɔ dɔbrɪ nitj trava ɫɛs mir grɒd
 other accents: àâā îīĭ úûůū ąǫũ ēĕë ôŏö łļǉ ñņǌ d́en t́ma póle bê žêna
