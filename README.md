@@ -56,8 +56,8 @@ fails on that version and can simply be repeated later.
 One-time setup: a `npm-release` environment restricted to `main` (add yourself
 as a required reviewer for a second confirmation), and for each package a
 trusted publisher on npmjs.com: repository `medzuslovjansky/js-utils`, workflow
-`release.yml`, environment `npm-release`. The packing half of the workflow is
-[`tools/release`](tools/release/pack.mjs).
+`release.yml`, environment `npm-release`. The scripts both jobs run are in
+[`tools/release`](tools/release).
 
 The packages are at 0.x, where a caret range stops at the minor version: `^0.1.0`
 does not accept 0.2.0. After a minor bump of a package, bump the packages that
