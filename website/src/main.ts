@@ -131,7 +131,7 @@ function updateTranslit() {
       input: translitInputMode.value as 'auto' | 'isv-x-etymolog' | 'isv-x-nms',
       finalYer: translitFinalYer.value as 'auto' | 'drop' | 'keep',
       yers: translitYers.value as 'auto' | 'havlik',
-      alphabeticalNumerals: translitNumerals.checked,
+      glagoliticNumerals: translitNumerals.checked,
     };
     normalizeResult.textContent = normalize(text, {
       ...options,
