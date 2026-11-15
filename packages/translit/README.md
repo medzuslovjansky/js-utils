@@ -51,11 +51,14 @@ transliterate('dьržati', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // dŕža
 transliterate('konь', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // konj
 ```
 
-Glagolitic writes numbers from 1 to 999 in letters under a titlo. This is off unless asked for:
+Glagolitic writes numbers from 1 to 999 999 in letters, with `ⱍ` for the thousand and the count of thousands before it. This is off unless asked for; the value says how a number is marked (`true` is `'titlo'`, a titlo over every letter), and every mark is read whichever is chosen:
 
 ```ts
-transliterate('19 knig', 'isv-Glag', { alphabeticalNumerals: true }); // ⰸⰺ҃ ⰽⱀⰻⰳ
-transliterate('ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', { alphabeticalNumerals: true }); // 19 knig
+transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'titlo' }); // ⰸ҃ⰺ҃ ⰽⱀⰻⰳ
+transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'dots' }); // ·ⰸⰺ· ⰽⱀⰻⰳ
+transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'dots-titlo' }); // ·ⰸ҃ⰺ҃· ⰽⱀⰻⰳ
+transliterate('10000', 'isv-Glag', { glagoliticNumerals: 'dots' }); // ·ⰺⱍ·
+transliterate('·ⰸⰺ· ⰽⱀⰻⰳ', 'isv-Latn', { glagoliticNumerals: true }); // 19 knig
 ```
 
 `normalize` is the same reading with a Latin result, etymological or standard:
