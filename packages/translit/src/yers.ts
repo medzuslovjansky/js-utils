@@ -51,7 +51,10 @@ function readYeri(m: string, prev: string, next: string, end?: string) {
 export const readGlagoliticYers = (word: string): string =>
   word
     .replace(SYLLABIC_R, (_, yer: string) => (yer === 'ⱐ' ? 'ŕ' : 'r'))
-    .replace(YERI, readYeri);
+    .replace(YERI, readYeri)
+    // dz and t are Latin letters by the time the soft-sign table runs; inside a
+    // word a yer left after them is the j it always was, not a softened z or t
+    .replace(/(?<=[ⰷⱚ])ⱐ(?![ⰹ%]|ⱜ+%)/g, 'j');
 
 // A word-final hard yer — Glagolitic ⱏ or Cyrillic ъ, the latter also at the
 // end of a Latin word (dųbъ) — is silent after a vowel: kanalⱏ is `kanal`,

@@ -47,6 +47,12 @@ const groups: Record<string, [string, string, string][]> = {
     ['ⱀⰰⰹⰿⱐⱀⱎⰻ', 'najmėnši', 'najmenši'],
     ['ⰹⰰⰹⱐⱍⱀⱏⰹ', 'jajėčny', 'jaječny'],
   ],
+  // dz and t are Latin letters by the time the soft-sign rules of the Latin
+  // reading run, which must not soften them: inside a word the yer stays j
+  'yer after ⰷ and ⱚ': [
+    ['ⰷⱐⰰ', 'dzja', 'dzja'],
+    ['ⱚⱐⰰ', 'tja', 'tja'],
+  ],
   // left to the letter table as before
   unchanged: [
     ['ⰱⱐⰹ', 'by', 'by'],
