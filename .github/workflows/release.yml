@@ -1,0 +1,118 @@
+name: Release
+run-name: ${{ inputs.dry-run && 'Dry run' || 'Release' }} by @${{ github.actor }}
+
+# Publishes every public workspace whose version is not on npm yet, through npm
+# trusted publishing (GitHub OIDC, with provenance): there is no npm token.
+# Versions are bumped by hand in a PR first; see "Releasing" in the README.
+on:
+  workflow_dispatch:
+    inputs:
+      dry-run:
+        description: 'Only pack and show what would be published'
+        type: boolean
+        default: true
+
+permissions: {}
+
+concurrency:
+  group: npm-release
+  cancel-in-progress: false
+
+jobs:
+  # Builds and packs with no publishing rights: whatever the install or the
+  # build runs never sees the OIDC token.
+  prepare:
+    name: Pack
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0 # the previous tag of each package, for the compare link
+          persist-credentials: false
+
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version-file: '.nvmrc'
+          package-manager-cache: false # nothing another workflow cached goes into a release
+
+      - name: Install
+        run: |
+          corepack enable
+          yarn install --immutable
+
+      - name: Lint, build and test
+        run: yarn lint && yarn build && yarn test
+
+      # Fails on a version that has no section in its package's CHANGELOG.md.
+      - name: Pack unpublished versions
+        env:
+          RELEASE_DIR: ${{ runner.temp }}/release
+        run: |
+          echo '## Packed' >> "$GITHUB_STEP_SUMMARY"
+          yarn workspaces foreach -A --no-private --topological exec node "$PWD/tools/release/pack.mjs"
+
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
+        with:
+          name: release
+          path: ${{ runner.temp }}/release/
+          if-no-files-found: error
+          retention-days: 30
+
+  # Only downloads and publishes the tarballs packed above: no checkout, no
+  # install, nothing from the artifact is executed. If it fails halfway, use
+  # "Re-run failed jobs": what is already on npm or on GitHub is skipped.
+  publish:
+    name: Publish
+    needs: prepare
+    if: ${{ !inputs.dry-run }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: npm-release
+    permissions:
+      contents: write # GitHub releases and their tags
+      id-token: write # npm trusted publishing
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
+        with:
+          node-version: 24 # npm >= 11.5.1 for trusted publishing
+
+      - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
+        with:
+          name: release
+
+      # The manifest is read on fd 3 so that npm and gh cannot swallow its lines
+      # from stdin. npm hides a new version while it scans it, so `npm view`
+      # can still say "absent" for a few minutes after a publish: a re-run in
+      # that window fails on that version and is safe to repeat later.
+      - name: Publish to npm and create GitHub releases
+        run: |
+          npm --version
+          {
+            echo '## Published'
+            echo
+            echo '| Package | Version | npm | GitHub |'
+            echo '|---|---|---|---|'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          while IFS=$'\t' read -r name version tgz notes <&3; do
+            tag="$name@$version"
+            if [ -z "$(npm view "$tag" version 2>/dev/null)" ]; then
+              npm publish "./$tgz" --provenance --access public
+            fi
+            if ! gh release view "$tag" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+              gh release create "$tag" -R "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+                --title "$name $version" --notes-file "$notes" --latest=false "$tgz"
+            fi
+            printf '| `%s` | %s | [npm](https://www.npmjs.com/package/%s/v/%s) | [release](%s/%s/releases/tag/%s) |\n' \
+              "$name" "$version" "$name" "$version" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$tag" \
+              >> "$GITHUB_STEP_SUMMARY"
+          done 3< manifest.tsv

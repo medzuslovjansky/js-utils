@@ -30,20 +30,32 @@ for `morphology`).
 
 ## Releasing
 
-Versions are per package and bumped manually, then published in dependency
-order:
+Versions are per package and bumped by hand in a PR. The same PR adds a
+`## <version>` section on top of the package's `CHANGELOG.md`: that section
+becomes the release notes, and a version without one is refused.
 
-```bash
-# 1. bump the versions you are releasing, in packages/*/package.json
-# 2. commit, then tag if the main package moved
-git tag v4.0.0-next.1        # `v*` tags trigger the lexicon dump
-git push --follow-tags
-# 3. publish everything whose version is not on npm yet
-yarn release
-```
+After the PR is merged, open **Actions → [Release](../../actions/workflows/release.yml)
+→ Run workflow** on `main`. It starts as a dry run: the run summary lists what
+would be published, with the notes, and the `release` artifact holds the
+tarballs. Untick the dry run to publish. The run then publishes, in dependency
+order, every public package whose version is not on npm yet, through npm trusted
+publishing (GitHub OIDC, with provenance; there is no npm token), and creates a
+GitHub release `@interslavic/<name>@<version>` on the released commit, with the
+published tarball attached. Everything goes to the `latest` tag; there is no
+prerelease channel.
 
-`yarn release` skips packages whose versions are already published. It publishes
-to the `latest` tag; there is no prerelease channel.
+If the publishing job fails halfway, use **Re-run failed jobs**: it publishes
+the same tarballs and skips whatever is already on npm or GitHub. npm hides a
+new version for a few minutes while it scans it; a re-run inside that window
+fails on that version and can simply be repeated later.
+
+`v*` tags, which trigger the lexicon dump, are still pushed by hand.
+
+One-time setup: a `npm-release` environment restricted to `main` (add yourself
+as a required reviewer for a second confirmation), and for each package a
+trusted publisher on npmjs.com: repository `medzuslovjansky/js-utils`, workflow
+`release.yml`, environment `npm-release`. The packing half of the workflow is
+[`tools/release`](tools/release/pack.mjs).
 
 The packages are at 0.x, where a caret range stops at the minor version: `^0.1.0`
 does not accept 0.2.0. After a minor bump of a package, bump the packages that

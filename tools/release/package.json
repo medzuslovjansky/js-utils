@@ -1,0 +1,12 @@
+{
+  "name": "@interslavic/dev-release",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Packs the unpublished public workspaces for the Release workflow",
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "yarn test"
+  },
+  "license": "MIT"
+}

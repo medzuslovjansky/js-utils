@@ -583,6 +583,12 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@interslavic/dev-release@workspace:tools/release":
+  version: 0.0.0-use.local
+  resolution: "@interslavic/dev-release@workspace:tools/release"
+  languageName: unknown
+  linkType: soft
+
 "@interslavic/dev-reporter@workspace:*, @interslavic/dev-reporter@workspace:tools/reporter":
   version: 0.0.0-use.local
   resolution: "@interslavic/dev-reporter@workspace:tools/reporter"
