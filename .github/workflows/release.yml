@@ -64,6 +64,19 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
+      # Dry run only, after the upload so that the artifact stays as packed:
+      # the scripts of the Publish job in plan mode, on the same files. They make
+      # the same reads (npm view, gh release view, gh api) and print the writes
+      # instead of making them. The token here can only read anyway.
+      - name: Plan the publish job
+        if: inputs.dry-run
+        working-directory: ${{ runner.temp }}/release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node "$GITHUB_WORKSPACE/tools/release/publish.mjs" --plan
+          node "$GITHUB_WORKSPACE/tools/release/summary.mjs" --plan
+
   # Publishes the tarballs packed above. Nothing is installed here, and nothing
   # from the artifact is executed: the artifact comes out of a job that ran
   # `yarn install`, so it is data only. The two scripts that do the work come

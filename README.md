@@ -37,11 +37,14 @@ becomes the release notes, and a version without one is refused.
 After the PR is merged, open **Actions → [Release](../../actions/workflows/release.yml)
 → Run workflow** on `main`. It starts as a dry run: the run summary lists what
 would be published, with the notes, and the `release` artifact holds the
-tarballs. Untick the dry run to publish. The run then publishes, in dependency
-order, every public package whose version is not on npm yet, through npm trusted
-publishing (GitHub OIDC, with provenance; there is no npm token), and creates a
-GitHub release `@interslavic/<name>@<version>` on the released commit, with the
-published tarball attached. One more release, `release-<date>` (`-2`, `-3` for
+tarballs. The dry run also prints what the publishing job would do for each
+package and which `release-<date>` release it would create, with its title and
+body, after checking npm and GitHub for what is already there. Untick the dry
+run to publish. The run then publishes, in dependency order, every public
+package whose version is not on npm yet, through npm trusted publishing (GitHub
+OIDC, with provenance; there is no npm token), and creates a GitHub release
+`@interslavic/<name>@<version>` on the released commit, with the published
+tarball attached. One more release, `release-<date>` (`-2`, `-3` for
 another run the same day), lists everything the run published and carries the
 Latest badge, so no single package takes it. Everything goes to the `latest`
 tag on npm; there is no prerelease channel.

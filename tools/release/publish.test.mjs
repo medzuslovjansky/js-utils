@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import { parseManifest, publishAll } from './publish.mjs';
-import { chooseTag, createSummaryRelease, releaseBody, releaseTitle } from './summary.mjs';
+import { parseManifest, planPublish, planRunner, publishAll, render } from './publish.mjs';
+import { chooseTag, createSummaryRelease, planSummaryRelease, releaseBody, releaseTitle } from './summary.mjs';
 
 const manifest = [
   '@interslavic/translit\t0.2.0\tinterslavic-translit-0.2.0.tgz\tinterslavic-translit-0.2.0.md',
@@ -174,4 +174,127 @@ test('an empty manifest creates nothing and asks nothing', () => {
   const { tag, calls } = summarize([], '');
   assert.equal(tag, null);
   assert.deepEqual(calls, []);
+});
+
+// Plan mode. `fake` records what was spawned; a write that reached it would
+// have reached the real npm or gh.
+const writes = /^(npm publish|gh release create|gh release edit|gh release delete|gh api .* -X)/;
+
+function planOf(answer, entries = three) {
+  const { calls, run } = fake(answer);
+  let out = '';
+  const summary = (text) => (out += text);
+  planPublish(entries, { env, run, summary });
+  const tag = planSummaryRelease(entries, { env, run, date: '2026-11-16', notes: (f) => `notes of ${f}\n`, summary });
+  return { calls, out, tag };
+}
+
+const absent = (c) => (c.startsWith('gh release view') ? { ok: false } : {});
+const scenarios = {
+  'both absent': [absent, ''],
+  'on npm and released': [(c) => (c.startsWith('npm view') ? { stdout: '0.2.0\n' } : {}), ''],
+  'tag of the day taken': [(c) => (c.startsWith('gh api') ? { stdout: 'release-2026-11-16 old\n' } : absent(c)), ''],
+  're-run on a released commit': [(c) => (c.startsWith('gh api') ? { stdout: 'release-2026-11-16 abc\n' } : {}), ''],
+};
+
+test('plan mode spawns only reads, in every case', () => {
+  for (const [name, [answer]] of Object.entries(scenarios)) {
+    for (const entries of [three, []]) {
+      const { calls } = planOf(answer, entries);
+      assert.deepEqual(calls.filter((c) => writes.test(c)), [], name);
+      for (const c of calls) assert.match(c, /^(npm view|gh release view|gh api) /, `${name}: ${c}`);
+    }
+  }
+});
+
+test('plan mode does not spawn a write, nor a read with a flag added', () => {
+  const { calls, run } = fake(() => ({}));
+  const skipped = [];
+  const plan = planRunner(run, skipped);
+  for (const args of [
+    ['npm', 'publish', './x.tgz', '--provenance', '--access', 'public'],
+    ['gh', 'release', 'create', 'release-1', '-R', 'o/r', '--title', "it's out"],
+    ['gh', 'api', 'repos/o/r/git/matching-refs/tags/release-', '--paginate', '--jq', '.', '-X', 'POST'],
+    ['gh', 'api', 'repos/o/r/git/refs', '-f', 'ref=refs/tags/x', '--jq', '.'],
+    ['gh', 'api', 'graphql', '--paginate', '--jq', '.'],
+    ['gh', 'api', '-XPOST', '--paginate', '--jq', '.'],
+    ['npm', 'view', '--registry=https://evil', 'version'],
+    ['gh', 'release', 'view', 'x', '-R', 'o/r', '--web'],
+    ['gh', 'release', 'delete', 'x', '-R', 'o/r'], // the same shape as the allowed view
+  ]) {
+    assert.deepEqual(plan(args[0], args.slice(1)), { ok: true, stdout: '' });
+  }
+  assert.deepEqual(calls, []);
+  assert.equal(skipped[1], "gh release create release-1 -R o/r --title 'it'\\''s out'");
+  plan('npm', ['view', 'x@1.0.0', 'version']);
+  assert.deepEqual(calls, ['npm view x@1.0.0 version']);
+});
+
+test('plan: both absent', () => {
+  const { calls, out, tag } = planOf(absent, one);
+  assert.equal(tag, 'release-2026-11-16');
+  assert.deepEqual(calls.slice(0, 2), [
+    'npm view @interslavic/translit@0.2.0 version',
+    'gh release view @interslavic/translit@0.2.0 -R o/r',
+  ]);
+  assert.match(calls[2], /^gh api repos\/o\/r\/git\/matching-refs\/tags\/release- --paginate --jq /);
+  assert.equal(calls.length, 3);
+  assert.equal(
+    out,
+    '## Plan: publish\n\nDry run. Nothing below has been published; this is what the Publish job would do.\n\n' +
+      '| Package | Version | npm | GitHub |\n|---|---|---|---|\n' +
+      '| `@interslavic/translit` | 0.2.0 | would publish: not on npm | would create: no release yet |\n' +
+      '\nWould run:\n\n```\n' +
+      'npm publish ./interslavic-translit-0.2.0.tgz --provenance --access public\n' +
+      "gh release create @interslavic/translit@0.2.0 -R o/r --target abc --title '@interslavic/translit 0.2.0' " +
+      '--notes-file interslavic-translit-0.2.0.md --latest=false interslavic-translit-0.2.0.tgz\n```\n' +
+      '\n## Plan: summary release\n\n' +
+      'Would create `release-2026-11-16` on abc, marked Latest.\n\nTitle: Release 2026-11-16: translit 0.2.0\n' +
+      '\nWould run:\n\n```\n' +
+      "gh release create release-2026-11-16 -R o/r --target abc --title 'Release 2026-11-16: translit 0.2.0' " +
+      '--notes-file summary-release.md --latest\n```\n' +
+      '\nBody (summary-release.md):\n\n```markdown\n' +
+      releaseBody(one, { env, notes: (f) => `notes of ${f}\n` }) +
+      '```\n',
+  );
+});
+
+test('plan: version on npm, release exists', () => {
+  const { out } = planOf(scenarios['on npm and released'][0], one);
+  assert.match(out, /\| 0\.2\.0 \| skip: already on npm \| skip: release exists \|\n\nWould run nothing\.\n/);
+  const half = planOf((c) => (c.startsWith('npm view') ? { stdout: '0.2.0\n' } : absent(c)), one).out;
+  assert.match(half, /skip: already on npm \| would create: no release yet/);
+  assert.doesNotMatch(half.split('## Plan: summary')[0], /npm publish/);
+  assert.match(half, /^gh release create @interslavic\/translit@0\.2\.0 /m);
+});
+
+test('plan: the tag of the day is taken', () => {
+  const { tag, out } = planOf(scenarios['tag of the day taken'][0]);
+  assert.equal(tag, 'release-2026-11-16-2');
+  assert.match(out, /Title: Release 2026-11-16-2: translit 0\.2\.0, morphology 0\.1\.3, stemmer 0\.1\.1\n/);
+  assert.match(out, /^gh release create release-2026-11-16-2 -R o\/r --target abc /m);
+});
+
+test('plan: a re-run on a commit that has a release-* tag', () => {
+  const { tag, out } = planOf(scenarios['re-run on a released commit'][0]);
+  assert.equal(tag, null);
+  assert.match(out, /Would create nothing: a `release-\*` tag already points at abc\.\n$/);
+  assert.doesNotMatch(out, /release-2026-11-16-2|gh release create release-/);
+});
+
+test('plan: an empty manifest', () => {
+  const { calls, out, tag } = planOf(absent, []);
+  assert.equal(tag, null);
+  assert.deepEqual(calls, []);
+  assert.match(out, /\|---\|---\|---\|---\|\n\nWould run nothing\.\n\n## Plan: summary release\n\n/);
+  assert.match(out, /\nWould create nothing: nothing to publish\.\n$/);
+});
+
+test('plan: the body fence is longer than any backticks in the notes', () => {
+  const { calls, run } = fake((c) => (c.startsWith('gh api') ? { stdout: '' } : {}));
+  let out = '';
+  const notes = () => '````js\nx\n````\n';
+  planSummaryRelease(one, { env, run, date: '2026-11-16', notes, summary: (t) => (out += t) });
+  assert.match(out, /\n`````markdown\n[^]*\n`````\n$/);
+  assert.equal(calls.length, 1);
 });

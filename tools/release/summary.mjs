@@ -5,10 +5,13 @@
 // day: it must not start with "v", which triggers the lexicon dump. If a
 // release-* tag already points at this commit (a re-run), creates nothing.
 //
+// With --plan (the dry run) it reads the tags for real, makes no release and
+// prints the tag, title and body it would use.
+//
 // Node builtins only: the Publish job installs nothing.
 import { readFileSync, writeFileSync } from 'node:fs';
 
-import { fail, parseManifest, run } from './publish.mjs';
+import { commandList, fail, parseManifest, planOutput, planRunner, run } from './publish.mjs';
 
 /**
  * The tag for this run, or null when one of `existing` ("<tag> <commit sha>"
@@ -55,15 +58,35 @@ export function createSummaryRelease(entries, { env, run, date, notes, write }) 
   return tag;
 }
 
+/** createSummaryRelease with nothing written: prints what it would create, or why nothing. */
+export function planSummaryRelease(entries, { env, run, date, notes, summary }) {
+  const skipped = [];
+  let body;
+  const write = (_file, text) => (body = text);
+  const tag = createSummaryRelease(entries, { env, run: planRunner(run, skipped), date, notes, write });
+  let text = '\n## Plan: summary release\n\n';
+  if (!entries.length) text += 'Would create nothing: nothing to publish.\n';
+  else if (!tag) text += `Would create nothing: a \`release-*\` tag already points at ${env.GITHUB_SHA}.\n`;
+  else {
+    const fence = '`'.repeat(Math.max(3, ...(body.match(/`+/g) ?? []).map((s) => s.length + 1)));
+    text += `Would create \`${tag}\` on ${env.GITHUB_SHA}, marked Latest.\n\nTitle: ${releaseTitle(tag, entries)}\n`;
+    text += `${commandList(skipped)}\nBody (summary-release.md):\n\n${fence}markdown\n${body.trimEnd()}\n${fence}\n`;
+  }
+  summary(text);
+  return tag;
+}
+
 if (import.meta.main) {
   try {
-    createSummaryRelease(parseManifest(readFileSync('manifest.tsv', 'utf8')), {
+    const entries = parseManifest(readFileSync('manifest.tsv', 'utf8'));
+    const options = {
       env: process.env,
       run,
       date: new Date().toISOString().slice(0, 10),
       notes: (file) => readFileSync(file, 'utf8'),
-      write: writeFileSync,
-    });
+    };
+    if (process.argv.includes('--plan')) planSummaryRelease(entries, { ...options, summary: planOutput });
+    else createSummaryRelease(entries, { ...options, write: writeFileSync });
   } catch (error) {
     fail(error);
   }
