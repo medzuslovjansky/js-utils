@@ -127,8 +127,6 @@ tools/dump/out/
 # agent worktrees
 .claude/worktrees/
 
-# translit-bench scratch — bundles with the corpora inlined, rebuilt per run
-tools/translit-bench/out*/
 
 # hunspell build output
 tools/hunspell/out/

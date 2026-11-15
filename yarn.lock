@@ -617,14 +617,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@interslavic/dev-translit-bench@workspace:tools/translit-bench":
-  version: 0.0.0-use.local
-  resolution: "@interslavic/dev-translit-bench@workspace:tools/translit-bench"
-  dependencies:
-    "@interslavic/translit": "workspace:^"
-  languageName: unknown
-  linkType: soft
-
 "@interslavic/levenshtein@workspace:^, @interslavic/levenshtein@workspace:packages/levenshtein":
   version: 0.0.0-use.local
   resolution: "@interslavic/levenshtein@workspace:packages/levenshtein"

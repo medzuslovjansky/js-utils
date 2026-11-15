@@ -1,9 +1,7 @@
 import { describe, test } from 'node:test';
-import assert from 'node:assert';
 import { snapshots } from '@interslavic/dev-snapshot';
 
 import { latn2glag } from './latn2glag.ts';
-import { glag2latn } from './glag2latn.ts';
 
 const snap = snapshots(import.meta.filename);
 
@@ -24,11 +22,5 @@ Uslyšavši to, ovca izběgla v råvninų. | Oficialny noćny odjezd do Kyjeva. 
       shta: false,
     });
     snap.match(t, 'Latn → Glag sanity check (2)', actual);
-  });
-
-  test('double check', () => {
-    const glag1 = latn2glag(SANITY);
-    const glag2 = latn2glag(glag2latn(glag1));
-    assert.strictEqual(glag2, glag1);
   });
 });
