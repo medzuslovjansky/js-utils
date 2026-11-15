@@ -401,8 +401,15 @@ const SEPARATOR_YER = new RegExp(
   'g',
 );
 
+// A soft sign after a consonant that cannot be softened, before another
+// consonant, can only be the strong front yer: pьs is `pės`, not `pjs`. No
+// dictionary form is spelled this way (they write ь only after d l n r s t z),
+// so this only reads what a person typed.
+const HARD_YER =
+  /(?<=[бвгкмпфхцжшbvgkmpfhcžš])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž])/g;
+
 const looseReplacer = (word: string): string =>
-  pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
+  pass6(pass5(pass4(pass3(pass2(pass1(pass0(word.replace(HARD_YER, 'ė'))))))));
 
 // Naučny Medžuslovjanski spells two things with letters that mean something
 // else here: its `ė` is the e of *er/*el (`ě` here, where `ė` is a strong

@@ -54,6 +54,15 @@ describe('normalize', () => {
     );
   });
 
+  test('a soft sign after an unsoftenable consonant is a strong yer', () => {
+    assert.strictEqual(normalize('pьs'), 'pės');
+    assert.strictEqual(normalize('пьс'), 'pės');
+    assert.strictEqual(normalize('пьс', { output: 'isv-Latn' }), 'pes');
+    assert.strictEqual(normalize('vьsь'), 'vėś');
+    // softenable consonants keep their reading
+    assert.strictEqual(normalize('пальто'), 'paĺto');
+  });
+
   test('a Latin word ending in a Cyrillic soft sign is softened', () => {
     assert.strictEqual(normalize('konь'), 'konj');
     assert.strictEqual(normalize('конь'), 'konj');
