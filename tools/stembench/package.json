@@ -9,7 +9,8 @@
     "learn": "node --conditions=interslavic-source learn.ts",
     "stopwords": "node --conditions=interslavic-source stopwords.ts",
     "lint": "eslint '*.ts' && tsc -p tsconfig.json",
-    "test": "node --conditions=interslavic-source --test '*.test.ts'"
+    "test": "node --conditions=interslavic-source --test '*.test.ts'",
+    "test:coverage": "yarn test"
   },
   "dependencies": {
     "@interslavic/conllu": "workspace:^",
