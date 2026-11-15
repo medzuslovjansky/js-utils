@@ -192,6 +192,45 @@ body {
   gap: 12px;
 }
 
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+  align-items: end;
+}
+
+.check-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 38px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.check-row input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--primary);
+}
+
+.wide-card {
+  grid-column: 1 / -1;
+}
+
+.select-inline {
+  width: auto;
+  margin-left: auto;
+  margin-right: 8px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+}
+
+.code-output.short {
+  min-height: 56px;
+}
+
 .field-col {
   flex: 1;
   display: flex;
@@ -383,6 +422,10 @@ body {
   word-break: break-word;
   min-height: 120px;
   overflow-x: auto;
+}
+
+.code-output {
+  overflow-wrap: anywhere;
 }
 
 .font-interslavic {

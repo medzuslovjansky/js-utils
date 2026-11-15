@@ -93,39 +93,37 @@
                 placeholder="Enter Interslavic text..."
               >
 Ćuđi děvėc už nese dȯžď i gręź. Či bųde li vśako zlo, smŕťny sȯn, i fataĺno pohlådańje?</textarea>
-              <div class="field-row">
-                <label for="translit-target" class="label"
-                  >Target BCP 47 Script:</label
-                >
-                <select id="translit-target" class="select-box"></select>
-              </div>
-              <div class="field-row">
-                <label for="translit-input-mode" class="label">Input:</label>
-                <select id="translit-input-mode" class="select-box">
-                  <option value="auto" selected>Any spelling (auto)</option>
-                  <option value="isv-x-etymolog">
-                    Already etymological (isv-x-etymolog)
-                  </option>
-                  <option value="isv-x-nms">
-                    Naučny Medžuslovjanski (isv-x-nms)
-                  </option>
-                </select>
-              </div>
-              <div class="field-row">
-                <label for="translit-final-yer" class="label">Final yer:</label>
-                <select id="translit-final-yer" class="select-box">
-                  <option value="auto" selected>
-                    Silent after a vowel (auto)
-                  </option>
-                  <option value="drop">Always silent (drop)</option>
-                  <option value="keep">Always ȯ (keep)</option>
-                </select>
-              </div>
-              <div class="field-row">
-                <label for="translit-numerals" class="label"
-                  >Glagolitic numerals:</label
-                >
-                <input id="translit-numerals" type="checkbox" />
+              <div class="options-grid">
+                <div class="field-col">
+                  <label for="translit-target" class="label">Target:</label>
+                  <select id="translit-target" class="select-box"></select>
+                </div>
+                <div class="field-col">
+                  <label for="translit-input-mode" class="label">Input:</label>
+                  <select id="translit-input-mode" class="select-box">
+                    <option value="auto" selected>Any spelling (auto)</option>
+                    <option value="isv-x-etymolog">
+                      Already etymological
+                    </option>
+                    <option value="isv-x-nms">Naučny Medžuslovjanski</option>
+                  </select>
+                </div>
+                <div class="field-col">
+                  <label for="translit-final-yer" class="label"
+                    >Final yer:</label
+                  >
+                  <select id="translit-final-yer" class="select-box">
+                    <option value="auto" selected>
+                      Silent after a vowel (auto)
+                    </option>
+                    <option value="drop">Always silent</option>
+                    <option value="keep">Always ȯ</option>
+                  </select>
+                </div>
+                <label class="check-row" for="translit-numerals">
+                  <input id="translit-numerals" type="checkbox" />
+                  Glagolitic numerals
+                </label>
               </div>
             </div>
             <div class="card result-card">
@@ -134,6 +132,26 @@
                 <button id="copy-translit" class="btn-sm">Copy</button>
               </div>
               <pre id="translit-output" class="code-output"></pre>
+            </div>
+            <div class="card result-card wide-card">
+              <div class="result-header">
+                <span class="label">Normalized input:</span>
+                <select
+                  id="normalize-output"
+                  class="select-box select-inline"
+                  aria-label="Normalized alphabet"
+                >
+                  <option value="isv-Latn-x-etymolog" selected>
+                    Etymological Latin
+                  </option>
+                  <option value="isv-Latn">Standard Latin</option>
+                </select>
+                <button id="copy-normalize" class="btn-sm">Copy</button>
+              </div>
+              <pre
+                id="normalize-result"
+                class="code-output font-interslavic short"
+              ></pre>
             </div>
           </div>
         </section>

@@ -1,4 +1,5 @@
 import { transliterate, getFlavorisationName } from '@interslavic/translit';
+import { normalize } from '@interslavic/translit/normalize';
 import { inflect, derive, detectPos } from '@interslavic/morphology';
 import { formatTokens } from '@interslavic/conllu';
 import { distance } from '@interslavic/levenshtein';
@@ -47,6 +48,15 @@ const translitFinalYer = document.getElementById(
 const translitNumerals = document.getElementById(
   'translit-numerals',
 ) as HTMLInputElement;
+const normalizeOutput = document.getElementById(
+  'normalize-output',
+) as HTMLSelectElement;
+const normalizeResult = document.getElementById(
+  'normalize-result',
+) as HTMLElement;
+const copyNormalizeBtn = document.getElementById(
+  'copy-normalize',
+) as HTMLButtonElement;
 const copyTranslitBtn = document.getElementById(
   'copy-translit',
 ) as HTMLButtonElement;
@@ -110,14 +120,20 @@ function updateTranslit() {
   const target = translitTarget.value as any;
   if (!text) {
     translitOutput.textContent = '';
+    normalizeResult.textContent = '';
     return;
   }
   try {
-    const result = transliterate(text, target, {
+    const options = {
       input: translitInputMode.value as 'auto' | 'isv-x-etymolog' | 'isv-x-nms',
       finalYer: translitFinalYer.value as 'auto' | 'drop' | 'keep',
       alphabeticalNumerals: translitNumerals.checked,
+    };
+    normalizeResult.textContent = normalize(text, {
+      ...options,
+      output: normalizeOutput.value as 'isv-Latn' | 'isv-Latn-x-etymolog',
     });
+    const result = transliterate(text, target, options);
     translitOutput.textContent = result;
     if (target.includes('Glag')) {
       translitOutput.className = 'code-output font-glagolitic';
@@ -132,7 +148,7 @@ function updateTranslit() {
 
 translitInput.addEventListener('input', updateTranslit);
 translitTarget.addEventListener('change', updateTranslit);
-for (const el of [translitInputMode, translitFinalYer, translitNumerals]) {
+for (const el of [normalizeOutput, translitInputMode, translitFinalYer, translitNumerals]) {
   el.addEventListener('change', updateTranslit);
 }
 
@@ -141,6 +157,13 @@ copyTranslitBtn.addEventListener('click', () => {
     navigator.clipboard.writeText(translitOutput.textContent);
     copyTranslitBtn.textContent = 'Copied!';
     setTimeout(() => (copyTranslitBtn.textContent = 'Copy'), 1500);
+  }
+});
+copyNormalizeBtn.addEventListener('click', () => {
+  if (normalizeResult.textContent) {
+    navigator.clipboard.writeText(normalizeResult.textContent);
+    copyNormalizeBtn.textContent = 'Copied!';
+    setTimeout(() => (copyNormalizeBtn.textContent = 'Copy'), 1500);
   }
 });
 updateTranslit();
