@@ -64,9 +64,27 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-  # Only downloads and publishes the tarballs packed above: no checkout, no
-  # install, nothing from the artifact is executed. If it fails halfway, use
-  # "Re-run failed jobs": what is already on npm or on GitHub is skipped.
+      # Dry run only, after the upload so that the artifact stays as packed:
+      # the scripts of the Publish job in plan mode, on the packed output. They
+      # make the same reads (npm view, gh release view, gh api) and print the
+      # writes instead of making them. The token here can only read anyway, but
+      # unlike the install and build steps above this one has it in its env.
+      - name: Plan the publish job
+        if: inputs.dry-run
+        working-directory: ${{ runner.temp }}/release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          node "$GITHUB_WORKSPACE/tools/release/publish.mjs" --plan
+          node "$GITHUB_WORKSPACE/tools/release/summary.mjs" --plan
+
+  # Publishes the tarballs packed above. Nothing is installed here, and nothing
+  # from the artifact is executed: the artifact comes out of a job that ran
+  # `yarn install`, so it is data only. The two scripts that do the work come
+  # from git, a sparse checkout of tools/release at the commit Pack built, and
+  # use Node builtins only. The artifact goes to a directory of its own, so that
+  # none of its files can land on top of the scripts. If the job fails halfway,
+  # use "Re-run failed jobs": what is already on npm or on GitHub is skipped.
   publish:
     name: Publish
     needs: prepare
@@ -80,6 +98,13 @@ jobs:
     env:
       GH_TOKEN: ${{ github.token }}
     steps:
+      - name: Checkout tools/release
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }} # the commit Pack built, even if main has moved since
+          sparse-checkout: tools/release
+          persist-credentials: false
+
       - name: Set up Node
         uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7
         with:
@@ -88,31 +113,18 @@ jobs:
       - uses: actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131 # v7
         with:
           name: release
+          path: ${{ runner.temp }}/release
 
-      # The manifest is read on fd 3 so that npm and gh cannot swallow its lines
-      # from stdin. npm hides a new version while it scans it, so `npm view`
-      # can still say "absent" for a few minutes after a publish: a re-run in
-      # that window fails on that version and is safe to repeat later.
+      # In manifest order, which is the dependency order: npm publish unless the
+      # version is on npm, then a GitHub release unless there is one.
       - name: Publish to npm and create GitHub releases
+        working-directory: ${{ runner.temp }}/release
         run: |
           npm --version
-          {
-            echo '## Published'
-            echo
-            echo '| Package | Version | npm | GitHub |'
-            echo '|---|---|---|---|'
-          } >> "$GITHUB_STEP_SUMMARY"
+          node "$GITHUB_WORKSPACE/tools/release/publish.mjs"
 
-          while IFS=$'\t' read -r name version tgz notes <&3; do
-            tag="$name@$version"
-            if [ -z "$(npm view "$tag" version 2>/dev/null)" ]; then
-              npm publish "./$tgz" --provenance --access public
-            fi
-            if ! gh release view "$tag" -R "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
-              gh release create "$tag" -R "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
-                --title "$name $version" --notes-file "$notes" --latest=false "$tgz"
-            fi
-            printf '| `%s` | %s | [npm](https://www.npmjs.com/package/%s/v/%s) | [release](%s/%s/releases/tag/%s) |\n' \
-              "$name" "$version" "$name" "$version" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$tag" \
-              >> "$GITHUB_STEP_SUMMARY"
-          done 3< manifest.tsv
+      # Last, so that if it fails the packages are out already and the summary
+      # release can be made by hand.
+      - name: Create the summary release
+        working-directory: ${{ runner.temp }}/release
+        run: node "$GITHUB_WORKSPACE/tools/release/summary.mjs"

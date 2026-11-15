@@ -37,12 +37,17 @@ becomes the release notes, and a version without one is refused.
 After the PR is merged, open **Actions → [Release](../../actions/workflows/release.yml)
 → Run workflow** on `main`. It starts as a dry run: the run summary lists what
 would be published, with the notes, and the `release` artifact holds the
-tarballs. Untick the dry run to publish. The run then publishes, in dependency
-order, every public package whose version is not on npm yet, through npm trusted
-publishing (GitHub OIDC, with provenance; there is no npm token), and creates a
-GitHub release `@interslavic/<name>@<version>` on the released commit, with the
-published tarball attached. Everything goes to the `latest` tag; there is no
-prerelease channel.
+tarballs. The dry run also prints what the publishing job would do for each
+package and which `release-<date>` release it would create, with its title and
+body, after checking npm and GitHub for what is already there. Untick the dry
+run to publish. The run then publishes, in dependency order, every public
+package whose version is not on npm yet, through npm trusted publishing (GitHub
+OIDC, with provenance; there is no npm token), and creates a GitHub release
+`@interslavic/<name>@<version>` on the released commit, with the published
+tarball attached. One more release, `release-<date>` (`-2`, `-3` for
+another run the same day), lists everything the run published and carries the
+Latest badge, so no single package takes it. Everything goes to the `latest`
+tag on npm; there is no prerelease channel.
 
 If the publishing job fails halfway, use **Re-run failed jobs**: it publishes
 the same tarballs and skips whatever is already on npm or GitHub. npm hides a
@@ -54,8 +59,8 @@ fails on that version and can simply be repeated later.
 One-time setup: a `npm-release` environment restricted to `main` (add yourself
 as a required reviewer for a second confirmation), and for each package a
 trusted publisher on npmjs.com: repository `medzuslovjansky/js-utils`, workflow
-`release.yml`, environment `npm-release`. The packing half of the workflow is
-[`tools/release`](tools/release/pack.mjs).
+`release.yml`, environment `npm-release`. The scripts both jobs run are in
+[`tools/release`](tools/release).
 
 The packages are at 0.x, where a caret range stops at the minor version: `^0.1.0`
 does not accept 0.2.0. After a minor bump of a package, bump the packages that
