@@ -162,10 +162,10 @@ export function transliterate(
   const numerals = glagoliticNumerals === true ? 'titlo' : glagoliticNumerals;
   const readsGlagolitic = options.input !== 'isv-x-etymolog';
   const normalized = text.normalize('NFC');
-  const withNumbers =
-    numerals && readsGlagolitic
-      ? fromGlagoliticNumerals(normalized)
-      : normalized;
+  // without the option only the unmistakable numbers are read
+  const withNumbers = readsGlagolitic
+    ? fromGlagoliticNumerals(normalized, !numerals)
+    : normalized;
   // asked of the text as it came: a text of numbers alone is Glagolitic too
   const source = hasGlagolitic(normalized)
     ? glagToLatnMarks(withNumbers)

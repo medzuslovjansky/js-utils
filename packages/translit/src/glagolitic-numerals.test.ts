@@ -190,6 +190,21 @@ describe('Glagolitic numerals', () => {
     }
   });
 
+  test('strict reading takes only a titlo over every letter', () => {
+    for (const [glag, read] of [
+      ['ⰸ҃ⰺ҃', '19'],
+      ['·ⰸ҃ⰺ҃·', '19'],
+      ['ⰶ҃', '7'],
+      ['ⰸⰺ҃', 'ⰸⰺ҃'],
+      ['·ⰸⰺ·', '·ⰸⰺ·'],
+      ['·ⰸⰺ҃·', '·ⰸⰺ҃·'],
+      ['ⰿ҃ⱄ', 'ⰿ҃ⱄ'],
+      ['ⰺ҃ⰸ҃', 'ⰺ҃ⰸ҃'], // every letter titled, but no number
+    ]) {
+      assert.strictEqual(fromGlagoliticNumerals(glag, true), read);
+    }
+  });
+
   test('capital letters are read too', () => {
     assert.strictEqual(fromGlagoliticNumerals('ⰈⰊ҃'), '19');
   });
@@ -213,12 +228,18 @@ describe('glagoliticNumerals', () => {
       'Ⰲ 2026 ⰳⱁⰴⱆ· 7 ⰽⱀⰻⰳ',
       'Ⰲ ⰱ҃ⱍ҃ⰻ҃ⰵ҃ ⰳⱁⰴⱆ· ⰶ҃ ⰽⱀⰻⰳ',
     ],
-    // a Glagolitic number is read as one only with the option; without
-    // it the titlo is dropped and the letters are a word
+    // a single titlo at the end, or dots, make a number only with the
+    // option; without it the titlo is dropped and the letters are a word
     ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', 'zj knig', '19 knig'],
     ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Cyrl', 'зј книг', '19 книг'],
     ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Glag', 'ⰸⰹ ⰽⱀⰻⰳ', 'ⰸ҃ⰺ҃ ⰽⱀⰻⰳ'],
-    ['ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', 'zj knig', '19 knig'],
+    ['·ⰸⰺ· ⰽⱀⰻⰳ', 'isv-Latn', ',zj, knig', '19 knig'],
+    // a titlo over every letter is a number with the option or without
+    ['ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', '19 knig', '19 knig'],
+    ['ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Glag', '19 ⰽⱀⰻⰳ', 'ⰸ҃ⰺ҃ ⰽⱀⰻⰳ'],
+    ['·ⰸ҃ⰺ҃· ⰽⱀⰻⰳ', 'isv-Cyrl', '19 книг', '19 книг'],
+    ['ⰶ҃ ⰽⱀⰻⰳ', 'isv-Latn', '7 knig', '7 knig'],
+    ['Ⰱ҃ⱍ҃ⰻ҃ⰵ҃։', 'isv-Latn', '2026.', '2026.'],
     // an abbreviation stays a word either way
     ['ⰿ҃ⱄ', 'isv-Latn', 'ms', 'ms'],
     ['ⱀⰰⱂ҃ⱃ', 'isv-Latn', 'napr', 'napr'],

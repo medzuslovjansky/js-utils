@@ -106,8 +106,12 @@ export function toGlagoliticNumerals(
 /**
  * `ⰸ҃ⰺ҃`, `ⰸⰺ҃`, `·ⰸⰺ·`, `·ⰸ҃ⰺ҃·` → `19`, for every word that is a well-formed
  * number, however it is marked.
+ *
+ * With `strict`, only a titlo over every letter makes a number (`ⰸ҃ⰺ҃`,
+ * `·ⰸ҃ⰺ҃·`, `ⰶ҃`): the one mark that is not also something else. A lone titlo
+ * at the end may close an abbreviation, and a dot is also the comma.
  */
-export function fromGlagoliticNumerals(text: string): string {
+export function fromGlagoliticNumerals(text: string, strict = false): string {
   return text.replace(NUMERAL, (word) => {
     const bare = word.replace(/·/g, '');
     const letters = bare.replaceAll(TITLO, '');
@@ -116,8 +120,7 @@ export function fromGlagoliticNumerals(text: string): string {
     // Anything else, such as ⰿ҃ⱄ, is an abbreviation.
     const marked =
       titlos === letters.length ||
-      titlos === 0 ||
-      (titlos === 1 && bare.endsWith(TITLO));
+      (!strict && (titlos === 0 || (titlos === 1 && bare.endsWith(TITLO))));
     const value = marked
       ? fromLetters(letters.toLowerCase().replaceAll('ⰹ', 'ⰺ'))
       : undefined;
