@@ -30,8 +30,49 @@ const SYLLABIC_R = new RegExp(
   'g',
 );
 
+// The front yer (ⱐ, ь) that is the vowel `ė` although the consonant before it
+// could be soft, or although no consonant follows it. One rule for the three
+// scripts, so the letters of all three are listed. Counted on the forms of the
+// dictionary, which has no soft consonant in any of these places:
+// - before j and a consonant: sėjčas, sěmėjny;
+// - d s t z before two consonants: tėmny, sŕdėčny, sėgda, tėšća (but ťma).
+//   Before s only at the start of a word: tėsť, but pęťsto. Not before r,
+//   where the yer spells a syllabic r (sьrdce is `sŕdce`);
+// - d s t z before n c č g š and another yer or j: tėnȯk, cělodėnėn, pŕstėnje;
+// - n before č š and one more consonant or j: konėčny, bezkonėčje, dnėšni
+//   (but końče).
+// Before a full vowel the consonant stays soft, as a weak yer leaves it
+// (glasьno is `glaśno`). l and r are left out: lėvji and ľva, krėst and kŕst
+// differ by the word.
+const ANY_CONSONANT =
+  /[ⰱⰲⰳⰴⰶⰷⰸⰼⰽⰾⰿⱀⱂⱃⱄⱅⱇⱈⱊⱋⱌⱍⱎⱒⱚⱞбвгджзклмнпрстфхцчшщћђљњbcdfghklmnprstvzčšžćđ]/;
+const J = /[ⰹⰺjјй]/;
+
+function isStrongYer(
+  prev: string,
+  next: string,
+  after: string,
+  first: boolean,
+): boolean {
+  const cluster = ANY_CONSONANT.test(after);
+
+  if (J.test(next)) return cluster && ANY_CONSONANT.test(prev);
+  if (/[ⱀнn]/.test(prev)) {
+    return /[ⱍⱎчшčš]/.test(next) && (cluster || J.test(after));
+  }
+
+  return (
+    /[ⰴⱄⱅⰸдстзdstz]/.test(prev) &&
+    ANY_CONSONANT.test(next) &&
+    ((cluster && !/[ⱃрr]/.test(next) && (!/[ⱄсs]/.test(next) || first)) ||
+      (/[ⱀⱌⱍⰳⱎнцчгшncčgš]/.test(next) &&
+        (/[ⱏⱐъь]/.test(after) || J.test(after))))
+  );
+}
+
 // ⱐ (not ⱐⰹ, which is `y`) after a consonant:
 // - before a single word-final consonant it is `ė` (absolutėn, pės, dėnj);
+// - where `isStrongYer` says so it is `ė` (tėmny, konėčny, sėjčas);
 // - after d l n r s t z it softens it (paĺto, ťma, gospodaŕ, råsteńje),
 //   except that ľ and ń before a vowel or at the end stay `lj`, `nj`;
 // - after any other consonant, or j, and before a consonant, it is `ė`.
@@ -39,8 +80,18 @@ const SYLLABIC_R = new RegExp(
 const YERI = /(.?)ⱐ(?!ⰹ)(?=(.?)(ⱐ?%)?)/g;
 const LJ_NJ = /^[ⰰⰵⰻⱁⱆⱉⱑⱔⱕⱘⱛ%]?$/;
 
-function readYeri(m: string, prev: string, next: string, end?: string) {
+function readYeri(
+  m: string,
+  prev: string,
+  next: string,
+  end: string | undefined,
+  at: number,
+  word: string,
+) {
   if (end && CONSONANT.test(next)) return `${prev}ė`;
+  // the letter after `next`, and whether `prev` begins the word
+  const after = word[at + m.length + 1];
+  if (isStrongYer(prev, next, after, word[at - 1] === '%')) return `${prev}ė`;
   const soft = SOFTENED[prev];
   if (soft) return /[ⰾⱀ]/.test(prev) && LJ_NJ.test(next) ? `${prev}ⰹ` : soft;
   const hard = /[ⰹⰺ]/.test(prev) || (prev !== 'ⱍ' && CONSONANT.test(prev));
@@ -92,20 +143,33 @@ export const dropFinalYer = (
 export const separateYer = (word: string): string =>
   word.replace(SEPARATOR_YER, 'j');
 
-// A soft sign after a consonant that cannot be softened, before another
-// consonant, can only be the strong front yer: pьs is `pės`, not `pjs`. No
-// dictionary form is spelled this way (they write ь only after d l n r s t z),
-// so this only reads what a person typed.
+// A soft sign after a consonant that cannot be softened, or after j, before
+// another consonant, can only be the strong front yer: pьs is `pės`, not
+// `pjs`. That goes for č too, since ć is a letter of its own here (čьstny is
+// `čėstny`). No dictionary form is spelled this way (they write ь only after
+// d l n r s t z), so this only reads what a person typed.
 const HARD_YER =
-  /(?<=[бвгкмпфхцжшbvgkmpfhcžš])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž])/g;
+  /(?<=[бвгкмпфхцчжшјйbvgkmpfhcčžšj])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž])/g;
 
 // The same sign before a single final consonant that is followed by a yer is
 // `ė` after any consonant, as in Glagolitic (without the yer, `ходьб` is the
 // soft `hoďb` of the dictionary): lьvъ and львъ are `lėv`,
 // dьnь is `dėnj`, pьsъ is `pės`.
 const FINAL_C =
-  /(?<=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž][ъь]%)/g;
+  /(?<=[бвгджзклмнпрстфхцчшщјйbcdfghjklmnprstvzčšž])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž][ъь]%)/g;
 
 /** Reads a soft sign that can only be the strong front yer as `ė`. */
 export const readSoftSigns = (word: string): string =>
-  word.replace(HARD_YER, 'ė').replace(FINAL_C, 'ė');
+  word
+    .replace(/ь/g, (m, at: number) =>
+      isStrongYer(
+        word[at - 1],
+        word[at + 1],
+        word[at + 2],
+        word[at - 2] === '%',
+      )
+        ? 'ė'
+        : m,
+    )
+    .replace(HARD_YER, 'ė')
+    .replace(FINAL_C, 'ė');
