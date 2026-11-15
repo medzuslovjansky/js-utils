@@ -171,6 +171,14 @@ const SOFT_CONSONANTS: Record<string, string> = {
   'с#': 'ś',
   зь: 'ź',
   'з#': 'ź',
+  // a Latin consonant before a soft sign is softened like the Cyrillic one
+  nь: 'ń',
+  lь: 'ĺ',
+  rь: 'ŕ',
+  tь: 'ť',
+  dь: 'ď',
+  sь: 'ś',
+  zь: 'ź',
   'ь%': '%',
   // at the end of a word n and l are `nj`, `lj` (konь, кралъ), as in Glagolitic
   'нь%': 'nj%',
@@ -401,6 +409,23 @@ const SEPARATOR_YER = new RegExp(
   'g',
 );
 
+// A soft sign after a consonant that cannot be softened, before another
+// consonant, can only be the strong front yer: pьs is `pės`, not `pjs`. No
+// dictionary form is spelled this way (they write ь only after d l n r s t z),
+// so this only reads what a person typed.
+const HARD_YER =
+  /(?<=[бвгкмпфхцжшbvgkmpfhcžš])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž])/g;
+
+// The same sign before a single final consonant that is followed by a yer is
+// `ė` after any consonant, as in Glagolitic (without the yer, `ходьб` is the
+// soft `hoďb` of the dictionary): lьvъ and львъ are `lėv`,
+// dьnь is `dėnj`, pьsъ is `pės`.
+const FINAL_C =
+  /(?<=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž])ь(?=[бвгджзклмнпрстфхцчшщbcdfghklmnprstvzčšž][ъь]%)/g;
+
+const yers = (word: string): string =>
+  word.replace(HARD_YER, 'ė').replace(FINAL_C, 'ė');
+
 const looseReplacer = (word: string): string =>
   pass6(pass5(pass4(pass3(pass2(pass1(pass0(word)))))));
 
@@ -498,7 +523,7 @@ export function normalizeInput(
   if (options.input === 'isv-x-etymolog') return strictReplacer(word);
 
   const { finalYer = 'auto' } = options;
-  const read = options.input === 'isv-x-nms' ? nmsLetters(word) : word;
+  const read = yers(options.input === 'isv-x-nms' ? nmsLetters(word) : word);
   const dropped =
     finalYer === 'keep' ? read : read.replace(FINAL_YER[finalYer], '');
 

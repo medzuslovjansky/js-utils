@@ -54,6 +54,22 @@ describe('normalize', () => {
     );
   });
 
+  test('a soft sign after an unsoftenable consonant is a strong yer', () => {
+    assert.strictEqual(normalize('pьs'), 'pės');
+    assert.strictEqual(normalize('пьс'), 'pės');
+    assert.strictEqual(normalize('пьс', { output: 'isv-Latn' }), 'pes');
+    assert.strictEqual(normalize('vьsь'), 'vėś');
+    // a final yer after one consonant makes it a yer for any consonant before it
+    assert.strictEqual(normalize('lьvъ'), 'lėv');
+    assert.strictEqual(normalize('львъ', { output: 'isv-Latn' }), 'lev');
+    assert.strictEqual(normalize('dьnь'), 'dėnj');
+    // a Latin consonant before ь is softened like the Cyrillic one
+    assert.strictEqual(normalize('lьva'), 'ĺva');
+    // softenable consonants keep their reading, with no yer after, ходьб is soft
+    assert.strictEqual(normalize('ходьб'), 'hod\u0301b');
+    assert.strictEqual(normalize('пальто'), 'paĺto');
+  });
+
   test('a Latin word ending in a Cyrillic soft sign is softened', () => {
     assert.strictEqual(normalize('konь'), 'konj');
     assert.strictEqual(normalize('конь'), 'konj');
