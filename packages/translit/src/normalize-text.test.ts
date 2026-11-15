@@ -59,7 +59,14 @@ describe('normalize', () => {
     assert.strictEqual(normalize('пьс'), 'pės');
     assert.strictEqual(normalize('пьс', { output: 'isv-Latn' }), 'pes');
     assert.strictEqual(normalize('vьsь'), 'vėś');
-    // softenable consonants keep their reading
+    // a final yer after one consonant makes it a yer for any consonant before it
+    assert.strictEqual(normalize('lьvъ'), 'lėv');
+    assert.strictEqual(normalize('львъ', { output: 'isv-Latn' }), 'lev');
+    assert.strictEqual(normalize('dьnь'), 'dėnj');
+    // a Latin consonant before ь is softened like the Cyrillic one
+    assert.strictEqual(normalize('lьva'), 'ĺva');
+    // softenable consonants keep their reading, with no yer after, ходьб is soft
+    assert.strictEqual(normalize('ходьб'), 'hod\u0301b');
     assert.strictEqual(normalize('пальто'), 'paĺto');
   });
 
