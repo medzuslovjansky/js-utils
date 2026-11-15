@@ -116,3 +116,38 @@ jobs:
               "$name" "$version" "$name" "$version" "$GITHUB_SERVER_URL" "$GITHUB_REPOSITORY" "$tag" \
               >> "$GITHUB_STEP_SUMMARY"
           done 3< manifest.tsv
+
+      # One release per run that carries the Latest badge, so that the front page
+      # of the repository shows what came out, and no single package takes it.
+      # The tag is release-<date>, with -2, -3 for another run on the same day:
+      # it must not start with "v", which triggers the lexicon dump. A run that
+      # already has a release on this commit (a re-run) creates nothing.
+      - name: Create the summary release
+        run: |
+          [ -s manifest.tsv ] || exit 0
+          existing=$(gh api "repos/$GITHUB_REPOSITORY/git/matching-refs/tags/release-" --paginate \
+            --jq '.[] | "\(.ref[10:]) \(.object.sha)"')
+          if grep -q " $GITHUB_SHA$" <<< "$existing"; then exit 0; fi
+
+          tag="release-$(date -u +%F)"
+          base=$tag
+          n=2
+          while grep -q "^$tag " <<< "$existing"; do tag="$base-$n"; n=$((n + 1)); done
+
+          title="Release ${tag#release-}: $(awk -F'\t' '{ sub("@interslavic/", "", $1); printf "%s%s %s", (NR > 1 ? ", " : ""), $1, $2 }' manifest.tsv)"
+          {
+            echo 'Published to npm from this commit, with provenance.'
+            echo
+            echo '| package | version | npm | release |'
+            echo '|---|---|---|---|'
+            while IFS=$'\t' read -r name version tgz notes <&3; do
+              enc=$(sed 's|/|%2F|; s|@|%40|g' <<< "$name@$version")
+              echo "| \`$name\` | $version | [npm](https://www.npmjs.com/package/$name/v/$version) | [notes]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/releases/tag/$enc) |"
+            done 3< manifest.tsv
+            while IFS=$'\t' read -r name version tgz notes <&3; do
+              printf '\n## %s %s\n\n' "$name" "$version"
+              cat "$notes"
+            done 3< manifest.tsv
+          } > summary-release.md
+          gh release create "$tag" -R "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "$title" --notes-file summary-release.md --latest

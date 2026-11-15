@@ -41,8 +41,10 @@ tarballs. Untick the dry run to publish. The run then publishes, in dependency
 order, every public package whose version is not on npm yet, through npm trusted
 publishing (GitHub OIDC, with provenance; there is no npm token), and creates a
 GitHub release `@interslavic/<name>@<version>` on the released commit, with the
-published tarball attached. Everything goes to the `latest` tag; there is no
-prerelease channel.
+published tarball attached. One more release, `release-<date>` (`-2`, `-3` for
+another run the same day), lists everything the run published and carries the
+Latest badge, so no single package takes it. Everything goes to the `latest`
+tag on npm; there is no prerelease channel.
 
 If the publishing job fails halfway, use **Re-run failed jobs**: it publishes
 the same tarballs and skips whatever is already on npm or GitHub. npm hides a
