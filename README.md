@@ -43,7 +43,12 @@ yarn release
 ```
 
 `yarn release` skips packages whose versions are already published. It publishes
-to the `next` tag; `latest` points to 3.4.4 until v4 leaves prerelease.
+to the `latest` tag; there is no prerelease channel.
+
+The packages are at 0.x, where a caret range stops at the minor version: `^0.1.0`
+does not accept 0.2.0. After a minor bump of a package, bump the packages that
+depend on it as well (`morphology` and `stemmer` depend on `translit`,
+`morphology` on `conllu`), or they go on installing the old one.
 
 ## Documentation
 
