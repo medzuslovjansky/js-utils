@@ -45,6 +45,9 @@ const translitInputMode = document.getElementById(
 const translitFinalYer = document.getElementById(
   'translit-final-yer',
 ) as HTMLSelectElement;
+const translitYers = document.getElementById(
+  'translit-yers',
+) as HTMLSelectElement;
 const translitNumerals = document.getElementById(
   'translit-numerals',
 ) as HTMLInputElement;
@@ -127,6 +130,7 @@ function updateTranslit() {
     const options = {
       input: translitInputMode.value as 'auto' | 'isv-x-etymolog' | 'isv-x-nms',
       finalYer: translitFinalYer.value as 'auto' | 'drop' | 'keep',
+      yers: translitYers.value as 'auto' | 'havlik',
       alphabeticalNumerals: translitNumerals.checked,
     };
     normalizeResult.textContent = normalize(text, {
@@ -148,7 +152,7 @@ function updateTranslit() {
 
 translitInput.addEventListener('input', updateTranslit);
 translitTarget.addEventListener('change', updateTranslit);
-for (const el of [normalizeOutput, translitInputMode, translitFinalYer, translitNumerals]) {
+for (const el of [normalizeOutput, translitInputMode, translitFinalYer, translitYers, translitNumerals]) {
   el.addEventListener('change', updateTranslit);
 }
 
