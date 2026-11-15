@@ -21,7 +21,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дуб во со ко сон пес дењ мјод бык трг о  зј а работа Гора ГОРА коњ конига шчит єзда језык јуже југ јаблоко
+  → гора стол дуб во со ко сон пес дењ мјод бык трг о  зј 1 работа Гора ГОРА коњ конига шчит єзда језык јуже југ јаблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб во со ко сон објавити коњ дењ пјат о  моја љубов кнез рука језык њива джак шчит Дуб ДУБ подјезд мєсто језык твоју јаблоко људи чуд дзвєзда джем ганок ето єст зима миро и отц тома ухо уста рыба ков псалом ксенија град з р семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -40,7 +40,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl-x-etymolog 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дѫб въ съ къ сън пес дењ мјод бык трг ъ  зј а работа Гора ГОРА коњ кънига шћит ѣзда јѧзык јѫже југ јаблъко
+  → гора стол дѫб въ съ къ сън пес дењ мјод бык трг ъ  зј 1 работа Гора ГОРА коњ кънига шћит ѣзда јѧзык јѫже југ јаблъко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб въ съ къ сън објавити коњ дењ пјать ъ  моја љубов кнѧзь рѫка језык њива ђак шчит Дуб ДУБ подјезд мѣсто јѧзык твојѫ јаблоко људьи ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грӑд зь рь семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -59,7 +59,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl-x-iotated 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дуб во со ко сон пес день мйод бык трг о  з’й а работа Гора ГОРА конь конига шчит езда езык юже юг яблоко
+  → гора стол дуб во со ко сон пес день мйод бык трг о  з’й 1 работа Гора ГОРА конь конига шчит езда езык юже юг яблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб во со ко сон об’явити конь день пят о  моя любов кнез рука езык ньива джак шчит Дуб ДУБ под’езд место езык твою яблоко люди чуд дзвезда джем ганок это ест зима миро и отц тома ухо уста рыба ков псалом ксения град з р семя
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -78,7 +78,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl-x-iotated-ext 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дѫб въ съ къ сън пьс дьнь мйод бык търг ъ  з’й а работа Гора ГОРА конь кънига щит ѣзда ѩзык ѭже юг яблъко
+  → гора стол дѫб въ съ къ сън пьс дьнь мйод бык търг ъ  з’й 1 работа Гора ГОРА конь кънига щит ѣзда ѩзык ѭже юг яблъко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб въ съ къ сън об’явити конь день пять ъ  моя любов кнѧзь рѫка ѥзык нӥва ђак щит Дуб ДУБ под’ѥзд мѣсто ѩзык твоѭ яблоко людӥ ћуд дзвѣзда джем ганок ето ѣсть зима миро и отьц тома ухо уста рыба коў псалом ксения грӑд зь рь семя
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -97,7 +97,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl-x-northern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дуб во со ко сон пес дењ мјод бык торг о  зј а работа Гора ГОРА коњ конига шчит єзда јазык јуже југ јаблоко
+  → гора стол дуб во со ко сон пес дењ мјод бык торг о  зј 1 работа Гора ГОРА коњ конига шчит єзда јазык јуже југ јаблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб во со ко сон објавити коњ дењ пјать о  моја љубов књазь рука језык њива джак шчит Дуб ДУБ подјезд мєсто јазык твоју јаблоко људьи чуд дзвєзда джем ганок ето єсть зима миро и отьц тома ухо уста рыба ков псалом ксенија грод зь рь семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -116,7 +116,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl-x-sloviant 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дуб во со ко сон пес дењ мјод бик трг о  зј а работа Гора ГОРА коњ конига шчит езда језик јуже југ јаблоко
+  → гора стол дуб во со ко сон пес дењ мјод бик трг о  зј 1 работа Гора ГОРА коњ конига шчит езда језик јуже југ јаблоко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб во со ко сон објавити коњ дењ пјат о  моја љубов кнез рука језик њива джак шчит Дуб ДУБ подјезд место језик твоју јаблоко људи чуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -135,7 +135,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Cyrl-x-southern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → гора стол дуб въ съ къ сън пес дењ мјод бик трг ъ  зј а работа Гора ГОРА коњ кънига шћит езда језик јуже југ јаблъко
+  → гора стол дуб въ съ къ сън пес дењ мјод бик трг ъ  зј 1 работа Гора ГОРА коњ кънига шћит езда језик јуже југ јаблъко
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → дуб въ съ къ сън објавити коњ дењ пјат ъ  моја љубов кнез рука језик њива ђак штит Дуб ДУБ подјезд место језик твоју јаблоко људи ћуд дзвезда джем ганок ето ест зима миро и отц тома ухо уста риба ков псалом ксенија град з р семја
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -154,7 +154,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Glag 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱏⱃⰳ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱏⱃⰳ ⱁ  ⰸⰹ 1 ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -173,7 +173,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Glag-x-etymolog 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱘⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱂⱐⱄ ⰴⱐⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱏⱃⰳ ⱏ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽ ⱙⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱘⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱂⱐⱄ ⰴⱐⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱏⱃⰳ ⱏ  ⰸⰹ 1 ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽ ⱙⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱔⰸⱐ ⱃⱘⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⱗⰸⱏⰹⰽ ⱅⰲⱁⱙ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱉⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -192,7 +192,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Glag-x-northern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱁⱃⰳ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰰⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⱏⰹⰽ ⱅⱁⱃⰳ ⱁ  ⰸⰹ 1 ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⱑⰸⰴⰰ ⰹⰰⰸⱏⰹⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅⱐ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⱐⰰⰸⱐ ⱃⱆⰽⰰ ⰹⰵⰸⱏⰹⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰰⰸⱏⰹⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⱐⰻ ⱍⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅⱐ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱐⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⱏⰹⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⱁⰴ ⰸⱐ ⱃⱐ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -211,7 +211,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Glag-x-sloviant 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⰻⰽ ⱅⱏⱃⰳ ⱁ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⰵⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⰻⰽ ⱅⱏⱃⰳ ⱁ  ⰸⰹ 1 ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱁⱀⰻⰳⰰ ⱎⱍⰻⱅ ⰵⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱁⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → ⰴⱆⰱ ⰲⱁ ⱄⱁ ⰽⱁ ⱄⱁⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅ ⱁ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰴⰶⰰⰽ ⱎⱍⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⰵⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱍⱆⰴ ⰴⰸⰲⰵⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⰵⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -230,7 +230,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Glag-x-southern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⰻⰽ ⱅⱏⱃⰳ ⱏ  ⰸⰹ ⰰ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
+  → ⰳⱁⱃⰰ ⱄⱅⱁⰾ ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱂⰵⱄ ⰴⰵⱀⱐ ⰿⰺⱁⰴ ⰱⰻⰽ ⱅⱏⱃⰳ ⱏ  ⰸⰹ 1 ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅ ⱑⰸⰴⰰ ⰹⰵⰸⰻⰽ ⱓⰶⰵ ⱓⰳ ⰹⰰⰱⰾⱏⰽⱁ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → ⰴⱆⰱ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀ ⱁⰱⰹⰰⰲⰻⱅⰻ ⰽⱁⱀⱐ ⰴⰵⱀⱐ ⱂⰺⰰⱅ ⱏ  ⰿⱁⰹⰰ ⰾⱐⱆⰱⱁⰲ ⰽⱀⰵⰸ ⱃⱆⰽⰰ ⰹⰵⰸⰻⰽ ⱀⱐⰻⰲⰰ ⰼⰰⰽ ⱎⱅⰻⱅ Ⰴⱆⰱ ⰄⰖⰁ ⱂⱁⰴⰹⰵⰸⰴ ⰿⱑⱄⱅⱁ ⰹⰵⰸⰻⰽ ⱅⰲⱁⱓ ⰹⰰⰱⰾⱁⰽⱁ ⰾⱐⱆⰴⰻ ⱋⱆⰴ ⰴⰸⰲⱑⰸⰴⰰ ⰴⰶⰵⰿ ⰳⰰⱀⱁⰽ ⰵⱅⱁ ⱑⱄⱅ ⰸⰻⰿⰰ ⰿⰻⱃⱁ ⰻ ⱁⱅⱌ ⱅⱁⰿⰰ ⱆⱈⱁ ⱆⱄⱅⰰ ⱃⰻⰱⰰ ⰽⱁⰲ ⱂⱄⰰⰾⱁⰿ ⰽⱄⰵⱀⰻⰹⰰ ⰳⱃⰰⰴ ⰸ ⱃ ⱄⰵⰿⰺⰰ
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -249,7 +249,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stol dub vo so ko son pes denj mjod byk trg o  zj a rabota Gora GORA konj koniga ščit ězda jezyk juže jug jabloko
+  → gora stol dub vo so ko son pes denj mjod byk trg o  zj 1 rabota Gora GORA konj koniga ščit ězda jezyk juže jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub vo so ko son objaviti konj denj pjat o  moja ljubov knez ruka jezyk njiva džak ščit Dub DUB podjezd město jezyk tvoju jabloko ljudi čud dzvězda džem ganok eto ěst zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -268,7 +268,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn-PL 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stoł dąb wo so ko son pes deń miod byk torg o  zj a rabota Gora GORA koń koniga szcit iezda język jąże jug jabłoko
+  → gora stoł dąb wo so ko son pes deń miod byk torg o  zj 1 rabota Gora GORA koń koniga szcit iezda język jąże jug jabłoko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub wo so ko son objawiti koń deń piať o  moja lubow knęź rąka jezyk niwa dziak szczit Dub DUB podjezd miesto język twoją jabłoko ludi ciud dzwiezda dżem ganok eto iesť zima miro i oťc toma ucho usta ryba kow psałom ksenija grad ź ŕ semia
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -287,7 +287,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn-x-ascii 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stol dub vo so ko son pes denj mjod byk trg o  zj a rabota Gora GORA konj koniga szczit jezda jezyk juzse jug jabloko
+  → gora stol dub vo so ko son pes denj mjod byk trg o  zj 1 rabota Gora GORA konj koniga szczit jezda jezyk juzse jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub vo so ko son objaviti konj denj pjat o  moja ljubov knez ruka jezyk njiva dzsak szczit Dub DUB podjezd mjesto jezyk tvoju jabloko ljudi czud dzvjezda dzsem ganok eto jest zima miro i otc toma uho usta ryba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -306,7 +306,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn-x-etymolog 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stol dųb vȯ sȯ kȯ sȯn pės dėnj mjod byk trg ȯ  zj a rabota Gora GORA konj kȯniga šćit ězda język jųže jug jablȯko
+  → gora stol dųb vȯ sȯ kȯ sȯn pės dėnj mjod byk trg ȯ  zj 1 rabota Gora GORA konj kȯniga šćit ězda język jųže jug jablȯko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub vȯ sȯ kȯ sȯn objaviti konj denj pjat́ ȯ  moja ljubov knęź rųka jezyk njiva đak ščit Dub DUB podjezd město język tvojų jabloko ljud́i ćud dzvězda džem ganok eto ěst́ zima miro i ot́c toma uho usta ryba kov psalom ksenija gråd ź ŕ semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -325,7 +325,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn-x-northern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stol dub vo so ko son pes deń miod byk torg o  zj a rabota Gora GORA koń koniga ščit iezda jazyk juže jug jabloko
+  → gora stol dub vo so ko son pes deń miod byk torg o  zj 1 rabota Gora GORA koń koniga ščit iezda jazyk juže jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub vo so ko son objaviti koń deń piať o  moja liubov kniaź ruka jezyk niiva džak ščit Dub DUB podjezd miesto jazyk tvoju jabloko liudii čud dzviezda džem ganok eto iesť zima miro i oťc toma ucho usta ryba kov psalom ksenija grod ź ŕ semia
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -344,7 +344,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn-x-sloviant 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stol dub vo so ko son pes denj mjod bik trg o  zj a rabota Gora GORA konj koniga ščit ezda jezik juže jug jabloko
+  → gora stol dub vo so ko son pes denj mjod bik trg o  zj 1 rabota Gora GORA konj koniga ščit ezda jezik juže jug jabloko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub vo so ko son objaviti konj denj pjat o  moja ljubov knez ruka jezik njiva džak ščit Dub DUB podjezd mesto jezik tvoju jabloko ljudi čud dzvezda džem ganok eto est zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -363,7 +363,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-Latn-x-southern 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gora stol dub vă să kă săn pes denj mjod bik trg ă  zj a rabota Gora GORA konj kăniga šćit ězda jezik juže jug jablăko
+  → gora stol dub vă să kă săn pes denj mjod bik trg ă  zj 1 rabota Gora GORA konj kăniga šćit ězda jezik juže jug jablăko
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub vă să kă săn objaviti konj denj pjat ă  moja ljubov knez ruka jezik njiva đak štit Dub DUB podjezd město jezik tvoju jabloko ljudi ćud dzvězda džem ganok eto ěst zima miro i otc toma uho usta riba kov psalom ksenija grad z r semja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ
@@ -382,7 +382,7 @@ digits and punctuation: God 2026, 19 knig; 7. A1 «da» — ne!
 
 exports[`modes golden forgiving isv-x-fonipa 1`] = `
 "glagolitic: ⰳⱁⱃⰰ ⱄⱅⱁⰾⱏ ⰴⱘⰱⱏ ⰲⱏ ⱄⱏ ⰽⱏ ⱄⱏⱀⱏ ⱂⱐⱄⱏ ⰴⱐⱀⱐ ⰿⱖⰴⱏ ⰱⱐⰹⰽⱏ ⱅⱏⱃⰳⱏ ⱏ ⱐ ⰸⰺ҃ ⰰ҃ ⱃⰰⰱⱁⱅⰰ Ⰳⱁⱃⰰ ⰃⰑⰓⰀ ⰽⱁⱀⱐ ⰽⱏⱀⰻⰳⰰ ⱎⱋⰻⱅⱏ ⱑⰸⰴⰰ ⱗⰸⱏⰹⰽⱏ ⱙⰶⰵ ⱓⰳⱏ ⱝⰱⰾⱏⰽⱁ
-  → gɔra stɔɫ dʊb və sə kə sən pɜs dɜɲ mjɔd bɪk tərg ə  zj a rabɔta gɔra gɔra kɔɲ kəniga ɕt͡ɕit jɛzda jæzɪk jʊʒɛ jug jabɫəkɔ
+  → gɔra stɔɫ dʊb və sə kə sən pɜs dɜɲ mjɔd bɪk tərg ə  zj 1 rabɔta gɔra gɔra kɔɲ kəniga ɕt͡ɕit jɛzda jæzɪk jʊʒɛ jug jabɫəkɔ
 cyrillic: дубъ въ съ къ сънъ объявити конь день пять ъ ь моя любов кнѧзь рѫка ѥзык њива ђак щит Дубъ ДУБЪ подъѥзд мѣсто ѩзык твоѭ ꙗблоко людьи ћуд ѕвѣзда џем ґанок это єсть ꙁима мѵро ѷ ѡтьц ѳома ѹхо ȣста рꙑба коў ѱалом ѯения грӑд зь рь семья
   → dub və sə kə sən ɔbjaviti kɔɲ dɛɲ pjatʲ ə  mɔja ʎubɔv kɲæzʲ rʊka jɛzɪk ɲiva d͡ʑak ʃt͡ʃit dub dub pɔdjɛzd mjɛstɔ jæzɪk tvɔjʊ jabɫɔkɔ ʎudʲi t͡ɕud d͡zvjɛzda d͡ʒɛm ganɔk ɛtɔ jɛsʲtʲ zima mirɔ i ɔtʲt͡s tɔma uxɔ usta rɪba kɔv psaɫɔm ksɛnija grɒd zʲ rʲ sɛmja
 latin with yers: dųbъ dǫbъ avъtomatičьnǫ vъ konь dьnь sъnъ

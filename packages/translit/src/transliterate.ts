@@ -2,6 +2,7 @@ import type { FlavorisationBCP47Code } from './constants/index.ts';
 import { flavorize, type Flavour } from './flavorize.ts';
 import {
   fromGlagoliticNumerals,
+  GLAGOLITIC_NUMERAL_STYLES,
   toGlagoliticNumerals,
 } from './glagolitic-numerals.ts';
 import {
@@ -111,7 +112,12 @@ function toOptions(
 }
 
 function checkOptions(options: NormalizeOptions): void {
-  const { input = 'auto', finalYer = 'auto', yers = 'auto' } = options;
+  const {
+    input = 'auto',
+    finalYer = 'auto',
+    yers = 'auto',
+    glagoliticNumerals = false,
+  } = options;
   if (!INPUTS.includes(input)) {
     throw new TypeError(`Unsupported input: ${input}`);
   }
@@ -120,6 +126,14 @@ function checkOptions(options: NormalizeOptions): void {
   }
   if (!YERS.includes(yers)) {
     throw new TypeError(`Unsupported yers: ${yers}`);
+  }
+  if (
+    typeof glagoliticNumerals !== 'boolean' &&
+    !Object.keys(GLAGOLITIC_NUMERAL_STYLES).includes(glagoliticNumerals)
+  ) {
+    throw new TypeError(
+      `Unsupported glagoliticNumerals: ${glagoliticNumerals}`,
+    );
   }
 }
 
@@ -144,14 +158,16 @@ export function transliterate(
 
   // Numbers are read and written around the words, not among them: a number
   // read here is digits from now on, which no later phase touches.
-  const numerals = options.alphabeticalNumerals === true;
+  const { glagoliticNumerals = false } = options;
+  const numerals = glagoliticNumerals === true ? 'titlo' : glagoliticNumerals;
   const readsGlagolitic = options.input !== 'isv-x-etymolog';
   const normalized = text.normalize('NFC');
-  const withNumbers =
-    numerals && readsGlagolitic
-      ? fromGlagoliticNumerals(normalized)
-      : normalized;
-  const source = hasGlagolitic(withNumbers)
+  // without the option only the unmistakable numbers are read
+  const withNumbers = readsGlagolitic
+    ? fromGlagoliticNumerals(normalized, !numerals)
+    : normalized;
+  // asked of the text as it came: a text of numbers alone is Glagolitic too
+  const source = hasGlagolitic(normalized)
     ? glagToLatnMarks(withNumbers)
     : withNumbers;
 
@@ -171,5 +187,7 @@ export function transliterate(
 
   if (script.kind !== 'glagolitic') return result;
 
-  return latnToGlagMarks(numerals ? toGlagoliticNumerals(result) : result);
+  return latnToGlagMarks(
+    numerals ? toGlagoliticNumerals(result, numerals) : result,
+  );
 }

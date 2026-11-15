@@ -1,4 +1,5 @@
 import { createReplacer } from './createReplacer.ts';
+import type { GlagoliticNumeralStyle } from './glagolitic-numerals.ts';
 import { hasGlagolitic } from './glagolitic-punctuation.ts';
 import { readHavlik } from './havlik.ts';
 import {
@@ -425,19 +426,28 @@ export interface NormalizeOptions {
   finalYer?: 'auto' | 'drop' | 'keep';
 
   /**
-   * Whether Glagolitic letters stand for numbers. A number is a Glagolitic word
-   * with a titlo (U+0483) at its end: `ⰸⰺ҃` is 19. Only 1 to 999; anything else
-   * stays as it is written.
+   * Whether Glagolitic letters stand for numbers, and how a number is marked.
+   * Only 1 to 999 999; anything else stays as it is written. `ⱍ` is 1000 and
+   * a number before it counts the thousands, so 10 000 is `ⰺⱍ`.
    *
-   * - `false`: the titlo is dropped and the letters are read as a word; digits
-   *   are never touched.
-   * - `true`: such a word is read as its number, and a Glagolitic target gets
-   *   its numbers from 1 to 999 written in letters. `input: 'isv-x-etymolog'`
-   *   reads no Glagolitic, numbers included.
+   * - `false`: digits are never touched. A Glagolitic word with a titlo over
+   *   every letter is still read as its number (`ⰸ҃ⰺ҃` is 19, `ⰶ҃` is 7), since
+   *   it can be nothing else; any other titlo is dropped and the letters are
+   *   a word, and a dot is a comma.
+   * - `'titlo'`: 19 is `ⰸ҃ⰺ҃`, a titlo (U+0483) over every letter.
+   * - `'dots'`: 19 is `·ⰸⰺ·`.
+   * - `'dots-titlo'`: 19 is `·ⰸ҃ⰺ҃·`.
+   * - `true`: the same as `'titlo'`.
+   *
+   * The style is for writing to a Glagolitic target. With any of them,
+   * reading accepts all three, and also a single titlo at the end (`ⰸⰺ҃`).
+   * The letters `ⱎ`, `ⱏ`, `ⱑ`, `ⱓ` are read as 2000 to 5000. A titlo over
+   * some letters only (`ⰿ҃ⱄ`) is an abbreviation, never a number.
+   * `input: 'isv-x-etymolog'` reads no Glagolitic, numbers included.
    *
    * @default false
    */
-  alphabeticalNumerals?: boolean;
+  glagoliticNumerals?: boolean | GlagoliticNumeralStyle;
 
   /**
    * How the yers of a Cyrillic or Latin word are read.
