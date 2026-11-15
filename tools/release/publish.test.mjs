@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { test } from 'node:test';
 
-import { parseManifest, planPublish, planRunner, publishAll, render } from './publish.mjs';
+import { parseManifest, planFlag, planPublish, planRunner, publishAll, render } from './publish.mjs';
 import { chooseTag, createSummaryRelease, planSummaryRelease, releaseBody, releaseTitle } from './summary.mjs';
 
 const manifest = [
@@ -228,6 +228,21 @@ test('plan mode does not spawn a write, nor a read with a flag added', () => {
   assert.equal(skipped[1], "gh release create release-1 -R o/r --title 'it'\\''s out'");
   plan('npm', ['view', 'x@1.0.0', 'version']);
   assert.deepEqual(calls, ['npm view x@1.0.0 version']);
+});
+
+test('plan mode refuses a read that is not on the list instead of answering "absent"', () => {
+  const { calls, run } = fake(() => ({}));
+  const plan = planRunner(run, []);
+  assert.throws(() => plan('gh', ['release', 'view', 'x', '-R', 'o/r', '--json', 'tagName'], 'quiet'), /not an allowed read/);
+  assert.throws(() => plan('npm', ['view', 'x@1', 'version', '--json'], 'quiet'), /not an allowed read/);
+  assert.deepEqual(calls, []);
+});
+
+test('only --plan is accepted as an argument', () => {
+  assert.equal(planFlag([]), false);
+  assert.equal(planFlag(['--plan']), true);
+  assert.throws(() => planFlag(['--dry-run']), /unknown argument: --dry-run/);
+  assert.throws(() => planFlag(['--plan', 'x']), /unknown argument: x/);
 });
 
 test('plan: both absent', () => {

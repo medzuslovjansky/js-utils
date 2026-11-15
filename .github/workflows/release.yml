@@ -65,9 +65,10 @@ jobs:
           retention-days: 30
 
       # Dry run only, after the upload so that the artifact stays as packed:
-      # the scripts of the Publish job in plan mode, on the same files. They make
-      # the same reads (npm view, gh release view, gh api) and print the writes
-      # instead of making them. The token here can only read anyway.
+      # the scripts of the Publish job in plan mode, on the packed output. They
+      # make the same reads (npm view, gh release view, gh api) and print the
+      # writes instead of making them. The token here can only read anyway, but
+      # unlike the install and build steps above this one has it in its env.
       - name: Plan the publish job
         if: inputs.dry-run
         working-directory: ${{ runner.temp }}/release

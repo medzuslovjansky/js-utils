@@ -10,6 +10,7 @@
 //
 // Node builtins only: the Publish job installs nothing.
 import { spawnSync } from 'node:child_process';
+import { randomUUID } from 'node:crypto';
 import { appendFileSync, readFileSync } from 'node:fs';
 
 /**
@@ -67,13 +68,16 @@ export function render(cmd, args) {
 }
 
 /**
- * Wraps `run` for plan mode: spawns only what READ_ONLY allows, and for
- * anything else pushes the rendered command onto `skipped` and answers as if
- * it had succeeded, so that the plan goes on to the next step.
+ * Wraps `run` for plan mode: spawns only what READ_ONLY allows. A write is
+ * pushed onto `skipped` and answered as if it had succeeded, so that the plan
+ * goes on to the next step; a read that is not allowed throws.
  */
 export function planRunner(run, skipped) {
   return (cmd, args, mode) => {
     if (allowed([cmd, ...args])) return run(cmd, args, mode);
+    // A read that is not on the list must not be answered with an empty success:
+    // the plan would then say "absent" for everything. Writes run with mode 'inherit'.
+    if (mode && mode !== 'inherit') throw new Error(`plan mode: ${render(cmd, args)} is not an allowed read`);
     skipped.push(render(cmd, args));
     return { ok: true, stdout: '' };
   };
@@ -130,7 +134,11 @@ export function planPublish(entries, { env, run, summary }) {
 
 /** To the step summary of the job, or to stdout outside Actions; `echo` writes to stdout as well. */
 export function stepSummary(text, echo = false) {
-  if (echo || !process.env.GITHUB_STEP_SUMMARY) process.stdout.write(text);
+  // Release notes are echoed to the log: a line of them starting with `::` must not run as a workflow command.
+  if (echo && process.env.GITHUB_ACTIONS) {
+    const token = randomUUID();
+    process.stdout.write(`::stop-commands::${token}\n${text}\n::${token}::\n`);
+  } else if (echo || !process.env.GITHUB_STEP_SUMMARY) process.stdout.write(text);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, text);
 }
 
@@ -141,10 +149,18 @@ export function fail(error) {
   process.exit(1);
 }
 
+/** True for `--plan`; any other argument is an error, so that a typo cannot start a real run. */
+export function planFlag(argv) {
+  const extra = argv.filter((a) => a !== '--plan');
+  if (extra.length) throw new Error(`unknown argument: ${extra.join(' ')}`);
+  return argv.length > 0;
+}
+
 if (import.meta.main) {
   try {
+    const plan = planFlag(process.argv.slice(2));
     const entries = parseManifest(readFileSync('manifest.tsv', 'utf8'));
-    if (process.argv.includes('--plan')) planPublish(entries, { env: process.env, run, summary: planOutput });
+    if (plan) planPublish(entries, { env: process.env, run, summary: planOutput });
     else publishAll(entries, { env: process.env, run, summary: stepSummary });
   } catch (error) {
     fail(error);

@@ -11,7 +11,7 @@
 // Node builtins only: the Publish job installs nothing.
 import { readFileSync, writeFileSync } from 'node:fs';
 
-import { commandList, fail, parseManifest, planOutput, planRunner, run } from './publish.mjs';
+import { commandList, fail, parseManifest, planFlag, planOutput, planRunner, run } from './publish.mjs';
 
 /**
  * The tag for this run, or null when one of `existing` ("<tag> <commit sha>"
@@ -78,6 +78,7 @@ export function planSummaryRelease(entries, { env, run, date, notes, summary }) 
 
 if (import.meta.main) {
   try {
+    const plan = planFlag(process.argv.slice(2));
     const entries = parseManifest(readFileSync('manifest.tsv', 'utf8'));
     const options = {
       env: process.env,
@@ -85,7 +86,7 @@ if (import.meta.main) {
       date: new Date().toISOString().slice(0, 10),
       notes: (file) => readFileSync(file, 'utf8'),
     };
-    if (process.argv.includes('--plan')) planSummaryRelease(entries, { ...options, summary: planOutput });
+    if (plan) planSummaryRelease(entries, { ...options, summary: planOutput });
     else createSummaryRelease(entries, { ...options, write: writeFileSync });
   } catch (error) {
     fail(error);
