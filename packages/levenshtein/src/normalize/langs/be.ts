@@ -12,8 +12,8 @@ export const be: readonly Step[] = [
     apply: (word) =>
       word.replace(/дз(?=[еёіюяь])/g, 'д').replace(/ц(?=[еёіюяь])/g, 'т'),
   },
-  // The apostrophe is jotation, not a segment — drop it AFTER be-je consumed it as
-  // context; the iotated vowel supplies the glide itself (сям'я→sjamja).
+  // The apostrophe only marks jotation. Drop it after be-je has used it as context;
+  // the iotated vowel supplies the glide (сям'я→sjamja).
   mapStep('be-letters', { ў: 'v', '’': '', "'": '' }),
   cyrillicBase,
 ];

@@ -33,7 +33,7 @@ Two limits of the metrics:
 - A rule that makes a shared suffix match better (infinitive -t/-ти → ti) lowers every
   verb-verb distance, the negatives included, so gold AUC falls even when cognates get closer.
 
-## Adopted (bench: baseline after the sibling-port fixes → final)
+## Adopted (bench: before → after)
 
 | change                                                                    | example                                       | effect                                                                                                      |
 | ------------------------------------------------------------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
@@ -45,7 +45,7 @@ Two limits of the metrics:
 | `pl-ie`: labial/velar/l + ie → e                                          | `bieda→beda`                                  | silver pl −0.008 (199 / 28); gold pl 0.951 kept                                                             |
 | ISV `ę` kept, `ę↔e`/`ę↔a` = `etymVowel`                                   | `męso` ~ `meso`/`maso`/`мясо`                 | silver ru/be/uk −0.004/−0.005/−0.005, South +0.001..0.002                                                   |
 
-Ported from the sibling copy before tuning: `ru-hushers-soft-sign` (ночь→noč),
+Also adopted, without bench numbers: `ru-hushers-soft-sign` (ночь→noč),
 `ru-hushers-glide` (шёпот→šopot), `be-je`/`be-letters` apostrophe and ў (сям'я→sjamja),
 `hr-jat` stop-list (nije, čije, pije, pijem, piješ, piju), `hr-short-jat` (mjesto→město;
 objekt→oběkt accepted), weight pair `i↔j`.

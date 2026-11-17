@@ -11,8 +11,8 @@ export const ru: readonly Step[] = [
   {
     name: 'ru-hushers-glide',
     // after hushers the iotated ё/ю carry no glide: шёпот→šopot, жюри→žuri,
-    // парашют→parašut. (я after hushers is not written; е is already safe — ru-je
-    // fires only after vowels.) Replace with plain о/у and let the base finish.
+    // парашют→parašut. я is not written after hushers, and ru-je fires only after
+    // vowels, so е needs nothing here.
     apply: (word) =>
       word.replace(/(?<=[жчшщ])ё/g, 'о').replace(/(?<=[жчшщ])ю/g, 'у'),
   },

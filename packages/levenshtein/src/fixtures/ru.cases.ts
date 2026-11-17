@@ -24,13 +24,13 @@ export const cases: LangFixtures = {
     { in: 'конь', out: 'konj', covers: 'cyrillic-base' },
     { in: 'судья', out: 'sudja', covers: 'cyrillic-base' },
     { in: 'съезд', out: 'sjezd', covers: 'cyrillic-base' },
-    // ё after ф is a genuinely soft consonant ([ʂɐˈfʲɵr]) — the husher rules must not touch it
+    // ё after ф is a genuinely soft consonant ([ʂɐˈfʲɵr]); the husher rules must not touch it
     { in: 'шофёр', out: 'šofjor', covers: 'cyrillic-base' },
     { in: 'щука', out: 'ščuka', covers: 'cyrillic-base' },
     // ж ч ш щ are unpaired for palatalization: final ь after them is pure orthography
     { in: 'ночь', out: 'noč', covers: 'ru-hushers-soft-sign' },
     { in: 'ешь', out: 'ješ', covers: 'ru-hushers-soft-sign' },
-    // guards: ь before an iotated vowel must SURVIVE to feed the base composites
+    // ь before an iotated vowel must survive to feed the base composites
     { in: 'ночью', out: 'nočju', covers: 'ru-hushers-soft-sign' },
     { in: 'чьи', out: 'čji', covers: 'ru-hushers-soft-sign' },
     // after hushers the iotated ё/ю carry no glide
