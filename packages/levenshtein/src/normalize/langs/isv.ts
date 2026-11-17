@@ -14,7 +14,9 @@ const soften = mapStep('isv-soften', {
 
 /**
  * Folds etymological/extended ISV orthography into the standard base
- * (a–z without q/w/x, plus č š ž ě). Extended graphemes never reach the comparison.
+ * (a–z without q/w/x, plus č š ž ě). Exception: the etymological vowels å and ę
+ * stay as graphemes, because their national reflexes split (å: hr krava / pl krowa,
+ * ę: bg meso / cs maso / ru мясо); weights.ts makes them cheap to both reflexes.
  */
 export const isv: readonly Step[] = [
   // rare "Jan"/Slovianto letters, cf. deJanizator() chains cut down to the standard base
@@ -29,8 +31,6 @@ export const isv: readonly Step[] = [
     ṙ: 'r',
   }),
   mapStep('isv-etymology', {
-    å: 'a',
-    ę: 'e',
     ų: 'u',
     ȯ: 'o',
     ė: 'e',

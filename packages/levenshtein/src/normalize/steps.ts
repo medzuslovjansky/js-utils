@@ -31,3 +31,22 @@ export function mapStep(
 export function regexStep(name: string, re: RegExp, replacement: string): Step {
   return { name, apply: (word) => word.replace(re, replacement) };
 }
+
+/**
+ * Dictionary stress/tone marks (grave, acute, circumflex, tilde, macron, double
+ * grave, inverted breve, sl dot-below ẹ ọ) on a vowel or syllabic r:
+ * бо́гом→богом, rȉjeka→rijeka.
+ * Only marks after a vowel/r are dropped, so letters that are themselves
+ * base+mark survive: hr ć, mk ѓ ќ, й (breve), ё (diaeresis), š (caron).
+ */
+export const prosody: Step = {
+  name: 'prosody',
+  apply: (word) =>
+    word
+      .normalize('NFD')
+      .replace(
+        /(?<=[aeiouyrаеиоуыэюяіїєѣръ])[\u0300-\u0304\u030f\u0311\u0323]+/g,
+        '',
+      )
+      .normalize('NFC'),
+};

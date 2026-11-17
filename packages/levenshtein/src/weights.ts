@@ -7,12 +7,14 @@ export const WEIGHTS = {
   identical: 0,
   /** Same letter ± diacritic: c↔č, s↔š, z↔ž, e↔ě. */
   diacriticFold: 0.5,
-  /** Vowel reduction: o↔u, i↔y, e↔i, i↔ě. */
+  /** Vowel reduction / vocalic-glide kinship: o↔u, i↔y, e↔i, i↔ě, i↔j. */
   vowelReduction: 0.5,
   /** Voiced↔voiceless: b↔p, d↔t, v↔f, z↔s, g↔k, ž↔š. */
   voicing: 0.5,
   /** Spirantization g↔h (cs/sk/uk) — slightly cheaper than the other bins. */
   ghSpirantization: 0.3,
+  /** ISV etymological vowels and their split reflexes: å↔a, å↔o, ę↔e, ę↔a. */
+  etymVowel: 0.25,
   /** Any other substitution. */
   substitute: 1,
   /** Insertion or deletion of one grapheme. */
@@ -36,6 +38,7 @@ export const PHONETIC_PAIRS: ReadonlyArray<
   ['i', 'y', 'vowelReduction'],
   ['e', 'i', 'vowelReduction'],
   ['i', 'ě', 'vowelReduction'],
+  ['i', 'j', 'vowelReduction'],
   ['b', 'p', 'voicing'],
   ['d', 't', 'voicing'],
   ['v', 'f', 'voicing'],
@@ -43,4 +46,8 @@ export const PHONETIC_PAIRS: ReadonlyArray<
   ['g', 'k', 'voicing'],
   ['ž', 'š', 'voicing'],
   ['g', 'h', 'ghSpirantization'],
+  ['å', 'a', 'etymVowel'],
+  ['å', 'o', 'etymVowel'],
+  ['ę', 'e', 'etymVowel'],
+  ['ę', 'a', 'etymVowel'],
 ];

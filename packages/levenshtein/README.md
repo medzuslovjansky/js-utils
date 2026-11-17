@@ -14,7 +14,7 @@ Supported languages: `ru be uk pl cs sk sl hr sr mk bg`. Pure deterministic func
 
 ## Pipeline
 
-1. **Normalization.** Both words are normalized to a canonical alphabet (lowercase standard ISV Latin: `a–z` without q/w/x, plus `č š ž ě`). The national word passes through language-specific rules (`src/normalize/langs/<lang>.ts`); the ISV word folds etymological characters (`å ę ų ȯ ė ć đ ď ľ ń ŕ ś ť ź`) to standard base letters. Palatalization is mapped to a j-glide (`конь→konj`, `koń→konj`).
+1. **Normalization.** Both words are normalized to a canonical alphabet (lowercase standard ISV Latin: `a–z` without q/w/x, plus `č š ž ě`). The national word passes through language-specific rules (`src/normalize/langs/<lang>.ts`); dictionary stress and tone marks (`бо́гом`, `rȉjeka`) are dropped first. The ISV word folds etymological characters (`ų ȯ ė ć đ ď ľ ń ŕ ś ť ź`) to standard base letters, except `å` and `ę`: they stay as their own graphemes and are cheap to both regional reflexes (`kråva` ~ `krava`/`krowa`, `męso` ~ `meso`/`maso`). Palatalization is mapped to a j-glide (`конь→konj`, `koń→konj`).
 2. **Weighted distance.** Normalized words are segmented into graphemes (e.g. `dž` as single unit) and compared using weighted Levenshtein distance, where phonetically close pairs (`s↔š`, `o↔u`, `b↔p`, `g↔h`) incur reduced substitution costs.
 3. **Length normalization.** Distance is scaled by average grapheme length:
 
@@ -41,7 +41,7 @@ All pipeline steps require corresponding fixture coverage verified by `src/__tes
 
 ## Tuning Candidates
 
-See [docs/levenshtein-tuning.md](../../docs/levenshtein-tuning.md) for known edge cases and potential refinements.
+See [docs/levenshtein-tuning.md](../../docs/levenshtein-tuning.md) for open issues, and rejected ideas with the numbers that rejected them.
 
 ## Scripts
 

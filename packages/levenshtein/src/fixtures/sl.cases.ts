@@ -3,8 +3,10 @@ import { THRESHOLDS } from './types.ts';
 
 export const cases: LangFixtures = {
   translit: [
-    { in: 'góra', out: 'gora', covers: 'sl-accents' },
-    { in: 'svét', out: 'svet', covers: 'sl-accents' },
+    { in: 'góra', out: 'gora', covers: 'prosody' },
+    { in: 'svét', out: 'svet', covers: 'prosody' },
+    { in: 'jẹ̑zero', out: 'jezero', covers: 'prosody' },
+    { in: 'vŕba', out: 'vrba', covers: 'prosody' },
   ],
   metric: [
     { isv: 'gora', other: 'gora', max: THRESHOLDS.LOW },

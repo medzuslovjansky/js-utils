@@ -1,4 +1,4 @@
-import { mapStep, type Step } from '../steps.ts';
+import { mapStep, regexStep, type Step } from '../steps.ts';
 
 const SOFT: Readonly<Record<string, string>> = {
   c: 'tj',
@@ -19,6 +19,9 @@ const palatals = mapStep('pl-soften', {
 export const pl: readonly Step[] = [
   // rz→rj honors the j-glide principle and matches ISV rj (morze→morje);
   // digraphs run first so sz is consumed before the si-softening rule can misfire
+  // after labials/velars/l the i of ie only marks softness, as ru е does
+  // (bieda→beda like беда→beda); c s z n dz are left to pl-soften (życie→žytje)
+  regexStep('pl-ie', /(?<=[bpmwfkgl])ie/g, 'e'),
   mapStep('pl-digraphs', { cz: 'č', sz: 'š', rz: 'rj', ch: 'h', dż: 'dž' }),
   {
     name: 'pl-soften',

@@ -49,7 +49,8 @@ export const PIPELINES: Record<NormalizeLang, readonly Step[]> = {
 
 /**
  * Bring a word to the canonical comparison alphabet: lowercase standard ISV Latin
- * (a–z without q/w/x, plus č š ž ě). NFC, lowercasing, trimming and whitespace
+ * (a–z without q/w/x, plus č š ž ě, plus the etymological vowels å ę kept on the
+ * ISV side and produced by ru/uk pleophony). NFC, lowercasing, trimming and whitespace
  * collapsing are language-independent invariants applied before the pipeline;
  * the named steps carry all language knowledge.
  */

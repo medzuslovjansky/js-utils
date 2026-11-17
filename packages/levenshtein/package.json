@@ -1,6 +1,6 @@
 {
   "name": "@interslavic/levenshtein",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Approximate intelligibility metric: how recognizable an Interslavic lemma is to a speaker of a specific Slavic language",
   "main": "dist/index.js",

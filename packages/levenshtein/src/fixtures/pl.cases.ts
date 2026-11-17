@@ -3,6 +3,10 @@ import { THRESHOLDS } from './types.ts';
 
 export const cases: LangFixtures = {
   translit: [
+    // after labials/velars/l the i of ie only marks softness, as ru е does
+    // (bieda→beda like беда→beda); c/s/z/n/dz are left to pl-soften (życie→žytje)
+    { in: 'bieda', out: 'beda', covers: 'pl-ie' },
+    { in: 'wiek', out: 'vek', covers: 'pl-ie' },
     { in: 'morze', out: 'morje', covers: 'pl-digraphs' },
     { in: 'szkoła', out: 'škola', covers: 'pl-digraphs' },
     { in: 'czas', out: 'čas', covers: 'pl-digraphs' },
@@ -16,6 +20,8 @@ export const cases: LangFixtures = {
     { in: 'wąs', out: 'vus', covers: 'pl-letters' },
   ],
   metric: [
+    { isv: 'běda', other: 'bieda', max: THRESHOLDS.LOW },
+    { isv: 'kråva', other: 'krowa', max: THRESHOLDS.LOW },
     { isv: 'morje', other: 'morze', max: THRESHOLDS.LOW },
     { isv: 'dųb', other: 'dąb', max: THRESHOLDS.LOW },
     { isv: 'byti', other: 'być', max: THRESHOLDS.LOW },

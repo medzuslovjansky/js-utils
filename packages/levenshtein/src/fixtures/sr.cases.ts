@@ -3,6 +3,7 @@ import { THRESHOLDS } from './types.ts';
 
 export const cases: LangFixtures = {
   translit: [
+    { in: 'ри̏јека', out: 'rijeka', covers: 'prosody' },
     { in: 'ноћ', out: 'noč', covers: 'sr-letters' },
     { in: 'међа', out: 'medža', covers: 'sr-letters' },
     { in: 'љубав', out: 'ljubav', covers: 'sr-letters' },
