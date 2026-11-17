@@ -1,5 +1,30 @@
 import { mapStep, type Step } from '../steps.ts';
 
+const PLEOPHONY: Readonly<Record<string, string>> = {
+  оро: 'рå',
+  оло: 'лå',
+  ере: 'рě',
+  ерё: 'рě',
+};
+
+/**
+ * East Slavic pleophony (ru/uk) between consonants folds to the ISV metathesis
+ * reflex: город→gråd, голова→glåva, берег→brěg, берёза→brěza. å is kept as its
+ * own grapheme (cheap to both a and o, see weights.ts), so the folded word still
+ * sits close to pl gród and hr grad. еле is left out: loans and non-pleophonic
+ * words dominate it (телефон, зелёный). Known cost, accepted by the bench: loans
+ * with оро/оло/ере (корона→kråna, интерес→intrěs) and inherited *CerC with a
+ * genuine vowel (череп→črěp vs ISV čerep).
+ */
+export const pleophony: Step = {
+  name: 'pleophony',
+  apply: (word) =>
+    word.replace(
+      /(?<=[бвгджзклмнпрстфхцчшщ])(?:оро|оло|ер[её])(?=[бвгджзклмнпрстфхцчшщ])/g,
+      (m) => PLEOPHONY[m]!,
+    ),
+};
+
 /**
  * Shared Cyrillic → ISV-Latin base for ru/be/uk/sr/mk/bg. Language-specific steps run
  * BEFORE this one and consume the letters whose reading diverges (uk и→y, bg ъ→o, …).

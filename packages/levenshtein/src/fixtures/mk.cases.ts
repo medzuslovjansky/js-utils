@@ -3,6 +3,8 @@ import { THRESHOLDS } from './types.ts';
 
 export const cases: LangFixtures = {
   translit: [
+    // ѓ is г + acute in NFD, but the acute is a letter there: only vowel marks go
+    { in: 'ме́ѓу', out: 'medžu', covers: 'prosody' },
     { in: 'ноќ', out: 'noč', covers: 'mk-letters' },
     { in: 'меѓу', out: 'medžu', covers: 'mk-letters' },
     { in: 'ѕвезда', out: 'zvezda', covers: 'mk-letters' },
