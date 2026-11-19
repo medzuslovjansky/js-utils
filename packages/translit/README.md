@@ -51,13 +51,13 @@ transliterate('dьržati', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // dŕža
 transliterate('konь', 'isv-Latn-x-etymolog', { yers: 'havlik' }); // konj
 ```
 
-Glagolitic writes numbers from 1 to 999 999 in letters, with `ⱍ` for the thousand and the count of thousands before it. Writing them is off unless asked for; the value says how a number is marked (`true` is `'titlo'`, a titlo over every letter), and with the option on every mark is read whichever is chosen. A titlo over every letter is read as a number even with the option off:
+Glagolitic writes numbers from 1 to 999 999 in capital letters, with `Ⱍ` for the thousand and the count of thousands before it. Writing them is off unless asked for; the value says how a number is marked (`true` is `'titlo'`, a titlo over every letter), and with the option on every mark is read whichever is chosen. A titlo over every letter is read as a number even with the option off:
 
 ```ts
-transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'titlo' }); // ⰸ҃ⰺ҃ ⰽⱀⰻⰳ
-transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'dots' }); // ·ⰸⰺ· ⰽⱀⰻⰳ
-transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'dots-titlo' }); // ·ⰸ҃ⰺ҃· ⰽⱀⰻⰳ
-transliterate('10000', 'isv-Glag', { glagoliticNumerals: 'dots' }); // ·ⰺⱍ·
+transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'titlo' }); // Ⰸ҃Ⰺ҃ ⰽⱀⰻⰳ
+transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'dots' }); // ·ⰈⰊ· ⰽⱀⰻⰳ
+transliterate('19 knig', 'isv-Glag', { glagoliticNumerals: 'dots-titlo' }); // ·Ⰸ҃Ⰺ҃· ⰽⱀⰻⰳ
+transliterate('10000', 'isv-Glag', { glagoliticNumerals: 'dots' }); // ·ⰊⰝ·
 transliterate('·ⰸⰺ· ⰽⱀⰻⰳ', 'isv-Latn', { glagoliticNumerals: true }); // 19 knig
 transliterate('ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn'); // 19 knig
 ```

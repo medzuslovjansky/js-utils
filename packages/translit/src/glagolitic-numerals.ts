@@ -13,11 +13,11 @@
  * This is its own pass over the text, either side of the word-by-word
  * pipeline: digits are not letters, so that pipeline never sees them.
  */
-const UNITS = [...'ⰰⰱⰲⰳⰴⰵⰶⰷⰸ'];
-const TENS = [...'ⰺⰻⰼⰽⰾⰿⱀⱁⱂ'];
-const HUNDREDS = [...'ⱃⱄⱅⱆⱇⱈⱉⱋⱌ'];
-const THOUSAND = 'ⱍ';
-const OLD_THOUSANDS = 'ⱎⱏⱑⱓ'; // 2000 to 5000, read but never written
+const UNITS = [...'ⰀⰁⰂⰃⰄⰅⰆⰇⰈ'];
+const TENS = [...'ⰊⰋⰌⰍⰎⰏⰐⰑⰒ'];
+const HUNDREDS = [...'ⰓⰔⰕⰖⰗⰘⰙⰛⰜ'];
+const THOUSAND = 'Ⱍ';
+const OLD_THOUSANDS = 'ⰞⰟⰡⰣ'; // 2000 to 5000, read but never written
 const TITLO = '҃';
 
 export type GlagoliticNumeralStyle = 'titlo' | 'dots' | 'dots-titlo';
@@ -122,7 +122,7 @@ export function fromGlagoliticNumerals(text: string, strict = false): string {
       titlos === letters.length ||
       (!strict && (titlos === 0 || (titlos === 1 && bare.endsWith(TITLO))));
     const value = marked
-      ? fromLetters(letters.toLowerCase().replaceAll('ⰹ', 'ⰺ'))
+      ? fromLetters(letters.toUpperCase().replaceAll('Ⰹ', 'Ⰺ'))
       : undefined;
 
     return value === undefined ? word : String(value);

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.2.1
+
+### Fixes
+
+- Write Glagolitic numerals in capital letters, in any text around them: a number is then told from a word by its case as well as by its marks. Reading is unchanged and takes either case
+
 ## 0.2.0
 
 `transliterate` now takes an options object, and yers are read differently, so this is a breaking minor for 0.x.
