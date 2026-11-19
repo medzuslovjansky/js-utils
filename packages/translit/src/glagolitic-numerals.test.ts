@@ -14,34 +14,34 @@ const on = { glagoliticNumerals: true } as const;
 // into the table: units Ⰰ–Ⰸ, tens Ⰺ–Ⱂ (not Ⰹ), hundreds Ⱃ–Ⱉ, Ⱋ, Ⱌ (not Ⱊ),
 // and Ⱍ for the thousand.
 const VALUES: [number, number][] = [
-  [1, 0x2c30],
-  [2, 0x2c31],
-  [3, 0x2c32],
-  [4, 0x2c33],
-  [5, 0x2c34],
-  [6, 0x2c35],
-  [7, 0x2c36],
-  [8, 0x2c37],
-  [9, 0x2c38],
-  [10, 0x2c3a],
-  [20, 0x2c3b],
-  [30, 0x2c3c],
-  [40, 0x2c3d],
-  [50, 0x2c3e],
-  [60, 0x2c3f],
-  [70, 0x2c40],
-  [80, 0x2c41],
-  [90, 0x2c42],
-  [100, 0x2c43],
-  [200, 0x2c44],
-  [300, 0x2c45],
-  [400, 0x2c46],
-  [500, 0x2c47],
-  [600, 0x2c48],
-  [700, 0x2c49],
-  [800, 0x2c4b],
-  [900, 0x2c4c],
-  [1000, 0x2c4d],
+  [1, 0x2c00],
+  [2, 0x2c01],
+  [3, 0x2c02],
+  [4, 0x2c03],
+  [5, 0x2c04],
+  [6, 0x2c05],
+  [7, 0x2c06],
+  [8, 0x2c07],
+  [9, 0x2c08],
+  [10, 0x2c0a],
+  [20, 0x2c0b],
+  [30, 0x2c0c],
+  [40, 0x2c0d],
+  [50, 0x2c0e],
+  [60, 0x2c0f],
+  [70, 0x2c10],
+  [80, 0x2c11],
+  [90, 0x2c12],
+  [100, 0x2c13],
+  [200, 0x2c14],
+  [300, 0x2c15],
+  [400, 0x2c16],
+  [500, 0x2c17],
+  [600, 0x2c18],
+  [700, 0x2c19],
+  [800, 0x2c1b],
+  [900, 0x2c1c],
+  [1000, 0x2c1d],
 ];
 
 // Hundreds, tens, units; 11 to 19 put the unit before the ten; a number
@@ -91,7 +91,10 @@ describe('Glagolitic numerals', () => {
 
   for (const [digits, letters] of NUMBERS) {
     test(`${digits} ↔ ${letters}`, () => {
-      assert.strictEqual(toGlagoliticNumerals(digits, 'dots'), `·${letters}·`);
+      assert.strictEqual(
+        toGlagoliticNumerals(digits, 'dots'),
+        `·${letters.toUpperCase()}·`,
+      );
       assert.strictEqual(fromGlagoliticNumerals(`·${letters}·`), digits);
     });
   }
@@ -102,7 +105,7 @@ describe('Glagolitic numerals', () => {
     // all of 1 to 9999, then a stride through the rest
     for (let n = 1; n <= 999_999; n += n < 9999 ? 1 : 997) {
       const glag = toGlagoliticNumerals(String(n));
-      assert.match(glag, /^([ⰰ-ⱟ]҃){1,7}$/u);
+      assert.match(glag, /^([Ⰰ-Ⱟ]҃){1,7}$/u);
       assert.strictEqual(fromGlagoliticNumerals(glag), String(n));
       seen.add(glag);
       count++;
@@ -111,9 +114,9 @@ describe('Glagolitic numerals', () => {
   });
 
   test('a number is marked by a titlo on every letter, by dots, or by both', () => {
-    assert.strictEqual(toGlagoliticNumerals('19', 'titlo'), 'ⰸ҃ⰺ҃');
-    assert.strictEqual(toGlagoliticNumerals('19', 'dots'), '·ⰸⰺ·');
-    assert.strictEqual(toGlagoliticNumerals('19', 'dots-titlo'), '·ⰸ҃ⰺ҃·');
+    assert.strictEqual(toGlagoliticNumerals('19', 'titlo'), 'Ⰸ҃Ⰺ҃');
+    assert.strictEqual(toGlagoliticNumerals('19', 'dots'), '·ⰈⰊ·');
+    assert.strictEqual(toGlagoliticNumerals('19', 'dots-titlo'), '·Ⰸ҃Ⰺ҃·');
 
     // read as well: one titlo at the end, with dots or without
     for (const glag of ['ⰸ҃ⰺ҃', '·ⰸⰺ·', '·ⰸ҃ⰺ҃·', 'ⰸⰺ҃', '·ⰸⰺ҃·']) {
@@ -146,7 +149,7 @@ describe('Glagolitic numerals', () => {
     ]) {
       assert.strictEqual(fromGlagoliticNumerals(glag), digits);
     }
-    assert.strictEqual(toGlagoliticNumerals('2064', 'dots'), '·ⰱⱍⰿⰳ·');
+    assert.strictEqual(toGlagoliticNumerals('2064', 'dots'), '·ⰁⰝⰏⰃ·');
   });
 
   test('anything that is not a number from 1 to 999 999 on its own is left', () => {
@@ -165,7 +168,7 @@ describe('Glagolitic numerals', () => {
     // punctuation around a number is not a decimal point
     assert.strictEqual(
       toGlagoliticNumerals('(19), 7. 5-6'),
-      '(ⰸ҃ⰺ҃), ⰶ҃. ⰴ҃-ⰵ҃',
+      '(Ⰸ҃Ⰺ҃), Ⰶ҃. Ⰴ҃-Ⰵ҃',
     );
   });
 
@@ -219,24 +222,24 @@ describe('glagoliticNumerals', () => {
     string,
   ][] = [
     // digits become letters only on the way to Glagolitic
-    ['19 knig', 'isv-Glag', '19 ⰽⱀⰻⰳ', 'ⰸ҃ⰺ҃ ⰽⱀⰻⰳ'],
+    ['19 knig', 'isv-Glag', '19 ⰽⱀⰻⰳ', 'Ⰸ҃Ⰺ҃ ⰽⱀⰻⰳ'],
     ['19 knig', 'isv-Latn', '19 knig', '19 knig'],
     ['19 knig', 'isv-Cyrl', '19 книг', '19 книг'],
     [
       'V 2026 godu, 7 knig',
       'isv-Glag',
       'Ⰲ 2026 ⰳⱁⰴⱆ· 7 ⰽⱀⰻⰳ',
-      'Ⰲ ⰱ҃ⱍ҃ⰻ҃ⰵ҃ ⰳⱁⰴⱆ· ⰶ҃ ⰽⱀⰻⰳ',
+      'Ⰲ Ⰱ҃Ⱍ҃Ⰻ҃Ⰵ҃ ⰳⱁⰴⱆ· Ⰶ҃ ⰽⱀⰻⰳ',
     ],
     // a single titlo at the end, or dots, make a number only with the
     // option; without it the titlo is dropped and the letters are a word
     ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', 'zj knig', '19 knig'],
     ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Cyrl', 'зј книг', '19 книг'],
-    ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Glag', 'ⰸⰹ ⰽⱀⰻⰳ', 'ⰸ҃ⰺ҃ ⰽⱀⰻⰳ'],
+    ['ⰸⰺ҃ ⰽⱀⰻⰳ', 'isv-Glag', 'ⰸⰹ ⰽⱀⰻⰳ', 'Ⰸ҃Ⰺ҃ ⰽⱀⰻⰳ'],
     ['·ⰸⰺ· ⰽⱀⰻⰳ', 'isv-Latn', ',zj, knig', '19 knig'],
     // a titlo over every letter is a number with the option or without
     ['ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Latn', '19 knig', '19 knig'],
-    ['ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Glag', '19 ⰽⱀⰻⰳ', 'ⰸ҃ⰺ҃ ⰽⱀⰻⰳ'],
+    ['ⰸ҃ⰺ҃ ⰽⱀⰻⰳ', 'isv-Glag', '19 ⰽⱀⰻⰳ', 'Ⰸ҃Ⰺ҃ ⰽⱀⰻⰳ'],
     ['·ⰸ҃ⰺ҃· ⰽⱀⰻⰳ', 'isv-Cyrl', '19 книг', '19 книг'],
     ['ⰶ҃ ⰽⱀⰻⰳ', 'isv-Latn', '7 knig', '7 knig'],
     ['Ⰱ҃ⱍ҃ⰻ҃ⰵ҃։', 'isv-Latn', '2026.', '2026.'],
@@ -260,9 +263,9 @@ describe('glagoliticNumerals', () => {
     const write = (glagoliticNumerals: 'titlo' | 'dots' | 'dots-titlo') =>
       transliterate('V 1994 godu, 7 knig!', 'isv-Glag', { glagoliticNumerals });
 
-    assert.strictEqual(write('titlo'), 'Ⰲ ⱍ҃ⱌ҃ⱂ҃ⰳ҃ ⰳⱁⰴⱆ· ⰶ҃ ⰽⱀⰻⰳ··');
-    assert.strictEqual(write('dots'), 'Ⰲ ·ⱍⱌⱂⰳ· ⰳⱁⰴⱆ· ·ⰶ· ⰽⱀⰻⰳ··');
-    assert.strictEqual(write('dots-titlo'), 'Ⰲ ·ⱍ҃ⱌ҃ⱂ҃ⰳ҃· ⰳⱁⰴⱆ· ·ⰶ҃· ⰽⱀⰻⰳ··');
+    assert.strictEqual(write('titlo'), 'Ⰲ Ⱍ҃Ⱌ҃Ⱂ҃Ⰳ҃ ⰳⱁⰴⱆ· Ⰶ҃ ⰽⱀⰻⰳ··');
+    assert.strictEqual(write('dots'), 'Ⰲ ·ⰝⰜⰒⰃ· ⰳⱁⰴⱆ· ·Ⰶ· ⰽⱀⰻⰳ··');
+    assert.strictEqual(write('dots-titlo'), 'Ⰲ ·Ⱍ҃Ⱌ҃Ⱂ҃Ⰳ҃· ⰳⱁⰴⱆ· ·Ⰶ҃· ⰽⱀⰻⰳ··');
   });
 
   test('every mark is read, whichever one is written', () => {
@@ -275,6 +278,12 @@ describe('glagoliticNumerals', () => {
         '7, 8! (19) 10000',
       );
       assert.strictEqual(transliterate(glag, 'isv-Glag', options), glag);
+    }
+  });
+
+  test('a number is always capital, whatever the case around it', () => {
+    for (const text of ['19 knig', '19 KNIG', 'knig 19', '19']) {
+      assert.match(transliterate(text, 'isv-Glag', on), /Ⰸ҃Ⰺ҃/u);
     }
   });
 
@@ -294,7 +303,7 @@ describe('glagoliticNumerals', () => {
     assert.strictEqual(transliterate('ⰸⰺ҃', 'isv-Latn', options), 'ⰸⰺ҃');
     assert.strictEqual(
       transliterate('19 knig', 'isv-Glag', options),
-      'ⰸ҃ⰺ҃ ⰽⱀⰻⰳ',
+      'Ⰸ҃Ⰺ҃ ⰽⱀⰻⰳ',
     );
   });
 

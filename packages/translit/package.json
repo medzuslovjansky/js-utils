@@ -1,6 +1,6 @@
 {
   "name": "@interslavic/translit",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "Transliteration between Interslavic Latin, Cyrillic, Glagolitic and IPA",
   "main": "dist/index.js",

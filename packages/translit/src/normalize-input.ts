@@ -428,15 +428,15 @@ export interface NormalizeOptions {
   /**
    * Whether Glagolitic letters stand for numbers, and how a number is marked.
    * Only 1 to 999 999; anything else stays as it is written. `ⱍ` is 1000 and
-   * a number before it counts the thousands, so 10 000 is `ⰺⱍ`.
+   * a number before it counts the thousands, so 10 000 is `ⰊⰝ`.
    *
    * - `false`: digits are never touched. A Glagolitic word with a titlo over
    *   every letter is still read as its number (`ⰸ҃ⰺ҃` is 19, `ⰶ҃` is 7), since
    *   it can be nothing else; any other titlo is dropped and the letters are
    *   a word, and a dot is a comma.
-   * - `'titlo'`: 19 is `ⰸ҃ⰺ҃`, a titlo (U+0483) over every letter.
-   * - `'dots'`: 19 is `·ⰸⰺ·`.
-   * - `'dots-titlo'`: 19 is `·ⰸ҃ⰺ҃·`.
+   * - `'titlo'`: 19 is `Ⰸ҃Ⰺ҃`, a titlo (U+0483) over every letter.
+   * - `'dots'`: 19 is `·ⰈⰊ·`.
+   * - `'dots-titlo'`: 19 is `·Ⰸ҃Ⰺ҃·`.
    * - `true`: the same as `'titlo'`.
    *
    * The style is for writing to a Glagolitic target. With any of them,
